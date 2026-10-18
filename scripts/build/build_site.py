@@ -34,7 +34,6 @@ KEY_OVERRIDES = {
 def geo_bundle():
     us = load(GEO / "us_historical.topo.json")
     years = load(GEO / "us_historical_years.json")["years"]
-    modern = load(GEO / "us_states_modern.topo.json")
     world = load(GEO / "world.topo.json")
     geoms = us["objects"]["jurisdictions"]["geometries"]
     for g in geoms:
@@ -57,13 +56,8 @@ def geo_bundle():
             p.pop("power", None)
     index = {g["properties"]["id"]: i for i, g in enumerate(geoms)}
     us_years = {y: [index[i] for i in ids if i in index] for y, ids in years.items()}
-    nation = {
-        "type": "Topology",
-        "arcs": modern["arcs"],
-        "transform": modern.get("transform"),
-        "objects": {"nation": modern["objects"]["nation"]},
-    }
-    return {"us": us, "usYears": us_years, "nation": nation, "world": world}
+    world["objects"].pop("land", None)  # the page draws countries only
+    return {"us": us, "usYears": us_years, "world": world}
 
 
 def compact_json(obj):

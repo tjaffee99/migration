@@ -86,6 +86,23 @@ CUSTOM = {
 
 FORCED = {k for k in CUSTOM if k.startswith("AF_")}
 
+# Where an origin's arrow starts on the map (lon, lat). Countries default to the centre of their
+# largest polygon; these override it with the region most emigrants left from, and place the
+# units that aren't single countries.
+ANCHORS = {
+    "ENG": (-1.5, 52.6), "SCT": (-4.2, 56.6), "WLS": (-3.7, 52.3), "NIR": (-6.6, 54.6), "GBR": (-2.0, 53.5),
+    "AUH": (17.5, 48.0), "CSK": (16.6, 49.4), "YUG": (19.5, 44.2), "SCG": (20.5, 43.8), "SUN": (28.0, 53.5),
+    "RUS": (37.6, 55.8), "NOS": (13.0, 61.0), "OTE": (27.5, 41.4), "OTA": (36.5, 36.5), "HAW": (-157.0, 20.6),
+    "CAN": (-84.0, 50.5), "MEX": (-101.5, 20.5), "USA": None,
+    "AF_SEN": (-15.5, 14.0), "AF_SLE": (-12.5, 9.0), "AF_WIN": (-8.5, 6.2), "AF_GOL": (-1.5, 6.8),
+    "AF_BEN": (2.4, 7.2), "AF_BIA": (7.8, 5.2), "AF_WCA": (14.5, -6.5), "AF_SEA": (36.5, -16.0),
+    "AF_CAR": (-70.0, 18.0),
+    "XEU": (12.0, 50.0), "XNW": (6.0, 51.0), "XSE": (22.0, 44.0), "XAS": (100.0, 28.0), "XAF": (20.0, 6.0),
+    "XLA": (-62.0, -12.0), "XCB": (-71.0, 18.5), "XNA": (-64.0, 46.0), "XOC": (160.0, -12.0),
+}
+MAP_CUT = 90.0  # the page centres the world map on 90°W, so its edge runs along 90°E
+CENTRAL_AMERICA = {"BLZ", "GTM", "HND", "SLV", "NIC", "CRI", "PAN"}
+
 NOTES = {
     "SUN": "Reported as Russia before 1917 and as the Soviet Union until 1991; covers the present-day successor states.",
     "AUH": "Reported as one empire until 1918 in some years; split into Austria and Hungary in others.",
@@ -223,6 +240,33 @@ class Registry:
                 u["note"] = NOTES[uid]
             self.units[uid] = u
         return self.units[uid]
+
+    def anchor(self, uid):
+        """Arrow start [lon, lat] for an origin, or None for origins that can't be placed."""
+        if uid in ANCHORS:
+            a = ANCHORS[uid]
+        elif uid in self.iso_rows and self.iso_rows[uid]["lon"]:
+            a = (float(self.iso_rows[uid]["lon"]), float(self.iso_rows[uid]["lat"]))
+        else:
+            a = None
+        return [round(a[0], 2), round(a[1], 2)] if a else None
+
+    def coast(self, uid):
+        """Schematic point of arrival: east, florida, border, west or north (forced = by landing region)."""
+        u = self.units[uid]
+        g = u["group"]
+        if u.get("forced"):
+            return "forced"
+        lon = self.anchor(uid)[0]
+        if g == "can" or uid == "XNA":
+            return "north"
+        if g == "mex" or uid in CENTRAL_AMERICA:
+            return "border"
+        if g == "lat":
+            return "florida"
+        if lon > MAP_CUT or lon < -140:
+            return "west"
+        return "east"
 
     def resolve(self, label, level="country", parent="", year=None):
         """Return an origin id for a source label (registering the unit), or None."""

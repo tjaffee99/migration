@@ -3,31 +3,29 @@
 An interactive map of migration into the territory of the present-day United States, **every year from
 1607 to 2024**, by country of origin.
 
-Open **[`docs/index.html`](docs/index.html)** in a browser (it is one self-contained file; it loads d3 and
-topojson from cdnjs and fonts from Google Fonts). With GitHub Pages pointed at `/docs`, it is served as is.
+**Live site: <https://tjaffee99.github.io/migration/>** (published from `docs/` by
+`.github/workflows/pages.yml`). You can also open [`docs/index.html`](docs/index.html) directly: it is one
+self-contained file that loads d3 and topojson from cdnjs and the Public Sans font from Google Fonts.
 
 ## What the page shows
 
-- **Year slider and Play** (1607–2024, arrow keys step a year, Shift+arrow ten years; `#1880` in the URL
-  opens a year).
-- **US map** with the colonies, states and territories as they stood on July 1 of the chosen year, and
-  areas then held by other powers (Spanish Florida, New France, Mexico, Russian America, the Kingdom of
-  Hawaii…). Three views:
-  - *Share born abroad* per state (from 1850), labelled with each state's largest birthplace where state
-    birthplace tables exist (1900–1950, 2000–2024);
-  - *Born in…* a chosen country, by state;
-  - *Population* (colonial estimates from 1610, censuses from 1790), shown automatically before 1850.
-  - Yellow circles mark enslaved Africans landed that year, by landing region.
-- **Arrivals panel**: that year's arrivals with the mix by region and a ranked, searchable list of every
-  origin (about 200 countries a year in recent decades). Selecting an origin shows its arrivals over four
-  centuries and switches the map to that origin.
-- **Composition over time**: stacked shares (or numbers) by region, for arrivals each year (1607–2024) or
-  for immigrants living in the US (1850–2024). Click or drag to move through time.
-- **World map** of where that year's arrivals came from, and a timeline of 41 turning points
-  (laws, wars, famines).
+- **A world map of that year's arrivals.** An arrow runs from each origin to the United States, its width
+  growing with the square root of the number of people, on one scale for every year (or fitted to the
+  chosen year). Arrows are colored by region and animated toward the US; the largest origins are labelled.
+  The United States is shaded as it stood on July 1 of the year, from the first colonies to fifty states.
+  Arrows carrying enslaved Africans end at the landing region SlaveVoyages records; other arrows end at a
+  schematic point of arrival (the main East Coast port of the era, Florida, the Mexican border, San
+  Francisco or the Canadian border).
+- **The year and a one-line reading of it**: how many people arrived, the largest origins, the share of US
+  residents born abroad, and the nearest turning point (laws, wars, famines).
+- **A 418-year timeline** of where arrivals came from, by region, which doubles as the scrubber (click or
+  drag; Play runs through the years; arrow keys step a year, Shift+arrow ten). It can switch to the
+  birthplaces of immigrants living in the US (1850–2024). `#1880` in the URL opens a year.
+- **That year's origins**, ranked, with every origin searchable (about 200 countries a year in recent
+  decades). Selecting an origin highlights its arrows and shows its arrivals over four centuries.
 
-Every number carries its provenance in the page: official counts are plain; estimates carry `≈` and an
-outlined marker; interpolated values say which years they sit between.
+Every number carries its provenance: official counts are plain; estimates carry `≈` and an outlined
+marker; values between census years are interpolated.
 
 ## Data, by era
 
@@ -56,8 +54,9 @@ validation results and known gaps are in:
 - Origins follow each source's own names. Empires and unions that later split (Austria-Hungary, the Soviet
   Union, Yugoslavia, Czechoslovakia) keep their historical names.
 - The 1940 and 1950 censuses tabulated birthplace for white residents only.
-- State-by-birthplace data are missing for 1850–1890, 1930–1940 and 1960–1990 (they exist only in scanned
-  census volumes or behind NHGIS); the page interpolates a state's mix only across gaps of 30 years or less.
+- Arrow endpoints are schematic, not ports of entry from the records (except for the slave trade).
+- State-level tables (foreign-born by state, 1850–2024; by state and country of birth for 1900–1920, 1950,
+  2000 and 2005–2024) are in `data/processed/` but the current page draws national figures only.
 - Two historical tables (1920 Vol. II ch. VI Table 10; 1950 Vol. II Tables 49 and 71) and HSUS 1960 series
   C 88–114 were transcribed from scans and kept only where they pass the printed row and column totals.
 
@@ -88,7 +87,8 @@ scripts/build/      origin crosswalk (origins.py), dataset builder, page builder
 scripts/{colonial,flows,stock,geo}/   per-source fetch and processing scripts
 data/processed/     cleaned source tables with sources_*.csv and *_NOTES.md
 data/curated/       hand-written event timeline
-docs/index.html     the built page
+docs/index.html     the built page (served by GitHub Pages)
+.github/workflows/pages.yml   deploys docs/ to GitHub Pages on every push that changes it
 ```
 
 ## Licences and credits

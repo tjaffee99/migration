@@ -18,7 +18,8 @@ Annual arrivals by origin, 1607-2024
   1988       official annual counts by country of last residence.
   1989-2023  official annual counts by country of birth (yearbook Table 3).
 Immigrants living in the US (foreign-born) by origin: census years 1850-2000, ACS 2005-2024,
-interpolated in the page between those benchmark years.
+interpolated in the page between those benchmark years. (State-level tables stay in
+data/processed for other uses; the page draws national figures only.)
 
 Usage: python3 -I scripts/build/build_data.py
 """
@@ -167,7 +168,7 @@ INTRA_LAND = {
     "New York": "north", "New Jersey": "north", "Pennsylvania": "north", "Connecticut": "north", "Rhode Island": "north",
     "Massachusetts": "north", "New Hampshire": "north", "Maine": "north",
 }
-landing = defaultdict(lambda: [0.0] * NY)
+forced_pairs = defaultdict(lambda: [0.0] * NY)  # (origin id, landing key) -> per-year values
 forced_total = 0.0
 for r in rows("slave_trade_arrivals.csv"):
     y, c = int(r["year"]), num(r["count"]) or 0
@@ -187,8 +188,7 @@ for r in rows("slave_trade_arrivals.csv"):
         continue
     flow[uid][y - Y0] += c
     forced_total += c
-    if land:
-        landing[land][y - Y0] += c
+    forced_pairs[(uid, land or "east")][y - Y0] += c
 check("Enslaved Africans landed (estimates + documented intra-American)", 380000 < forced_total < 460000, f"{forced_total:,.0f}")
 
 # ---------------------------------------------------------------- flows: official 1820-2023
@@ -470,73 +470,6 @@ for y in SY:
     p = sum(v[y][0] for v in st_tot.values() if y in v and v[y][0])
     nat_pop.append(p or None)
 
-stc = defaultdict(lambda: defaultdict(list))
-for r in rows("stock_state_by_country.csv"):
-    stc[r["state_fips"]][int(r["year"])].append(r)
-
-# Censuses before 2000 list only each state's main birthplaces (plus "All other countries"),
-# so an origin missing from those tables is unknown, not zero.
-PARTIAL_YEARS = {1900, 1910, 1920, 1950}
-state_years_with_countries = set()
-st_out = {}
-for key in sorted(set(st_tot) | set(stc)):
-    pop = [st_tot[key].get(y, (None, None))[0] for y in SY]
-    fb = [st_tot[key].get(y, (None, None))[1] for y in SY]
-    o = defaultdict(lambda: [None] * len(SY))
-    for k, y in enumerate(SY):
-        t = stc.get(key, {}).get(y)
-        if not t:
-            continue
-        vec = table_by_origin(t, y)
-        detailed = sum(1 for r in leaves(t) if r["level"] in ("country", "subcountry"))
-        if detailed < 5:
-            continue  # region-only tables (1990) can't name a birthplace
-        state_years_with_countries.add(y)
-        for uid, v in vec.items():
-            o[uid][k] = round(v)
-        if y not in PARTIAL_YEARS:
-            # full country lists: an origin absent this year is zero, not unknown
-            for uid in list(o):
-                if o[uid][k] is None:
-                    o[uid][k] = 0
-    entry = {"pop": [round(x) if x else None for x in pop], "fb": [round(x) if x is not None else None for x in fb]}
-    if o:
-        covered = [k for k, y in enumerate(SY) if y in state_years_with_countries and stc.get(key, {}).get(y)
-                   and any(arr[k] is not None for arr in o.values())]
-        # an origin first seen later is zero in earlier full-list years
-        for uid, arr in o.items():
-            for k in covered:
-                if arr[k] is None and SY[k] not in PARTIAL_YEARS:
-                    arr[k] = 0
-        entry["o"] = {uid: arr for uid, arr in o.items() if any(v for v in arr if v)}
-        entry["oy"] = covered
-    st_out[key] = entry
-# ---------------------------------------------------------------- population before 1850
-STATE_FIPS = {}
-modern = json.load(open(ROOT / "web" / "geo" / "us_states_modern.topo.json", encoding="utf-8"))
-for g in modern["objects"]["states"]["geometries"]:
-    STATE_FIPS[g["properties"]["name"]] = g["properties"]["fips"]
-STATE_FIPS.update({"Plymouth": "plymouth", "Louisiana (Orleans Territory)": "22"})
-colpop = defaultdict(dict)
-for r in rows("population_1610_1840.csv"):
-    key = STATE_FIPS.get(r["unit"])
-    if not key:
-        raise SystemExit(f"unmapped population unit {r['unit']}")
-    colpop[key][int(r["year"])] = colpop[key].get(int(r["year"]), 0) + (num(r["total"]) or 0)
-# fold areas into the jurisdiction that governed them at the time
-for child, parent, until in (("21", "51", 1792), ("54", "51", 1863), ("23", "25", 1820), ("47", "37", 1790)):
-    for y, v in list(colpop.get(child, {}).items()):
-        if y < until:
-            colpop[parent][y] = colpop[parent].get(y, 0) + v
-            del colpop[child][y]
-pop_out = {}
-for key, d in colpop.items():
-    ys = sorted(d)
-    if ys:
-        pop_out[key] = {"y": ys, "v": [round(d[y]) for y in ys]}
-check("1790 population", abs(sum(colpop[k].get(1790, 0) for k in colpop) - 3929214) < 5,
-      f"{sum(colpop[k].get(1790, 0) for k in colpop):,.0f}")
-
 # ---------------------------------------------------------------- package
 def sparse(arr, digits=0):
     nz = [i for i, v in enumerate(arr) if v > 0.5]
@@ -559,20 +492,22 @@ for k, y in enumerate(SY):
     for uid, v in stock_nat[y].items():
         nat_o[uid][k] = round(v)
         nat_g[R.units[uid]["group"]][k] += round(v)
-used = set(flow_o) | set(nat_o) | {u for e in st_out.values() for u in e.get("o", {})}
+used = set(flow_o) | set(nat_o)
 origins = []
 for uid in sorted(used, key=lambda u: R.units[u]["name"]):
     u = dict(R.units[uid])
+    at = R.anchor(uid)
+    if at:
+        u["at"] = at
+        u["to"] = R.coast(uid)
     origins.append(u)
 
-land_out = {}
-lmax = 0
-for k, arr in landing.items():
+forced_out = defaultdict(dict)
+for (uid, land), arr in forced_pairs.items():
     sp = sparse(arr)
     if sp:
-        name, lon, lat = LANDING[k]
-        land_out[k] = {"name": name, "lon": lon, "lat": lat, "v": sp}
-        lmax = max(lmax, max(arr))
+        forced_out[uid][land] = sp
+landings = {k: {"name": n, "at": [lon, lat]} for k, (n, lon, lat) in LANDING.items()}
 
 events = json.load(open(ROOT / "data" / "curated" / "events.json", encoding="utf-8"))
 
@@ -623,25 +558,26 @@ ABOUT = {
         "Country names follow each source. Empires and unions that later split (Austria-Hungary, the Soviet Union, "
         "Yugoslavia, Czechoslovakia) appear under their historical names, so a country's line can start or stop "
         "when borders changed.",
-        "Census birthplace data begin in 1850. The 1940 and 1950 censuses tabulated country of birth for white "
-        "residents only; other foreign-born residents appear as not tabulated. State counts by country of "
-        "birth exist for 1900, 1910 and 1920 (each state's main birthplaces, from the 1920 census), 1950 "
-        "(white residents only), 2000, and every year from 2005 (American Community Survey; small states "
-        "filled from multi-year estimates). Between two of those years up to 30 years apart, a state's "
-        "birthplace mix is interpolated and scaled to its foreign-born total; 1951–1999 has no state breakdown.",
-        "Boundaries show each jurisdiction as it stood on July 1 of the year. Colonies are drawn from their "
-        "organized counties rather than their sea-to-sea charter claims.",
+        "Census birthplace data begin in 1850 and are interpolated between census years. The 1940 and 1950 "
+        "censuses tabulated country of birth for white residents only; other foreign-born residents appear as "
+        "not tabulated.",
+        "Arrows start at each origin and end at a schematic point of arrival chosen from where the origin lies: "
+        "the main East Coast port of the era, Florida, the Mexican border, San Francisco or the Canadian border. "
+        "Arrows for enslaved Africans end at the landing region SlaveVoyages records. Arrow width grows with the "
+        "square root of the number of people, on one scale for all years.",
+        "The shaded United States shows the colonies, states and territories as they stood on July 1 of the "
+        "year. Colonies are drawn from their organized counties rather than their sea-to-sea charter claims.",
     ],
 }
 ERAS = [
     {"years": "1607–1775", "flow": "Historians' estimates by period (Menard; Tomlins; Fogleman) and SlaveVoyages estimates for enslaved Africans.",
-     "stock": "Not recorded. The map shows colonial population (Historical Statistics of the US, series Z 1–19)."},
+     "stock": "Not recorded."},
     {"years": "1776–1819", "flow": "War years without an estimate, then about 9,900 Europeans a year (Grabbe via Cohn) with an assumed origin mix; slave trade from SlaveVoyages.",
-     "stock": "Not recorded. Census population by state from 1790."},
+     "stock": "Not recorded."},
     {"years": "1820–1987", "flow": "Official yearly totals; origins from official decade totals (DHS Yearbook Tables 1 and 2), timed within each decade by yearly counts for 22 country groups through 1957 (Historical Statistics of the US, 1960).",
-     "stock": "Census birthplace counts every ten years from 1850: foreign-born totals for every state, and each state's birthplace mix for 1900, 1910, 1920 and 1950."},
+     "stock": "Census birthplace counts every ten years from 1850 (Census Working Papers 29 and 81)."},
     {"years": "1988–2023", "flow": "Official yearly counts: by country of last residence in 1988, by country of birth from 1989 (INS and DHS yearbooks).",
-     "stock": "Census 1990 and 2000; American Community Survey each year from 2005, national and by state and country."},
+     "stock": "Census 1990 and 2000; American Community Survey each year from 2005."},
 ]
 
 data = {
@@ -668,21 +604,14 @@ data = {
               "long": "The arrivals count for this year has not been published yet."},
     },
     "stock": {
-        "years": SY, "kind": stock_kind, "partialYears": sorted(PARTIAL_YEARS), "maxGap": 30,
+        "years": SY, "kind": stock_kind,
         "nat": {"total": nat_total, "pop": nat_pop, "g": nat_g, "o": {k: v for k, v in nat_o.items()}},
-        "st": st_out,
     },
-    "colonial": {
-        "pop": pop_out,
-        "landings": land_out,
-        "landingMax": round(lmax),
-        "landingNote": "SlaveVoyages estimates of captives landed directly from Africa, plus documented voyages from the Caribbean. Smuggling after 1808 is undercounted.",
-    },
+    "forced": {"pairs": forced_out, "landings": landings},
     "events": events,
     "sources": sources,
     "about": ABOUT,
     "eras": ERAS,
-    "worldNote": "Shading follows the origin units each source reported: historical empires and unions (Austria-Hungary, the Soviet Union, Yugoslavia) and slave-trade regions are shaded as one unit across their present-day countries.",
 }
 out = ROOT / "web" / "data" / "data.json"
 out.parent.mkdir(parents=True, exist_ok=True)
@@ -695,6 +624,6 @@ for ok, label, detail in bad:
     print("  FAIL", label, detail)
 if R.unmatched:
     print("unmatched labels:", R.unmatched)
-print(f"origins: {len(origins)}; state keys: {len(st_out)}; stock years: {SY[0]}-{SY[-1]} ({len(SY)}); "
-      f"state-by-country years: {sorted(state_years_with_countries)}")
+print(f"origins: {len(origins)} ({sum(1 for o in origins if 'at' in o)} drawn as arrows); "
+      f"stock years: {SY[0]}-{SY[-1]} ({len(SY)}); forced-migration routes: {sum(len(v) for v in forced_out.values())}")
 print(f"wrote {out.relative_to(ROOT)} ({out.stat().st_size / 1e6:.2f} MB)")
