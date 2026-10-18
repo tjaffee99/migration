@@ -652,7 +652,14 @@ for name in ("sources_colonial.csv", "sources_flows.csv", "sources_stock.csv", "
         sources.append({"id": r["source_id"], "cite": r["citation"], "url": r.get("url", "")})
 sources.append({"id": "ahcb", "cite": "Newberry Library, Atlas of Historical County Boundaries (state and territory boundaries, CC0).",
                 "url": "https://publications.newberry.org/ahcb/"})
-sources.append({"id": "natural_earth", "cite": "Natural Earth country boundaries via world-atlas and us-atlas (public domain / ISC).",
+sources.append({"id": "historical_basemaps", "cite": "World borders 1607–1885: adapted from A. Ourednik, historical-basemaps "
+                "(GPL-3.0). Simplified, renamed and re-dated for this map.",
+                "url": "https://github.com/aourednik/historical-basemaps"})
+sources.append({"id": "cshapes", "cite": "World borders: Europe 1816–1885 from CShapes-Europe (Cederman, Girardin, Müller-Crepon "
+                "& Pengl 2025); 1886–2026 from CShapes 2.0 (Schvitz, Rüegger, Girardin, Cederman, Weidmann & Gleditsch "
+                "2022), ETH Zürich, CC BY-NC-SA 4.0; 2019 borders are carried forward to 2026.",
+                "url": "https://icr.ethz.ch/data/cshapes/"})
+sources.append({"id": "natural_earth", "cite": "Natural Earth country boundaries via world-atlas and us-atlas (public domain / ISC); also small territories missing from the historical border sets.",
                 "url": "https://www.naturalearthdata.com/"})
 
 stock_kind = ["census" if y <= 2000 else "cps" if y in (2025, 2026) else "acs" for y in SY]
@@ -696,20 +703,26 @@ ABOUT = {
         "Official arrivals record country of last residence through 1988 and country of birth from 1989; the "
         "two can differ. From 1892 they count immigrants admitted; since the 1980s they count people granted "
         "permanent residence that year, including people already living in the US. The 1989–1991 spike is the "
-        "1986 amnesty (IRCA). Unauthorized migration, temporary workers and refugees not yet adjusted are not "
-        "counted as arrivals.",
+        "1986 amnesty (IRCA). Temporary workers, students and refugees not yet adjusted are not counted as "
+        "arrivals; illegal immigration is shown separately, as above.",
         "Country names follow each source. Empires and unions that later split (Austria-Hungary, the Soviet Union, "
         "Yugoslavia, Czechoslovakia) appear under their historical names, so a country's line can start or stop "
         "when borders changed.",
         "Census birthplace data begin in 1850 and are interpolated between census years. The 1940 and 1950 "
         "censuses tabulated country of birth for white residents only; other foreign-born residents appear as "
         "not tabulated.",
-        "Arrows start at each origin and end at a schematic point of arrival chosen from where the origin lies: "
-        "the main East Coast port of the era, Florida, the Mexican border, San Francisco or the Canadian border. "
-        "Arrows for enslaved Africans end at the landing region SlaveVoyages records. Arrow width grows with the "
-        "square root of the number of people, on one scale for all years.",
+        "Arrows are schematic. Each starts at an origin, joins the other arrows from its world region, and the "
+        "merged arrow runs to the circle for the United States. Arrow width is proportional to the number of "
+        "people, on one scale for all years unless the map is set to fit the year.",
+        "The circle for the United States is sized by its population (colonial estimates before 1790) and split "
+        "into people born in the US and immigrants by birthplace. Before 1850 the immigrant share is modelled "
+        "from arrivals, with yearly deaths and departures set so the total matches the 1850 census.",
         "The shaded United States shows the colonies, states and territories as they stood on July 1 of the "
         "year. Colonies are drawn from their organized counties rather than their sea-to-sea charter claims.",
+        "World borders show the states, empires and peoples as they stood on July 1. CShapes gives exact dates "
+        "from 1886 (1816 in Europe). Before then the borders come from snapshots for selected years, each used "
+        "until the next, so changes between snapshots can show late, and many borders, especially in the "
+        "interior of Africa, the Americas and Asia, are approximate. Borders after 2019 are carried forward.",
     ],
 }
 ERAS = [

@@ -2,7 +2,9 @@
 // Visual check of web/geo/world_hist.topo.json: one PNG per year (July 1 set from world_hist_years.json),
 // drawn like the page (d3 geoEqualEarth().rotate([90, 0]), 1200 px wide), polities lightly coloured by
 // sovereign (dependencies) or own name, thin borders, Natural Earth 50m land in grey underneath (gaps).
-//   node render_hist.mjs OUT_DIR [year ...] [--zoom=lon0,lat0,lon1,lat1[:tag]] [--gaps] [--nolabels]
+//   node render_hist.mjs OUT_DIR [year ...] [--zoom=lon0,lat0,lon1,lat1[:tag]] [--rotate=LON] [--gaps] [--nolabels]
+// (--rotate sets the zoom projection's rotation; the page uses 90, which cuts the map at 90°E, i.e. through
+//  South Asia, so use e.g. --rotate=-80 to inspect that region)
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -18,6 +20,7 @@ let years = args.filter((a) => /^\d{4}$/.test(a)).map(Number);
 if (!years.length) years = [1610, 1700, 1776, 1815, 1850, 1880, 1890, 1914, 1925, 1950, 1990, 2026];
 const zoomArg = (args.find((a) => a.startsWith('--zoom=')) || '').slice(7);
 const GAPS = args.includes('--gaps');
+const ROT = Number((args.find((a) => a.startsWith('--rotate=')) || '--rotate=90').slice(9)); // zooms only
 const LABELS = !args.includes('--nolabels');
 fs.mkdirSync(outDir, { recursive: true });
 
@@ -35,7 +38,7 @@ if (zoomArg) {
   const [x0, y0, x1, y1] = bb.split(',').map(Number);
   tag = '_' + (t || 'zoom');
   H = 820;
-  proj = geoEqualEarth().rotate([90, 0]).fitExtent([[5, 30], [W - 5, H - 5]],
+  proj = geoEqualEarth().rotate([ROT, 0]).fitExtent([[5, 30], [W - 5, H - 5]],
     { type: 'MultiPoint', coordinates: [[x0, y0], [x1, y0], [x1, y1], [x0, y1], [(x0 + x1) / 2, y0], [(x0 + x1) / 2, y1]] });
 } else {
   proj = pageProjection(W);

@@ -39,6 +39,13 @@ CS_LAST = '2019-12-31'
 STILL = '2026-12-31'          # "still valid at the end of the covered period"
 GRID = 1e-6                   # coordinate grid (degrees) applied to all inputs so shared edges match exactly
 LATAM_FROM, LATAM_TO = 1822, 1877
+SA_FROM = 1819                # South Asia: HB 1878 shapes after the Third Anglo-Maratha War (1817-18)
+SA_1878 = ['British India', 'Nepal', 'Bhutan', 'Ceylon']
+SA_DROP_1815 = {'British India (East India Company)', 'Maratha Confederacy', 'Mysore', 'Oudh', 'Travancore',
+                'Sikkim', 'Assam', 'Nepal', 'Bhutan', 'Ceylon', 'Goa'}
+# India without Burma (HB 1878 draws all of Burma inside British India; Upper Burma was annexed only in 1885)
+SA_CUT = Polygon([(55, 0), (92.25, 0), (92.25, 20.5), (92.6, 21.4), (93.4, 22.5), (93.4, 24.1), (94.6, 25.0),
+                  (95.2, 26.6), (97.4, 28.2), (97.4, 40), (55, 40)])
 
 log = lambda *a: print(*a, file=sys.stderr, flush=True)
 
@@ -80,8 +87,12 @@ def latam_mask(border):
     return clean(L.union(extra))
 
 
-FLORIDA_1815 = Polygon([(-87.45, 31.0), (-85.0, 31.0), (-84.86, 30.70), (-82.2, 30.57), (-81.45, 30.71),
-                        (-79.0, 30.71), (-79.0, 24.0), (-87.45, 24.0)])
+# East + West Florida south of 31°N (and the St Marys River); West Florida reached the Mississippi until
+# 1810-13 and the Perdido River afterwards.
+_EF = [(-85.0, 31.0), (-84.86, 30.70), (-82.2, 30.57), (-81.45, 30.71), (-79.0, 30.71), (-79.0, 24.0)]
+FLORIDA = {1783: Polygon([(-91.65, 31.0)] + _EF + [(-91.65, 24.0)]),
+           1800: Polygon([(-91.65, 31.0)] + _EF + [(-91.65, 24.0)]),
+           1815: Polygon([(-87.45, 31.0)] + _EF + [(-87.45, 24.0)])}
 
 
 # ------------------------------------------------------------------------------------------------ HB
@@ -147,12 +158,13 @@ def load_hb(hb_dir, S):
         g = stitch_antimeridian(snap(shapely.union_all(parts)))
         if g is not None:
             pol.append(Polity(S, k[0], k[1], g, prec.get(k, 3)))
-    # 1815: Spanish Florida is drawn as part of the United States in HB 1815 (Spanish until 1821)
-    if S == 1815:
+    # Spanish Florida (1783-1821) is drawn as part of the United States in HB 1783, 1800 and 1815
+    if S in FLORIDA:
         us = next(p for p in pol if p.name == 'United States')
-        fl = clean(us.geom.intersection(FLORIDA_1815))
-        us.geom = clean(us.geom.difference(FLORIDA_1815))
-        pol.append(Polity(S, 'Spanish Florida', 'Spain', snap(fl), us.prec))
+        fl = clean(us.geom.intersection(FLORIDA[S]))
+        us.geom = clean(us.geom.difference(FLORIDA[S]))
+        if fl is not None:
+            pol.append(Polity(S, 'Spanish Florida', 'Spain', snap(fl), us.prec))
     # overlaps: smaller polities win (HB draws vassals/enclaves on top of larger polygons)
     pol.sort(key=lambda p: p.geom.area)
     orig = [p.geom for p in pol]
@@ -205,6 +217,11 @@ def load_cse(path):
     return rows
 
 
+# Polities CShapes-Europe folds into a neighbour: (CShapes-Europe id, first year, last year, HB 1815 polity key).
+# The Grand Duchy of Tuscany (independent until its 1860 annexation by Sardinia) is drawn inside the Austrian
+# Empire polygon; HB 1815's Tuscany is cut out of it.
+CSE_CARVE = [(300, 1816, 1860, ('Tuscany', ''))]
+
 # Which row keeps an overlap between two CShapes-Europe rows (otherwise the smaller polygon wins):
 # southern Bessarabia was Russian until the Treaty of Paris (1856); rump Saxony stayed Saxon in 1815;
 # Savoy and Nice were French from 1860; the British occupation of Balaklava (1855-56) was wartime only.
@@ -229,6 +246,10 @@ def main():
     ap.add_argument('--ne-topo', required=True)
     ap.add_argument('--work', required=True)
     ap.add_argument('--years-out', required=True)
+    ap.add_argument('--merge-across-sources', action='store_true',
+                    help='1816-1885: merge the CShapes-Europe part and the historical-basemaps remainder of the same '
+                         'polity (Russian Empire, Ottoman Empire...) into one polygon (src "cshapes+hb"). Off by '
+                         'default so that every polygon derives from a single source (see licence note).')
     a = ap.parse_args()
     os.makedirs(a.work, exist_ok=True)
 
@@ -239,6 +260,17 @@ def main():
 
     log('loading historical-basemaps')
     hb = {S: load_hb(a.hb_dir, S) for S in SNAPS}
+    # Gaps in a snapshot filled from the neighbouring snapshot (only where the snapshot has no polity):
+    # HB 1715 has no New France (French until 1763); HB 1600 has no Portuguese Brazil (coastal captaincies).
+    for S_to, S_from, key in [(1715, 1700, ('New France', 'France')), (1600, 1650, ('Portuguese Brazil', 'Portugal'))]:
+        src_p = hb[S_from].get(key)
+        if src_p is None or key in hb[S_to]:
+            continue
+        g = clean(src_p.geom.difference(shapely.union_all([p.geom for p in hb[S_to].values()])))
+        g = clean(shapely.union_all([q for q in polys(g) if km2(q) > 50])) if g is not None else None
+        if g is not None:
+            hb[S_to][key] = Polity(S_to, key[0], key[1], snap(g), src_p.prec)
+            log(f'  HB {S_to}: added {key[0]} from HB {S_from} ({km2(g):,.0f} km²)')
     cse = load_cse(os.path.join(a.cshapes_dir, 'CShapes-Europe.geojson'))
     cp_ever_names = set()
     for r in cse:
@@ -291,17 +323,21 @@ def main():
 
     rcache, fixcache = {}, {}
 
-    def remainder(p, fkey, F, Lclip, cp_ever):
-        """Parts of HB polity p outside the CShapes-Europe footprint (and outside L when Lclip), minus slivers.
+    def remainder(p, fkey, F, clip, cp_ever):
+        """Parts of HB polity p outside the CShapes-Europe footprint and outside the regional-switch masks named
+        in `clip` ('', 'L', 'SA' or 'L+SA'), minus slivers.
         Returns (geom or None, effective footprint id or None when the footprint does not touch p)."""
         touch = fkey is not None and p.geom.intersects(F)
         efk = fkey if touch else None
-        k = (p.S, p.key, efk, Lclip)
+        cg = CLIP.get(clip)
+        if cg is not None and not p.geom.intersects(cg):
+            clip, cg = '', None
+        k = (p.S, p.key, efk, clip)
         if k in rcache:
             return rcache[k], efk
         g = p.geom
-        if Lclip and g.intersects(L):
-            g = clean(g.difference(L))
+        if cg is not None:
+            g = clean(g.difference(cg))
         if g is not None and touch:
             out = []
             for r in polys(clean(g.difference(F))):
@@ -340,12 +376,25 @@ def main():
                     mex = snap(shapely.union_all([mex] + touch))
     if mex is not None:
         latam78[('Mexico', '')] = mex
+    sa78 = {}
+    for n in SA_1878:
+        p = hb[1878][next(k for k in hb[1878] if k[0] == n)]
+        g = clean(p.geom.intersection(SA_CUT))
+        if g is not None:
+            sa78[p.key] = g
+    SA = clean(shapely.union_all(list(sa78.values())))
+    CLIP = {'': None, 'L': L, 'SA': SA, 'L+SA': clean(L.union(SA))}
+    for g in CLIP.values():
+        if g is not None:
+            shapely.prepare(g)
 
     for Y in range(FIRST, LAST_HB + 1):
         keys = []
         S = latest_snap(Y)
         europe = 1816 <= Y <= LAST_HB
         lat = LATAM_FROM <= Y <= LATAM_TO
+        sas = SA_FROM <= Y <= LATAM_TO
+        clip = '+'.join(c for c, on in (('L', lat), ('SA', sas)) if on)
         if not europe:                                             # 1607-1815: one snapshot for the world
             for p in hb[S].values():
                 keys.append(put(('hb', S, p.key), p.name, p.sub, 'hb', p.prec, lambda p=p: p.geom))
@@ -377,34 +426,43 @@ def main():
                     name, sub = 'Canada', ''
                 if p.name == 'United States':
                     continue                                       # handled with merge_us below
+            if S == 1815 and sas and p.name in SA_DROP_1815:
+                continue                                           # replaced by HB 1878 South Asia
             cpn = hb_to_row.get(p.name)
-            g, efk = remainder(p, fkey, F, lat and S == 1815, p.name in cp_ever_names)
+            g, efk = remainder(p, fkey, F, clip if S == 1815 else '', p.name in cp_ever_names)
             if g is None:
                 continue
-            if cpn is not None:
+            if cpn is not None and a.merge_across_sources:
                 attach[cpn].append((p, g, efk))
                 continue
             if g is p.geom and (name, sub) == p.key:
                 ck = ('hb', S, p.key)
             else:
-                ck = ('hbx', S, p.key, name, sub, efk, lat and S == 1815)
+                ck = ('hbx', S, p.key, name, sub, efk, clip if S == 1815 else '')
             keys.append(put(ck, name, sub, 'hb', p.prec, lambda g=g: g))
         if S == 1815 and Y >= LATAM_FROM:
             us = hb[1815][('United States', '')]
-            parts = [remainder(q, fkey, F, lat, False)[0] for q in [us] + merge_us]
+            parts = [remainder(q, fkey, F, clip, False)[0] for q in [us] + merge_us]
             tag = tuple(sorted(q.name for q in merge_us))
-            keys.append(put(('hbus', tag, lat), 'United States', '', 'hb', us.prec,
+            keys.append(put(('hbus', tag, clip), 'United States', '', 'hb', us.prec,
                             lambda parts=parts: snap(shapely.union_all([q for q in parts if q is not None]))))
         if lat:
             for k, g in latam78.items():
                 p = hb[1878][k]
                 if k == ('Mexico', '') and Y < 1848:
                     # 1822-1847: Mexico = HB 1878 Mexico (south of today's border) + HB 1815 New Spain north of it
-                    ns, _ = remainder(hb[1815][('Viceroyalty of New Spain', 'Spain')], fkey, F, True, False)
+                    ns, _ = remainder(hb[1815][('Viceroyalty of New Spain', 'Spain')], fkey, F, clip, False)
                     keys.append(put(('hbmx',), 'Mexico', '', 'hb', min(p.prec, 3),
                                     lambda g=g, ns=ns: snap(shapely.union_all([g, ns]))))
                     continue
                 keys.append(put(('hb78L', k), p.name, p.sub, 'hb', p.prec, lambda g=g: g))
+        if sas:
+            for k, g in sa78.items():
+                p = hb[1878][k]
+                name, sub = p.name, p.sub
+                if name == 'British India' and Y <= 1857:
+                    name = 'British India (East India Company)'     # Crown rule from 1858
+                keys.append(put(('hb78SA', k, name), name, sub, 'hb', p.prec, lambda g=g: g))
         actset = {r.uid for r in active}
         for n, (r, n_, sub) in rows_by_name.items():
             beats = tuple(sorted(o.uid for o in r.losers_to if o.uid in actset))
@@ -414,15 +472,25 @@ def main():
                 if ck not in fixcache:
                     fixcache[ck] = snap(r.geom.difference(shapely.union_all([o.geom for o in r.losers_to if o.uid in beats])))
                 rg = fixcache[ck]
+            carved = None
+            for rid, cy0, cy1, hkey in CSE_CARVE:
+                hp = hb[1815].get(hkey)
+                if r.rid == rid and cy0 <= Y <= cy1 and hp is not None and rg.intersects(hp.geom):
+                    ck = ('carve', r.uid, beats, hkey)
+                    if ck not in fixcache:
+                        fixcache[ck] = (snap(rg.difference(hp.geom)), snap(rg.intersection(hp.geom)))
+                    rg, cut = fixcache[ck]
+                    carved = hkey
+                    keys.append(put(('hbcarve', hkey, r.uid, beats), hp.name, hp.sub, 'hb', hp.prec, lambda cut=cut: cut))
             extra = attach.get(n, [])
             if extra:
                 ek = tuple(sorted((p.S, p.key, efk) for p, _, efk in extra))
-                ck = ('cse+hb', r.uid, n, sub, ek, beats)
+                ck = ('cse+hb', r.uid, n, sub, ek, beats, carved)
                 prec = min([3] + [p.prec for p, _, _ in extra])
                 keys.append(put(ck, n, sub, 'cshapes+hb', prec,
                                 lambda rg=rg, extra=extra: snap(shapely.union_all([rg] + [g for _, g, _ in extra]))))
             else:
-                keys.append(put(('cse', r.uid, n, sub, beats), n, sub, 'cshapes', 3, lambda rg=rg: rg))
+                keys.append(put(('cse', r.uid, n, sub, beats, carved), n, sub, 'cshapes', 3, lambda rg=rg: rg))
         year_keys[Y] = [k for k in keys if k]
         if Y % 10 == 0:
             log(f'  {Y}: {len(year_keys[Y])} polities, {len(comps)} components so far')
@@ -442,7 +510,7 @@ def main():
         c = comps[k]
         for y0, y1 in rs:
             if c['src'] == 'hb':
-                S = k[1] if k[0] in ('hb', 'hbx') else (1878 if k[0] == 'hb78L' else 1815)
+                S = k[1] if k[0] in ('hb', 'hbx') else (1878 if k[0] in ('hb78L', 'hb78SA') else 1815)
                 base = f'hb{S}_{slug(c["name"])}'
                 frm = f'{S}-01-01' if (y0 == max(FIRST, S) or (S < FIRST and y0 == FIRST)) else f'{y0}-01-01'
             else:

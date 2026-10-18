@@ -177,7 +177,11 @@
   const landShape = { type: "FeatureCollection", features: modern };
   const hist = G.hist ? topojson.feature(G.hist, G.hist.objects.polities).features : null;
   const polities = hist || modern.map((f) => Object.assign(f, { properties: Object.assign({}, f.properties, { name: f.properties.name }) }));
-  const politiesAt = (y) => (hist ? (G.histYears[y] || []) : polities.map((_, k) => k));
+  const histYears = {};
+  if (hist) G.histRuns.forEach((r, k) => {
+    for (let j = 0; j < r.length; j += 2) for (let y = r[j]; y <= r[j + 1]; y++) (histYears[y] ||= []).push(k);
+  });
+  const politiesAt = (y) => (hist ? (histYears[y] || []) : polities.map((_, k) => k));
   const jurs = topojson.feature(G.us, G.us.objects.jurisdictions).features;
 
   // origins whose arrow starts inside each polity (computed once per polity)

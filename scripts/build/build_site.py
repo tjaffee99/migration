@@ -64,8 +64,26 @@ def geo_bundle():
         hist = load(GEO / "world_hist.topo.json")
         hidx = {g["properties"]["id"]: i for i, g in enumerate(hist["objects"]["polities"]["geometries"])}
         hyears = load(GEO / "world_hist_years.json")["years"]
+        for g in hist["objects"]["polities"]["geometries"]:
+            for k in ("from", "to", "precision"):
+                g["properties"].pop(k, None)
+        # per polygon, the years it is drawn, as flat [first, last, first, last, ...] runs
+        years_of = [[] for _ in hidx]
+        for y in sorted(hyears, key=int):
+            for i in hyears[y]:
+                if i in hidx:
+                    years_of[hidx[i]].append(int(y))
+        runs = []
+        for ys in years_of:
+            r = []
+            for y in ys:
+                if r and r[-1] == y - 1:
+                    r[-1] = y
+                else:
+                    r += [y, y]
+            runs.append(r)
         bundle["hist"] = hist
-        bundle["histYears"] = {y: [hidx[i] for i in ids if i in hidx] for y, ids in hyears.items()}
+        bundle["histRuns"] = runs
     return bundle
 
 

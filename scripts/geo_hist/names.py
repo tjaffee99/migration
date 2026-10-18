@@ -197,6 +197,8 @@ def hb_props(S, raw_name, raw_sub, cx, cy):
         return 'Cape Colony', 'United Kingdom'       # mislabelled Cape polygon
     if S in (1715, 1783) and n == 'Netherlands' and cy < 20:
         return 'Dutch Gold Coast', dutch(S)
+    if S in (1878, 1880) and n == 'Bulgaria' and cy < 40:
+        return 'Greece', ''                           # Cycladic islands mislabelled Bulgaria in HB 1878/1880
     if (S, n) in OVERRIDE:
         name, sub = OVERRIDE[(S, n)]
         return name, sub
