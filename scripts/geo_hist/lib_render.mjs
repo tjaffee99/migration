@@ -6,7 +6,7 @@ import { geoPath, geoEqualEarth, geoGraticule10 } from 'd3-geo';
 const EXEC = process.env.CHROMIUM_PATH || '/opt/pw-browsers/chromium';
 
 const PALETTE = ['#8dd3c7', '#ffffb3', '#bebada', '#fb8072', '#80b1d3', '#fdb462', '#b3de69', '#fccde5',
-  '#d9d9d9', '#bc80bd', '#ccebc5', '#ffed6f', '#a6cee3', '#b2df8a', '#fb9a99', '#fdbf6f', '#cab2d6', '#e5c494'];
+  '#bc80bd', '#ccebc5', '#ffed6f', '#a6cee3', '#b2df8a', '#fb9a99', '#fdbf6f', '#cab2d6', '#e5c494'];
 
 export function hashColor(s) {
   let h = 0; for (const c of String(s)) h = (h * 31 + c.charCodeAt(0)) >>> 0;
