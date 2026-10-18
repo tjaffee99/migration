@@ -282,8 +282,8 @@
       } else if (mode === "share") {
         if (jd.fb != null && jd.pop) {
           fill = shareC(jd.fb / jd.pop);
-          const top = topOrigins(jd.st, y, 1);
-          label = top ? originById[top[0].id].short || originById[top[0].id].name : jd.fb / jd.pop < 0.005 ? "<1%" : pct(jd.fb / jd.pop, 0);
+          const named = (topOrigins(jd.st, y) || []).filter((d) => !originById[d.id].residual);
+          label = named.length ? originById[named[0].id].short || originById[named[0].id].name : jd.fb / jd.pop < 0.005 ? "<1%" : pct(jd.fb / jd.pop, 0);
         }
       } else if (mode === "pop") {
         if (jd.pop != null) { fill = popC(jd.pop); label = compact(jd.pop); }
@@ -316,7 +316,13 @@
       .on("click", (evt, r) => { showJurTip(evt, r); })
       .order();
 
-    const labRows = rows.filter((r) => r.label && feat(r.i).a > (usW < 600 ? 1400 : 1100) && isFinite(feat(r.i).c[0]));
+    // label a shape only when the text plausibly fits inside it
+    const labRows = rows.filter((r) => {
+      const fc = feat(r.i);
+      if (!r.label || !isFinite(fc.c[0])) return false;
+      const w = r.label.length * 6.1 + 6;
+      return fc.a > (usW < 600 ? 1400 : 1100) && w * 14 < fc.a * 0.55 && w < Math.sqrt(fc.a) * 1.9;
+    });
     gLab.selectAll("text")
       .data(labRows, (r) => r.i)
       .join("text")

@@ -11,7 +11,9 @@
   2020       ACS 5-year 2016-2020 B05006                               [acs5_2016_2020_b05006]
   Where the 1-year B05006 is filtered (suppressed) for a state, the 5-year estimate ending
   in that year is used instead (2010-2024 only)                       [acs5_<y-4>_<y>_b05006]
-  1940/1950 and earlier: see build_historical_state_country.py (appended if present).
+  1950       foreign-born WHITE by country, 1950 Census Vol. II Pt 1 Table 71 (manual
+             transcription, validated by all row/column sums; build_hist_1950_t71.py)
+                                                                       [census1950_v2p1_t71]
 
 Every (year, state_fips, source) block satisfies sum(country)+sum(residual) == total.
 Usage: python3 -I scripts/stock/build_state_by_country.py
@@ -153,12 +155,8 @@ def main():
     rows += dec2000()
     for y in range(2005, 2025):
         rows += acs_year(y)
-    hist = os.path.join(PROC, '_historical_state_country.csv')   # optional, see notes
-    if os.path.exists(hist):
-        for r in csv.DictReader(open(hist)):
-            r['year'] = int(r['year'])
-            r['count'] = int(r['count'])
-            rows.append(r)
+    import build_hist_1950_t71
+    rows += build_hist_1950_t71.rows()   # 1950, foreign-born white, manual transcription
     # checks
     blocks = {}
     for r in rows:

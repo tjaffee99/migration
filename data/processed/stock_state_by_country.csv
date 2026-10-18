@@ -1,4 +1,1915 @@
 year,state_fips,origin_label,level,parent_label,count,moe,source_id
+1950,01,Total (foreign-born white only),total,,13813,,census1950_v2p1_t71
+1950,01,Europe,region,Total (foreign-born white only),10106,,census1950_v2p1_t71_derived
+1950,01,United Kingdom,country,Europe,2234,,census1950_v2p1_t71_derived
+1950,01,England and Wales,subcountry,United Kingdom,1618,,census1950_v2p1_t71
+1950,01,Scotland,subcountry,United Kingdom,599,,census1950_v2p1_t71
+1950,01,Northern Ireland,subcountry,United Kingdom,17,,census1950_v2p1_t71
+1950,01,Ireland (Eire),country,Europe,327,,census1950_v2p1_t71
+1950,01,Norway,country,Europe,156,,census1950_v2p1_t71
+1950,01,Sweden,country,Europe,302,,census1950_v2p1_t71
+1950,01,Denmark,country,Europe,105,,census1950_v2p1_t71
+1950,01,Netherlands,country,Europe,87,,census1950_v2p1_t71
+1950,01,Belgium,country,Europe,85,,census1950_v2p1_t71
+1950,01,Switzerland,country,Europe,92,,census1950_v2p1_t71
+1950,01,France,country,Europe,355,,census1950_v2p1_t71
+1950,01,Germany,country,Europe,1594,,census1950_v2p1_t71
+1950,01,Poland,country,Europe,422,,census1950_v2p1_t71
+1950,01,Czechoslovakia,country,Europe,283,,census1950_v2p1_t71
+1950,01,Austria,country,Europe,281,,census1950_v2p1_t71
+1950,01,Hungary,country,Europe,264,,census1950_v2p1_t71
+1950,01,Yugoslavia,country,Europe,134,,census1950_v2p1_t71
+1950,01,U.S.S.R.,country,Europe,684,,census1950_v2p1_t71
+1950,01,Lithuania,country,Europe,80,,census1950_v2p1_t71
+1950,01,Finland,country,Europe,47,,census1950_v2p1_t71
+1950,01,Rumania,country,Europe,86,,census1950_v2p1_t71
+1950,01,Greece,country,Europe,850,,census1950_v2p1_t71
+1950,01,Italy,country,Europe,1436,,census1950_v2p1_t71
+1950,01,Spain,country,Europe,30,,census1950_v2p1_t71
+1950,01,Portugal,country,Europe,10,,census1950_v2p1_t71
+1950,01,Other Europe,residual,Europe,162,,census1950_v2p1_t71
+1950,01,Asia,region,Total (foreign-born white only),669,,census1950_v2p1_t71
+1950,01,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,669,,census1950_v2p1_t71_derived
+1950,01,Americas,region,Total (foreign-born white only),1550,,census1950_v2p1_t71_derived
+1950,01,Canada,country,Americas,937,,census1950_v2p1_t71_derived
+1950,01,Canada-French,subcountry,Canada,71,,census1950_v2p1_t71
+1950,01,Canada-Other,subcountry,Canada,866,,census1950_v2p1_t71
+1950,01,Mexico,country,Americas,125,,census1950_v2p1_t71
+1950,01,Other America,residual,Americas,488,,census1950_v2p1_t71
+1950,01,All other,residual,Total (foreign-born white only),177,,census1950_v2p1_t71
+1950,01,Not reported,residual,Total (foreign-born white only),1311,,census1950_v2p1_t71
+1950,04,Total (foreign-born white only),total,,45594,,census1950_v2p1_t71
+1950,04,Europe,region,Total (foreign-born white only),16098,,census1950_v2p1_t71_derived
+1950,04,United Kingdom,country,Europe,2808,,census1950_v2p1_t71_derived
+1950,04,England and Wales,subcountry,United Kingdom,2218,,census1950_v2p1_t71
+1950,04,Scotland,subcountry,United Kingdom,568,,census1950_v2p1_t71
+1950,04,Northern Ireland,subcountry,United Kingdom,22,,census1950_v2p1_t71
+1950,04,Ireland (Eire),country,Europe,660,,census1950_v2p1_t71
+1950,04,Norway,country,Europe,298,,census1950_v2p1_t71
+1950,04,Sweden,country,Europe,763,,census1950_v2p1_t71
+1950,04,Denmark,country,Europe,357,,census1950_v2p1_t71
+1950,04,Netherlands,country,Europe,204,,census1950_v2p1_t71
+1950,04,Belgium,country,Europe,118,,census1950_v2p1_t71
+1950,04,Switzerland,country,Europe,260,,census1950_v2p1_t71
+1950,04,France,country,Europe,363,,census1950_v2p1_t71
+1950,04,Germany,country,Europe,1825,,census1950_v2p1_t71
+1950,04,Poland,country,Europe,969,,census1950_v2p1_t71
+1950,04,Czechoslovakia,country,Europe,355,,census1950_v2p1_t71
+1950,04,Austria,country,Europe,790,,census1950_v2p1_t71
+1950,04,Hungary,country,Europe,570,,census1950_v2p1_t71
+1950,04,Yugoslavia,country,Europe,540,,census1950_v2p1_t71
+1950,04,U.S.S.R.,country,Europe,1756,,census1950_v2p1_t71
+1950,04,Lithuania,country,Europe,234,,census1950_v2p1_t71
+1950,04,Finland,country,Europe,151,,census1950_v2p1_t71
+1950,04,Rumania,country,Europe,212,,census1950_v2p1_t71
+1950,04,Greece,country,Europe,600,,census1950_v2p1_t71
+1950,04,Italy,country,Europe,1600,,census1950_v2p1_t71
+1950,04,Spain,country,Europe,420,,census1950_v2p1_t71
+1950,04,Portugal,country,Europe,22,,census1950_v2p1_t71
+1950,04,Other Europe,residual,Europe,223,,census1950_v2p1_t71
+1950,04,Asia,region,Total (foreign-born white only),810,,census1950_v2p1_t71
+1950,04,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,810,,census1950_v2p1_t71_derived
+1950,04,Americas,region,Total (foreign-born white only),28179,,census1950_v2p1_t71_derived
+1950,04,Canada,country,Americas,2904,,census1950_v2p1_t71_derived
+1950,04,Canada-French,subcountry,Canada,197,,census1950_v2p1_t71
+1950,04,Canada-Other,subcountry,Canada,2707,,census1950_v2p1_t71
+1950,04,Mexico,country,Americas,24917,,census1950_v2p1_t71
+1950,04,Other America,residual,Americas,358,,census1950_v2p1_t71
+1950,04,All other,residual,Total (foreign-born white only),208,,census1950_v2p1_t71
+1950,04,Not reported,residual,Total (foreign-born white only),299,,census1950_v2p1_t71
+1950,05,Total (foreign-born white only),total,,9289,,census1950_v2p1_t71
+1950,05,Europe,region,Total (foreign-born white only),6825,,census1950_v2p1_t71_derived
+1950,05,United Kingdom,country,Europe,883,,census1950_v2p1_t71_derived
+1950,05,England and Wales,subcountry,United Kingdom,726,,census1950_v2p1_t71
+1950,05,Scotland,subcountry,United Kingdom,146,,census1950_v2p1_t71
+1950,05,Northern Ireland,subcountry,United Kingdom,11,,census1950_v2p1_t71
+1950,05,Ireland (Eire),country,Europe,202,,census1950_v2p1_t71
+1950,05,Norway,country,Europe,70,,census1950_v2p1_t71
+1950,05,Sweden,country,Europe,175,,census1950_v2p1_t71
+1950,05,Denmark,country,Europe,106,,census1950_v2p1_t71
+1950,05,Netherlands,country,Europe,82,,census1950_v2p1_t71
+1950,05,Belgium,country,Europe,70,,census1950_v2p1_t71
+1950,05,Switzerland,country,Europe,278,,census1950_v2p1_t71
+1950,05,France,country,Europe,180,,census1950_v2p1_t71
+1950,05,Germany,country,Europe,1862,,census1950_v2p1_t71
+1950,05,Poland,country,Europe,657,,census1950_v2p1_t71
+1950,05,Czechoslovakia,country,Europe,272,,census1950_v2p1_t71
+1950,05,Austria,country,Europe,280,,census1950_v2p1_t71
+1950,05,Hungary,country,Europe,111,,census1950_v2p1_t71
+1950,05,Yugoslavia,country,Europe,74,,census1950_v2p1_t71
+1950,05,U.S.S.R.,country,Europe,330,,census1950_v2p1_t71
+1950,05,Lithuania,country,Europe,72,,census1950_v2p1_t71
+1950,05,Finland,country,Europe,19,,census1950_v2p1_t71
+1950,05,Rumania,country,Europe,64,,census1950_v2p1_t71
+1950,05,Greece,country,Europe,250,,census1950_v2p1_t71
+1950,05,Italy,country,Europe,670,,census1950_v2p1_t71
+1950,05,Spain,country,Europe,10,,census1950_v2p1_t71
+1950,05,Portugal,country,Europe,2,,census1950_v2p1_t71
+1950,05,Other Europe,residual,Europe,106,,census1950_v2p1_t71
+1950,05,Asia,region,Total (foreign-born white only),272,,census1950_v2p1_t71
+1950,05,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,272,,census1950_v2p1_t71_derived
+1950,05,Americas,region,Total (foreign-born white only),1348,,census1950_v2p1_t71_derived
+1950,05,Canada,country,Americas,661,,census1950_v2p1_t71_derived
+1950,05,Canada-French,subcountry,Canada,106,,census1950_v2p1_t71
+1950,05,Canada-Other,subcountry,Canada,555,,census1950_v2p1_t71
+1950,05,Mexico,country,Americas,553,,census1950_v2p1_t71
+1950,05,Other America,residual,Americas,134,,census1950_v2p1_t71
+1950,05,All other,residual,Total (foreign-born white only),91,,census1950_v2p1_t71
+1950,05,Not reported,residual,Total (foreign-born white only),753,,census1950_v2p1_t71
+1950,06,Total (foreign-born white only),total,,985333,,census1950_v2p1_t71
+1950,06,Europe,region,Total (foreign-born white only),634522,,census1950_v2p1_t71_derived
+1950,06,United Kingdom,country,Europe,105958,,census1950_v2p1_t71_derived
+1950,06,England and Wales,subcountry,United Kingdom,78728,,census1950_v2p1_t71
+1950,06,Scotland,subcountry,United Kingdom,25619,,census1950_v2p1_t71
+1950,06,Northern Ireland,subcountry,United Kingdom,1611,,census1950_v2p1_t71
+1950,06,Ireland (Eire),country,Europe,28405,,census1950_v2p1_t71
+1950,06,Norway,country,Europe,15780,,census1950_v2p1_t71
+1950,06,Sweden,country,Europe,31067,,census1950_v2p1_t71
+1950,06,Denmark,country,Europe,18053,,census1950_v2p1_t71
+1950,06,Netherlands,country,Europe,12270,,census1950_v2p1_t71
+1950,06,Belgium,country,Europe,3766,,census1950_v2p1_t71
+1950,06,Switzerland,country,Europe,15143,,census1950_v2p1_t71
+1950,06,France,country,Europe,18447,,census1950_v2p1_t71
+1950,06,Germany,country,Europe,70791,,census1950_v2p1_t71
+1950,06,Poland,country,Europe,23776,,census1950_v2p1_t71
+1950,06,Czechoslovakia,country,Europe,7456,,census1950_v2p1_t71
+1950,06,Austria,country,Europe,20818,,census1950_v2p1_t71
+1950,06,Hungary,country,Europe,13453,,census1950_v2p1_t71
+1950,06,Yugoslavia,country,Europe,13801,,census1950_v2p1_t71
+1950,06,U.S.S.R.,country,Europe,66552,,census1950_v2p1_t71
+1950,06,Lithuania,country,Europe,3856,,census1950_v2p1_t71
+1950,06,Finland,country,Europe,7467,,census1950_v2p1_t71
+1950,06,Rumania,country,Europe,6299,,census1950_v2p1_t71
+1950,06,Greece,country,Europe,14330,,census1950_v2p1_t71
+1950,06,Italy,country,Europe,104215,,census1950_v2p1_t71
+1950,06,Spain,country,Europe,10890,,census1950_v2p1_t71
+1950,06,Portugal,country,Europe,15134,,census1950_v2p1_t71
+1950,06,Other Europe,residual,Europe,6795,,census1950_v2p1_t71
+1950,06,Asia,region,Total (foreign-born white only),30540,,census1950_v2p1_t71
+1950,06,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,30540,,census1950_v2p1_t71_derived
+1950,06,Americas,region,Total (foreign-born white only),292706,,census1950_v2p1_t71_derived
+1950,06,Canada,country,Americas,110754,,census1950_v2p1_t71_derived
+1950,06,Canada-French,subcountry,Canada,7990,,census1950_v2p1_t71
+1950,06,Canada-Other,subcountry,Canada,102764,,census1950_v2p1_t71
+1950,06,Mexico,country,Americas,162309,,census1950_v2p1_t71
+1950,06,Other America,residual,Americas,19643,,census1950_v2p1_t71
+1950,06,All other,residual,Total (foreign-born white only),22353,,census1950_v2p1_t71
+1950,06,Not reported,residual,Total (foreign-born white only),5212,,census1950_v2p1_t71
+1950,08,Total (foreign-born white only),total,,58987,,census1950_v2p1_t71
+1950,08,Europe,region,Total (foreign-born white only),47702,,census1950_v2p1_t71_derived
+1950,08,United Kingdom,country,Europe,5788,,census1950_v2p1_t71_derived
+1950,08,England and Wales,subcountry,United Kingdom,4351,,census1950_v2p1_t71
+1950,08,Scotland,subcountry,United Kingdom,1389,,census1950_v2p1_t71
+1950,08,Northern Ireland,subcountry,United Kingdom,48,,census1950_v2p1_t71
+1950,08,Ireland (Eire),country,Europe,1600,,census1950_v2p1_t71
+1950,08,Norway,country,Europe,737,,census1950_v2p1_t71
+1950,08,Sweden,country,Europe,3893,,census1950_v2p1_t71
+1950,08,Denmark,country,Europe,1381,,census1950_v2p1_t71
+1950,08,Netherlands,country,Europe,568,,census1950_v2p1_t71
+1950,08,Belgium,country,Europe,347,,census1950_v2p1_t71
+1950,08,Switzerland,country,Europe,663,,census1950_v2p1_t71
+1950,08,France,country,Europe,802,,census1950_v2p1_t71
+1950,08,Germany,country,Europe,5821,,census1950_v2p1_t71
+1950,08,Poland,country,Europe,1773,,census1950_v2p1_t71
+1950,08,Czechoslovakia,country,Europe,945,,census1950_v2p1_t71
+1950,08,Austria,country,Europe,2643,,census1950_v2p1_t71
+1950,08,Hungary,country,Europe,692,,census1950_v2p1_t71
+1950,08,Yugoslavia,country,Europe,1874,,census1950_v2p1_t71
+1950,08,U.S.S.R.,country,Europe,9306,,census1950_v2p1_t71
+1950,08,Lithuania,country,Europe,217,,census1950_v2p1_t71
+1950,08,Finland,country,Europe,336,,census1950_v2p1_t71
+1950,08,Rumania,country,Europe,238,,census1950_v2p1_t71
+1950,08,Greece,country,Europe,1043,,census1950_v2p1_t71
+1950,08,Italy,country,Europe,6329,,census1950_v2p1_t71
+1950,08,Spain,country,Europe,168,,census1950_v2p1_t71
+1950,08,Portugal,country,Europe,20,,census1950_v2p1_t71
+1950,08,Other Europe,residual,Europe,518,,census1950_v2p1_t71
+1950,08,Asia,region,Total (foreign-born white only),790,,census1950_v2p1_t71
+1950,08,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,790,,census1950_v2p1_t71_derived
+1950,08,Americas,region,Total (foreign-born white only),9685,,census1950_v2p1_t71_derived
+1950,08,Canada,country,Americas,3862,,census1950_v2p1_t71_derived
+1950,08,Canada-French,subcountry,Canada,311,,census1950_v2p1_t71
+1950,08,Canada-Other,subcountry,Canada,3551,,census1950_v2p1_t71
+1950,08,Mexico,country,Americas,5275,,census1950_v2p1_t71
+1950,08,Other America,residual,Americas,548,,census1950_v2p1_t71
+1950,08,All other,residual,Total (foreign-born white only),313,,census1950_v2p1_t71
+1950,08,Not reported,residual,Total (foreign-born white only),497,,census1950_v2p1_t71
+1950,09,Total (foreign-born white only),total,,297859,,census1950_v2p1_t71
+1950,09,Europe,region,Total (foreign-born white only),258790,,census1950_v2p1_t71_derived
+1950,09,United Kingdom,country,Europe,24115,,census1950_v2p1_t71_derived
+1950,09,England and Wales,subcountry,United Kingdom,15776,,census1950_v2p1_t71
+1950,09,Scotland,subcountry,United Kingdom,7638,,census1950_v2p1_t71
+1950,09,Northern Ireland,subcountry,United Kingdom,701,,census1950_v2p1_t71
+1950,09,Ireland (Eire),country,Europe,19865,,census1950_v2p1_t71
+1950,09,Norway,country,Europe,1782,,census1950_v2p1_t71
+1950,09,Sweden,country,Europe,11304,,census1950_v2p1_t71
+1950,09,Denmark,country,Europe,2144,,census1950_v2p1_t71
+1950,09,Netherlands,country,Europe,654,,census1950_v2p1_t71
+1950,09,Belgium,country,Europe,439,,census1950_v2p1_t71
+1950,09,Switzerland,country,Europe,1456,,census1950_v2p1_t71
+1950,09,France,country,Europe,2591,,census1950_v2p1_t71
+1950,09,Germany,country,Europe,17036,,census1950_v2p1_t71
+1950,09,Poland,country,Europe,34530,,census1950_v2p1_t71
+1950,09,Czechoslovakia,country,Europe,7333,,census1950_v2p1_t71
+1950,09,Austria,country,Europe,8945,,census1950_v2p1_t71
+1950,09,Hungary,country,Europe,8685,,census1950_v2p1_t71
+1950,09,Yugoslavia,country,Europe,566,,census1950_v2p1_t71
+1950,09,U.S.S.R.,country,Europe,21180,,census1950_v2p1_t71
+1950,09,Lithuania,country,Europe,10081,,census1950_v2p1_t71
+1950,09,Finland,country,Europe,2092,,census1950_v2p1_t71
+1950,09,Rumania,country,Europe,780,,census1950_v2p1_t71
+1950,09,Greece,country,Europe,3431,,census1950_v2p1_t71
+1950,09,Italy,country,Europe,74270,,census1950_v2p1_t71
+1950,09,Spain,country,Europe,886,,census1950_v2p1_t71
+1950,09,Portugal,country,Europe,2448,,census1950_v2p1_t71
+1950,09,Other Europe,residual,Europe,2177,,census1950_v2p1_t71
+1950,09,Asia,region,Total (foreign-born white only),4052,,census1950_v2p1_t71
+1950,09,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,4052,,census1950_v2p1_t71_derived
+1950,09,Americas,region,Total (foreign-born white only),32877,,census1950_v2p1_t71_derived
+1950,09,Canada,country,Americas,31066,,census1950_v2p1_t71_derived
+1950,09,Canada-French,subcountry,Canada,16900,,census1950_v2p1_t71
+1950,09,Canada-Other,subcountry,Canada,14166,,census1950_v2p1_t71
+1950,09,Mexico,country,Americas,158,,census1950_v2p1_t71
+1950,09,Other America,residual,Americas,1653,,census1950_v2p1_t71
+1950,09,All other,residual,Total (foreign-born white only),1012,,census1950_v2p1_t71
+1950,09,Not reported,residual,Total (foreign-born white only),1128,,census1950_v2p1_t71
+1950,10,Total (foreign-born white only),total,,13844,,census1950_v2p1_t71
+1950,10,Europe,region,Total (foreign-born white only),12667,,census1950_v2p1_t71_derived
+1950,10,United Kingdom,country,Europe,1769,,census1950_v2p1_t71_derived
+1950,10,England and Wales,subcountry,United Kingdom,1188,,census1950_v2p1_t71
+1950,10,Scotland,subcountry,United Kingdom,527,,census1950_v2p1_t71
+1950,10,Northern Ireland,subcountry,United Kingdom,54,,census1950_v2p1_t71
+1950,10,Ireland (Eire),country,Europe,1103,,census1950_v2p1_t71
+1950,10,Norway,country,Europe,100,,census1950_v2p1_t71
+1950,10,Sweden,country,Europe,197,,census1950_v2p1_t71
+1950,10,Denmark,country,Europe,78,,census1950_v2p1_t71
+1950,10,Netherlands,country,Europe,58,,census1950_v2p1_t71
+1950,10,Belgium,country,Europe,32,,census1950_v2p1_t71
+1950,10,Switzerland,country,Europe,57,,census1950_v2p1_t71
+1950,10,France,country,Europe,173,,census1950_v2p1_t71
+1950,10,Germany,country,Europe,1114,,census1950_v2p1_t71
+1950,10,Poland,country,Europe,2151,,census1950_v2p1_t71
+1950,10,Czechoslovakia,country,Europe,148,,census1950_v2p1_t71
+1950,10,Austria,country,Europe,325,,census1950_v2p1_t71
+1950,10,Hungary,country,Europe,233,,census1950_v2p1_t71
+1950,10,Yugoslavia,country,Europe,42,,census1950_v2p1_t71
+1950,10,U.S.S.R.,country,Europe,1193,,census1950_v2p1_t71
+1950,10,Lithuania,country,Europe,100,,census1950_v2p1_t71
+1950,10,Finland,country,Europe,103,,census1950_v2p1_t71
+1950,10,Rumania,country,Europe,129,,census1950_v2p1_t71
+1950,10,Greece,country,Europe,374,,census1950_v2p1_t71
+1950,10,Italy,country,Europe,3031,,census1950_v2p1_t71
+1950,10,Spain,country,Europe,46,,census1950_v2p1_t71
+1950,10,Portugal,country,Europe,13,,census1950_v2p1_t71
+1950,10,Other Europe,residual,Europe,98,,census1950_v2p1_t71
+1950,10,Asia,region,Total (foreign-born white only),170,,census1950_v2p1_t71
+1950,10,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,170,,census1950_v2p1_t71_derived
+1950,10,Americas,region,Total (foreign-born white only),821,,census1950_v2p1_t71_derived
+1950,10,Canada,country,Americas,661,,census1950_v2p1_t71_derived
+1950,10,Canada-French,subcountry,Canada,81,,census1950_v2p1_t71
+1950,10,Canada-Other,subcountry,Canada,580,,census1950_v2p1_t71
+1950,10,Mexico,country,Americas,38,,census1950_v2p1_t71
+1950,10,Other America,residual,Americas,122,,census1950_v2p1_t71
+1950,10,All other,residual,Total (foreign-born white only),70,,census1950_v2p1_t71
+1950,10,Not reported,residual,Total (foreign-born white only),116,,census1950_v2p1_t71
+1950,11,Total (foreign-born white only),total,,39497,,census1950_v2p1_t71
+1950,11,Europe,region,Total (foreign-born white only),31655,,census1950_v2p1_t71_derived
+1950,11,United Kingdom,country,Europe,4234,,census1950_v2p1_t71_derived
+1950,11,England and Wales,subcountry,United Kingdom,3199,,census1950_v2p1_t71
+1950,11,Scotland,subcountry,United Kingdom,970,,census1950_v2p1_t71
+1950,11,Northern Ireland,subcountry,United Kingdom,65,,census1950_v2p1_t71
+1950,11,Ireland (Eire),country,Europe,2067,,census1950_v2p1_t71
+1950,11,Norway,country,Europe,347,,census1950_v2p1_t71
+1950,11,Sweden,country,Europe,545,,census1950_v2p1_t71
+1950,11,Denmark,country,Europe,288,,census1950_v2p1_t71
+1950,11,Netherlands,country,Europe,293,,census1950_v2p1_t71
+1950,11,Belgium,country,Europe,165,,census1950_v2p1_t71
+1950,11,Switzerland,country,Europe,390,,census1950_v2p1_t71
+1950,11,France,country,Europe,1208,,census1950_v2p1_t71
+1950,11,Germany,country,Europe,3010,,census1950_v2p1_t71
+1950,11,Poland,country,Europe,2346,,census1950_v2p1_t71
+1950,11,Czechoslovakia,country,Europe,437,,census1950_v2p1_t71
+1950,11,Austria,country,Europe,1141,,census1950_v2p1_t71
+1950,11,Hungary,country,Europe,558,,census1950_v2p1_t71
+1950,11,Yugoslavia,country,Europe,199,,census1950_v2p1_t71
+1950,11,U.S.S.R.,country,Europe,5994,,census1950_v2p1_t71
+1950,11,Lithuania,country,Europe,467,,census1950_v2p1_t71
+1950,11,Finland,country,Europe,215,,census1950_v2p1_t71
+1950,11,Rumania,country,Europe,340,,census1950_v2p1_t71
+1950,11,Greece,country,Europe,2087,,census1950_v2p1_t71
+1950,11,Italy,country,Europe,4422,,census1950_v2p1_t71
+1950,11,Spain,country,Europe,310,,census1950_v2p1_t71
+1950,11,Portugal,country,Europe,59,,census1950_v2p1_t71
+1950,11,Other Europe,residual,Europe,533,,census1950_v2p1_t71
+1950,11,Asia,region,Total (foreign-born white only),1890,,census1950_v2p1_t71
+1950,11,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,1890,,census1950_v2p1_t71_derived
+1950,11,Americas,region,Total (foreign-born white only),5112,,census1950_v2p1_t71_derived
+1950,11,Canada,country,Americas,2930,,census1950_v2p1_t71_derived
+1950,11,Canada-French,subcountry,Canada,373,,census1950_v2p1_t71
+1950,11,Canada-Other,subcountry,Canada,2557,,census1950_v2p1_t71
+1950,11,Mexico,country,Americas,325,,census1950_v2p1_t71
+1950,11,Other America,residual,Americas,1857,,census1950_v2p1_t71
+1950,11,All other,residual,Total (foreign-born white only),535,,census1950_v2p1_t71
+1950,11,Not reported,residual,Total (foreign-born white only),305,,census1950_v2p1_t71
+1950,12,Total (foreign-born white only),total,,122731,,census1950_v2p1_t71
+1950,12,Europe,region,Total (foreign-born white only),89213,,census1950_v2p1_t71_derived
+1950,12,United Kingdom,country,Europe,16843,,census1950_v2p1_t71_derived
+1950,12,England and Wales,subcountry,United Kingdom,13005,,census1950_v2p1_t71
+1950,12,Scotland,subcountry,United Kingdom,3677,,census1950_v2p1_t71
+1950,12,Northern Ireland,subcountry,United Kingdom,161,,census1950_v2p1_t71
+1950,12,Ireland (Eire),country,Europe,3224,,census1950_v2p1_t71
+1950,12,Norway,country,Europe,1431,,census1950_v2p1_t71
+1950,12,Sweden,country,Europe,3511,,census1950_v2p1_t71
+1950,12,Denmark,country,Europe,1566,,census1950_v2p1_t71
+1950,12,Netherlands,country,Europe,1196,,census1950_v2p1_t71
+1950,12,Belgium,country,Europe,634,,census1950_v2p1_t71
+1950,12,Switzerland,country,Europe,874,,census1950_v2p1_t71
+1950,12,France,country,Europe,2077,,census1950_v2p1_t71
+1950,12,Germany,country,Europe,11134,,census1950_v2p1_t71
+1950,12,Poland,country,Europe,5203,,census1950_v2p1_t71
+1950,12,Czechoslovakia,country,Europe,1786,,census1950_v2p1_t71
+1950,12,Austria,country,Europe,4615,,census1950_v2p1_t71
+1950,12,Hungary,country,Europe,3488,,census1950_v2p1_t71
+1950,12,Yugoslavia,country,Europe,432,,census1950_v2p1_t71
+1950,12,U.S.S.R.,country,Europe,12585,,census1950_v2p1_t71
+1950,12,Lithuania,country,Europe,886,,census1950_v2p1_t71
+1950,12,Finland,country,Europe,1082,,census1950_v2p1_t71
+1950,12,Rumania,country,Europe,1473,,census1950_v2p1_t71
+1950,12,Greece,country,Europe,2849,,census1950_v2p1_t71
+1950,12,Italy,country,Europe,8087,,census1950_v2p1_t71
+1950,12,Spain,country,Europe,3103,,census1950_v2p1_t71
+1950,12,Portugal,country,Europe,171,,census1950_v2p1_t71
+1950,12,Other Europe,residual,Europe,963,,census1950_v2p1_t71
+1950,12,Asia,region,Total (foreign-born white only),3204,,census1950_v2p1_t71
+1950,12,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,3204,,census1950_v2p1_t71_derived
+1950,12,Americas,region,Total (foreign-born white only),28062,,census1950_v2p1_t71_derived
+1950,12,Canada,country,Americas,14992,,census1950_v2p1_t71_derived
+1950,12,Canada-French,subcountry,Canada,1808,,census1950_v2p1_t71
+1950,12,Canada-Other,subcountry,Canada,13184,,census1950_v2p1_t71
+1950,12,Mexico,country,Americas,431,,census1950_v2p1_t71
+1950,12,Other America,residual,Americas,12639,,census1950_v2p1_t71
+1950,12,All other,residual,Total (foreign-born white only),921,,census1950_v2p1_t71
+1950,12,Not reported,residual,Total (foreign-born white only),1331,,census1950_v2p1_t71
+1950,13,Total (foreign-born white only),total,,16730,,census1950_v2p1_t71
+1950,13,Europe,region,Total (foreign-born white only),11906,,census1950_v2p1_t71_derived
+1950,13,United Kingdom,country,Europe,2309,,census1950_v2p1_t71_derived
+1950,13,England and Wales,subcountry,United Kingdom,1801,,census1950_v2p1_t71
+1950,13,Scotland,subcountry,United Kingdom,475,,census1950_v2p1_t71
+1950,13,Northern Ireland,subcountry,United Kingdom,33,,census1950_v2p1_t71
+1950,13,Ireland (Eire),country,Europe,437,,census1950_v2p1_t71
+1950,13,Norway,country,Europe,76,,census1950_v2p1_t71
+1950,13,Sweden,country,Europe,205,,census1950_v2p1_t71
+1950,13,Denmark,country,Europe,102,,census1950_v2p1_t71
+1950,13,Netherlands,country,Europe,101,,census1950_v2p1_t71
+1950,13,Belgium,country,Europe,86,,census1950_v2p1_t71
+1950,13,Switzerland,country,Europe,90,,census1950_v2p1_t71
+1950,13,France,country,Europe,373,,census1950_v2p1_t71
+1950,13,Germany,country,Europe,2396,,census1950_v2p1_t71
+1950,13,Poland,country,Europe,1113,,census1950_v2p1_t71
+1950,13,Czechoslovakia,country,Europe,109,,census1950_v2p1_t71
+1950,13,Austria,country,Europe,401,,census1950_v2p1_t71
+1950,13,Hungary,country,Europe,185,,census1950_v2p1_t71
+1950,13,Yugoslavia,country,Europe,50,,census1950_v2p1_t71
+1950,13,U.S.S.R.,country,Europe,1553,,census1950_v2p1_t71
+1950,13,Lithuania,country,Europe,125,,census1950_v2p1_t71
+1950,13,Finland,country,Europe,79,,census1950_v2p1_t71
+1950,13,Rumania,country,Europe,114,,census1950_v2p1_t71
+1950,13,Greece,country,Europe,956,,census1950_v2p1_t71
+1950,13,Italy,country,Europe,638,,census1950_v2p1_t71
+1950,13,Spain,country,Europe,66,,census1950_v2p1_t71
+1950,13,Portugal,country,Europe,99,,census1950_v2p1_t71
+1950,13,Other Europe,residual,Europe,243,,census1950_v2p1_t71
+1950,13,Asia,region,Total (foreign-born white only),854,,census1950_v2p1_t71
+1950,13,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,854,,census1950_v2p1_t71_derived
+1950,13,Americas,region,Total (foreign-born white only),2168,,census1950_v2p1_t71_derived
+1950,13,Canada,country,Americas,1443,,census1950_v2p1_t71_derived
+1950,13,Canada-French,subcountry,Canada,98,,census1950_v2p1_t71
+1950,13,Canada-Other,subcountry,Canada,1345,,census1950_v2p1_t71
+1950,13,Mexico,country,Americas,132,,census1950_v2p1_t71
+1950,13,Other America,residual,Americas,593,,census1950_v2p1_t71
+1950,13,All other,residual,Total (foreign-born white only),264,,census1950_v2p1_t71
+1950,13,Not reported,residual,Total (foreign-born white only),1538,,census1950_v2p1_t71
+1950,16,Total (foreign-born white only),total,,19407,,census1950_v2p1_t71
+1950,16,Europe,region,Total (foreign-born white only),14537,,census1950_v2p1_t71_derived
+1950,16,United Kingdom,country,Europe,2360,,census1950_v2p1_t71_derived
+1950,16,England and Wales,subcountry,United Kingdom,1808,,census1950_v2p1_t71
+1950,16,Scotland,subcountry,United Kingdom,528,,census1950_v2p1_t71
+1950,16,Northern Ireland,subcountry,United Kingdom,24,,census1950_v2p1_t71
+1950,16,Ireland (Eire),country,Europe,376,,census1950_v2p1_t71
+1950,16,Norway,country,Europe,1147,,census1950_v2p1_t71
+1950,16,Sweden,country,Europe,1890,,census1950_v2p1_t71
+1950,16,Denmark,country,Europe,869,,census1950_v2p1_t71
+1950,16,Netherlands,country,Europe,296,,census1950_v2p1_t71
+1950,16,Belgium,country,Europe,101,,census1950_v2p1_t71
+1950,16,Switzerland,country,Europe,587,,census1950_v2p1_t71
+1950,16,France,country,Europe,260,,census1950_v2p1_t71
+1950,16,Germany,country,Europe,1823,,census1950_v2p1_t71
+1950,16,Poland,country,Europe,148,,census1950_v2p1_t71
+1950,16,Czechoslovakia,country,Europe,324,,census1950_v2p1_t71
+1950,16,Austria,country,Europe,423,,census1950_v2p1_t71
+1950,16,Hungary,country,Europe,105,,census1950_v2p1_t71
+1950,16,Yugoslavia,country,Europe,277,,census1950_v2p1_t71
+1950,16,U.S.S.R.,country,Europe,946,,census1950_v2p1_t71
+1950,16,Lithuania,country,Europe,19,,census1950_v2p1_t71
+1950,16,Finland,country,Europe,479,,census1950_v2p1_t71
+1950,16,Rumania,country,Europe,63,,census1950_v2p1_t71
+1950,16,Greece,country,Europe,306,,census1950_v2p1_t71
+1950,16,Italy,country,Europe,633,,census1950_v2p1_t71
+1950,16,Spain,country,Europe,985,,census1950_v2p1_t71
+1950,16,Portugal,country,Europe,15,,census1950_v2p1_t71
+1950,16,Other Europe,residual,Europe,105,,census1950_v2p1_t71
+1950,16,Asia,region,Total (foreign-born white only),169,,census1950_v2p1_t71
+1950,16,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,169,,census1950_v2p1_t71_derived
+1950,16,Americas,region,Total (foreign-born white only),4228,,census1950_v2p1_t71_derived
+1950,16,Canada,country,Americas,3814,,census1950_v2p1_t71_derived
+1950,16,Canada-French,subcountry,Canada,249,,census1950_v2p1_t71
+1950,16,Canada-Other,subcountry,Canada,3565,,census1950_v2p1_t71
+1950,16,Mexico,country,Americas,326,,census1950_v2p1_t71
+1950,16,Other America,residual,Americas,88,,census1950_v2p1_t71
+1950,16,All other,residual,Total (foreign-born white only),182,,census1950_v2p1_t71
+1950,16,Not reported,residual,Total (foreign-born white only),291,,census1950_v2p1_t71
+1950,17,Total (foreign-born white only),total,,783277,,census1950_v2p1_t71
+1950,17,Europe,region,Total (foreign-born white only),723373,,census1950_v2p1_t71_derived
+1950,17,United Kingdom,country,Europe,47130,,census1950_v2p1_t71_derived
+1950,17,England and Wales,subcountry,United Kingdom,31473,,census1950_v2p1_t71
+1950,17,Scotland,subcountry,United Kingdom,14690,,census1950_v2p1_t71
+1950,17,Northern Ireland,subcountry,United Kingdom,967,,census1950_v2p1_t71
+1950,17,Ireland (Eire),country,Europe,36075,,census1950_v2p1_t71
+1950,17,Norway,country,Europe,15684,,census1950_v2p1_t71
+1950,17,Sweden,country,Europe,56128,,census1950_v2p1_t71
+1950,17,Denmark,country,Europe,10425,,census1950_v2p1_t71
+1950,17,Netherlands,country,Europe,8973,,census1950_v2p1_t71
+1950,17,Belgium,country,Europe,8034,,census1950_v2p1_t71
+1950,17,Switzerland,country,Europe,3835,,census1950_v2p1_t71
+1950,17,France,country,Europe,6529,,census1950_v2p1_t71
+1950,17,Germany,country,Europe,96517,,census1950_v2p1_t71
+1950,17,Poland,country,Europe,111376,,census1950_v2p1_t71
+1950,17,Czechoslovakia,country,Europe,43185,,census1950_v2p1_t71
+1950,17,Austria,country,Europe,30270,,census1950_v2p1_t71
+1950,17,Hungary,country,Europe,19020,,census1950_v2p1_t71
+1950,17,Yugoslavia,country,Europe,19146,,census1950_v2p1_t71
+1950,17,U.S.S.R.,country,Europe,59753,,census1950_v2p1_t71
+1950,17,Lithuania,country,Europe,33049,,census1950_v2p1_t71
+1950,17,Finland,country,Europe,3014,,census1950_v2p1_t71
+1950,17,Rumania,country,Europe,6384,,census1950_v2p1_t71
+1950,17,Greece,country,Europe,17410,,census1950_v2p1_t71
+1950,17,Italy,country,Europe,83556,,census1950_v2p1_t71
+1950,17,Spain,country,Europe,714,,census1950_v2p1_t71
+1950,17,Portugal,country,Europe,90,,census1950_v2p1_t71
+1950,17,Other Europe,residual,Europe,7076,,census1950_v2p1_t71
+1950,17,Asia,region,Total (foreign-born white only),7952,,census1950_v2p1_t71
+1950,17,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,7952,,census1950_v2p1_t71_derived
+1950,17,Americas,region,Total (foreign-born white only),45019,,census1950_v2p1_t71_derived
+1950,17,Canada,country,Americas,29033,,census1950_v2p1_t71_derived
+1950,17,Canada-French,subcountry,Canada,3196,,census1950_v2p1_t71
+1950,17,Canada-Other,subcountry,Canada,25837,,census1950_v2p1_t71
+1950,17,Mexico,country,Americas,12463,,census1950_v2p1_t71
+1950,17,Other America,residual,Americas,3523,,census1950_v2p1_t71
+1950,17,All other,residual,Total (foreign-born white only),1847,,census1950_v2p1_t71
+1950,17,Not reported,residual,Total (foreign-born white only),5086,,census1950_v2p1_t71
+1950,18,Total (foreign-born white only),total,,100630,,census1950_v2p1_t71
+1950,18,Europe,region,Total (foreign-born white only),86696,,census1950_v2p1_t71_derived
+1950,18,United Kingdom,country,Europe,9129,,census1950_v2p1_t71_derived
+1950,18,England and Wales,subcountry,United Kingdom,6355,,census1950_v2p1_t71
+1950,18,Scotland,subcountry,United Kingdom,2716,,census1950_v2p1_t71
+1950,18,Northern Ireland,subcountry,United Kingdom,58,,census1950_v2p1_t71
+1950,18,Ireland (Eire),country,Europe,2352,,census1950_v2p1_t71
+1950,18,Norway,country,Europe,553,,census1950_v2p1_t71
+1950,18,Sweden,country,Europe,2736,,census1950_v2p1_t71
+1950,18,Denmark,country,Europe,620,,census1950_v2p1_t71
+1950,18,Netherlands,country,Europe,1525,,census1950_v2p1_t71
+1950,18,Belgium,country,Europe,2297,,census1950_v2p1_t71
+1950,18,Switzerland,country,Europe,751,,census1950_v2p1_t71
+1950,18,France,country,Europe,1401,,census1950_v2p1_t71
+1950,18,Germany,country,Europe,13801,,census1950_v2p1_t71
+1950,18,Poland,country,Europe,11883,,census1950_v2p1_t71
+1950,18,Czechoslovakia,country,Europe,5344,,census1950_v2p1_t71
+1950,18,Austria,country,Europe,3681,,census1950_v2p1_t71
+1950,18,Hungary,country,Europe,6703,,census1950_v2p1_t71
+1950,18,Yugoslavia,country,Europe,5009,,census1950_v2p1_t71
+1950,18,U.S.S.R.,country,Europe,3591,,census1950_v2p1_t71
+1950,18,Lithuania,country,Europe,2002,,census1950_v2p1_t71
+1950,18,Finland,country,Europe,217,,census1950_v2p1_t71
+1950,18,Rumania,country,Europe,1805,,census1950_v2p1_t71
+1950,18,Greece,country,Europe,4032,,census1950_v2p1_t71
+1950,18,Italy,country,Europe,5508,,census1950_v2p1_t71
+1950,18,Spain,country,Europe,475,,census1950_v2p1_t71
+1950,18,Portugal,country,Europe,31,,census1950_v2p1_t71
+1950,18,Other Europe,residual,Europe,1250,,census1950_v2p1_t71
+1950,18,Asia,region,Total (foreign-born white only),1684,,census1950_v2p1_t71
+1950,18,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,1684,,census1950_v2p1_t71_derived
+1950,18,Americas,region,Total (foreign-born white only),10128,,census1950_v2p1_t71_derived
+1950,18,Canada,country,Americas,6179,,census1950_v2p1_t71_derived
+1950,18,Canada-French,subcountry,Canada,598,,census1950_v2p1_t71
+1950,18,Canada-Other,subcountry,Canada,5581,,census1950_v2p1_t71
+1950,18,Mexico,country,Americas,3222,,census1950_v2p1_t71
+1950,18,Other America,residual,Americas,727,,census1950_v2p1_t71
+1950,18,All other,residual,Total (foreign-born white only),446,,census1950_v2p1_t71
+1950,18,Not reported,residual,Total (foreign-born white only),1676,,census1950_v2p1_t71
+1950,19,Total (foreign-born white only),total,,84582,,census1950_v2p1_t71
+1950,19,Europe,region,Total (foreign-born white only),76561,,census1950_v2p1_t71_derived
+1950,19,United Kingdom,country,Europe,6320,,census1950_v2p1_t71_derived
+1950,19,England and Wales,subcountry,United Kingdom,4931,,census1950_v2p1_t71
+1950,19,Scotland,subcountry,United Kingdom,1332,,census1950_v2p1_t71
+1950,19,Northern Ireland,subcountry,United Kingdom,57,,census1950_v2p1_t71
+1950,19,Ireland (Eire),country,Europe,2066,,census1950_v2p1_t71
+1950,19,Norway,country,Europe,5531,,census1950_v2p1_t71
+1950,19,Sweden,country,Europe,7080,,census1950_v2p1_t71
+1950,19,Denmark,country,Europe,7625,,census1950_v2p1_t71
+1950,19,Netherlands,country,Europe,6078,,census1950_v2p1_t71
+1950,19,Belgium,country,Europe,678,,census1950_v2p1_t71
+1950,19,Switzerland,country,Europe,838,,census1950_v2p1_t71
+1950,19,France,country,Europe,793,,census1950_v2p1_t71
+1950,19,Germany,country,Europe,22774,,census1950_v2p1_t71
+1950,19,Poland,country,Europe,1402,,census1950_v2p1_t71
+1950,19,Czechoslovakia,country,Europe,3819,,census1950_v2p1_t71
+1950,19,Austria,country,Europe,1156,,census1950_v2p1_t71
+1950,19,Hungary,country,Europe,319,,census1950_v2p1_t71
+1950,19,Yugoslavia,country,Europe,920,,census1950_v2p1_t71
+1950,19,U.S.S.R.,country,Europe,2774,,census1950_v2p1_t71
+1950,19,Lithuania,country,Europe,601,,census1950_v2p1_t71
+1950,19,Finland,country,Europe,69,,census1950_v2p1_t71
+1950,19,Rumania,country,Europe,132,,census1950_v2p1_t71
+1950,19,Greece,country,Europe,1407,,census1950_v2p1_t71
+1950,19,Italy,country,Europe,2908,,census1950_v2p1_t71
+1950,19,Spain,country,Europe,26,,census1950_v2p1_t71
+1950,19,Portugal,country,Europe,6,,census1950_v2p1_t71
+1950,19,Other Europe,residual,Europe,1239,,census1950_v2p1_t71
+1950,19,Asia,region,Total (foreign-born white only),869,,census1950_v2p1_t71
+1950,19,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,869,,census1950_v2p1_t71_derived
+1950,19,Americas,region,Total (foreign-born white only),5767,,census1950_v2p1_t71_derived
+1950,19,Canada,country,Americas,4122,,census1950_v2p1_t71_derived
+1950,19,Canada-French,subcountry,Canada,346,,census1950_v2p1_t71
+1950,19,Canada-Other,subcountry,Canada,3776,,census1950_v2p1_t71
+1950,19,Mexico,country,Americas,1253,,census1950_v2p1_t71
+1950,19,Other America,residual,Americas,392,,census1950_v2p1_t71
+1950,19,All other,residual,Total (foreign-born white only),289,,census1950_v2p1_t71
+1950,19,Not reported,residual,Total (foreign-born white only),1096,,census1950_v2p1_t71
+1950,20,Total (foreign-born white only),total,,38577,,census1950_v2p1_t71
+1950,20,Europe,region,Total (foreign-born white only),29746,,census1950_v2p1_t71_derived
+1950,20,United Kingdom,country,Europe,3492,,census1950_v2p1_t71_derived
+1950,20,England and Wales,subcountry,United Kingdom,2711,,census1950_v2p1_t71
+1950,20,Scotland,subcountry,United Kingdom,755,,census1950_v2p1_t71
+1950,20,Northern Ireland,subcountry,United Kingdom,26,,census1950_v2p1_t71
+1950,20,Ireland (Eire),country,Europe,963,,census1950_v2p1_t71
+1950,20,Norway,country,Europe,341,,census1950_v2p1_t71
+1950,20,Sweden,country,Europe,2527,,census1950_v2p1_t71
+1950,20,Denmark,country,Europe,649,,census1950_v2p1_t71
+1950,20,Netherlands,country,Europe,262,,census1950_v2p1_t71
+1950,20,Belgium,country,Europe,592,,census1950_v2p1_t71
+1950,20,Switzerland,country,Europe,597,,census1950_v2p1_t71
+1950,20,France,country,Europe,684,,census1950_v2p1_t71
+1950,20,Germany,country,Europe,7183,,census1950_v2p1_t71
+1950,20,Poland,country,Europe,1186,,census1950_v2p1_t71
+1950,20,Czechoslovakia,country,Europe,1209,,census1950_v2p1_t71
+1950,20,Austria,country,Europe,1702,,census1950_v2p1_t71
+1950,20,Hungary,country,Europe,244,,census1950_v2p1_t71
+1950,20,Yugoslavia,country,Europe,1592,,census1950_v2p1_t71
+1950,20,U.S.S.R.,country,Europe,4315,,census1950_v2p1_t71
+1950,20,Lithuania,country,Europe,100,,census1950_v2p1_t71
+1950,20,Finland,country,Europe,48,,census1950_v2p1_t71
+1950,20,Rumania,country,Europe,73,,census1950_v2p1_t71
+1950,20,Greece,country,Europe,394,,census1950_v2p1_t71
+1950,20,Italy,country,Europe,1214,,census1950_v2p1_t71
+1950,20,Spain,country,Europe,50,,census1950_v2p1_t71
+1950,20,Portugal,country,Europe,4,,census1950_v2p1_t71
+1950,20,Other Europe,residual,Europe,325,,census1950_v2p1_t71
+1950,20,Asia,region,Total (foreign-born white only),664,,census1950_v2p1_t71
+1950,20,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,664,,census1950_v2p1_t71_derived
+1950,20,Americas,region,Total (foreign-born white only),6994,,census1950_v2p1_t71_derived
+1950,20,Canada,country,Americas,2359,,census1950_v2p1_t71_derived
+1950,20,Canada-French,subcountry,Canada,226,,census1950_v2p1_t71
+1950,20,Canada-Other,subcountry,Canada,2133,,census1950_v2p1_t71
+1950,20,Mexico,country,Americas,4204,,census1950_v2p1_t71
+1950,20,Other America,residual,Americas,431,,census1950_v2p1_t71
+1950,20,All other,residual,Total (foreign-born white only),331,,census1950_v2p1_t71
+1950,20,Not reported,residual,Total (foreign-born white only),842,,census1950_v2p1_t71
+1950,21,Total (foreign-born white only),total,,16068,,census1950_v2p1_t71
+1950,21,Europe,region,Total (foreign-born white only),12556,,census1950_v2p1_t71_derived
+1950,21,United Kingdom,country,Europe,1916,,census1950_v2p1_t71_derived
+1950,21,England and Wales,subcountry,United Kingdom,1543,,census1950_v2p1_t71
+1950,21,Scotland,subcountry,United Kingdom,356,,census1950_v2p1_t71
+1950,21,Northern Ireland,subcountry,United Kingdom,17,,census1950_v2p1_t71
+1950,21,Ireland (Eire),country,Europe,667,,census1950_v2p1_t71
+1950,21,Norway,country,Europe,53,,census1950_v2p1_t71
+1950,21,Sweden,country,Europe,163,,census1950_v2p1_t71
+1950,21,Denmark,country,Europe,58,,census1950_v2p1_t71
+1950,21,Netherlands,country,Europe,96,,census1950_v2p1_t71
+1950,21,Belgium,country,Europe,93,,census1950_v2p1_t71
+1950,21,Switzerland,country,Europe,397,,census1950_v2p1_t71
+1950,21,France,country,Europe,409,,census1950_v2p1_t71
+1950,21,Germany,country,Europe,3949,,census1950_v2p1_t71
+1950,21,Poland,country,Europe,626,,census1950_v2p1_t71
+1950,21,Czechoslovakia,country,Europe,172,,census1950_v2p1_t71
+1950,21,Austria,country,Europe,402,,census1950_v2p1_t71
+1950,21,Hungary,country,Europe,318,,census1950_v2p1_t71
+1950,21,Yugoslavia,country,Europe,112,,census1950_v2p1_t71
+1950,21,U.S.S.R.,country,Europe,1038,,census1950_v2p1_t71
+1950,21,Lithuania,country,Europe,134,,census1950_v2p1_t71
+1950,21,Finland,country,Europe,42,,census1950_v2p1_t71
+1950,21,Rumania,country,Europe,113,,census1950_v2p1_t71
+1950,21,Greece,country,Europe,399,,census1950_v2p1_t71
+1950,21,Italy,country,Europe,1067,,census1950_v2p1_t71
+1950,21,Spain,country,Europe,41,,census1950_v2p1_t71
+1950,21,Portugal,country,Europe,6,,census1950_v2p1_t71
+1950,21,Other Europe,residual,Europe,285,,census1950_v2p1_t71
+1950,21,Asia,region,Total (foreign-born white only),633,,census1950_v2p1_t71
+1950,21,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,633,,census1950_v2p1_t71_derived
+1950,21,Americas,region,Total (foreign-born white only),1434,,census1950_v2p1_t71_derived
+1950,21,Canada,country,Americas,1067,,census1950_v2p1_t71_derived
+1950,21,Canada-French,subcountry,Canada,105,,census1950_v2p1_t71
+1950,21,Canada-Other,subcountry,Canada,962,,census1950_v2p1_t71
+1950,21,Mexico,country,Americas,82,,census1950_v2p1_t71
+1950,21,Other America,residual,Americas,285,,census1950_v2p1_t71
+1950,21,All other,residual,Total (foreign-born white only),202,,census1950_v2p1_t71
+1950,21,Not reported,residual,Total (foreign-born white only),1243,,census1950_v2p1_t71
+1950,22,Total (foreign-born white only),total,,28884,,census1950_v2p1_t71
+1950,22,Europe,region,Total (foreign-born white only),20917,,census1950_v2p1_t71_derived
+1950,22,United Kingdom,country,Europe,2216,,census1950_v2p1_t71_derived
+1950,22,England and Wales,subcountry,United Kingdom,1782,,census1950_v2p1_t71
+1950,22,Scotland,subcountry,United Kingdom,418,,census1950_v2p1_t71
+1950,22,Northern Ireland,subcountry,United Kingdom,16,,census1950_v2p1_t71
+1950,22,Ireland (Eire),country,Europe,709,,census1950_v2p1_t71
+1950,22,Norway,country,Europe,376,,census1950_v2p1_t71
+1950,22,Sweden,country,Europe,247,,census1950_v2p1_t71
+1950,22,Denmark,country,Europe,213,,census1950_v2p1_t71
+1950,22,Netherlands,country,Europe,263,,census1950_v2p1_t71
+1950,22,Belgium,country,Europe,265,,census1950_v2p1_t71
+1950,22,Switzerland,country,Europe,136,,census1950_v2p1_t71
+1950,22,France,country,Europe,1521,,census1950_v2p1_t71
+1950,22,Germany,country,Europe,2467,,census1950_v2p1_t71
+1950,22,Poland,country,Europe,955,,census1950_v2p1_t71
+1950,22,Czechoslovakia,country,Europe,234,,census1950_v2p1_t71
+1950,22,Austria,country,Europe,429,,census1950_v2p1_t71
+1950,22,Hungary,country,Europe,312,,census1950_v2p1_t71
+1950,22,Yugoslavia,country,Europe,427,,census1950_v2p1_t71
+1950,22,U.S.S.R.,country,Europe,1018,,census1950_v2p1_t71
+1950,22,Lithuania,country,Europe,79,,census1950_v2p1_t71
+1950,22,Finland,country,Europe,92,,census1950_v2p1_t71
+1950,22,Rumania,country,Europe,116,,census1950_v2p1_t71
+1950,22,Greece,country,Europe,497,,census1950_v2p1_t71
+1950,22,Italy,country,Europe,7678,,census1950_v2p1_t71
+1950,22,Spain,country,Europe,388,,census1950_v2p1_t71
+1950,22,Portugal,country,Europe,47,,census1950_v2p1_t71
+1950,22,Other Europe,residual,Europe,232,,census1950_v2p1_t71
+1950,22,Asia,region,Total (foreign-born white only),1125,,census1950_v2p1_t71
+1950,22,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,1125,,census1950_v2p1_t71_derived
+1950,22,Americas,region,Total (foreign-born white only),5363,,census1950_v2p1_t71_derived
+1950,22,Canada,country,Americas,1202,,census1950_v2p1_t71_derived
+1950,22,Canada-French,subcountry,Canada,173,,census1950_v2p1_t71
+1950,22,Canada-Other,subcountry,Canada,1029,,census1950_v2p1_t71
+1950,22,Mexico,country,Americas,1106,,census1950_v2p1_t71
+1950,22,Other America,residual,Americas,3055,,census1950_v2p1_t71
+1950,22,All other,residual,Total (foreign-born white only),284,,census1950_v2p1_t71
+1950,22,Not reported,residual,Total (foreign-born white only),1195,,census1950_v2p1_t71
+1950,23,Total (foreign-born white only),total,,74342,,census1950_v2p1_t71
+1950,23,Europe,region,Total (foreign-born white only),18432,,census1950_v2p1_t71_derived
+1950,23,United Kingdom,country,Europe,4569,,census1950_v2p1_t71_derived
+1950,23,England and Wales,subcountry,United Kingdom,3276,,census1950_v2p1_t71
+1950,23,Scotland,subcountry,United Kingdom,1225,,census1950_v2p1_t71
+1950,23,Northern Ireland,subcountry,United Kingdom,68,,census1950_v2p1_t71
+1950,23,Ireland (Eire),country,Europe,2058,,census1950_v2p1_t71
+1950,23,Norway,country,Europe,381,,census1950_v2p1_t71
+1950,23,Sweden,country,Europe,987,,census1950_v2p1_t71
+1950,23,Denmark,country,Europe,439,,census1950_v2p1_t71
+1950,23,Netherlands,country,Europe,66,,census1950_v2p1_t71
+1950,23,Belgium,country,Europe,76,,census1950_v2p1_t71
+1950,23,Switzerland,country,Europe,66,,census1950_v2p1_t71
+1950,23,France,country,Europe,334,,census1950_v2p1_t71
+1950,23,Germany,country,Europe,997,,census1950_v2p1_t71
+1950,23,Poland,country,Europe,1073,,census1950_v2p1_t71
+1950,23,Czechoslovakia,country,Europe,267,,census1950_v2p1_t71
+1950,23,Austria,country,Europe,203,,census1950_v2p1_t71
+1950,23,Hungary,country,Europe,87,,census1950_v2p1_t71
+1950,23,Yugoslavia,country,Europe,21,,census1950_v2p1_t71
+1950,23,U.S.S.R.,country,Europe,1527,,census1950_v2p1_t71
+1950,23,Lithuania,country,Europe,883,,census1950_v2p1_t71
+1950,23,Finland,country,Europe,1063,,census1950_v2p1_t71
+1950,23,Rumania,country,Europe,31,,census1950_v2p1_t71
+1950,23,Greece,country,Europe,758,,census1950_v2p1_t71
+1950,23,Italy,country,Europe,2008,,census1950_v2p1_t71
+1950,23,Spain,country,Europe,25,,census1950_v2p1_t71
+1950,23,Portugal,country,Europe,63,,census1950_v2p1_t71
+1950,23,Other Europe,residual,Europe,450,,census1950_v2p1_t71
+1950,23,Asia,region,Total (foreign-born white only),763,,census1950_v2p1_t71
+1950,23,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,763,,census1950_v2p1_t71_derived
+1950,23,Americas,region,Total (foreign-born white only),54535,,census1950_v2p1_t71_derived
+1950,23,Canada,country,Americas,54339,,census1950_v2p1_t71_derived
+1950,23,Canada-French,subcountry,Canada,28329,,census1950_v2p1_t71
+1950,23,Canada-Other,subcountry,Canada,26010,,census1950_v2p1_t71
+1950,23,Mexico,country,Americas,40,,census1950_v2p1_t71
+1950,23,Other America,residual,Americas,156,,census1950_v2p1_t71
+1950,23,All other,residual,Total (foreign-born white only),172,,census1950_v2p1_t71
+1950,23,Not reported,residual,Total (foreign-born white only),440,,census1950_v2p1_t71
+1950,24,Total (foreign-born white only),total,,84440,,census1950_v2p1_t71
+1950,24,Europe,region,Total (foreign-born white only),75100,,census1950_v2p1_t71_derived
+1950,24,United Kingdom,country,Europe,8230,,census1950_v2p1_t71_derived
+1950,24,England and Wales,subcountry,United Kingdom,6273,,census1950_v2p1_t71
+1950,24,Scotland,subcountry,United Kingdom,1920,,census1950_v2p1_t71
+1950,24,Northern Ireland,subcountry,United Kingdom,37,,census1950_v2p1_t71
+1950,24,Ireland (Eire),country,Europe,2811,,census1950_v2p1_t71
+1950,24,Norway,country,Europe,779,,census1950_v2p1_t71
+1950,24,Sweden,country,Europe,742,,census1950_v2p1_t71
+1950,24,Denmark,country,Europe,521,,census1950_v2p1_t71
+1950,24,Netherlands,country,Europe,520,,census1950_v2p1_t71
+1950,24,Belgium,country,Europe,263,,census1950_v2p1_t71
+1950,24,Switzerland,country,Europe,509,,census1950_v2p1_t71
+1950,24,France,country,Europe,1118,,census1950_v2p1_t71
+1950,24,Germany,country,Europe,12563,,census1950_v2p1_t71
+1950,24,Poland,country,Europe,8637,,census1950_v2p1_t71
+1950,24,Czechoslovakia,country,Europe,2265,,census1950_v2p1_t71
+1950,24,Austria,country,Europe,2609,,census1950_v2p1_t71
+1950,24,Hungary,country,Europe,1518,,census1950_v2p1_t71
+1950,24,Yugoslavia,country,Europe,354,,census1950_v2p1_t71
+1950,24,U.S.S.R.,country,Europe,13570,,census1950_v2p1_t71
+1950,24,Lithuania,country,Europe,2998,,census1950_v2p1_t71
+1950,24,Finland,country,Europe,559,,census1950_v2p1_t71
+1950,24,Rumania,country,Europe,595,,census1950_v2p1_t71
+1950,24,Greece,country,Europe,2467,,census1950_v2p1_t71
+1950,24,Italy,country,Europe,9942,,census1950_v2p1_t71
+1950,24,Spain,country,Europe,262,,census1950_v2p1_t71
+1950,24,Portugal,country,Europe,92,,census1950_v2p1_t71
+1950,24,Other Europe,residual,Europe,1176,,census1950_v2p1_t71
+1950,24,Asia,region,Total (foreign-born white only),1567,,census1950_v2p1_t71
+1950,24,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,1567,,census1950_v2p1_t71_derived
+1950,24,Americas,region,Total (foreign-born white only),5948,,census1950_v2p1_t71_derived
+1950,24,Canada,country,Americas,4129,,census1950_v2p1_t71_derived
+1950,24,Canada-French,subcountry,Canada,359,,census1950_v2p1_t71
+1950,24,Canada-Other,subcountry,Canada,3770,,census1950_v2p1_t71
+1950,24,Mexico,country,Americas,193,,census1950_v2p1_t71
+1950,24,Other America,residual,Americas,1626,,census1950_v2p1_t71
+1950,24,All other,residual,Total (foreign-born white only),710,,census1950_v2p1_t71
+1950,24,Not reported,residual,Total (foreign-born white only),1115,,census1950_v2p1_t71
+1950,25,Total (foreign-born white only),total,,713699,,census1950_v2p1_t71
+1950,25,Europe,region,Total (foreign-born white only),482306,,census1950_v2p1_t71_derived
+1950,25,United Kingdom,country,Europe,68710,,census1950_v2p1_t71_derived
+1950,25,England and Wales,subcountry,United Kingdom,46193,,census1950_v2p1_t71
+1950,25,Scotland,subcountry,United Kingdom,20559,,census1950_v2p1_t71
+1950,25,Northern Ireland,subcountry,United Kingdom,1958,,census1950_v2p1_t71
+1950,25,Ireland (Eire),country,Europe,81214,,census1950_v2p1_t71
+1950,25,Norway,country,Europe,4207,,census1950_v2p1_t71
+1950,25,Sweden,country,Europe,21333,,census1950_v2p1_t71
+1950,25,Denmark,country,Europe,1884,,census1950_v2p1_t71
+1950,25,Netherlands,country,Europe,1723,,census1950_v2p1_t71
+1950,25,Belgium,country,Europe,1689,,census1950_v2p1_t71
+1950,25,Switzerland,country,Europe,1009,,census1950_v2p1_t71
+1950,25,France,country,Europe,4848,,census1950_v2p1_t71
+1950,25,Germany,country,Europe,15439,,census1950_v2p1_t71
+1950,25,Poland,country,Europe,46597,,census1950_v2p1_t71
+1950,25,Czechoslovakia,country,Europe,1678,,census1950_v2p1_t71
+1950,25,Austria,country,Europe,6291,,census1950_v2p1_t71
+1950,25,Hungary,country,Europe,1175,,census1950_v2p1_t71
+1950,25,Yugoslavia,country,Europe,249,,census1950_v2p1_t71
+1950,25,U.S.S.R.,country,Europe,52353,,census1950_v2p1_t71
+1950,25,Lithuania,country,Europe,18559,,census1950_v2p1_t71
+1950,25,Finland,country,Europe,9190,,census1950_v2p1_t71
+1950,25,Rumania,country,Europe,1007,,census1950_v2p1_t71
+1950,25,Greece,country,Europe,14511,,census1950_v2p1_t71
+1950,25,Italy,country,Europe,101548,,census1950_v2p1_t71
+1950,25,Spain,country,Europe,659,,census1950_v2p1_t71
+1950,25,Portugal,country,Europe,20042,,census1950_v2p1_t71
+1950,25,Other Europe,residual,Europe,6391,,census1950_v2p1_t71
+1950,25,Asia,region,Total (foreign-born white only),17757,,census1950_v2p1_t71
+1950,25,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,17757,,census1950_v2p1_t71_derived
+1950,25,Americas,region,Total (foreign-born white only),196156,,census1950_v2p1_t71_derived
+1950,25,Canada,country,Americas,192514,,census1950_v2p1_t71_derived
+1950,25,Canada-French,subcountry,Canada,69479,,census1950_v2p1_t71
+1950,25,Canada-Other,subcountry,Canada,123035,,census1950_v2p1_t71
+1950,25,Mexico,country,Americas,324,,census1950_v2p1_t71
+1950,25,Other America,residual,Americas,3318,,census1950_v2p1_t71
+1950,25,All other,residual,Total (foreign-born white only),14531,,census1950_v2p1_t71
+1950,25,Not reported,residual,Total (foreign-born white only),2949,,census1950_v2p1_t71
+1950,26,Total (foreign-born white only),total,,603735,,census1950_v2p1_t71
+1950,26,Europe,region,Total (foreign-born white only),436266,,census1950_v2p1_t71_derived
+1950,26,United Kingdom,country,Europe,68189,,census1950_v2p1_t71_derived
+1950,26,England and Wales,subcountry,United Kingdom,42726,,census1950_v2p1_t71
+1950,26,Scotland,subcountry,United Kingdom,24887,,census1950_v2p1_t71
+1950,26,Northern Ireland,subcountry,United Kingdom,576,,census1950_v2p1_t71
+1950,26,Ireland (Eire),country,Europe,9958,,census1950_v2p1_t71
+1950,26,Norway,country,Europe,4071,,census1950_v2p1_t71
+1950,26,Sweden,country,Europe,12322,,census1950_v2p1_t71
+1950,26,Denmark,country,Europe,4219,,census1950_v2p1_t71
+1950,26,Netherlands,country,Europe,20215,,census1950_v2p1_t71
+1950,26,Belgium,country,Europe,10518,,census1950_v2p1_t71
+1950,26,Switzerland,country,Europe,1709,,census1950_v2p1_t71
+1950,26,France,country,Europe,3632,,census1950_v2p1_t71
+1950,26,Germany,country,Europe,45323,,census1950_v2p1_t71
+1950,26,Poland,country,Europe,81595,,census1950_v2p1_t71
+1950,26,Czechoslovakia,country,Europe,12168,,census1950_v2p1_t71
+1950,26,Austria,country,Europe,15078,,census1950_v2p1_t71
+1950,26,Hungary,country,Europe,18818,,census1950_v2p1_t71
+1950,26,Yugoslavia,country,Europe,11453,,census1950_v2p1_t71
+1950,26,U.S.S.R.,country,Europe,30804,,census1950_v2p1_t71
+1950,26,Lithuania,country,Europe,7776,,census1950_v2p1_t71
+1950,26,Finland,country,Europe,15501,,census1950_v2p1_t71
+1950,26,Rumania,country,Europe,6423,,census1950_v2p1_t71
+1950,26,Greece,country,Europe,9273,,census1950_v2p1_t71
+1950,26,Italy,country,Europe,38937,,census1950_v2p1_t71
+1950,26,Spain,country,Europe,890,,census1950_v2p1_t71
+1950,26,Portugal,country,Europe,136,,census1950_v2p1_t71
+1950,26,Other Europe,residual,Europe,7258,,census1950_v2p1_t71
+1950,26,Asia,region,Total (foreign-born white only),12556,,census1950_v2p1_t71
+1950,26,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,12556,,census1950_v2p1_t71_derived
+1950,26,Americas,region,Total (foreign-born white only),149783,,census1950_v2p1_t71_derived
+1950,26,Canada,country,Americas,142258,,census1950_v2p1_t71_derived
+1950,26,Canada-French,subcountry,Canada,15786,,census1950_v2p1_t71
+1950,26,Canada-Other,subcountry,Canada,126472,,census1950_v2p1_t71
+1950,26,Mexico,country,Americas,5235,,census1950_v2p1_t71
+1950,26,Other America,residual,Americas,2290,,census1950_v2p1_t71
+1950,26,All other,residual,Total (foreign-born white only),1624,,census1950_v2p1_t71
+1950,26,Not reported,residual,Total (foreign-born white only),3506,,census1950_v2p1_t71
+1950,27,Total (foreign-born white only),total,,210231,,census1950_v2p1_t71
+1950,27,Europe,region,Total (foreign-born white only),188016,,census1950_v2p1_t71_derived
+1950,27,United Kingdom,country,Europe,7502,,census1950_v2p1_t71_derived
+1950,27,England and Wales,subcountry,United Kingdom,5544,,census1950_v2p1_t71
+1950,27,Scotland,subcountry,United Kingdom,1824,,census1950_v2p1_t71
+1950,27,Northern Ireland,subcountry,United Kingdom,134,,census1950_v2p1_t71
+1950,27,Ireland (Eire),country,Europe,2693,,census1950_v2p1_t71
+1950,27,Norway,country,Europe,33477,,census1950_v2p1_t71
+1950,27,Sweden,country,Europe,43933,,census1950_v2p1_t71
+1950,27,Denmark,country,Europe,7374,,census1950_v2p1_t71
+1950,27,Netherlands,country,Europe,3512,,census1950_v2p1_t71
+1950,27,Belgium,country,Europe,1197,,census1950_v2p1_t71
+1950,27,Switzerland,country,Europe,946,,census1950_v2p1_t71
+1950,27,France,country,Europe,845,,census1950_v2p1_t71
+1950,27,Germany,country,Europe,26459,,census1950_v2p1_t71
+1950,27,Poland,country,Europe,8308,,census1950_v2p1_t71
+1950,27,Czechoslovakia,country,Europe,5361,,census1950_v2p1_t71
+1950,27,Austria,country,Europe,5907,,census1950_v2p1_t71
+1950,27,Hungary,country,Europe,1508,,census1950_v2p1_t71
+1950,27,Yugoslavia,country,Europe,5678,,census1950_v2p1_t71
+1950,27,U.S.S.R.,country,Europe,8493,,census1950_v2p1_t71
+1950,27,Lithuania,country,Europe,992,,census1950_v2p1_t71
+1950,27,Finland,country,Europe,14475,,census1950_v2p1_t71
+1950,27,Rumania,country,Europe,1249,,census1950_v2p1_t71
+1950,27,Greece,country,Europe,1565,,census1950_v2p1_t71
+1950,27,Italy,country,Europe,4496,,census1950_v2p1_t71
+1950,27,Spain,country,Europe,51,,census1950_v2p1_t71
+1950,27,Portugal,country,Europe,8,,census1950_v2p1_t71
+1950,27,Other Europe,residual,Europe,1987,,census1950_v2p1_t71
+1950,27,Asia,region,Total (foreign-born white only),1234,,census1950_v2p1_t71
+1950,27,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,1234,,census1950_v2p1_t71_derived
+1950,27,Americas,region,Total (foreign-born white only),19119,,census1950_v2p1_t71_derived
+1950,27,Canada,country,Americas,17650,,census1950_v2p1_t71_derived
+1950,27,Canada-French,subcountry,Canada,2482,,census1950_v2p1_t71
+1950,27,Canada-Other,subcountry,Canada,15168,,census1950_v2p1_t71
+1950,27,Mexico,country,Americas,950,,census1950_v2p1_t71
+1950,27,Other America,residual,Americas,519,,census1950_v2p1_t71
+1950,27,All other,residual,Total (foreign-born white only),440,,census1950_v2p1_t71
+1950,27,Not reported,residual,Total (foreign-born white only),1422,,census1950_v2p1_t71
+1950,28,Total (foreign-born white only),total,,8314,,census1950_v2p1_t71
+1950,28,Europe,region,Total (foreign-born white only),5571,,census1950_v2p1_t71_derived
+1950,28,United Kingdom,country,Europe,746,,census1950_v2p1_t71_derived
+1950,28,England and Wales,subcountry,United Kingdom,634,,census1950_v2p1_t71
+1950,28,Scotland,subcountry,United Kingdom,104,,census1950_v2p1_t71
+1950,28,Northern Ireland,subcountry,United Kingdom,8,,census1950_v2p1_t71
+1950,28,Ireland (Eire),country,Europe,173,,census1950_v2p1_t71
+1950,28,Norway,country,Europe,55,,census1950_v2p1_t71
+1950,28,Sweden,country,Europe,109,,census1950_v2p1_t71
+1950,28,Denmark,country,Europe,86,,census1950_v2p1_t71
+1950,28,Netherlands,country,Europe,58,,census1950_v2p1_t71
+1950,28,Belgium,country,Europe,35,,census1950_v2p1_t71
+1950,28,Switzerland,country,Europe,26,,census1950_v2p1_t71
+1950,28,France,country,Europe,170,,census1950_v2p1_t71
+1950,28,Germany,country,Europe,808,,census1950_v2p1_t71
+1950,28,Poland,country,Europe,336,,census1950_v2p1_t71
+1950,28,Czechoslovakia,country,Europe,47,,census1950_v2p1_t71
+1950,28,Austria,country,Europe,99,,census1950_v2p1_t71
+1950,28,Hungary,country,Europe,50,,census1950_v2p1_t71
+1950,28,Yugoslavia,country,Europe,152,,census1950_v2p1_t71
+1950,28,U.S.S.R.,country,Europe,456,,census1950_v2p1_t71
+1950,28,Lithuania,country,Europe,87,,census1950_v2p1_t71
+1950,28,Finland,country,Europe,32,,census1950_v2p1_t71
+1950,28,Rumania,country,Europe,34,,census1950_v2p1_t71
+1950,28,Greece,country,Europe,283,,census1950_v2p1_t71
+1950,28,Italy,country,Europe,1023,,census1950_v2p1_t71
+1950,28,Spain,country,Europe,23,,census1950_v2p1_t71
+1950,28,Portugal,country,Europe,10,,census1950_v2p1_t71
+1950,28,Other Europe,residual,Europe,673,,census1950_v2p1_t71
+1950,28,Asia,region,Total (foreign-born white only),620,,census1950_v2p1_t71
+1950,28,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,620,,census1950_v2p1_t71_derived
+1950,28,Americas,region,Total (foreign-born white only),1054,,census1950_v2p1_t71_derived
+1950,28,Canada,country,Americas,465,,census1950_v2p1_t71_derived
+1950,28,Canada-French,subcountry,Canada,39,,census1950_v2p1_t71
+1950,28,Canada-Other,subcountry,Canada,426,,census1950_v2p1_t71
+1950,28,Mexico,country,Americas,259,,census1950_v2p1_t71
+1950,28,Other America,residual,Americas,330,,census1950_v2p1_t71
+1950,28,All other,residual,Total (foreign-born white only),107,,census1950_v2p1_t71
+1950,28,Not reported,residual,Total (foreign-born white only),962,,census1950_v2p1_t71
+1950,29,Total (foreign-born white only),total,,92050,,census1950_v2p1_t71
+1950,29,Europe,region,Total (foreign-born white only),81518,,census1950_v2p1_t71_derived
+1950,29,United Kingdom,country,Europe,6385,,census1950_v2p1_t71_derived
+1950,29,England and Wales,subcountry,United Kingdom,5045,,census1950_v2p1_t71
+1950,29,Scotland,subcountry,United Kingdom,1280,,census1950_v2p1_t71
+1950,29,Northern Ireland,subcountry,United Kingdom,60,,census1950_v2p1_t71
+1950,29,Ireland (Eire),country,Europe,4181,,census1950_v2p1_t71
+1950,29,Norway,country,Europe,325,,census1950_v2p1_t71
+1950,29,Sweden,country,Europe,1713,,census1950_v2p1_t71
+1950,29,Denmark,country,Europe,795,,census1950_v2p1_t71
+1950,29,Netherlands,country,Europe,456,,census1950_v2p1_t71
+1950,29,Belgium,country,Europe,668,,census1950_v2p1_t71
+1950,29,Switzerland,country,Europe,1505,,census1950_v2p1_t71
+1950,29,France,country,Europe,1285,,census1950_v2p1_t71
+1950,29,Germany,country,Europe,18337,,census1950_v2p1_t71
+1950,29,Poland,country,Europe,5922,,census1950_v2p1_t71
+1950,29,Czechoslovakia,country,Europe,2441,,census1950_v2p1_t71
+1950,29,Austria,country,Europe,5250,,census1950_v2p1_t71
+1950,29,Hungary,country,Europe,3481,,census1950_v2p1_t71
+1950,29,Yugoslavia,country,Europe,2123,,census1950_v2p1_t71
+1950,29,U.S.S.R.,country,Europe,10208,,census1950_v2p1_t71
+1950,29,Lithuania,country,Europe,754,,census1950_v2p1_t71
+1950,29,Finland,country,Europe,96,,census1950_v2p1_t71
+1950,29,Rumania,country,Europe,1273,,census1950_v2p1_t71
+1950,29,Greece,country,Europe,1989,,census1950_v2p1_t71
+1950,29,Italy,country,Europe,10695,,census1950_v2p1_t71
+1950,29,Spain,country,Europe,350,,census1950_v2p1_t71
+1950,29,Portugal,country,Europe,19,,census1950_v2p1_t71
+1950,29,Other Europe,residual,Europe,1267,,census1950_v2p1_t71
+1950,29,Asia,region,Total (foreign-born white only),1526,,census1950_v2p1_t71
+1950,29,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,1526,,census1950_v2p1_t71_derived
+1950,29,Americas,region,Total (foreign-born white only),6710,,census1950_v2p1_t71_derived
+1950,29,Canada,country,Americas,3931,,census1950_v2p1_t71_derived
+1950,29,Canada-French,subcountry,Canada,329,,census1950_v2p1_t71
+1950,29,Canada-Other,subcountry,Canada,3602,,census1950_v2p1_t71
+1950,29,Mexico,country,Americas,2057,,census1950_v2p1_t71
+1950,29,Other America,residual,Americas,722,,census1950_v2p1_t71
+1950,29,All other,residual,Total (foreign-born white only),535,,census1950_v2p1_t71
+1950,29,Not reported,residual,Total (foreign-born white only),1761,,census1950_v2p1_t71
+1950,30,Total (foreign-born white only),total,,43119,,census1950_v2p1_t71
+1950,30,Europe,region,Total (foreign-born white only),33883,,census1950_v2p1_t71_derived
+1950,30,United Kingdom,country,Europe,4601,,census1950_v2p1_t71_derived
+1950,30,England and Wales,subcountry,United Kingdom,3176,,census1950_v2p1_t71
+1950,30,Scotland,subcountry,United Kingdom,1370,,census1950_v2p1_t71
+1950,30,Northern Ireland,subcountry,United Kingdom,55,,census1950_v2p1_t71
+1950,30,Ireland (Eire),country,Europe,2003,,census1950_v2p1_t71
+1950,30,Norway,country,Europe,5228,,census1950_v2p1_t71
+1950,30,Sweden,country,Europe,2731,,census1950_v2p1_t71
+1950,30,Denmark,country,Europe,1398,,census1950_v2p1_t71
+1950,30,Netherlands,country,Europe,786,,census1950_v2p1_t71
+1950,30,Belgium,country,Europe,369,,census1950_v2p1_t71
+1950,30,Switzerland,country,Europe,458,,census1950_v2p1_t71
+1950,30,France,country,Europe,386,,census1950_v2p1_t71
+1950,30,Germany,country,Europe,3025,,census1950_v2p1_t71
+1950,30,Poland,country,Europe,788,,census1950_v2p1_t71
+1950,30,Czechoslovakia,country,Europe,809,,census1950_v2p1_t71
+1950,30,Austria,country,Europe,1370,,census1950_v2p1_t71
+1950,30,Hungary,country,Europe,414,,census1950_v2p1_t71
+1950,30,Yugoslavia,country,Europe,1822,,census1950_v2p1_t71
+1950,30,U.S.S.R.,country,Europe,3423,,census1950_v2p1_t71
+1950,30,Lithuania,country,Europe,85,,census1950_v2p1_t71
+1950,30,Finland,country,Europe,1326,,census1950_v2p1_t71
+1950,30,Rumania,country,Europe,196,,census1950_v2p1_t71
+1950,30,Greece,country,Europe,530,,census1950_v2p1_t71
+1950,30,Italy,country,Europe,1767,,census1950_v2p1_t71
+1950,30,Spain,country,Europe,38,,census1950_v2p1_t71
+1950,30,Portugal,country,Europe,6,,census1950_v2p1_t71
+1950,30,Other Europe,residual,Europe,324,,census1950_v2p1_t71
+1950,30,Asia,region,Total (foreign-born white only),299,,census1950_v2p1_t71
+1950,30,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,299,,census1950_v2p1_t71_derived
+1950,30,Americas,region,Total (foreign-born white only),8327,,census1950_v2p1_t71_derived
+1950,30,Canada,country,Americas,7468,,census1950_v2p1_t71_derived
+1950,30,Canada-French,subcountry,Canada,727,,census1950_v2p1_t71
+1950,30,Canada-Other,subcountry,Canada,6741,,census1950_v2p1_t71
+1950,30,Mexico,country,Americas,693,,census1950_v2p1_t71
+1950,30,Other America,residual,Americas,166,,census1950_v2p1_t71
+1950,30,All other,residual,Total (foreign-born white only),210,,census1950_v2p1_t71
+1950,30,Not reported,residual,Total (foreign-born white only),400,,census1950_v2p1_t71
+1950,31,Total (foreign-born white only),total,,57273,,census1950_v2p1_t71
+1950,31,Europe,region,Total (foreign-born white only),51843,,census1950_v2p1_t71_derived
+1950,31,United Kingdom,country,Europe,2669,,census1950_v2p1_t71_derived
+1950,31,England and Wales,subcountry,United Kingdom,2147,,census1950_v2p1_t71
+1950,31,Scotland,subcountry,United Kingdom,488,,census1950_v2p1_t71
+1950,31,Northern Ireland,subcountry,United Kingdom,34,,census1950_v2p1_t71
+1950,31,Ireland (Eire),country,Europe,1058,,census1950_v2p1_t71
+1950,31,Norway,country,Europe,635,,census1950_v2p1_t71
+1950,31,Sweden,country,Europe,5449,,census1950_v2p1_t71
+1950,31,Denmark,country,Europe,4555,,census1950_v2p1_t71
+1950,31,Netherlands,country,Europe,319,,census1950_v2p1_t71
+1950,31,Belgium,country,Europe,333,,census1950_v2p1_t71
+1950,31,Switzerland,country,Europe,587,,census1950_v2p1_t71
+1950,31,France,country,Europe,271,,census1950_v2p1_t71
+1950,31,Germany,country,Europe,13276,,census1950_v2p1_t71
+1950,31,Poland,country,Europe,2393,,census1950_v2p1_t71
+1950,31,Czechoslovakia,country,Europe,6455,,census1950_v2p1_t71
+1950,31,Austria,country,Europe,1159,,census1950_v2p1_t71
+1950,31,Hungary,country,Europe,353,,census1950_v2p1_t71
+1950,31,Yugoslavia,country,Europe,519,,census1950_v2p1_t71
+1950,31,U.S.S.R.,country,Europe,7019,,census1950_v2p1_t71
+1950,31,Lithuania,country,Europe,621,,census1950_v2p1_t71
+1950,31,Finland,country,Europe,33,,census1950_v2p1_t71
+1950,31,Rumania,country,Europe,203,,census1950_v2p1_t71
+1950,31,Greece,country,Europe,555,,census1950_v2p1_t71
+1950,31,Italy,country,Europe,2622,,census1950_v2p1_t71
+1950,31,Spain,country,Europe,20,,census1950_v2p1_t71
+1950,31,Portugal,country,Europe,7,,census1950_v2p1_t71
+1950,31,Other Europe,residual,Europe,732,,census1950_v2p1_t71
+1950,31,Asia,region,Total (foreign-born white only),499,,census1950_v2p1_t71
+1950,31,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,499,,census1950_v2p1_t71_derived
+1950,31,Americas,region,Total (foreign-born white only),4132,,census1950_v2p1_t71_derived
+1950,31,Canada,country,Americas,2226,,census1950_v2p1_t71_derived
+1950,31,Canada-French,subcountry,Canada,178,,census1950_v2p1_t71
+1950,31,Canada-Other,subcountry,Canada,2048,,census1950_v2p1_t71
+1950,31,Mexico,country,Americas,1673,,census1950_v2p1_t71
+1950,31,Other America,residual,Americas,233,,census1950_v2p1_t71
+1950,31,All other,residual,Total (foreign-born white only),165,,census1950_v2p1_t71
+1950,31,Not reported,residual,Total (foreign-born white only),634,,census1950_v2p1_t71
+1950,32,Total (foreign-born white only),total,,10530,,census1950_v2p1_t71
+1950,32,Europe,region,Total (foreign-born white only),8047,,census1950_v2p1_t71_derived
+1950,32,United Kingdom,country,Europe,1001,,census1950_v2p1_t71_derived
+1950,32,England and Wales,subcountry,United Kingdom,784,,census1950_v2p1_t71
+1950,32,Scotland,subcountry,United Kingdom,201,,census1950_v2p1_t71
+1950,32,Northern Ireland,subcountry,United Kingdom,16,,census1950_v2p1_t71
+1950,32,Ireland (Eire),country,Europe,270,,census1950_v2p1_t71
+1950,32,Norway,country,Europe,148,,census1950_v2p1_t71
+1950,32,Sweden,country,Europe,287,,census1950_v2p1_t71
+1950,32,Denmark,country,Europe,363,,census1950_v2p1_t71
+1950,32,Netherlands,country,Europe,77,,census1950_v2p1_t71
+1950,32,Belgium,country,Europe,50,,census1950_v2p1_t71
+1950,32,Switzerland,country,Europe,253,,census1950_v2p1_t71
+1950,32,France,country,Europe,605,,census1950_v2p1_t71
+1950,32,Germany,country,Europe,712,,census1950_v2p1_t71
+1950,32,Poland,country,Europe,115,,census1950_v2p1_t71
+1950,32,Czechoslovakia,country,Europe,45,,census1950_v2p1_t71
+1950,32,Austria,country,Europe,206,,census1950_v2p1_t71
+1950,32,Hungary,country,Europe,51,,census1950_v2p1_t71
+1950,32,Yugoslavia,country,Europe,267,,census1950_v2p1_t71
+1950,32,U.S.S.R.,country,Europe,173,,census1950_v2p1_t71
+1950,32,Lithuania,country,Europe,22,,census1950_v2p1_t71
+1950,32,Finland,country,Europe,78,,census1950_v2p1_t71
+1950,32,Rumania,country,Europe,35,,census1950_v2p1_t71
+1950,32,Greece,country,Europe,400,,census1950_v2p1_t71
+1950,32,Italy,country,Europe,1985,,census1950_v2p1_t71
+1950,32,Spain,country,Europe,815,,census1950_v2p1_t71
+1950,32,Portugal,country,Europe,41,,census1950_v2p1_t71
+1950,32,Other Europe,residual,Europe,48,,census1950_v2p1_t71
+1950,32,Asia,region,Total (foreign-born white only),158,,census1950_v2p1_t71
+1950,32,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,158,,census1950_v2p1_t71_derived
+1950,32,Americas,region,Total (foreign-born white only),1996,,census1950_v2p1_t71_derived
+1950,32,Canada,country,Americas,1102,,census1950_v2p1_t71_derived
+1950,32,Canada-French,subcountry,Canada,179,,census1950_v2p1_t71
+1950,32,Canada-Other,subcountry,Canada,923,,census1950_v2p1_t71
+1950,32,Mexico,country,Americas,786,,census1950_v2p1_t71
+1950,32,Other America,residual,Americas,108,,census1950_v2p1_t71
+1950,32,All other,residual,Total (foreign-born white only),223,,census1950_v2p1_t71
+1950,32,Not reported,residual,Total (foreign-born white only),106,,census1950_v2p1_t71
+1950,33,Total (foreign-born white only),total,,58134,,census1950_v2p1_t71
+1950,33,Europe,region,Total (foreign-born white only),21833,,census1950_v2p1_t71_derived
+1950,33,United Kingdom,country,Europe,4180,,census1950_v2p1_t71_derived
+1950,33,England and Wales,subcountry,United Kingdom,2915,,census1950_v2p1_t71
+1950,33,Scotland,subcountry,United Kingdom,1126,,census1950_v2p1_t71
+1950,33,Northern Ireland,subcountry,United Kingdom,139,,census1950_v2p1_t71
+1950,33,Ireland (Eire),country,Europe,2414,,census1950_v2p1_t71
+1950,33,Norway,country,Europe,302,,census1950_v2p1_t71
+1950,33,Sweden,country,Europe,1071,,census1950_v2p1_t71
+1950,33,Denmark,country,Europe,129,,census1950_v2p1_t71
+1950,33,Netherlands,country,Europe,145,,census1950_v2p1_t71
+1950,33,Belgium,country,Europe,369,,census1950_v2p1_t71
+1950,33,Switzerland,country,Europe,98,,census1950_v2p1_t71
+1950,33,France,country,Europe,340,,census1950_v2p1_t71
+1950,33,Germany,country,Europe,1474,,census1950_v2p1_t71
+1950,33,Poland,country,Europe,2817,,census1950_v2p1_t71
+1950,33,Czechoslovakia,country,Europe,89,,census1950_v2p1_t71
+1950,33,Austria,country,Europe,381,,census1950_v2p1_t71
+1950,33,Hungary,country,Europe,83,,census1950_v2p1_t71
+1950,33,Yugoslavia,country,Europe,34,,census1950_v2p1_t71
+1950,33,U.S.S.R.,country,Europe,1399,,census1950_v2p1_t71
+1950,33,Lithuania,country,Europe,844,,census1950_v2p1_t71
+1950,33,Finland,country,Europe,873,,census1950_v2p1_t71
+1950,33,Rumania,country,Europe,60,,census1950_v2p1_t71
+1950,33,Greece,country,Europe,2632,,census1950_v2p1_t71
+1950,33,Italy,country,Europe,1416,,census1950_v2p1_t71
+1950,33,Spain,country,Europe,19,,census1950_v2p1_t71
+1950,33,Portugal,country,Europe,141,,census1950_v2p1_t71
+1950,33,Other Europe,residual,Europe,523,,census1950_v2p1_t71
+1950,33,Asia,region,Total (foreign-born white only),855,,census1950_v2p1_t71
+1950,33,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,855,,census1950_v2p1_t71_derived
+1950,33,Americas,region,Total (foreign-born white only),35062,,census1950_v2p1_t71_derived
+1950,33,Canada,country,Americas,34850,,census1950_v2p1_t71_derived
+1950,33,Canada-French,subcountry,Canada,24930,,census1950_v2p1_t71
+1950,33,Canada-Other,subcountry,Canada,9920,,census1950_v2p1_t71
+1950,33,Mexico,country,Americas,34,,census1950_v2p1_t71
+1950,33,Other America,residual,Americas,178,,census1950_v2p1_t71
+1950,33,All other,residual,Total (foreign-born white only),151,,census1950_v2p1_t71
+1950,33,Not reported,residual,Total (foreign-born white only),233,,census1950_v2p1_t71
+1950,34,Total (foreign-born white only),total,,630761,,census1950_v2p1_t71
+1950,34,Europe,region,Total (foreign-born white only),596306,,census1950_v2p1_t71_derived
+1950,34,United Kingdom,country,Europe,61582,,census1950_v2p1_t71_derived
+1950,34,England and Wales,subcountry,United Kingdom,35505,,census1950_v2p1_t71
+1950,34,Scotland,subcountry,United Kingdom,24658,,census1950_v2p1_t71
+1950,34,Northern Ireland,subcountry,United Kingdom,1419,,census1950_v2p1_t71
+1950,34,Ireland (Eire),country,Europe,33113,,census1950_v2p1_t71
+1950,34,Norway,country,Europe,5860,,census1950_v2p1_t71
+1950,34,Sweden,country,Europe,8383,,census1950_v2p1_t71
+1950,34,Denmark,country,Europe,4247,,census1950_v2p1_t71
+1950,34,Netherlands,country,Europe,10580,,census1950_v2p1_t71
+1950,34,Belgium,country,Europe,2420,,census1950_v2p1_t71
+1950,34,Switzerland,country,Europe,5711,,census1950_v2p1_t71
+1950,34,France,country,Europe,7405,,census1950_v2p1_t71
+1950,34,Germany,country,Europe,75823,,census1950_v2p1_t71
+1950,34,Poland,country,Europe,69404,,census1950_v2p1_t71
+1950,34,Czechoslovakia,country,Europe,17609,,census1950_v2p1_t71
+1950,34,Austria,country,Europe,28713,,census1950_v2p1_t71
+1950,34,Hungary,country,Europe,30731,,census1950_v2p1_t71
+1950,34,Yugoslavia,country,Europe,2646,,census1950_v2p1_t71
+1950,34,U.S.S.R.,country,Europe,50620,,census1950_v2p1_t71
+1950,34,Lithuania,country,Europe,7910,,census1950_v2p1_t71
+1950,34,Finland,country,Europe,2281,,census1950_v2p1_t71
+1950,34,Rumania,country,Europe,3552,,census1950_v2p1_t71
+1950,34,Greece,country,Europe,6384,,census1950_v2p1_t71
+1950,34,Italy,country,Europe,150680,,census1950_v2p1_t71
+1950,34,Spain,country,Europe,3382,,census1950_v2p1_t71
+1950,34,Portugal,country,Europe,3413,,census1950_v2p1_t71
+1950,34,Other Europe,residual,Europe,3857,,census1950_v2p1_t71
+1950,34,Asia,region,Total (foreign-born white only),7878,,census1950_v2p1_t71
+1950,34,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,7878,,census1950_v2p1_t71_derived
+1950,34,Americas,region,Total (foreign-born white only),21970,,census1950_v2p1_t71_derived
+1950,34,Canada,country,Americas,16223,,census1950_v2p1_t71_derived
+1950,34,Canada-French,subcountry,Canada,2306,,census1950_v2p1_t71
+1950,34,Canada-Other,subcountry,Canada,13917,,census1950_v2p1_t71
+1950,34,Mexico,country,Americas,598,,census1950_v2p1_t71
+1950,34,Other America,residual,Americas,5149,,census1950_v2p1_t71
+1950,34,All other,residual,Total (foreign-born white only),1824,,census1950_v2p1_t71
+1950,34,Not reported,residual,Total (foreign-born white only),2783,,census1950_v2p1_t71
+1950,35,Total (foreign-born white only),total,,17336,,census1950_v2p1_t71
+1950,35,Europe,region,Total (foreign-born white only),5943,,census1950_v2p1_t71_derived
+1950,35,United Kingdom,country,Europe,1136,,census1950_v2p1_t71_derived
+1950,35,England and Wales,subcountry,United Kingdom,884,,census1950_v2p1_t71
+1950,35,Scotland,subcountry,United Kingdom,247,,census1950_v2p1_t71
+1950,35,Northern Ireland,subcountry,United Kingdom,5,,census1950_v2p1_t71
+1950,35,Ireland (Eire),country,Europe,202,,census1950_v2p1_t71
+1950,35,Norway,country,Europe,107,,census1950_v2p1_t71
+1950,35,Sweden,country,Europe,187,,census1950_v2p1_t71
+1950,35,Denmark,country,Europe,80,,census1950_v2p1_t71
+1950,35,Netherlands,country,Europe,68,,census1950_v2p1_t71
+1950,35,Belgium,country,Europe,38,,census1950_v2p1_t71
+1950,35,Switzerland,country,Europe,87,,census1950_v2p1_t71
+1950,35,France,country,Europe,252,,census1950_v2p1_t71
+1950,35,Germany,country,Europe,957,,census1950_v2p1_t71
+1950,35,Poland,country,Europe,167,,census1950_v2p1_t71
+1950,35,Czechoslovakia,country,Europe,102,,census1950_v2p1_t71
+1950,35,Austria,country,Europe,280,,census1950_v2p1_t71
+1950,35,Hungary,country,Europe,95,,census1950_v2p1_t71
+1950,35,Yugoslavia,country,Europe,293,,census1950_v2p1_t71
+1950,35,U.S.S.R.,country,Europe,231,,census1950_v2p1_t71
+1950,35,Lithuania,country,Europe,30,,census1950_v2p1_t71
+1950,35,Finland,country,Europe,54,,census1950_v2p1_t71
+1950,35,Rumania,country,Europe,28,,census1950_v2p1_t71
+1950,35,Greece,country,Europe,408,,census1950_v2p1_t71
+1950,35,Italy,country,Europe,934,,census1950_v2p1_t71
+1950,35,Spain,country,Europe,117,,census1950_v2p1_t71
+1950,35,Portugal,country,Europe,8,,census1950_v2p1_t71
+1950,35,Other Europe,residual,Europe,82,,census1950_v2p1_t71
+1950,35,Asia,region,Total (foreign-born white only),311,,census1950_v2p1_t71
+1950,35,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,311,,census1950_v2p1_t71_derived
+1950,35,Americas,region,Total (foreign-born white only),10703,,census1950_v2p1_t71_derived
+1950,35,Canada,country,Americas,799,,census1950_v2p1_t71_derived
+1950,35,Canada-French,subcountry,Canada,50,,census1950_v2p1_t71
+1950,35,Canada-Other,subcountry,Canada,749,,census1950_v2p1_t71
+1950,35,Mexico,country,Americas,9666,,census1950_v2p1_t71
+1950,35,Other America,residual,Americas,238,,census1950_v2p1_t71
+1950,35,All other,residual,Total (foreign-born white only),110,,census1950_v2p1_t71
+1950,35,Not reported,residual,Total (foreign-born white only),269,,census1950_v2p1_t71
+1950,36,Total (foreign-born white only),total,,2500429,,census1950_v2p1_t71
+1950,36,Europe,region,Total (foreign-born white only),2274613,,census1950_v2p1_t71_derived
+1950,36,United Kingdom,country,Europe,157350,,census1950_v2p1_t71_derived
+1950,36,England and Wales,subcountry,United Kingdom,104875,,census1950_v2p1_t71
+1950,36,Scotland,subcountry,United Kingdom,48304,,census1950_v2p1_t71
+1950,36,Northern Ireland,subcountry,United Kingdom,4171,,census1950_v2p1_t71
+1950,36,Ireland (Eire),country,Europe,182581,,census1950_v2p1_t71
+1950,36,Norway,country,Europe,33073,,census1950_v2p1_t71
+1950,36,Sweden,country,Europe,36747,,census1950_v2p1_t71
+1950,36,Denmark,country,Europe,11627,,census1950_v2p1_t71
+1950,36,Netherlands,country,Europe,13393,,census1950_v2p1_t71
+1950,36,Belgium,country,Europe,7665,,census1950_v2p1_t71
+1950,36,Switzerland,country,Europe,12276,,census1950_v2p1_t71
+1950,36,France,country,Europe,28185,,census1950_v2p1_t71
+1950,36,Germany,country,Europe,270661,,census1950_v2p1_t71
+1950,36,Poland,country,Europe,254065,,census1950_v2p1_t71
+1950,36,Czechoslovakia,country,Europe,44111,,census1950_v2p1_t71
+1950,36,Austria,country,Europe,149955,,census1950_v2p1_t71
+1950,36,Hungary,country,Europe,65276,,census1950_v2p1_t71
+1950,36,Yugoslavia,country,Europe,10097,,census1950_v2p1_t71
+1950,36,U.S.S.R.,country,Europe,353835,,census1950_v2p1_t71
+1950,36,Lithuania,country,Europe,20656,,census1950_v2p1_t71
+1950,36,Finland,country,Europe,12897,,census1950_v2p1_t71
+1950,36,Rumania,country,Europe,32270,,census1950_v2p1_t71
+1950,36,Greece,country,Europe,36757,,census1950_v2p1_t71
+1950,36,Italy,country,Europe,503175,,census1950_v2p1_t71
+1950,36,Spain,country,Europe,14705,,census1950_v2p1_t71
+1950,36,Portugal,country,Europe,4256,,census1950_v2p1_t71
+1950,36,Other Europe,residual,Europe,19000,,census1950_v2p1_t71
+1950,36,Asia,region,Total (foreign-born white only),41791,,census1950_v2p1_t71
+1950,36,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,41791,,census1950_v2p1_t71_derived
+1950,36,Americas,region,Total (foreign-born white only),166407,,census1950_v2p1_t71_derived
+1950,36,Canada,country,Americas,117984,,census1950_v2p1_t71_derived
+1950,36,Canada-French,subcountry,Canada,18254,,census1950_v2p1_t71
+1950,36,Canada-Other,subcountry,Canada,99730,,census1950_v2p1_t71
+1950,36,Mexico,country,Americas,4138,,census1950_v2p1_t71
+1950,36,Other America,residual,Americas,44285,,census1950_v2p1_t71
+1950,36,All other,residual,Total (foreign-born white only),7434,,census1950_v2p1_t71
+1950,36,Not reported,residual,Total (foreign-born white only),10184,,census1950_v2p1_t71
+1950,37,Total (foreign-born white only),total,,16134,,census1950_v2p1_t71
+1950,37,Europe,region,Total (foreign-born white only),10841,,census1950_v2p1_t71_derived
+1950,37,United Kingdom,country,Europe,2437,,census1950_v2p1_t71_derived
+1950,37,England and Wales,subcountry,United Kingdom,1891,,census1950_v2p1_t71
+1950,37,Scotland,subcountry,United Kingdom,522,,census1950_v2p1_t71
+1950,37,Northern Ireland,subcountry,United Kingdom,24,,census1950_v2p1_t71
+1950,37,Ireland (Eire),country,Europe,311,,census1950_v2p1_t71
+1950,37,Norway,country,Europe,98,,census1950_v2p1_t71
+1950,37,Sweden,country,Europe,152,,census1950_v2p1_t71
+1950,37,Denmark,country,Europe,86,,census1950_v2p1_t71
+1950,37,Netherlands,country,Europe,307,,census1950_v2p1_t71
+1950,37,Belgium,country,Europe,83,,census1950_v2p1_t71
+1950,37,Switzerland,country,Europe,89,,census1950_v2p1_t71
+1950,37,France,country,Europe,352,,census1950_v2p1_t71
+1950,37,Germany,country,Europe,1878,,census1950_v2p1_t71
+1950,37,Poland,country,Europe,704,,census1950_v2p1_t71
+1950,37,Czechoslovakia,country,Europe,100,,census1950_v2p1_t71
+1950,37,Austria,country,Europe,295,,census1950_v2p1_t71
+1950,37,Hungary,country,Europe,149,,census1950_v2p1_t71
+1950,37,Yugoslavia,country,Europe,80,,census1950_v2p1_t71
+1950,37,U.S.S.R.,country,Europe,640,,census1950_v2p1_t71
+1950,37,Lithuania,country,Europe,153,,census1950_v2p1_t71
+1950,37,Finland,country,Europe,40,,census1950_v2p1_t71
+1950,37,Rumania,country,Europe,72,,census1950_v2p1_t71
+1950,37,Greece,country,Europe,1472,,census1950_v2p1_t71
+1950,37,Italy,country,Europe,553,,census1950_v2p1_t71
+1950,37,Spain,country,Europe,41,,census1950_v2p1_t71
+1950,37,Portugal,country,Europe,17,,census1950_v2p1_t71
+1950,37,Other Europe,residual,Europe,732,,census1950_v2p1_t71
+1950,37,Asia,region,Total (foreign-born white only),1128,,census1950_v2p1_t71
+1950,37,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,1128,,census1950_v2p1_t71_derived
+1950,37,Americas,region,Total (foreign-born white only),2061,,census1950_v2p1_t71_derived
+1950,37,Canada,country,Americas,1457,,census1950_v2p1_t71_derived
+1950,37,Canada-French,subcountry,Canada,136,,census1950_v2p1_t71
+1950,37,Canada-Other,subcountry,Canada,1321,,census1950_v2p1_t71
+1950,37,Mexico,country,Americas,96,,census1950_v2p1_t71
+1950,37,Other America,residual,Americas,508,,census1950_v2p1_t71
+1950,37,All other,residual,Total (foreign-born white only),247,,census1950_v2p1_t71
+1950,37,Not reported,residual,Total (foreign-born white only),1857,,census1950_v2p1_t71
+1950,38,Total (foreign-born white only),total,,49232,,census1950_v2p1_t71
+1950,38,Europe,region,Total (foreign-born white only),42283,,census1950_v2p1_t71_derived
+1950,38,United Kingdom,country,Europe,1102,,census1950_v2p1_t71_derived
+1950,38,England and Wales,subcountry,United Kingdom,729,,census1950_v2p1_t71
+1950,38,Scotland,subcountry,United Kingdom,351,,census1950_v2p1_t71
+1950,38,Northern Ireland,subcountry,United Kingdom,22,,census1950_v2p1_t71
+1950,38,Ireland (Eire),country,Europe,417,,census1950_v2p1_t71
+1950,38,Norway,country,Europe,13268,,census1950_v2p1_t71
+1950,38,Sweden,country,Europe,3415,,census1950_v2p1_t71
+1950,38,Denmark,country,Europe,1315,,census1950_v2p1_t71
+1950,38,Netherlands,country,Europe,341,,census1950_v2p1_t71
+1950,38,Belgium,country,Europe,127,,census1950_v2p1_t71
+1950,38,Switzerland,country,Europe,143,,census1950_v2p1_t71
+1950,38,France,country,Europe,114,,census1950_v2p1_t71
+1950,38,Germany,country,Europe,4195,,census1950_v2p1_t71
+1950,38,Poland,country,Europe,981,,census1950_v2p1_t71
+1950,38,Czechoslovakia,country,Europe,819,,census1950_v2p1_t71
+1950,38,Austria,country,Europe,948,,census1950_v2p1_t71
+1950,38,Hungary,country,Europe,830,,census1950_v2p1_t71
+1950,38,Yugoslavia,country,Europe,81,,census1950_v2p1_t71
+1950,38,U.S.S.R.,country,Europe,12393,,census1950_v2p1_t71
+1950,38,Lithuania,country,Europe,88,,census1950_v2p1_t71
+1950,38,Finland,country,Europe,311,,census1950_v2p1_t71
+1950,38,Rumania,country,Europe,481,,census1950_v2p1_t71
+1950,38,Greece,country,Europe,180,,census1950_v2p1_t71
+1950,38,Italy,country,Europe,96,,census1950_v2p1_t71
+1950,38,Spain,country,Europe,4,,census1950_v2p1_t71
+1950,38,Portugal,country,Europe,3,,census1950_v2p1_t71
+1950,38,Other Europe,residual,Europe,631,,census1950_v2p1_t71
+1950,38,Asia,region,Total (foreign-born white only),296,,census1950_v2p1_t71
+1950,38,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,296,,census1950_v2p1_t71_derived
+1950,38,Americas,region,Total (foreign-born white only),6348,,census1950_v2p1_t71_derived
+1950,38,Canada,country,Americas,6179,,census1950_v2p1_t71_derived
+1950,38,Canada-French,subcountry,Canada,634,,census1950_v2p1_t71
+1950,38,Canada-Other,subcountry,Canada,5545,,census1950_v2p1_t71
+1950,38,Mexico,country,Americas,77,,census1950_v2p1_t71
+1950,38,Other America,residual,Americas,92,,census1950_v2p1_t71
+1950,38,All other,residual,Total (foreign-born white only),55,,census1950_v2p1_t71
+1950,38,Not reported,residual,Total (foreign-born white only),250,,census1950_v2p1_t71
+1950,39,Total (foreign-born white only),total,,443158,,census1950_v2p1_t71
+1950,39,Europe,region,Total (foreign-born white only),405936,,census1950_v2p1_t71_derived
+1950,39,United Kingdom,country,Europe,40969,,census1950_v2p1_t71_derived
+1950,39,England and Wales,subcountry,United Kingdom,28955,,census1950_v2p1_t71
+1950,39,Scotland,subcountry,United Kingdom,11615,,census1950_v2p1_t71
+1950,39,Northern Ireland,subcountry,United Kingdom,399,,census1950_v2p1_t71
+1950,39,Ireland (Eire),country,Europe,11146,,census1950_v2p1_t71
+1950,39,Norway,country,Europe,1289,,census1950_v2p1_t71
+1950,39,Sweden,country,Europe,4526,,census1950_v2p1_t71
+1950,39,Denmark,country,Europe,1434,,census1950_v2p1_t71
+1950,39,Netherlands,country,Europe,1530,,census1950_v2p1_t71
+1950,39,Belgium,country,Europe,1586,,census1950_v2p1_t71
+1950,39,Switzerland,country,Europe,3617,,census1950_v2p1_t71
+1950,39,France,country,Europe,3551,,census1950_v2p1_t71
+1950,39,Germany,country,Europe,48528,,census1950_v2p1_t71
+1950,39,Poland,country,Europe,41820,,census1950_v2p1_t71
+1950,39,Czechoslovakia,country,Europe,38208,,census1950_v2p1_t71
+1950,39,Austria,country,Europe,23553,,census1950_v2p1_t71
+1950,39,Hungary,country,Europe,43410,,census1950_v2p1_t71
+1950,39,Yugoslavia,country,Europe,26089,,census1950_v2p1_t71
+1950,39,U.S.S.R.,country,Europe,23114,,census1950_v2p1_t71
+1950,39,Lithuania,country,Europe,6238,,census1950_v2p1_t71
+1950,39,Finland,country,Europe,3682,,census1950_v2p1_t71
+1950,39,Rumania,country,Europe,9167,,census1950_v2p1_t71
+1950,39,Greece,country,Europe,10271,,census1950_v2p1_t71
+1950,39,Italy,country,Europe,56593,,census1950_v2p1_t71
+1950,39,Spain,country,Europe,1141,,census1950_v2p1_t71
+1950,39,Portugal,country,Europe,243,,census1950_v2p1_t71
+1950,39,Other Europe,residual,Europe,4231,,census1950_v2p1_t71
+1950,39,Asia,region,Total (foreign-born white only),7071,,census1950_v2p1_t71
+1950,39,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,7071,,census1950_v2p1_t71_derived
+1950,39,Americas,region,Total (foreign-born white only),24061,,census1950_v2p1_t71_derived
+1950,39,Canada,country,Americas,20451,,census1950_v2p1_t71_derived
+1950,39,Canada-French,subcountry,Canada,1713,,census1950_v2p1_t71
+1950,39,Canada-Other,subcountry,Canada,18738,,census1950_v2p1_t71
+1950,39,Mexico,country,Americas,1824,,census1950_v2p1_t71
+1950,39,Other America,residual,Americas,1786,,census1950_v2p1_t71
+1950,39,All other,residual,Total (foreign-born white only),1275,,census1950_v2p1_t71
+1950,39,Not reported,residual,Total (foreign-born white only),4815,,census1950_v2p1_t71
+1950,40,Total (foreign-born white only),total,,18906,,census1950_v2p1_t71
+1950,40,Europe,region,Total (foreign-born white only),13594,,census1950_v2p1_t71_derived
+1950,40,United Kingdom,country,Europe,2191,,census1950_v2p1_t71_derived
+1950,40,England and Wales,subcountry,United Kingdom,1712,,census1950_v2p1_t71
+1950,40,Scotland,subcountry,United Kingdom,464,,census1950_v2p1_t71
+1950,40,Northern Ireland,subcountry,United Kingdom,15,,census1950_v2p1_t71
+1950,40,Ireland (Eire),country,Europe,358,,census1950_v2p1_t71
+1950,40,Norway,country,Europe,128,,census1950_v2p1_t71
+1950,40,Sweden,country,Europe,356,,census1950_v2p1_t71
+1950,40,Denmark,country,Europe,221,,census1950_v2p1_t71
+1950,40,Netherlands,country,Europe,105,,census1950_v2p1_t71
+1950,40,Belgium,country,Europe,146,,census1950_v2p1_t71
+1950,40,Switzerland,country,Europe,242,,census1950_v2p1_t71
+1950,40,France,country,Europe,408,,census1950_v2p1_t71
+1950,40,Germany,country,Europe,3202,,census1950_v2p1_t71
+1950,40,Poland,country,Europe,724,,census1950_v2p1_t71
+1950,40,Czechoslovakia,country,Europe,899,,census1950_v2p1_t71
+1950,40,Austria,country,Europe,484,,census1950_v2p1_t71
+1950,40,Hungary,country,Europe,184,,census1950_v2p1_t71
+1950,40,Yugoslavia,country,Europe,76,,census1950_v2p1_t71
+1950,40,U.S.S.R.,country,Europe,2008,,census1950_v2p1_t71
+1950,40,Lithuania,country,Europe,124,,census1950_v2p1_t71
+1950,40,Finland,country,Europe,40,,census1950_v2p1_t71
+1950,40,Rumania,country,Europe,79,,census1950_v2p1_t71
+1950,40,Greece,country,Europe,417,,census1950_v2p1_t71
+1950,40,Italy,country,Europe,805,,census1950_v2p1_t71
+1950,40,Spain,country,Europe,36,,census1950_v2p1_t71
+1950,40,Portugal,country,Europe,7,,census1950_v2p1_t71
+1950,40,Other Europe,residual,Europe,354,,census1950_v2p1_t71
+1950,40,Asia,region,Total (foreign-born white only),837,,census1950_v2p1_t71
+1950,40,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,837,,census1950_v2p1_t71_derived
+1950,40,Americas,region,Total (foreign-born white only),3404,,census1950_v2p1_t71_derived
+1950,40,Canada,country,Americas,1748,,census1950_v2p1_t71_derived
+1950,40,Canada-French,subcountry,Canada,160,,census1950_v2p1_t71
+1950,40,Canada-Other,subcountry,Canada,1588,,census1950_v2p1_t71
+1950,40,Mexico,country,Americas,1196,,census1950_v2p1_t71
+1950,40,Other America,residual,Americas,460,,census1950_v2p1_t71
+1950,40,All other,residual,Total (foreign-born white only),215,,census1950_v2p1_t71
+1950,40,Not reported,residual,Total (foreign-born white only),856,,census1950_v2p1_t71
+1950,41,Total (foreign-born white only),total,,83612,,census1950_v2p1_t71
+1950,41,Europe,region,Total (foreign-born white only),61189,,census1950_v2p1_t71_derived
+1950,41,United Kingdom,country,Europe,9258,,census1950_v2p1_t71_derived
+1950,41,England and Wales,subcountry,United Kingdom,6482,,census1950_v2p1_t71
+1950,41,Scotland,subcountry,United Kingdom,2635,,census1950_v2p1_t71
+1950,41,Northern Ireland,subcountry,United Kingdom,141,,census1950_v2p1_t71
+1950,41,Ireland (Eire),country,Europe,2179,,census1950_v2p1_t71
+1950,41,Norway,country,Europe,5318,,census1950_v2p1_t71
+1950,41,Sweden,country,Europe,6904,,census1950_v2p1_t71
+1950,41,Denmark,country,Europe,2521,,census1950_v2p1_t71
+1950,41,Netherlands,country,Europe,1010,,census1950_v2p1_t71
+1950,41,Belgium,country,Europe,522,,census1950_v2p1_t71
+1950,41,Switzerland,country,Europe,2465,,census1950_v2p1_t71
+1950,41,France,country,Europe,838,,census1950_v2p1_t71
+1950,41,Germany,country,Europe,7930,,census1950_v2p1_t71
+1950,41,Poland,country,Europe,1312,,census1950_v2p1_t71
+1950,41,Czechoslovakia,country,Europe,1098,,census1950_v2p1_t71
+1950,41,Austria,country,Europe,2125,,census1950_v2p1_t71
+1950,41,Hungary,country,Europe,743,,census1950_v2p1_t71
+1950,41,Yugoslavia,country,Europe,1139,,census1950_v2p1_t71
+1950,41,U.S.S.R.,country,Europe,5645,,census1950_v2p1_t71
+1950,41,Lithuania,country,Europe,299,,census1950_v2p1_t71
+1950,41,Finland,country,Europe,3530,,census1950_v2p1_t71
+1950,41,Rumania,country,Europe,367,,census1950_v2p1_t71
+1950,41,Greece,country,Europe,1230,,census1950_v2p1_t71
+1950,41,Italy,country,Europe,3581,,census1950_v2p1_t71
+1950,41,Spain,country,Europe,299,,census1950_v2p1_t71
+1950,41,Portugal,country,Europe,74,,census1950_v2p1_t71
+1950,41,Other Europe,residual,Europe,802,,census1950_v2p1_t71
+1950,41,Asia,region,Total (foreign-born white only),972,,census1950_v2p1_t71
+1950,41,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,972,,census1950_v2p1_t71_derived
+1950,41,Americas,region,Total (foreign-born white only),19843,,census1950_v2p1_t71_derived
+1950,41,Canada,country,Americas,18785,,census1950_v2p1_t71_derived
+1950,41,Canada-French,subcountry,Canada,1171,,census1950_v2p1_t71
+1950,41,Canada-Other,subcountry,Canada,17614,,census1950_v2p1_t71
+1950,41,Mexico,country,Americas,618,,census1950_v2p1_t71
+1950,41,Other America,residual,Americas,440,,census1950_v2p1_t71
+1950,41,All other,residual,Total (foreign-born white only),872,,census1950_v2p1_t71
+1950,41,Not reported,residual,Total (foreign-born white only),736,,census1950_v2p1_t71
+1950,42,Total (foreign-born white only),total,,776609,,census1950_v2p1_t71
+1950,42,Europe,region,Total (foreign-born white only),741126,,census1950_v2p1_t71_derived
+1950,42,United Kingdom,country,Europe,70524,,census1950_v2p1_t71_derived
+1950,42,England and Wales,subcountry,United Kingdom,48752,,census1950_v2p1_t71
+1950,42,Scotland,subcountry,United Kingdom,20231,,census1950_v2p1_t71
+1950,42,Northern Ireland,subcountry,United Kingdom,1541,,census1950_v2p1_t71
+1950,42,Ireland (Eire),country,Europe,44844,,census1950_v2p1_t71
+1950,42,Norway,country,Europe,2024,,census1950_v2p1_t71
+1950,42,Sweden,country,Europe,7724,,census1950_v2p1_t71
+1950,42,Denmark,country,Europe,1724,,census1950_v2p1_t71
+1950,42,Netherlands,country,Europe,1219,,census1950_v2p1_t71
+1950,42,Belgium,country,Europe,2353,,census1950_v2p1_t71
+1950,42,Switzerland,country,Europe,3015,,census1950_v2p1_t71
+1950,42,France,country,Europe,6550,,census1950_v2p1_t71
+1950,42,Germany,country,Europe,59532,,census1950_v2p1_t71
+1950,42,Poland,country,Europe,87947,,census1950_v2p1_t71
+1950,42,Czechoslovakia,country,Europe,48634,,census1950_v2p1_t71
+1950,42,Austria,country,Europe,60738,,census1950_v2p1_t71
+1950,42,Hungary,country,Europe,32134,,census1950_v2p1_t71
+1950,42,Yugoslavia,country,Europe,21412,,census1950_v2p1_t71
+1950,42,U.S.S.R.,country,Europe,80541,,census1950_v2p1_t71
+1950,42,Lithuania,country,Europe,20432,,census1950_v2p1_t71
+1950,42,Finland,country,Europe,1232,,census1950_v2p1_t71
+1950,42,Rumania,country,Europe,6820,,census1950_v2p1_t71
+1950,42,Greece,country,Europe,10474,,census1950_v2p1_t71
+1950,42,Italy,country,Europe,163359,,census1950_v2p1_t71
+1950,42,Spain,country,Europe,1700,,census1950_v2p1_t71
+1950,42,Portugal,country,Europe,833,,census1950_v2p1_t71
+1950,42,Other Europe,residual,Europe,5361,,census1950_v2p1_t71
+1950,42,Asia,region,Total (foreign-born white only),9362,,census1950_v2p1_t71
+1950,42,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,9362,,census1950_v2p1_t71_derived
+1950,42,Americas,region,Total (foreign-born white only),19082,,census1950_v2p1_t71_derived
+1950,42,Canada,country,Americas,13989,,census1950_v2p1_t71_derived
+1950,42,Canada-French,subcountry,Canada,1114,,census1950_v2p1_t71
+1950,42,Canada-Other,subcountry,Canada,12875,,census1950_v2p1_t71
+1950,42,Mexico,country,Americas,1374,,census1950_v2p1_t71
+1950,42,Other America,residual,Americas,3719,,census1950_v2p1_t71
+1950,42,All other,residual,Total (foreign-born white only),1742,,census1950_v2p1_t71
+1950,42,Not reported,residual,Total (foreign-born white only),5297,,census1950_v2p1_t71
+1950,44,Total (foreign-born white only),total,,113264,,census1950_v2p1_t71
+1950,44,Europe,region,Total (foreign-born white only),80766,,census1950_v2p1_t71_derived
+1950,44,United Kingdom,country,Europe,18211,,census1950_v2p1_t71_derived
+1950,44,England and Wales,subcountry,United Kingdom,14273,,census1950_v2p1_t71
+1950,44,Scotland,subcountry,United Kingdom,3754,,census1950_v2p1_t71
+1950,44,Northern Ireland,subcountry,United Kingdom,184,,census1950_v2p1_t71
+1950,44,Ireland (Eire),country,Europe,8126,,census1950_v2p1_t71
+1950,44,Norway,country,Europe,332,,census1950_v2p1_t71
+1950,44,Sweden,country,Europe,3428,,census1950_v2p1_t71
+1950,44,Denmark,country,Europe,177,,census1950_v2p1_t71
+1950,44,Netherlands,country,Europe,120,,census1950_v2p1_t71
+1950,44,Belgium,country,Europe,627,,census1950_v2p1_t71
+1950,44,Switzerland,country,Europe,160,,census1950_v2p1_t71
+1950,44,France,country,Europe,1601,,census1950_v2p1_t71
+1950,44,Germany,country,Europe,2573,,census1950_v2p1_t71
+1950,44,Poland,country,Europe,5336,,census1950_v2p1_t71
+1950,44,Czechoslovakia,country,Europe,166,,census1950_v2p1_t71
+1950,44,Austria,country,Europe,1234,,census1950_v2p1_t71
+1950,44,Hungary,country,Europe,193,,census1950_v2p1_t71
+1950,44,Yugoslavia,country,Europe,42,,census1950_v2p1_t71
+1950,44,U.S.S.R.,country,Europe,4678,,census1950_v2p1_t71
+1950,44,Lithuania,country,Europe,603,,census1950_v2p1_t71
+1950,44,Finland,country,Europe,443,,census1950_v2p1_t71
+1950,44,Rumania,country,Europe,247,,census1950_v2p1_t71
+1950,44,Greece,country,Europe,1050,,census1950_v2p1_t71
+1950,44,Italy,country,Europe,24380,,census1950_v2p1_t71
+1950,44,Spain,country,Europe,100,,census1950_v2p1_t71
+1950,44,Portugal,country,Europe,6407,,census1950_v2p1_t71
+1950,44,Other Europe,residual,Europe,532,,census1950_v2p1_t71
+1950,44,Asia,region,Total (foreign-born white only),3361,,census1950_v2p1_t71
+1950,44,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,3361,,census1950_v2p1_t71_derived
+1950,44,Americas,region,Total (foreign-born white only),26030,,census1950_v2p1_t71_derived
+1950,44,Canada,country,Americas,25286,,census1950_v2p1_t71_derived
+1950,44,Canada-French,subcountry,Canada,19163,,census1950_v2p1_t71
+1950,44,Canada-Other,subcountry,Canada,6123,,census1950_v2p1_t71
+1950,44,Mexico,country,Americas,53,,census1950_v2p1_t71
+1950,44,Other America,residual,Americas,691,,census1950_v2p1_t71
+1950,44,All other,residual,Total (foreign-born white only),2666,,census1950_v2p1_t71
+1950,44,Not reported,residual,Total (foreign-born white only),441,,census1950_v2p1_t71
+1950,45,Total (foreign-born white only),total,,7503,,census1950_v2p1_t71
+1950,45,Europe,region,Total (foreign-born white only),5184,,census1950_v2p1_t71_derived
+1950,45,United Kingdom,country,Europe,1138,,census1950_v2p1_t71_derived
+1950,45,England and Wales,subcountry,United Kingdom,907,,census1950_v2p1_t71
+1950,45,Scotland,subcountry,United Kingdom,212,,census1950_v2p1_t71
+1950,45,Northern Ireland,subcountry,United Kingdom,19,,census1950_v2p1_t71
+1950,45,Ireland (Eire),country,Europe,202,,census1950_v2p1_t71
+1950,45,Norway,country,Europe,55,,census1950_v2p1_t71
+1950,45,Sweden,country,Europe,78,,census1950_v2p1_t71
+1950,45,Denmark,country,Europe,41,,census1950_v2p1_t71
+1950,45,Netherlands,country,Europe,42,,census1950_v2p1_t71
+1950,45,Belgium,country,Europe,58,,census1950_v2p1_t71
+1950,45,Switzerland,country,Europe,40,,census1950_v2p1_t71
+1950,45,France,country,Europe,161,,census1950_v2p1_t71
+1950,45,Germany,country,Europe,816,,census1950_v2p1_t71
+1950,45,Poland,country,Europe,458,,census1950_v2p1_t71
+1950,45,Czechoslovakia,country,Europe,43,,census1950_v2p1_t71
+1950,45,Austria,country,Europe,142,,census1950_v2p1_t71
+1950,45,Hungary,country,Europe,50,,census1950_v2p1_t71
+1950,45,Yugoslavia,country,Europe,24,,census1950_v2p1_t71
+1950,45,U.S.S.R.,country,Europe,479,,census1950_v2p1_t71
+1950,45,Lithuania,country,Europe,53,,census1950_v2p1_t71
+1950,45,Finland,country,Europe,30,,census1950_v2p1_t71
+1950,45,Rumania,country,Europe,30,,census1950_v2p1_t71
+1950,45,Greece,country,Europe,812,,census1950_v2p1_t71
+1950,45,Italy,country,Europe,228,,census1950_v2p1_t71
+1950,45,Spain,country,Europe,20,,census1950_v2p1_t71
+1950,45,Portugal,country,Europe,2,,census1950_v2p1_t71
+1950,45,Other Europe,residual,Europe,182,,census1950_v2p1_t71
+1950,45,Asia,region,Total (foreign-born white only),608,,census1950_v2p1_t71
+1950,45,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,608,,census1950_v2p1_t71_derived
+1950,45,Americas,region,Total (foreign-born white only),773,,census1950_v2p1_t71_derived
+1950,45,Canada,country,Americas,562,,census1950_v2p1_t71_derived
+1950,45,Canada-French,subcountry,Canada,58,,census1950_v2p1_t71
+1950,45,Canada-Other,subcountry,Canada,504,,census1950_v2p1_t71
+1950,45,Mexico,country,Americas,28,,census1950_v2p1_t71
+1950,45,Other America,residual,Americas,183,,census1950_v2p1_t71
+1950,45,All other,residual,Total (foreign-born white only),154,,census1950_v2p1_t71
+1950,45,Not reported,residual,Total (foreign-born white only),784,,census1950_v2p1_t71
+1950,46,Total (foreign-born white only),total,,30767,,census1950_v2p1_t71
+1950,46,Europe,region,Total (foreign-born white only),28043,,census1950_v2p1_t71_derived
+1950,46,United Kingdom,country,Europe,1452,,census1950_v2p1_t71_derived
+1950,46,England and Wales,subcountry,United Kingdom,1167,,census1950_v2p1_t71
+1950,46,Scotland,subcountry,United Kingdom,265,,census1950_v2p1_t71
+1950,46,Northern Ireland,subcountry,United Kingdom,20,,census1950_v2p1_t71
+1950,46,Ireland (Eire),country,Europe,457,,census1950_v2p1_t71
+1950,46,Norway,country,Europe,5524,,census1950_v2p1_t71
+1950,46,Sweden,country,Europe,2677,,census1950_v2p1_t71
+1950,46,Denmark,country,Europe,2528,,census1950_v2p1_t71
+1950,46,Netherlands,country,Europe,1547,,census1950_v2p1_t71
+1950,46,Belgium,country,Europe,121,,census1950_v2p1_t71
+1950,46,Switzerland,country,Europe,253,,census1950_v2p1_t71
+1950,46,France,country,Europe,109,,census1950_v2p1_t71
+1950,46,Germany,country,Europe,5248,,census1950_v2p1_t71
+1950,46,Poland,country,Europe,381,,census1950_v2p1_t71
+1950,46,Czechoslovakia,country,Europe,1058,,census1950_v2p1_t71
+1950,46,Austria,country,Europe,440,,census1950_v2p1_t71
+1950,46,Hungary,country,Europe,151,,census1950_v2p1_t71
+1950,46,Yugoslavia,country,Europe,98,,census1950_v2p1_t71
+1950,46,U.S.S.R.,country,Europe,4423,,census1950_v2p1_t71
+1950,46,Lithuania,country,Europe,58,,census1950_v2p1_t71
+1950,46,Finland,country,Europe,341,,census1950_v2p1_t71
+1950,46,Rumania,country,Europe,91,,census1950_v2p1_t71
+1950,46,Greece,country,Europe,222,,census1950_v2p1_t71
+1950,46,Italy,country,Europe,202,,census1950_v2p1_t71
+1950,46,Spain,country,Europe,5,,census1950_v2p1_t71
+1950,46,Portugal,country,Europe,2,,census1950_v2p1_t71
+1950,46,Other Europe,residual,Europe,655,,census1950_v2p1_t71
+1950,46,Asia,region,Total (foreign-born white only),245,,census1950_v2p1_t71
+1950,46,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,245,,census1950_v2p1_t71_derived
+1950,46,Americas,region,Total (foreign-born white only),2071,,census1950_v2p1_t71_derived
+1950,46,Canada,country,Americas,1869,,census1950_v2p1_t71_derived
+1950,46,Canada-French,subcountry,Canada,213,,census1950_v2p1_t71
+1950,46,Canada-Other,subcountry,Canada,1656,,census1950_v2p1_t71
+1950,46,Mexico,country,Americas,112,,census1950_v2p1_t71
+1950,46,Other America,residual,Americas,90,,census1950_v2p1_t71
+1950,46,All other,residual,Total (foreign-born white only),95,,census1950_v2p1_t71
+1950,46,Not reported,residual,Total (foreign-born white only),313,,census1950_v2p1_t71
+1950,47,Total (foreign-born white only),total,,15065,,census1950_v2p1_t71
+1950,47,Europe,region,Total (foreign-born white only),11026,,census1950_v2p1_t71_derived
+1950,47,United Kingdom,country,Europe,1924,,census1950_v2p1_t71_derived
+1950,47,England and Wales,subcountry,United Kingdom,1543,,census1950_v2p1_t71
+1950,47,Scotland,subcountry,United Kingdom,367,,census1950_v2p1_t71
+1950,47,Northern Ireland,subcountry,United Kingdom,14,,census1950_v2p1_t71
+1950,47,Ireland (Eire),country,Europe,328,,census1950_v2p1_t71
+1950,47,Norway,country,Europe,103,,census1950_v2p1_t71
+1950,47,Sweden,country,Europe,176,,census1950_v2p1_t71
+1950,47,Denmark,country,Europe,95,,census1950_v2p1_t71
+1950,47,Netherlands,country,Europe,75,,census1950_v2p1_t71
+1950,47,Belgium,country,Europe,83,,census1950_v2p1_t71
+1950,47,Switzerland,country,Europe,220,,census1950_v2p1_t71
+1950,47,France,country,Europe,286,,census1950_v2p1_t71
+1950,47,Germany,country,Europe,1932,,census1950_v2p1_t71
+1950,47,Poland,country,Europe,998,,census1950_v2p1_t71
+1950,47,Czechoslovakia,country,Europe,116,,census1950_v2p1_t71
+1950,47,Austria,country,Europe,297,,census1950_v2p1_t71
+1950,47,Hungary,country,Europe,213,,census1950_v2p1_t71
+1950,47,Yugoslavia,country,Europe,47,,census1950_v2p1_t71
+1950,47,U.S.S.R.,country,Europe,1321,,census1950_v2p1_t71
+1950,47,Lithuania,country,Europe,113,,census1950_v2p1_t71
+1950,47,Finland,country,Europe,31,,census1950_v2p1_t71
+1950,47,Rumania,country,Europe,85,,census1950_v2p1_t71
+1950,47,Greece,country,Europe,525,,census1950_v2p1_t71
+1950,47,Italy,country,Europe,1552,,census1950_v2p1_t71
+1950,47,Spain,country,Europe,22,,census1950_v2p1_t71
+1950,47,Portugal,country,Europe,3,,census1950_v2p1_t71
+1950,47,Other Europe,residual,Europe,481,,census1950_v2p1_t71
+1950,47,Asia,region,Total (foreign-born white only),469,,census1950_v2p1_t71
+1950,47,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,469,,census1950_v2p1_t71_derived
+1950,47,Americas,region,Total (foreign-born white only),1738,,census1950_v2p1_t71_derived
+1950,47,Canada,country,Americas,1190,,census1950_v2p1_t71_derived
+1950,47,Canada-French,subcountry,Canada,68,,census1950_v2p1_t71
+1950,47,Canada-Other,subcountry,Canada,1122,,census1950_v2p1_t71
+1950,47,Mexico,country,Americas,145,,census1950_v2p1_t71
+1950,47,Other America,residual,Americas,403,,census1950_v2p1_t71
+1950,47,All other,residual,Total (foreign-born white only),203,,census1950_v2p1_t71
+1950,47,Not reported,residual,Total (foreign-born white only),1629,,census1950_v2p1_t71
+1950,48,Total (foreign-born white only),total,,276645,,census1950_v2p1_t71
+1950,48,Europe,region,Total (foreign-born white only),63572,,census1950_v2p1_t71_derived
+1950,48,United Kingdom,country,Europe,8878,,census1950_v2p1_t71_derived
+1950,48,England and Wales,subcountry,United Kingdom,7347,,census1950_v2p1_t71
+1950,48,Scotland,subcountry,United Kingdom,1472,,census1950_v2p1_t71
+1950,48,Northern Ireland,subcountry,United Kingdom,59,,census1950_v2p1_t71
+1950,48,Ireland (Eire),country,Europe,2384,,census1950_v2p1_t71
+1950,48,Norway,country,Europe,928,,census1950_v2p1_t71
+1950,48,Sweden,country,Europe,2346,,census1950_v2p1_t71
+1950,48,Denmark,country,Europe,941,,census1950_v2p1_t71
+1950,48,Netherlands,country,Europe,699,,census1950_v2p1_t71
+1950,48,Belgium,country,Europe,485,,census1950_v2p1_t71
+1950,48,Switzerland,country,Europe,844,,census1950_v2p1_t71
+1950,48,France,country,Europe,1656,,census1950_v2p1_t71
+1950,48,Germany,country,Europe,15380,,census1950_v2p1_t71
+1950,48,Poland,country,Europe,3914,,census1950_v2p1_t71
+1950,48,Czechoslovakia,country,Europe,6544,,census1950_v2p1_t71
+1950,48,Austria,country,Europe,2748,,census1950_v2p1_t71
+1950,48,Hungary,country,Europe,932,,census1950_v2p1_t71
+1950,48,Yugoslavia,country,Europe,479,,census1950_v2p1_t71
+1950,48,U.S.S.R.,country,Europe,4592,,census1950_v2p1_t71
+1950,48,Lithuania,country,Europe,390,,census1950_v2p1_t71
+1950,48,Finland,country,Europe,192,,census1950_v2p1_t71
+1950,48,Rumania,country,Europe,480,,census1950_v2p1_t71
+1950,48,Greece,country,Europe,1919,,census1950_v2p1_t71
+1950,48,Italy,country,Europe,5059,,census1950_v2p1_t71
+1950,48,Spain,country,Europe,604,,census1950_v2p1_t71
+1950,48,Portugal,country,Europe,73,,census1950_v2p1_t71
+1950,48,Other Europe,residual,Europe,1105,,census1950_v2p1_t71
+1950,48,Asia,region,Total (foreign-born white only),3084,,census1950_v2p1_t71
+1950,48,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,3084,,census1950_v2p1_t71_derived
+1950,48,Americas,region,Total (foreign-born white only),204984,,census1950_v2p1_t71_derived
+1950,48,Canada,country,Americas,6096,,census1950_v2p1_t71_derived
+1950,48,Canada-French,subcountry,Canada,524,,census1950_v2p1_t71
+1950,48,Canada-Other,subcountry,Canada,5572,,census1950_v2p1_t71
+1950,48,Mexico,country,Americas,196077,,census1950_v2p1_t71
+1950,48,Other America,residual,Americas,2811,,census1950_v2p1_t71
+1950,48,All other,residual,Total (foreign-born white only),1073,,census1950_v2p1_t71
+1950,48,Not reported,residual,Total (foreign-born white only),3932,,census1950_v2p1_t71
+1950,49,Total (foreign-born white only),total,,29844,,census1950_v2p1_t71
+1950,49,Europe,region,Total (foreign-born white only),24939,,census1950_v2p1_t71_derived
+1950,49,United Kingdom,country,Europe,6523,,census1950_v2p1_t71_derived
+1950,49,England and Wales,subcountry,United Kingdom,5712,,census1950_v2p1_t71
+1950,49,Scotland,subcountry,United Kingdom,780,,census1950_v2p1_t71
+1950,49,Northern Ireland,subcountry,United Kingdom,31,,census1950_v2p1_t71
+1950,49,Ireland (Eire),country,Europe,320,,census1950_v2p1_t71
+1950,49,Norway,country,Europe,1236,,census1950_v2p1_t71
+1950,49,Sweden,country,Europe,2092,,census1950_v2p1_t71
+1950,49,Denmark,country,Europe,2240,,census1950_v2p1_t71
+1950,49,Netherlands,country,Europe,2336,,census1950_v2p1_t71
+1950,49,Belgium,country,Europe,134,,census1950_v2p1_t71
+1950,49,Switzerland,country,Europe,972,,census1950_v2p1_t71
+1950,49,France,country,Europe,248,,census1950_v2p1_t71
+1950,49,Germany,country,Europe,3334,,census1950_v2p1_t71
+1950,49,Poland,country,Europe,148,,census1950_v2p1_t71
+1950,49,Czechoslovakia,country,Europe,81,,census1950_v2p1_t71
+1950,49,Austria,country,Europe,500,,census1950_v2p1_t71
+1950,49,Hungary,country,Europe,99,,census1950_v2p1_t71
+1950,49,Yugoslavia,country,Europe,496,,census1950_v2p1_t71
+1950,49,U.S.S.R.,country,Europe,231,,census1950_v2p1_t71
+1950,49,Lithuania,country,Europe,24,,census1950_v2p1_t71
+1950,49,Finland,country,Europe,217,,census1950_v2p1_t71
+1950,49,Rumania,country,Europe,22,,census1950_v2p1_t71
+1950,49,Greece,country,Europe,1682,,census1950_v2p1_t71
+1950,49,Italy,country,Europe,1750,,census1950_v2p1_t71
+1950,49,Spain,country,Europe,137,,census1950_v2p1_t71
+1950,49,Portugal,country,Europe,5,,census1950_v2p1_t71
+1950,49,Other Europe,residual,Europe,112,,census1950_v2p1_t71
+1950,49,Asia,region,Total (foreign-born white only),444,,census1950_v2p1_t71
+1950,49,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,444,,census1950_v2p1_t71_derived
+1950,49,Americas,region,Total (foreign-born white only),3726,,census1950_v2p1_t71_derived
+1950,49,Canada,country,Americas,2145,,census1950_v2p1_t71_derived
+1950,49,Canada-French,subcountry,Canada,139,,census1950_v2p1_t71
+1950,49,Canada-Other,subcountry,Canada,2006,,census1950_v2p1_t71
+1950,49,Mexico,country,Americas,1396,,census1950_v2p1_t71
+1950,49,Other America,residual,Americas,185,,census1950_v2p1_t71
+1950,49,All other,residual,Total (foreign-born white only),406,,census1950_v2p1_t71
+1950,49,Not reported,residual,Total (foreign-born white only),329,,census1950_v2p1_t71
+1950,50,Total (foreign-born white only),total,,28753,,census1950_v2p1_t71
+1950,50,Europe,region,Total (foreign-born white only),9474,,census1950_v2p1_t71_derived
+1950,50,United Kingdom,country,Europe,2327,,census1950_v2p1_t71_derived
+1950,50,England and Wales,subcountry,United Kingdom,1595,,census1950_v2p1_t71
+1950,50,Scotland,subcountry,United Kingdom,714,,census1950_v2p1_t71
+1950,50,Northern Ireland,subcountry,United Kingdom,18,,census1950_v2p1_t71
+1950,50,Ireland (Eire),country,Europe,627,,census1950_v2p1_t71
+1950,50,Norway,country,Europe,85,,census1950_v2p1_t71
+1950,50,Sweden,country,Europe,554,,census1950_v2p1_t71
+1950,50,Denmark,country,Europe,95,,census1950_v2p1_t71
+1950,50,Netherlands,country,Europe,29,,census1950_v2p1_t71
+1950,50,Belgium,country,Europe,27,,census1950_v2p1_t71
+1950,50,Switzerland,country,Europe,139,,census1950_v2p1_t71
+1950,50,France,country,Europe,188,,census1950_v2p1_t71
+1950,50,Germany,country,Europe,668,,census1950_v2p1_t71
+1950,50,Poland,country,Europe,1010,,census1950_v2p1_t71
+1950,50,Czechoslovakia,country,Europe,127,,census1950_v2p1_t71
+1950,50,Austria,country,Europe,144,,census1950_v2p1_t71
+1950,50,Hungary,country,Europe,149,,census1950_v2p1_t71
+1950,50,Yugoslavia,country,Europe,17,,census1950_v2p1_t71
+1950,50,U.S.S.R.,country,Europe,501,,census1950_v2p1_t71
+1950,50,Lithuania,country,Europe,96,,census1950_v2p1_t71
+1950,50,Finland,country,Europe,300,,census1950_v2p1_t71
+1950,50,Rumania,country,Europe,21,,census1950_v2p1_t71
+1950,50,Greece,country,Europe,180,,census1950_v2p1_t71
+1950,50,Italy,country,Europe,1766,,census1950_v2p1_t71
+1950,50,Spain,country,Europe,269,,census1950_v2p1_t71
+1950,50,Portugal,country,Europe,19,,census1950_v2p1_t71
+1950,50,Other Europe,residual,Europe,136,,census1950_v2p1_t71
+1950,50,Asia,region,Total (foreign-born white only),274,,census1950_v2p1_t71
+1950,50,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,274,,census1950_v2p1_t71_derived
+1950,50,Americas,region,Total (foreign-born white only),18734,,census1950_v2p1_t71_derived
+1950,50,Canada,country,Americas,18646,,census1950_v2p1_t71_derived
+1950,50,Canada-French,subcountry,Canada,12485,,census1950_v2p1_t71
+1950,50,Canada-Other,subcountry,Canada,6161,,census1950_v2p1_t71
+1950,50,Mexico,country,Americas,17,,census1950_v2p1_t71
+1950,50,Other America,residual,Americas,71,,census1950_v2p1_t71
+1950,50,All other,residual,Total (foreign-born white only),70,,census1950_v2p1_t71
+1950,50,Not reported,residual,Total (foreign-born white only),201,,census1950_v2p1_t71
+1950,51,Total (foreign-born white only),total,,35070,,census1950_v2p1_t71
+1950,51,Europe,region,Total (foreign-born white only),26491,,census1950_v2p1_t71_derived
+1950,51,United Kingdom,country,Europe,5960,,census1950_v2p1_t71_derived
+1950,51,England and Wales,subcountry,United Kingdom,4493,,census1950_v2p1_t71
+1950,51,Scotland,subcountry,United Kingdom,1396,,census1950_v2p1_t71
+1950,51,Northern Ireland,subcountry,United Kingdom,71,,census1950_v2p1_t71
+1950,51,Ireland (Eire),country,Europe,948,,census1950_v2p1_t71
+1950,51,Norway,country,Europe,381,,census1950_v2p1_t71
+1950,51,Sweden,country,Europe,489,,census1950_v2p1_t71
+1950,51,Denmark,country,Europe,370,,census1950_v2p1_t71
+1950,51,Netherlands,country,Europe,342,,census1950_v2p1_t71
+1950,51,Belgium,country,Europe,228,,census1950_v2p1_t71
+1950,51,Switzerland,country,Europe,257,,census1950_v2p1_t71
+1950,51,France,country,Europe,808,,census1950_v2p1_t71
+1950,51,Germany,country,Europe,3916,,census1950_v2p1_t71
+1950,51,Poland,country,Europe,1737,,census1950_v2p1_t71
+1950,51,Czechoslovakia,country,Europe,737,,census1950_v2p1_t71
+1950,51,Austria,country,Europe,794,,census1950_v2p1_t71
+1950,51,Hungary,country,Europe,645,,census1950_v2p1_t71
+1950,51,Yugoslavia,country,Europe,158,,census1950_v2p1_t71
+1950,51,U.S.S.R.,country,Europe,3056,,census1950_v2p1_t71
+1950,51,Lithuania,country,Europe,444,,census1950_v2p1_t71
+1950,51,Finland,country,Europe,159,,census1950_v2p1_t71
+1950,51,Rumania,country,Europe,214,,census1950_v2p1_t71
+1950,51,Greece,country,Europe,1717,,census1950_v2p1_t71
+1950,51,Italy,country,Europe,2087,,census1950_v2p1_t71
+1950,51,Spain,country,Europe,159,,census1950_v2p1_t71
+1950,51,Portugal,country,Europe,89,,census1950_v2p1_t71
+1950,51,Other Europe,residual,Europe,796,,census1950_v2p1_t71
+1950,51,Asia,region,Total (foreign-born white only),2014,,census1950_v2p1_t71
+1950,51,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,2014,,census1950_v2p1_t71_derived
+1950,51,Americas,region,Total (foreign-born white only),4450,,census1950_v2p1_t71_derived
+1950,51,Canada,country,Americas,3231,,census1950_v2p1_t71_derived
+1950,51,Canada-French,subcountry,Canada,280,,census1950_v2p1_t71
+1950,51,Canada-Other,subcountry,Canada,2951,,census1950_v2p1_t71
+1950,51,Mexico,country,Americas,145,,census1950_v2p1_t71
+1950,51,Other America,residual,Americas,1074,,census1950_v2p1_t71
+1950,51,All other,residual,Total (foreign-born white only),662,,census1950_v2p1_t71
+1950,51,Not reported,residual,Total (foreign-born white only),1453,,census1950_v2p1_t71
+1950,53,Total (foreign-born white only),total,,191001,,census1950_v2p1_t71
+1950,53,Europe,region,Total (foreign-born white only),136019,,census1950_v2p1_t71_derived
+1950,53,United Kingdom,country,Europe,21492,,census1950_v2p1_t71_derived
+1950,53,England and Wales,subcountry,United Kingdom,15820,,census1950_v2p1_t71
+1950,53,Scotland,subcountry,United Kingdom,5513,,census1950_v2p1_t71
+1950,53,Northern Ireland,subcountry,United Kingdom,159,,census1950_v2p1_t71
+1950,53,Ireland (Eire),country,Europe,3903,,census1950_v2p1_t71
+1950,53,Norway,country,Europe,23304,,census1950_v2p1_t71
+1950,53,Sweden,country,Europe,20906,,census1950_v2p1_t71
+1950,53,Denmark,country,Europe,4710,,census1950_v2p1_t71
+1950,53,Netherlands,country,Europe,3230,,census1950_v2p1_t71
+1950,53,Belgium,country,Europe,994,,census1950_v2p1_t71
+1950,53,Switzerland,country,Europe,2360,,census1950_v2p1_t71
+1950,53,France,country,Europe,1458,,census1950_v2p1_t71
+1950,53,Germany,country,Europe,12928,,census1950_v2p1_t71
+1950,53,Poland,country,Europe,2922,,census1950_v2p1_t71
+1950,53,Czechoslovakia,country,Europe,1381,,census1950_v2p1_t71
+1950,53,Austria,country,Europe,3959,,census1950_v2p1_t71
+1950,53,Hungary,country,Europe,770,,census1950_v2p1_t71
+1950,53,Yugoslavia,country,Europe,2998,,census1950_v2p1_t71
+1950,53,U.S.S.R.,country,Europe,8168,,census1950_v2p1_t71
+1950,53,Lithuania,country,Europe,649,,census1950_v2p1_t71
+1950,53,Finland,country,Europe,7237,,census1950_v2p1_t71
+1950,53,Rumania,country,Europe,413,,census1950_v2p1_t71
+1950,53,Greece,country,Europe,2392,,census1950_v2p1_t71
+1950,53,Italy,country,Europe,7566,,census1950_v2p1_t71
+1950,53,Spain,country,Europe,232,,census1950_v2p1_t71
+1950,53,Portugal,country,Europe,65,,census1950_v2p1_t71
+1950,53,Other Europe,residual,Europe,1982,,census1950_v2p1_t71
+1950,53,Asia,region,Total (foreign-born white only),2378,,census1950_v2p1_t71
+1950,53,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,2378,,census1950_v2p1_t71_derived
+1950,53,Americas,region,Total (foreign-born white only),50066,,census1950_v2p1_t71_derived
+1950,53,Canada,country,Americas,47581,,census1950_v2p1_t71_derived
+1950,53,Canada-French,subcountry,Canada,2508,,census1950_v2p1_t71
+1950,53,Canada-Other,subcountry,Canada,45073,,census1950_v2p1_t71
+1950,53,Mexico,country,Americas,1546,,census1950_v2p1_t71
+1950,53,Other America,residual,Americas,939,,census1950_v2p1_t71
+1950,53,All other,residual,Total (foreign-born white only),1321,,census1950_v2p1_t71
+1950,53,Not reported,residual,Total (foreign-born white only),1217,,census1950_v2p1_t71
+1950,54,Total (foreign-born white only),total,,34586,,census1950_v2p1_t71
+1950,54,Europe,region,Total (foreign-born white only),30815,,census1950_v2p1_t71_derived
+1950,54,United Kingdom,country,Europe,3311,,census1950_v2p1_t71_derived
+1950,54,England and Wales,subcountry,United Kingdom,2497,,census1950_v2p1_t71
+1950,54,Scotland,subcountry,United Kingdom,795,,census1950_v2p1_t71
+1950,54,Northern Ireland,subcountry,United Kingdom,19,,census1950_v2p1_t71
+1950,54,Ireland (Eire),country,Europe,393,,census1950_v2p1_t71
+1950,54,Norway,country,Europe,55,,census1950_v2p1_t71
+1950,54,Sweden,country,Europe,160,,census1950_v2p1_t71
+1950,54,Denmark,country,Europe,62,,census1950_v2p1_t71
+1950,54,Netherlands,country,Europe,61,,census1950_v2p1_t71
+1950,54,Belgium,country,Europe,400,,census1950_v2p1_t71
+1950,54,Switzerland,country,Europe,188,,census1950_v2p1_t71
+1950,54,France,country,Europe,413,,census1950_v2p1_t71
+1950,54,Germany,country,Europe,1872,,census1950_v2p1_t71
+1950,54,Poland,country,Europe,3250,,census1950_v2p1_t71
+1950,54,Czechoslovakia,country,Europe,1485,,census1950_v2p1_t71
+1950,54,Austria,country,Europe,1465,,census1950_v2p1_t71
+1950,54,Hungary,country,Europe,2316,,census1950_v2p1_t71
+1950,54,Yugoslavia,country,Europe,1616,,census1950_v2p1_t71
+1950,54,U.S.S.R.,country,Europe,1372,,census1950_v2p1_t71
+1950,54,Lithuania,country,Europe,521,,census1950_v2p1_t71
+1950,54,Finland,country,Europe,167,,census1950_v2p1_t71
+1950,54,Rumania,country,Europe,339,,census1950_v2p1_t71
+1950,54,Greece,country,Europe,1724,,census1950_v2p1_t71
+1950,54,Italy,country,Europe,8557,,census1950_v2p1_t71
+1950,54,Spain,country,Europe,712,,census1950_v2p1_t71
+1950,54,Portugal,country,Europe,44,,census1950_v2p1_t71
+1950,54,Other Europe,residual,Europe,332,,census1950_v2p1_t71
+1950,54,Asia,region,Total (foreign-born white only),1405,,census1950_v2p1_t71
+1950,54,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,1405,,census1950_v2p1_t71_derived
+1950,54,Americas,region,Total (foreign-born white only),1280,,census1950_v2p1_t71_derived
+1950,54,Canada,country,Americas,849,,census1950_v2p1_t71_derived
+1950,54,Canada-French,subcountry,Canada,77,,census1950_v2p1_t71
+1950,54,Canada-Other,subcountry,Canada,772,,census1950_v2p1_t71
+1950,54,Mexico,country,Americas,177,,census1950_v2p1_t71
+1950,54,Other America,residual,Americas,254,,census1950_v2p1_t71
+1950,54,All other,residual,Total (foreign-born white only),188,,census1950_v2p1_t71
+1950,54,Not reported,residual,Total (foreign-born white only),898,,census1950_v2p1_t71
+1950,55,Total (foreign-born white only),total,,218234,,census1950_v2p1_t71
+1950,55,Europe,region,Total (foreign-born white only),203112,,census1950_v2p1_t71_derived
+1950,55,United Kingdom,country,Europe,8150,,census1950_v2p1_t71_derived
+1950,55,England and Wales,subcountry,United Kingdom,6321,,census1950_v2p1_t71
+1950,55,Scotland,subcountry,United Kingdom,1750,,census1950_v2p1_t71
+1950,55,Northern Ireland,subcountry,United Kingdom,79,,census1950_v2p1_t71
+1950,55,Ireland (Eire),country,Europe,1808,,census1950_v2p1_t71
+1950,55,Norway,country,Europe,14663,,census1950_v2p1_t71
+1950,55,Sweden,country,Europe,9285,,census1950_v2p1_t71
+1950,55,Denmark,country,Europe,6537,,census1950_v2p1_t71
+1950,55,Netherlands,country,Europe,4152,,census1950_v2p1_t71
+1950,55,Belgium,country,Europe,1331,,census1950_v2p1_t71
+1950,55,Switzerland,country,Europe,4695,,census1950_v2p1_t71
+1950,55,France,country,Europe,1044,,census1950_v2p1_t71
+1950,55,Germany,country,Europe,58526,,census1950_v2p1_t71
+1950,55,Poland,country,Europe,24446,,census1950_v2p1_t71
+1950,55,Czechoslovakia,country,Europe,9682,,census1950_v2p1_t71
+1950,55,Austria,country,Europe,12262,,census1950_v2p1_t71
+1950,55,Hungary,country,Europe,6006,,census1950_v2p1_t71
+1950,55,Yugoslavia,country,Europe,7597,,census1950_v2p1_t71
+1950,55,U.S.S.R.,country,Europe,11941,,census1950_v2p1_t71
+1950,55,Lithuania,country,Europe,3136,,census1950_v2p1_t71
+1950,55,Finland,country,Europe,3282,,census1950_v2p1_t71
+1950,55,Rumania,country,Europe,620,,census1950_v2p1_t71
+1950,55,Greece,country,Europe,2476,,census1950_v2p1_t71
+1950,55,Italy,country,Europe,9663,,census1950_v2p1_t71
+1950,55,Spain,country,Europe,55,,census1950_v2p1_t71
+1950,55,Portugal,country,Europe,23,,census1950_v2p1_t71
+1950,55,Other Europe,residual,Europe,1732,,census1950_v2p1_t71
+1950,55,Asia,region,Total (foreign-born white only),1796,,census1950_v2p1_t71
+1950,55,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,1796,,census1950_v2p1_t71_derived
+1950,55,Americas,region,Total (foreign-born white only),11389,,census1950_v2p1_t71_derived
+1950,55,Canada,country,Americas,9677,,census1950_v2p1_t71_derived
+1950,55,Canada-French,subcountry,Canada,1642,,census1950_v2p1_t71
+1950,55,Canada-Other,subcountry,Canada,8035,,census1950_v2p1_t71
+1950,55,Mexico,country,Americas,1067,,census1950_v2p1_t71
+1950,55,Other America,residual,Americas,645,,census1950_v2p1_t71
+1950,55,All other,residual,Total (foreign-born white only),568,,census1950_v2p1_t71
+1950,55,Not reported,residual,Total (foreign-born white only),1369,,census1950_v2p1_t71
+1950,56,Total (foreign-born white only),total,,13290,,census1950_v2p1_t71
+1950,56,Europe,region,Total (foreign-born white only),10933,,census1950_v2p1_t71_derived
+1950,56,United Kingdom,country,Europe,2012,,census1950_v2p1_t71_derived
+1950,56,England and Wales,subcountry,United Kingdom,1229,,census1950_v2p1_t71
+1950,56,Scotland,subcountry,United Kingdom,768,,census1950_v2p1_t71
+1950,56,Northern Ireland,subcountry,United Kingdom,15,,census1950_v2p1_t71
+1950,56,Ireland (Eire),country,Europe,383,,census1950_v2p1_t71
+1950,56,Norway,country,Europe,393,,census1950_v2p1_t71
+1950,56,Sweden,country,Europe,949,,census1950_v2p1_t71
+1950,56,Denmark,country,Europe,444,,census1950_v2p1_t71
+1950,56,Netherlands,country,Europe,64,,census1950_v2p1_t71
+1950,56,Belgium,country,Europe,94,,census1950_v2p1_t71
+1950,56,Switzerland,country,Europe,132,,census1950_v2p1_t71
+1950,56,France,country,Europe,297,,census1950_v2p1_t71
+1950,56,Germany,country,Europe,922,,census1950_v2p1_t71
+1950,56,Poland,country,Europe,363,,census1950_v2p1_t71
+1950,56,Czechoslovakia,country,Europe,232,,census1950_v2p1_t71
+1950,56,Austria,country,Europe,854,,census1950_v2p1_t71
+1950,56,Hungary,country,Europe,148,,census1950_v2p1_t71
+1950,56,Yugoslavia,country,Europe,604,,census1950_v2p1_t71
+1950,56,U.S.S.R.,country,Europe,1062,,census1950_v2p1_t71
+1950,56,Lithuania,country,Europe,25,,census1950_v2p1_t71
+1950,56,Finland,country,Europe,262,,census1950_v2p1_t71
+1950,56,Rumania,country,Europe,27,,census1950_v2p1_t71
+1950,56,Greece,country,Europe,613,,census1950_v2p1_t71
+1950,56,Italy,country,Europe,858,,census1950_v2p1_t71
+1950,56,Spain,country,Europe,65,,census1950_v2p1_t71
+1950,56,Portugal,country,Europe,9,,census1950_v2p1_t71
+1950,56,Other Europe,residual,Europe,121,,census1950_v2p1_t71
+1950,56,Asia,region,Total (foreign-born white only),119,,census1950_v2p1_t71
+1950,56,"Asia, country not specified (derived; incl. Turkey in Europe)",residual,Asia,119,,census1950_v2p1_t71_derived
+1950,56,Americas,region,Total (foreign-born white only),2038,,census1950_v2p1_t71_derived
+1950,56,Canada,country,Americas,897,,census1950_v2p1_t71_derived
+1950,56,Canada-French,subcountry,Canada,69,,census1950_v2p1_t71
+1950,56,Canada-Other,subcountry,Canada,828,,census1950_v2p1_t71
+1950,56,Mexico,country,Americas,1049,,census1950_v2p1_t71
+1950,56,Other America,residual,Americas,92,,census1950_v2p1_t71
+1950,56,All other,residual,Total (foreign-born white only),85,,census1950_v2p1_t71
+1950,56,Not reported,residual,Total (foreign-born white only),115,,census1950_v2p1_t71
 1990,01,Total,total,,43533,,census_wp81_t14
 1990,01,Europe,region,Total,13972,,census1990_stf4c_pa23
 1990,01,"Europe, country not specified (derived)",residual,Europe,13972,,census1990_stf4c_pa23_derived

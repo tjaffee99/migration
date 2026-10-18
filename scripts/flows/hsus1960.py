@@ -1,23 +1,24 @@
 """Validate and assemble HSUS 1960 series C 88-114 ("Immigrants, by country: 1820 to 1957",
 Historical Statistics of the United States, Colonial Times to 1957, ch. C, pp. 56-59).
 
-Input: data/raw/hsus1960_chC/C88_114_tesseract_ocr.csv, produced from the Census Bureau scan by
-scripts/flows/ocr_hsus1960.py (Tesseract, column by column), plus DHS Table 1 annual totals.
+Inputs: data/raw/hsus1960_chC/C88_114_tesseract_ocr.csv (Tesseract, column by column, made by
+scripts/flows/ocr_hsus1960.py), the PDF's own text layer (a second, independent OCR), and the
+DHS Table 1 annual totals (C 88 is the same series).
 
-OCR digits are not trusted on their own.  Every year is checked against the table's own
-accounting identities:
+Every cell gets candidate values: the Tesseract reading, the aligned text-layer reading, and
+3<->8 variants of the Tesseract reading (Tesseract systematically reads this typeface's 3 as 8),
+each with a plausibility cost.  Per year, the cheapest unambiguous assignment satisfying the
+table's accounting identities is chosen:
     E1 Europe      = sum of the 11 European columns (C 90-100)
     E2 Asia        = Turkey in Asia + China + Japan + Other Asia (C 102-105)
     E3 America     = Canada & Newfoundland + Mexico + Other America (C 107-109)
     E4 Australasia = Australia & New Zealand + Other Pacific Islands (C 112-113)
-    E5 All         = Europe + Asia + America + Africa + Australasia + All other (C 88 total)
-C 88 is the same series as DHS Yearbook Table 1, so the DHS figure is used as the anchor total
-(the OCR'd C 88 value is compared with it and reported).
-A failing identity may be repaired by changing ONE cell to the value the identity requires,
-and only if that value looks like an OCR misreading of what was read (same number of digits,
-at most 2 digits different) and the change does not break another identity.  Up to 3 repairs
-per year; repaired cells get basis 'reported_annual_ocr_repaired'.  A year whose identities
-cannot all be satisfied is NOT written (only the total, from DHS Table 1, remains).
+    E5 All         = Europe + Asia + America + Africa + Australasia + All other (= DHS Table 1)
+Text-layer tokens are aligned to columns monotonically (no swapping of values between columns).
+If all five identities hold the year is 'full'.  Otherwise only regional groups whose own
+identity has a unique best solution are kept and the rest of the total goes into one derived
+residual row ('derived_unvalidated_remainder').  Cells whose kept value differs from the
+Tesseract reading get basis 'reported_annual_ocr_reconciled'.
 """
 import csv
 import itertools
@@ -75,40 +76,6 @@ def similar(a, b):
 
 def eq_ok(vals, parent, kids):
     return (vals.get(parent) or 0) == sum(vals.get(k) or 0 for k in kids)
-
-
-def solve_year(vals):
-    """vals: label->int|None. Returns (vals, repaired_labels, n_failing_identities)."""
-    vals = dict(vals)
-    repaired = set()
-    for _ in range(3):
-        failing = [e for e in EQS if not eq_ok(vals, *e)]
-        if not failing:
-            break
-        best = None
-        for parent, kids in failing:
-            for cell in [parent] + kids:
-                if cell == "All countries" or cell in repaired:
-                    continue
-                if cell == parent:
-                    need = sum(vals.get(k) or 0 for k in kids)
-                else:
-                    need = (vals.get(parent) or 0) - sum(vals.get(k) or 0 for k in kids if k != cell)
-                if need < 0:
-                    continue
-                cur = vals.get(cell)
-                if cur is None or not similar(cur, need):
-                    continue
-                trial = dict(vals)
-                trial[cell] = need
-                nfail = sum(1 for e in EQS if not eq_ok(trial, *e))
-                if best is None or nfail < best[0]:
-                    best = (nfail, cell, need)
-        if best is None or best[0] >= len(failing):
-            break
-        vals[best[1]] = best[2]
-        repaired.add(best[1])
-    return vals, repaired, sum(1 for e in EQS if not eq_ok(vals, *e))
 
 
 def parse(ocr_csv, pdf, dhs_totals):

@@ -216,6 +216,8 @@ class Registry:
                 u["short"] = SHORT[name]
             if uid in FORCED:
                 u["forced"] = True
+            if uid.startswith("X"):
+                u["residual"] = True
             if uid in NOTES:
                 u["note"] = NOTES[uid]
             self.units[uid] = u

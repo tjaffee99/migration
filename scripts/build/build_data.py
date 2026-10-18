@@ -12,7 +12,9 @@ Annual arrivals by origin, 1607-2024
              1820s official counts (an assumption, flagged in the page).
   1820-1987  official annual totals (DHS Yearbook Table 1) split by origin with iterative
              proportional fitting, so each year matches its official total and each origin
-             matches its official decade total (Table 2).
+             matches its official decade total (Table 2). For 1820-1957 the fit starts from the
+             yearly counts by country group in Historical Statistics of the US (1960), so the
+             within-decade timing follows real yearly data.
   1988       official annual counts by country of last residence.
   1989-2023  official annual counts by country of birth (yearbook Table 3).
 Immigrants living in the US (foreign-born) by origin: census years 1850-2000, ACS 2005-2024,
@@ -195,7 +197,9 @@ fl = rows("flows_by_origin_1820_present.csv")
 tables = defaultdict(list)
 for r in fl:
     tables[(int(r["period_start"]), int(r["period_end"]), r["source_id"])].append(r)
-annual_tables = {k[0]: v for k, v in tables.items() if k[0] == k[1]}
+HSUS = "hsus1960_C88_114"  # 1820-1957 yearly counts by country group (OCR'd, validated cells only)
+annual_tables = {k[0]: v for k, v in tables.items() if k[0] == k[1] and k[2] != HSUS}
+hsus_tables = {k[0]: v for k, v in tables.items() if k[0] == k[1] and k[2] == HSUS}
 # From 1989 the yearbooks list every country of birth (Table 3); the last-residence table (Table 2)
 # lumps many countries into "Other" and leaves up to 11% "Unknown". Prefer birth where available.
 birth_years = set()
@@ -284,6 +288,79 @@ def share_at(o, y):
     return 0.0
 
 
+def hsus_category(uid):
+    """Which Historical Statistics (1960) series C 89-114 group an origin belongs to."""
+    u = R.units[uid]
+    g = u["group"]
+    if g == "bri":
+        return "Ireland" if uid == "IRL" else "Great Britain"
+    if uid in ("NOR", "SWE", "DNK", "ISL", "NOS"):
+        return "Scandinavia"
+    if uid in ("FIN", "SUN", "RUS", "LVA", "EST", "LTU", "UKR", "BLR"):
+        return "U.S.S.R. and Baltic States"
+    if uid == "DEU":
+        return "Germany"
+    if g == "nwe":
+        return "Other Northwestern Europe"
+    if uid == "POL":
+        return "Poland"
+    if uid == "ITA":
+        return "Italy"
+    if uid in ("ROU", "BGR", "OTE", "ALB"):
+        return "Other Eastern Europe"
+    if uid in ("ESP", "PRT", "GRC", "MLT", "XEU", "XSE"):
+        return "Other Southern Europe"
+    if g == "see":
+        return "Other Central Europe"
+    if uid in ("CHN", "JPN"):
+        return {"CHN": "China", "JPN": "Japan"}[uid]
+    if uid in ("OTA", "TUR"):
+        return "Turkey in Asia"
+    if g == "asi":
+        return "Other Asia"
+    if g == "can":
+        return "Canada and Newfoundland"
+    if g == "mex":
+        return "Mexico"
+    if g == "lat":
+        return "Other America"
+    if g == "afr":
+        return "Africa"
+    if uid in ("AUS", "NZL"):
+        return "Australia and New Zealand"
+    if uid == "XOC" or g == "oth" and uid not in ("XNS", "XNT"):
+        return "Other Pacific Islands"
+    return "All other countries"
+
+
+HSUS_CATS = {"Great Britain", "Ireland", "Scandinavia", "Other Northwestern Europe", "Germany", "Poland",
+             "Other Central Europe", "U.S.S.R. and Baltic States", "Other Eastern Europe", "Italy",
+             "Other Southern Europe", "Turkey in Asia", "China", "Japan", "Other Asia", "Canada and Newfoundland",
+             "Mexico", "Other America", "Africa", "Australia and New Zealand", "Other Pacific Islands",
+             "All other countries"}
+
+
+def hsus_year(y):
+    """Validated group counts for year y, and the count left unvalidated (None if no table)."""
+    t = hsus_tables.get(y)
+    if not t:
+        return None, None
+    have = {}
+    by_label = {r["origin_label"]: r for r in t}
+    for cat in HSUS_CATS:
+        r = by_label.get(cat)
+        if r and num(r["count"]) is not None:
+            have[cat] = num(r["count"])
+    # regions with no further detail carry their count on the region row
+    for reg, cat in (("Africa", "Africa"),):
+        r = by_label.get(reg)
+        if r and cat not in have and num(r["count"]) is not None:
+            have[cat] = num(r["count"])
+    rem = sum(num(r["count"]) or 0 for r in t if r["basis"] == "derived_unvalidated_remainder")
+    return have, rem
+
+
+hsus_used = set()
 for d in decades:
     if d >= 1990:
         continue  # annual counts exist from 1988
@@ -306,13 +383,32 @@ for d in decades:
     seed = {}
     for y in years:
         w = {o: max(share_at(o, y), 1e-9) for o in col}
-        s = sum(w.values())
-        seed[y] = {o: tot[y] * w[o] / s for o in col}
+        have, rem = hsus_year(y)
+        if have:
+            # shape the year with the validated group counts; groups that failed validation share
+            # the unvalidated remainder in proportion to their interpolated decade shares
+            cats = defaultdict(list)
+            for o in col:
+                cats[hsus_category(o)].append(o)
+            open_w = sum(w[o] for c, os_ in cats.items() if c not in have for o in os_)
+            seed[y] = {}
+            for c, os_ in cats.items():
+                cw = sum(w[o] for o in os_)
+                if c in have:
+                    amount = have[c]
+                else:
+                    amount = (rem or 0) * cw / open_w if open_w else 0
+                for o in os_:
+                    seed[y][o] = max(amount * w[o] / cw, 1e-6) if cw else 1e-6
+            hsus_used.add(y)
+        else:
+            s = sum(w.values())
+            seed[y] = {o: tot[y] * w[o] / s for o in col}
     m = ipf(years, tot, col, seed)
     for y in years:
         for o, v in m[y].items():
             flow[o][y - Y0] += v
-        basis[y - Y0] = "D"
+        basis[y - Y0] = "H" if y in hsus_used else "D"
 for y, vec in annual_known.items():
     if Y0 <= y <= Y1:
         for o, v in vec.items():
@@ -337,7 +433,7 @@ for y in range(Y0, Y1 + 1):
     i = y - Y0
     s = sum(v[i] for v in flow.values())
     total.append(round(s) if s > 0 or basis[i] != "N" else None)
-    if y in totals and basis[i] in ("A", "B", "D"):
+    if y in totals and basis[i] in ("A", "B", "D", "H"):
         forced = sum(flow[k][i] for k in flow if R.units[k].get("forced"))
         check(f"{y} total = official + enslaved", abs(s - forced - totals[y]) < max(20, 0.001 * totals[y]),
               f"{s - forced:,.0f} vs {totals[y]:,.0f}")
@@ -509,8 +605,10 @@ ABOUT = {
         "Enslaved Africans were brought by force. They are counted from the SlaveVoyages estimates of captives "
         "landed directly from Africa, plus documented voyages from the Caribbean. Smuggling after the 1808 ban is "
         "undercounted, and the domestic slave trade is internal migration, so it is left out.",
-        "From 1820 to 1987 the yearly totals are official, but origins were published by decade. Each decade's "
-        "origin totals are divided among its years in proportion to the official yearly totals.",
+        "From 1820 to 1987 the yearly totals are official, but origins by country were published by decade. Each "
+        "decade's country totals are spread across its years using yearly counts for broad country groups "
+        "(through 1957) or in proportion to the yearly totals (1958–1987). Per-country values in those years are "
+        "shown with a ≈ sign.",
         "Official arrivals record country of last residence through 1988 and country of birth from 1989; the "
         "two can differ. From 1892 they count immigrants admitted; since the 1980s they count people granted "
         "permanent residence that year, including people already living in the US. The 1989–1991 spike is the "
@@ -531,7 +629,7 @@ ERAS = [
      "stock": "Not recorded. The map shows colonial population (Historical Statistics of the US, series Z 1–19)."},
     {"years": "1776–1819", "flow": "War years without an estimate, then about 9,900 Europeans a year (Grabbe via Cohn) with an assumed origin mix; slave trade from SlaveVoyages.",
      "stock": "Not recorded. Census population by state from 1790."},
-    {"years": "1820–1987", "flow": "Official yearly totals; origins from official decade totals (DHS Yearbook Tables 1 and 2).",
+    {"years": "1820–1987", "flow": "Official yearly totals; origins from official decade totals (DHS Yearbook Tables 1 and 2), timed within each decade by yearly counts for 22 country groups through 1957 (Historical Statistics of the US, 1960).",
      "stock": "Census birthplace counts every ten years from 1850, national and by state."},
     {"years": "1988–2023", "flow": "Official yearly counts: by country of last residence in 1988, by country of birth from 1989 (INS and DHS yearbooks).",
      "stock": "Census 1990–2000; American Community Survey each year from 2005, national and by state."},
@@ -549,6 +647,8 @@ data = {
               "long": "No estimate exists for European arrivals during the Revolutionary War; the slave trade is shown where recorded."},
         "G": {"label": "Estimated total · origin mix assumed", "cls": "estimate", "band": "Estimated total",
               "long": "About 9,900 Europeans a year (Grabbe, via Cohn). Their origins are assumed to match the 1820s official counts."},
+        "H": {"label": "Official total · origins partly estimated", "cls": "interp", "band": "Official totals; origins from yearly group counts and decade totals",
+              "long": "The yearly total is the official count. Each country's official decade total is spread across the decade following the yearly counts for its country group (Historical Statistics of the US, 1960, series C 88–114)."},
         "D": {"label": "Official total · origins split from decade counts", "cls": "interp", "band": "Official totals; origins from decade counts",
               "long": "The yearly total is the official count. Origins are official decade totals divided among the decade's years in proportion to the yearly totals."},
         "A": {"label": "Official count", "cls": "official", "band": "Official yearly counts",
