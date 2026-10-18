@@ -1,0 +1,60 @@
+# page 720 (PDF page 36)
+#STATE Kentucky
+Total foreign born,30906,40162,50249
+Germany,11137,19219,27555
+Ireland,3422,5914,9874
+Russia and Lithuania,2792,2872,1076
+Italy,1932,1316,679
+England,1865,2619,3256
+Switzerland,1315,1653,1929
+Hungary,1084,725,146
+Poland,1037,602,668
+France,984,645,983
+Austria,906,912,527
+Canada,903,1070,1208
+Scotland,520,641,793
+Greece,401,273,24
+Syria etc.,367,369,NA
+Jugo-Slavia,354,NA,NA
+All other countries,1887,1332,1531
+#STATE Tennessee
+Total foreign born,15648,18607,17746
+Russia and Lithuania,2265,2127,927
+Germany,2159,3832,4569
+Italy,2079,2034,1222
+England,1670,2045,2207
+Ireland,1291,2296,3372
+Canada,988,1156,1045
+Poland,841,570,322
+Switzerland,616,800,1004
+Greece,491,374,38
+Scotland,454,561,544
+Austria,398,495,300
+France,333,305,332
+Hungary,326,376,296
+Sweden,305,363,337
+Syria etc.,195,159,NA
+Mexico,176,45,29
+All other countries,1061,1069,1202
+#STATE Alabama
+Total foreign born,18027,19286,14592
+Italy,2732,2696,862
+Germany,2427,3519,3634
+England,1951,2365,2347
+Russia and Lithuania,1594,1282,468
+Scotland,975,1120,1223
+Greece,915,633,129
+Canada,904,833,706
+Ireland,809,1167,1792
+Sweden,748,753,488
+France,616,592,539
+Austria,583,724,372
+Syria etc.,559,389,NA
+West Indies,405,230,134
+Poland,394,513,133
+Hungary,372,585,332
+Czechoslovakia,232,NA,NA
+Norway,215,266,159
+Denmark,191,197,96
+Switzerland,174,213,200
+All other countries,1231,1209,978

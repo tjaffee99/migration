@@ -1,0 +1,53 @@
+# page 710 (PDF page 26). columns: 1920 both sexes, 1910, 1900. NA = not shown/footnote
+#STATE Maine
+Total foreign born,107814,110562,93330
+Canada,74420,76223,67077
+French,35580,35013,30908
+Ireland,5748,7890,10159
+England,5153,5651,4793
+Russia and Lithuania,4795,3556,1021
+Italy,2797,3468,1334
+Scotland,2171,2389,2127
+Sweden,2026,2203,1935
+Poland,1717,1527,443
+Finland,1393,831,179
+Greece,1228,579,7
+Denmark,1065,929,886
+Germany,932,1261,1356
+Syria etc.,822,744,NA
+Norway,581,580,509
+All other countries,2966,2731,1504
+#STATE New Hampshire
+Total foreign born,91397,96667,88107
+Canada,52312,57878,58967
+French,38277,40865,44420
+Ireland,7908,10613,13547
+Greece,5280,2634,44
+Russia and Lithuania,4484,2865,722
+England,4368,4862,5100
+Poland,3997,3728,864
+Italy,2074,2071,947
+Sweden,1886,2068,2032
+Scotland,1823,1979,2019
+Germany,1714,1959,2006
+Finland,1558,1198,321
+Syria etc.,866,891,NA
+Belgium,478,175,25
+Norway,427,491,295
+All other countries,2222,3255,1218
+#STATE Vermont
+Total foreign born,44558,49921,44747
+Canada,24885,26058,25655
+French,14181,14643,14984
+Italy,4067,4594,2154
+Ireland,2884,4940,7453
+England,2197,2464,2447
+Scotland,1854,2615,2049
+Poland,1726,2021,369
+Russia and Lithuania,1400,1052,377
+Sweden,1123,1331,1020
+Spain,661,351,53
+Germany,630,773,882
+Wales,549,1043,1056
+Finland,476,293,53
+All other countries,2106,2386,1179

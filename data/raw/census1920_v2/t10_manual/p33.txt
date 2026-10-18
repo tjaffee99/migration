@@ -1,0 +1,54 @@
+# page 717 (PDF page 33)
+#STATE Delaware
+Total foreign born,19901,17492,13810
+Italy,4136,2893,1122
+Poland,3847,3657,1527
+Ireland,2895,3985,5044
+Russia and Lithuania,2334,825,380
+Germany,1632,2045,2332
+England,1497,1558,1506
+Austria,615,467,121
+Canada,453,504,298
+Scotland,411,344,341
+Sweden,316,332,302
+Greece,286,34,12
+Hungary,226,247,86
+France,198,170,148
+All other countries,1055,431,591
+#STATE Maryland
+Total foreign born,103179,104944,93934
+Russia and Lithuania,26997,20164,11301
+Germany,22032,33277,44990
+Poland,12061,12829,3681
+Italy,9543,6969,2449
+Ireland,6580,9705,13874
+England,5113,5211,5299
+Austria,3620,6178,4569
+Czechoslovakia,3553,NA,NA
+Hungary,1947,2089,323
+Canada,1894,1430,1230
+Scotland,1692,1955,2128
+Greece,964,463,95
+France,818,552,534
+West Indies,737,453,309
+Sweden,630,421,347
+All other countries,4998,3248,2805
+#STATE District of Columbia
+Total foreign born,29365,24902,20119
+Russia and Lithuania,5219,2969,807
+Ireland,4320,5347,6220
+Italy,3764,2761,930
+Germany,3382,5082,5857
+England,3001,2638,2299
+Canada,1726,1161,906
+Greece,1207,342,34
+Scotland,793,705,574
+Poland,716,563,132
+France,688,511,389
+Austria,525,417,199
+Sweden,481,359,234
+West Indies,365,243,134
+Switzerland,358,281,244
+Syria etc.,355,139,NA
+China,345,270,417
+All other countries,2120,1114,743

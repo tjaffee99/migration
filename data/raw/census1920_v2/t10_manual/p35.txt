@@ -1,0 +1,59 @@
+# page 719 (PDF page 35)
+#STATE South Carolina
+Total foreign born,6582,6179,5528
+Russia and Lithuania,1196,612,316
+Germany,1079,1725,2075
+Greece,578,282,62
+England,493,517,474
+Ireland,442,676,1131
+Syria etc.,409,263,NA
+Poland,351,231,103
+Italy,344,316,180
+Canada,271,282,204
+Austria,206,184,91
+Scotland,190,239,239
+Sweden,133,95,65
+West Indies,103,59,57
+Norway,85,82,49
+France,78,70,84
+Denmark,76,51,55
+China,63,46,61
+All other countries,485,449,282
+#STATE Georgia
+Total foreign born,16564,15477,12403
+Russia and Lithuania,3524,2914,1232
+Germany,1936,2984,3407
+England,1610,1671,1514
+Greece,1473,941,191
+Ireland,1112,1655,2293
+Canada,965,801,759
+Poland,917,418,169
+Italy,700,545,218
+Syria etc.,566,376,NA
+Scotland,530,527,417
+Austria,401,286,226
+France,376,224,249
+Sweden,299,289,204
+Hungary,246,230,166
+West Indies,223,226,157
+Switzerland,161,169,180
+All other countries,1525,1221,1021
+#STATE Florida
+Total foreign born,53864,40633,23832
+West Indies,19171,17050,11654
+Italy,4745,4538,1707
+England,4522,3078,2231
+Canada,4141,1728,1202
+Spain,4099,4199,1084
+Germany,3534,2427,1812
+Greece,1408,886,98
+Sweden,1399,729,561
+Ireland,1304,1069,797
+Russia and Lithuania,1256,473,220
+Scotland,1069,606,434
+France,737,285,262
+Syria etc.,628,291,NA
+Norway,610,304,235
+Denmark,575,295,204
+Austria,525,216,111
+All other countries,4141,2459,1220

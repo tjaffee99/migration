@@ -1,0 +1,47 @@
+# page 725 (PDF page 41)
+#STATE Nevada
+Total foreign born,16003,19691,10093
+Italy,2641,2831,1296
+England,1271,1793,1167
+Canada,1181,1847,1032
+Spain,1180,778,178
+Mexico,1177,732,98
+Germany,1069,1900,1179
+Ireland,970,1702,1425
+Jugo-Slavia,693,NA,NA
+Japan,649,855,228
+Greece,618,1051,4
+France,609,653,303
+Denmark,551,616,339
+Sweden,545,708,278
+China,529,760,1279
+Switzerland,378,468,344
+Scotland,338,469,247
+Norway,206,255,50
+Austria,190,787,101
+Finland,182,174,51
+All other countries,1026,1312,494
+#STATE Washington
+Total foreign born,265292,256241,111364
+Canada,43179,39482,20284
+French,2581,3711,1899
+Sweden,34793,32199,12737
+Norway,30305,28368,9891
+Germany,22315,28825,16686
+England,20821,19430,10481
+Japan,12971,12177,5769
+Finland,11863,8719,2732
+Russia and Lithuania,11652,9155,2462
+Italy,10813,13121,2124
+Ireland,8927,10180,7262
+Denmark,8359,7804,3626
+Scotland,7886,7101,3623
+Austria,6494,11402,2739
+Greece,4215,4187,65
+Poland,3906,3712,506
+Switzerland,3671,3447,1825
+Jugo-Slavia,3565,NA,NA
+Netherlands,3097,2157,632
+France,2452,2340,1065
+Wales,2040,1976,1509
+All other countries,11968,10459,5346

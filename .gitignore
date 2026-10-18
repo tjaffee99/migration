@@ -1,5 +1,5 @@
 # Raw downloads are large and regenerable with the fetch scripts in scripts/*/ (URLs in data/processed/sources_*.csv)
-data/raw/
+data/raw/*
 node_modules/
 __pycache__/
 *.pyc
@@ -7,3 +7,14 @@ __pycache__/
 
 # geo: extracted AHCB shapefiles (~43 MB; regenerate with scripts/geo/download_raw.sh)
 data/raw/newberry_ahcb/extracted/
+# ...except hand transcriptions and OCR readings of scanned tables, which can't be re-downloaded
+!data/raw/census1920_v2/
+data/raw/census1920_v2/*
+!data/raw/census1920_v2/t10_manual/
+!data/raw/census1950_v2p1/
+data/raw/census1950_v2p1/*
+!data/raw/census1950_v2p1/t71_manual/
+!data/raw/census1950_v2p1/table49_transcribed_fbwhite_1950_1940.csv
+!data/raw/hsus1960_chC/
+data/raw/hsus1960_chC/*
+!data/raw/hsus1960_chC/C88_114_tesseract_ocr.csv

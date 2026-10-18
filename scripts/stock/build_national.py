@@ -144,7 +144,8 @@ def national_wp():
             r['year'] = y
             if y in (1960, 1970) and r['origin_label'] == 'Cape Verde':
                 # WP81 T3 footnote 6: in 1960 and 1970 the figure is for Other Atlantic Islands
-                r['origin_label'] = 'Cape Verde (1960-1970: Other Atlantic Islands)'
+                r['origin_label'] = 'Other Atlantic Islands (shown as Cape Verde in source)'
+                r['level'] = 'residual'
         unique_labels_check(rr, y)
         out += rr
     return out, root3, root4
@@ -255,7 +256,10 @@ def national_1940_1950():
         if year == 1950:
             add('All other', 'residual', 'Total', v['All other'], S)
             add('Not reported', 'residual', 'Total', v['Not reported'], S)
-            add('Foreign born, races other than white (country of birth not tabulated) (derived)',
+            # WP81 total (10,347,395, sample) minus the Table 49 foreign-born-white tabulation
+            # (10,161,168).  WP81 Table 9 gives 251,980 non-white foreign born (sample); the two
+            # tabulations differ, so this remainder (186,227) is not a pure non-white count.
+            add('Foreign born not covered by the foreign-born-white country tabulation (mainly races other than white) (derived)',
                 'residual', 'Total', total - white, D)
         else:
             add('All other and not reported', 'residual', 'Total', v['All other and not reported'], S)

@@ -1,0 +1,63 @@
+# page 724 (PDF page 40)
+#STATE New Mexico
+Total foreign born,29808,23146,13625
+Mexico,20272,11918,6649
+Italy,1678,1959,661
+Germany,1178,1719,1360
+England,889,1101,968
+Canada,738,1023,764
+Jugo-Slavia,535,NA,NA
+Scotland,440,509,427
+Ireland,434,644,692
+Austria,423,1183,367
+France,377,326,298
+Sweden,310,365,244
+Greece,288,167,1
+Russia and Lithuania,262,172,99
+Syria etc.,207,123,NA
+Spain,199,100,27
+Japan,198,254,9
+All other countries,1380,1583,1059
+#STATE Arizona
+Total foreign born,80566,48765,24233
+Mexico,61580,29987,14172
+England,2883,3500,1561
+Canada,1964,1827,1269
+Germany,1516,1825,1245
+Italy,1261,1531,699
+Ireland,1206,1550,1159
+Jugo-Slavia,1167,NA,NA
+Spain,1013,857,51
+Sweden,859,845,342
+Russia and Lithuania,832,236,107
+China,720,1016,1296
+Scotland,595,576,399
+Austria,486,1402,314
+Japan,427,361,284
+Finland,407,560,32
+Denmark,398,284,199
+France,394,323,253
+Syria etc.,358,128,NA
+All other countries,2500,1957,851
+#STATE Utah
+Total foreign born,59200,65822,53777
+England,14839,18083,18879
+Denmark,6970,8300,9132
+Sweden,6073,7227,7025
+Germany,3589,3948,2360
+Italy,3225,3117,1062
+Greece,3029,4039,3
+Japan,2358,2050,419
+Scotland,2310,2853,3143
+Norway,2109,2305,2128
+Netherlands,1980,1392,523
+Switzerland,1566,1691,1469
+Canada,1471,1690,1331
+Wales,1304,1672,2141
+Ireland,1207,1657,1516
+Mexico,1166,166,41
+Austria,987,1829,253
+Jugo-Slavia,836,NA,NA
+Finland,779,1012,734
+Russia and Lithuania,696,462,119
+All other countries,2706,2329,1499

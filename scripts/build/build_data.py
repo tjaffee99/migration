@@ -474,6 +474,9 @@ stc = defaultdict(lambda: defaultdict(list))
 for r in rows("stock_state_by_country.csv"):
     stc[r["state_fips"]][int(r["year"])].append(r)
 
+# Censuses before 2000 list only each state's main birthplaces (plus "All other countries"),
+# so an origin missing from those tables is unknown, not zero.
+PARTIAL_YEARS = {1900, 1910, 1920, 1950}
 state_years_with_countries = set()
 st_out = {}
 for key in sorted(set(st_tot) | set(stc)):
@@ -491,19 +494,22 @@ for key in sorted(set(st_tot) | set(stc)):
         state_years_with_countries.add(y)
         for uid, v in vec.items():
             o[uid][k] = round(v)
-        # origins absent this year are zero, not unknown
-        for uid in list(o):
-            if o[uid][k] is None:
-                o[uid][k] = 0
+        if y not in PARTIAL_YEARS:
+            # full country lists: an origin absent this year is zero, not unknown
+            for uid in list(o):
+                if o[uid][k] is None:
+                    o[uid][k] = 0
     entry = {"pop": [round(x) if x else None for x in pop], "fb": [round(x) if x is not None else None for x in fb]}
     if o:
-        # any origin first seen later is zero in earlier covered years
-        covered = [k for k, y in enumerate(SY) if y in state_years_with_countries and stc.get(key, {}).get(y)]
+        covered = [k for k, y in enumerate(SY) if y in state_years_with_countries and stc.get(key, {}).get(y)
+                   and any(arr[k] is not None for arr in o.values())]
+        # an origin first seen later is zero in earlier full-list years
         for uid, arr in o.items():
             for k in covered:
-                if arr[k] is None:
+                if arr[k] is None and SY[k] not in PARTIAL_YEARS:
                     arr[k] = 0
         entry["o"] = {uid: arr for uid, arr in o.items() if any(v for v in arr if v)}
+        entry["oy"] = covered
     st_out[key] = entry
 # ---------------------------------------------------------------- population before 1850
 STATE_FIPS = {}
@@ -577,7 +583,7 @@ for name in ("sources_colonial.csv", "sources_flows.csv", "sources_stock.csv"):
     if not path.exists():
         continue
     for r in rows(name):
-        if r["source_id"] in seen:
+        if r["source_id"] in seen or r["source_id"].endswith("_derived"):
             continue
         seen.add(r["source_id"])
         sources.append({"id": r["source_id"], "cite": r["citation"], "url": r.get("url", "")})
@@ -618,8 +624,11 @@ ABOUT = {
         "Yugoslavia, Czechoslovakia) appear under their historical names, so a country's line can start or stop "
         "when borders changed.",
         "Census birthplace data begin in 1850. The 1940 and 1950 censuses tabulated country of birth for white "
-        "residents only; other foreign-born residents appear as not tabulated. Census and survey figures for "
-        "states by country of birth come from the 2000 census and the American Community Survey.",
+        "residents only; other foreign-born residents appear as not tabulated. State counts by country of "
+        "birth exist for 1900, 1910 and 1920 (each state's main birthplaces, from the 1920 census), 1950 "
+        "(white residents only), 2000, and every year from 2005 (American Community Survey; small states "
+        "filled from multi-year estimates). Between two of those years up to 30 years apart, a state's "
+        "birthplace mix is interpolated and scaled to its foreign-born total; 1951–1999 has no state breakdown.",
         "Boundaries show each jurisdiction as it stood on July 1 of the year. Colonies are drawn from their "
         "organized counties rather than their sea-to-sea charter claims.",
     ],
@@ -630,9 +639,9 @@ ERAS = [
     {"years": "1776–1819", "flow": "War years without an estimate, then about 9,900 Europeans a year (Grabbe via Cohn) with an assumed origin mix; slave trade from SlaveVoyages.",
      "stock": "Not recorded. Census population by state from 1790."},
     {"years": "1820–1987", "flow": "Official yearly totals; origins from official decade totals (DHS Yearbook Tables 1 and 2), timed within each decade by yearly counts for 22 country groups through 1957 (Historical Statistics of the US, 1960).",
-     "stock": "Census birthplace counts every ten years from 1850, national and by state."},
+     "stock": "Census birthplace counts every ten years from 1850: foreign-born totals for every state, and each state's birthplace mix for 1900, 1910, 1920 and 1950."},
     {"years": "1988–2023", "flow": "Official yearly counts: by country of last residence in 1988, by country of birth from 1989 (INS and DHS yearbooks).",
-     "stock": "Census 1990–2000; American Community Survey each year from 2005, national and by state."},
+     "stock": "Census 1990 and 2000; American Community Survey each year from 2005, national and by state and country."},
 ]
 
 data = {
@@ -659,7 +668,7 @@ data = {
               "long": "The arrivals count for this year has not been published yet."},
     },
     "stock": {
-        "years": SY, "kind": stock_kind,
+        "years": SY, "kind": stock_kind, "partialYears": sorted(PARTIAL_YEARS), "maxGap": 30,
         "nat": {"total": nat_total, "pop": nat_pop, "g": nat_g, "o": {k: v for k, v in nat_o.items()}},
         "st": st_out,
     },

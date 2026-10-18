@@ -11,6 +11,9 @@
   2020       ACS 5-year 2016-2020 B05006                               [acs5_2016_2020_b05006]
   Where the 1-year B05006 is filtered (suppressed) for a state, the 5-year estimate ending
   in that year is used instead (2010-2024 only)                       [acs5_<y-4>_<y>_b05006]
+  1900, 1910, 1920  principal countries of birth (12-25 per state + 'All other countries'),
+             1920 Census Vol. II ch. VI Table 10 (manual transcription, validated against state
+             totals; build_hist_1920_t10.py)                         [census1920_v2_t10]
   1950       foreign-born WHITE by country, 1950 Census Vol. II Pt 1 Table 71 (manual
              transcription, validated by all row/column sums; build_hist_1950_t71.py)
                                                                        [census1950_v2p1_t71]
@@ -155,7 +158,8 @@ def main():
     rows += dec2000()
     for y in range(2005, 2025):
         rows += acs_year(y)
-    import build_hist_1950_t71
+    import build_hist_1950_t71, build_hist_1920_t10
+    rows += build_hist_1920_t10.rows()   # 1900/1910/1920, principal countries, manual transcription
     rows += build_hist_1950_t71.rows()   # 1950, foreign-born white, manual transcription
     # checks
     blocks = {}

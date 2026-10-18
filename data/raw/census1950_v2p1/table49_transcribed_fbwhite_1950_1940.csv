@@ -1,0 +1,44 @@
+# Manual transcription (by the data-gathering agent, from the page image) of
+# U.S. Census of Population 1950, Vol. II Characteristics of the Population, Part 1 U.S. Summary,
+# Table 49 "Country of birth of the foreign-born population, for the United States, urban and rural,
+# 1950, and for the United States, 1870 to 1940", page 1-98 (file 21983999v2p1ch3.pdf, PDF page 14).
+# Columns transcribed: Foreign-born WHITE, 1950 Total, and 1940.  Row labels as printed (footnote marks dropped).
+# Footnotes: 1 Iceland included with Denmark prior to 1930; with Other Europe 1930-1950. 2 Listed as Holland prior to 1910.
+# 4 Latvia and Estonia included with U.S.S.R. 1850-1920 and with Other Europe 1930-1950. 6 Asia includes Turkey in Europe.
+# 7 Canada-Other includes Newfoundland.  In 1940 "All other" and "Not reported" are one figure (58,630).
+label,fbwhite_1950,fbwhite_1940
+All countries,10161168,11419138
+England and Wales,584615,657335
+Scotland,244200,279321
+Northern Ireland,15398,106416
+Ireland (Eire),504961,572031
+Norway,202294,262088
+Sweden,324944,445070
+Denmark,107897,138175
+Netherlands,102133,111064
+Belgium,52891,53958
+Switzerland,71515,88293
+France,107924,102930
+Germany,984331,1237772
+Poland,861184,993479
+Czechoslovakia,278268,319971
+Austria,408785,479906
+Hungary,268022,290228
+Yugoslavia,143956,161093
+U.S.S.R.,894844,1040884
+Lithuania,147765,165771
+Finland,95506,117210
+Rumania,84952,115940
+Greece,169083,163252
+Italy,1427145,1623580
+Spain,45565,47707
+Portugal,54337,62347
+Other Europe,86375,60511
+Asia,180024,154321
+Canada-French,238409,273366
+Canada-Other,756153,792114
+Mexico,450562,377433
+Other America,120297,66942
+All other,69658,
+Not reported,77175,
+All other and not reported,,58630

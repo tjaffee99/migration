@@ -1,4 +1,2843 @@
 year,state_fips,origin_label,level,parent_label,count,moe,source_id
+1900,01,Total,total,,14592,,census1920_v2_t10
+1900,01,Italy,country,Total,862,,census1920_v2_t10
+1900,01,Germany,country,Total,3634,,census1920_v2_t10
+1900,01,England,country,Total,2347,,census1920_v2_t10
+1900,01,Russia and Lithuania,country,Total,468,,census1920_v2_t10
+1900,01,Scotland,country,Total,1223,,census1920_v2_t10
+1900,01,Greece,country,Total,129,,census1920_v2_t10
+1900,01,Canada,country,Total,706,,census1920_v2_t10
+1900,01,Ireland,country,Total,1792,,census1920_v2_t10
+1900,01,Sweden,country,Total,488,,census1920_v2_t10
+1900,01,France,country,Total,539,,census1920_v2_t10
+1900,01,Austria,country,Total,372,,census1920_v2_t10
+1900,01,West Indies (except U.S. possessions),residual,Total,134,,census1920_v2_t10
+1900,01,Poland,country,Total,133,,census1920_v2_t10
+1900,01,Hungary,country,Total,332,,census1920_v2_t10
+1900,01,Norway,country,Total,159,,census1920_v2_t10
+1900,01,Denmark,country,Total,96,,census1920_v2_t10
+1900,01,Switzerland,country,Total,200,,census1920_v2_t10
+1900,01,All other countries,residual,Total,978,,census1920_v2_t10
+1900,04,Total,total,,24233,,census1920_v2_t10
+1900,04,Mexico,country,Total,14172,,census1920_v2_t10
+1900,04,England,country,Total,1561,,census1920_v2_t10
+1900,04,Canada,country,Total,1269,,census1920_v2_t10
+1900,04,Germany,country,Total,1245,,census1920_v2_t10
+1900,04,Italy,country,Total,699,,census1920_v2_t10
+1900,04,Ireland,country,Total,1159,,census1920_v2_t10
+1900,04,Spain,country,Total,51,,census1920_v2_t10
+1900,04,Sweden,country,Total,342,,census1920_v2_t10
+1900,04,Russia and Lithuania,country,Total,107,,census1920_v2_t10
+1900,04,China,country,Total,1296,,census1920_v2_t10
+1900,04,Scotland,country,Total,399,,census1920_v2_t10
+1900,04,Austria,country,Total,314,,census1920_v2_t10
+1900,04,Japan,country,Total,284,,census1920_v2_t10
+1900,04,Finland,country,Total,32,,census1920_v2_t10
+1900,04,Denmark,country,Total,199,,census1920_v2_t10
+1900,04,France,country,Total,253,,census1920_v2_t10
+1900,04,All other countries,residual,Total,851,,census1920_v2_t10
+1900,05,Total,total,,14289,,census1920_v2_t10
+1900,05,Germany,country,Total,5971,,census1920_v2_t10
+1900,05,Italy,country,Total,576,,census1920_v2_t10
+1900,05,England,country,Total,1394,,census1920_v2_t10
+1900,05,Canada,country,Total,1093,,census1920_v2_t10
+1900,05,Switzerland,country,Total,679,,census1920_v2_t10
+1900,05,Russia and Lithuania,country,Total,276,,census1920_v2_t10
+1900,05,Ireland,country,Total,1345,,census1920_v2_t10
+1900,05,Austria,country,Total,732,,census1920_v2_t10
+1900,05,Poland,country,Total,315,,census1920_v2_t10
+1900,05,France,country,Total,387,,census1920_v2_t10
+1900,05,Sweden,country,Total,355,,census1920_v2_t10
+1900,05,Scotland,country,Total,342,,census1920_v2_t10
+1900,05,Mexico,country,Total,68,,census1920_v2_t10
+1900,05,Greece,country,Total,6,,census1920_v2_t10
+1900,05,Denmark,country,Total,135,,census1920_v2_t10
+1900,05,All other countries,residual,Total,615,,census1920_v2_t10
+1900,06,Total,total,,367240,,census1920_v2_t10
+1900,06,Mexico,country,Total,8086,,census1920_v2_t10
+1900,06,Italy,country,Total,22777,,census1920_v2_t10
+1900,06,Germany,country,Total,72449,,census1920_v2_t10
+1900,06,Canada,country,Total,29818,,census1920_v2_t10
+1900,06,England,country,Total,35746,,census1920_v2_t10
+1900,06,Japan,country,Total,10264,,census1920_v2_t10
+1900,06,Ireland,country,Total,44476,,census1920_v2_t10
+1900,06,Sweden,country,Total,14549,,census1920_v2_t10
+1900,06,Russia and Lithuania,country,Total,3421,,census1920_v2_t10
+1900,06,Portugal,country,Total,12068,,census1920_v2_t10
+1900,06,France,country,Total,12256,,census1920_v2_t10
+1900,06,China,country,Total,40262,,census1920_v2_t10
+1900,06,Denmark,country,Total,9040,,census1920_v2_t10
+1900,06,Scotland,country,Total,9467,,census1920_v2_t10
+1900,06,Switzerland,country,Total,10974,,census1920_v2_t10
+1900,06,Austria,country,Total,5860,,census1920_v2_t10
+1900,06,Norway,country,Total,5060,,census1920_v2_t10
+1900,06,Spain,country,Total,896,,census1920_v2_t10
+1900,06,Greece,country,Total,372,,census1920_v2_t10
+1900,06,Atlantic Islands (incl. Azores),residual,Total,3515,,census1920_v2_t10
+1900,06,Poland,country,Total,1320,,census1920_v2_t10
+1900,06,Finland,country,Total,2763,,census1920_v2_t10
+1900,06,Hungary,country,Total,799,,census1920_v2_t10
+1900,06,All other countries,residual,Total,11002,,census1920_v2_t10
+1900,08,Total,total,,91155,,census1920_v2_t10
+1900,08,Russia and Lithuania,country,Total,2938,,census1920_v2_t10
+1900,08,Italy,country,Total,6818,,census1920_v2_t10
+1900,08,Germany,country,Total,14606,,census1920_v2_t10
+1900,08,Mexico,country,Total,274,,census1920_v2_t10
+1900,08,Sweden,country,Total,10765,,census1920_v2_t10
+1900,08,England,country,Total,13575,,census1920_v2_t10
+1900,08,Canada,country,Total,9797,,census1920_v2_t10
+1900,08,Ireland,country,Total,10132,,census1920_v2_t10
+1900,08,Austria,country,Total,6354,,census1920_v2_t10
+1900,08,Scotland,country,Total,4069,,census1920_v2_t10
+1900,08,Denmark,country,Total,2050,,census1920_v2_t10
+1900,08,Poland,country,Total,620,,census1920_v2_t10
+1900,08,Greece,country,Total,37,,census1920_v2_t10
+1900,08,Japan,country,Total,51,,census1920_v2_t10
+1900,08,Norway,country,Total,1149,,census1920_v2_t10
+1900,08,Switzerland,country,Total,1479,,census1920_v2_t10
+1900,08,Wales,country,Total,1955,,census1920_v2_t10
+1900,08,France,country,Total,1162,,census1920_v2_t10
+1900,08,All other countries,residual,Total,3324,,census1920_v2_t10
+1900,09,Total,total,,238210,,census1920_v2_t10
+1900,09,Italy,country,Total,19105,,census1920_v2_t10
+1900,09,Russia and Lithuania,country,Total,11404,,census1920_v2_t10
+1900,09,Poland,country,Total,10698,,census1920_v2_t10
+1900,09,Ireland,country,Total,70994,,census1920_v2_t10
+1900,09,Canada,country,Total,27045,,census1920_v2_t10
+1900,09,Canada-French,subcountry,Canada,19174,,census1920_v2_t10
+1900,09,Canada-Other (derived),subcountry,Canada,7871,,census1920_v2_t10_derived
+1900,09,England,country,Total,21569,,census1920_v2_t10
+1900,09,Germany,country,Total,31892,,census1920_v2_t10
+1900,09,Sweden,country,Total,16164,,census1920_v2_t10
+1900,09,Hungary,country,Total,5692,,census1920_v2_t10
+1900,09,Austria,country,Total,5823,,census1920_v2_t10
+1900,09,Scotland,country,Total,6175,,census1920_v2_t10
+1900,09,Greece,country,Total,121,,census1920_v2_t10
+1900,09,France,country,Total,2427,,census1920_v2_t10
+1900,09,Denmark,country,Total,2249,,census1920_v2_t10
+1900,09,All other countries,residual,Total,6852,,census1920_v2_t10
+1900,10,Total,total,,13810,,census1920_v2_t10
+1900,10,Italy,country,Total,1122,,census1920_v2_t10
+1900,10,Poland,country,Total,1527,,census1920_v2_t10
+1900,10,Ireland,country,Total,5044,,census1920_v2_t10
+1900,10,Russia and Lithuania,country,Total,380,,census1920_v2_t10
+1900,10,Germany,country,Total,2332,,census1920_v2_t10
+1900,10,England,country,Total,1506,,census1920_v2_t10
+1900,10,Austria,country,Total,121,,census1920_v2_t10
+1900,10,Canada,country,Total,298,,census1920_v2_t10
+1900,10,Scotland,country,Total,341,,census1920_v2_t10
+1900,10,Sweden,country,Total,302,,census1920_v2_t10
+1900,10,Greece,country,Total,12,,census1920_v2_t10
+1900,10,Hungary,country,Total,86,,census1920_v2_t10
+1900,10,France,country,Total,148,,census1920_v2_t10
+1900,10,All other countries,residual,Total,591,,census1920_v2_t10
+1900,11,Total,total,,20119,,census1920_v2_t10
+1900,11,Russia and Lithuania,country,Total,807,,census1920_v2_t10
+1900,11,Ireland,country,Total,6220,,census1920_v2_t10
+1900,11,Italy,country,Total,930,,census1920_v2_t10
+1900,11,Germany,country,Total,5857,,census1920_v2_t10
+1900,11,England,country,Total,2299,,census1920_v2_t10
+1900,11,Canada,country,Total,906,,census1920_v2_t10
+1900,11,Greece,country,Total,34,,census1920_v2_t10
+1900,11,Scotland,country,Total,574,,census1920_v2_t10
+1900,11,Poland,country,Total,132,,census1920_v2_t10
+1900,11,France,country,Total,389,,census1920_v2_t10
+1900,11,Austria,country,Total,199,,census1920_v2_t10
+1900,11,Sweden,country,Total,234,,census1920_v2_t10
+1900,11,West Indies (except U.S. possessions),residual,Total,134,,census1920_v2_t10
+1900,11,Switzerland,country,Total,244,,census1920_v2_t10
+1900,11,China,country,Total,417,,census1920_v2_t10
+1900,11,All other countries,residual,Total,743,,census1920_v2_t10
+1900,12,Total,total,,23832,,census1920_v2_t10
+1900,12,West Indies (except U.S. possessions),residual,Total,11654,,census1920_v2_t10
+1900,12,Italy,country,Total,1707,,census1920_v2_t10
+1900,12,England,country,Total,2231,,census1920_v2_t10
+1900,12,Canada,country,Total,1202,,census1920_v2_t10
+1900,12,Spain,country,Total,1084,,census1920_v2_t10
+1900,12,Germany,country,Total,1812,,census1920_v2_t10
+1900,12,Greece,country,Total,98,,census1920_v2_t10
+1900,12,Sweden,country,Total,561,,census1920_v2_t10
+1900,12,Ireland,country,Total,797,,census1920_v2_t10
+1900,12,Russia and Lithuania,country,Total,220,,census1920_v2_t10
+1900,12,Scotland,country,Total,434,,census1920_v2_t10
+1900,12,France,country,Total,262,,census1920_v2_t10
+1900,12,Norway,country,Total,235,,census1920_v2_t10
+1900,12,Denmark,country,Total,204,,census1920_v2_t10
+1900,12,Austria,country,Total,111,,census1920_v2_t10
+1900,12,All other countries,residual,Total,1220,,census1920_v2_t10
+1900,13,Total,total,,12403,,census1920_v2_t10
+1900,13,Russia and Lithuania,country,Total,1232,,census1920_v2_t10
+1900,13,Germany,country,Total,3407,,census1920_v2_t10
+1900,13,England,country,Total,1514,,census1920_v2_t10
+1900,13,Greece,country,Total,191,,census1920_v2_t10
+1900,13,Ireland,country,Total,2293,,census1920_v2_t10
+1900,13,Canada,country,Total,759,,census1920_v2_t10
+1900,13,Poland,country,Total,169,,census1920_v2_t10
+1900,13,Italy,country,Total,218,,census1920_v2_t10
+1900,13,Scotland,country,Total,417,,census1920_v2_t10
+1900,13,Austria,country,Total,226,,census1920_v2_t10
+1900,13,France,country,Total,249,,census1920_v2_t10
+1900,13,Sweden,country,Total,204,,census1920_v2_t10
+1900,13,Hungary,country,Total,166,,census1920_v2_t10
+1900,13,West Indies (except U.S. possessions),residual,Total,157,,census1920_v2_t10
+1900,13,Switzerland,country,Total,180,,census1920_v2_t10
+1900,13,All other countries,residual,Total,1021,,census1920_v2_t10
+1900,16,Total,total,,24604,,census1920_v2_t10
+1900,16,Sweden,country,Total,2822,,census1920_v2_t10
+1900,16,Canada,country,Total,2923,,census1920_v2_t10
+1900,16,Canada-French,subcountry,Canada,395,,census1920_v2_t10
+1900,16,Canada-Other (derived),subcountry,Canada,2528,,census1920_v2_t10_derived
+1900,16,England,country,Total,3943,,census1920_v2_t10
+1900,16,Germany,country,Total,2974,,census1920_v2_t10
+1900,16,Norway,country,Total,1173,,census1920_v2_t10
+1900,16,Denmark,country,Total,1626,,census1920_v2_t10
+1900,16,Russia and Lithuania,country,Total,124,,census1920_v2_t10
+1900,16,Spain,country,Total,77,,census1920_v2_t10
+1900,16,Ireland,country,Total,1633,,census1920_v2_t10
+1900,16,Switzerland,country,Total,1017,,census1920_v2_t10
+1900,16,Italy,country,Total,779,,census1920_v2_t10
+1900,16,Scotland,country,Total,796,,census1920_v2_t10
+1900,16,Mexico,country,Total,28,,census1920_v2_t10
+1900,16,Japan,country,Total,1305,,census1920_v2_t10
+1900,16,Finland,country,Total,292,,census1920_v2_t10
+1900,16,Austria,country,Total,372,,census1920_v2_t10
+1900,16,Greece,country,Total,9,,census1920_v2_t10
+1900,16,Wales,country,Total,732,,census1920_v2_t10
+1900,16,China,country,Total,1411,,census1920_v2_t10
+1900,16,France,country,Total,194,,census1920_v2_t10
+1900,16,Netherlands,country,Total,50,,census1920_v2_t10
+1900,16,All other countries,residual,Total,324,,census1920_v2_t10
+1900,17,Total,total,,966747,,census1920_v2_t10
+1900,17,Germany,country,Total,332169,,census1920_v2_t10
+1900,17,Poland,country,Total,67949,,census1920_v2_t10
+1900,17,Russia and Lithuania,country,Total,28707,,census1920_v2_t10
+1900,17,Sweden,country,Total,109147,,census1920_v2_t10
+1900,17,Italy,country,Total,23523,,census1920_v2_t10
+1900,17,Ireland,country,Total,114563,,census1920_v2_t10
+1900,17,England,country,Total,64390,,census1920_v2_t10
+1900,17,Austria,country,Total,56782,,census1920_v2_t10
+1900,17,Canada,country,Total,50595,,census1920_v2_t10
+1900,17,Hungary,country,Total,6734,,census1920_v2_t10
+1900,17,Norway,country,Total,29979,,census1920_v2_t10
+1900,17,Scotland,country,Total,20021,,census1920_v2_t10
+1900,17,Denmark,country,Total,15686,,census1920_v2_t10
+1900,17,Greece,country,Total,1570,,census1920_v2_t10
+1900,17,Netherlands,country,Total,11916,,census1920_v2_t10
+1900,17,France,country,Total,7787,,census1920_v2_t10
+1900,17,Belgium,country,Total,4394,,census1920_v2_t10
+1900,17,All other countries,residual,Total,20835,,census1920_v2_t10
+1900,18,Total,total,,142121,,census1920_v2_t10
+1900,18,Germany,country,Total,73546,,census1920_v2_t10
+1900,18,Poland,country,Total,6067,,census1920_v2_t10
+1900,18,Hungary,country,Total,1379,,census1920_v2_t10
+1900,18,Russia and Lithuania,country,Total,1215,,census1920_v2_t10
+1900,18,Austria,country,Total,2615,,census1920_v2_t10
+1900,18,England,country,Total,10874,,census1920_v2_t10
+1900,18,Ireland,country,Total,16306,,census1920_v2_t10
+1900,18,Italy,country,Total,1327,,census1920_v2_t10
+1900,18,Canada,country,Total,5934,,census1920_v2_t10
+1900,18,Sweden,country,Total,4673,,census1920_v2_t10
+1900,18,Greece,country,Total,82,,census1920_v2_t10
+1900,18,Scotland,country,Total,2805,,census1920_v2_t10
+1900,18,France,country,Total,2984,,census1920_v2_t10
+1900,18,Rumania,country,Total,64,,census1920_v2_t10
+1900,18,Belgium,country,Total,2576,,census1920_v2_t10
+1900,18,Switzerland,country,Total,3472,,census1920_v2_t10
+1900,18,Netherlands,country,Total,1678,,census1920_v2_t10
+1900,18,All other countries,residual,Total,4524,,census1920_v2_t10
+1900,19,Total,total,,305920,,census1920_v2_t10
+1900,19,Germany,country,Total,123162,,census1920_v2_t10
+1900,19,Sweden,country,Total,29875,,census1920_v2_t10
+1900,19,Denmark,country,Total,17102,,census1920_v2_t10
+1900,19,Norway,country,Total,25634,,census1920_v2_t10
+1900,19,England,country,Total,21027,,census1920_v2_t10
+1900,19,Netherlands,country,Total,9388,,census1920_v2_t10
+1900,19,Ireland,country,Total,28321,,census1920_v2_t10
+1900,19,Canada,country,Total,15687,,census1920_v2_t10
+1900,19,Russia and Lithuania,country,Total,1998,,census1920_v2_t10
+1900,19,Italy,country,Total,1198,,census1920_v2_t10
+1900,19,Austria,country,Total,13118,,census1920_v2_t10
+1900,19,Scotland,country,Total,6425,,census1920_v2_t10
+1900,19,Greece,country,Total,18,,census1920_v2_t10
+1900,19,Switzerland,country,Total,4342,,census1920_v2_t10
+1900,19,Mexico,country,Total,29,,census1920_v2_t10
+1900,19,France,country,Total,1905,,census1920_v2_t10
+1900,19,Poland,country,Total,751,,census1920_v2_t10
+1900,19,All other countries,residual,Total,5940,,census1920_v2_t10
+1900,20,Total,total,,126685,,census1920_v2_t10
+1900,20,Germany,country,Total,39501,,census1920_v2_t10
+1900,20,Mexico,country,Total,71,,census1920_v2_t10
+1900,20,Russia and Lithuania,country,Total,11019,,census1920_v2_t10
+1900,20,Sweden,country,Total,15144,,census1920_v2_t10
+1900,20,England,country,Total,13283,,census1920_v2_t10
+1900,20,Canada,country,Total,8538,,census1920_v2_t10
+1900,20,Austria,country,Total,6556,,census1920_v2_t10
+1900,20,Ireland,country,Total,11516,,census1920_v2_t10
+1900,20,Italy,country,Total,987,,census1920_v2_t10
+1900,20,Scotland,country,Total,4219,,census1920_v2_t10
+1900,20,Poland,country,Total,751,,census1920_v2_t10
+1900,20,Denmark,country,Total,2914,,census1920_v2_t10
+1900,20,Switzerland,country,Total,3337,,census1920_v2_t10
+1900,20,France,country,Total,2012,,census1920_v2_t10
+1900,20,Belgium,country,Total,985,,census1920_v2_t10
+1900,20,Wales,country,Total,2005,,census1920_v2_t10
+1900,20,All other countries,residual,Total,3847,,census1920_v2_t10
+1900,21,Total,total,,50249,,census1920_v2_t10
+1900,21,Germany,country,Total,27555,,census1920_v2_t10
+1900,21,Ireland,country,Total,9874,,census1920_v2_t10
+1900,21,Russia and Lithuania,country,Total,1076,,census1920_v2_t10
+1900,21,Italy,country,Total,679,,census1920_v2_t10
+1900,21,England,country,Total,3256,,census1920_v2_t10
+1900,21,Switzerland,country,Total,1929,,census1920_v2_t10
+1900,21,Hungary,country,Total,146,,census1920_v2_t10
+1900,21,Poland,country,Total,668,,census1920_v2_t10
+1900,21,France,country,Total,983,,census1920_v2_t10
+1900,21,Austria,country,Total,527,,census1920_v2_t10
+1900,21,Canada,country,Total,1208,,census1920_v2_t10
+1900,21,Scotland,country,Total,793,,census1920_v2_t10
+1900,21,Greece,country,Total,24,,census1920_v2_t10
+1900,21,All other countries,residual,Total,1531,,census1920_v2_t10
+1900,22,Total,total,,52903,,census1920_v2_t10
+1900,22,Italy,country,Total,17431,,census1920_v2_t10
+1900,22,Germany,country,Total,11839,,census1920_v2_t10
+1900,22,France,country,Total,6500,,census1920_v2_t10
+1900,22,Mexico,country,Total,488,,census1920_v2_t10
+1900,22,Ireland,country,Total,6436,,census1920_v2_t10
+1900,22,Russia and Lithuania,country,Total,692,,census1920_v2_t10
+1900,22,England,country,Total,2068,,census1920_v2_t10
+1900,22,Spain,country,Total,583,,census1920_v2_t10
+1900,22,West Indies (except U.S. possessions),residual,Total,543,,census1920_v2_t10
+1900,22,Canada,country,Total,1034,,census1920_v2_t10
+1900,22,Central and South America,residual,Total,271,,census1920_v2_t10
+1900,22,Austria,country,Total,795,,census1920_v2_t10
+1900,22,Greece,country,Total,84,,census1920_v2_t10
+1900,22,Norway,country,Total,189,,census1920_v2_t10
+1900,22,Sweden,country,Total,359,,census1920_v2_t10
+1900,22,Scotland,country,Total,399,,census1920_v2_t10
+1900,22,All other countries,residual,Total,3192,,census1920_v2_t10
+1900,23,Total,total,,93330,,census1920_v2_t10
+1900,23,Canada,country,Total,67077,,census1920_v2_t10
+1900,23,Canada-French,subcountry,Canada,30908,,census1920_v2_t10
+1900,23,Canada-Other (derived),subcountry,Canada,36169,,census1920_v2_t10_derived
+1900,23,Ireland,country,Total,10159,,census1920_v2_t10
+1900,23,England,country,Total,4793,,census1920_v2_t10
+1900,23,Russia and Lithuania,country,Total,1021,,census1920_v2_t10
+1900,23,Italy,country,Total,1334,,census1920_v2_t10
+1900,23,Scotland,country,Total,2127,,census1920_v2_t10
+1900,23,Sweden,country,Total,1935,,census1920_v2_t10
+1900,23,Poland,country,Total,443,,census1920_v2_t10
+1900,23,Finland,country,Total,179,,census1920_v2_t10
+1900,23,Greece,country,Total,7,,census1920_v2_t10
+1900,23,Denmark,country,Total,886,,census1920_v2_t10
+1900,23,Germany,country,Total,1356,,census1920_v2_t10
+1900,23,Norway,country,Total,509,,census1920_v2_t10
+1900,23,All other countries,residual,Total,1504,,census1920_v2_t10
+1900,24,Total,total,,93934,,census1920_v2_t10
+1900,24,Russia and Lithuania,country,Total,11301,,census1920_v2_t10
+1900,24,Germany,country,Total,44990,,census1920_v2_t10
+1900,24,Poland,country,Total,3681,,census1920_v2_t10
+1900,24,Italy,country,Total,2449,,census1920_v2_t10
+1900,24,Ireland,country,Total,13874,,census1920_v2_t10
+1900,24,England,country,Total,5299,,census1920_v2_t10
+1900,24,Austria,country,Total,4569,,census1920_v2_t10
+1900,24,Hungary,country,Total,323,,census1920_v2_t10
+1900,24,Canada,country,Total,1230,,census1920_v2_t10
+1900,24,Scotland,country,Total,2128,,census1920_v2_t10
+1900,24,Greece,country,Total,95,,census1920_v2_t10
+1900,24,France,country,Total,534,,census1920_v2_t10
+1900,24,West Indies (except U.S. possessions),residual,Total,309,,census1920_v2_t10
+1900,24,Sweden,country,Total,347,,census1920_v2_t10
+1900,24,All other countries,residual,Total,2805,,census1920_v2_t10
+1900,25,Total,total,,846324,,census1920_v2_t10
+1900,25,Canada,country,Total,293169,,census1920_v2_t10
+1900,25,Canada-French,subcountry,Canada,134416,,census1920_v2_t10
+1900,25,Canada-Other (derived),subcountry,Canada,158753,,census1920_v2_t10_derived
+1900,25,Ireland,country,Total,249916,,census1920_v2_t10
+1900,25,Italy,country,Total,28785,,census1920_v2_t10
+1900,25,Russia and Lithuania,country,Total,26963,,census1920_v2_t10
+1900,25,England,country,Total,82346,,census1920_v2_t10
+1900,25,Poland,country,Total,21503,,census1920_v2_t10
+1900,25,Sweden,country,Total,32192,,census1920_v2_t10
+1900,25,Portugal,country,Total,13453,,census1920_v2_t10
+1900,25,Scotland,country,Total,24332,,census1920_v2_t10
+1900,25,Atlantic Islands (incl. Azores),residual,Total,4432,,census1920_v2_t10
+1900,25,Germany,country,Total,31395,,census1920_v2_t10
+1900,25,Greece,country,Total,1843,,census1920_v2_t10
+1900,25,Finland,country,Total,5104,,census1920_v2_t10
+1900,25,Austria,country,Total,4765,,census1920_v2_t10
+1900,25,France,country,Total,3905,,census1920_v2_t10
+1900,25,All other countries,residual,Total,22221,,census1920_v2_t10
+1900,26,Total,total,,541653,,census1920_v2_t10
+1900,26,Canada,country,Total,184398,,census1920_v2_t10
+1900,26,Canada-French,subcountry,Canada,32483,,census1920_v2_t10
+1900,26,Canada-Other (derived),subcountry,Canada,151915,,census1920_v2_t10_derived
+1900,26,Poland,country,Total,28286,,census1920_v2_t10
+1900,26,Germany,country,Total,125074,,census1920_v2_t10
+1900,26,Russia and Lithuania,country,Total,4138,,census1920_v2_t10
+1900,26,England,country,Total,43839,,census1920_v2_t10
+1900,26,Netherlands,country,Total,30406,,census1920_v2_t10
+1900,26,Italy,country,Total,6178,,census1920_v2_t10
+1900,26,Finland,country,Total,18910,,census1920_v2_t10
+1900,26,Sweden,country,Total,26956,,census1920_v2_t10
+1900,26,Hungary,country,Total,835,,census1920_v2_t10
+1900,26,Austria,country,Total,8209,,census1920_v2_t10
+1900,26,Ireland,country,Total,29182,,census1920_v2_t10
+1900,26,Scotland,country,Total,10343,,census1920_v2_t10
+1900,26,Belgium,country,Total,2647,,census1920_v2_t10
+1900,26,Denmark,country,Total,6390,,census1920_v2_t10
+1900,26,Greece,country,Total,134,,census1920_v2_t10
+1900,26,Norway,country,Total,7582,,census1920_v2_t10
+1900,26,Rumania,country,Total,11,,census1920_v2_t10
+1900,26,All other countries,residual,Total,8135,,census1920_v2_t10
+1900,27,Total,total,,505318,,census1920_v2_t10
+1900,27,Sweden,country,Total,115476,,census1920_v2_t10
+1900,27,Norway,country,Total,104895,,census1920_v2_t10
+1900,27,Germany,country,Total,117007,,census1920_v2_t10
+1900,27,Canada,country,Total,47578,,census1920_v2_t10
+1900,27,Canada-French,subcountry,Canada,12063,,census1920_v2_t10
+1900,27,Canada-Other (derived),subcountry,Canada,35515,,census1920_v2_t10_derived
+1900,27,Finland,country,Total,10727,,census1920_v2_t10
+1900,27,Poland,country,Total,11361,,census1920_v2_t10
+1900,27,Denmark,country,Total,16299,,census1920_v2_t10
+1900,27,Russia and Lithuania,country,Total,5907,,census1920_v2_t10
+1900,27,Austria,country,Total,20019,,census1920_v2_t10
+1900,27,England,country,Total,12022,,census1920_v2_t10
+1900,27,Ireland,country,Total,22428,,census1920_v2_t10
+1900,27,Italy,country,Total,2222,,census1920_v2_t10
+1900,27,Netherlands,country,Total,2717,,census1920_v2_t10
+1900,27,Hungary,country,Total,2182,,census1920_v2_t10
+1900,27,Scotland,country,Total,4810,,census1920_v2_t10
+1900,27,All other countries,residual,Total,9668,,census1920_v2_t10
+1900,28,Total,total,,7981,,census1920_v2_t10
+1900,28,Italy,country,Total,845,,census1920_v2_t10
+1900,28,Germany,country,Total,1926,,census1920_v2_t10
+1900,28,Russia and Lithuania,country,Total,414,,census1920_v2_t10
+1900,28,England,country,Total,798,,census1920_v2_t10
+1900,28,Ireland,country,Total,1264,,census1920_v2_t10
+1900,28,Canada,country,Total,420,,census1920_v2_t10
+1900,28,Poland,country,Total,90,,census1920_v2_t10
+1900,28,France,country,Total,365,,census1920_v2_t10
+1900,28,China,country,Total,206,,census1920_v2_t10
+1900,28,Sweden,country,Total,303,,census1920_v2_t10
+1900,28,Greece,country,Total,22,,census1920_v2_t10
+1900,28,Scotland,country,Total,196,,census1920_v2_t10
+1900,28,Austria,country,Total,259,,census1920_v2_t10
+1900,28,West Indies (except U.S. possessions),residual,Total,45,,census1920_v2_t10
+1900,28,Denmark,country,Total,86,,census1920_v2_t10
+1900,28,Mexico,country,Total,48,,census1920_v2_t10
+1900,28,Norway,country,Total,74,,census1920_v2_t10
+1900,28,All other countries,residual,Total,620,,census1920_v2_t10
+1900,29,Total,total,,216379,,census1920_v2_t10
+1900,29,Germany,country,Total,109282,,census1920_v2_t10
+1900,29,Russia and Lithuania,country,Total,6672,,census1920_v2_t10
+1900,29,Ireland,country,Total,31832,,census1920_v2_t10
+1900,29,Italy,country,Total,4345,,census1920_v2_t10
+1900,29,England,country,Total,15666,,census1920_v2_t10
+1900,29,Austria,country,Total,7911,,census1920_v2_t10
+1900,29,Hungary,country,Total,902,,census1920_v2_t10
+1900,29,Poland,country,Total,3680,,census1920_v2_t10
+1900,29,Canada,country,Total,8616,,census1920_v2_t10
+1900,29,Switzerland,country,Total,6819,,census1920_v2_t10
+1900,29,Sweden,country,Total,5692,,census1920_v2_t10
+1900,29,France,country,Total,3288,,census1920_v2_t10
+1900,29,Mexico,country,Total,162,,census1920_v2_t10
+1900,29,Greece,country,Total,66,,census1920_v2_t10
+1900,29,Scotland,country,Total,3878,,census1920_v2_t10
+1900,29,Denmark,country,Total,1510,,census1920_v2_t10
+1900,29,Rumania,country,Total,115,,census1920_v2_t10
+1900,29,All other countries,residual,Total,5943,,census1920_v2_t10
+1900,30,Total,total,,67067,,census1920_v2_t10
+1900,30,Canada,country,Total,13826,,census1920_v2_t10
+1900,30,Canada-French,subcountry,Canada,3516,,census1920_v2_t10
+1900,30,Canada-Other (derived),subcountry,Canada,10310,,census1920_v2_t10_derived
+1900,30,Norway,country,Total,3354,,census1920_v2_t10
+1900,30,England,country,Total,8077,,census1920_v2_t10
+1900,30,Germany,country,Total,7162,,census1920_v2_t10
+1900,30,Ireland,country,Total,9436,,census1920_v2_t10
+1900,30,Sweden,country,Total,5346,,census1920_v2_t10
+1900,30,Russia and Lithuania,country,Total,394,,census1920_v2_t10
+1900,30,Italy,country,Total,2199,,census1920_v2_t10
+1900,30,Finland,country,Total,2103,,census1920_v2_t10
+1900,30,Austria,country,Total,3752,,census1920_v2_t10
+1900,30,Scotland,country,Total,2422,,census1920_v2_t10
+1900,30,Denmark,country,Total,1041,,census1920_v2_t10
+1900,30,Netherlands,country,Total,316,,census1920_v2_t10
+1900,30,Greece,country,Total,20,,census1920_v2_t10
+1900,30,Poland,country,Total,213,,census1920_v2_t10
+1900,30,Switzerland,country,Total,796,,census1920_v2_t10
+1900,30,Hungary,country,Total,274,,census1920_v2_t10
+1900,30,Japan,country,Total,2427,,census1920_v2_t10
+1900,30,France,country,Total,539,,census1920_v2_t10
+1900,30,Wales,country,Total,935,,census1920_v2_t10
+1900,30,All other countries,residual,Total,2435,,census1920_v2_t10
+1900,31,Total,total,,177347,,census1920_v2_t10
+1900,31,Germany,country,Total,65506,,census1920_v2_t10
+1900,31,Sweden,country,Total,24693,,census1920_v2_t10
+1900,31,Russia and Lithuania,country,Total,8083,,census1920_v2_t10
+1900,31,Denmark,country,Total,12531,,census1920_v2_t10
+1900,31,England,country,Total,9757,,census1920_v2_t10
+1900,31,Canada,country,Total,9049,,census1920_v2_t10
+1900,31,Ireland,country,Total,11127,,census1920_v2_t10
+1900,31,Poland,country,Total,3094,,census1920_v2_t10
+1900,31,Austria,country,Total,20031,,census1920_v2_t10
+1900,31,Italy,country,Total,752,,census1920_v2_t10
+1900,31,Mexico,country,Total,27,,census1920_v2_t10
+1900,31,Norway,country,Total,2883,,census1920_v2_t10
+1900,31,Switzerland,country,Total,2340,,census1920_v2_t10
+1900,31,Scotland,country,Total,2773,,census1920_v2_t10
+1900,31,Greece,country,Total,23,,census1920_v2_t10
+1900,31,All other countries,residual,Total,4678,,census1920_v2_t10
+1900,32,Total,total,,10093,,census1920_v2_t10
+1900,32,Italy,country,Total,1296,,census1920_v2_t10
+1900,32,England,country,Total,1167,,census1920_v2_t10
+1900,32,Canada,country,Total,1032,,census1920_v2_t10
+1900,32,Spain,country,Total,178,,census1920_v2_t10
+1900,32,Mexico,country,Total,98,,census1920_v2_t10
+1900,32,Germany,country,Total,1179,,census1920_v2_t10
+1900,32,Ireland,country,Total,1425,,census1920_v2_t10
+1900,32,Japan,country,Total,228,,census1920_v2_t10
+1900,32,Greece,country,Total,4,,census1920_v2_t10
+1900,32,France,country,Total,303,,census1920_v2_t10
+1900,32,Denmark,country,Total,339,,census1920_v2_t10
+1900,32,Sweden,country,Total,278,,census1920_v2_t10
+1900,32,China,country,Total,1279,,census1920_v2_t10
+1900,32,Switzerland,country,Total,344,,census1920_v2_t10
+1900,32,Scotland,country,Total,247,,census1920_v2_t10
+1900,32,Norway,country,Total,50,,census1920_v2_t10
+1900,32,Austria,country,Total,101,,census1920_v2_t10
+1900,32,Finland,country,Total,51,,census1920_v2_t10
+1900,32,All other countries,residual,Total,494,,census1920_v2_t10
+1900,33,Total,total,,88107,,census1920_v2_t10
+1900,33,Canada,country,Total,58967,,census1920_v2_t10
+1900,33,Canada-French,subcountry,Canada,44420,,census1920_v2_t10
+1900,33,Canada-Other (derived),subcountry,Canada,14547,,census1920_v2_t10_derived
+1900,33,Ireland,country,Total,13547,,census1920_v2_t10
+1900,33,Greece,country,Total,44,,census1920_v2_t10
+1900,33,Russia and Lithuania,country,Total,722,,census1920_v2_t10
+1900,33,England,country,Total,5100,,census1920_v2_t10
+1900,33,Poland,country,Total,864,,census1920_v2_t10
+1900,33,Italy,country,Total,947,,census1920_v2_t10
+1900,33,Sweden,country,Total,2032,,census1920_v2_t10
+1900,33,Scotland,country,Total,2019,,census1920_v2_t10
+1900,33,Germany,country,Total,2006,,census1920_v2_t10
+1900,33,Finland,country,Total,321,,census1920_v2_t10
+1900,33,Belgium,country,Total,25,,census1920_v2_t10
+1900,33,Norway,country,Total,295,,census1920_v2_t10
+1900,33,All other countries,residual,Total,1218,,census1920_v2_t10
+1900,34,Total,total,,431884,,census1920_v2_t10
+1900,34,Italy,country,Total,41865,,census1920_v2_t10
+1900,34,Germany,country,Total,119598,,census1920_v2_t10
+1900,34,Poland,country,Total,14357,,census1920_v2_t10
+1900,34,Russia and Lithuania,country,Total,19745,,census1920_v2_t10
+1900,34,Ireland,country,Total,94844,,census1920_v2_t10
+1900,34,England,country,Total,45428,,census1920_v2_t10
+1900,34,Hungary,country,Total,14913,,census1920_v2_t10
+1900,34,Austria,country,Total,15791,,census1920_v2_t10
+1900,34,Scotland,country,Total,14211,,census1920_v2_t10
+1900,34,Netherlands,country,Total,10261,,census1920_v2_t10
+1900,34,Sweden,country,Total,7337,,census1920_v2_t10
+1900,34,Canada,country,Total,7132,,census1920_v2_t10
+1900,34,France,country,Total,5543,,census1920_v2_t10
+1900,34,Switzerland,country,Total,6570,,census1920_v2_t10
+1900,34,Denmark,country,Total,3899,,census1920_v2_t10
+1900,34,Norway,country,Total,2296,,census1920_v2_t10
+1900,34,All other countries,residual,Total,8094,,census1920_v2_t10
+1900,35,Total,total,,13625,,census1920_v2_t10
+1900,35,Mexico,country,Total,6649,,census1920_v2_t10
+1900,35,Italy,country,Total,661,,census1920_v2_t10
+1900,35,Germany,country,Total,1360,,census1920_v2_t10
+1900,35,England,country,Total,968,,census1920_v2_t10
+1900,35,Canada,country,Total,764,,census1920_v2_t10
+1900,35,Scotland,country,Total,427,,census1920_v2_t10
+1900,35,Ireland,country,Total,692,,census1920_v2_t10
+1900,35,Austria,country,Total,367,,census1920_v2_t10
+1900,35,France,country,Total,298,,census1920_v2_t10
+1900,35,Sweden,country,Total,244,,census1920_v2_t10
+1900,35,Greece,country,Total,1,,census1920_v2_t10
+1900,35,Russia and Lithuania,country,Total,99,,census1920_v2_t10
+1900,35,Spain,country,Total,27,,census1920_v2_t10
+1900,35,Japan,country,Total,9,,census1920_v2_t10
+1900,35,All other countries,residual,Total,1059,,census1920_v2_t10
+1900,36,Total,total,,1900425,,census1920_v2_t10
+1900,36,Italy,country,Total,182248,,census1920_v2_t10
+1900,36,Russia and Lithuania,country,Total,165610,,census1920_v2_t10
+1900,36,Germany,country,Total,480026,,census1920_v2_t10
+1900,36,Ireland,country,Total,425553,,census1920_v2_t10
+1900,36,Poland,country,Total,69755,,census1920_v2_t10
+1900,36,Austria,country,Total,94838,,census1920_v2_t10
+1900,36,England,country,Total,135685,,census1920_v2_t10
+1900,36,Canada,country,Total,117535,,census1920_v2_t10
+1900,36,Hungary,country,Total,37168,,census1920_v2_t10
+1900,36,Sweden,country,Total,42708,,census1920_v2_t10
+1900,36,Rumania,country,Total,10549,,census1920_v2_t10
+1900,36,West Indies (except U.S. possessions),residual,Total,6436,,census1920_v2_t10
+1900,36,Scotland,country,Total,33862,,census1920_v2_t10
+1900,36,France,country,Total,20008,,census1920_v2_t10
+1900,36,Norway,country,Total,12601,,census1920_v2_t10
+1900,36,Greece,country,Total,1573,,census1920_v2_t10
+1900,36,All other countries,residual,Total,64270,,census1920_v2_t10
+1900,37,Total,total,,4492,,census1920_v2_t10
+1900,37,England,country,Total,904,,census1920_v2_t10
+1900,37,Russia and Lithuania,country,Total,253,,census1920_v2_t10
+1900,37,Germany,country,Total,1191,,census1920_v2_t10
+1900,37,Canada,country,Total,480,,census1920_v2_t10
+1900,37,Greece,country,Total,14,,census1920_v2_t10
+1900,37,Italy,country,Total,201,,census1920_v2_t10
+1900,37,Scotland,country,Total,320,,census1920_v2_t10
+1900,37,Ireland,country,Total,371,,census1920_v2_t10
+1900,37,Poland,country,Total,45,,census1920_v2_t10
+1900,37,Sweden,country,Total,68,,census1920_v2_t10
+1900,37,Austria,country,Total,31,,census1920_v2_t10
+1900,37,France,country,Total,95,,census1920_v2_t10
+1900,37,Netherlands,country,Total,17,,census1920_v2_t10
+1900,37,West Indies (except U.S. possessions),residual,Total,37,,census1920_v2_t10
+1900,37,Switzerland,country,Total,77,,census1920_v2_t10
+1900,37,Norway,country,Total,21,,census1920_v2_t10
+1900,37,All other countries,residual,Total,367,,census1920_v2_t10
+1900,38,Total,total,,113091,,census1920_v2_t10
+1900,38,Norway,country,Total,30206,,census1920_v2_t10
+1900,38,Russia and Lithuania,country,Total,14979,,census1920_v2_t10
+1900,38,Canada,country,Total,28166,,census1920_v2_t10
+1900,38,Canada-French,subcountry,Canada,3162,,census1920_v2_t10
+1900,38,Canada-Other (derived),subcountry,Canada,25004,,census1920_v2_t10_derived
+1900,38,Germany,country,Total,11546,,census1920_v2_t10
+1900,38,Sweden,country,Total,8419,,census1920_v2_t10
+1900,38,Denmark,country,Total,3953,,census1920_v2_t10
+1900,38,Hungary,country,Total,1327,,census1920_v2_t10
+1900,38,England,country,Total,2909,,census1920_v2_t10
+1900,38,Poland,country,Total,1054,,census1920_v2_t10
+1900,38,Austria,country,Total,2576,,census1920_v2_t10
+1900,38,Rumania,country,Total,353,,census1920_v2_t10
+1900,38,Ireland,country,Total,2670,,census1920_v2_t10
+1900,38,Scotland,country,Total,1800,,census1920_v2_t10
+1900,38,Finland,country,Total,651,,census1920_v2_t10
+1900,38,All other countries,residual,Total,2482,,census1920_v2_t10
+1900,39,Total,total,,458734,,census1920_v2_t10
+1900,39,Germany,country,Total,204160,,census1920_v2_t10
+1900,39,Hungary,country,Total,16463,,census1920_v2_t10
+1900,39,Poland,country,Total,16822,,census1920_v2_t10
+1900,39,Italy,country,Total,11321,,census1920_v2_t10
+1900,39,Austria,country,Total,26706,,census1920_v2_t10
+1900,39,Russia and Lithuania,country,Total,8203,,census1920_v2_t10
+1900,39,England,country,Total,44745,,census1920_v2_t10
+1900,39,Ireland,country,Total,55018,,census1920_v2_t10
+1900,39,Canada,country,Total,22767,,census1920_v2_t10
+1900,39,Greece,country,Total,213,,census1920_v2_t10
+1900,39,Rumania,country,Total,100,,census1920_v2_t10
+1900,39,Scotland,country,Total,9327,,census1920_v2_t10
+1900,39,Switzerland,country,Total,12007,,census1920_v2_t10
+1900,39,France,country,Total,5604,,census1920_v2_t10
+1900,39,Wales,country,Total,11481,,census1920_v2_t10
+1900,39,Sweden,country,Total,3951,,census1920_v2_t10
+1900,39,Finland,country,Total,2814,,census1920_v2_t10
+1900,39,All other countries,residual,Total,7032,,census1920_v2_t10
+1900,40,Total,total,,20538,,census1920_v2_t10
+1900,40,Germany,country,Total,5954,,census1920_v2_t10
+1900,40,Mexico,country,Total,134,,census1920_v2_t10
+1900,40,Russia and Lithuania,country,Total,2849,,census1920_v2_t10
+1900,40,England,country,Total,1900,,census1920_v2_t10
+1900,40,Canada,country,Total,1807,,census1920_v2_t10
+1900,40,Italy,country,Total,601,,census1920_v2_t10
+1900,40,Austria,country,Total,1880,,census1920_v2_t10
+1900,40,Ireland,country,Total,1384,,census1920_v2_t10
+1900,40,Poland,country,Total,355,,census1920_v2_t10
+1900,40,Scotland,country,Total,737,,census1920_v2_t10
+1900,40,France,country,Total,516,,census1920_v2_t10
+1900,40,Sweden,country,Total,582,,census1920_v2_t10
+1900,40,Switzerland,country,Total,424,,census1920_v2_t10
+1900,40,Greece,country,Total,5,,census1920_v2_t10
+1900,40,Denmark,country,Total,259,,census1920_v2_t10
+1900,40,All other countries,residual,Total,1151,,census1920_v2_t10
+1900,41,Total,total,,65748,,census1920_v2_t10
+1900,41,Canada,country,Total,7508,,census1920_v2_t10
+1900,41,Germany,country,Total,13292,,census1920_v2_t10
+1900,41,Sweden,country,Total,4555,,census1920_v2_t10
+1900,41,England,country,Total,5663,,census1920_v2_t10
+1900,41,Russia and Lithuania,country,Total,1753,,census1920_v2_t10
+1900,41,Norway,country,Total,2789,,census1920_v2_t10
+1900,41,Finland,country,Total,2131,,census1920_v2_t10
+1900,41,Italy,country,Total,1014,,census1920_v2_t10
+1900,41,Ireland,country,Total,4210,,census1920_v2_t10
+1900,41,Switzerland,country,Total,2677,,census1920_v2_t10
+1900,41,Scotland,country,Total,2283,,census1920_v2_t10
+1900,41,Denmark,country,Total,1663,,census1920_v2_t10
+1900,41,Japan,country,Total,2522,,census1920_v2_t10
+1900,41,Austria,country,Total,1124,,census1920_v2_t10
+1900,41,China,country,Total,9367,,census1920_v2_t10
+1900,41,Greece,country,Total,95,,census1920_v2_t10
+1900,41,Poland,country,Total,313,,census1920_v2_t10
+1900,41,France,country,Total,775,,census1920_v2_t10
+1900,41,Netherlands,country,Total,324,,census1920_v2_t10
+1900,41,Hungary,country,Total,156,,census1920_v2_t10
+1900,41,All other countries,residual,Total,1534,,census1920_v2_t10
+1900,42,Total,total,,985250,,census1920_v2_t10
+1900,42,Italy,country,Total,66655,,census1920_v2_t10
+1900,42,Russia and Lithuania,country,Total,50959,,census1920_v2_t10
+1900,42,Poland,country,Total,76358,,census1920_v2_t10
+1900,42,Austria,country,Total,70860,,census1920_v2_t10
+1900,42,Ireland,country,Total,205909,,census1920_v2_t10
+1900,42,Germany,country,Total,212453,,census1920_v2_t10
+1900,42,England,country,Total,114831,,census1920_v2_t10
+1900,42,Hungary,country,Total,47393,,census1920_v2_t10
+1900,42,Scotland,country,Total,30386,,census1920_v2_t10
+1900,42,Wales,country,Total,35453,,census1920_v2_t10
+1900,42,Sweden,country,Total,24130,,census1920_v2_t10
+1900,42,Canada,country,Total,14760,,census1920_v2_t10
+1900,42,Greece,country,Total,465,,census1920_v2_t10
+1900,42,France,country,Total,9158,,census1920_v2_t10
+1900,42,Rumania,country,Total,1259,,census1920_v2_t10
+1900,42,All other countries,residual,Total,24221,,census1920_v2_t10
+1900,44,Total,total,,134519,,census1920_v2_t10
+1900,44,Canada,country,Total,39277,,census1920_v2_t10
+1900,44,Canada-French,subcountry,Canada,31533,,census1920_v2_t10
+1900,44,Canada-Other (derived),subcountry,Canada,7744,,census1920_v2_t10_derived
+1900,44,Italy,country,Total,8972,,census1920_v2_t10
+1900,44,England,country,Total,22832,,census1920_v2_t10
+1900,44,Ireland,country,Total,35501,,census1920_v2_t10
+1900,44,Portugal,country,Total,2545,,census1920_v2_t10
+1900,44,Russia and Lithuania,country,Total,2429,,census1920_v2_t10
+1900,44,Poland,country,Total,1862,,census1920_v2_t10
+1900,44,Sweden,country,Total,6072,,census1920_v2_t10
+1900,44,Scotland,country,Total,5455,,census1920_v2_t10
+1900,44,Germany,country,Total,4300,,census1920_v2_t10
+1900,44,France,country,Total,679,,census1920_v2_t10
+1900,44,Austria,country,Total,619,,census1920_v2_t10
+1900,44,Greece,country,Total,84,,census1920_v2_t10
+1900,44,Belgium,country,Total,383,,census1920_v2_t10
+1900,44,All other countries,residual,Total,3509,,census1920_v2_t10
+1900,45,Total,total,,5528,,census1920_v2_t10
+1900,45,Russia and Lithuania,country,Total,316,,census1920_v2_t10
+1900,45,Germany,country,Total,2075,,census1920_v2_t10
+1900,45,Greece,country,Total,62,,census1920_v2_t10
+1900,45,England,country,Total,474,,census1920_v2_t10
+1900,45,Ireland,country,Total,1131,,census1920_v2_t10
+1900,45,Poland,country,Total,103,,census1920_v2_t10
+1900,45,Italy,country,Total,180,,census1920_v2_t10
+1900,45,Canada,country,Total,204,,census1920_v2_t10
+1900,45,Austria,country,Total,91,,census1920_v2_t10
+1900,45,Scotland,country,Total,239,,census1920_v2_t10
+1900,45,Sweden,country,Total,65,,census1920_v2_t10
+1900,45,West Indies (except U.S. possessions),residual,Total,57,,census1920_v2_t10
+1900,45,Norway,country,Total,49,,census1920_v2_t10
+1900,45,France,country,Total,84,,census1920_v2_t10
+1900,45,Denmark,country,Total,55,,census1920_v2_t10
+1900,45,China,country,Total,61,,census1920_v2_t10
+1900,45,All other countries,residual,Total,282,,census1920_v2_t10
+1900,46,Total,total,,88508,,census1920_v2_t10
+1900,46,Norway,country,Total,19788,,census1920_v2_t10
+1900,46,Germany,country,Total,17873,,census1920_v2_t10
+1900,46,Russia and Lithuania,country,Total,12365,,census1920_v2_t10
+1900,46,Sweden,country,Total,8647,,census1920_v2_t10
+1900,46,Denmark,country,Total,5038,,census1920_v2_t10
+1900,46,Canada,country,Total,7044,,census1920_v2_t10
+1900,46,Netherlands,country,Total,1566,,census1920_v2_t10
+1900,46,England,country,Total,3862,,census1920_v2_t10
+1900,46,Ireland,country,Total,3298,,census1920_v2_t10
+1900,46,Austria,country,Total,3246,,census1920_v2_t10
+1900,46,Finland,country,Total,1175,,census1920_v2_t10
+1900,46,Scotland,country,Total,1153,,census1920_v2_t10
+1900,46,Poland,country,Total,472,,census1920_v2_t10
+1900,46,Switzerland,country,Total,585,,census1920_v2_t10
+1900,46,Hungary,country,Total,421,,census1920_v2_t10
+1900,46,All other countries,residual,Total,1975,,census1920_v2_t10
+1900,47,Total,total,,17746,,census1920_v2_t10
+1900,47,Russia and Lithuania,country,Total,927,,census1920_v2_t10
+1900,47,Germany,country,Total,4569,,census1920_v2_t10
+1900,47,Italy,country,Total,1222,,census1920_v2_t10
+1900,47,England,country,Total,2207,,census1920_v2_t10
+1900,47,Ireland,country,Total,3372,,census1920_v2_t10
+1900,47,Canada,country,Total,1045,,census1920_v2_t10
+1900,47,Poland,country,Total,322,,census1920_v2_t10
+1900,47,Switzerland,country,Total,1004,,census1920_v2_t10
+1900,47,Greece,country,Total,38,,census1920_v2_t10
+1900,47,Scotland,country,Total,544,,census1920_v2_t10
+1900,47,Austria,country,Total,300,,census1920_v2_t10
+1900,47,France,country,Total,332,,census1920_v2_t10
+1900,47,Hungary,country,Total,296,,census1920_v2_t10
+1900,47,Sweden,country,Total,337,,census1920_v2_t10
+1900,47,Mexico,country,Total,29,,census1920_v2_t10
+1900,47,All other countries,residual,Total,1202,,census1920_v2_t10
+1900,48,Total,total,,179357,,census1920_v2_t10
+1900,48,Mexico,country,Total,71062,,census1920_v2_t10
+1900,48,Germany,country,Total,48295,,census1920_v2_t10
+1900,48,Italy,country,Total,3942,,census1920_v2_t10
+1900,48,England,country,Total,8213,,census1920_v2_t10
+1900,48,Russia and Lithuania,country,Total,2259,,census1920_v2_t10
+1900,48,Austria,country,Total,16074,,census1920_v2_t10
+1900,48,Poland,country,Total,3348,,census1920_v2_t10
+1900,48,Sweden,country,Total,4388,,census1920_v2_t10
+1900,48,Ireland,country,Total,6173,,census1920_v2_t10
+1900,48,Canada,country,Total,2949,,census1920_v2_t10
+1900,48,France,country,Total,2025,,census1920_v2_t10
+1900,48,Greece,country,Total,169,,census1920_v2_t10
+1900,48,Scotland,country,Total,1952,,census1920_v2_t10
+1900,48,Norway,country,Total,1356,,census1920_v2_t10
+1900,48,All other countries,residual,Total,7152,,census1920_v2_t10
+1900,49,Total,total,,53777,,census1920_v2_t10
+1900,49,England,country,Total,18879,,census1920_v2_t10
+1900,49,Denmark,country,Total,9132,,census1920_v2_t10
+1900,49,Sweden,country,Total,7025,,census1920_v2_t10
+1900,49,Germany,country,Total,2360,,census1920_v2_t10
+1900,49,Italy,country,Total,1062,,census1920_v2_t10
+1900,49,Greece,country,Total,3,,census1920_v2_t10
+1900,49,Japan,country,Total,419,,census1920_v2_t10
+1900,49,Scotland,country,Total,3143,,census1920_v2_t10
+1900,49,Norway,country,Total,2128,,census1920_v2_t10
+1900,49,Netherlands,country,Total,523,,census1920_v2_t10
+1900,49,Switzerland,country,Total,1469,,census1920_v2_t10
+1900,49,Canada,country,Total,1331,,census1920_v2_t10
+1900,49,Wales,country,Total,2141,,census1920_v2_t10
+1900,49,Ireland,country,Total,1516,,census1920_v2_t10
+1900,49,Mexico,country,Total,41,,census1920_v2_t10
+1900,49,Austria,country,Total,253,,census1920_v2_t10
+1900,49,Finland,country,Total,734,,census1920_v2_t10
+1900,49,Russia and Lithuania,country,Total,119,,census1920_v2_t10
+1900,49,All other countries,residual,Total,1499,,census1920_v2_t10
+1900,50,Total,total,,44747,,census1920_v2_t10
+1900,50,Canada,country,Total,25655,,census1920_v2_t10
+1900,50,Canada-French,subcountry,Canada,14984,,census1920_v2_t10
+1900,50,Canada-Other (derived),subcountry,Canada,10671,,census1920_v2_t10_derived
+1900,50,Italy,country,Total,2154,,census1920_v2_t10
+1900,50,Ireland,country,Total,7453,,census1920_v2_t10
+1900,50,England,country,Total,2447,,census1920_v2_t10
+1900,50,Scotland,country,Total,2049,,census1920_v2_t10
+1900,50,Poland,country,Total,369,,census1920_v2_t10
+1900,50,Russia and Lithuania,country,Total,377,,census1920_v2_t10
+1900,50,Sweden,country,Total,1020,,census1920_v2_t10
+1900,50,Spain,country,Total,53,,census1920_v2_t10
+1900,50,Germany,country,Total,882,,census1920_v2_t10
+1900,50,Wales,country,Total,1056,,census1920_v2_t10
+1900,50,Finland,country,Total,53,,census1920_v2_t10
+1900,50,All other countries,residual,Total,1179,,census1920_v2_t10
+1900,51,Total,total,,19461,,census1920_v2_t10
+1900,51,Russia and Lithuania,country,Total,1242,,census1920_v2_t10
+1900,51,England,country,Total,3425,,census1920_v2_t10
+1900,51,Germany,country,Total,4504,,census1920_v2_t10
+1900,51,Italy,country,Total,781,,census1920_v2_t10
+1900,51,Canada,country,Total,1130,,census1920_v2_t10
+1900,51,Greece,country,Total,59,,census1920_v2_t10
+1900,51,Ireland,country,Total,3534,,census1920_v2_t10
+1900,51,Scotland,country,Total,1162,,census1920_v2_t10
+1900,51,Hungary,country,Total,607,,census1920_v2_t10
+1900,51,Poland,country,Total,147,,census1920_v2_t10
+1900,51,Austria,country,Total,530,,census1920_v2_t10
+1900,51,Sweden,country,Total,218,,census1920_v2_t10
+1900,51,Norway,country,Total,123,,census1920_v2_t10
+1900,51,Denmark,country,Total,128,,census1920_v2_t10
+1900,51,France,country,Total,316,,census1920_v2_t10
+1900,51,West Indies (except U.S. possessions),residual,Total,107,,census1920_v2_t10
+1900,51,Netherlands,country,Total,72,,census1920_v2_t10
+1900,51,Portugal,country,Total,29,,census1920_v2_t10
+1900,51,All other countries,residual,Total,1347,,census1920_v2_t10
+1900,53,Total,total,,111364,,census1920_v2_t10
+1900,53,Canada,country,Total,20284,,census1920_v2_t10
+1900,53,Canada-French,subcountry,Canada,1899,,census1920_v2_t10
+1900,53,Canada-Other (derived),subcountry,Canada,18385,,census1920_v2_t10_derived
+1900,53,Sweden,country,Total,12737,,census1920_v2_t10
+1900,53,Norway,country,Total,9891,,census1920_v2_t10
+1900,53,Germany,country,Total,16686,,census1920_v2_t10
+1900,53,England,country,Total,10481,,census1920_v2_t10
+1900,53,Japan,country,Total,5769,,census1920_v2_t10
+1900,53,Finland,country,Total,2732,,census1920_v2_t10
+1900,53,Russia and Lithuania,country,Total,2462,,census1920_v2_t10
+1900,53,Italy,country,Total,2124,,census1920_v2_t10
+1900,53,Ireland,country,Total,7262,,census1920_v2_t10
+1900,53,Denmark,country,Total,3626,,census1920_v2_t10
+1900,53,Scotland,country,Total,3623,,census1920_v2_t10
+1900,53,Austria,country,Total,2739,,census1920_v2_t10
+1900,53,Greece,country,Total,65,,census1920_v2_t10
+1900,53,Poland,country,Total,506,,census1920_v2_t10
+1900,53,Switzerland,country,Total,1825,,census1920_v2_t10
+1900,53,Netherlands,country,Total,632,,census1920_v2_t10
+1900,53,France,country,Total,1065,,census1920_v2_t10
+1900,53,Wales,country,Total,1509,,census1920_v2_t10
+1900,53,All other countries,residual,Total,5346,,census1920_v2_t10
+1900,54,Total,total,,22451,,census1920_v2_t10
+1900,54,Italy,country,Total,2921,,census1920_v2_t10
+1900,54,Hungary,country,Total,810,,census1920_v2_t10
+1900,54,Poland,country,Total,633,,census1920_v2_t10
+1900,54,Austria,country,Total,1052,,census1920_v2_t10
+1900,54,Russia and Lithuania,country,Total,721,,census1920_v2_t10
+1900,54,Germany,country,Total,6537,,census1920_v2_t10
+1900,54,England,country,Total,2622,,census1920_v2_t10
+1900,54,Greece,country,Total,108,,census1920_v2_t10
+1900,54,Spain,country,Total,5,,census1920_v2_t10
+1900,54,Ireland,country,Total,3342,,census1920_v2_t10
+1900,54,Scotland,country,Total,855,,census1920_v2_t10
+1900,54,Canada,country,Total,711,,census1920_v2_t10
+1900,54,Belgium,country,Total,79,,census1920_v2_t10
+1900,54,Wales,country,Total,482,,census1920_v2_t10
+1900,54,France,country,Total,298,,census1920_v2_t10
+1900,54,Rumania,country,Total,1,,census1920_v2_t10
+1900,54,All other countries,residual,Total,1274,,census1920_v2_t10
+1900,55,Total,total,,515971,,census1920_v2_t10
+1900,55,Germany,country,Total,242777,,census1920_v2_t10
+1900,55,Poland,country,Total,31789,,census1920_v2_t10
+1900,55,Norway,country,Total,61575,,census1920_v2_t10
+1900,55,Russia and Lithuania,country,Total,4243,,census1920_v2_t10
+1900,55,Sweden,country,Total,26196,,census1920_v2_t10
+1900,55,Austria,country,Total,21464,,census1920_v2_t10
+1900,55,Canada,country,Total,33951,,census1920_v2_t10
+1900,55,Canada-French,subcountry,Canada,10091,,census1920_v2_t10
+1900,55,Canada-Other (derived),subcountry,Canada,23860,,census1920_v2_t10_derived
+1900,55,Denmark,country,Total,16171,,census1920_v2_t10
+1900,55,Italy,country,Total,2172,,census1920_v2_t10
+1900,55,England,country,Total,17995,,census1920_v2_t10
+1900,55,Hungary,country,Total,1123,,census1920_v2_t10
+1900,55,Ireland,country,Total,23544,,census1920_v2_t10
+1900,55,Switzerland,country,Total,7666,,census1920_v2_t10
+1900,55,Netherlands,country,Total,6496,,census1920_v2_t10
+1900,55,Finland,country,Total,2198,,census1920_v2_t10
+1900,55,All other countries,residual,Total,16611,,census1920_v2_t10
+1900,56,Total,total,,17415,,census1920_v2_t10
+1900,56,England,country,Total,2596,,census1920_v2_t10
+1900,56,Germany,country,Total,2146,,census1920_v2_t10
+1900,56,Sweden,country,Total,1727,,census1920_v2_t10
+1900,56,Italy,country,Total,781,,census1920_v2_t10
+1900,56,Mexico,country,Total,58,,census1920_v2_t10
+1900,56,Russia and Lithuania,country,Total,90,,census1920_v2_t10
+1900,56,Canada,country,Total,1248,,census1920_v2_t10
+1900,56,Scotland,country,Total,1253,,census1920_v2_t10
+1900,56,Greece,country,Total,230,,census1920_v2_t10
+1900,56,Austria,country,Total,1104,,census1920_v2_t10
+1900,56,Japan,country,Total,397,,census1920_v2_t10
+1900,56,Ireland,country,Total,1591,,census1920_v2_t10
+1900,56,Denmark,country,Total,884,,census1920_v2_t10
+1900,56,Finland,country,Total,1220,,census1920_v2_t10
+1900,56,Norway,country,Total,378,,census1920_v2_t10
+1900,56,Poland,country,Total,79,,census1920_v2_t10
+1900,56,France,country,Total,183,,census1920_v2_t10
+1900,56,Hungary,country,Total,287,,census1920_v2_t10
+1900,56,Switzerland,country,Total,199,,census1920_v2_t10
+1900,56,Wales,country,Total,393,,census1920_v2_t10
+1900,56,All other countries,residual,Total,571,,census1920_v2_t10
+1910,01,Total,total,,19286,,census1920_v2_t10
+1910,01,Italy,country,Total,2696,,census1920_v2_t10
+1910,01,Germany,country,Total,3519,,census1920_v2_t10
+1910,01,England,country,Total,2365,,census1920_v2_t10
+1910,01,Russia and Lithuania,country,Total,1282,,census1920_v2_t10
+1910,01,Scotland,country,Total,1120,,census1920_v2_t10
+1910,01,Greece,country,Total,633,,census1920_v2_t10
+1910,01,Canada,country,Total,833,,census1920_v2_t10
+1910,01,Ireland,country,Total,1167,,census1920_v2_t10
+1910,01,Sweden,country,Total,753,,census1920_v2_t10
+1910,01,France,country,Total,592,,census1920_v2_t10
+1910,01,Austria,country,Total,724,,census1920_v2_t10
+1910,01,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,389,,census1920_v2_t10
+1910,01,West Indies (except U.S. possessions),residual,Total,230,,census1920_v2_t10
+1910,01,Poland,country,Total,513,,census1920_v2_t10
+1910,01,Hungary,country,Total,585,,census1920_v2_t10
+1910,01,Norway,country,Total,266,,census1920_v2_t10
+1910,01,Denmark,country,Total,197,,census1920_v2_t10
+1910,01,Switzerland,country,Total,213,,census1920_v2_t10
+1910,01,All other countries,residual,Total,1209,,census1920_v2_t10
+1910,04,Total,total,,48765,,census1920_v2_t10
+1910,04,Mexico,country,Total,29987,,census1920_v2_t10
+1910,04,England,country,Total,3500,,census1920_v2_t10
+1910,04,Canada,country,Total,1827,,census1920_v2_t10
+1910,04,Germany,country,Total,1825,,census1920_v2_t10
+1910,04,Italy,country,Total,1531,,census1920_v2_t10
+1910,04,Ireland,country,Total,1550,,census1920_v2_t10
+1910,04,Spain,country,Total,857,,census1920_v2_t10
+1910,04,Sweden,country,Total,845,,census1920_v2_t10
+1910,04,Russia and Lithuania,country,Total,236,,census1920_v2_t10
+1910,04,China,country,Total,1016,,census1920_v2_t10
+1910,04,Scotland,country,Total,576,,census1920_v2_t10
+1910,04,Austria,country,Total,1402,,census1920_v2_t10
+1910,04,Japan,country,Total,361,,census1920_v2_t10
+1910,04,Finland,country,Total,560,,census1920_v2_t10
+1910,04,Denmark,country,Total,284,,census1920_v2_t10
+1910,04,France,country,Total,323,,census1920_v2_t10
+1910,04,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,128,,census1920_v2_t10
+1910,04,All other countries,residual,Total,1957,,census1920_v2_t10
+1910,05,Total,total,,17046,,census1920_v2_t10
+1910,05,Germany,country,Total,5710,,census1920_v2_t10
+1910,05,Italy,country,Total,1699,,census1920_v2_t10
+1910,05,England,country,Total,1519,,census1920_v2_t10
+1910,05,Canada,country,Total,1074,,census1920_v2_t10
+1910,05,Switzerland,country,Total,804,,census1920_v2_t10
+1910,05,Russia and Lithuania,country,Total,486,,census1920_v2_t10
+1910,05,Ireland,country,Total,1079,,census1920_v2_t10
+1910,05,Austria,country,Total,1071,,census1920_v2_t10
+1910,05,Poland,country,Total,576,,census1920_v2_t10
+1910,05,France,country,Total,387,,census1920_v2_t10
+1910,05,Sweden,country,Total,385,,census1920_v2_t10
+1910,05,Scotland,country,Total,442,,census1920_v2_t10
+1910,05,Mexico,country,Total,132,,census1920_v2_t10
+1910,05,Greece,country,Total,179,,census1920_v2_t10
+1910,05,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,169,,census1920_v2_t10
+1910,05,Denmark,country,Total,178,,census1920_v2_t10
+1910,05,All other countries,residual,Total,1156,,census1920_v2_t10
+1910,06,Total,total,,586432,,census1920_v2_t10
+1910,06,Mexico,country,Total,33694,,census1920_v2_t10
+1910,06,Italy,country,Total,63615,,census1920_v2_t10
+1910,06,Germany,country,Total,75834,,census1920_v2_t10
+1910,06,Canada,country,Total,44677,,census1920_v2_t10
+1910,06,England,country,Total,48703,,census1920_v2_t10
+1910,06,Japan,country,Total,38214,,census1920_v2_t10
+1910,06,Ireland,country,Total,52478,,census1920_v2_t10
+1910,06,Sweden,country,Total,26212,,census1920_v2_t10
+1910,06,Russia and Lithuania,country,Total,14638,,census1920_v2_t10
+1910,06,Portugal,country,Total,22539,,census1920_v2_t10
+1910,06,France,country,Total,17407,,census1920_v2_t10
+1910,06,China,country,Total,27764,,census1920_v2_t10
+1910,06,Denmark,country,Total,14209,,census1920_v2_t10
+1910,06,Scotland,country,Total,13695,,census1920_v2_t10
+1910,06,Switzerland,country,Total,14521,,census1920_v2_t10
+1910,06,Austria,country,Total,16068,,census1920_v2_t10
+1910,06,Norway,country,Total,9952,,census1920_v2_t10
+1910,06,Spain,country,Total,4229,,census1920_v2_t10
+1910,06,Greece,country,Total,7920,,census1920_v2_t10
+1910,06,Atlantic Islands (incl. Azores),residual,Total,2898,,census1920_v2_t10
+1910,06,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Armenia, etc."")",country,Total,3709,,census1920_v2_t10
+1910,06,Poland,country,Total,3542,,census1920_v2_t10
+1910,06,Finland,country,Total,6159,,census1920_v2_t10
+1910,06,Hungary,country,Total,3304,,census1920_v2_t10
+1910,06,All other countries,residual,Total,20451,,census1920_v2_t10
+1910,08,Total,total,,129587,,census1920_v2_t10
+1910,08,Russia and Lithuania,country,Total,12759,,census1920_v2_t10
+1910,08,Italy,country,Total,14375,,census1920_v2_t10
+1910,08,Germany,country,Total,16908,,census1920_v2_t10
+1910,08,Mexico,country,Total,2602,,census1920_v2_t10
+1910,08,Sweden,country,Total,12446,,census1920_v2_t10
+1910,08,England,country,Total,12928,,census1920_v2_t10
+1910,08,Canada,country,Total,9581,,census1920_v2_t10
+1910,08,Ireland,country,Total,8710,,census1920_v2_t10
+1910,08,Austria,country,Total,11582,,census1920_v2_t10
+1910,08,Scotland,country,Total,4269,,census1920_v2_t10
+1910,08,Denmark,country,Total,2756,,census1920_v2_t10
+1910,08,Poland,country,Total,2483,,census1920_v2_t10
+1910,08,Greece,country,Total,2272,,census1920_v2_t10
+1910,08,Japan,country,Total,2245,,census1920_v2_t10
+1910,08,Norway,country,Total,1787,,census1920_v2_t10
+1910,08,Switzerland,country,Total,1767,,census1920_v2_t10
+1910,08,Wales,country,Total,1989,,census1920_v2_t10
+1910,08,France,country,Total,1374,,census1920_v2_t10
+1910,08,All other countries,residual,Total,6754,,census1920_v2_t10
+1910,09,Total,total,,329574,,census1920_v2_t10
+1910,09,Italy,country,Total,56954,,census1920_v2_t10
+1910,09,Russia and Lithuania,country,Total,32462,,census1920_v2_t10
+1910,09,Poland,country,Total,35406,,census1920_v2_t10
+1910,09,Ireland,country,Total,58458,,census1920_v2_t10
+1910,09,Canada,country,Total,26757,,census1920_v2_t10
+1910,09,Canada-French,subcountry,Canada,18889,,census1920_v2_t10
+1910,09,Canada-Other (derived),subcountry,Canada,7868,,census1920_v2_t10_derived
+1910,09,England,country,Total,22463,,census1920_v2_t10
+1910,09,Germany,country,Total,30408,,census1920_v2_t10
+1910,09,Sweden,country,Total,18208,,census1920_v2_t10
+1910,09,Hungary,country,Total,13855,,census1920_v2_t10
+1910,09,Austria,country,Total,10614,,census1920_v2_t10
+1910,09,Scotland,country,Total,6750,,census1920_v2_t10
+1910,09,Greece,country,Total,1074,,census1920_v2_t10
+1910,09,France,country,Total,2619,,census1920_v2_t10
+1910,09,Denmark,country,Total,2724,,census1920_v2_t10
+1910,09,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,1738,,census1920_v2_t10
+1910,09,All other countries,residual,Total,9084,,census1920_v2_t10
+1910,10,Total,total,,17492,,census1920_v2_t10
+1910,10,Italy,country,Total,2893,,census1920_v2_t10
+1910,10,Poland,country,Total,3657,,census1920_v2_t10
+1910,10,Ireland,country,Total,3985,,census1920_v2_t10
+1910,10,Russia and Lithuania,country,Total,825,,census1920_v2_t10
+1910,10,Germany,country,Total,2045,,census1920_v2_t10
+1910,10,England,country,Total,1558,,census1920_v2_t10
+1910,10,Austria,country,Total,467,,census1920_v2_t10
+1910,10,Canada,country,Total,504,,census1920_v2_t10
+1910,10,Scotland,country,Total,344,,census1920_v2_t10
+1910,10,Sweden,country,Total,332,,census1920_v2_t10
+1910,10,Greece,country,Total,34,,census1920_v2_t10
+1910,10,Hungary,country,Total,247,,census1920_v2_t10
+1910,10,France,country,Total,170,,census1920_v2_t10
+1910,10,All other countries,residual,Total,431,,census1920_v2_t10
+1910,11,Total,total,,24902,,census1920_v2_t10
+1910,11,Russia and Lithuania,country,Total,2969,,census1920_v2_t10
+1910,11,Ireland,country,Total,5347,,census1920_v2_t10
+1910,11,Italy,country,Total,2761,,census1920_v2_t10
+1910,11,Germany,country,Total,5082,,census1920_v2_t10
+1910,11,England,country,Total,2638,,census1920_v2_t10
+1910,11,Canada,country,Total,1161,,census1920_v2_t10
+1910,11,Greece,country,Total,342,,census1920_v2_t10
+1910,11,Scotland,country,Total,705,,census1920_v2_t10
+1910,11,Poland,country,Total,563,,census1920_v2_t10
+1910,11,France,country,Total,511,,census1920_v2_t10
+1910,11,Austria,country,Total,417,,census1920_v2_t10
+1910,11,Sweden,country,Total,359,,census1920_v2_t10
+1910,11,West Indies (except U.S. possessions),residual,Total,243,,census1920_v2_t10
+1910,11,Switzerland,country,Total,281,,census1920_v2_t10
+1910,11,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,139,,census1920_v2_t10
+1910,11,China,country,Total,270,,census1920_v2_t10
+1910,11,All other countries,residual,Total,1114,,census1920_v2_t10
+1910,12,Total,total,,40633,,census1920_v2_t10
+1910,12,West Indies (except U.S. possessions),residual,Total,17050,,census1920_v2_t10
+1910,12,Italy,country,Total,4538,,census1920_v2_t10
+1910,12,England,country,Total,3078,,census1920_v2_t10
+1910,12,Canada,country,Total,1728,,census1920_v2_t10
+1910,12,Spain,country,Total,4199,,census1920_v2_t10
+1910,12,Germany,country,Total,2427,,census1920_v2_t10
+1910,12,Greece,country,Total,886,,census1920_v2_t10
+1910,12,Sweden,country,Total,729,,census1920_v2_t10
+1910,12,Ireland,country,Total,1069,,census1920_v2_t10
+1910,12,Russia and Lithuania,country,Total,473,,census1920_v2_t10
+1910,12,Scotland,country,Total,606,,census1920_v2_t10
+1910,12,France,country,Total,285,,census1920_v2_t10
+1910,12,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,291,,census1920_v2_t10
+1910,12,Norway,country,Total,304,,census1920_v2_t10
+1910,12,Denmark,country,Total,295,,census1920_v2_t10
+1910,12,Austria,country,Total,216,,census1920_v2_t10
+1910,12,All other countries,residual,Total,2459,,census1920_v2_t10
+1910,13,Total,total,,15477,,census1920_v2_t10
+1910,13,Russia and Lithuania,country,Total,2914,,census1920_v2_t10
+1910,13,Germany,country,Total,2984,,census1920_v2_t10
+1910,13,England,country,Total,1671,,census1920_v2_t10
+1910,13,Greece,country,Total,941,,census1920_v2_t10
+1910,13,Ireland,country,Total,1655,,census1920_v2_t10
+1910,13,Canada,country,Total,801,,census1920_v2_t10
+1910,13,Poland,country,Total,418,,census1920_v2_t10
+1910,13,Italy,country,Total,545,,census1920_v2_t10
+1910,13,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,376,,census1920_v2_t10
+1910,13,Scotland,country,Total,527,,census1920_v2_t10
+1910,13,Austria,country,Total,286,,census1920_v2_t10
+1910,13,France,country,Total,224,,census1920_v2_t10
+1910,13,Sweden,country,Total,289,,census1920_v2_t10
+1910,13,Hungary,country,Total,230,,census1920_v2_t10
+1910,13,West Indies (except U.S. possessions),residual,Total,226,,census1920_v2_t10
+1910,13,Switzerland,country,Total,169,,census1920_v2_t10
+1910,13,All other countries,residual,Total,1221,,census1920_v2_t10
+1910,16,Total,total,,42578,,census1920_v2_t10
+1910,16,Sweden,country,Total,4985,,census1920_v2_t10
+1910,16,Canada,country,Total,5371,,census1920_v2_t10
+1910,16,Canada-French,subcountry,Canada,796,,census1920_v2_t10
+1910,16,Canada-Other (derived),subcountry,Canada,4575,,census1920_v2_t10_derived
+1910,16,England,country,Total,4983,,census1920_v2_t10
+1910,16,Germany,country,Total,5004,,census1920_v2_t10
+1910,16,Norway,country,Total,2566,,census1920_v2_t10
+1910,16,Denmark,country,Total,2254,,census1920_v2_t10
+1910,16,Russia and Lithuania,country,Total,574,,census1920_v2_t10
+1910,16,Spain,country,Total,1047,,census1920_v2_t10
+1910,16,Ireland,country,Total,1782,,census1920_v2_t10
+1910,16,Switzerland,country,Total,1319,,census1920_v2_t10
+1910,16,Italy,country,Total,2067,,census1920_v2_t10
+1910,16,Scotland,country,Total,1282,,census1920_v2_t10
+1910,16,Mexico,country,Total,133,,census1920_v2_t10
+1910,16,Japan,country,Total,1330,,census1920_v2_t10
+1910,16,Finland,country,Total,652,,census1920_v2_t10
+1910,16,Austria,country,Total,1477,,census1920_v2_t10
+1910,16,Greece,country,Total,1843,,census1920_v2_t10
+1910,16,Wales,country,Total,722,,census1920_v2_t10
+1910,16,China,country,Total,773,,census1920_v2_t10
+1910,16,France,country,Total,333,,census1920_v2_t10
+1910,16,Netherlands,country,Total,261,,census1920_v2_t10
+1910,16,All other countries,residual,Total,1820,,census1920_v2_t10
+1910,17,Total,total,,1205314,,census1920_v2_t10
+1910,17,Germany,country,Total,278054,,census1920_v2_t10
+1910,17,Poland,country,Total,148206,,census1920_v2_t10
+1910,17,Russia and Lithuania,country,Total,103472,,census1920_v2_t10
+1910,17,Sweden,country,Total,115424,,census1920_v2_t10
+1910,17,Italy,country,Total,72163,,census1920_v2_t10
+1910,17,Ireland,country,Total,93455,,census1920_v2_t10
+1910,17,England,country,Total,60363,,census1920_v2_t10
+1910,17,Austria,country,Total,101508,,census1920_v2_t10
+1910,17,Canada,country,Total,45751,,census1920_v2_t10
+1910,17,Hungary,country,Total,39859,,census1920_v2_t10
+1910,17,Norway,country,Total,32913,,census1920_v2_t10
+1910,17,Scotland,country,Total,20755,,census1920_v2_t10
+1910,17,Denmark,country,Total,17369,,census1920_v2_t10
+1910,17,Greece,country,Total,10031,,census1920_v2_t10
+1910,17,Netherlands,country,Total,14402,,census1920_v2_t10
+1910,17,France,country,Total,7972,,census1920_v2_t10
+1910,17,Belgium,country,Total,9399,,census1920_v2_t10
+1910,17,All other countries,residual,Total,34218,,census1920_v2_t10
+1910,18,Total,total,,159663,,census1920_v2_t10
+1910,18,Germany,country,Total,56534,,census1920_v2_t10
+1910,18,Poland,country,Total,14471,,census1920_v2_t10
+1910,18,Hungary,country,Total,14370,,census1920_v2_t10
+1910,18,Russia and Lithuania,country,Total,5024,,census1920_v2_t10
+1910,18,Austria,country,Total,7580,,census1920_v2_t10
+1910,18,England,country,Total,9783,,census1920_v2_t10
+1910,18,Ireland,country,Total,11266,,census1920_v2_t10
+1910,18,Italy,country,Total,6911,,census1920_v2_t10
+1910,18,Canada,country,Total,5838,,census1920_v2_t10
+1910,18,Sweden,country,Total,5081,,census1920_v2_t10
+1910,18,Greece,country,Total,1370,,census1920_v2_t10
+1910,18,Scotland,country,Total,3419,,census1920_v2_t10
+1910,18,France,country,Total,2388,,census1920_v2_t10
+1910,18,Rumania,country,Total,709,,census1920_v2_t10
+1910,18,Belgium,country,Total,2298,,census1920_v2_t10
+1910,18,Switzerland,country,Total,2765,,census1920_v2_t10
+1910,18,Netherlands,country,Total,2131,,census1920_v2_t10
+1910,18,All other countries,residual,Total,7725,,census1920_v2_t10
+1910,19,Total,total,,273765,,census1920_v2_t10
+1910,19,Germany,country,Total,98291,,census1920_v2_t10
+1910,19,Sweden,country,Total,26763,,census1920_v2_t10
+1910,19,Denmark,country,Total,17961,,census1920_v2_t10
+1910,19,Norway,country,Total,21924,,census1920_v2_t10
+1910,19,England,country,Total,16788,,census1920_v2_t10
+1910,19,Netherlands,country,Total,11337,,census1920_v2_t10
+1910,19,Ireland,country,Total,17756,,census1920_v2_t10
+1910,19,Canada,country,Total,11619,,census1920_v2_t10
+1910,19,Russia and Lithuania,country,Total,5494,,census1920_v2_t10
+1910,19,Italy,country,Total,5846,,census1920_v2_t10
+1910,19,Austria,country,Total,15136,,census1920_v2_t10
+1910,19,Scotland,country,Total,5162,,census1920_v2_t10
+1910,19,Greece,country,Total,3356,,census1920_v2_t10
+1910,19,Switzerland,country,Total,3675,,census1920_v2_t10
+1910,19,Mexico,country,Total,620,,census1920_v2_t10
+1910,19,France,country,Total,1618,,census1920_v2_t10
+1910,19,Poland,country,Total,2115,,census1920_v2_t10
+1910,19,All other countries,residual,Total,8304,,census1920_v2_t10
+1910,20,Total,total,,135450,,census1920_v2_t10
+1910,20,Germany,country,Total,34041,,census1920_v2_t10
+1910,20,Mexico,country,Total,8429,,census1920_v2_t10
+1910,20,Russia and Lithuania,country,Total,14234,,census1920_v2_t10
+1910,20,Sweden,country,Total,13309,,census1920_v2_t10
+1910,20,England,country,Total,11262,,census1920_v2_t10
+1910,20,Canada,country,Total,7188,,census1920_v2_t10
+1910,20,Austria,country,Total,11062,,census1920_v2_t10
+1910,20,Ireland,country,Total,8100,,census1920_v2_t10
+1910,20,Italy,country,Total,3520,,census1920_v2_t10
+1910,20,Scotland,country,Total,3591,,census1920_v2_t10
+1910,20,Poland,country,Total,2576,,census1920_v2_t10
+1910,20,Denmark,country,Total,2760,,census1920_v2_t10
+1910,20,Switzerland,country,Total,2853,,census1920_v2_t10
+1910,20,France,country,Total,2657,,census1920_v2_t10
+1910,20,Belgium,country,Total,1703,,census1920_v2_t10
+1910,20,Wales,country,Total,1615,,census1920_v2_t10
+1910,20,All other countries,residual,Total,6550,,census1920_v2_t10
+1910,21,Total,total,,40162,,census1920_v2_t10
+1910,21,Germany,country,Total,19219,,census1920_v2_t10
+1910,21,Ireland,country,Total,5914,,census1920_v2_t10
+1910,21,Russia and Lithuania,country,Total,2872,,census1920_v2_t10
+1910,21,Italy,country,Total,1316,,census1920_v2_t10
+1910,21,England,country,Total,2619,,census1920_v2_t10
+1910,21,Switzerland,country,Total,1653,,census1920_v2_t10
+1910,21,Hungary,country,Total,725,,census1920_v2_t10
+1910,21,Poland,country,Total,602,,census1920_v2_t10
+1910,21,France,country,Total,645,,census1920_v2_t10
+1910,21,Austria,country,Total,912,,census1920_v2_t10
+1910,21,Canada,country,Total,1070,,census1920_v2_t10
+1910,21,Scotland,country,Total,641,,census1920_v2_t10
+1910,21,Greece,country,Total,273,,census1920_v2_t10
+1910,21,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,369,,census1920_v2_t10
+1910,21,All other countries,residual,Total,1332,,census1920_v2_t10
+1910,22,Total,total,,52766,,census1920_v2_t10
+1910,22,Italy,country,Total,20233,,census1920_v2_t10
+1910,22,Germany,country,Total,8822,,census1920_v2_t10
+1910,22,France,country,Total,5345,,census1920_v2_t10
+1910,22,Mexico,country,Total,1025,,census1920_v2_t10
+1910,22,Ireland,country,Total,3757,,census1920_v2_t10
+1910,22,Russia and Lithuania,country,Total,1369,,census1920_v2_t10
+1910,22,England,country,Total,2086,,census1920_v2_t10
+1910,22,Spain,country,Total,719,,census1920_v2_t10
+1910,22,West Indies (except U.S. possessions),residual,Total,630,,census1920_v2_t10
+1910,22,Canada,country,Total,1191,,census1920_v2_t10
+1910,22,Central and South America,residual,Total,328,,census1920_v2_t10
+1910,22,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,949,,census1920_v2_t10
+1910,22,Austria,country,Total,1418,,census1920_v2_t10
+1910,22,Greece,country,Total,237,,census1920_v2_t10
+1910,22,Norway,country,Total,295,,census1920_v2_t10
+1910,22,Sweden,country,Total,344,,census1920_v2_t10
+1910,22,Scotland,country,Total,455,,census1920_v2_t10
+1910,22,All other countries,residual,Total,3563,,census1920_v2_t10
+1910,23,Total,total,,110562,,census1920_v2_t10
+1910,23,Canada,country,Total,76223,,census1920_v2_t10
+1910,23,Canada-French,subcountry,Canada,35013,,census1920_v2_t10
+1910,23,Canada-Other (derived),subcountry,Canada,41210,,census1920_v2_t10_derived
+1910,23,Ireland,country,Total,7890,,census1920_v2_t10
+1910,23,England,country,Total,5651,,census1920_v2_t10
+1910,23,Russia and Lithuania,country,Total,3556,,census1920_v2_t10
+1910,23,Italy,country,Total,3468,,census1920_v2_t10
+1910,23,Scotland,country,Total,2389,,census1920_v2_t10
+1910,23,Sweden,country,Total,2203,,census1920_v2_t10
+1910,23,Poland,country,Total,1527,,census1920_v2_t10
+1910,23,Finland,country,Total,831,,census1920_v2_t10
+1910,23,Greece,country,Total,579,,census1920_v2_t10
+1910,23,Denmark,country,Total,929,,census1920_v2_t10
+1910,23,Germany,country,Total,1261,,census1920_v2_t10
+1910,23,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,744,,census1920_v2_t10
+1910,23,Norway,country,Total,580,,census1920_v2_t10
+1910,23,All other countries,residual,Total,2731,,census1920_v2_t10
+1910,24,Total,total,,104944,,census1920_v2_t10
+1910,24,Russia and Lithuania,country,Total,20164,,census1920_v2_t10
+1910,24,Germany,country,Total,33277,,census1920_v2_t10
+1910,24,Poland,country,Total,12829,,census1920_v2_t10
+1910,24,Italy,country,Total,6969,,census1920_v2_t10
+1910,24,Ireland,country,Total,9705,,census1920_v2_t10
+1910,24,England,country,Total,5211,,census1920_v2_t10
+1910,24,Austria,country,Total,6178,,census1920_v2_t10
+1910,24,Hungary,country,Total,2089,,census1920_v2_t10
+1910,24,Canada,country,Total,1430,,census1920_v2_t10
+1910,24,Scotland,country,Total,1955,,census1920_v2_t10
+1910,24,Greece,country,Total,463,,census1920_v2_t10
+1910,24,France,country,Total,552,,census1920_v2_t10
+1910,24,West Indies (except U.S. possessions),residual,Total,453,,census1920_v2_t10
+1910,24,Sweden,country,Total,421,,census1920_v2_t10
+1910,24,All other countries,residual,Total,3248,,census1920_v2_t10
+1910,25,Total,total,,1059245,,census1920_v2_t10
+1910,25,Canada,country,Total,297369,,census1920_v2_t10
+1910,25,Canada-French,subcountry,Canada,134659,,census1920_v2_t10
+1910,25,Canada-Other (derived),subcountry,Canada,162710,,census1920_v2_t10_derived
+1910,25,Ireland,country,Total,222867,,census1920_v2_t10
+1910,25,Italy,country,Total,85056,,census1920_v2_t10
+1910,25,Russia and Lithuania,country,Total,89667,,census1920_v2_t10
+1910,25,England,country,Total,92658,,census1920_v2_t10
+1910,25,Poland,country,Total,58094,,census1920_v2_t10
+1910,25,Sweden,country,Total,39562,,census1920_v2_t10
+1910,25,Portugal,country,Total,26437,,census1920_v2_t10
+1910,25,Scotland,country,Total,28416,,census1920_v2_t10
+1910,25,Atlantic Islands (incl. Azores),residual,Total,12816,,census1920_v2_t10
+1910,25,Germany,country,Total,28960,,census1920_v2_t10
+1910,25,Greece,country,Total,11413,,census1920_v2_t10
+1910,25,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Armenia, etc."")",country,Total,12546,,census1920_v2_t10
+1910,25,Finland,country,Total,10744,,census1920_v2_t10
+1910,25,Austria,country,Total,6550,,census1920_v2_t10
+1910,25,Newfoundland,country,Total,1751,,census1920_v2_t10
+1910,25,France,country,Total,5926,,census1920_v2_t10
+1910,25,All other countries,residual,Total,28413,,census1920_v2_t10
+1910,26,Total,total,,597550,,census1920_v2_t10
+1910,26,Canada,country,Total,172863,,census1920_v2_t10
+1910,26,Canada-French,subcountry,Canada,28083,,census1920_v2_t10
+1910,26,Canada-Other (derived),subcountry,Canada,144780,,census1920_v2_t10_derived
+1910,26,Poland,country,Total,62419,,census1920_v2_t10
+1910,26,Germany,country,Total,105915,,census1920_v2_t10
+1910,26,Russia and Lithuania,country,Total,15822,,census1920_v2_t10
+1910,26,England,country,Total,42737,,census1920_v2_t10
+1910,26,Netherlands,country,Total,33471,,census1920_v2_t10
+1910,26,Italy,country,Total,16861,,census1920_v2_t10
+1910,26,Finland,country,Total,31144,,census1920_v2_t10
+1910,26,Sweden,country,Total,26374,,census1920_v2_t10
+1910,26,Hungary,country,Total,11597,,census1920_v2_t10
+1910,26,Austria,country,Total,16442,,census1920_v2_t10
+1910,26,Ireland,country,Total,20434,,census1920_v2_t10
+1910,26,Scotland,country,Total,9952,,census1920_v2_t10
+1910,26,Belgium,country,Total,5683,,census1920_v2_t10
+1910,26,Denmark,country,Total,6315,,census1920_v2_t10
+1910,26,Greece,country,Total,1196,,census1920_v2_t10
+1910,26,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,1567,,census1920_v2_t10
+1910,26,Norway,country,Total,7638,,census1920_v2_t10
+1910,26,Rumania,country,Total,510,,census1920_v2_t10
+1910,26,All other countries,residual,Total,8610,,census1920_v2_t10
+1910,27,Total,total,,543595,,census1920_v2_t10
+1910,27,Sweden,country,Total,122428,,census1920_v2_t10
+1910,27,Norway,country,Total,105303,,census1920_v2_t10
+1910,27,Germany,country,Total,99645,,census1920_v2_t10
+1910,27,Canada,country,Total,41121,,census1920_v2_t10
+1910,27,Canada-French,subcountry,Canada,11062,,census1920_v2_t10
+1910,27,Canada-Other (derived),subcountry,Canada,30059,,census1920_v2_t10_derived
+1910,27,Finland,country,Total,26637,,census1920_v2_t10
+1910,27,Poland,country,Total,20050,,census1920_v2_t10
+1910,27,Denmark,country,Total,16137,,census1920_v2_t10
+1910,27,Russia and Lithuania,country,Total,13223,,census1920_v2_t10
+1910,27,Austria,country,Total,31372,,census1920_v2_t10
+1910,27,England,country,Total,12139,,census1920_v2_t10
+1910,27,Ireland,country,Total,15859,,census1920_v2_t10
+1910,27,Italy,country,Total,9669,,census1920_v2_t10
+1910,27,Netherlands,country,Total,3542,,census1920_v2_t10
+1910,27,Hungary,country,Total,5582,,census1920_v2_t10
+1910,27,Scotland,country,Total,4373,,census1920_v2_t10
+1910,27,All other countries,residual,Total,16515,,census1920_v2_t10
+1910,28,Total,total,,9770,,census1920_v2_t10
+1910,28,Italy,country,Total,2137,,census1920_v2_t10
+1910,28,Germany,country,Total,1637,,census1920_v2_t10
+1910,28,Russia and Lithuania,country,Total,754,,census1920_v2_t10
+1910,28,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,376,,census1920_v2_t10
+1910,28,England,country,Total,777,,census1920_v2_t10
+1910,28,Ireland,country,Total,747,,census1920_v2_t10
+1910,28,Canada,country,Total,450,,census1920_v2_t10
+1910,28,Poland,country,Total,223,,census1920_v2_t10
+1910,28,France,country,Total,291,,census1920_v2_t10
+1910,28,China,country,Total,195,,census1920_v2_t10
+1910,28,Sweden,country,Total,292,,census1920_v2_t10
+1910,28,Greece,country,Total,117,,census1920_v2_t10
+1910,28,Scotland,country,Total,181,,census1920_v2_t10
+1910,28,Austria,country,Total,385,,census1920_v2_t10
+1910,28,West Indies (except U.S. possessions),residual,Total,156,,census1920_v2_t10
+1910,28,Denmark,country,Total,119,,census1920_v2_t10
+1910,28,Mexico,country,Total,72,,census1920_v2_t10
+1910,28,Norway,country,Total,91,,census1920_v2_t10
+1910,28,All other countries,residual,Total,770,,census1920_v2_t10
+1910,29,Total,total,,229779,,census1920_v2_t10
+1910,29,Germany,country,Total,86263,,census1920_v2_t10
+1910,29,Russia and Lithuania,country,Total,16829,,census1920_v2_t10
+1910,29,Ireland,country,Total,23297,,census1920_v2_t10
+1910,29,Italy,country,Total,12984,,census1920_v2_t10
+1910,29,England,country,Total,13760,,census1920_v2_t10
+1910,29,Austria,country,Total,14390,,census1920_v2_t10
+1910,29,Hungary,country,Total,11532,,census1920_v2_t10
+1910,29,Poland,country,Total,8368,,census1920_v2_t10
+1910,29,Canada,country,Total,8069,,census1920_v2_t10
+1910,29,Switzerland,country,Total,6141,,census1920_v2_t10
+1910,29,Sweden,country,Total,5654,,census1920_v2_t10
+1910,29,France,country,Total,2794,,census1920_v2_t10
+1910,29,Mexico,country,Total,1413,,census1920_v2_t10
+1910,29,Greece,country,Total,2790,,census1920_v2_t10
+1910,29,Scotland,country,Total,3651,,census1920_v2_t10
+1910,29,Denmark,country,Total,1729,,census1920_v2_t10
+1910,29,Rumania,country,Total,1522,,census1920_v2_t10
+1910,29,All other countries,residual,Total,8593,,census1920_v2_t10
+1910,30,Total,total,,94713,,census1920_v2_t10
+1910,30,Canada,country,Total,13842,,census1920_v2_t10
+1910,30,Canada-French,subcountry,Canada,2874,,census1920_v2_t10
+1910,30,Canada-Other (derived),subcountry,Canada,10968,,census1920_v2_t10_derived
+1910,30,Norway,country,Total,7170,,census1920_v2_t10
+1910,30,England,country,Total,8981,,census1920_v2_t10
+1910,30,Germany,country,Total,8528,,census1920_v2_t10
+1910,30,Ireland,country,Total,9469,,census1920_v2_t10
+1910,30,Sweden,country,Total,6412,,census1920_v2_t10
+1910,30,Russia and Lithuania,country,Total,1757,,census1920_v2_t10
+1910,30,Italy,country,Total,6592,,census1920_v2_t10
+1910,30,Finland,country,Total,4111,,census1920_v2_t10
+1910,30,Austria,country,Total,7660,,census1920_v2_t10
+1910,30,Scotland,country,Total,3373,,census1920_v2_t10
+1910,30,Denmark,country,Total,1943,,census1920_v2_t10
+1910,30,Netherlands,country,Total,1054,,census1920_v2_t10
+1910,30,Greece,country,Total,1905,,census1920_v2_t10
+1910,30,Poland,country,Total,1302,,census1920_v2_t10
+1910,30,Switzerland,country,Total,988,,census1920_v2_t10
+1910,30,Hungary,country,Total,1486,,census1920_v2_t10
+1910,30,Japan,country,Total,1566,,census1920_v2_t10
+1910,30,France,country,Total,639,,census1920_v2_t10
+1910,30,Wales,country,Total,884,,census1920_v2_t10
+1910,30,All other countries,residual,Total,5051,,census1920_v2_t10
+1910,31,Total,total,,176662,,census1920_v2_t10
+1910,31,Germany,country,Total,55904,,census1920_v2_t10
+1910,31,Sweden,country,Total,23219,,census1920_v2_t10
+1910,31,Russia and Lithuania,country,Total,11740,,census1920_v2_t10
+1910,31,Denmark,country,Total,13674,,census1920_v2_t10
+1910,31,England,country,Total,8009,,census1920_v2_t10
+1910,31,Canada,country,Total,7335,,census1920_v2_t10
+1910,31,Ireland,country,Total,8124,,census1920_v2_t10
+1910,31,Poland,country,Total,5154,,census1920_v2_t10
+1910,31,Austria,country,Total,21886,,census1920_v2_t10
+1910,31,Italy,country,Total,3799,,census1920_v2_t10
+1910,31,Mexico,country,Total,290,,census1920_v2_t10
+1910,31,Norway,country,Total,2750,,census1920_v2_t10
+1910,31,Switzerland,country,Total,2150,,census1920_v2_t10
+1910,31,Scotland,country,Total,2242,,census1920_v2_t10
+1910,31,Greece,country,Total,3459,,census1920_v2_t10
+1910,31,All other countries,residual,Total,6927,,census1920_v2_t10
+1910,32,Total,total,,19691,,census1920_v2_t10
+1910,32,Italy,country,Total,2831,,census1920_v2_t10
+1910,32,England,country,Total,1793,,census1920_v2_t10
+1910,32,Canada,country,Total,1847,,census1920_v2_t10
+1910,32,Spain,country,Total,778,,census1920_v2_t10
+1910,32,Mexico,country,Total,732,,census1920_v2_t10
+1910,32,Germany,country,Total,1900,,census1920_v2_t10
+1910,32,Ireland,country,Total,1702,,census1920_v2_t10
+1910,32,Japan,country,Total,855,,census1920_v2_t10
+1910,32,Greece,country,Total,1051,,census1920_v2_t10
+1910,32,France,country,Total,653,,census1920_v2_t10
+1910,32,Denmark,country,Total,616,,census1920_v2_t10
+1910,32,Sweden,country,Total,708,,census1920_v2_t10
+1910,32,China,country,Total,760,,census1920_v2_t10
+1910,32,Switzerland,country,Total,468,,census1920_v2_t10
+1910,32,Scotland,country,Total,469,,census1920_v2_t10
+1910,32,Norway,country,Total,255,,census1920_v2_t10
+1910,32,Austria,country,Total,787,,census1920_v2_t10
+1910,32,Finland,country,Total,174,,census1920_v2_t10
+1910,32,All other countries,residual,Total,1312,,census1920_v2_t10
+1910,33,Total,total,,96667,,census1920_v2_t10
+1910,33,Canada,country,Total,57878,,census1920_v2_t10
+1910,33,Canada-French,subcountry,Canada,40865,,census1920_v2_t10
+1910,33,Canada-Other (derived),subcountry,Canada,17013,,census1920_v2_t10_derived
+1910,33,Ireland,country,Total,10613,,census1920_v2_t10
+1910,33,Greece,country,Total,2634,,census1920_v2_t10
+1910,33,Russia and Lithuania,country,Total,2865,,census1920_v2_t10
+1910,33,England,country,Total,4862,,census1920_v2_t10
+1910,33,Poland,country,Total,3728,,census1920_v2_t10
+1910,33,Italy,country,Total,2071,,census1920_v2_t10
+1910,33,Sweden,country,Total,2068,,census1920_v2_t10
+1910,33,Scotland,country,Total,1979,,census1920_v2_t10
+1910,33,Germany,country,Total,1959,,census1920_v2_t10
+1910,33,Finland,country,Total,1198,,census1920_v2_t10
+1910,33,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,891,,census1920_v2_t10
+1910,33,Belgium,country,Total,175,,census1920_v2_t10
+1910,33,Norway,country,Total,491,,census1920_v2_t10
+1910,33,All other countries,residual,Total,3255,,census1920_v2_t10
+1910,34,Total,total,,660788,,census1920_v2_t10
+1910,34,Italy,country,Total,115446,,census1920_v2_t10
+1910,34,Germany,country,Total,119599,,census1920_v2_t10
+1910,34,Poland,country,Total,69244,,census1920_v2_t10
+1910,34,Russia and Lithuania,country,Total,53849,,census1920_v2_t10
+1910,34,Ireland,country,Total,82758,,census1920_v2_t10
+1910,34,England,country,Total,50375,,census1920_v2_t10
+1910,34,Hungary,country,Total,47610,,census1920_v2_t10
+1910,34,Austria,country,Total,30534,,census1920_v2_t10
+1910,34,Scotland,country,Total,17512,,census1920_v2_t10
+1910,34,Netherlands,country,Total,12698,,census1920_v2_t10
+1910,34,Sweden,country,Total,10547,,census1920_v2_t10
+1910,34,Canada,country,Total,9135,,census1920_v2_t10
+1910,34,France,country,Total,6240,,census1920_v2_t10
+1910,34,Switzerland,country,Total,7549,,census1920_v2_t10
+1910,34,Denmark,country,Total,5059,,census1920_v2_t10
+1910,34,Norway,country,Total,5351,,census1920_v2_t10
+1910,34,All other countries,residual,Total,17282,,census1920_v2_t10
+1910,35,Total,total,,23146,,census1920_v2_t10
+1910,35,Mexico,country,Total,11918,,census1920_v2_t10
+1910,35,Italy,country,Total,1959,,census1920_v2_t10
+1910,35,Germany,country,Total,1719,,census1920_v2_t10
+1910,35,England,country,Total,1101,,census1920_v2_t10
+1910,35,Canada,country,Total,1023,,census1920_v2_t10
+1910,35,Scotland,country,Total,509,,census1920_v2_t10
+1910,35,Ireland,country,Total,644,,census1920_v2_t10
+1910,35,Austria,country,Total,1183,,census1920_v2_t10
+1910,35,France,country,Total,326,,census1920_v2_t10
+1910,35,Sweden,country,Total,365,,census1920_v2_t10
+1910,35,Greece,country,Total,167,,census1920_v2_t10
+1910,35,Russia and Lithuania,country,Total,172,,census1920_v2_t10
+1910,35,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,123,,census1920_v2_t10
+1910,35,Spain,country,Total,100,,census1920_v2_t10
+1910,35,Japan,country,Total,254,,census1920_v2_t10
+1910,35,All other countries,residual,Total,1583,,census1920_v2_t10
+1910,36,Total,total,,2748011,,census1920_v2_t10
+1910,36,Italy,country,Total,472201,,census1920_v2_t10
+1910,36,Russia and Lithuania,country,Total,473555,,census1920_v2_t10
+1910,36,Germany,country,Total,410876,,census1920_v2_t10
+1910,36,Ireland,country,Total,367889,,census1920_v2_t10
+1910,36,Poland,country,Total,167379,,census1920_v2_t10
+1910,36,Austria,country,Total,189061,,census1920_v2_t10
+1910,36,England,country,Total,146870,,census1920_v2_t10
+1910,36,Canada,country,Total,123551,,census1920_v2_t10
+1910,36,Hungary,country,Total,96843,,census1920_v2_t10
+1910,36,Sweden,country,Total,53705,,census1920_v2_t10
+1910,36,Rumania,country,Total,34443,,census1920_v2_t10
+1910,36,West Indies (except U.S. possessions),residual,Total,17483,,census1920_v2_t10
+1910,36,Scotland,country,Total,39437,,census1920_v2_t10
+1910,36,France,country,Total,23472,,census1920_v2_t10
+1910,36,Norway,country,Total,25013,,census1920_v2_t10
+1910,36,Greece,country,Total,10097,,census1920_v2_t10
+1910,36,All other countries,residual,Total,96136,,census1920_v2_t10
+1910,37,Total,total,,6092,,census1920_v2_t10
+1910,37,England,country,Total,940,,census1920_v2_t10
+1910,37,Russia and Lithuania,country,Total,637,,census1920_v2_t10
+1910,37,Germany,country,Total,1056,,census1920_v2_t10
+1910,37,Canada,country,Total,543,,census1920_v2_t10
+1910,37,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,402,,census1920_v2_t10
+1910,37,Greece,country,Total,174,,census1920_v2_t10
+1910,37,Italy,country,Total,521,,census1920_v2_t10
+1910,37,Scotland,country,Total,435,,census1920_v2_t10
+1910,37,Ireland,country,Total,306,,census1920_v2_t10
+1910,37,Poland,country,Total,111,,census1920_v2_t10
+1910,37,Sweden,country,Total,112,,census1920_v2_t10
+1910,37,Austria,country,Total,120,,census1920_v2_t10
+1910,37,France,country,Total,114,,census1920_v2_t10
+1910,37,Netherlands,country,Total,28,,census1920_v2_t10
+1910,37,West Indies (except U.S. possessions),residual,Total,43,,census1920_v2_t10
+1910,37,Switzerland,country,Total,68,,census1920_v2_t10
+1910,37,Norway,country,Total,39,,census1920_v2_t10
+1910,37,All other countries,residual,Total,443,,census1920_v2_t10
+1910,38,Total,total,,156654,,census1920_v2_t10
+1910,38,Norway,country,Total,45937,,census1920_v2_t10
+1910,38,Russia and Lithuania,country,Total,31341,,census1920_v2_t10
+1910,38,Canada,country,Total,21507,,census1920_v2_t10
+1910,38,Canada-French,subcountry,Canada,2376,,census1920_v2_t10
+1910,38,Canada-Other (derived),subcountry,Canada,19131,,census1920_v2_t10_derived
+1910,38,Germany,country,Total,15763,,census1920_v2_t10
+1910,38,Sweden,country,Total,12160,,census1920_v2_t10
+1910,38,Denmark,country,Total,5355,,census1920_v2_t10
+1910,38,Hungary,country,Total,2855,,census1920_v2_t10
+1910,38,England,country,Total,3070,,census1920_v2_t10
+1910,38,Poland,country,Total,1813,,census1920_v2_t10
+1910,38,Austria,country,Total,4714,,census1920_v2_t10
+1910,38,Rumania,country,Total,1070,,census1920_v2_t10
+1910,38,Ireland,country,Total,2498,,census1920_v2_t10
+1910,38,Scotland,country,Total,1696,,census1920_v2_t10
+1910,38,Finland,country,Total,1186,,census1920_v2_t10
+1910,38,All other countries,residual,Total,5689,,census1920_v2_t10
+1910,39,Total,total,,598374,,census1920_v2_t10
+1910,39,Germany,country,Total,164010,,census1920_v2_t10
+1910,39,Hungary,country,Total,85881,,census1920_v2_t10
+1910,39,Poland,country,Total,41579,,census1920_v2_t10
+1910,39,Italy,country,Total,41620,,census1920_v2_t10
+1910,39,Austria,country,Total,61927,,census1920_v2_t10
+1910,39,Russia and Lithuania,country,Total,29222,,census1920_v2_t10
+1910,39,England,country,Total,43347,,census1920_v2_t10
+1910,39,Ireland,country,Total,40062,,census1920_v2_t10
+1910,39,Canada,country,Total,23692,,census1920_v2_t10
+1910,39,Greece,country,Total,2555,,census1920_v2_t10
+1910,39,Rumania,country,Total,3974,,census1920_v2_t10
+1910,39,Scotland,country,Total,10705,,census1920_v2_t10
+1910,39,Switzerland,country,Total,10988,,census1920_v2_t10
+1910,39,France,country,Total,4838,,census1920_v2_t10
+1910,39,Wales,country,Total,9377,,census1920_v2_t10
+1910,39,Sweden,country,Total,5522,,census1920_v2_t10
+1910,39,Finland,country,Total,3988,,census1920_v2_t10
+1910,39,All other countries,residual,Total,15087,,census1920_v2_t10
+1910,40,Total,total,,40442,,census1920_v2_t10
+1910,40,Germany,country,Total,9934,,census1920_v2_t10
+1910,40,Mexico,country,Total,2744,,census1920_v2_t10
+1910,40,Russia and Lithuania,country,Total,5215,,census1920_v2_t10
+1910,40,England,country,Total,2981,,census1920_v2_t10
+1910,40,Canada,country,Total,2871,,census1920_v2_t10
+1910,40,Italy,country,Total,2564,,census1920_v2_t10
+1910,40,Austria,country,Total,3354,,census1920_v2_t10
+1910,40,Ireland,country,Total,1801,,census1920_v2_t10
+1910,40,Poland,country,Total,1283,,census1920_v2_t10
+1910,40,Scotland,country,Total,1218,,census1920_v2_t10
+1910,40,France,country,Total,749,,census1920_v2_t10
+1910,40,Sweden,country,Total,1028,,census1920_v2_t10
+1910,40,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,376,,census1920_v2_t10
+1910,40,Switzerland,country,Total,770,,census1920_v2_t10
+1910,40,Greece,country,Total,590,,census1920_v2_t10
+1910,40,Denmark,country,Total,550,,census1920_v2_t10
+1910,40,All other countries,residual,Total,2414,,census1920_v2_t10
+1910,41,Total,total,,113136,,census1920_v2_t10
+1910,41,Canada,country,Total,12409,,census1920_v2_t10
+1910,41,Germany,country,Total,17778,,census1920_v2_t10
+1910,41,Sweden,country,Total,10099,,census1920_v2_t10
+1910,41,England,country,Total,7998,,census1920_v2_t10
+1910,41,Russia and Lithuania,country,Total,4440,,census1920_v2_t10
+1910,41,Norway,country,Total,6843,,census1920_v2_t10
+1910,41,Finland,country,Total,4734,,census1920_v2_t10
+1910,41,Italy,country,Total,5538,,census1920_v2_t10
+1910,41,Ireland,country,Total,4995,,census1920_v2_t10
+1910,41,Switzerland,country,Total,3853,,census1920_v2_t10
+1910,41,Scotland,country,Total,3387,,census1920_v2_t10
+1910,41,Denmark,country,Total,3215,,census1920_v2_t10
+1910,41,Japan,country,Total,3277,,census1920_v2_t10
+1910,41,Austria,country,Total,4826,,census1920_v2_t10
+1910,41,China,country,Total,6468,,census1920_v2_t10
+1910,41,Greece,country,Total,3555,,census1920_v2_t10
+1910,41,Poland,country,Total,1476,,census1920_v2_t10
+1910,41,France,country,Total,1159,,census1920_v2_t10
+1910,41,Netherlands,country,Total,618,,census1920_v2_t10
+1910,41,Hungary,country,Total,1160,,census1920_v2_t10
+1910,41,All other countries,residual,Total,5308,,census1920_v2_t10
+1910,42,Total,total,,1442374,,census1920_v2_t10
+1910,42,Italy,country,Total,196122,,census1920_v2_t10
+1910,42,Russia and Lithuania,country,Total,147210,,census1920_v2_t10
+1910,42,Poland,country,Total,187013,,census1920_v2_t10
+1910,42,Austria,country,Total,176829,,census1920_v2_t10
+1910,42,Ireland,country,Total,165109,,census1920_v2_t10
+1910,42,Germany,country,Total,176909,,census1920_v2_t10
+1910,42,England,country,Total,109115,,census1920_v2_t10
+1910,42,Hungary,country,Total,123498,,census1920_v2_t10
+1910,42,Scotland,country,Total,32046,,census1920_v2_t10
+1910,42,Wales,country,Total,29255,,census1920_v2_t10
+1910,42,Sweden,country,Total,23467,,census1920_v2_t10
+1910,42,Canada,country,Total,15683,,census1920_v2_t10
+1910,42,Greece,country,Total,4221,,census1920_v2_t10
+1910,42,France,country,Total,10003,,census1920_v2_t10
+1910,42,Rumania,country,Total,7752,,census1920_v2_t10
+1910,42,All other countries,residual,Total,38142,,census1920_v2_t10
+1910,44,Total,total,,179141,,census1920_v2_t10
+1910,44,Canada,country,Total,41954,,census1920_v2_t10
+1910,44,Canada-French,subcountry,Canada,34087,,census1920_v2_t10
+1910,44,Canada-Other (derived),subcountry,Canada,7867,,census1920_v2_t10_derived
+1910,44,Italy,country,Total,27287,,census1920_v2_t10
+1910,44,England,country,Total,27834,,census1920_v2_t10
+1910,44,Ireland,country,Total,29718,,census1920_v2_t10
+1910,44,Portugal,country,Total,6501,,census1920_v2_t10
+1910,44,Russia and Lithuania,country,Total,7469,,census1920_v2_t10
+1910,44,Poland,country,Total,7015,,census1920_v2_t10
+1910,44,Sweden,country,Total,7405,,census1920_v2_t10
+1910,44,Scotland,country,Total,6272,,census1920_v2_t10
+1910,44,Atlantic Islands (incl. Azores),residual,Total,716,,census1920_v2_t10
+1910,44,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Armenia, etc."")",country,Total,3132,,census1920_v2_t10
+1910,44,Germany,country,Total,4358,,census1920_v2_t10
+1910,44,France,country,Total,1711,,census1920_v2_t10
+1910,44,Austria,country,Total,1512,,census1920_v2_t10
+1910,44,Greece,country,Total,951,,census1920_v2_t10
+1910,44,Belgium,country,Total,959,,census1920_v2_t10
+1910,44,All other countries,residual,Total,4347,,census1920_v2_t10
+1910,45,Total,total,,6179,,census1920_v2_t10
+1910,45,Russia and Lithuania,country,Total,612,,census1920_v2_t10
+1910,45,Germany,country,Total,1725,,census1920_v2_t10
+1910,45,Greece,country,Total,282,,census1920_v2_t10
+1910,45,England,country,Total,517,,census1920_v2_t10
+1910,45,Ireland,country,Total,676,,census1920_v2_t10
+1910,45,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,263,,census1920_v2_t10
+1910,45,Poland,country,Total,231,,census1920_v2_t10
+1910,45,Italy,country,Total,316,,census1920_v2_t10
+1910,45,Canada,country,Total,282,,census1920_v2_t10
+1910,45,Austria,country,Total,184,,census1920_v2_t10
+1910,45,Scotland,country,Total,239,,census1920_v2_t10
+1910,45,Sweden,country,Total,95,,census1920_v2_t10
+1910,45,West Indies (except U.S. possessions),residual,Total,59,,census1920_v2_t10
+1910,45,Norway,country,Total,82,,census1920_v2_t10
+1910,45,France,country,Total,70,,census1920_v2_t10
+1910,45,Denmark,country,Total,51,,census1920_v2_t10
+1910,45,China,country,Total,46,,census1920_v2_t10
+1910,45,All other countries,residual,Total,449,,census1920_v2_t10
+1910,46,Total,total,,100790,,census1920_v2_t10
+1910,46,Norway,country,Total,20918,,census1920_v2_t10
+1910,46,Germany,country,Total,21114,,census1920_v2_t10
+1910,46,Russia and Lithuania,country,Total,12965,,census1920_v2_t10
+1910,46,Sweden,country,Total,9998,,census1920_v2_t10
+1910,46,Denmark,country,Total,6294,,census1920_v2_t10
+1910,46,Canada,country,Total,6010,,census1920_v2_t10
+1910,46,Netherlands,country,Total,2656,,census1920_v2_t10
+1910,46,England,country,Total,4024,,census1920_v2_t10
+1910,46,Ireland,country,Total,2980,,census1920_v2_t10
+1910,46,Austria,country,Total,5268,,census1920_v2_t10
+1910,46,Finland,country,Total,1381,,census1920_v2_t10
+1910,46,Scotland,country,Total,1102,,census1920_v2_t10
+1910,46,Poland,country,Total,758,,census1920_v2_t10
+1910,46,Switzerland,country,Total,800,,census1920_v2_t10
+1910,46,Hungary,country,Total,594,,census1920_v2_t10
+1910,46,All other countries,residual,Total,3928,,census1920_v2_t10
+1910,47,Total,total,,18607,,census1920_v2_t10
+1910,47,Russia and Lithuania,country,Total,2127,,census1920_v2_t10
+1910,47,Germany,country,Total,3832,,census1920_v2_t10
+1910,47,Italy,country,Total,2034,,census1920_v2_t10
+1910,47,England,country,Total,2045,,census1920_v2_t10
+1910,47,Ireland,country,Total,2296,,census1920_v2_t10
+1910,47,Canada,country,Total,1156,,census1920_v2_t10
+1910,47,Poland,country,Total,570,,census1920_v2_t10
+1910,47,Switzerland,country,Total,800,,census1920_v2_t10
+1910,47,Greece,country,Total,374,,census1920_v2_t10
+1910,47,Scotland,country,Total,561,,census1920_v2_t10
+1910,47,Austria,country,Total,495,,census1920_v2_t10
+1910,47,France,country,Total,305,,census1920_v2_t10
+1910,47,Hungary,country,Total,376,,census1920_v2_t10
+1910,47,Sweden,country,Total,363,,census1920_v2_t10
+1910,47,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,159,,census1920_v2_t10
+1910,47,Mexico,country,Total,45,,census1920_v2_t10
+1910,47,All other countries,residual,Total,1069,,census1920_v2_t10
+1910,48,Total,total,,241938,,census1920_v2_t10
+1910,48,Mexico,country,Total,125016,,census1920_v2_t10
+1910,48,Germany,country,Total,42755,,census1920_v2_t10
+1910,48,Italy,country,Total,7190,,census1920_v2_t10
+1910,48,England,country,Total,8498,,census1920_v2_t10
+1910,48,Russia and Lithuania,country,Total,4368,,census1920_v2_t10
+1910,48,Austria,country,Total,19382,,census1920_v2_t10
+1910,48,Poland,country,Total,4733,,census1920_v2_t10
+1910,48,Sweden,country,Total,4706,,census1920_v2_t10
+1910,48,Ireland,country,Total,5357,,census1920_v2_t10
+1910,48,Canada,country,Total,3534,,census1920_v2_t10
+1910,48,France,country,Total,1821,,census1920_v2_t10
+1910,48,Greece,country,Total,756,,census1920_v2_t10
+1910,48,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,1125,,census1920_v2_t10
+1910,48,Scotland,country,Total,2038,,census1920_v2_t10
+1910,48,Norway,country,Total,1785,,census1920_v2_t10
+1910,48,All other countries,residual,Total,8874,,census1920_v2_t10
+1910,49,Total,total,,65822,,census1920_v2_t10
+1910,49,England,country,Total,18083,,census1920_v2_t10
+1910,49,Denmark,country,Total,8300,,census1920_v2_t10
+1910,49,Sweden,country,Total,7227,,census1920_v2_t10
+1910,49,Germany,country,Total,3948,,census1920_v2_t10
+1910,49,Italy,country,Total,3117,,census1920_v2_t10
+1910,49,Greece,country,Total,4039,,census1920_v2_t10
+1910,49,Japan,country,Total,2050,,census1920_v2_t10
+1910,49,Scotland,country,Total,2853,,census1920_v2_t10
+1910,49,Norway,country,Total,2305,,census1920_v2_t10
+1910,49,Netherlands,country,Total,1392,,census1920_v2_t10
+1910,49,Switzerland,country,Total,1691,,census1920_v2_t10
+1910,49,Canada,country,Total,1690,,census1920_v2_t10
+1910,49,Wales,country,Total,1672,,census1920_v2_t10
+1910,49,Ireland,country,Total,1657,,census1920_v2_t10
+1910,49,Mexico,country,Total,166,,census1920_v2_t10
+1910,49,Austria,country,Total,1829,,census1920_v2_t10
+1910,49,Finland,country,Total,1012,,census1920_v2_t10
+1910,49,Russia and Lithuania,country,Total,462,,census1920_v2_t10
+1910,49,All other countries,residual,Total,2329,,census1920_v2_t10
+1910,50,Total,total,,49921,,census1920_v2_t10
+1910,50,Canada,country,Total,26058,,census1920_v2_t10
+1910,50,Canada-French,subcountry,Canada,14643,,census1920_v2_t10
+1910,50,Canada-Other (derived),subcountry,Canada,11415,,census1920_v2_t10_derived
+1910,50,Italy,country,Total,4594,,census1920_v2_t10
+1910,50,Ireland,country,Total,4940,,census1920_v2_t10
+1910,50,England,country,Total,2464,,census1920_v2_t10
+1910,50,Scotland,country,Total,2615,,census1920_v2_t10
+1910,50,Poland,country,Total,2021,,census1920_v2_t10
+1910,50,Russia and Lithuania,country,Total,1052,,census1920_v2_t10
+1910,50,Sweden,country,Total,1331,,census1920_v2_t10
+1910,50,Spain,country,Total,351,,census1920_v2_t10
+1910,50,Germany,country,Total,773,,census1920_v2_t10
+1910,50,Wales,country,Total,1043,,census1920_v2_t10
+1910,50,Finland,country,Total,293,,census1920_v2_t10
+1910,50,All other countries,residual,Total,2386,,census1920_v2_t10
+1910,51,Total,total,,27057,,census1920_v2_t10
+1910,51,Russia and Lithuania,country,Total,3202,,census1920_v2_t10
+1910,51,England,country,Total,3687,,census1920_v2_t10
+1910,51,Germany,country,Total,4128,,census1920_v2_t10
+1910,51,Italy,country,Total,2449,,census1920_v2_t10
+1910,51,Canada,country,Total,1360,,census1920_v2_t10
+1910,51,Greece,country,Total,721,,census1920_v2_t10
+1910,51,Ireland,country,Total,2450,,census1920_v2_t10
+1910,51,Scotland,country,Total,1246,,census1920_v2_t10
+1910,51,Hungary,country,Total,1784,,census1920_v2_t10
+1910,51,Poland,country,Total,1421,,census1920_v2_t10
+1910,51,Austria,country,Total,1137,,census1920_v2_t10
+1910,51,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,484,,census1920_v2_t10
+1910,51,Sweden,country,Total,368,,census1920_v2_t10
+1910,51,Norway,country,Total,311,,census1920_v2_t10
+1910,51,Denmark,country,Total,240,,census1920_v2_t10
+1910,51,France,country,Total,300,,census1920_v2_t10
+1910,51,West Indies (except U.S. possessions),residual,Total,233,,census1920_v2_t10
+1910,51,Netherlands,country,Total,99,,census1920_v2_t10
+1910,51,Portugal,country,Total,85,,census1920_v2_t10
+1910,51,All other countries,residual,Total,1352,,census1920_v2_t10
+1910,53,Total,total,,256241,,census1920_v2_t10
+1910,53,Canada,country,Total,39482,,census1920_v2_t10
+1910,53,Canada-French,subcountry,Canada,3711,,census1920_v2_t10
+1910,53,Canada-Other (derived),subcountry,Canada,35771,,census1920_v2_t10_derived
+1910,53,Sweden,country,Total,32199,,census1920_v2_t10
+1910,53,Norway,country,Total,28368,,census1920_v2_t10
+1910,53,Germany,country,Total,28825,,census1920_v2_t10
+1910,53,England,country,Total,19430,,census1920_v2_t10
+1910,53,Japan,country,Total,12177,,census1920_v2_t10
+1910,53,Finland,country,Total,8719,,census1920_v2_t10
+1910,53,Russia and Lithuania,country,Total,9155,,census1920_v2_t10
+1910,53,Italy,country,Total,13121,,census1920_v2_t10
+1910,53,Ireland,country,Total,10180,,census1920_v2_t10
+1910,53,Denmark,country,Total,7804,,census1920_v2_t10
+1910,53,Scotland,country,Total,7101,,census1920_v2_t10
+1910,53,Austria,country,Total,11402,,census1920_v2_t10
+1910,53,Greece,country,Total,4187,,census1920_v2_t10
+1910,53,Poland,country,Total,3712,,census1920_v2_t10
+1910,53,Switzerland,country,Total,3447,,census1920_v2_t10
+1910,53,Netherlands,country,Total,2157,,census1920_v2_t10
+1910,53,France,country,Total,2340,,census1920_v2_t10
+1910,53,Wales,country,Total,1976,,census1920_v2_t10
+1910,53,All other countries,residual,Total,10459,,census1920_v2_t10
+1910,54,Total,total,,57218,,census1920_v2_t10
+1910,54,Italy,country,Total,17292,,census1920_v2_t10
+1910,54,Hungary,country,Total,5939,,census1920_v2_t10
+1910,54,Poland,country,Total,5074,,census1920_v2_t10
+1910,54,Austria,country,Total,5919,,census1920_v2_t10
+1910,54,Russia and Lithuania,country,Total,2707,,census1920_v2_t10
+1910,54,Germany,country,Total,6130,,census1920_v2_t10
+1910,54,England,country,Total,3511,,census1920_v2_t10
+1910,54,Greece,country,Total,787,,census1920_v2_t10
+1910,54,Spain,country,Total,464,,census1920_v2_t10
+1910,54,Ireland,country,Total,2292,,census1920_v2_t10
+1910,54,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,726,,census1920_v2_t10
+1910,54,Scotland,country,Total,1088,,census1920_v2_t10
+1910,54,Canada,country,Total,872,,census1920_v2_t10
+1910,54,Belgium,country,Total,800,,census1920_v2_t10
+1910,54,Wales,country,Total,880,,census1920_v2_t10
+1910,54,France,country,Total,535,,census1920_v2_t10
+1910,54,Rumania,country,Total,259,,census1920_v2_t10
+1910,54,All other countries,residual,Total,1943,,census1920_v2_t10
+1910,55,Total,total,,512865,,census1920_v2_t10
+1910,55,Germany,country,Total,201572,,census1920_v2_t10
+1910,55,Poland,country,Total,50957,,census1920_v2_t10
+1910,55,Norway,country,Total,57000,,census1920_v2_t10
+1910,55,Russia and Lithuania,country,Total,15545,,census1920_v2_t10
+1910,55,Sweden,country,Total,25739,,census1920_v2_t10
+1910,55,Austria,country,Total,33646,,census1920_v2_t10
+1910,55,Canada,country,Total,24996,,census1920_v2_t10
+1910,55,Canada-French,subcountry,Canada,7992,,census1920_v2_t10
+1910,55,Canada-Other (derived),subcountry,Canada,17004,,census1920_v2_t10_derived
+1910,55,Denmark,country,Total,16454,,census1920_v2_t10
+1910,55,Italy,country,Total,9273,,census1920_v2_t10
+1910,55,England,country,Total,13959,,census1920_v2_t10
+1910,55,Hungary,country,Total,10554,,census1920_v2_t10
+1910,55,Ireland,country,Total,14049,,census1920_v2_t10
+1910,55,Switzerland,country,Total,8036,,census1920_v2_t10
+1910,55,Netherlands,country,Total,7379,,census1920_v2_t10
+1910,55,Finland,country,Total,5705,,census1920_v2_t10
+1910,55,All other countries,residual,Total,18001,,census1920_v2_t10
+1910,56,Total,total,,29020,,census1920_v2_t10
+1910,56,England,country,Total,2985,,census1920_v2_t10
+1910,56,Germany,country,Total,2477,,census1920_v2_t10
+1910,56,Sweden,country,Total,2497,,census1920_v2_t10
+1910,56,Italy,country,Total,1961,,census1920_v2_t10
+1910,56,Mexico,country,Total,188,,census1920_v2_t10
+1910,56,Russia and Lithuania,country,Total,546,,census1920_v2_t10
+1910,56,Canada,country,Total,1431,,census1920_v2_t10
+1910,56,Scotland,country,Total,1812,,census1920_v2_t10
+1910,56,Greece,country,Total,1915,,census1920_v2_t10
+1910,56,Austria,country,Total,3351,,census1920_v2_t10
+1910,56,Japan,country,Total,1575,,census1920_v2_t10
+1910,56,Ireland,country,Total,1359,,census1920_v2_t10
+1910,56,Denmark,country,Total,962,,census1920_v2_t10
+1910,56,Finland,country,Total,1380,,census1920_v2_t10
+1910,56,Norway,country,Total,623,,census1920_v2_t10
+1910,56,Poland,country,Total,993,,census1920_v2_t10
+1910,56,France,country,Total,316,,census1920_v2_t10
+1910,56,Hungary,country,Total,437,,census1920_v2_t10
+1910,56,Switzerland,country,Total,251,,census1920_v2_t10
+1910,56,Wales,country,Total,419,,census1920_v2_t10
+1910,56,All other countries,residual,Total,1542,,census1920_v2_t10
+1920,01,Total,total,,18027,,census1920_v2_t10
+1920,01,Italy,country,Total,2732,,census1920_v2_t10
+1920,01,Germany,country,Total,2427,,census1920_v2_t10
+1920,01,England,country,Total,1951,,census1920_v2_t10
+1920,01,Russia and Lithuania,country,Total,1594,,census1920_v2_t10
+1920,01,Scotland,country,Total,975,,census1920_v2_t10
+1920,01,Greece,country,Total,915,,census1920_v2_t10
+1920,01,Canada,country,Total,904,,census1920_v2_t10
+1920,01,Ireland,country,Total,809,,census1920_v2_t10
+1920,01,Sweden,country,Total,748,,census1920_v2_t10
+1920,01,France,country,Total,616,,census1920_v2_t10
+1920,01,Austria,country,Total,583,,census1920_v2_t10
+1920,01,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,559,,census1920_v2_t10
+1920,01,West Indies (except U.S. possessions),residual,Total,405,,census1920_v2_t10
+1920,01,Poland,country,Total,394,,census1920_v2_t10
+1920,01,Hungary,country,Total,372,,census1920_v2_t10
+1920,01,Czechoslovakia,country,Total,232,,census1920_v2_t10
+1920,01,Norway,country,Total,215,,census1920_v2_t10
+1920,01,Denmark,country,Total,191,,census1920_v2_t10
+1920,01,Switzerland,country,Total,174,,census1920_v2_t10
+1920,01,All other countries,residual,Total,1231,,census1920_v2_t10
+1920,04,Total,total,,80566,,census1920_v2_t10
+1920,04,Mexico,country,Total,61580,,census1920_v2_t10
+1920,04,England,country,Total,2883,,census1920_v2_t10
+1920,04,Canada,country,Total,1964,,census1920_v2_t10
+1920,04,Germany,country,Total,1516,,census1920_v2_t10
+1920,04,Italy,country,Total,1261,,census1920_v2_t10
+1920,04,Ireland,country,Total,1206,,census1920_v2_t10
+1920,04,Jugo-Slavia,country,Total,1167,,census1920_v2_t10
+1920,04,Spain,country,Total,1013,,census1920_v2_t10
+1920,04,Sweden,country,Total,859,,census1920_v2_t10
+1920,04,Russia and Lithuania,country,Total,832,,census1920_v2_t10
+1920,04,China,country,Total,720,,census1920_v2_t10
+1920,04,Scotland,country,Total,595,,census1920_v2_t10
+1920,04,Austria,country,Total,486,,census1920_v2_t10
+1920,04,Japan,country,Total,427,,census1920_v2_t10
+1920,04,Finland,country,Total,407,,census1920_v2_t10
+1920,04,Denmark,country,Total,398,,census1920_v2_t10
+1920,04,France,country,Total,394,,census1920_v2_t10
+1920,04,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,358,,census1920_v2_t10
+1920,04,All other countries,residual,Total,2500,,census1920_v2_t10
+1920,05,Total,total,,14137,,census1920_v2_t10
+1920,05,Germany,country,Total,3979,,census1920_v2_t10
+1920,05,Italy,country,Total,1314,,census1920_v2_t10
+1920,05,England,country,Total,1141,,census1920_v2_t10
+1920,05,Canada,country,Total,893,,census1920_v2_t10
+1920,05,Switzerland,country,Total,736,,census1920_v2_t10
+1920,05,Russia and Lithuania,country,Total,689,,census1920_v2_t10
+1920,05,Ireland,country,Total,676,,census1920_v2_t10
+1920,05,Austria,country,Total,636,,census1920_v2_t10
+1920,05,Poland,country,Total,529,,census1920_v2_t10
+1920,05,Czechoslovakia,country,Total,492,,census1920_v2_t10
+1920,05,France,country,Total,387,,census1920_v2_t10
+1920,05,Sweden,country,Total,331,,census1920_v2_t10
+1920,05,Scotland,country,Total,316,,census1920_v2_t10
+1920,05,Mexico,country,Total,280,,census1920_v2_t10
+1920,05,Greece,country,Total,277,,census1920_v2_t10
+1920,05,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,246,,census1920_v2_t10
+1920,05,Denmark,country,Total,180,,census1920_v2_t10
+1920,05,All other countries,residual,Total,1035,,census1920_v2_t10
+1920,06,Total,total,,757625,,census1920_v2_t10
+1920,06,Mexico,country,Total,88771,,census1920_v2_t10
+1920,06,Italy,country,Total,88504,,census1920_v2_t10
+1920,06,Germany,country,Total,67185,,census1920_v2_t10
+1920,06,Canada,country,Total,59686,,census1920_v2_t10
+1920,06,England,country,Total,58612,,census1920_v2_t10
+1920,06,Japan,country,Total,51191,,census1920_v2_t10
+1920,06,Ireland,country,Total,45308,,census1920_v2_t10
+1920,06,Sweden,country,Total,31926,,census1920_v2_t10
+1920,06,Russia and Lithuania,country,Total,27485,,census1920_v2_t10
+1920,06,Portugal,country,Total,24609,,census1920_v2_t10
+1920,06,France,country,Total,20401,,census1920_v2_t10
+1920,06,China,country,Total,19564,,census1920_v2_t10
+1920,06,Denmark,country,Total,18721,,census1920_v2_t10
+1920,06,Scotland,country,Total,16597,,census1920_v2_t10
+1920,06,Switzerland,country,Total,16097,,census1920_v2_t10
+1920,06,Austria,country,Total,13266,,census1920_v2_t10
+1920,06,Norway,country,Total,11460,,census1920_v2_t10
+1920,06,Spain,country,Total,11140,,census1920_v2_t10
+1920,06,Greece,country,Total,10314,,census1920_v2_t10
+1920,06,Atlantic Islands (incl. Azores),residual,Total,8957,,census1920_v2_t10
+1920,06,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Armenia, etc."")",country,Total,7823,,census1920_v2_t10
+1920,06,Jugo-Slavia,country,Total,7279,,census1920_v2_t10
+1920,06,Poland,country,Total,7083,,census1920_v2_t10
+1920,06,Finland,country,Total,7053,,census1920_v2_t10
+1920,06,Hungary,country,Total,5252,,census1920_v2_t10
+1920,06,All other countries,residual,Total,33341,,census1920_v2_t10
+1920,08,Total,total,,119138,,census1920_v2_t10
+1920,08,Russia and Lithuania,country,Total,16784,,census1920_v2_t10
+1920,08,Italy,country,Total,12580,,census1920_v2_t10
+1920,08,Germany,country,Total,11992,,census1920_v2_t10
+1920,08,Mexico,country,Total,11037,,census1920_v2_t10
+1920,08,Sweden,country,Total,10112,,census1920_v2_t10
+1920,08,England,country,Total,9588,,census1920_v2_t10
+1920,08,Canada,country,Total,7642,,census1920_v2_t10
+1920,08,Ireland,country,Total,6191,,census1920_v2_t10
+1920,08,Austria,country,Total,5722,,census1920_v2_t10
+1920,08,Scotland,country,Total,3357,,census1920_v2_t10
+1920,08,Denmark,country,Total,2823,,census1920_v2_t10
+1920,08,Jugo-Slavia,country,Total,2109,,census1920_v2_t10
+1920,08,Czechoslovakia,country,Total,1953,,census1920_v2_t10
+1920,08,Poland,country,Total,1867,,census1920_v2_t10
+1920,08,Greece,country,Total,1802,,census1920_v2_t10
+1920,08,Japan,country,Total,1762,,census1920_v2_t10
+1920,08,Norway,country,Total,1525,,census1920_v2_t10
+1920,08,Switzerland,country,Total,1510,,census1920_v2_t10
+1920,08,Wales,country,Total,1482,,census1920_v2_t10
+1920,08,France,country,Total,1420,,census1920_v2_t10
+1920,08,All other countries,residual,Total,5880,,census1920_v2_t10
+1920,09,Total,total,,378439,,census1920_v2_t10
+1920,09,Italy,country,Total,80322,,census1920_v2_t10
+1920,09,Russia and Lithuania,country,Total,50381,,census1920_v2_t10
+1920,09,Poland,country,Total,46623,,census1920_v2_t10
+1920,09,Ireland,country,Total,45464,,census1920_v2_t10
+1920,09,Canada,country,Total,24679,,census1920_v2_t10
+1920,09,Canada-French,subcountry,Canada,14769,,census1920_v2_t10
+1920,09,Canada-Other (derived),subcountry,Canada,9910,,census1920_v2_t10_derived
+1920,09,England,country,Total,22726,,census1920_v2_t10
+1920,09,Germany,country,Total,22614,,census1920_v2_t10
+1920,09,Sweden,country,Total,17697,,census1920_v2_t10
+1920,09,Hungary,country,Total,13222,,census1920_v2_t10
+1920,09,Austria,country,Total,12699,,census1920_v2_t10
+1920,09,Scotland,country,Total,7487,,census1920_v2_t10
+1920,09,Czechoslovakia,country,Total,6558,,census1920_v2_t10
+1920,09,Greece,country,Total,3851,,census1920_v2_t10
+1920,09,France,country,Total,3327,,census1920_v2_t10
+1920,09,Denmark,country,Total,3040,,census1920_v2_t10
+1920,09,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,2675,,census1920_v2_t10
+1920,09,All other countries,residual,Total,15074,,census1920_v2_t10
+1920,10,Total,total,,19901,,census1920_v2_t10
+1920,10,Italy,country,Total,4136,,census1920_v2_t10
+1920,10,Poland,country,Total,3847,,census1920_v2_t10
+1920,10,Ireland,country,Total,2895,,census1920_v2_t10
+1920,10,Russia and Lithuania,country,Total,2334,,census1920_v2_t10
+1920,10,Germany,country,Total,1632,,census1920_v2_t10
+1920,10,England,country,Total,1497,,census1920_v2_t10
+1920,10,Austria,country,Total,615,,census1920_v2_t10
+1920,10,Canada,country,Total,453,,census1920_v2_t10
+1920,10,Scotland,country,Total,411,,census1920_v2_t10
+1920,10,Sweden,country,Total,316,,census1920_v2_t10
+1920,10,Greece,country,Total,286,,census1920_v2_t10
+1920,10,Hungary,country,Total,226,,census1920_v2_t10
+1920,10,France,country,Total,198,,census1920_v2_t10
+1920,10,All other countries,residual,Total,1055,,census1920_v2_t10
+1920,11,Total,total,,29365,,census1920_v2_t10
+1920,11,Russia and Lithuania,country,Total,5219,,census1920_v2_t10
+1920,11,Ireland,country,Total,4320,,census1920_v2_t10
+1920,11,Italy,country,Total,3764,,census1920_v2_t10
+1920,11,Germany,country,Total,3382,,census1920_v2_t10
+1920,11,England,country,Total,3001,,census1920_v2_t10
+1920,11,Canada,country,Total,1726,,census1920_v2_t10
+1920,11,Greece,country,Total,1207,,census1920_v2_t10
+1920,11,Scotland,country,Total,793,,census1920_v2_t10
+1920,11,Poland,country,Total,716,,census1920_v2_t10
+1920,11,France,country,Total,688,,census1920_v2_t10
+1920,11,Austria,country,Total,525,,census1920_v2_t10
+1920,11,Sweden,country,Total,481,,census1920_v2_t10
+1920,11,West Indies (except U.S. possessions),residual,Total,365,,census1920_v2_t10
+1920,11,Switzerland,country,Total,358,,census1920_v2_t10
+1920,11,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,355,,census1920_v2_t10
+1920,11,China,country,Total,345,,census1920_v2_t10
+1920,11,All other countries,residual,Total,2120,,census1920_v2_t10
+1920,12,Total,total,,53864,,census1920_v2_t10
+1920,12,West Indies (except U.S. possessions),residual,Total,19171,,census1920_v2_t10
+1920,12,Italy,country,Total,4745,,census1920_v2_t10
+1920,12,England,country,Total,4522,,census1920_v2_t10
+1920,12,Canada,country,Total,4141,,census1920_v2_t10
+1920,12,Spain,country,Total,4099,,census1920_v2_t10
+1920,12,Germany,country,Total,3534,,census1920_v2_t10
+1920,12,Greece,country,Total,1408,,census1920_v2_t10
+1920,12,Sweden,country,Total,1399,,census1920_v2_t10
+1920,12,Ireland,country,Total,1304,,census1920_v2_t10
+1920,12,Russia and Lithuania,country,Total,1256,,census1920_v2_t10
+1920,12,Scotland,country,Total,1069,,census1920_v2_t10
+1920,12,France,country,Total,737,,census1920_v2_t10
+1920,12,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,628,,census1920_v2_t10
+1920,12,Norway,country,Total,610,,census1920_v2_t10
+1920,12,Denmark,country,Total,575,,census1920_v2_t10
+1920,12,Austria,country,Total,525,,census1920_v2_t10
+1920,12,All other countries,residual,Total,4141,,census1920_v2_t10
+1920,13,Total,total,,16564,,census1920_v2_t10
+1920,13,Russia and Lithuania,country,Total,3524,,census1920_v2_t10
+1920,13,Germany,country,Total,1936,,census1920_v2_t10
+1920,13,England,country,Total,1610,,census1920_v2_t10
+1920,13,Greece,country,Total,1473,,census1920_v2_t10
+1920,13,Ireland,country,Total,1112,,census1920_v2_t10
+1920,13,Canada,country,Total,965,,census1920_v2_t10
+1920,13,Poland,country,Total,917,,census1920_v2_t10
+1920,13,Italy,country,Total,700,,census1920_v2_t10
+1920,13,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,566,,census1920_v2_t10
+1920,13,Scotland,country,Total,530,,census1920_v2_t10
+1920,13,Austria,country,Total,401,,census1920_v2_t10
+1920,13,France,country,Total,376,,census1920_v2_t10
+1920,13,Sweden,country,Total,299,,census1920_v2_t10
+1920,13,Hungary,country,Total,246,,census1920_v2_t10
+1920,13,West Indies (except U.S. possessions),residual,Total,223,,census1920_v2_t10
+1920,13,Switzerland,country,Total,161,,census1920_v2_t10
+1920,13,All other countries,residual,Total,1525,,census1920_v2_t10
+1920,16,Total,total,,40747,,census1920_v2_t10
+1920,16,Sweden,country,Total,5112,,census1920_v2_t10
+1920,16,Canada,country,Total,4961,,census1920_v2_t10
+1920,16,Canada-French,subcountry,Canada,476,,census1920_v2_t10
+1920,16,Canada-Other (derived),subcountry,Canada,4485,,census1920_v2_t10_derived
+1920,16,England,country,Total,4451,,census1920_v2_t10
+1920,16,Germany,country,Total,4143,,census1920_v2_t10
+1920,16,Norway,country,Total,2482,,census1920_v2_t10
+1920,16,Denmark,country,Total,2240,,census1920_v2_t10
+1920,16,Russia and Lithuania,country,Total,1467,,census1920_v2_t10
+1920,16,Spain,country,Total,1417,,census1920_v2_t10
+1920,16,Ireland,country,Total,1410,,census1920_v2_t10
+1920,16,Switzerland,country,Total,1347,,census1920_v2_t10
+1920,16,Italy,country,Total,1323,,census1920_v2_t10
+1920,16,Scotland,country,Total,1228,,census1920_v2_t10
+1920,16,Mexico,country,Total,1215,,census1920_v2_t10
+1920,16,Japan,country,Total,1180,,census1920_v2_t10
+1920,16,Finland,country,Total,989,,census1920_v2_t10
+1920,16,Austria,country,Total,781,,census1920_v2_t10
+1920,16,Greece,country,Total,716,,census1920_v2_t10
+1920,16,Wales,country,Total,575,,census1920_v2_t10
+1920,16,China,country,Total,489,,census1920_v2_t10
+1920,16,France,country,Total,482,,census1920_v2_t10
+1920,16,Jugo-Slavia,country,Total,460,,census1920_v2_t10
+1920,16,Netherlands,country,Total,439,,census1920_v2_t10
+1920,16,Czechoslovakia,country,Total,420,,census1920_v2_t10
+1920,16,All other countries,residual,Total,1420,,census1920_v2_t10
+1920,17,Total,total,,1210584,,census1920_v2_t10
+1920,17,Germany,country,Total,205491,,census1920_v2_t10
+1920,17,Poland,country,Total,162405,,census1920_v2_t10
+1920,17,Russia and Lithuania,country,Total,148257,,census1920_v2_t10
+1920,17,Sweden,country,Total,105577,,census1920_v2_t10
+1920,17,Italy,country,Total,94407,,census1920_v2_t10
+1920,17,Ireland,country,Total,74274,,census1920_v2_t10
+1920,17,Czechoslovakia,country,Total,66709,,census1920_v2_t10
+1920,17,England,country,Total,54272,,census1920_v2_t10
+1920,17,Austria,country,Total,46457,,census1920_v2_t10
+1920,17,Canada,country,Total,38773,,census1920_v2_t10
+1920,17,Hungary,country,Total,34437,,census1920_v2_t10
+1920,17,Norway,country,Total,27785,,census1920_v2_t10
+1920,17,Scotland,country,Total,19598,,census1920_v2_t10
+1920,17,Jugo-Slavia,country,Total,19285,,census1920_v2_t10
+1920,17,Denmark,country,Total,17098,,census1920_v2_t10
+1920,17,Greece,country,Total,16465,,census1920_v2_t10
+1920,17,Netherlands,country,Total,14344,,census1920_v2_t10
+1920,17,France,country,Total,12006,,census1920_v2_t10
+1920,17,Belgium,country,Total,11329,,census1920_v2_t10
+1920,17,All other countries,residual,Total,41615,,census1920_v2_t10
+1920,18,Total,total,,151328,,census1920_v2_t10
+1920,18,Germany,country,Total,37377,,census1920_v2_t10
+1920,18,Poland,country,Total,17791,,census1920_v2_t10
+1920,18,Hungary,country,Total,9351,,census1920_v2_t10
+1920,18,Russia and Lithuania,country,Total,9118,,census1920_v2_t10
+1920,18,Austria,country,Total,9100,,census1920_v2_t10
+1920,18,England,country,Total,8528,,census1920_v2_t10
+1920,18,Ireland,country,Total,7271,,census1920_v2_t10
+1920,18,Italy,country,Total,6712,,census1920_v2_t10
+1920,18,Canada,country,Total,5147,,census1920_v2_t10
+1920,18,Sweden,country,Total,4942,,census1920_v2_t10
+1920,18,Jugo-Slavia,country,Total,4471,,census1920_v2_t10
+1920,18,Greece,country,Total,4182,,census1920_v2_t10
+1920,18,Czechoslovakia,country,Total,3941,,census1920_v2_t10
+1920,18,Scotland,country,Total,3707,,census1920_v2_t10
+1920,18,France,country,Total,3247,,census1920_v2_t10
+1920,18,Rumania,country,Total,2731,,census1920_v2_t10
+1920,18,Belgium,country,Total,2530,,census1920_v2_t10
+1920,18,Switzerland,country,Total,2334,,census1920_v2_t10
+1920,18,Netherlands,country,Total,2018,,census1920_v2_t10
+1920,18,All other countries,residual,Total,6830,,census1920_v2_t10
+1920,19,Total,total,,225994,,census1920_v2_t10
+1920,19,Germany,country,Total,70642,,census1920_v2_t10
+1920,19,Sweden,country,Total,22493,,census1920_v2_t10
+1920,19,Denmark,country,Total,18020,,census1920_v2_t10
+1920,19,Norway,country,Total,17344,,census1920_v2_t10
+1920,19,England,country,Total,13038,,census1920_v2_t10
+1920,19,Netherlands,country,Total,12471,,census1920_v2_t10
+1920,19,Ireland,country,Total,10686,,census1920_v2_t10
+1920,19,Czechoslovakia,country,Total,9150,,census1920_v2_t10
+1920,19,Canada,country,Total,8944,,census1920_v2_t10
+1920,19,Russia and Lithuania,country,Total,8006,,census1920_v2_t10
+1920,19,Italy,country,Total,4956,,census1920_v2_t10
+1920,19,Austria,country,Total,4334,,census1920_v2_t10
+1920,19,Scotland,country,Total,3967,,census1920_v2_t10
+1920,19,Greece,country,Total,2884,,census1920_v2_t10
+1920,19,Switzerland,country,Total,2871,,census1920_v2_t10
+1920,19,Mexico,country,Total,2650,,census1920_v2_t10
+1920,19,France,country,Total,2125,,census1920_v2_t10
+1920,19,Poland,country,Total,2028,,census1920_v2_t10
+1920,19,All other countries,residual,Total,9385,,census1920_v2_t10
+1920,20,Total,total,,110967,,census1920_v2_t10
+1920,20,Germany,country,Total,23380,,census1920_v2_t10
+1920,20,Mexico,country,Total,13770,,census1920_v2_t10
+1920,20,Russia and Lithuania,country,Total,12118,,census1920_v2_t10
+1920,20,Sweden,country,Total,10337,,census1920_v2_t10
+1920,20,England,country,Total,7903,,census1920_v2_t10
+1920,20,Canada,country,Total,5352,,census1920_v2_t10
+1920,20,Austria,country,Total,5183,,census1920_v2_t10
+1920,20,Ireland,country,Total,4825,,census1920_v2_t10
+1920,20,Czechoslovakia,country,Total,3466,,census1920_v2_t10
+1920,20,Italy,country,Total,3355,,census1920_v2_t10
+1920,20,Scotland,country,Total,2576,,census1920_v2_t10
+1920,20,Poland,country,Total,2418,,census1920_v2_t10
+1920,20,Denmark,country,Total,2263,,census1920_v2_t10
+1920,20,Switzerland,country,Total,2238,,census1920_v2_t10
+1920,20,Jugo-Slavia,country,Total,2155,,census1920_v2_t10
+1920,20,France,country,Total,2136,,census1920_v2_t10
+1920,20,Belgium,country,Total,1500,,census1920_v2_t10
+1920,20,Wales,country,Total,1170,,census1920_v2_t10
+1920,20,All other countries,residual,Total,4822,,census1920_v2_t10
+1920,21,Total,total,,30906,,census1920_v2_t10
+1920,21,Germany,country,Total,11137,,census1920_v2_t10
+1920,21,Ireland,country,Total,3422,,census1920_v2_t10
+1920,21,Russia and Lithuania,country,Total,2792,,census1920_v2_t10
+1920,21,Italy,country,Total,1932,,census1920_v2_t10
+1920,21,England,country,Total,1865,,census1920_v2_t10
+1920,21,Switzerland,country,Total,1315,,census1920_v2_t10
+1920,21,Hungary,country,Total,1084,,census1920_v2_t10
+1920,21,Poland,country,Total,1037,,census1920_v2_t10
+1920,21,France,country,Total,984,,census1920_v2_t10
+1920,21,Austria,country,Total,906,,census1920_v2_t10
+1920,21,Canada,country,Total,903,,census1920_v2_t10
+1920,21,Scotland,country,Total,520,,census1920_v2_t10
+1920,21,Greece,country,Total,401,,census1920_v2_t10
+1920,21,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,367,,census1920_v2_t10
+1920,21,Jugo-Slavia,country,Total,354,,census1920_v2_t10
+1920,21,All other countries,residual,Total,1887,,census1920_v2_t10
+1920,22,Total,total,,46427,,census1920_v2_t10
+1920,22,Italy,country,Total,16264,,census1920_v2_t10
+1920,22,Germany,country,Total,5147,,census1920_v2_t10
+1920,22,France,country,Total,4193,,census1920_v2_t10
+1920,22,Mexico,country,Total,2487,,census1920_v2_t10
+1920,22,Ireland,country,Total,2000,,census1920_v2_t10
+1920,22,Russia and Lithuania,country,Total,1951,,census1920_v2_t10
+1920,22,England,country,Total,1841,,census1920_v2_t10
+1920,22,Spain,country,Total,1293,,census1920_v2_t10
+1920,22,West Indies (except U.S. possessions),residual,Total,1225,,census1920_v2_t10
+1920,22,Canada,country,Total,1186,,census1920_v2_t10
+1920,22,Central and South America,residual,Total,1142,,census1920_v2_t10
+1920,22,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,1057,,census1920_v2_t10
+1920,22,Austria,country,Total,725,,census1920_v2_t10
+1920,22,Greece,country,Total,610,,census1920_v2_t10
+1920,22,Norway,country,Total,555,,census1920_v2_t10
+1920,22,Sweden,country,Total,522,,census1920_v2_t10
+1920,22,Scotland,country,Total,447,,census1920_v2_t10
+1920,22,All other countries,residual,Total,3782,,census1920_v2_t10
+1920,23,Total,total,,107814,,census1920_v2_t10
+1920,23,Canada,country,Total,74420,,census1920_v2_t10
+1920,23,Canada-French,subcountry,Canada,35580,,census1920_v2_t10
+1920,23,Canada-Other (derived),subcountry,Canada,38840,,census1920_v2_t10_derived
+1920,23,Ireland,country,Total,5748,,census1920_v2_t10
+1920,23,England,country,Total,5153,,census1920_v2_t10
+1920,23,Russia and Lithuania,country,Total,4795,,census1920_v2_t10
+1920,23,Italy,country,Total,2797,,census1920_v2_t10
+1920,23,Scotland,country,Total,2171,,census1920_v2_t10
+1920,23,Sweden,country,Total,2026,,census1920_v2_t10
+1920,23,Poland,country,Total,1717,,census1920_v2_t10
+1920,23,Finland,country,Total,1393,,census1920_v2_t10
+1920,23,Greece,country,Total,1228,,census1920_v2_t10
+1920,23,Denmark,country,Total,1065,,census1920_v2_t10
+1920,23,Germany,country,Total,932,,census1920_v2_t10
+1920,23,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,822,,census1920_v2_t10
+1920,23,Norway,country,Total,581,,census1920_v2_t10
+1920,23,All other countries,residual,Total,2966,,census1920_v2_t10
+1920,24,Total,total,,103179,,census1920_v2_t10
+1920,24,Russia and Lithuania,country,Total,26997,,census1920_v2_t10
+1920,24,Germany,country,Total,22032,,census1920_v2_t10
+1920,24,Poland,country,Total,12061,,census1920_v2_t10
+1920,24,Italy,country,Total,9543,,census1920_v2_t10
+1920,24,Ireland,country,Total,6580,,census1920_v2_t10
+1920,24,England,country,Total,5113,,census1920_v2_t10
+1920,24,Austria,country,Total,3620,,census1920_v2_t10
+1920,24,Czechoslovakia,country,Total,3553,,census1920_v2_t10
+1920,24,Hungary,country,Total,1947,,census1920_v2_t10
+1920,24,Canada,country,Total,1894,,census1920_v2_t10
+1920,24,Scotland,country,Total,1692,,census1920_v2_t10
+1920,24,Greece,country,Total,964,,census1920_v2_t10
+1920,24,France,country,Total,818,,census1920_v2_t10
+1920,24,West Indies (except U.S. possessions),residual,Total,737,,census1920_v2_t10
+1920,24,Sweden,country,Total,630,,census1920_v2_t10
+1920,24,All other countries,residual,Total,4998,,census1920_v2_t10
+1920,25,Total,total,,1088548,,census1920_v2_t10
+1920,25,Canada,country,Total,263478,,census1920_v2_t10
+1920,25,Canada-French,subcountry,Canada,108691,,census1920_v2_t10
+1920,25,Canada-Other (derived),subcountry,Canada,154787,,census1920_v2_t10_derived
+1920,25,Ireland,country,Total,183172,,census1920_v2_t10
+1920,25,Italy,country,Total,117007,,census1920_v2_t10
+1920,25,Russia and Lithuania,country,Total,112823,,census1920_v2_t10
+1920,25,England,country,Total,87085,,census1920_v2_t10
+1920,25,Poland,country,Total,69157,,census1920_v2_t10
+1920,25,Sweden,country,Total,38012,,census1920_v2_t10
+1920,25,Portugal,country,Total,29191,,census1920_v2_t10
+1920,25,Scotland,country,Total,28474,,census1920_v2_t10
+1920,25,Atlantic Islands (incl. Azores),residual,Total,28294,,census1920_v2_t10
+1920,25,Germany,country,Total,22113,,census1920_v2_t10
+1920,25,Greece,country,Total,20441,,census1920_v2_t10
+1920,25,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Armenia, etc."")",country,Total,17620,,census1920_v2_t10
+1920,25,Finland,country,Total,14570,,census1920_v2_t10
+1920,25,Austria,country,Total,8098,,census1920_v2_t10
+1920,25,Newfoundland,country,Total,7168,,census1920_v2_t10
+1920,25,France,country,Total,7125,,census1920_v2_t10
+1920,25,All other countries,residual,Total,34720,,census1920_v2_t10
+1920,26,Total,total,,729292,,census1920_v2_t10
+1920,26,Canada,country,Total,165902,,census1920_v2_t10
+1920,26,Canada-French,subcountry,Canada,18635,,census1920_v2_t10
+1920,26,Canada-Other (derived),subcountry,Canada,147267,,census1920_v2_t10_derived
+1920,26,Poland,country,Total,103926,,census1920_v2_t10
+1920,26,Germany,country,Total,86047,,census1920_v2_t10
+1920,26,Russia and Lithuania,country,Total,50788,,census1920_v2_t10
+1920,26,England,country,Total,47185,,census1920_v2_t10
+1920,26,Netherlands,country,Total,33499,,census1920_v2_t10
+1920,26,Italy,country,Total,30216,,census1920_v2_t10
+1920,26,Finland,country,Total,30096,,census1920_v2_t10
+1920,26,Sweden,country,Total,24707,,census1920_v2_t10
+1920,26,Hungary,country,Total,22607,,census1920_v2_t10
+1920,26,Austria,country,Total,22004,,census1920_v2_t10
+1920,26,Ireland,country,Total,16531,,census1920_v2_t10
+1920,26,Scotland,country,Total,13175,,census1920_v2_t10
+1920,26,Czechoslovakia,country,Total,11161,,census1920_v2_t10
+1920,26,Belgium,country,Total,10501,,census1920_v2_t10
+1920,26,Jugo-Slavia,country,Total,9426,,census1920_v2_t10
+1920,26,Denmark,country,Total,7178,,census1920_v2_t10
+1920,26,Greece,country,Total,7115,,census1920_v2_t10
+1920,26,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,6985,,census1920_v2_t10
+1920,26,Norway,country,Total,6888,,census1920_v2_t10
+1920,26,Rumania,country,Total,6331,,census1920_v2_t10
+1920,26,All other countries,residual,Total,17024,,census1920_v2_t10
+1920,27,Total,total,,486795,,census1920_v2_t10
+1920,27,Sweden,country,Total,112117,,census1920_v2_t10
+1920,27,Norway,country,Total,90188,,census1920_v2_t10
+1920,27,Germany,country,Total,74634,,census1920_v2_t10
+1920,27,Canada,country,Total,33862,,census1920_v2_t10
+1920,27,Canada-French,subcountry,Canada,6796,,census1920_v2_t10
+1920,27,Canada-Other (derived),subcountry,Canada,27066,,census1920_v2_t10_derived
+1920,27,Finland,country,Total,29108,,census1920_v2_t10
+1920,27,Poland,country,Total,18537,,census1920_v2_t10
+1920,27,Denmark,country,Total,16904,,census1920_v2_t10
+1920,27,Russia and Lithuania,country,Total,16841,,census1920_v2_t10
+1920,27,Czechoslovakia,country,Total,12626,,census1920_v2_t10
+1920,27,Austria,country,Total,11550,,census1920_v2_t10
+1920,27,England,country,Total,10964,,census1920_v2_t10
+1920,27,Jugo-Slavia,country,Total,10697,,census1920_v2_t10
+1920,27,Ireland,country,Total,10289,,census1920_v2_t10
+1920,27,Italy,country,Total,7432,,census1920_v2_t10
+1920,27,Netherlands,country,Total,5380,,census1920_v2_t10
+1920,27,Hungary,country,Total,4277,,census1920_v2_t10
+1920,27,Scotland,country,Total,3928,,census1920_v2_t10
+1920,27,All other countries,residual,Total,17461,,census1920_v2_t10
+1920,28,Total,total,,8408,,census1920_v2_t10
+1920,28,Italy,country,Total,1841,,census1920_v2_t10
+1920,28,Germany,country,Total,929,,census1920_v2_t10
+1920,28,Russia and Lithuania,country,Total,833,,census1920_v2_t10
+1920,28,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,611,,census1920_v2_t10
+1920,28,England,country,Total,599,,census1920_v2_t10
+1920,28,Ireland,country,Total,412,,census1920_v2_t10
+1920,28,Canada,country,Total,406,,census1920_v2_t10
+1920,28,Poland,country,Total,318,,census1920_v2_t10
+1920,28,France,country,Total,258,,census1920_v2_t10
+1920,28,China,country,Total,249,,census1920_v2_t10
+1920,28,Sweden,country,Total,247,,census1920_v2_t10
+1920,28,Jugo-Slavia,country,Total,220,,census1920_v2_t10
+1920,28,Greece,country,Total,207,,census1920_v2_t10
+1920,28,Scotland,country,Total,144,,census1920_v2_t10
+1920,28,Austria,country,Total,136,,census1920_v2_t10
+1920,28,West Indies (except U.S. possessions),residual,Total,116,,census1920_v2_t10
+1920,28,Denmark,country,Total,113,,census1920_v2_t10
+1920,28,Mexico,country,Total,110,,census1920_v2_t10
+1920,28,Norway,country,Total,97,,census1920_v2_t10
+1920,28,All other countries,residual,Total,562,,census1920_v2_t10
+1920,29,Total,total,,186835,,census1920_v2_t10
+1920,29,Germany,country,Total,55776,,census1920_v2_t10
+1920,29,Russia and Lithuania,country,Total,19186,,census1920_v2_t10
+1920,29,Ireland,country,Total,15022,,census1920_v2_t10
+1920,29,Italy,country,Total,14609,,census1920_v2_t10
+1920,29,England,country,Total,10407,,census1920_v2_t10
+1920,29,Austria,country,Total,8676,,census1920_v2_t10
+1920,29,Hungary,country,Total,8080,,census1920_v2_t10
+1920,29,Poland,country,Total,7636,,census1920_v2_t10
+1920,29,Canada,country,Total,6562,,census1920_v2_t10
+1920,29,Czechoslovakia,country,Total,4971,,census1920_v2_t10
+1920,29,Switzerland,country,Total,4934,,census1920_v2_t10
+1920,29,Sweden,country,Total,4741,,census1920_v2_t10
+1920,29,France,country,Total,3831,,census1920_v2_t10
+1920,29,Mexico,country,Total,3411,,census1920_v2_t10
+1920,29,Greece,country,Total,3022,,census1920_v2_t10
+1920,29,Scotland,country,Total,2969,,census1920_v2_t10
+1920,29,Jugo-Slavia,country,Total,2327,,census1920_v2_t10
+1920,29,Denmark,country,Total,1688,,census1920_v2_t10
+1920,29,Rumania,country,Total,1647,,census1920_v2_t10
+1920,29,All other countries,residual,Total,7340,,census1920_v2_t10
+1920,30,Total,total,,95591,,census1920_v2_t10
+1920,30,Canada,country,Total,14700,,census1920_v2_t10
+1920,30,Canada-French,subcountry,Canada,2211,,census1920_v2_t10
+1920,30,Canada-Other (derived),subcountry,Canada,12489,,census1920_v2_t10_derived
+1920,30,Norway,country,Total,9962,,census1920_v2_t10
+1920,30,England,country,Total,8160,,census1920_v2_t10
+1920,30,Germany,country,Total,7873,,census1920_v2_t10
+1920,30,Ireland,country,Total,7260,,census1920_v2_t10
+1920,30,Sweden,country,Total,7179,,census1920_v2_t10
+1920,30,Russia and Lithuania,country,Total,5283,,census1920_v2_t10
+1920,30,Italy,country,Total,3842,,census1920_v2_t10
+1920,30,Jugo-Slavia,country,Total,3782,,census1920_v2_t10
+1920,30,Finland,country,Total,3577,,census1920_v2_t10
+1920,30,Austria,country,Total,3298,,census1920_v2_t10
+1920,30,Scotland,country,Total,3279,,census1920_v2_t10
+1920,30,Denmark,country,Total,2990,,census1920_v2_t10
+1920,30,Czechoslovakia,country,Total,1895,,census1920_v2_t10
+1920,30,Netherlands,country,Total,1675,,census1920_v2_t10
+1920,30,Greece,country,Total,1465,,census1920_v2_t10
+1920,30,Poland,country,Total,1219,,census1920_v2_t10
+1920,30,Switzerland,country,Total,1151,,census1920_v2_t10
+1920,30,Hungary,country,Total,935,,census1920_v2_t10
+1920,30,Japan,country,Total,896,,census1920_v2_t10
+1920,30,France,country,Total,888,,census1920_v2_t10
+1920,30,Wales,country,Total,879,,census1920_v2_t10
+1920,30,All other countries,residual,Total,3403,,census1920_v2_t10
+1920,31,Total,total,,150665,,census1920_v2_t10
+1920,31,Germany,country,Total,40969,,census1920_v2_t10
+1920,31,Sweden,country,Total,18825,,census1920_v2_t10
+1920,31,Russia and Lithuania,country,Total,15858,,census1920_v2_t10
+1920,31,Czechoslovakia,country,Total,15818,,census1920_v2_t10
+1920,31,Denmark,country,Total,12338,,census1920_v2_t10
+1920,31,England,country,Total,6006,,census1920_v2_t10
+1920,31,Canada,country,Total,5780,,census1920_v2_t10
+1920,31,Ireland,country,Total,5422,,census1920_v2_t10
+1920,31,Poland,country,Total,4615,,census1920_v2_t10
+1920,31,Austria,country,Total,4551,,census1920_v2_t10
+1920,31,Italy,country,Total,3547,,census1920_v2_t10
+1920,31,Mexico,country,Total,2611,,census1920_v2_t10
+1920,31,Norway,country,Total,2165,,census1920_v2_t10
+1920,31,Switzerland,country,Total,1808,,census1920_v2_t10
+1920,31,Scotland,country,Total,1695,,census1920_v2_t10
+1920,31,Greece,country,Total,1504,,census1920_v2_t10
+1920,31,All other countries,residual,Total,7153,,census1920_v2_t10
+1920,32,Total,total,,16003,,census1920_v2_t10
+1920,32,Italy,country,Total,2641,,census1920_v2_t10
+1920,32,England,country,Total,1271,,census1920_v2_t10
+1920,32,Canada,country,Total,1181,,census1920_v2_t10
+1920,32,Spain,country,Total,1180,,census1920_v2_t10
+1920,32,Mexico,country,Total,1177,,census1920_v2_t10
+1920,32,Germany,country,Total,1069,,census1920_v2_t10
+1920,32,Ireland,country,Total,970,,census1920_v2_t10
+1920,32,Jugo-Slavia,country,Total,693,,census1920_v2_t10
+1920,32,Japan,country,Total,649,,census1920_v2_t10
+1920,32,Greece,country,Total,618,,census1920_v2_t10
+1920,32,France,country,Total,609,,census1920_v2_t10
+1920,32,Denmark,country,Total,551,,census1920_v2_t10
+1920,32,Sweden,country,Total,545,,census1920_v2_t10
+1920,32,China,country,Total,529,,census1920_v2_t10
+1920,32,Switzerland,country,Total,378,,census1920_v2_t10
+1920,32,Scotland,country,Total,338,,census1920_v2_t10
+1920,32,Norway,country,Total,206,,census1920_v2_t10
+1920,32,Austria,country,Total,190,,census1920_v2_t10
+1920,32,Finland,country,Total,182,,census1920_v2_t10
+1920,32,All other countries,residual,Total,1026,,census1920_v2_t10
+1920,33,Total,total,,91397,,census1920_v2_t10
+1920,33,Canada,country,Total,52312,,census1920_v2_t10
+1920,33,Canada-French,subcountry,Canada,38277,,census1920_v2_t10
+1920,33,Canada-Other (derived),subcountry,Canada,14035,,census1920_v2_t10_derived
+1920,33,Ireland,country,Total,7908,,census1920_v2_t10
+1920,33,Greece,country,Total,5280,,census1920_v2_t10
+1920,33,Russia and Lithuania,country,Total,4484,,census1920_v2_t10
+1920,33,England,country,Total,4368,,census1920_v2_t10
+1920,33,Poland,country,Total,3997,,census1920_v2_t10
+1920,33,Italy,country,Total,2074,,census1920_v2_t10
+1920,33,Sweden,country,Total,1886,,census1920_v2_t10
+1920,33,Scotland,country,Total,1823,,census1920_v2_t10
+1920,33,Germany,country,Total,1714,,census1920_v2_t10
+1920,33,Finland,country,Total,1558,,census1920_v2_t10
+1920,33,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,866,,census1920_v2_t10
+1920,33,Belgium,country,Total,478,,census1920_v2_t10
+1920,33,Norway,country,Total,427,,census1920_v2_t10
+1920,33,All other countries,residual,Total,2222,,census1920_v2_t10
+1920,34,Total,total,,742486,,census1920_v2_t10
+1920,34,Italy,country,Total,157285,,census1920_v2_t10
+1920,34,Germany,country,Total,92382,,census1920_v2_t10
+1920,34,Poland,country,Total,90419,,census1920_v2_t10
+1920,34,Russia and Lithuania,country,Total,79773,,census1920_v2_t10
+1920,34,Ireland,country,Total,65971,,census1920_v2_t10
+1920,34,England,country,Total,46861,,census1920_v2_t10
+1920,34,Hungary,country,Total,40470,,census1920_v2_t10
+1920,34,Austria,country,Total,36917,,census1920_v2_t10
+1920,34,Scotland,country,Total,17781,,census1920_v2_t10
+1920,34,Czechoslovakia,country,Total,16747,,census1920_v2_t10
+1920,34,Netherlands,country,Total,12737,,census1920_v2_t10
+1920,34,Sweden,country,Total,10675,,census1920_v2_t10
+1920,34,Canada,country,Total,10396,,census1920_v2_t10
+1920,34,France,country,Total,10168,,census1920_v2_t10
+1920,34,Switzerland,country,Total,8165,,census1920_v2_t10
+1920,34,Denmark,country,Total,5704,,census1920_v2_t10
+1920,34,Norway,country,Total,5343,,census1920_v2_t10
+1920,34,All other countries,residual,Total,34692,,census1920_v2_t10
+1920,35,Total,total,,29808,,census1920_v2_t10
+1920,35,Mexico,country,Total,20272,,census1920_v2_t10
+1920,35,Italy,country,Total,1678,,census1920_v2_t10
+1920,35,Germany,country,Total,1178,,census1920_v2_t10
+1920,35,England,country,Total,889,,census1920_v2_t10
+1920,35,Canada,country,Total,738,,census1920_v2_t10
+1920,35,Jugo-Slavia,country,Total,535,,census1920_v2_t10
+1920,35,Scotland,country,Total,440,,census1920_v2_t10
+1920,35,Ireland,country,Total,434,,census1920_v2_t10
+1920,35,Austria,country,Total,423,,census1920_v2_t10
+1920,35,France,country,Total,377,,census1920_v2_t10
+1920,35,Sweden,country,Total,310,,census1920_v2_t10
+1920,35,Greece,country,Total,288,,census1920_v2_t10
+1920,35,Russia and Lithuania,country,Total,262,,census1920_v2_t10
+1920,35,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,207,,census1920_v2_t10
+1920,35,Spain,country,Total,199,,census1920_v2_t10
+1920,35,Japan,country,Total,198,,census1920_v2_t10
+1920,35,All other countries,residual,Total,1380,,census1920_v2_t10
+1920,36,Total,total,,2825375,,census1920_v2_t10
+1920,36,Italy,country,Total,545173,,census1920_v2_t10
+1920,36,Russia and Lithuania,country,Total,541364,,census1920_v2_t10
+1920,36,Germany,country,Total,295651,,census1920_v2_t10
+1920,36,Ireland,country,Total,284747,,census1920_v2_t10
+1920,36,Poland,country,Total,247519,,census1920_v2_t10
+1920,36,Austria,country,Total,151172,,census1920_v2_t10
+1920,36,England,country,Total,135541,,census1920_v2_t10
+1920,36,Canada,country,Total,112804,,census1920_v2_t10
+1920,36,Hungary,country,Total,78374,,census1920_v2_t10
+1920,36,Sweden,country,Total,53025,,census1920_v2_t10
+1920,36,Rumania,country,Total,40116,,census1920_v2_t10
+1920,36,West Indies (except U.S. possessions),residual,Total,38288,,census1920_v2_t10
+1920,36,Czechoslovakia,country,Total,38247,,census1920_v2_t10
+1920,36,Scotland,country,Total,37656,,census1920_v2_t10
+1920,36,France,country,Total,32252,,census1920_v2_t10
+1920,36,Norway,country,Total,27573,,census1920_v2_t10
+1920,36,Greece,country,Total,26117,,census1920_v2_t10
+1920,36,All other countries,residual,Total,139756,,census1920_v2_t10
+1920,37,Total,total,,7272,,census1920_v2_t10
+1920,37,England,country,Total,969,,census1920_v2_t10
+1920,37,Russia and Lithuania,country,Total,961,,census1920_v2_t10
+1920,37,Germany,country,Total,703,,census1920_v2_t10
+1920,37,Canada,country,Total,663,,census1920_v2_t10
+1920,37,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,647,,census1920_v2_t10
+1920,37,Greece,country,Total,551,,census1920_v2_t10
+1920,37,Italy,country,Total,453,,census1920_v2_t10
+1920,37,Scotland,country,Total,446,,census1920_v2_t10
+1920,37,Ireland,country,Total,301,,census1920_v2_t10
+1920,37,Poland,country,Total,210,,census1920_v2_t10
+1920,37,Sweden,country,Total,170,,census1920_v2_t10
+1920,37,Austria,country,Total,149,,census1920_v2_t10
+1920,37,France,country,Total,136,,census1920_v2_t10
+1920,37,Netherlands,country,Total,115,,census1920_v2_t10
+1920,37,West Indies (except U.S. possessions),residual,Total,89,,census1920_v2_t10
+1920,37,Switzerland,country,Total,72,,census1920_v2_t10
+1920,37,Norway,country,Total,70,,census1920_v2_t10
+1920,37,All other countries,residual,Total,567,,census1920_v2_t10
+1920,38,Total,total,,131863,,census1920_v2_t10
+1920,38,Norway,country,Total,38190,,census1920_v2_t10
+1920,38,Russia and Lithuania,country,Total,29649,,census1920_v2_t10
+1920,38,Canada,country,Total,15743,,census1920_v2_t10
+1920,38,Canada-French,subcountry,Canada,1533,,census1920_v2_t10
+1920,38,Canada-Other (derived),subcountry,Canada,14210,,census1920_v2_t10_derived
+1920,38,Germany,country,Total,11960,,census1920_v2_t10
+1920,38,Sweden,country,Total,10543,,census1920_v2_t10
+1920,38,Denmark,country,Total,4552,,census1920_v2_t10
+1920,38,Hungary,country,Total,2519,,census1920_v2_t10
+1920,38,England,country,Total,2289,,census1920_v2_t10
+1920,38,Poland,country,Total,2236,,census1920_v2_t10
+1920,38,Austria,country,Total,2059,,census1920_v2_t10
+1920,38,Czechoslovakia,country,Total,2056,,census1920_v2_t10
+1920,38,Rumania,country,Total,1811,,census1920_v2_t10
+1920,38,Ireland,country,Total,1660,,census1920_v2_t10
+1920,38,Scotland,country,Total,1229,,census1920_v2_t10
+1920,38,Finland,country,Total,1108,,census1920_v2_t10
+1920,38,All other countries,residual,Total,4259,,census1920_v2_t10
+1920,39,Total,total,,680452,,census1920_v2_t10
+1920,39,Germany,country,Total,111893,,census1920_v2_t10
+1920,39,Hungary,country,Total,73181,,census1920_v2_t10
+1920,39,Poland,country,Total,67579,,census1920_v2_t10
+1920,39,Italy,country,Total,60658,,census1920_v2_t10
+1920,39,Austria,country,Total,48073,,census1920_v2_t10
+1920,39,Russia and Lithuania,country,Total,47785,,census1920_v2_t10
+1920,39,England,country,Total,43172,,census1920_v2_t10
+1920,39,Czechoslovakia,country,Total,42121,,census1920_v2_t10
+1920,39,Jugo-Slavia,country,Total,30377,,census1920_v2_t10
+1920,39,Ireland,country,Total,29262,,census1920_v2_t10
+1920,39,Canada,country,Total,24670,,census1920_v2_t10
+1920,39,Greece,country,Total,13540,,census1920_v2_t10
+1920,39,Rumania,country,Total,13068,,census1920_v2_t10
+1920,39,Scotland,country,Total,12148,,census1920_v2_t10
+1920,39,Switzerland,country,Total,9656,,census1920_v2_t10
+1920,39,France,country,Total,8067,,census1920_v2_t10
+1920,39,Wales,country,Total,7772,,census1920_v2_t10
+1920,39,Sweden,country,Total,7266,,census1920_v2_t10
+1920,39,Finland,country,Total,6406,,census1920_v2_t10
+1920,39,All other countries,residual,Total,23758,,census1920_v2_t10
+1920,40,Total,total,,40432,,census1920_v2_t10
+1920,40,Germany,country,Total,7029,,census1920_v2_t10
+1920,40,Mexico,country,Total,6884,,census1920_v2_t10
+1920,40,Russia and Lithuania,country,Total,5137,,census1920_v2_t10
+1920,40,England,country,Total,2687,,census1920_v2_t10
+1920,40,Canada,country,Total,2489,,census1920_v2_t10
+1920,40,Italy,country,Total,2122,,census1920_v2_t10
+1920,40,Czechoslovakia,country,Total,1825,,census1920_v2_t10
+1920,40,Austria,country,Total,1393,,census1920_v2_t10
+1920,40,Ireland,country,Total,1321,,census1920_v2_t10
+1920,40,Poland,country,Total,1253,,census1920_v2_t10
+1920,40,Scotland,country,Total,1120,,census1920_v2_t10
+1920,40,France,country,Total,962,,census1920_v2_t10
+1920,40,Sweden,country,Total,931,,census1920_v2_t10
+1920,40,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,747,,census1920_v2_t10
+1920,40,Switzerland,country,Total,629,,census1920_v2_t10
+1920,40,Greece,country,Total,620,,census1920_v2_t10
+1920,40,Denmark,country,Total,561,,census1920_v2_t10
+1920,40,All other countries,residual,Total,2722,,census1920_v2_t10
+1920,41,Total,total,,107644,,census1920_v2_t10
+1920,41,Canada,country,Total,13800,,census1920_v2_t10
+1920,41,Germany,country,Total,13740,,census1920_v2_t10
+1920,41,Sweden,country,Total,10532,,census1920_v2_t10
+1920,41,England,country,Total,7953,,census1920_v2_t10
+1920,41,Russia and Lithuania,country,Total,7080,,census1920_v2_t10
+1920,41,Norway,country,Total,6955,,census1920_v2_t10
+1920,41,Finland,country,Total,6050,,census1920_v2_t10
+1920,41,Italy,country,Total,4324,,census1920_v2_t10
+1920,41,Ireland,country,Total,4203,,census1920_v2_t10
+1920,41,Switzerland,country,Total,4166,,census1920_v2_t10
+1920,41,Scotland,country,Total,3609,,census1920_v2_t10
+1920,41,Denmark,country,Total,3602,,census1920_v2_t10
+1920,41,Japan,country,Total,3169,,census1920_v2_t10
+1920,41,Austria,country,Total,2798,,census1920_v2_t10
+1920,41,China,country,Total,2151,,census1920_v2_t10
+1920,41,Greece,country,Total,1928,,census1920_v2_t10
+1920,41,Poland,country,Total,1480,,census1920_v2_t10
+1920,41,France,country,Total,1273,,census1920_v2_t10
+1920,41,Jugo-Slavia,country,Total,1186,,census1920_v2_t10
+1920,41,Czechoslovakia,country,Total,1132,,census1920_v2_t10
+1920,41,Netherlands,country,Total,917,,census1920_v2_t10
+1920,41,Hungary,country,Total,909,,census1920_v2_t10
+1920,41,All other countries,residual,Total,4687,,census1920_v2_t10
+1920,42,Total,total,,1392557,,census1920_v2_t10
+1920,42,Italy,country,Total,222764,,census1920_v2_t10
+1920,42,Russia and Lithuania,country,Total,191351,,census1920_v2_t10
+1920,42,Poland,country,Total,177770,,census1920_v2_t10
+1920,42,Austria,country,Total,122755,,census1920_v2_t10
+1920,42,Ireland,country,Total,121601,,census1920_v2_t10
+1920,42,Germany,country,Total,120194,,census1920_v2_t10
+1920,42,England,country,Total,90738,,census1920_v2_t10
+1920,42,Hungary,country,Total,71380,,census1920_v2_t10
+1920,42,Czechoslovakia,country,Total,68869,,census1920_v2_t10
+1920,42,Jugo-Slavia,country,Total,36227,,census1920_v2_t10
+1920,42,Scotland,country,Total,28448,,census1920_v2_t10
+1920,42,Wales,country,Total,21167,,census1920_v2_t10
+1920,42,Sweden,country,Total,19847,,census1920_v2_t10
+1920,42,Canada,country,Total,15100,,census1920_v2_t10
+1920,42,Greece,country,Total,13893,,census1920_v2_t10
+1920,42,France,country,Total,12830,,census1920_v2_t10
+1920,42,Rumania,country,Total,11230,,census1920_v2_t10
+1920,42,All other countries,residual,Total,46393,,census1920_v2_t10
+1920,44,Total,total,,175189,,census1920_v2_t10
+1920,44,Canada,country,Total,36482,,census1920_v2_t10
+1920,44,Canada-French,subcountry,Canada,28887,,census1920_v2_t10
+1920,44,Canada-Other (derived),subcountry,Canada,7595,,census1920_v2_t10_derived
+1920,44,Italy,country,Total,32241,,census1920_v2_t10
+1920,44,England,country,Total,25791,,census1920_v2_t10
+1920,44,Ireland,country,Total,22253,,census1920_v2_t10
+1920,44,Portugal,country,Total,8999,,census1920_v2_t10
+1920,44,Russia and Lithuania,country,Total,8849,,census1920_v2_t10
+1920,44,Poland,country,Total,8158,,census1920_v2_t10
+1920,44,Sweden,country,Total,6542,,census1920_v2_t10
+1920,44,Scotland,country,Total,5692,,census1920_v2_t10
+1920,44,Atlantic Islands (incl. Azores),residual,Total,3950,,census1920_v2_t10
+1920,44,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Armenia, etc."")",country,Total,3411,,census1920_v2_t10
+1920,44,Germany,country,Total,3126,,census1920_v2_t10
+1920,44,France,country,Total,1971,,census1920_v2_t10
+1920,44,Austria,country,Total,1307,,census1920_v2_t10
+1920,44,Greece,country,Total,1219,,census1920_v2_t10
+1920,44,Belgium,country,Total,968,,census1920_v2_t10
+1920,44,All other countries,residual,Total,4230,,census1920_v2_t10
+1920,45,Total,total,,6582,,census1920_v2_t10
+1920,45,Russia and Lithuania,country,Total,1196,,census1920_v2_t10
+1920,45,Germany,country,Total,1079,,census1920_v2_t10
+1920,45,Greece,country,Total,578,,census1920_v2_t10
+1920,45,England,country,Total,493,,census1920_v2_t10
+1920,45,Ireland,country,Total,442,,census1920_v2_t10
+1920,45,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,409,,census1920_v2_t10
+1920,45,Poland,country,Total,351,,census1920_v2_t10
+1920,45,Italy,country,Total,344,,census1920_v2_t10
+1920,45,Canada,country,Total,271,,census1920_v2_t10
+1920,45,Austria,country,Total,206,,census1920_v2_t10
+1920,45,Scotland,country,Total,190,,census1920_v2_t10
+1920,45,Sweden,country,Total,133,,census1920_v2_t10
+1920,45,West Indies (except U.S. possessions),residual,Total,103,,census1920_v2_t10
+1920,45,Norway,country,Total,85,,census1920_v2_t10
+1920,45,France,country,Total,78,,census1920_v2_t10
+1920,45,Denmark,country,Total,76,,census1920_v2_t10
+1920,45,China,country,Total,63,,census1920_v2_t10
+1920,45,All other countries,residual,Total,485,,census1920_v2_t10
+1920,46,Total,total,,82534,,census1920_v2_t10
+1920,46,Norway,country,Total,16813,,census1920_v2_t10
+1920,46,Germany,country,Total,15674,,census1920_v2_t10
+1920,46,Russia and Lithuania,country,Total,11207,,census1920_v2_t10
+1920,46,Sweden,country,Total,8573,,census1920_v2_t10
+1920,46,Denmark,country,Total,5983,,census1920_v2_t10
+1920,46,Canada,country,Total,4462,,census1920_v2_t10
+1920,46,Netherlands,country,Total,3218,,census1920_v2_t10
+1920,46,England,country,Total,2944,,census1920_v2_t10
+1920,46,Czechoslovakia,country,Total,2819,,census1920_v2_t10
+1920,46,Ireland,country,Total,1954,,census1920_v2_t10
+1920,46,Austria,country,Total,1151,,census1920_v2_t10
+1920,46,Finland,country,Total,1085,,census1920_v2_t10
+1920,46,Scotland,country,Total,832,,census1920_v2_t10
+1920,46,Poland,country,Total,792,,census1920_v2_t10
+1920,46,Switzerland,country,Total,761,,census1920_v2_t10
+1920,46,Hungary,country,Total,585,,census1920_v2_t10
+1920,46,All other countries,residual,Total,3681,,census1920_v2_t10
+1920,47,Total,total,,15648,,census1920_v2_t10
+1920,47,Russia and Lithuania,country,Total,2265,,census1920_v2_t10
+1920,47,Germany,country,Total,2159,,census1920_v2_t10
+1920,47,Italy,country,Total,2079,,census1920_v2_t10
+1920,47,England,country,Total,1670,,census1920_v2_t10
+1920,47,Ireland,country,Total,1291,,census1920_v2_t10
+1920,47,Canada,country,Total,988,,census1920_v2_t10
+1920,47,Poland,country,Total,841,,census1920_v2_t10
+1920,47,Switzerland,country,Total,616,,census1920_v2_t10
+1920,47,Greece,country,Total,491,,census1920_v2_t10
+1920,47,Scotland,country,Total,454,,census1920_v2_t10
+1920,47,Austria,country,Total,398,,census1920_v2_t10
+1920,47,France,country,Total,333,,census1920_v2_t10
+1920,47,Hungary,country,Total,326,,census1920_v2_t10
+1920,47,Sweden,country,Total,305,,census1920_v2_t10
+1920,47,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,195,,census1920_v2_t10
+1920,47,Mexico,country,Total,176,,census1920_v2_t10
+1920,47,All other countries,residual,Total,1061,,census1920_v2_t10
+1920,48,Total,total,,363832,,census1920_v2_t10
+1920,48,Mexico,country,Total,251827,,census1920_v2_t10
+1920,48,Germany,country,Total,31062,,census1920_v2_t10
+1920,48,Czechoslovakia,country,Total,12819,,census1920_v2_t10
+1920,48,Italy,country,Total,8024,,census1920_v2_t10
+1920,48,England,country,Total,7704,,census1920_v2_t10
+1920,48,Russia and Lithuania,country,Total,7094,,census1920_v2_t10
+1920,48,Austria,country,Total,6441,,census1920_v2_t10
+1920,48,Poland,country,Total,5047,,census1920_v2_t10
+1920,48,Sweden,country,Total,4536,,census1920_v2_t10
+1920,48,Ireland,country,Total,4333,,census1920_v2_t10
+1920,48,Canada,country,Total,4200,,census1920_v2_t10
+1920,48,France,country,Total,2544,,census1920_v2_t10
+1920,48,Greece,country,Total,1977,,census1920_v2_t10
+1920,48,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,1896,,census1920_v2_t10
+1920,48,Scotland,country,Total,1828,,census1920_v2_t10
+1920,48,Norway,country,Total,1740,,census1920_v2_t10
+1920,48,All other countries,residual,Total,10760,,census1920_v2_t10
+1920,49,Total,total,,59200,,census1920_v2_t10
+1920,49,England,country,Total,14839,,census1920_v2_t10
+1920,49,Denmark,country,Total,6970,,census1920_v2_t10
+1920,49,Sweden,country,Total,6073,,census1920_v2_t10
+1920,49,Germany,country,Total,3589,,census1920_v2_t10
+1920,49,Italy,country,Total,3225,,census1920_v2_t10
+1920,49,Greece,country,Total,3029,,census1920_v2_t10
+1920,49,Japan,country,Total,2358,,census1920_v2_t10
+1920,49,Scotland,country,Total,2310,,census1920_v2_t10
+1920,49,Norway,country,Total,2109,,census1920_v2_t10
+1920,49,Netherlands,country,Total,1980,,census1920_v2_t10
+1920,49,Switzerland,country,Total,1566,,census1920_v2_t10
+1920,49,Canada,country,Total,1471,,census1920_v2_t10
+1920,49,Wales,country,Total,1304,,census1920_v2_t10
+1920,49,Ireland,country,Total,1207,,census1920_v2_t10
+1920,49,Mexico,country,Total,1166,,census1920_v2_t10
+1920,49,Austria,country,Total,987,,census1920_v2_t10
+1920,49,Jugo-Slavia,country,Total,836,,census1920_v2_t10
+1920,49,Finland,country,Total,779,,census1920_v2_t10
+1920,49,Russia and Lithuania,country,Total,696,,census1920_v2_t10
+1920,49,All other countries,residual,Total,2706,,census1920_v2_t10
+1920,50,Total,total,,44558,,census1920_v2_t10
+1920,50,Canada,country,Total,24885,,census1920_v2_t10
+1920,50,Canada-French,subcountry,Canada,14181,,census1920_v2_t10
+1920,50,Canada-Other (derived),subcountry,Canada,10704,,census1920_v2_t10_derived
+1920,50,Italy,country,Total,4067,,census1920_v2_t10
+1920,50,Ireland,country,Total,2884,,census1920_v2_t10
+1920,50,England,country,Total,2197,,census1920_v2_t10
+1920,50,Scotland,country,Total,1854,,census1920_v2_t10
+1920,50,Poland,country,Total,1726,,census1920_v2_t10
+1920,50,Russia and Lithuania,country,Total,1400,,census1920_v2_t10
+1920,50,Sweden,country,Total,1123,,census1920_v2_t10
+1920,50,Spain,country,Total,661,,census1920_v2_t10
+1920,50,Germany,country,Total,630,,census1920_v2_t10
+1920,50,Wales,country,Total,549,,census1920_v2_t10
+1920,50,Finland,country,Total,476,,census1920_v2_t10
+1920,50,All other countries,residual,Total,2106,,census1920_v2_t10
+1920,51,Total,total,,31705,,census1920_v2_t10
+1920,51,Russia and Lithuania,country,Total,5492,,census1920_v2_t10
+1920,51,England,country,Total,3776,,census1920_v2_t10
+1920,51,Germany,country,Total,2802,,census1920_v2_t10
+1920,51,Italy,country,Total,2435,,census1920_v2_t10
+1920,51,Canada,country,Total,1947,,census1920_v2_t10
+1920,51,Greece,country,Total,1797,,census1920_v2_t10
+1920,51,Ireland,country,Total,1732,,census1920_v2_t10
+1920,51,Scotland,country,Total,1327,,census1920_v2_t10
+1920,51,Hungary,country,Total,1293,,census1920_v2_t10
+1920,51,Poland,country,Total,1103,,census1920_v2_t10
+1920,51,Austria,country,Total,921,,census1920_v2_t10
+1920,51,Czechoslovakia,country,Total,897,,census1920_v2_t10
+1920,51,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,814,,census1920_v2_t10
+1920,51,Sweden,country,Total,664,,census1920_v2_t10
+1920,51,Norway,country,Total,491,,census1920_v2_t10
+1920,51,Denmark,country,Total,459,,census1920_v2_t10
+1920,51,France,country,Total,455,,census1920_v2_t10
+1920,51,West Indies (except U.S. possessions),residual,Total,399,,census1920_v2_t10
+1920,51,Netherlands,country,Total,335,,census1920_v2_t10
+1920,51,Portugal,country,Total,307,,census1920_v2_t10
+1920,51,All other countries,residual,Total,2259,,census1920_v2_t10
+1920,53,Total,total,,265292,,census1920_v2_t10
+1920,53,Canada,country,Total,43179,,census1920_v2_t10
+1920,53,Canada-French,subcountry,Canada,2581,,census1920_v2_t10
+1920,53,Canada-Other (derived),subcountry,Canada,40598,,census1920_v2_t10_derived
+1920,53,Sweden,country,Total,34793,,census1920_v2_t10
+1920,53,Norway,country,Total,30305,,census1920_v2_t10
+1920,53,Germany,country,Total,22315,,census1920_v2_t10
+1920,53,England,country,Total,20821,,census1920_v2_t10
+1920,53,Japan,country,Total,12971,,census1920_v2_t10
+1920,53,Finland,country,Total,11863,,census1920_v2_t10
+1920,53,Russia and Lithuania,country,Total,11652,,census1920_v2_t10
+1920,53,Italy,country,Total,10813,,census1920_v2_t10
+1920,53,Ireland,country,Total,8927,,census1920_v2_t10
+1920,53,Denmark,country,Total,8359,,census1920_v2_t10
+1920,53,Scotland,country,Total,7886,,census1920_v2_t10
+1920,53,Austria,country,Total,6494,,census1920_v2_t10
+1920,53,Greece,country,Total,4215,,census1920_v2_t10
+1920,53,Poland,country,Total,3906,,census1920_v2_t10
+1920,53,Switzerland,country,Total,3671,,census1920_v2_t10
+1920,53,Jugo-Slavia,country,Total,3565,,census1920_v2_t10
+1920,53,Netherlands,country,Total,3097,,census1920_v2_t10
+1920,53,France,country,Total,2452,,census1920_v2_t10
+1920,53,Wales,country,Total,2040,,census1920_v2_t10
+1920,53,All other countries,residual,Total,11968,,census1920_v2_t10
+1920,54,Total,total,,62105,,census1920_v2_t10
+1920,54,Italy,country,Total,14147,,census1920_v2_t10
+1920,54,Hungary,country,Total,6260,,census1920_v2_t10
+1920,54,Poland,country,Total,5799,,census1920_v2_t10
+1920,54,Austria,country,Total,5115,,census1920_v2_t10
+1920,54,Russia and Lithuania,country,Total,4628,,census1920_v2_t10
+1920,54,Germany,country,Total,3798,,census1920_v2_t10
+1920,54,England,country,Total,3435,,census1920_v2_t10
+1920,54,Greece,country,Total,3186,,census1920_v2_t10
+1920,54,Jugo-Slavia,country,Total,2802,,census1920_v2_t10
+1920,54,Czechoslovakia,country,Total,1549,,census1920_v2_t10
+1920,54,Spain,country,Total,1543,,census1920_v2_t10
+1920,54,Ireland,country,Total,1459,,census1920_v2_t10
+1920,54,"Turkey in Asia (Syria, Armenia, Palestine, Turkey in Asia; source: ""Syria, etc."")",country,Total,1453,,census1920_v2_t10
+1920,54,Scotland,country,Total,998,,census1920_v2_t10
+1920,54,Canada,country,Total,981,,census1920_v2_t10
+1920,54,Belgium,country,Total,938,,census1920_v2_t10
+1920,54,Wales,country,Total,704,,census1920_v2_t10
+1920,54,France,country,Total,633,,census1920_v2_t10
+1920,54,Rumania,country,Total,625,,census1920_v2_t10
+1920,54,All other countries,residual,Total,2052,,census1920_v2_t10
+1920,55,Total,total,,460485,,census1920_v2_t10
+1920,55,Germany,country,Total,151250,,census1920_v2_t10
+1920,55,Poland,country,Total,50558,,census1920_v2_t10
+1920,55,Norway,country,Total,45433,,census1920_v2_t10
+1920,55,Russia and Lithuania,country,Total,24381,,census1920_v2_t10
+1920,55,Sweden,country,Total,22896,,census1920_v2_t10
+1920,55,Czechoslovakia,country,Total,19811,,census1920_v2_t10
+1920,55,Austria,country,Total,19641,,census1920_v2_t10
+1920,55,Canada,country,Total,19400,,census1920_v2_t10
+1920,55,Canada-French,subcountry,Canada,4917,,census1920_v2_t10
+1920,55,Canada-Other (derived),subcountry,Canada,14483,,census1920_v2_t10_derived
+1920,55,Denmark,country,Total,15420,,census1920_v2_t10
+1920,55,Italy,country,Total,11188,,census1920_v2_t10
+1920,55,England,country,Total,10837,,census1920_v2_t10
+1920,55,Hungary,country,Total,10016,,census1920_v2_t10
+1920,55,Jugo-Slavia,country,Total,8784,,census1920_v2_t10
+1920,55,Ireland,country,Total,7809,,census1920_v2_t10
+1920,55,Switzerland,country,Total,7797,,census1920_v2_t10
+1920,55,Netherlands,country,Total,7473,,census1920_v2_t10
+1920,55,Finland,country,Total,6757,,census1920_v2_t10
+1920,55,All other countries,residual,Total,21034,,census1920_v2_t10
+1920,56,Total,total,,26567,,census1920_v2_t10
+1920,56,England,country,Total,2507,,census1920_v2_t10
+1920,56,Germany,country,Total,2292,,census1920_v2_t10
+1920,56,Sweden,country,Total,2042,,census1920_v2_t10
+1920,56,Italy,country,Total,1948,,census1920_v2_t10
+1920,56,Mexico,country,Total,1801,,census1920_v2_t10
+1920,56,Russia and Lithuania,country,Total,1515,,census1920_v2_t10
+1920,56,Canada,country,Total,1440,,census1920_v2_t10
+1920,56,Scotland,country,Total,1439,,census1920_v2_t10
+1920,56,Greece,country,Total,1236,,census1920_v2_t10
+1920,56,Jugo-Slavia,country,Total,1189,,census1920_v2_t10
+1920,56,Austria,country,Total,1183,,census1920_v2_t10
+1920,56,Japan,country,Total,1029,,census1920_v2_t10
+1920,56,Ireland,country,Total,956,,census1920_v2_t10
+1920,56,Denmark,country,Total,936,,census1920_v2_t10
+1920,56,Finland,country,Total,856,,census1920_v2_t10
+1920,56,Norway,country,Total,651,,census1920_v2_t10
+1920,56,Poland,country,Total,544,,census1920_v2_t10
+1920,56,Czechoslovakia,country,Total,518,,census1920_v2_t10
+1920,56,France,country,Total,364,,census1920_v2_t10
+1920,56,Hungary,country,Total,349,,census1920_v2_t10
+1920,56,Switzerland,country,Total,302,,census1920_v2_t10
+1920,56,Wales,country,Total,297,,census1920_v2_t10
+1920,56,All other countries,residual,Total,1173,,census1920_v2_t10
 1950,01,Total (foreign-born white only),total,,13813,,census1950_v2p1_t71
 1950,01,Europe,region,Total (foreign-born white only),10106,,census1950_v2p1_t71_derived
 1950,01,United Kingdom,country,Europe,2234,,census1950_v2p1_t71_derived

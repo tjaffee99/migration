@@ -1,0 +1,76 @@
+# page 723 (PDF page 39)
+#STATE Idaho
+Total foreign born,40747,42578,24604
+Sweden,5112,4985,2822
+Canada,4961,5371,2923
+French,476,796,395
+England,4451,4983,3943
+Germany,4143,5004,2974
+Norway,2482,2566,1173
+Denmark,2240,2254,1626
+Russia and Lithuania,1467,574,124
+Spain,1417,1047,77
+Ireland,1410,1782,1633
+Switzerland,1347,1319,1017
+Italy,1323,2067,779
+Scotland,1228,1282,796
+Mexico,1215,133,28
+Japan,1180,1330,1305
+Finland,989,652,292
+Austria,781,1477,372
+Greece,716,1843,9
+Wales,575,722,732
+China,489,773,1411
+France,482,333,194
+Jugo-Slavia,460,NA,NA
+Netherlands,439,261,50
+Czechoslovakia,420,NA,NA
+All other countries,1420,1820,324
+#STATE Wyoming
+Total foreign born,26567,29020,17415
+England,2507,2985,2596
+Germany,2292,2477,2146
+Sweden,2042,2497,1727
+Italy,1948,1961,781
+Mexico,1801,188,58
+Russia and Lithuania,1515,546,90
+Canada,1440,1431,1248
+Scotland,1439,1812,1253
+Greece,1236,1915,230
+Jugo-Slavia,1189,NA,NA
+Austria,1183,3351,1104
+Japan,1029,1575,397
+Ireland,956,1359,1591
+Denmark,936,962,884
+Finland,856,1380,1220
+Norway,651,623,378
+Poland,544,993,79
+Czechoslovakia,518,NA,NA
+France,364,316,183
+Hungary,349,437,287
+Switzerland,302,251,199
+Wales,297,419,393
+All other countries,1173,1542,571
+#STATE Colorado
+Total foreign born,119138,129587,91155
+Russia and Lithuania,16784,12759,2938
+Italy,12580,14375,6818
+Germany,11992,16908,14606
+Mexico,11037,2602,274
+Sweden,10112,12446,10765
+England,9588,12928,13575
+Canada,7642,9581,9797
+Ireland,6191,8710,10132
+Austria,5722,11582,6354
+Scotland,3357,4269,4069
+Denmark,2823,2756,2050
+Jugo-Slavia,2109,NA,NA
+Czechoslovakia,1953,NA,NA
+Poland,1867,2483,620
+Greece,1802,2272,37
+Japan,1762,2245,51
+Norway,1525,1787,1149
+Switzerland,1510,1767,1479
+Wales,1482,1989,1955
+France,1420,1374,1162
+All other countries,5880,6754,3324

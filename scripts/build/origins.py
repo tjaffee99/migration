@@ -147,6 +147,7 @@ ALIASES = {
     "st pierre and miquelon": "SPM", "slovak republic": "SVK", "cocos islands": "CCK", "pitcairn island": "PCN",
     "saint kitts-nevis": "KNA", "serbia and montenegro": "SCG", "eswatini (formerly swaziland)": "SWZ",
     "north macedonia (formerly macedonia)": "MKD",
+    "russia and lithuania": "SUN", "jugo-slavia": "YUG",
     "west indies": "XCB", "atlantic islands": "XAF", "born at sea": "XNS",
     "foreign born races other than white (country of birth not tabulated)": "XNT",
 }
@@ -236,6 +237,9 @@ class Registry:
             return self.unit(uid)["id"]
         if n in ALIASES:
             return self.unit(ALIASES[n])["id"]
+        for prefix, uid in (("turkey in asia", "OTA"),):
+            if n.startswith(prefix):
+                return self.unit(uid)["id"]
         if n in self.by_name:
             return self.unit(self.by_name[n])["id"]
         self.unmatched[(label, parent)] = self.unmatched.get((label, parent), 0) + 1

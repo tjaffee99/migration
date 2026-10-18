@@ -1,0 +1,63 @@
+# page 721 (PDF page 37; page image skewed - number rows matched to labels in order)
+#STATE Mississippi
+Total foreign born,8408,9770,7981
+Italy,1841,2137,845
+Germany,929,1637,1926
+Russia and Lithuania,833,754,414
+Syria etc.,611,376,NA
+England,599,777,798
+Ireland,412,747,1264
+Canada,406,450,420
+Poland,318,223,90
+France,258,291,365
+China,249,195,206
+Sweden,247,292,303
+Jugo-Slavia,220,NA,NA
+Greece,207,117,22
+Scotland,144,181,196
+Austria,136,385,259
+West Indies,116,156,45
+Denmark,113,119,86
+Mexico,110,72,48
+Norway,97,91,74
+All other countries,562,770,620
+#STATE Arkansas
+Total foreign born,14137,17046,14289
+Germany,3979,5710,5971
+Italy,1314,1699,576
+England,1141,1519,1394
+Canada,893,1074,1093
+Switzerland,736,804,679
+Russia and Lithuania,689,486,276
+Ireland,676,1079,1345
+Austria,636,1071,732
+Poland,529,576,315
+Czechoslovakia,492,NA,NA
+France,387,387,387
+Sweden,331,385,355
+Scotland,316,442,342
+Mexico,280,132,68
+Greece,277,179,6
+Syria etc.,246,169,NA
+Denmark,180,178,135
+All other countries,1035,1156,615
+#STATE Louisiana
+Total foreign born,46427,52766,52903
+Italy,16264,20233,17431
+Germany,5147,8822,11839
+France,4193,5345,6500
+Mexico,2487,1025,488
+Ireland,2000,3757,6436
+Russia and Lithuania,1951,1369,692
+England,1841,2086,2068
+Spain,1293,719,583
+West Indies,1225,630,543
+Canada,1186,1191,1034
+Central and South America,1142,328,271
+Syria etc.,1057,949,NA
+Austria,725,1418,795
+Greece,610,237,84
+Norway,555,295,189
+Sweden,522,344,359
+Scotland,447,455,399
+All other countries,3782,3563,3192

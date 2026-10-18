@@ -1,0 +1,60 @@
+# page 716 (PDF page 32)
+#STATE South Dakota
+Total foreign born,82534,100790,88508
+Norway,16813,20918,19788
+Germany,15674,21114,17873
+Russia and Lithuania,11207,12965,12365
+Sweden,8573,9998,8647
+Denmark,5983,6294,5038
+Canada,4462,6010,7044
+Netherlands,3218,2656,1566
+England,2944,4024,3862
+Czechoslovakia,2819,NA,NA
+Ireland,1954,2980,3298
+Austria,1151,5268,3246
+Finland,1085,1381,1175
+Scotland,832,1102,1153
+Poland,792,758,472
+Switzerland,761,800,585
+Hungary,585,594,421
+All other countries,3681,3928,1975
+#STATE Nebraska
+Total foreign born,150665,176662,177347
+Germany,40969,55904,65506
+Sweden,18825,23219,24693
+Russia and Lithuania,15858,11740,8083
+Czechoslovakia,15818,NA,NA
+Denmark,12338,13674,12531
+England,6006,8009,9757
+Canada,5780,7335,9049
+Ireland,5422,8124,11127
+Poland,4615,5154,3094
+Austria,4551,21886,20031
+Italy,3547,3799,752
+Mexico,2611,290,27
+Norway,2165,2750,2883
+Switzerland,1808,2150,2340
+Scotland,1695,2242,2773
+Greece,1504,3459,23
+All other countries,7153,6927,4678
+#STATE Kansas
+Total foreign born,110967,135450,126685
+Germany,23380,34041,39501
+Mexico,13770,8429,71
+Russia and Lithuania,12118,14234,11019
+Sweden,10337,13309,15144
+England,7903,11262,13283
+Canada,5352,7188,8538
+Austria,5183,11062,6556
+Ireland,4825,8100,11516
+Czechoslovakia,3466,NA,NA
+Italy,3355,3520,987
+Scotland,2576,3591,4219
+Poland,2418,2576,751
+Denmark,2263,2760,2914
+Switzerland,2238,2853,3337
+Jugo-Slavia,2155,NA,NA
+France,2136,2657,2012
+Belgium,1500,1703,985
+Wales,1170,1615,2005
+All other countries,4822,6550,3847

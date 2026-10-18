@@ -1,0 +1,66 @@
+# page 722 (PDF page 38)
+#STATE Oklahoma
+Total foreign born,40432,40442,20538
+Germany,7029,9934,5954
+Mexico,6884,2744,134
+Russia and Lithuania,5137,5215,2849
+England,2687,2981,1900
+Canada,2489,2871,1807
+Italy,2122,2564,601
+Czechoslovakia,1825,NA,NA
+Austria,1393,3354,1880
+Ireland,1321,1801,1384
+Poland,1253,1283,355
+Scotland,1120,1218,737
+France,962,749,516
+Sweden,931,1028,582
+Syria etc.,747,376,NA
+Switzerland,629,770,424
+Greece,620,590,5
+Denmark,561,550,259
+All other countries,2722,2414,1151
+#STATE Texas
+Total foreign born,363832,241938,179357
+Mexico,251827,125016,71062
+Germany,31062,42755,48295
+Czechoslovakia,12819,NA,NA
+Italy,8024,7190,3942
+England,7704,8498,8213
+Russia and Lithuania,7094,4368,2259
+Austria,6441,19382,16074
+Poland,5047,4733,3348
+Sweden,4536,4706,4388
+Ireland,4333,5357,6173
+Canada,4200,3534,2949
+France,2544,1821,2025
+Greece,1977,756,169
+Syria etc.,1896,1125,NA
+Scotland,1828,2038,1952
+Norway,1740,1785,1356
+All other countries,10760,8874,7152
+#STATE Montana
+Total foreign born,95591,94713,67067
+Canada,14700,13842,13826
+French,2211,2874,3516
+Norway,9962,7170,3354
+England,8160,8981,8077
+Germany,7873,8528,7162
+Ireland,7260,9469,9436
+Sweden,7179,6412,5346
+Russia and Lithuania,5283,1757,394
+Italy,3842,6592,2199
+Jugo-Slavia,3782,NA,NA
+Finland,3577,4111,2103
+Austria,3298,7660,3752
+Scotland,3279,3373,2422
+Denmark,2990,1943,1041
+Czechoslovakia,1895,NA,NA
+Netherlands,1675,1054,316
+Greece,1465,1905,20
+Poland,1219,1302,213
+Switzerland,1151,988,796
+Hungary,935,1486,274
+Japan,896,1566,2427
+France,888,639,539
+Wales,879,884,935
+All other countries,3403,5051,2435

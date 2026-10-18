@@ -662,7 +662,7 @@ year,origin_label,level,parent_label,count,source_id
 1950,Other America,residual,Americas,120297,census1950_v2p1_t49
 1950,All other,residual,Total,69658,census1950_v2p1_t49
 1950,Not reported,residual,Total,77175,census1950_v2p1_t49
-1950,"Foreign born, races other than white (country of birth not tabulated) (derived)",residual,Total,186227,census1950_v2p1_t49_derived
+1950,Foreign born not covered by the foreign-born-white country tabulation (mainly races other than white) (derived),residual,Total,186227,census1950_v2p1_t49_derived
 1960,Total,total,,9738091,census_wp81_t3
 1960,Europe,region,Total,7256311,census_wp81_t3
 1960,Northern and Western Europe,subregion,Europe,3334971,census_wp81_t3
@@ -730,7 +730,7 @@ year,origin_label,level,parent_label,count,source_id
 1960,Egypt,country,Northern Africa,8316,census_wp81_t3
 1960,Northern Africa n.e.c.,residual,Northern Africa,7587,census_wp81_t3
 1960,South Africa,country,Africa,5394,census_wp81_t3
-1960,Cape Verde (1960-1970: Other Atlantic Islands),country,Africa,8302,census_wp81_t3
+1960,Other Atlantic Islands (shown as Cape Verde in source),residual,Africa,8302,census_wp81_t3
 1960,Africa n.e.c.,residual,Africa,5756,census_wp81_t3
 1960,Oceania,region,Total,34730,census_wp81_t3
 1960,Australia and New Zealand,subregion,Oceania,28035,census_wp81_t3
@@ -837,7 +837,7 @@ year,origin_label,level,parent_label,count,source_id
 1970,Egypt,country,Northern Africa,20666,census_wp81_t3
 1970,Northern Africa n.e.c.,residual,Northern Africa,11730,census_wp81_t3
 1970,South Africa,country,Africa,7667,census_wp81_t3
-1970,Cape Verde (1960-1970: Other Atlantic Islands),country,Africa,18680,census_wp81_t3
+1970,Other Atlantic Islands (shown as Cape Verde in source),residual,Africa,18680,census_wp81_t3
 1970,Africa n.e.c.,residual,Africa,21400,census_wp81_t3
 1970,Oceania,region,Total,41258,census_wp81_t3
 1970,Australia and New Zealand,subregion,Oceania,32388,census_wp81_t3

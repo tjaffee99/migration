@@ -215,13 +215,44 @@
     const t = (y - ys[i]) / (ys[i + 1] - ys[i]);
     return { v: vs[i] + (vs[i + 1] - vs[i]) * t, exact: false, a: ys[i], b: ys[i + 1] };
   }
-  function topOrigins(st, y, n) {
-    if (!st || !st.o) return null;
-    const list = [];
-    for (const [id, arr] of Object.entries(st.o)) {
-      const r = interp(arr, y);
-      if (r && r.v > 0) list.push({ id, v: r.v });
+  // State birthplace mix at year y. Census tables exist only for some years; between two of them
+  // (at most maxGap years apart) the mix is interpolated and scaled to the state's foreign-born total.
+  const PARTIAL = new Set(D.stock.partialYears || []);
+  const MAXGAP = D.stock.maxGap || 30;
+  function stateOrigins(st, y) {
+    if (!st || !st.o || !st.oy || !st.oy.length) return null;
+    const ys = st.oy.map((k) => SY[k]);
+    let lo = -1, hi = -1;
+    for (let n = 0; n < ys.length; n++) {
+      if (ys[n] <= y) lo = n;
+      if (ys[n] >= y && hi < 0) hi = n;
     }
+    if (lo < 0 || hi < 0) return null;
+    const ka = st.oy[lo], kb = st.oy[hi];
+    const m = new Map();
+    if (ys[lo] === y) {
+      for (const [id, arr] of Object.entries(st.o)) if (arr[ka] != null) m.set(id, arr[ka]);
+      return { m, exact: true, a: y, b: y, partial: PARTIAL.has(y) };
+    }
+    if (ys[hi] - ys[lo] > MAXGAP) return null;
+    let sa = 0, sb = 0;
+    for (const arr of Object.values(st.o)) { sa += arr[ka] || 0; sb += arr[kb] || 0; }
+    if (!sa || !sb) return null;
+    const t = (y - ys[lo]) / (ys[hi] - ys[lo]);
+    const fb = interp(st.fb, y);
+    const scale = fb ? fb.v : sa + (sb - sa) * t;
+    for (const [id, arr] of Object.entries(st.o)) {
+      const a = arr[ka], b = arr[kb];
+      if (a == null || b == null) continue;
+      m.set(id, (a / sa + (b / sb - a / sa) * t) * scale);
+    }
+    return { m, exact: false, a: ys[lo], b: ys[hi], partial: PARTIAL.has(ys[lo]) || PARTIAL.has(ys[hi]) };
+  }
+  function topOrigins(st, y, n) {
+    const so = stateOrigins(st, y);
+    if (!so) return null;
+    const list = [];
+    for (const [id, v] of so.m) if (v > 0) list.push({ id, v });
     if (!list.length) return null;
     list.sort((a, b) => b.v - a.v);
     return n ? list.slice(0, n) : list;
@@ -269,6 +300,7 @@
     const popC = seqColor(POP_BREAKS, "q");
     const oC = originBreaks ? seqColor(originBreaks, "q") : null;
     let anyOriginData = false;
+    let anyUnlisted = false;
 
     const PRI = { other: 0, foreign: 0, unorganized: 1, territory: 2, district: 3, colony: 3, state: 3 };
     const ordered = ids.slice().sort((a, b) => (PRI[usFeatures[a].properties.type] ?? 3) - (PRI[usFeatures[b].properties.type] ?? 3) || feat(b).a - feat(a).a);
@@ -288,13 +320,14 @@
       } else if (mode === "pop") {
         if (jd.pop != null) { fill = popC(jd.pop); label = compact(jd.pop); }
       } else if (mode === "origin" && S.origin) {
-        const arr = jd.st && jd.st.o ? jd.st.o[S.origin] : null;
-        const r = interp(arr, y);
-        if (jd.st && jd.st.o) {
-          const covered = jd.st.o && hasStateOriginData(jd.st, y);
-          if (covered) {
-            anyOriginData = true;
-            const v = r ? r.v : 0;
+        const so = stateOrigins(jd.st, y);
+        if (so) {
+          anyOriginData = true;
+          const v = so.m.get(S.origin);
+          if (v == null) {
+            fill = so.partial ? nodata : land;
+            if (so.partial) anyUnlisted = true;
+          } else {
             fill = v > 0 ? oC(v) : land;
             if (v >= 1) label = compact(v);
           }
@@ -405,12 +438,16 @@
       title = o ? "Born in " + o.name : "Born in…";
       if (oC) addRamp(originBreaks, compact, "q");
       sw(land, "None recorded");
-      sw(nodata, "No state breakdown");
+      sw(nodata, anyUnlisted ? "Not listed separately or no data" : "No state breakdown");
       if (!anyOriginData) {
         const near = nearestStateOriginYear(y);
         note.append(el("span", null, `State-by-birthplace counts aren't available for ${y}.` + (near ? ` Nearest year with them: ${near}.` : "")));
       } else {
-        note.append(el("span", null, "Residents born in this origin, by state."));
+        const so = stateOrigins(D.stock.st["36"] || Object.values(D.stock.st).find((x) => x.oy), y);
+        let txt = "Residents born in this origin, by state.";
+        if (so && !so.exact) txt += ` State birthplace mix interpolated between the ${so.a} and ${so.b} counts.`;
+        if (anyUnlisted) txt += " Early censuses listed only each state's main birthplaces.";
+        note.append(el("span", null, txt));
       }
     }
     if (lands.length) sw(css("--s4"), "Enslaved Africans landed this year", true);
@@ -427,18 +464,9 @@
   }
   const stateOriginYears = (() => {
     const ys = new Set();
-    for (const st of Object.values(D.stock.st)) {
-      if (!st.o) continue;
-      SY.forEach((y, k) => { if (Object.values(st.o).some((a) => a[k] != null)) ys.add(y); });
-    }
+    for (const st of Object.values(D.stock.st)) for (const k of st.oy || []) ys.add(SY[k]);
     return [...ys].sort((a, b) => a - b);
   })();
-  function hasStateOriginData(st, y) {
-    const i = d3.bisectRight(SY, y) - 1;
-    const has = (k) => k >= 0 && k < SY.length && Object.values(st.o).some((a) => a[k] != null);
-    if (SY[i] === y) return has(i);
-    return has(i) && has(i + 1);
-  }
   function nearestStateOriginYear(y) {
     if (!stateOriginYears.length) return null;
     return stateOriginYears.reduce((best, s) => (Math.abs(s - y) < Math.abs(best - y) ? s : best), stateOriginYears[0]);
@@ -456,6 +484,7 @@
       if (jd.fb != null) {
         tipRow(t, null, "Born abroad", (jd.fbExact ? "" : "≈") + fmtInt(Math.round(jd.fb)) + (jd.pop ? " (" + pct(jd.fb / jd.pop) + ")" : ""));
       }
+      const so = stateOrigins(jd.st, y);
       const top = topOrigins(jd.st, y, 6);
       if (top) {
         const tot = jd.fb || d3.sum(topOrigins(jd.st, y), (d) => d.v);
@@ -466,10 +495,13 @@
       } else if (y >= STOCK_FIRST && jd.fb != null) {
         t.append(el("div", "note", "Birthplace breakdown not available for this year."));
       }
-      if (S.mapMode === "origin" && S.origin && jd.st && jd.st.o) {
-        const rr = interp(jd.st.o[S.origin], y);
-        if (rr) tipRow(t, groupColor[originById[S.origin].group], "Born in " + originById[S.origin].name, fmtInt(Math.round(rr.v)));
+      if (S.mapMode === "origin" && S.origin && so) {
+        const v = so.m.get(S.origin);
+        tipRow(t, groupColor[originById[S.origin].group], "Born in " + originById[S.origin].name, v == null ? "not listed" : (so.exact ? "" : "≈") + fmtInt(Math.round(v)));
       }
+      if (so && !so.exact) t.append(el("div", "note", `Birthplace mix interpolated between the ${so.a} and ${so.b} counts.`));
+      if (so && so.partial) t.append(el("div", "note", "The census listed only each state's main birthplaces; the rest are under other or not specified."));
+      if (so && (so.a === 1950 || so.b === 1950)) t.append(el("div", "note", "The 1950 state counts cover white foreign-born residents only."));
       if (jd.span && jd.span[0] !== jd.span[1]) t.append(el("div", "note", `Interpolated between the ${jd.span[0]} and ${jd.span[1]} counts.`));
       if (p.note) t.append(el("div", "note", p.note));
     });
