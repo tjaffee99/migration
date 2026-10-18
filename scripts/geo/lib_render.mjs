@@ -1,8 +1,7 @@
 // Small helper: render GeoJSON features to PNG via d3-geo (SVG) + headless Chromium (playwright-core).
 // Uses the preinstalled browser at /opt/pw-browsers (never runs `playwright install`).
 import { chromium } from 'playwright-core';
-import { geoPath, geoAlbersUsa, geoCentroid } from 'd3-geo';
-import fs from 'node:fs';
+import { geoPath, geoAlbersUsa, geoArea } from 'd3-geo';
 
 const EXEC = process.env.CHROMIUM_PATH || '/opt/pw-browsers/chromium';
 
@@ -53,7 +52,6 @@ export async function svgsToPngs(items) {
 
 // d3-geo uses spherical winding (exterior rings clockwise). Flip any polygon whose
 // spherical area exceeds a hemisphere (i.e. it was wound the "wrong" way).
-import { geoArea } from 'd3-geo';
 export function fixWinding(f) {
   const g = f.geometry; if (!g) return f;
   const fixPoly = (rings) => {

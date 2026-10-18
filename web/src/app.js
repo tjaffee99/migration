@@ -270,7 +270,9 @@
     const oC = originBreaks ? seqColor(originBreaks, "q") : null;
     let anyOriginData = false;
 
-    const rows = ids.map((i) => {
+    const PRI = { other: 0, foreign: 0, unorganized: 1, territory: 2, district: 3, colony: 3, state: 3 };
+    const ordered = ids.slice().sort((a, b) => (PRI[usFeatures[a].properties.type] ?? 3) - (PRI[usFeatures[b].properties.type] ?? 3) || feat(b).a - feat(a).a);
+    const rows = ordered.map((i) => {
       const f = usFeatures[i];
       const jd = jurData(f, y);
       let fill = nodata, label = null;
@@ -305,12 +307,14 @@
       .data(rows, (r) => r.i)
       .join("path")
       .attr("class", "jur")
+      .attr("fill-opacity", (r) => (r.f.properties.type === "territory" || r.f.properties.type === "unorganized" ? 0.92 : 1))
       .attr("d", (r) => feat(r.i).d)
       .attr("fill", (r) => r.fill)
       .on("pointerenter", function (evt, r) { d3.select(this).raise(); showJurTip(evt, r); })
       .on("pointermove", moveTip)
       .on("pointerleave", hideTip)
-      .on("click", (evt, r) => { showJurTip(evt, r); });
+      .on("click", (evt, r) => { showJurTip(evt, r); })
+      .order();
 
     const labRows = rows.filter((r) => r.label && feat(r.i).a > (usW < 600 ? 1400 : 1100) && isFinite(feat(r.i).c[0]));
     gLab.selectAll("text")

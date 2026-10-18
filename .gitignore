@@ -4,3 +4,6 @@ node_modules/
 __pycache__/
 *.pyc
 .DS_Store
+
+# geo: extracted AHCB shapefiles (~43 MB; regenerate with scripts/geo/download_raw.sh)
+data/raw/newberry_ahcb/extracted/

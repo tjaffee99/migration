@@ -13,15 +13,16 @@
 //      New Sweden and New Haven, which AHCB does not map.
 //   2. 1783-09-03 onward: AHCB US_HistStateTerr polygons (end date 2000-12-31 -> 2024-12-31).
 //   3. Everything is clipped to the present-day US outline (dissolved AHCB 2000 polygons).
-//   4. "Context" polygons = (modern outline) minus (all jurisdictions active on July 1 of a year),
+//   4. "Context" polygons = (modern outline) minus (all jurisdictions active at each change date),
 //      split by fixed acquisition regions (Louisiana Purchase, Florida, Texas, Mexican Cession,
-//      ...) and labelled with the colonial power by date.
+//      ...) and labelled with the colonial power by date. The year index uses July-1 snapshots.
 //   5. One mapshaper layer -> simplify (shared arcs) -> TopoJSON.
+// Optional: GEO_DEBUG_DIR=<dir> dumps regions.json + unsimplified.json; GEO_SIMPLIFY / GEO_QUANT override settings.
 import mapshaper from 'mapshaper';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { geoArea, geoCentroid } from 'd3-geo';
+import { geoArea } from 'd3-geo';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(HERE, '../..');
@@ -29,7 +30,7 @@ const RAW = path.join(ROOT, 'data/raw/newberry_ahcb/extracted');
 const ST_SHP = path.join(RAW, 'US_AtlasHCB_StateTerr_Gen01/US_HistStateTerr_Gen01_Shapefile/US_HistStateTerr_Gen01.shp');
 const CO_SHP = path.join(RAW, 'US_AtlasHCB_Counties_Gen01/US_HistCounties_Gen01_Shapefile/US_HistCounties_Gen01.shp');
 const OUT_DIR = path.join(ROOT, 'web/geo');
-const SIMPLIFY = process.env.GEO_SIMPLIFY || '6%';            // mapshaper -simplify percentage (Visvalingam weighted)
+const SIMPLIFY = process.env.GEO_SIMPLIFY || '30%';           // mapshaper -simplify: % of removable vertices kept (Visvalingam, weighted)
 const QUANT = process.env.GEO_QUANT || '100000';
 const FIRST_YEAR = 1607, LAST_YEAR = 2024;
 const AHCB_LAST = 20001231, OPEN_END = 20241231;
@@ -54,32 +55,36 @@ async function msGeo(cmd, inputs = {}) {
 }
 const FC = (features) => ({ type: 'FeatureCollection', features });
 
-// Robust overlays. Two-dataset mapshaper operations (-clip/-erase with a second file) silently
-// returned empty or null results on these inputs (many coincident boundaries), so every overlay is
-// done as a single-layer planar mosaic (-mosaic) followed by a -dissolve of the selected tiles.
+// Robust overlays. mapshaper's -dissolve/-clip/-erase silently return wrong (empty) results when a
+// layer contains overlapping copies of polygons, and two-dataset -clip/-erase failed on these inputs
+// (many coincident boundaries). So: (a) every union is its own mapshaper run using -dissolve2
+// (which handles overlaps), and (b) overlays use a single-layer planar mosaic (-mosaic) whose
+// non-overlapping tiles are then re-assembled one output feature at a time.
+async function dissolveOne(geoms) { // union of geometries -> geometry|null
+  if (!geoms.length) return null;
+  const res = await msGeo('-i in.json -dissolve2', { 'in.json': FC(geoms.map((g) => ({ type: 'Feature', properties: { k: 1 }, geometry: g }))) });
+  return res.features.find((f) => f.geometry)?.geometry || null;
+}
 async function mosaicTiles(items) { // items: [{fid:int, geometry}] -> [{ids:int[], geometry}]
   const res = await msGeo('-i in.json -mosaic calc="ids=collect(fid)"',
     { 'in.json': FC(items.map((it) => ({ type: 'Feature', properties: { fid: it.fid }, geometry: it.geometry }))) });
   return res.features.filter((t) => t.geometry && Array.isArray(t.properties.ids)).map((t) => ({ ids: t.properties.ids, geometry: t.geometry }));
 }
-async function assembleTiles(parts) { // parts: [{fid, geometry}] -> Map fid -> geometry
-  if (!parts.length) return new Map();
-  const res = await msGeo('-i in.json -dissolve fid',
-    { 'in.json': FC(parts.map((t) => ({ type: 'Feature', properties: { fid: t.fid }, geometry: t.geometry }))) });
-  return new Map(res.features.filter((f) => f.geometry).map((f) => [f.properties.fid, f.geometry]));
-}
-// keep(tileIds, fid) decides whether a tile belongs to output fid (fid >= 0)
-async function overlay(items, keep) {
-  const tiles = await mosaicTiles(items);
-  const parts = [];
-  for (const t of tiles) for (const id of t.ids) if (id >= 0 && keep(t.ids, id)) parts.push({ fid: id, geometry: t.geometry });
-  return assembleTiles(parts);
+// For each geometry i: keep(tileIds) decides which of its tiles survive. Geometries that lose no tile
+// are returned unchanged (exact original vertices); others are re-assembled from their kept tiles.
+async function overlayEach(geoms, extra, keep) {
+  const tiles = await mosaicTiles([...extra, ...geoms.map((g, i) => ({ fid: i, geometry: g }))]);
+  const kept = new Map(), lost = new Set();
+  for (const t of tiles) {
+    const ok = keep(t.ids);
+    for (const id of t.ids) if (id >= 0) { if (ok) { if (!kept.has(id)) kept.set(id, []); kept.get(id).push(t.geometry); } else lost.add(id); }
+  }
+  const out = [];
+  for (let i = 0; i < geoms.length; i++) out.push(!lost.has(i) ? geoms[i] : await dissolveOne(kept.get(i) || []));
+  return out;
 }
 const OUTLINE_FID = -1;
-async function clipToOutline(geoms, outlineGeom) { // -> array of geometry|null
-  const m = await overlay([{ fid: OUTLINE_FID, geometry: outlineGeom }, ...geoms.map((g, i) => ({ fid: i, geometry: g }))], (ids) => ids.includes(OUTLINE_FID));
-  return geoms.map((g, i) => m.get(i) || null);
-}
+const clipToOutline = (geoms, outlineGeom) => overlayEach(geoms, [{ fid: OUTLINE_FID, geometry: outlineGeom }], (ids) => ids.includes(OUTLINE_FID));
 
 // mapshaper's GeoJSON output uses RFC 7946 (counter-clockwise) exterior rings; d3-geo expects the
 // opposite. d3safe() returns a re-wound copy for d3 measurements (never fed back to mapshaper).
@@ -89,19 +94,18 @@ function d3safe(f) {
   const ng = g.type === 'Polygon' ? { type: 'Polygon', coordinates: fix(g.coordinates) } : { type: 'MultiPolygon', coordinates: g.coordinates.map(fix) };
   return { type: 'Feature', properties: f.properties || {}, geometry: ng };
 }
+const EARTH_R = 6371.0088;
+const areaKm2 = (f) => geoArea(d3safe(f)) * EARTH_R * EARTH_R;
 
-const areaKm2 = (f) => (f.geometry || f.type === 'Polygon' || f.type === 'MultiPolygon' ? geoArea(d3safe(f)) * 6371.0088 * 6371.0088 : 0);
-
-// drop polygon parts smaller than minKm2 (numerical slivers left by erase); returns null if nothing is left
+// drop polygon parts smaller than minKm2 (numerical slivers); returns null if nothing is left
 const SLIVER_KM2 = 2;
 function dropSlivers(g, minKm2) {
   if (!g) return null;
   const polys = g.type === 'Polygon' ? [g.coordinates] : g.type === 'MultiPolygon' ? g.coordinates : [];
   const keep = polys.filter((rings) => {
-    // mapshaper emits clockwise exterior rings, i.e. d3-geo spherical orientation
     let a = geoArea({ type: 'Polygon', coordinates: rings });
     if (a > 2 * Math.PI) a = 4 * Math.PI - a;
-    return a * 6371 * 6371 >= minKm2;
+    return a * EARTH_R * EARTH_R >= minKm2;
   });
   if (!keep.length) return null;
   return keep.length === 1 ? { type: 'Polygon', coordinates: keep[0] } : { type: 'MultiPolygon', coordinates: keep };
@@ -196,7 +200,7 @@ const BACKFILL = [
   { key: 'plymouth_colony', from: 16201221, to: 16300112, tpl: () => [{ key: 'plymouth_colony', date: 16300113 }], note: 'Plymouth settled 1620-12; AHCB maps it from the 1630 patent - shape back-filled (approximation).' },
   { key: 'md_colony', from: 16340325, to: 16380123, tpl: () => [{ key: 'md_colony', date: 16380124 }], note: 'St. Mary\'s City founded 1634-03-25; AHCB 1638 extent back-filled (approximation).' },
   { key: 'ri_colony', from: 16360601, to: 16440313, tpl: () => [{ key: 'ri_colony', date: 16440314 }], note: 'Providence founded 1636; AHCB maps Rhode Island from the 1644 patent - shape back-filled (approximation).' },
-  { key: 'ct_colony', from: 16360601, to: 16620422, tpl: () => [{ key: 'ct_colony', date: 16620423 }], note: 'Connecticut settled 1636; AHCB maps it from the 1662 charter - shape back-filled, minus the approximate New Haven Colony (approximation).' },
+  { key: 'ct_colony', from: 16360601, to: 16620422, tpl: () => [{ key: 'ct_colony', date: 16650408 }], note: 'Connecticut settled 1636; AHCB maps it from the 1662 charter - its 1665 extent (after the Narragansett decision) is back-filled, minus the approximate New Haven Colony (approximation).' },
   { key: 'new_haven_colony', from: 16380424, to: 16650104, tpl: () => [{ key: 'ct_colony', date: 16660510, ids: ['cts_newhaven'] }], note: 'Not mapped by AHCB; approximated by the first New Haven County (1666), created from the former New Haven Colony towns.' },
   { key: 'new_sweden', from: 16380329, to: 16550914, tpl: () => [{ key: 'de_colony', date: 16730912, ids: ['des_newcastle', 'des_upland'] }], note: 'Not mapped by AHCB; approximated by the Dutch-created counties New Amstel and Upland of 1673 (Delaware valley).' },
   { key: 'new_netherland', from: 16240501, to: 16640907, tpl: (D) => [NY_TPL].concat(D >= 16550915 ? [{ key: 'de_colony', date: 16730912 }] : []), note: 'Not mapped by AHCB; approximated by the extent of New York\'s first counties (1683), plus the Delaware valley after the 1655 conquest of New Sweden.' },
@@ -223,7 +227,7 @@ const REGION_LABELS = {
   texas: [[0, 'New Spain (Spanish claim)', 'Spain'], [18210927, 'Mexico', 'Mexico'], [18360302, GENERIC, '']],
   cession: [[0, 'New Spain (Spanish claim)', 'Spain'], [18210927, 'Mexico', 'Mexico'], [18480704, GENERIC, '']],
   gadsden: [[0, 'New Spain (Spanish claim)', 'Spain'], [18210927, 'Mexico', 'Mexico'], [18531230, GENERIC, '']],
-  oregon: [[0, `${GENERIC} (Pacific Northwest; contested claims)`, ''], [18460615, GENERIC, '']],
+  oregon: [[0, `${GENERIC} (Pacific Northwest)`, ''], [17901028, 'Pacific Northwest (contested British/Spanish/US claims)', ''], [18460615, GENERIC, '']],
   alaska: [[0, `${GENERIC} (Alaska Native lands)`, ''], [17840814, 'Russian America', 'Russia'], [18671018, GENERIC, '']],
   hawaii: [[0, 'Hawaiian Islands (independent chiefdoms)', 'Hawaii'], [17950501, 'Kingdom of Hawaii', 'Hawaii'], [18930117, 'Provisional Government of Hawaii', 'Hawaii'], [18940704, 'Republic of Hawaii', 'Hawaii'], [18980707, GENERIC, '']],
   other: [[0, GENERIC, '']],
@@ -242,9 +246,10 @@ async function main() {
   const CO = await msGeo(`-i "${CO_SHP}" -filter "START_N < ${STATE_TERR_START}"`);
   log(`state/territory polygons: ${ST.features.length}; pre-1783-09-03 county polygons: ${CO.features.length}`);
 
-  const outline = await msGeo('-i st.json -filter "END_N==20001231" -dissolve', { 'st.json': ST });
+  const outline = await msGeo('-i st.json -filter "END_N==20001231" -dissolve2', { 'st.json': ST });
   outline.features[0].properties = { id: 'outline' };
   const outlineGeom = outline.features[0].geometry;
+  const outlineKm2 = (await msGeo('-i in.json -each "A=this.area/1e6"', { 'in.json': outline })).features[0].properties.A;
 
   // ---- 1. colonial / revolutionary era
   const recs = CO.features.map((f, i) => ({ i, p: f.properties, g: f.geometry }));
@@ -290,7 +295,7 @@ async function main() {
     for (let bi = 0; bi <= breaks.length; bi++) {
       const D = breaks[bi];
       const s = bi < breaks.length ? byD.get(D) : null;
-      if (run && (!s || s.sig !== run.sig || s.name !== run.name)) { run.end = addDays(D ?? STATE_TERR_START, -1); candidates.push(run); run = null; }
+      if (run && (!s || s.sig !== run.sig || s.name !== run.name || s.notes.join() !== run.notes.join())) { run.end = addDays(D ?? STATE_TERR_START, -1); candidates.push(run); run = null; }
       if (s && !run) run = { key, start: D, sig: s.sig, idx: s.idx, minusNH: s.minusNH, name: s.name, notes: s.notes };
     }
   }
@@ -300,26 +305,25 @@ async function main() {
   const byKey = {};
   candidates.forEach((c, ci) => (byKey[c.key] ||= []).push(ci));
   for (const [key, cis] of Object.entries(byKey)) {
-    const feats = [];
-    for (const ci of cis) for (const ri of candidates[ci].idx) feats.push({ type: 'Feature', properties: { ci }, geometry: recs[ri].g });
-    const raw = (await msGeo('-i in.json -dissolve ci', { 'in.json': FC(feats) })).features.filter((f) => f.geometry);
-    const clipped = await clipToOutline(raw.map((f) => f.geometry), outlineGeom);
-    raw.forEach((f, k) => {
-      const c = candidates[f.properties.ci];
+    const raw = [];
+    for (const ci of cis) raw.push(await dissolveOne(candidates[ci].idx.map((ri) => recs[ri].g)));
+    const clipped = await clipToOutline(raw, outlineGeom);
+    cis.forEach((ci, k) => {
+      const c = candidates[ci];
       c.geometry = clipped[k];
-      const a0 = areaKm2(f), a1 = clipped[k] ? areaKm2(clipped[k]) : 0;
+      const a0 = raw[k] ? areaKm2(raw[k]) : 0, a1 = clipped[k] ? areaKm2(clipped[k]) : 0;
       if (a1 < a0 * 0.995) log(`  note: clipping ${key} (${c.start}) to the modern outline removed ${(a0 - a1).toFixed(0)} of ${a0.toFixed(0)} km2`);
     });
   }
   // New Haven subtraction for Connecticut
-  const nhFC = await msGeo('-i in.json -dissolve', { 'in.json': FC(nhTemplate.map((r) => ({ type: 'Feature', properties: {}, geometry: r.g }))) });
+  const nhGeom = await dissolveOne(nhTemplate.map((r) => r.g));
   for (const c of candidates) if (!c.geometry) log(`  WARNING: no geometry for ${c.key} ${c.start}-${c.end} (${c.idx.length} records)`);
   const ctx = candidates.filter((c) => c.minusNH && c.geometry);
   if (ctx.length) {
     const NH_FID = -2;
-    const m = await overlay([{ fid: NH_FID, geometry: nhFC.features[0].geometry }, ...ctx.map((c, k) => ({ fid: k, geometry: c.geometry }))], (ids) => !ids.includes(NH_FID));
+    const res = await overlayEach(ctx.map((c) => c.geometry), [{ fid: NH_FID, geometry: nhGeom }], (ids) => !ids.includes(NH_FID));
     ctx.forEach((c, k) => {
-      const g = m.get(k) || null;
+      const g = res[k];
       log(`  Connecticut ${c.start}: minus New Haven ${areaKm2(c.geometry).toFixed(0)} -> ${g ? areaKm2(g).toFixed(0) : 0} km2`);
       c.geometry = g;
     });
@@ -339,6 +343,7 @@ async function main() {
   }
   const colonialFeatures = colonial.filter((c) => c.geometry).map((c) => {
     const m = META[c.key];
+    if (c.minusNH && !c.notes.length) c.notes = ['AHCB 1662 charter area minus the approximate New Haven Colony, which joined Connecticut on 1665-01-05 (approximation).'];
     const approx = c.notes.length > 0;
     return {
       type: 'Feature', geometry: c.geometry,
@@ -431,7 +436,11 @@ async function main() {
       // planar mosaic of region tiles + active jurisdictions; keep tiles not covered by any jurisdiction
       const mos = regionsFC.features.map((f) => ({ type: 'Feature', properties: { reg: f.properties.reg, act: 0 }, geometry: f.geometry }))
         .concat(ids.map((id) => ({ type: 'Feature', properties: { reg: -1, act: 1 }, geometry: jurById.get(id).geometry })));
-      const res = await msGeo('-i in.json -mosaic calc="reg=max(reg), act=max(act)" -filter "act==0 && reg>=0" -dissolve reg', { 'in.json': FC(mos) });
+      const tiles = await msGeo('-i in.json -mosaic calc="reg=max(reg), act=max(act)" -filter "reg>=0" -each "A=this.area/1e6"', { 'in.json': FC(mos) });
+      const tot = tiles.features.reduce((a, t) => a + t.properties.A, 0);
+      if (Math.abs(tot - outlineKm2) > outlineKm2 * 0.001) log(`  WARNING: mosaic at ${D} covers ${tot.toFixed(0)} km2, outline is ${outlineKm2.toFixed(0)}`);
+      const free = tiles.features.filter((t) => t.properties.act === 0);
+      const res = free.length ? await msGeo('-i in.json -dissolve reg', { 'in.json': FC(free) }) : FC([]);
       piecesCache.set(sig, res.features.map((f) => ({ region: REGION_NAMES[f.properties.reg], geometry: dropSlivers(f.geometry, SLIVER_KM2) }))
         .filter((f) => f.geometry).map((f) => ({ ...f, gkey: geomKey(f.geometry) })));
     }
@@ -472,6 +481,7 @@ async function main() {
 
   // ---- 5. assemble, simplify, export
   const all = [...jur, ...ctxFeatures];
+  if (process.env.GEO_DEBUG_DIR) fs.writeFileSync(path.join(process.env.GEO_DEBUG_DIR, 'unsimplified.json'), JSON.stringify(FC(all)));
   const props = new Map(all.map((f) => [f.properties.id, f.properties]));
   const geoOnly = FC(all.map((f) => ({ type: 'Feature', properties: { id: f.properties.id }, geometry: f.geometry })));
   const out = await msRun(`-i all.json -rename-layers jurisdictions -simplify percentage=${SIMPLIFY} keep-shapes -o out.topo.json format=topojson quantization=${QUANT}`, { 'all.json': geoOnly });

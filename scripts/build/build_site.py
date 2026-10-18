@@ -1,6 +1,7 @@
 """Inline the app, data and geometry into self-contained HTML pages.
 
 Inputs:  web/src/{index.html,app.css,app.js}, web/data/data.json, web/geo/*.json
+         (geometry from scripts/geo/, data from scripts/build/build_data.py)
 Outputs: docs/index.html            full standalone page (GitHub Pages / open locally)
          <fragment path> (optional) the same page without <html>/<head>/<body>, for hosts
                                     that wrap the page in their own document skeleton
@@ -21,16 +22,46 @@ def load(p):
         return json.load(f)
 
 
+# Data key for each jurisdiction: the modern state FIPS code its numbers are filed under,
+# with overrides where a colony's population is reported separately (HSUS series Z 1-19).
+KEY_OVERRIDES = {
+    "Plymouth": "plymouth",
+    "New Haven": None,  # counted with Connecticut in HSUS
+}
+
+
 def geo_bundle():
     us = load(GEO / "us_historical.topo.json")
-    years = load(GEO / "us_historical_years.json")
-    nation = load(GEO / "us_nation.topo.json")
+    years = load(GEO / "us_historical_years.json")["years"]
+    modern = load(GEO / "us_states_modern.topo.json")
     world = load(GEO / "world.topo.json")
     geoms = us["objects"]["jurisdictions"]["geometries"]
+    for g in geoms:
+        p = g["properties"]
+        if p.get("context"):
+            p["type"] = "other"
+            key = None
+        else:
+            key = KEY_OVERRIDES.get(p["name"], p.get("fips") or None)
+        p["key"] = key
+        # AHCB change notes are long and technical; keep only a short flag for drawn approximations
+        p["note"] = "Boundary approximated from later county lines." if p.get("src") == "approx" else None
+        if not p["note"]:
+            p.pop("note")
+        for k in ("src", "context", "start", "end"):
+            p.pop(k, None)
+        if p.get("power"):
+            p["owner"] = p.pop("power")
+        else:
+            p.pop("power", None)
     index = {g["properties"]["id"]: i for i, g in enumerate(geoms)}
-    us_years = {}
-    for y, ids in years.items():
-        us_years[y] = [index[i] for i in ids if i in index]
+    us_years = {y: [index[i] for i in ids if i in index] for y, ids in years.items()}
+    nation = {
+        "type": "Topology",
+        "arcs": modern["arcs"],
+        "transform": modern.get("transform"),
+        "objects": {"nation": modern["objects"]["nation"]},
+    }
     return {"us": us, "usYears": us_years, "nation": nation, "world": world}
 
 
