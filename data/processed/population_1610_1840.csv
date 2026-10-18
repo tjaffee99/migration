@@ -1,0 +1,360 @@
+year,unit,unit_type,total,black,enslaved,source_id
+1610,Virginia,colony,350,,,hsus1975_Z1_19
+1620,Plymouth,colony,102,,,hsus1975_Z1_19
+1620,Virginia,colony,2200,20,,hsus1975_Z1_19
+1630,Maine,territory,400,,,hsus1975_Z1_19
+1630,Massachusetts,colony,506,,,hsus1975_Z1_19
+1630,New Hampshire,colony,500,,,hsus1975_Z1_19
+1630,New York,colony,350,10,,hsus1975_Z1_19
+1630,Plymouth,colony,390,,,hsus1975_Z1_19
+1630,Virginia,colony,2500,50,,hsus1975_Z1_19
+1640,Connecticut,colony,1472,15,,hsus1975_Z1_19
+1640,Maine,territory,900,,,hsus1975_Z1_19
+1640,Maryland,colony,583,20,,hsus1975_Z1_19
+1640,Massachusetts,colony,8932,150,,hsus1975_Z1_19
+1640,New Hampshire,colony,1055,30,,hsus1975_Z1_19
+1640,New York,colony,1930,232,,hsus1975_Z1_19
+1640,Plymouth,colony,1020,,,hsus1975_Z1_19
+1640,Rhode Island,colony,300,,,hsus1975_Z1_19
+1640,Virginia,colony,10442,150,,hsus1975_Z1_19
+1650,Connecticut,colony,4139,20,,hsus1975_Z1_19
+1650,Delaware,colony,185,15,,hsus1975_Z1_19
+1650,Maine,territory,1000,,,hsus1975_Z1_19
+1650,Maryland,colony,4504,300,,hsus1975_Z1_19
+1650,Massachusetts,colony,14037,295,,hsus1975_Z1_19
+1650,New Hampshire,colony,1305,40,,hsus1975_Z1_19
+1650,New York,colony,4116,500,,hsus1975_Z1_19
+1650,Plymouth,colony,1566,,,hsus1975_Z1_19
+1650,Rhode Island,colony,785,25,,hsus1975_Z1_19
+1650,Virginia,colony,18731,405,,hsus1975_Z1_19
+1660,Connecticut,colony,7980,25,,hsus1975_Z1_19
+1660,Delaware,colony,540,30,,hsus1975_Z1_19
+1660,Maryland,colony,8426,758,,hsus1975_Z1_19
+1660,Massachusetts,colony,20082,422,,hsus1975_Z1_19
+1660,New Hampshire,colony,1555,50,,hsus1975_Z1_19
+1660,New York,colony,4936,600,,hsus1975_Z1_19
+1660,North Carolina,colony,1000,20,,hsus1975_Z1_19
+1660,Plymouth,colony,1980,,,hsus1975_Z1_19
+1660,Rhode Island,colony,1539,65,,hsus1975_Z1_19
+1660,Virginia,colony,27020,950,,hsus1975_Z1_19
+1670,Connecticut,colony,12603,35,,hsus1975_Z1_19
+1670,Delaware,colony,700,40,,hsus1975_Z1_19
+1670,Maryland,colony,13226,1190,,hsus1975_Z1_19
+1670,Massachusetts,colony,30000,160,,hsus1975_Z1_19
+1670,New Hampshire,colony,1805,65,,hsus1975_Z1_19
+1670,New Jersey,colony,1000,60,,hsus1975_Z1_19
+1670,New York,colony,5754,690,,hsus1975_Z1_19
+1670,North Carolina,colony,3850,150,,hsus1975_Z1_19
+1670,Plymouth,colony,5333,,,hsus1975_Z1_19
+1670,Rhode Island,colony,2155,115,,hsus1975_Z1_19
+1670,South Carolina,colony,200,30,,hsus1975_Z1_19
+1670,Virginia,colony,35309,2000,,hsus1975_Z1_19
+1680,Connecticut,colony,17246,50,,hsus1975_Z1_19
+1680,Delaware,colony,1005,55,,hsus1975_Z1_19
+1680,Maryland,colony,17904,1611,,hsus1975_Z1_19
+1680,Massachusetts,colony,39752,170,,hsus1975_Z1_19
+1680,New Hampshire,colony,2047,75,,hsus1975_Z1_19
+1680,New Jersey,colony,3400,200,,hsus1975_Z1_19
+1680,New York,colony,9830,1200,,hsus1975_Z1_19
+1680,North Carolina,colony,5430,210,,hsus1975_Z1_19
+1680,Pennsylvania,colony,680,25,,hsus1975_Z1_19
+1680,Plymouth,colony,6400,,,hsus1975_Z1_19
+1680,Rhode Island,colony,3017,175,,hsus1975_Z1_19
+1680,South Carolina,colony,1200,200,,hsus1975_Z1_19
+1680,Virginia,colony,43596,3000,,hsus1975_Z1_19
+1690,Connecticut,colony,21645,200,,hsus1975_Z1_19
+1690,Delaware,colony,1482,82,,hsus1975_Z1_19
+1690,Maryland,colony,24024,2162,,hsus1975_Z1_19
+1690,Massachusetts,colony,49504,400,,hsus1975_Z1_19
+1690,New Hampshire,colony,4164,100,,hsus1975_Z1_19
+1690,New Jersey,colony,8000,450,,hsus1975_Z1_19
+1690,New York,colony,13909,1670,,hsus1975_Z1_19
+1690,North Carolina,colony,7600,300,,hsus1975_Z1_19
+1690,Pennsylvania,colony,11450,270,,hsus1975_Z1_19
+1690,Plymouth,colony,7424,,,hsus1975_Z1_19
+1690,Rhode Island,colony,4224,250,,hsus1975_Z1_19
+1690,South Carolina,colony,3900,1500,,hsus1975_Z1_19
+1690,Virginia,colony,53046,9345,,hsus1975_Z1_19
+1700,Connecticut,colony,25970,450,,hsus1975_Z1_19
+1700,Delaware,colony,2470,135,,hsus1975_Z1_19
+1700,Maryland,colony,29604,3227,,hsus1975_Z1_19
+1700,Massachusetts,colony,55941,800,,hsus1975_Z1_19
+1700,New Hampshire,colony,4958,130,,hsus1975_Z1_19
+1700,New Jersey,colony,14010,840,,hsus1975_Z1_19
+1700,New York,colony,19107,2256,,hsus1975_Z1_19
+1700,North Carolina,colony,10720,415,,hsus1975_Z1_19
+1700,Pennsylvania,colony,17950,430,,hsus1975_Z1_19
+1700,Rhode Island,colony,5894,300,,hsus1975_Z1_19
+1700,South Carolina,colony,5704,2444,,hsus1975_Z1_19
+1700,Virginia,colony,58560,16390,,hsus1975_Z1_19
+1710,Connecticut,colony,39450,750,,hsus1975_Z1_19
+1710,Delaware,colony,3645,500,,hsus1975_Z1_19
+1710,Maryland,colony,42741,7945,,hsus1975_Z1_19
+1710,Massachusetts,colony,62390,1310,,hsus1975_Z1_19
+1710,New Hampshire,colony,5681,150,,hsus1975_Z1_19
+1710,New Jersey,colony,19872,1332,,hsus1975_Z1_19
+1710,New York,colony,21625,2811,,hsus1975_Z1_19
+1710,North Carolina,colony,15120,900,,hsus1975_Z1_19
+1710,Pennsylvania,colony,24450,1575,,hsus1975_Z1_19
+1710,Rhode Island,colony,7573,375,,hsus1975_Z1_19
+1710,South Carolina,colony,10883,4100,,hsus1975_Z1_19
+1710,Virginia,colony,78281,23118,,hsus1975_Z1_19
+1720,Connecticut,colony,58830,1093,,hsus1975_Z1_19
+1720,Delaware,colony,5385,700,,hsus1975_Z1_19
+1720,Maryland,colony,66133,12499,,hsus1975_Z1_19
+1720,Massachusetts,colony,91008,2150,,hsus1975_Z1_19
+1720,New Hampshire,colony,9375,170,,hsus1975_Z1_19
+1720,New Jersey,colony,29818,2385,,hsus1975_Z1_19
+1720,New York,colony,36919,5740,,hsus1975_Z1_19
+1720,North Carolina,colony,21270,3000,,hsus1975_Z1_19
+1720,Pennsylvania,colony,30962,2000,,hsus1975_Z1_19
+1720,Rhode Island,colony,11680,543,,hsus1975_Z1_19
+1720,South Carolina,colony,17048,12000,,hsus1975_Z1_19
+1720,Virginia,colony,87757,26559,,hsus1975_Z1_19
+1730,Connecticut,colony,75530,1490,,hsus1975_Z1_19
+1730,Delaware,colony,9170,478,,hsus1975_Z1_19
+1730,Maryland,colony,91113,17220,,hsus1975_Z1_19
+1730,Massachusetts,colony,114116,2780,,hsus1975_Z1_19
+1730,New Hampshire,colony,10755,200,,hsus1975_Z1_19
+1730,New Jersey,colony,37510,3008,,hsus1975_Z1_19
+1730,New York,colony,48594,6956,,hsus1975_Z1_19
+1730,North Carolina,colony,30000,6000,,hsus1975_Z1_19
+1730,Pennsylvania,colony,51707,1241,,hsus1975_Z1_19
+1730,Rhode Island,colony,16950,1648,,hsus1975_Z1_19
+1730,South Carolina,colony,30000,20000,,hsus1975_Z1_19
+1730,Virginia,colony,114000,30000,,hsus1975_Z1_19
+1740,Connecticut,colony,89580,2598,,hsus1975_Z1_19
+1740,Delaware,colony,19870,1035,,hsus1975_Z1_19
+1740,Georgia,colony,2021,,,hsus1975_Z1_19
+1740,Maryland,colony,116093,24031,,hsus1975_Z1_19
+1740,Massachusetts,colony,151613,3035,,hsus1975_Z1_19
+1740,New Hampshire,colony,23256,500,,hsus1975_Z1_19
+1740,New Jersey,colony,51373,4366,,hsus1975_Z1_19
+1740,New York,colony,63665,8996,,hsus1975_Z1_19
+1740,North Carolina,colony,51760,11000,,hsus1975_Z1_19
+1740,Pennsylvania,colony,85637,2055,,hsus1975_Z1_19
+1740,Rhode Island,colony,25255,2408,,hsus1975_Z1_19
+1740,South Carolina,colony,45000,30000,,hsus1975_Z1_19
+1740,Virginia,colony,180440,60000,,hsus1975_Z1_19
+1750,Connecticut,colony,111280,3010,,hsus1975_Z1_19
+1750,Delaware,colony,28704,1496,,hsus1975_Z1_19
+1750,Georgia,colony,5200,1000,,hsus1975_Z1_19
+1750,Maryland,colony,141073,43450,,hsus1975_Z1_19
+1750,Massachusetts,colony,188000,4075,,hsus1975_Z1_19
+1750,New Hampshire,colony,27505,550,,hsus1975_Z1_19
+1750,New Jersey,colony,71393,5354,,hsus1975_Z1_19
+1750,New York,colony,76696,11014,,hsus1975_Z1_19
+1750,North Carolina,colony,72984,19800,,hsus1975_Z1_19
+1750,Pennsylvania,colony,119666,2872,,hsus1975_Z1_19
+1750,Rhode Island,colony,33226,3347,,hsus1975_Z1_19
+1750,South Carolina,colony,64000,39000,,hsus1975_Z1_19
+1750,Virginia,colony,231033,101452,,hsus1975_Z1_19
+1760,Connecticut,colony,142470,3783,,hsus1975_Z1_19
+1760,Delaware,colony,33250,1733,,hsus1975_Z1_19
+1760,Georgia,colony,9578,3578,,hsus1975_Z1_19
+1760,Maine,territory,20000,300,,hsus1975_Z1_19
+1760,Maryland,colony,162267,49004,,hsus1975_Z1_19
+1760,Massachusetts,colony,202600,4566,,hsus1975_Z1_19
+1760,New Hampshire,colony,39093,600,,hsus1975_Z1_19
+1760,New Jersey,colony,93813,6567,,hsus1975_Z1_19
+1760,New York,colony,117138,16340,,hsus1975_Z1_19
+1760,North Carolina,colony,110442,33554,,hsus1975_Z1_19
+1760,Pennsylvania,colony,183703,4409,,hsus1975_Z1_19
+1760,Rhode Island,colony,45471,3468,,hsus1975_Z1_19
+1760,South Carolina,colony,94074,57334,,hsus1975_Z1_19
+1760,Virginia,colony,339726,140570,,hsus1975_Z1_19
+1770,Connecticut,colony,183881,5698,,hsus1975_Z1_19
+1770,Delaware,colony,35496,1836,,hsus1975_Z1_19
+1770,Georgia,colony,23375,10625,,hsus1975_Z1_19
+1770,Kentucky,territory,15700,2500,,hsus1975_Z1_19
+1770,Maine,territory,31257,475,,hsus1975_Z1_19
+1770,Maryland,colony,202599,63818,,hsus1975_Z1_19
+1770,Massachusetts,colony,235308,4754,,hsus1975_Z1_19
+1770,New Hampshire,colony,62396,654,,hsus1975_Z1_19
+1770,New Jersey,colony,117431,8220,,hsus1975_Z1_19
+1770,New York,colony,162920,19112,,hsus1975_Z1_19
+1770,North Carolina,colony,197200,69600,,hsus1975_Z1_19
+1770,Pennsylvania,colony,240057,5761,,hsus1975_Z1_19
+1770,Rhode Island,colony,58196,3761,,hsus1975_Z1_19
+1770,South Carolina,colony,124244,75178,,hsus1975_Z1_19
+1770,Tennessee,territory,1000,200,,hsus1975_Z1_19
+1770,Vermont,territory,10000,25,,hsus1975_Z1_19
+1770,Virginia,colony,447016,187605,,hsus1975_Z1_19
+1780,Connecticut,state,206701,5885,,hsus1975_Z1_19
+1780,Delaware,state,45385,2996,,hsus1975_Z1_19
+1780,Georgia,state,56071,20831,,hsus1975_Z1_19
+1780,Kentucky,territory,45000,7200,,hsus1975_Z1_19
+1780,Maine,territory,49133,458,,hsus1975_Z1_19
+1780,Maryland,state,245474,80515,,hsus1975_Z1_19
+1780,Massachusetts,state,268627,4822,,hsus1975_Z1_19
+1780,New Hampshire,state,87802,541,,hsus1975_Z1_19
+1780,New Jersey,state,139627,10460,,hsus1975_Z1_19
+1780,New York,state,210541,21054,,hsus1975_Z1_19
+1780,North Carolina,state,270133,91000,,hsus1975_Z1_19
+1780,Pennsylvania,state,327305,7855,,hsus1975_Z1_19
+1780,Rhode Island,state,52946,2671,,hsus1975_Z1_19
+1780,South Carolina,state,180000,97000,,hsus1975_Z1_19
+1780,Tennessee,territory,10000,1500,,hsus1975_Z1_19
+1780,Vermont,territory,47620,50,,hsus1975_Z1_19
+1780,Virginia,state,538004,220582,,hsus1975_Z1_19
+1790,Connecticut,state,237946,5572,2764,census_twps0056_appA
+1790,Delaware,state,59096,12786,8887,census_twps0056_appA
+1790,Georgia,state,82548,29662,29264,census_twps0056_appA
+1790,Kentucky,territory,73677,12544,12430,census_twps0056_appA
+1790,Maine,territory,96540,538,0,census_twps0056_appA
+1790,Maryland,state,319728,111079,103036,census_twps0056_appA
+1790,Massachusetts,state,378787,5463,0,census_twps0056_appA
+1790,New Hampshire,state,141885,788,158,census_twps0056_appA
+1790,New Jersey,state,184139,14185,11423,census_twps0056_appA
+1790,New York,state,340120,25978,21324,census_twps0056_appA
+1790,North Carolina,state,393751,105547,100572,census_twps0056_appA
+1790,Pennsylvania,state,434373,10274,3737,census_twps0056_appA
+1790,Rhode Island,state,68825,4355,948,census_twps0056_appA
+1790,South Carolina,state,249073,108895,107094,census_twps0056_appA
+1790,Tennessee,territory,35691,3778,3417,census_twps0056_appA
+1790,Vermont,territory,85425,271,0,census_twps0056_appA
+1790,Virginia,state,691737,300213,287959,census_twps0056_appA
+1790,West Virginia,territory,55873,5280,4668,census_twps0056_appA
+1800,Alabama,territory,1250,517,494,census_twps0056_appA
+1800,Connecticut,state,251002,6281,951,census_twps0056_appA
+1800,Delaware,state,64273,14421,6153,census_twps0056_appA
+1800,District of Columbia,territory,8144,2472,2072,census_twps0056_appA
+1800,Georgia,state,162686,60425,59406,census_twps0056_appA
+1800,Illinois,territory,2458,183,107,census_twps0056_appA
+1800,Indiana,territory,2632,115,28,census_twps0056_appA
+1800,Kentucky,state,220955,41082,40343,census_twps0056_appA
+1800,Maine,territory,151719,818,0,census_twps0056_appA
+1800,Maryland,state,341548,125222,105635,census_twps0056_appA
+1800,Massachusetts,state,422845,6452,0,census_twps0056_appA
+1800,Michigan,territory,3757,139,0,census_twps0056_appA
+1800,Mississippi,territory,7600,3154,2995,census_twps0056_appA
+1800,New Hampshire,state,183858,860,8,census_twps0056_appA
+1800,New Jersey,state,211149,16824,12422,census_twps0056_appA
+1800,New York,state,589051,31320,20903,census_twps0056_appA
+1800,North Carolina,state,478103,140339,133296,census_twps0056_appA
+1800,Ohio,territory,42159,198,0,census_twps0056_appA
+1800,Pennsylvania,state,602365,16270,1706,census_twps0056_appA
+1800,Rhode Island,state,69122,3684,380,census_twps0056_appA
+1800,South Carolina,state,345591,149336,146151,census_twps0056_appA
+1800,Tennessee,state,105602,13893,13584,census_twps0056_appA
+1800,Vermont,state,154465,557,0,census_twps0056_appA
+1800,Virginia,state,807557,359777,339796,census_twps0056_appA
+1800,West Virginia,territory,78592,7698,7172,census_twps0056_appA
+1810,Alabama,territory,9046,2624,2565,census_twps0056_appA
+1810,Arkansas,territory,1062,138,136,census_twps0056_appA
+1810,Connecticut,state,261942,6763,310,census_twps0056_appA
+1810,Delaware,state,72674,17313,4177,census_twps0056_appA
+1810,District of Columbia,territory,15471,5126,3554,census_twps0056_appA
+1810,Georgia,state,251407,106957,105158,census_twps0056_appA
+1810,Illinois,territory,12282,781,168,census_twps0056_appA
+1810,Indiana,territory,24520,630,237,census_twps0056_appA
+1810,Kentucky,state,406511,82274,80561,census_twps0056_appA
+1810,Louisiana (Orleans Territory),territory,76556,42245,34660,census_twps0056_appA
+1810,Maine,territory,228705,969,0,census_twps0056_appA
+1810,Maryland,state,380546,145429,111502,census_twps0056_appA
+1810,Massachusetts,state,472040,6737,0,census_twps0056_appA
+1810,Michigan,territory,4762,144,24,census_twps0056_appA
+1810,Mississippi,territory,31306,14704,14523,census_twps0056_appA
+1810,Missouri,territory,19783,3480,2875,census_twps0056_appA
+1810,New Hampshire,state,214460,970,0,census_twps0056_appA
+1810,New Jersey,state,245562,18694,10851,census_twps0056_appA
+1810,New York,state,959049,40350,15017,census_twps0056_appA
+1810,North Carolina,state,556526,179152,168884,census_twps0056_appA
+1810,Ohio,state,230760,1899,0,census_twps0056_appA
+1810,Pennsylvania,state,810091,23287,795,census_twps0056_appA
+1810,Rhode Island,state,76931,3717,108,census_twps0056_appA
+1810,South Carolina,state,415115,200919,196365,census_twps0056_appA
+1810,Tennessee,state,261727,45852,44535,census_twps0056_appA
+1810,Vermont,state,217895,750,0,census_twps0056_appA
+1810,Virginia,state,877683,413790,383521,census_twps0056_appA
+1810,West Virginia,territory,105469,12114,10836,census_twps0056_appA
+1820,Alabama,state,127901,42450,41879,census_twps0056_appA
+1820,Arkansas,territory,14273,1676,1617,census_twps0056_appA
+1820,Connecticut,state,275248,7967,97,census_twps0056_appA
+1820,Delaware,state,72749,17467,4509,census_twps0056_appA
+1820,District of Columbia,territory,23336,7278,4520,census_twps0056_appA
+1820,Georgia,state,340989,151419,149656,census_twps0056_appA
+1820,Illinois,state,55211,1374,917,census_twps0056_appA
+1820,Indiana,state,147178,1420,190,census_twps0056_appA
+1820,Kentucky,state,564317,129491,126732,census_twps0056_appA
+1820,Louisiana,state,153407,79540,69064,census_twps0056_appA
+1820,Maine,state,298335,929,0,census_twps0056_appA
+1820,Maryland,state,407350,147127,107397,census_twps0056_appA
+1820,Massachusetts,state,523287,6740,0,census_twps0056_appA
+1820,Michigan,territory,7452,157,0,census_twps0056_appA
+1820,Mississippi,state,75448,33272,32814,census_twps0056_appA
+1820,Missouri,territory,66586,10569,10222,census_twps0056_appA
+1820,New Hampshire,state,244161,786,0,census_twps0056_appA
+1820,New Jersey,state,277575,20017,7557,census_twps0056_appA
+1820,New York,state,1372812,39367,10088,census_twps0056_appA
+1820,North Carolina,state,638829,219629,204917,census_twps0056_appA
+1820,Ohio,state,581434,4723,0,census_twps0056_appA
+1820,Pennsylvania,state,1049458,30413,211,census_twps0056_appA
+1820,Rhode Island,state,83059,3602,48,census_twps0056_appA
+1820,South Carolina,state,502741,265301,258475,census_twps0056_appA
+1820,Tennessee,state,422823,82844,80107,census_twps0056_appA
+1820,Vermont,state,235981,903,0,census_twps0056_appA
+1820,Virginia,state,938261,448646,411886,census_twps0056_appA
+1820,West Virginia,territory,136808,16532,15119,census_twps0056_appA
+1820,Wisconsin,territory,1444,17,0,census_twps0056_appA
+1830,Alabama,state,309527,119121,117549,census_twps0056_appA
+1830,Arkansas,territory,30388,4717,4576,census_twps0056_appA
+1830,Connecticut,state,297675,8072,25,census_twps0056_appA
+1830,Delaware,state,76748,19147,3292,census_twps0056_appA
+1830,District of Columbia,territory,30261,9109,4505,census_twps0056_appA
+1830,Florida,territory,34730,16345,15501,census_twps0056_appA
+1830,Georgia,state,516823,220017,217531,census_twps0056_appA
+1830,Illinois,state,157445,2384,747,census_twps0056_appA
+1830,Indiana,state,343031,3632,3,census_twps0056_appA
+1830,Kentucky,state,687917,170130,165213,census_twps0056_appA
+1830,Louisiana,state,215739,126298,109588,census_twps0056_appA
+1830,Maine,state,399455,1192,2,census_twps0056_appA
+1830,Maryland,state,447040,155932,102994,census_twps0056_appA
+1830,Massachusetts,state,610408,7049,1,census_twps0056_appA
+1830,Michigan,territory,28004,229,1,census_twps0056_appA
+1830,Mississippi,state,136621,66178,65659,census_twps0056_appA
+1830,Missouri,state,140455,25660,25091,census_twps0056_appA
+1830,New Hampshire,state,269328,607,3,census_twps0056_appA
+1830,New Jersey,state,320823,20557,2254,census_twps0056_appA
+1830,New York,state,1918608,44945,75,census_twps0056_appA
+1830,North Carolina,state,737987,265144,245601,census_twps0056_appA
+1830,Ohio,state,937903,9574,6,census_twps0056_appA
+1830,Pennsylvania,state,1348233,38333,403,census_twps0056_appA
+1830,Rhode Island,state,97199,3578,17,census_twps0056_appA
+1830,South Carolina,state,581185,323322,315401,census_twps0056_appA
+1830,Tennessee,state,681904,146158,141603,census_twps0056_appA
+1830,Vermont,state,280652,881,0,census_twps0056_appA
+1830,Virginia,state,1044054,500427,453698,census_twps0056_appA
+1830,West Virginia,territory,176924,19840,17673,census_twps0056_appA
+1830,Wisconsin,territory,3635,64,31,census_twps0056_appA
+1840,Alabama,state,590756,255571,253532,census_twps0056_appA
+1840,Arkansas,state,97574,20400,19935,census_twps0056_appA
+1840,Connecticut,state,309978,8122,17,census_twps0056_appA
+1840,Delaware,state,78085,19524,2605,census_twps0056_appA
+1840,District of Columbia,territory,33745,9819,3320,census_twps0056_appA
+1840,Florida,territory,54477,26534,25717,census_twps0056_appA
+1840,Georgia,state,691392,283697,280944,census_twps0056_appA
+1840,Illinois,state,476183,3929,331,census_twps0056_appA
+1840,Indiana,state,685866,7168,3,census_twps0056_appA
+1840,Iowa,territory,43112,188,16,census_twps0056_appA
+1840,Kentucky,state,779828,189575,182258,census_twps0056_appA
+1840,Louisiana,state,352411,193954,168452,census_twps0056_appA
+1840,Maine,state,501793,1355,0,census_twps0056_appA
+1840,Maryland,state,470019,151815,89737,census_twps0056_appA
+1840,Massachusetts,state,737699,8669,0,census_twps0056_appA
+1840,Michigan,state,212267,707,0,census_twps0056_appA
+1840,Mississippi,state,375651,196577,195211,census_twps0056_appA
+1840,Missouri,state,383702,59814,58240,census_twps0056_appA
+1840,New Hampshire,state,284574,538,1,census_twps0056_appA
+1840,New Jersey,state,373306,21718,674,census_twps0056_appA
+1840,New York,state,2428921,50031,4,census_twps0056_appA
+1840,North Carolina,state,753419,268549,245817,census_twps0056_appA
+1840,Ohio,state,1519467,17345,3,census_twps0056_appA
+1840,Pennsylvania,state,1724033,47918,64,census_twps0056_appA
+1840,Rhode Island,state,108830,3243,5,census_twps0056_appA
+1840,South Carolina,state,594398,335314,327038,census_twps0056_appA
+1840,Tennessee,state,829210,188583,183059,census_twps0056_appA
+1840,Vermont,state,291948,730,0,census_twps0056_appA
+1840,Virginia,state,1025227,480544,431873,census_twps0056_appA
+1840,West Virginia,territory,224537,21521,18488,census_twps0056_appA
+1840,Wisconsin,territory,30945,196,11,census_twps0056_appA

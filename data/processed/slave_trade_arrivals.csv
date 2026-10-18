@@ -1,0 +1,2402 @@
+year,embark_region,disembark_region,count,basis,source_id
+1628,West Central Africa and St. Helena,Chesapeake,100,tast_estimates,slavevoyages_tast_estimates
+1655,West Central Africa and St. Helena,Northern U.S.,434,tast_estimates,slavevoyages_tast_estimates
+1656,Bight of Biafra,Chesapeake,246,tast_estimates,slavevoyages_tast_estimates
+1657,Bight of Biafra,Chesapeake,385,tast_estimates,slavevoyages_tast_estimates
+1662,Senegambia and off-shore Atlantic,Chesapeake,621,tast_estimates,slavevoyages_tast_estimates
+1663,Senegambia and off-shore Atlantic,Chesapeake,167,tast_estimates,slavevoyages_tast_estimates
+1663,West Central Africa and St. Helena,Chesapeake,96,tast_estimates,slavevoyages_tast_estimates
+1663,West Central Africa and St. Helena,Northern U.S.,295,tast_estimates,slavevoyages_tast_estimates
+1664,Senegambia and off-shore Atlantic,Chesapeake,523,tast_estimates,slavevoyages_tast_estimates
+1664,West Central Africa and St. Helena,Northern U.S.,387,tast_estimates,slavevoyages_tast_estimates
+1665,Senegambia and off-shore Atlantic,Chesapeake,200,tast_estimates,slavevoyages_tast_estimates
+1672,Bight of Biafra,Chesapeake,486,tast_estimates,slavevoyages_tast_estimates
+1674,Senegambia and off-shore Atlantic,Chesapeake,131,tast_estimates,slavevoyages_tast_estimates
+1676,Gold Coast,Chesapeake,330,tast_estimates,slavevoyages_tast_estimates
+1678,Bight of Benin,Chesapeake,518,tast_estimates,slavevoyages_tast_estimates
+1678,Bight of Biafra,Chesapeake,120,tast_estimates,slavevoyages_tast_estimates
+1678,South-east Africa and Indian ocean islands,Northern U.S.,56,tast_estimates,slavevoyages_tast_estimates
+1679,Bight of Biafra,Chesapeake,256,tast_estimates,slavevoyages_tast_estimates
+1679,Gold Coast,Chesapeake,238,tast_estimates,slavevoyages_tast_estimates
+1679,Senegambia and off-shore Atlantic,Chesapeake,200,tast_estimates,slavevoyages_tast_estimates
+1680,Bight of Biafra,Chesapeake,121,tast_estimates,slavevoyages_tast_estimates
+1681,South-east Africa and Indian ocean islands,Northern U.S.,193,tast_estimates,slavevoyages_tast_estimates
+1683,Bight of Biafra,U.S.A. unspecified,133,tast_estimates,slavevoyages_tast_estimates
+1684,Senegambia and off-shore Atlantic,Chesapeake,107,tast_estimates,slavevoyages_tast_estimates
+1686,Senegambia and off-shore Atlantic,Chesapeake,630,tast_estimates,slavevoyages_tast_estimates
+1686,South-east Africa and Indian ocean islands,Chesapeake,255,tast_estimates,slavevoyages_tast_estimates
+1687,Senegambia and off-shore Atlantic,Chesapeake,623,tast_estimates,slavevoyages_tast_estimates
+1688,Bight of Biafra,Chesapeake,196,tast_estimates,slavevoyages_tast_estimates
+1688,Senegambia and off-shore Atlantic,Chesapeake,232,tast_estimates,slavevoyages_tast_estimates
+1689,Bight of Biafra,Chesapeake,185,tast_estimates,slavevoyages_tast_estimates
+1692,Bight of Biafra,Chesapeake,212,tast_estimates,slavevoyages_tast_estimates
+1693,Bight of Biafra,Chesapeake,516,tast_estimates,slavevoyages_tast_estimates
+1693,South-east Africa and Indian ocean islands,Northern U.S.,193,tast_estimates,slavevoyages_tast_estimates
+1694,Bight of Biafra,Chesapeake,707,tast_estimates,slavevoyages_tast_estimates
+1695,Bight of Biafra,Chesapeake,490,tast_estimates,slavevoyages_tast_estimates
+1695,South-east Africa and Indian ocean islands,Northern U.S.,193,tast_estimates,slavevoyages_tast_estimates
+1696,Senegambia and off-shore Atlantic,Chesapeake,219,tast_estimates,slavevoyages_tast_estimates
+1696,South-east Africa and Indian ocean islands,Northern U.S.,59,tast_estimates,slavevoyages_tast_estimates
+1697,South-east Africa and Indian ocean islands,Northern U.S.,193,tast_estimates,slavevoyages_tast_estimates
+1698,Senegambia and off-shore Atlantic,Chesapeake,1106,tast_estimates,slavevoyages_tast_estimates
+1698,South-east Africa and Indian ocean islands,Northern U.S.,792,tast_estimates,slavevoyages_tast_estimates
+1699,Bight of Biafra,Chesapeake,999,tast_estimates,slavevoyages_tast_estimates
+1700,Senegambia and off-shore Atlantic,Chesapeake,974,tast_estimates,slavevoyages_tast_estimates
+1700,South-east Africa and Indian ocean islands,Northern U.S.,31,tast_estimates,slavevoyages_tast_estimates
+1701,Bight of Biafra,Chesapeake,1087,tast_estimates,slavevoyages_tast_estimates
+1702,Bight of Biafra,Chesapeake,812,tast_estimates,slavevoyages_tast_estimates
+1703,West Central Africa and St. Helena,Chesapeake,231,tast_estimates,slavevoyages_tast_estimates
+1704,Bight of Biafra,Chesapeake,1092,tast_estimates,slavevoyages_tast_estimates
+1704,Gold Coast,Chesapeake,162,tast_estimates,slavevoyages_tast_estimates
+1704,Senegambia and off-shore Atlantic,Chesapeake,120,tast_estimates,slavevoyages_tast_estimates
+1705,Gold Coast,Chesapeake,1759,tast_estimates,slavevoyages_tast_estimates
+1705,Senegambia and off-shore Atlantic,Chesapeake,317,tast_estimates,slavevoyages_tast_estimates
+1705,South-east Africa and Indian ocean islands,Northern U.S.,30,tast_estimates,slavevoyages_tast_estimates
+1706,Bight of Benin,Chesapeake,872,tast_estimates,slavevoyages_tast_estimates
+1706,Bight of Biafra,Chesapeake,411,tast_estimates,slavevoyages_tast_estimates
+1706,Senegambia and off-shore Atlantic,Chesapeake,435,tast_estimates,slavevoyages_tast_estimates
+1707,Bight of Biafra,Chesapeake,929,tast_estimates,slavevoyages_tast_estimates
+1707,Senegambia and off-shore Atlantic,Chesapeake,608,tast_estimates,slavevoyages_tast_estimates
+1708,Gold Coast,Chesapeake,1276,tast_estimates,slavevoyages_tast_estimates
+1708,Senegambia and off-shore Atlantic,Chesapeake,880,tast_estimates,slavevoyages_tast_estimates
+1709,Senegambia and off-shore Atlantic,Chesapeake,854,tast_estimates,slavevoyages_tast_estimates
+1710,Gold Coast,Carolinas / Georgia,227,tast_estimates,slavevoyages_tast_estimates
+1710,Bight of Biafra,Chesapeake,964,tast_estimates,slavevoyages_tast_estimates
+1710,South-east Africa and Indian ocean islands,Northern U.S.,66,tast_estimates,slavevoyages_tast_estimates
+1711,Gold Coast,Carolinas / Georgia,137,tast_estimates,slavevoyages_tast_estimates
+1711,South-east Africa and Indian ocean islands,Northern U.S.,156,tast_estimates,slavevoyages_tast_estimates
+1712,South-east Africa and Indian ocean islands,Northern U.S.,96,tast_estimates,slavevoyages_tast_estimates
+1713,Senegambia and off-shore Atlantic,Carolinas / Georgia,208,tast_estimates,slavevoyages_tast_estimates
+1713,Senegambia and off-shore Atlantic,Chesapeake,517,tast_estimates,slavevoyages_tast_estimates
+1714,Senegambia and off-shore Atlantic,Carolinas / Georgia,183,tast_estimates,slavevoyages_tast_estimates
+1714,Senegambia and off-shore Atlantic,Chesapeake,197,tast_estimates,slavevoyages_tast_estimates
+1715,Senegambia and off-shore Atlantic,Carolinas / Georgia,237,tast_estimates,slavevoyages_tast_estimates
+1715,Senegambia and off-shore Atlantic,Chesapeake,263,tast_estimates,slavevoyages_tast_estimates
+1715,Gold Coast,Northern U.S.,48,tast_estimates,slavevoyages_tast_estimates
+1716,Senegambia and off-shore Atlantic,Chesapeake,282,tast_estimates,slavevoyages_tast_estimates
+1716,Gold Coast,Northern U.S.,54,tast_estimates,slavevoyages_tast_estimates
+1717,Gold Coast,Carolinas / Georgia,444,tast_estimates,slavevoyages_tast_estimates
+1717,Bight of Biafra,Chesapeake,301,tast_estimates,slavevoyages_tast_estimates
+1717,Gold Coast,Chesapeake,143,tast_estimates,slavevoyages_tast_estimates
+1717,Senegambia and off-shore Atlantic,Chesapeake,179,tast_estimates,slavevoyages_tast_estimates
+1717,Gold Coast,Northern U.S.,333,tast_estimates,slavevoyages_tast_estimates
+1718,Gold Coast,Carolinas / Georgia,318,tast_estimates,slavevoyages_tast_estimates
+1718,Senegambia and off-shore Atlantic,Carolinas / Georgia,218,tast_estimates,slavevoyages_tast_estimates
+1718,Bight of Biafra,Chesapeake,1174,tast_estimates,slavevoyages_tast_estimates
+1718,Gold Coast,Chesapeake,91,tast_estimates,slavevoyages_tast_estimates
+1718,Senegambia and off-shore Atlantic,Chesapeake,253,tast_estimates,slavevoyages_tast_estimates
+1718,Sierra Leone,Chesapeake,311,tast_estimates,slavevoyages_tast_estimates
+1718,Gold Coast,Northern U.S.,136,tast_estimates,slavevoyages_tast_estimates
+1719,Bight of Biafra,Carolinas / Georgia,259,tast_estimates,slavevoyages_tast_estimates
+1719,Bight of Benin,Chesapeake,266,tast_estimates,slavevoyages_tast_estimates
+1719,Bight of Biafra,Chesapeake,1431,tast_estimates,slavevoyages_tast_estimates
+1719,Gold Coast,Chesapeake,156,tast_estimates,slavevoyages_tast_estimates
+1719,Senegambia and off-shore Atlantic,Chesapeake,141,tast_estimates,slavevoyages_tast_estimates
+1719,South-east Africa and Indian ocean islands,Chesapeake,511,tast_estimates,slavevoyages_tast_estimates
+1719,West Central Africa and St. Helena,Chesapeake,220,tast_estimates,slavevoyages_tast_estimates
+1719,Bight of Benin,Gulf states,474,tast_estimates,slavevoyages_tast_estimates
+1720,Bight of Biafra,Carolinas / Georgia,221,tast_estimates,slavevoyages_tast_estimates
+1720,Bight of Biafra,Chesapeake,1006,tast_estimates,slavevoyages_tast_estimates
+1720,Gold Coast,Chesapeake,989,tast_estimates,slavevoyages_tast_estimates
+1720,South-east Africa and Indian ocean islands,Chesapeake,591,tast_estimates,slavevoyages_tast_estimates
+1720,Senegambia and off-shore Atlantic,Gulf states,134,tast_estimates,slavevoyages_tast_estimates
+1721,Senegambia and off-shore Atlantic,Carolinas / Georgia,280,tast_estimates,slavevoyages_tast_estimates
+1721,Bight of Biafra,Chesapeake,1007,tast_estimates,slavevoyages_tast_estimates
+1721,Gold Coast,Chesapeake,1341,tast_estimates,slavevoyages_tast_estimates
+1721,Senegambia and off-shore Atlantic,Chesapeake,646,tast_estimates,slavevoyages_tast_estimates
+1721,South-east Africa and Indian ocean islands,Chesapeake,674,tast_estimates,slavevoyages_tast_estimates
+1721,West Central Africa and St. Helena,Chesapeake,542,tast_estimates,slavevoyages_tast_estimates
+1721,Bight of Benin,Gulf states,904,tast_estimates,slavevoyages_tast_estimates
+1721,Senegambia and off-shore Atlantic,Gulf states,268,tast_estimates,slavevoyages_tast_estimates
+1721,West Central Africa and St. Helena,Gulf states,319,tast_estimates,slavevoyages_tast_estimates
+1721,South-east Africa and Indian ocean islands,Northern U.S.,177,tast_estimates,slavevoyages_tast_estimates
+1722,Senegambia and off-shore Atlantic,Carolinas / Georgia,240,tast_estimates,slavevoyages_tast_estimates
+1722,Bight of Biafra,Chesapeake,302,tast_estimates,slavevoyages_tast_estimates
+1723,Senegambia and off-shore Atlantic,Carolinas / Georgia,275,tast_estimates,slavevoyages_tast_estimates
+1723,Bight of Biafra,Chesapeake,424,tast_estimates,slavevoyages_tast_estimates
+1723,West Central Africa and St. Helena,Chesapeake,594,tast_estimates,slavevoyages_tast_estimates
+1723,Senegambia and off-shore Atlantic,Gulf states,198,tast_estimates,slavevoyages_tast_estimates
+1724,Senegambia and off-shore Atlantic,Carolinas / Georgia,813,tast_estimates,slavevoyages_tast_estimates
+1724,Bight of Biafra,Chesapeake,551,tast_estimates,slavevoyages_tast_estimates
+1724,Windward Coast,Chesapeake,226,tast_estimates,slavevoyages_tast_estimates
+1725,Gold Coast,Carolinas / Georgia,866,tast_estimates,slavevoyages_tast_estimates
+1725,Senegambia and off-shore Atlantic,Carolinas / Georgia,546,tast_estimates,slavevoyages_tast_estimates
+1725,Bight of Biafra,Chesapeake,1504,tast_estimates,slavevoyages_tast_estimates
+1725,Sierra Leone,Chesapeake,329,tast_estimates,slavevoyages_tast_estimates
+1725,Senegambia and off-shore Atlantic,Gulf states,224,tast_estimates,slavevoyages_tast_estimates
+1725,Gold Coast,Northern U.S.,242,tast_estimates,slavevoyages_tast_estimates
+1726,Senegambia and off-shore Atlantic,Carolinas / Georgia,593,tast_estimates,slavevoyages_tast_estimates
+1726,Bight of Biafra,Chesapeake,2347,tast_estimates,slavevoyages_tast_estimates
+1726,Gold Coast,Chesapeake,554,tast_estimates,slavevoyages_tast_estimates
+1726,Windward Coast,Chesapeake,936,tast_estimates,slavevoyages_tast_estimates
+1726,Senegambia and off-shore Atlantic,Gulf states,648,tast_estimates,slavevoyages_tast_estimates
+1727,Senegambia and off-shore Atlantic,Carolinas / Georgia,732,tast_estimates,slavevoyages_tast_estimates
+1727,Sierra Leone,Carolinas / Georgia,519,tast_estimates,slavevoyages_tast_estimates
+1727,Bight of Biafra,Chesapeake,1092,tast_estimates,slavevoyages_tast_estimates
+1727,Gold Coast,Chesapeake,1055,tast_estimates,slavevoyages_tast_estimates
+1727,Senegambia and off-shore Atlantic,Chesapeake,158,tast_estimates,slavevoyages_tast_estimates
+1727,West Central Africa and St. Helena,Chesapeake,2369,tast_estimates,slavevoyages_tast_estimates
+1727,Windward Coast,Chesapeake,329,tast_estimates,slavevoyages_tast_estimates
+1727,Senegambia and off-shore Atlantic,Gulf states,606,tast_estimates,slavevoyages_tast_estimates
+1728,Senegambia and off-shore Atlantic,Carolinas / Georgia,830,tast_estimates,slavevoyages_tast_estimates
+1728,Sierra Leone,Carolinas / Georgia,494,tast_estimates,slavevoyages_tast_estimates
+1728,Bight of Biafra,Chesapeake,670,tast_estimates,slavevoyages_tast_estimates
+1728,Senegambia and off-shore Atlantic,Chesapeake,1109,tast_estimates,slavevoyages_tast_estimates
+1728,Windward Coast,Chesapeake,315,tast_estimates,slavevoyages_tast_estimates
+1728,Bight of Benin,Gulf states,488,tast_estimates,slavevoyages_tast_estimates
+1728,Senegambia and off-shore Atlantic,Gulf states,1063,tast_estimates,slavevoyages_tast_estimates
+1729,Senegambia and off-shore Atlantic,Carolinas / Georgia,635,tast_estimates,slavevoyages_tast_estimates
+1729,Gold Coast,Chesapeake,1109,tast_estimates,slavevoyages_tast_estimates
+1729,Senegambia and off-shore Atlantic,Gulf states,1312,tast_estimates,slavevoyages_tast_estimates
+1729,Gold Coast,Northern U.S.,290,tast_estimates,slavevoyages_tast_estimates
+1730,Bight of Biafra,Carolinas / Georgia,498,tast_estimates,slavevoyages_tast_estimates
+1730,Senegambia and off-shore Atlantic,Carolinas / Georgia,224,tast_estimates,slavevoyages_tast_estimates
+1730,West Central Africa and St. Helena,Carolinas / Georgia,306,tast_estimates,slavevoyages_tast_estimates
+1730,Bight of Biafra,Chesapeake,1403,tast_estimates,slavevoyages_tast_estimates
+1730,Senegambia and off-shore Atlantic,Gulf states,355,tast_estimates,slavevoyages_tast_estimates
+1730,West Central Africa and St. Helena,U.S.A. unspecified,304,tast_estimates,slavevoyages_tast_estimates
+1731,Bight of Biafra,Carolinas / Georgia,905,tast_estimates,slavevoyages_tast_estimates
+1731,Senegambia and off-shore Atlantic,Carolinas / Georgia,575,tast_estimates,slavevoyages_tast_estimates
+1731,West Central Africa and St. Helena,Carolinas / Georgia,315,tast_estimates,slavevoyages_tast_estimates
+1731,Bight of Biafra,Chesapeake,1035,tast_estimates,slavevoyages_tast_estimates
+1731,Senegambia and off-shore Atlantic,Chesapeake,838,tast_estimates,slavevoyages_tast_estimates
+1731,West Central Africa and St. Helena,Northern U.S.,544,tast_estimates,slavevoyages_tast_estimates
+1731,West Central Africa and St. Helena,U.S.A. unspecified,222,tast_estimates,slavevoyages_tast_estimates
+1732,Bight of Biafra,Carolinas / Georgia,1475,tast_estimates,slavevoyages_tast_estimates
+1732,Senegambia and off-shore Atlantic,Carolinas / Georgia,508,tast_estimates,slavevoyages_tast_estimates
+1732,Bight of Biafra,Chesapeake,942,tast_estimates,slavevoyages_tast_estimates
+1732,Senegambia and off-shore Atlantic,Chesapeake,686,tast_estimates,slavevoyages_tast_estimates
+1732,West Central Africa and St. Helena,Chesapeake,753,tast_estimates,slavevoyages_tast_estimates
+1732,West Central Africa and St. Helena,Northern U.S.,876,tast_estimates,slavevoyages_tast_estimates
+1733,Bight of Biafra,Carolinas / Georgia,529,tast_estimates,slavevoyages_tast_estimates
+1733,Senegambia and off-shore Atlantic,Carolinas / Georgia,973,tast_estimates,slavevoyages_tast_estimates
+1733,West Central Africa and St. Helena,Carolinas / Georgia,1870,tast_estimates,slavevoyages_tast_estimates
+1733,Bight of Biafra,Chesapeake,1746,tast_estimates,slavevoyages_tast_estimates
+1733,Senegambia and off-shore Atlantic,Chesapeake,426,tast_estimates,slavevoyages_tast_estimates
+1733,West Central Africa and St. Helena,Chesapeake,734,tast_estimates,slavevoyages_tast_estimates
+1733,South-east Africa and Indian ocean islands,Northern U.S.,264,tast_estimates,slavevoyages_tast_estimates
+1733,West Central Africa and St. Helena,Northern U.S.,300,tast_estimates,slavevoyages_tast_estimates
+1734,Bight of Biafra,Carolinas / Georgia,302,tast_estimates,slavevoyages_tast_estimates
+1734,Gold Coast,Carolinas / Georgia,447,tast_estimates,slavevoyages_tast_estimates
+1734,Senegambia and off-shore Atlantic,Carolinas / Georgia,510,tast_estimates,slavevoyages_tast_estimates
+1734,West Central Africa and St. Helena,Carolinas / Georgia,854,tast_estimates,slavevoyages_tast_estimates
+1734,Senegambia and off-shore Atlantic,Chesapeake,1094,tast_estimates,slavevoyages_tast_estimates
+1734,West Central Africa and St. Helena,Chesapeake,2106,tast_estimates,slavevoyages_tast_estimates
+1734,West Central Africa and St. Helena,Northern U.S.,420,tast_estimates,slavevoyages_tast_estimates
+1735,West Central Africa and St. Helena,Carolinas / Georgia,4557,tast_estimates,slavevoyages_tast_estimates
+1735,Bight of Biafra,Chesapeake,954,tast_estimates,slavevoyages_tast_estimates
+1735,Gold Coast,Chesapeake,349,tast_estimates,slavevoyages_tast_estimates
+1735,Senegambia and off-shore Atlantic,Chesapeake,513,tast_estimates,slavevoyages_tast_estimates
+1735,West Central Africa and St. Helena,Chesapeake,866,tast_estimates,slavevoyages_tast_estimates
+1736,Bight of Biafra,Carolinas / Georgia,682,tast_estimates,slavevoyages_tast_estimates
+1736,Senegambia and off-shore Atlantic,Carolinas / Georgia,233,tast_estimates,slavevoyages_tast_estimates
+1736,West Central Africa and St. Helena,Carolinas / Georgia,2952,tast_estimates,slavevoyages_tast_estimates
+1736,Bight of Biafra,Chesapeake,1462,tast_estimates,slavevoyages_tast_estimates
+1736,Gold Coast,Chesapeake,670,tast_estimates,slavevoyages_tast_estimates
+1736,Senegambia and off-shore Atlantic,Chesapeake,1391,tast_estimates,slavevoyages_tast_estimates
+1736,West Central Africa and St. Helena,Chesapeake,304,tast_estimates,slavevoyages_tast_estimates
+1736,Gold Coast,Northern U.S.,477,tast_estimates,slavevoyages_tast_estimates
+1737,West Central Africa and St. Helena,Carolinas / Georgia,3074,tast_estimates,slavevoyages_tast_estimates
+1737,Senegambia and off-shore Atlantic,Chesapeake,1250,tast_estimates,slavevoyages_tast_estimates
+1737,West Central Africa and St. Helena,Chesapeake,2027,tast_estimates,slavevoyages_tast_estimates
+1737,Gold Coast,Northern U.S.,140,tast_estimates,slavevoyages_tast_estimates
+1737,West Central Africa and St. Helena,Northern U.S.,1261,tast_estimates,slavevoyages_tast_estimates
+1738,Senegambia and off-shore Atlantic,Carolinas / Georgia,535,tast_estimates,slavevoyages_tast_estimates
+1738,West Central Africa and St. Helena,Carolinas / Georgia,2742,tast_estimates,slavevoyages_tast_estimates
+1738,Senegambia and off-shore Atlantic,Chesapeake,1286,tast_estimates,slavevoyages_tast_estimates
+1738,West Central Africa and St. Helena,Chesapeake,1363,tast_estimates,slavevoyages_tast_estimates
+1738,Senegambia and off-shore Atlantic,Northern U.S.,376,tast_estimates,slavevoyages_tast_estimates
+1739,Bight of Biafra,Carolinas / Georgia,1287,tast_estimates,slavevoyages_tast_estimates
+1739,Senegambia and off-shore Atlantic,Carolinas / Georgia,134,tast_estimates,slavevoyages_tast_estimates
+1739,West Central Africa and St. Helena,Carolinas / Georgia,1266,tast_estimates,slavevoyages_tast_estimates
+1739,Bight of Benin,Chesapeake,783,tast_estimates,slavevoyages_tast_estimates
+1739,Gold Coast,Chesapeake,203,tast_estimates,slavevoyages_tast_estimates
+1739,Senegambia and off-shore Atlantic,Chesapeake,282,tast_estimates,slavevoyages_tast_estimates
+1739,West Central Africa and St. Helena,Chesapeake,1444,tast_estimates,slavevoyages_tast_estimates
+1739,Senegambia and off-shore Atlantic,Northern U.S.,633,tast_estimates,slavevoyages_tast_estimates
+1739,South-east Africa and Indian ocean islands,Northern U.S.,175,tast_estimates,slavevoyages_tast_estimates
+1740,Bight of Biafra,Carolinas / Georgia,402,tast_estimates,slavevoyages_tast_estimates
+1740,West Central Africa and St. Helena,Carolinas / Georgia,732,tast_estimates,slavevoyages_tast_estimates
+1740,Bight of Biafra,Chesapeake,2399,tast_estimates,slavevoyages_tast_estimates
+1740,Senegambia and off-shore Atlantic,Chesapeake,467,tast_estimates,slavevoyages_tast_estimates
+1740,Senegambia and off-shore Atlantic,Northern U.S.,258,tast_estimates,slavevoyages_tast_estimates
+1741,Bight of Biafra,Chesapeake,843,tast_estimates,slavevoyages_tast_estimates
+1741,Senegambia and off-shore Atlantic,Chesapeake,679,tast_estimates,slavevoyages_tast_estimates
+1741,Senegambia and off-shore Atlantic,Northern U.S.,981,tast_estimates,slavevoyages_tast_estimates
+1742,Bight of Biafra,Chesapeake,1404,tast_estimates,slavevoyages_tast_estimates
+1742,Sierra Leone,Chesapeake,897,tast_estimates,slavevoyages_tast_estimates
+1742,West Central Africa and St. Helena,Chesapeake,529,tast_estimates,slavevoyages_tast_estimates
+1742,West Central Africa and St. Helena,U.S.A. unspecified,166,tast_estimates,slavevoyages_tast_estimates
+1743,Bight of Biafra,Chesapeake,1368,tast_estimates,slavevoyages_tast_estimates
+1743,Senegambia and off-shore Atlantic,Gulf states,222,tast_estimates,slavevoyages_tast_estimates
+1743,Senegambia and off-shore Atlantic,Northern U.S.,780,tast_estimates,slavevoyages_tast_estimates
+1743,Sierra Leone,Northern U.S.,124,tast_estimates,slavevoyages_tast_estimates
+1743,West Central Africa and St. Helena,U.S.A. unspecified,159,tast_estimates,slavevoyages_tast_estimates
+1744,Bight of Biafra,Carolinas / Georgia,576,tast_estimates,slavevoyages_tast_estimates
+1744,West Central Africa and St. Helena,Carolinas / Georgia,287,tast_estimates,slavevoyages_tast_estimates
+1744,Bight of Biafra,Chesapeake,599,tast_estimates,slavevoyages_tast_estimates
+1744,Senegambia and off-shore Atlantic,Chesapeake,345,tast_estimates,slavevoyages_tast_estimates
+1744,Sierra Leone,Northern U.S.,394,tast_estimates,slavevoyages_tast_estimates
+1745,Senegambia and off-shore Atlantic,Chesapeake,779,tast_estimates,slavevoyages_tast_estimates
+1746,Bight of Biafra,Chesapeake,455,tast_estimates,slavevoyages_tast_estimates
+1746,Gold Coast,Chesapeake,405,tast_estimates,slavevoyages_tast_estimates
+1746,Senegambia and off-shore Atlantic,Chesapeake,448,tast_estimates,slavevoyages_tast_estimates
+1746,Senegambia and off-shore Atlantic,Northern U.S.,219,tast_estimates,slavevoyages_tast_estimates
+1746,Sierra Leone,Northern U.S.,217,tast_estimates,slavevoyages_tast_estimates
+1747,Senegambia and off-shore Atlantic,Northern U.S.,140,tast_estimates,slavevoyages_tast_estimates
+1748,Bight of Biafra,Chesapeake,332,tast_estimates,slavevoyages_tast_estimates
+1748,Gold Coast,Northern U.S.,919,tast_estimates,slavevoyages_tast_estimates
+1749,Gold Coast,Carolinas / Georgia,219,tast_estimates,slavevoyages_tast_estimates
+1749,Senegambia and off-shore Atlantic,Carolinas / Georgia,306,tast_estimates,slavevoyages_tast_estimates
+1749,Bight of Biafra,Chesapeake,1306,tast_estimates,slavevoyages_tast_estimates
+1749,West Central Africa and St. Helena,Chesapeake,814,tast_estimates,slavevoyages_tast_estimates
+1749,Gold Coast,Northern U.S.,434,tast_estimates,slavevoyages_tast_estimates
+1749,Senegambia and off-shore Atlantic,Northern U.S.,221,tast_estimates,slavevoyages_tast_estimates
+1750,Bight of Biafra,Carolinas / Georgia,802,tast_estimates,slavevoyages_tast_estimates
+1750,Senegambia and off-shore Atlantic,Carolinas / Georgia,463,tast_estimates,slavevoyages_tast_estimates
+1750,Windward Coast,Carolinas / Georgia,330,tast_estimates,slavevoyages_tast_estimates
+1750,Bight of Biafra,Chesapeake,891,tast_estimates,slavevoyages_tast_estimates
+1750,Sierra Leone,Northern U.S.,214,tast_estimates,slavevoyages_tast_estimates
+1750,West Central Africa and St. Helena,Northern U.S.,878,tast_estimates,slavevoyages_tast_estimates
+1751,Senegambia and off-shore Atlantic,Carolinas / Georgia,111,tast_estimates,slavevoyages_tast_estimates
+1751,West Central Africa and St. Helena,Carolinas / Georgia,380,tast_estimates,slavevoyages_tast_estimates
+1751,Bight of Biafra,Chesapeake,365,tast_estimates,slavevoyages_tast_estimates
+1751,Senegambia and off-shore Atlantic,Chesapeake,379,tast_estimates,slavevoyages_tast_estimates
+1751,West Central Africa and St. Helena,Chesapeake,942,tast_estimates,slavevoyages_tast_estimates
+1751,Gold Coast,Northern U.S.,472,tast_estimates,slavevoyages_tast_estimates
+1751,Sierra Leone,Northern U.S.,636,tast_estimates,slavevoyages_tast_estimates
+1752,Bight of Biafra,Carolinas / Georgia,1429,tast_estimates,slavevoyages_tast_estimates
+1752,Gold Coast,Carolinas / Georgia,372,tast_estimates,slavevoyages_tast_estimates
+1752,Bight of Biafra,Chesapeake,2176,tast_estimates,slavevoyages_tast_estimates
+1752,Gold Coast,Chesapeake,169,tast_estimates,slavevoyages_tast_estimates
+1752,Senegambia and off-shore Atlantic,Chesapeake,897,tast_estimates,slavevoyages_tast_estimates
+1752,West Central Africa and St. Helena,Chesapeake,1288,tast_estimates,slavevoyages_tast_estimates
+1752,Windward Coast,Chesapeake,164,tast_estimates,slavevoyages_tast_estimates
+1752,Senegambia and off-shore Atlantic,Northern U.S.,214,tast_estimates,slavevoyages_tast_estimates
+1752,Sierra Leone,Northern U.S.,572,tast_estimates,slavevoyages_tast_estimates
+1753,Gold Coast,Carolinas / Georgia,199,tast_estimates,slavevoyages_tast_estimates
+1753,Senegambia and off-shore Atlantic,Carolinas / Georgia,853,tast_estimates,slavevoyages_tast_estimates
+1753,West Central Africa and St. Helena,Carolinas / Georgia,375,tast_estimates,slavevoyages_tast_estimates
+1753,Bight of Benin,Chesapeake,110,tast_estimates,slavevoyages_tast_estimates
+1753,Bight of Biafra,Chesapeake,640,tast_estimates,slavevoyages_tast_estimates
+1753,Senegambia and off-shore Atlantic,Chesapeake,859,tast_estimates,slavevoyages_tast_estimates
+1753,West Central Africa and St. Helena,Chesapeake,610,tast_estimates,slavevoyages_tast_estimates
+1754,Bight of Biafra,Carolinas / Georgia,169,tast_estimates,slavevoyages_tast_estimates
+1754,Gold Coast,Carolinas / Georgia,568,tast_estimates,slavevoyages_tast_estimates
+1754,Senegambia and off-shore Atlantic,Carolinas / Georgia,1094,tast_estimates,slavevoyages_tast_estimates
+1754,Sierra Leone,Carolinas / Georgia,410,tast_estimates,slavevoyages_tast_estimates
+1754,Senegambia and off-shore Atlantic,Chesapeake,243,tast_estimates,slavevoyages_tast_estimates
+1754,Senegambia and off-shore Atlantic,Northern U.S.,107,tast_estimates,slavevoyages_tast_estimates
+1755,Bight of Biafra,Carolinas / Georgia,180,tast_estimates,slavevoyages_tast_estimates
+1755,Senegambia and off-shore Atlantic,Carolinas / Georgia,842,tast_estimates,slavevoyages_tast_estimates
+1755,Sierra Leone,Carolinas / Georgia,121,tast_estimates,slavevoyages_tast_estimates
+1755,West Central Africa and St. Helena,Carolinas / Georgia,312,tast_estimates,slavevoyages_tast_estimates
+1755,Windward Coast,Carolinas / Georgia,486,tast_estimates,slavevoyages_tast_estimates
+1755,Bight of Biafra,Chesapeake,311,tast_estimates,slavevoyages_tast_estimates
+1756,Bight of Biafra,Carolinas / Georgia,1016,tast_estimates,slavevoyages_tast_estimates
+1756,Senegambia and off-shore Atlantic,Carolinas / Georgia,1492,tast_estimates,slavevoyages_tast_estimates
+1756,Sierra Leone,Carolinas / Georgia,338,tast_estimates,slavevoyages_tast_estimates
+1756,Bight of Biafra,Chesapeake,160,tast_estimates,slavevoyages_tast_estimates
+1756,Sierra Leone,Chesapeake,124,tast_estimates,slavevoyages_tast_estimates
+1756,Bight of Benin,Gulf states,362,tast_estimates,slavevoyages_tast_estimates
+1756,Senegambia and off-shore Atlantic,Northern U.S.,80,tast_estimates,slavevoyages_tast_estimates
+1757,Bight of Biafra,Carolinas / Georgia,618,tast_estimates,slavevoyages_tast_estimates
+1757,Senegambia and off-shore Atlantic,Carolinas / Georgia,488,tast_estimates,slavevoyages_tast_estimates
+1757,Gold Coast,Northern U.S.,86,tast_estimates,slavevoyages_tast_estimates
+1757,Senegambia and off-shore Atlantic,Northern U.S.,544,tast_estimates,slavevoyages_tast_estimates
+1758,Bight of Benin,Carolinas / Georgia,217,tast_estimates,slavevoyages_tast_estimates
+1758,Bight of Biafra,Carolinas / Georgia,306,tast_estimates,slavevoyages_tast_estimates
+1758,Gold Coast,Carolinas / Georgia,882,tast_estimates,slavevoyages_tast_estimates
+1758,Senegambia and off-shore Atlantic,Carolinas / Georgia,778,tast_estimates,slavevoyages_tast_estimates
+1758,Sierra Leone,Carolinas / Georgia,560,tast_estimates,slavevoyages_tast_estimates
+1758,South-east Africa and Indian ocean islands,Carolinas / Georgia,311,tast_estimates,slavevoyages_tast_estimates
+1758,West Central Africa and St. Helena,Carolinas / Georgia,1234,tast_estimates,slavevoyages_tast_estimates
+1758,Windward Coast,Carolinas / Georgia,225,tast_estimates,slavevoyages_tast_estimates
+1758,Sierra Leone,Chesapeake,237,tast_estimates,slavevoyages_tast_estimates
+1758,Windward Coast,Chesapeake,238,tast_estimates,slavevoyages_tast_estimates
+1758,Gold Coast,Northern U.S.,297,tast_estimates,slavevoyages_tast_estimates
+1758,Senegambia and off-shore Atlantic,Northern U.S.,480,tast_estimates,slavevoyages_tast_estimates
+1759,Bight of Benin,Carolinas / Georgia,312,tast_estimates,slavevoyages_tast_estimates
+1759,Bight of Biafra,Carolinas / Georgia,296,tast_estimates,slavevoyages_tast_estimates
+1759,Senegambia and off-shore Atlantic,Carolinas / Georgia,582,tast_estimates,slavevoyages_tast_estimates
+1759,Sierra Leone,Carolinas / Georgia,260,tast_estimates,slavevoyages_tast_estimates
+1759,Windward Coast,Carolinas / Georgia,596,tast_estimates,slavevoyages_tast_estimates
+1759,Gold Coast,Chesapeake,547,tast_estimates,slavevoyages_tast_estimates
+1759,Senegambia and off-shore Atlantic,Chesapeake,812,tast_estimates,slavevoyages_tast_estimates
+1759,West Central Africa and St. Helena,Chesapeake,781,tast_estimates,slavevoyages_tast_estimates
+1759,Gold Coast,Northern U.S.,80,tast_estimates,slavevoyages_tast_estimates
+1759,Senegambia and off-shore Atlantic,Northern U.S.,548,tast_estimates,slavevoyages_tast_estimates
+1760,Bight of Biafra,Carolinas / Georgia,710,tast_estimates,slavevoyages_tast_estimates
+1760,Gold Coast,Carolinas / Georgia,633,tast_estimates,slavevoyages_tast_estimates
+1760,Senegambia and off-shore Atlantic,Carolinas / Georgia,1129,tast_estimates,slavevoyages_tast_estimates
+1760,Sierra Leone,Carolinas / Georgia,870,tast_estimates,slavevoyages_tast_estimates
+1760,West Central Africa and St. Helena,Carolinas / Georgia,883,tast_estimates,slavevoyages_tast_estimates
+1760,Windward Coast,Carolinas / Georgia,219,tast_estimates,slavevoyages_tast_estimates
+1760,Bight of Biafra,Chesapeake,493,tast_estimates,slavevoyages_tast_estimates
+1760,Senegambia and off-shore Atlantic,Chesapeake,334,tast_estimates,slavevoyages_tast_estimates
+1760,Sierra Leone,Chesapeake,824,tast_estimates,slavevoyages_tast_estimates
+1760,West Central Africa and St. Helena,Chesapeake,421,tast_estimates,slavevoyages_tast_estimates
+1760,Windward Coast,Chesapeake,466,tast_estimates,slavevoyages_tast_estimates
+1760,Gold Coast,Northern U.S.,782,tast_estimates,slavevoyages_tast_estimates
+1760,Windward Coast,Northern U.S.,241,tast_estimates,slavevoyages_tast_estimates
+1761,Senegambia and off-shore Atlantic,Carolinas / Georgia,1485,tast_estimates,slavevoyages_tast_estimates
+1761,Sierra Leone,Carolinas / Georgia,1241,tast_estimates,slavevoyages_tast_estimates
+1761,West Central Africa and St. Helena,Carolinas / Georgia,418,tast_estimates,slavevoyages_tast_estimates
+1761,Bight of Biafra,Chesapeake,145,tast_estimates,slavevoyages_tast_estimates
+1761,Senegambia and off-shore Atlantic,Chesapeake,1072,tast_estimates,slavevoyages_tast_estimates
+1761,Sierra Leone,Chesapeake,618,tast_estimates,slavevoyages_tast_estimates
+1761,West Central Africa and St. Helena,Chesapeake,161,tast_estimates,slavevoyages_tast_estimates
+1761,Windward Coast,Chesapeake,702,tast_estimates,slavevoyages_tast_estimates
+1761,Gold Coast,Northern U.S.,1061,tast_estimates,slavevoyages_tast_estimates
+1761,Windward Coast,Northern U.S.,258,tast_estimates,slavevoyages_tast_estimates
+1762,Gold Coast,Carolinas / Georgia,357,tast_estimates,slavevoyages_tast_estimates
+1762,West Central Africa and St. Helena,Carolinas / Georgia,274,tast_estimates,slavevoyages_tast_estimates
+1762,Windward Coast,Carolinas / Georgia,169,tast_estimates,slavevoyages_tast_estimates
+1762,Bight of Benin,Chesapeake,194,tast_estimates,slavevoyages_tast_estimates
+1762,Bight of Biafra,Chesapeake,413,tast_estimates,slavevoyages_tast_estimates
+1762,Gold Coast,Chesapeake,992,tast_estimates,slavevoyages_tast_estimates
+1762,Senegambia and off-shore Atlantic,Chesapeake,674,tast_estimates,slavevoyages_tast_estimates
+1762,West Central Africa and St. Helena,Chesapeake,671,tast_estimates,slavevoyages_tast_estimates
+1762,Windward Coast,Chesapeake,229,tast_estimates,slavevoyages_tast_estimates
+1762,Gold Coast,Northern U.S.,455,tast_estimates,slavevoyages_tast_estimates
+1762,Senegambia and off-shore Atlantic,Northern U.S.,322,tast_estimates,slavevoyages_tast_estimates
+1762,Windward Coast,Northern U.S.,264,tast_estimates,slavevoyages_tast_estimates
+1763,Bight of Biafra,Carolinas / Georgia,143,tast_estimates,slavevoyages_tast_estimates
+1763,Gold Coast,Carolinas / Georgia,654,tast_estimates,slavevoyages_tast_estimates
+1763,Senegambia and off-shore Atlantic,Carolinas / Georgia,477,tast_estimates,slavevoyages_tast_estimates
+1763,Sierra Leone,Carolinas / Georgia,211,tast_estimates,slavevoyages_tast_estimates
+1763,West Central Africa and St. Helena,Carolinas / Georgia,417,tast_estimates,slavevoyages_tast_estimates
+1763,Windward Coast,Carolinas / Georgia,171,tast_estimates,slavevoyages_tast_estimates
+1763,Bight of Biafra,Chesapeake,705,tast_estimates,slavevoyages_tast_estimates
+1763,Gold Coast,Chesapeake,209,tast_estimates,slavevoyages_tast_estimates
+1763,Senegambia and off-shore Atlantic,Chesapeake,101,tast_estimates,slavevoyages_tast_estimates
+1763,West Central Africa and St. Helena,Chesapeake,321,tast_estimates,slavevoyages_tast_estimates
+1763,Windward Coast,Chesapeake,476,tast_estimates,slavevoyages_tast_estimates
+1763,Gold Coast,Northern U.S.,490,tast_estimates,slavevoyages_tast_estimates
+1764,Bight of Benin,Carolinas / Georgia,453,tast_estimates,slavevoyages_tast_estimates
+1764,Gold Coast,Carolinas / Georgia,344,tast_estimates,slavevoyages_tast_estimates
+1764,Senegambia and off-shore Atlantic,Carolinas / Georgia,1230,tast_estimates,slavevoyages_tast_estimates
+1764,Sierra Leone,Carolinas / Georgia,905,tast_estimates,slavevoyages_tast_estimates
+1764,West Central Africa and St. Helena,Carolinas / Georgia,1020,tast_estimates,slavevoyages_tast_estimates
+1764,Windward Coast,Carolinas / Georgia,536,tast_estimates,slavevoyages_tast_estimates
+1764,Bight of Benin,Chesapeake,398,tast_estimates,slavevoyages_tast_estimates
+1764,Senegambia and off-shore Atlantic,Chesapeake,613,tast_estimates,slavevoyages_tast_estimates
+1764,West Central Africa and St. Helena,Chesapeake,487,tast_estimates,slavevoyages_tast_estimates
+1764,Gold Coast,Northern U.S.,412,tast_estimates,slavevoyages_tast_estimates
+1765,Bight of Biafra,Carolinas / Georgia,657,tast_estimates,slavevoyages_tast_estimates
+1765,Gold Coast,Carolinas / Georgia,1666,tast_estimates,slavevoyages_tast_estimates
+1765,Senegambia and off-shore Atlantic,Carolinas / Georgia,1788,tast_estimates,slavevoyages_tast_estimates
+1765,Sierra Leone,Carolinas / Georgia,771,tast_estimates,slavevoyages_tast_estimates
+1765,West Central Africa and St. Helena,Carolinas / Georgia,1508,tast_estimates,slavevoyages_tast_estimates
+1765,Windward Coast,Carolinas / Georgia,1445,tast_estimates,slavevoyages_tast_estimates
+1765,Gold Coast,Chesapeake,209,tast_estimates,slavevoyages_tast_estimates
+1765,Senegambia and off-shore Atlantic,Chesapeake,113,tast_estimates,slavevoyages_tast_estimates
+1765,Senegambia and off-shore Atlantic,Northern U.S.,197,tast_estimates,slavevoyages_tast_estimates
+1765,Sierra Leone,Northern U.S.,524,tast_estimates,slavevoyages_tast_estimates
+1766,Bight of Biafra,Carolinas / Georgia,334,tast_estimates,slavevoyages_tast_estimates
+1766,Senegambia and off-shore Atlantic,Carolinas / Georgia,786,tast_estimates,slavevoyages_tast_estimates
+1766,Sierra Leone,Carolinas / Georgia,168,tast_estimates,slavevoyages_tast_estimates
+1766,Gold Coast,Chesapeake,776,tast_estimates,slavevoyages_tast_estimates
+1766,Senegambia and off-shore Atlantic,Northern U.S.,194,tast_estimates,slavevoyages_tast_estimates
+1767,Sierra Leone,Carolinas / Georgia,216,tast_estimates,slavevoyages_tast_estimates
+1767,West Central Africa and St. Helena,Carolinas / Georgia,988,tast_estimates,slavevoyages_tast_estimates
+1767,Windward Coast,Carolinas / Georgia,146,tast_estimates,slavevoyages_tast_estimates
+1767,Gold Coast,Chesapeake,157,tast_estimates,slavevoyages_tast_estimates
+1767,Senegambia and off-shore Atlantic,Chesapeake,134,tast_estimates,slavevoyages_tast_estimates
+1767,Sierra Leone,Gulf states,73,tast_estimates,slavevoyages_tast_estimates
+1767,Senegambia and off-shore Atlantic,Northern U.S.,186,tast_estimates,slavevoyages_tast_estimates
+1768,Senegambia and off-shore Atlantic,Carolinas / Georgia,92,tast_estimates,slavevoyages_tast_estimates
+1768,Sierra Leone,Carolinas / Georgia,170,tast_estimates,slavevoyages_tast_estimates
+1768,West Central Africa and St. Helena,Carolinas / Georgia,259,tast_estimates,slavevoyages_tast_estimates
+1768,Windward Coast,Carolinas / Georgia,195,tast_estimates,slavevoyages_tast_estimates
+1768,Gold Coast,Chesapeake,129,tast_estimates,slavevoyages_tast_estimates
+1768,West Central Africa and St. Helena,Chesapeake,261,tast_estimates,slavevoyages_tast_estimates
+1768,Windward Coast,Chesapeake,457,tast_estimates,slavevoyages_tast_estimates
+1768,Senegambia and off-shore Atlantic,Northern U.S.,148,tast_estimates,slavevoyages_tast_estimates
+1769,Bight of Benin,Carolinas / Georgia,244,tast_estimates,slavevoyages_tast_estimates
+1769,Bight of Biafra,Carolinas / Georgia,342,tast_estimates,slavevoyages_tast_estimates
+1769,Gold Coast,Carolinas / Georgia,347,tast_estimates,slavevoyages_tast_estimates
+1769,Senegambia and off-shore Atlantic,Carolinas / Georgia,1287,tast_estimates,slavevoyages_tast_estimates
+1769,Sierra Leone,Carolinas / Georgia,909,tast_estimates,slavevoyages_tast_estimates
+1769,West Central Africa and St. Helena,Carolinas / Georgia,871,tast_estimates,slavevoyages_tast_estimates
+1769,Windward Coast,Carolinas / Georgia,1243,tast_estimates,slavevoyages_tast_estimates
+1769,Gold Coast,Chesapeake,144,tast_estimates,slavevoyages_tast_estimates
+1769,West Central Africa and St. Helena,Chesapeake,239,tast_estimates,slavevoyages_tast_estimates
+1769,Senegambia and off-shore Atlantic,Northern U.S.,368,tast_estimates,slavevoyages_tast_estimates
+1770,Senegambia and off-shore Atlantic,Carolinas / Georgia,223,tast_estimates,slavevoyages_tast_estimates
+1770,Sierra Leone,Carolinas / Georgia,438,tast_estimates,slavevoyages_tast_estimates
+1770,Windward Coast,Carolinas / Georgia,449,tast_estimates,slavevoyages_tast_estimates
+1770,Senegambia and off-shore Atlantic,Chesapeake,684,tast_estimates,slavevoyages_tast_estimates
+1770,West Central Africa and St. Helena,Chesapeake,166,tast_estimates,slavevoyages_tast_estimates
+1770,Windward Coast,Chesapeake,303,tast_estimates,slavevoyages_tast_estimates
+1770,Sierra Leone,Gulf states,254,tast_estimates,slavevoyages_tast_estimates
+1770,Gold Coast,Northern U.S.,208,tast_estimates,slavevoyages_tast_estimates
+1770,Senegambia and off-shore Atlantic,Northern U.S.,280,tast_estimates,slavevoyages_tast_estimates
+1771,Gold Coast,Carolinas / Georgia,118,tast_estimates,slavevoyages_tast_estimates
+1771,Senegambia and off-shore Atlantic,Carolinas / Georgia,993,tast_estimates,slavevoyages_tast_estimates
+1771,Sierra Leone,Carolinas / Georgia,763,tast_estimates,slavevoyages_tast_estimates
+1771,West Central Africa and St. Helena,Carolinas / Georgia,712,tast_estimates,slavevoyages_tast_estimates
+1771,Windward Coast,Carolinas / Georgia,576,tast_estimates,slavevoyages_tast_estimates
+1771,Bight of Biafra,Chesapeake,227,tast_estimates,slavevoyages_tast_estimates
+1771,Gold Coast,Chesapeake,162,tast_estimates,slavevoyages_tast_estimates
+1771,Senegambia and off-shore Atlantic,Chesapeake,238,tast_estimates,slavevoyages_tast_estimates
+1771,Sierra Leone,Gulf states,134,tast_estimates,slavevoyages_tast_estimates
+1772,Bight of Benin,Carolinas / Georgia,348,tast_estimates,slavevoyages_tast_estimates
+1772,Gold Coast,Carolinas / Georgia,1268,tast_estimates,slavevoyages_tast_estimates
+1772,Senegambia and off-shore Atlantic,Carolinas / Georgia,1232,tast_estimates,slavevoyages_tast_estimates
+1772,Sierra Leone,Carolinas / Georgia,669,tast_estimates,slavevoyages_tast_estimates
+1772,West Central Africa and St. Helena,Carolinas / Georgia,651,tast_estimates,slavevoyages_tast_estimates
+1772,Windward Coast,Carolinas / Georgia,559,tast_estimates,slavevoyages_tast_estimates
+1772,Bight of Biafra,Chesapeake,390,tast_estimates,slavevoyages_tast_estimates
+1772,Gold Coast,Chesapeake,769,tast_estimates,slavevoyages_tast_estimates
+1772,Senegambia and off-shore Atlantic,Chesapeake,143,tast_estimates,slavevoyages_tast_estimates
+1772,Sierra Leone,Chesapeake,409,tast_estimates,slavevoyages_tast_estimates
+1772,West Central Africa and St. Helena,Chesapeake,681,tast_estimates,slavevoyages_tast_estimates
+1773,Bight of Benin,Carolinas / Georgia,331,tast_estimates,slavevoyages_tast_estimates
+1773,Bight of Biafra,Carolinas / Georgia,150,tast_estimates,slavevoyages_tast_estimates
+1773,Gold Coast,Carolinas / Georgia,2338,tast_estimates,slavevoyages_tast_estimates
+1773,Senegambia and off-shore Atlantic,Carolinas / Georgia,2655,tast_estimates,slavevoyages_tast_estimates
+1773,Sierra Leone,Carolinas / Georgia,2169,tast_estimates,slavevoyages_tast_estimates
+1773,West Central Africa and St. Helena,Carolinas / Georgia,722,tast_estimates,slavevoyages_tast_estimates
+1773,Windward Coast,Carolinas / Georgia,1414,tast_estimates,slavevoyages_tast_estimates
+1773,Gold Coast,Chesapeake,120,tast_estimates,slavevoyages_tast_estimates
+1773,Senegambia and off-shore Atlantic,Chesapeake,158,tast_estimates,slavevoyages_tast_estimates
+1773,Sierra Leone,Gulf states,83,tast_estimates,slavevoyages_tast_estimates
+1774,Bight of Benin,Carolinas / Georgia,438,tast_estimates,slavevoyages_tast_estimates
+1774,Gold Coast,Carolinas / Georgia,1152,tast_estimates,slavevoyages_tast_estimates
+1774,Senegambia and off-shore Atlantic,Carolinas / Georgia,2530,tast_estimates,slavevoyages_tast_estimates
+1774,Sierra Leone,Carolinas / Georgia,1248,tast_estimates,slavevoyages_tast_estimates
+1774,West Central Africa and St. Helena,Carolinas / Georgia,553,tast_estimates,slavevoyages_tast_estimates
+1774,Windward Coast,Carolinas / Georgia,838,tast_estimates,slavevoyages_tast_estimates
+1774,Senegambia and off-shore Atlantic,Chesapeake,211,tast_estimates,slavevoyages_tast_estimates
+1774,Sierra Leone,Gulf states,102,tast_estimates,slavevoyages_tast_estimates
+1775,Senegambia and off-shore Atlantic,Carolinas / Georgia,200,tast_estimates,slavevoyages_tast_estimates
+1775,Gold Coast,Gulf states,204,tast_estimates,slavevoyages_tast_estimates
+1775,Senegambia and off-shore Atlantic,Gulf states,79,tast_estimates,slavevoyages_tast_estimates
+1775,Sierra Leone,Gulf states,299,tast_estimates,slavevoyages_tast_estimates
+1775,Gold Coast,Northern U.S.,149,tast_estimates,slavevoyages_tast_estimates
+1776,Senegambia and off-shore Atlantic,Carolinas / Georgia,278,tast_estimates,slavevoyages_tast_estimates
+1776,Senegambia and off-shore Atlantic,Gulf states,1207,tast_estimates,slavevoyages_tast_estimates
+1777,Senegambia and off-shore Atlantic,Gulf states,149,tast_estimates,slavevoyages_tast_estimates
+1780,Senegambia and off-shore Atlantic,Chesapeake,367,tast_estimates,slavevoyages_tast_estimates
+1781,Senegambia and off-shore Atlantic,Chesapeake,106,tast_estimates,slavevoyages_tast_estimates
+1782,Senegambia and off-shore Atlantic,Carolinas / Georgia,158,tast_estimates,slavevoyages_tast_estimates
+1783,Gold Coast,Carolinas / Georgia,649,tast_estimates,slavevoyages_tast_estimates
+1783,West Central Africa and St. Helena,Carolinas / Georgia,267,tast_estimates,slavevoyages_tast_estimates
+1784,Bight of Biafra,Carolinas / Georgia,362,tast_estimates,slavevoyages_tast_estimates
+1784,Gold Coast,Carolinas / Georgia,1078,tast_estimates,slavevoyages_tast_estimates
+1784,Senegambia and off-shore Atlantic,Carolinas / Georgia,586,tast_estimates,slavevoyages_tast_estimates
+1784,Sierra Leone,Carolinas / Georgia,352,tast_estimates,slavevoyages_tast_estimates
+1784,West Central Africa and St. Helena,Carolinas / Georgia,1961,tast_estimates,slavevoyages_tast_estimates
+1784,Windward Coast,Carolinas / Georgia,442,tast_estimates,slavevoyages_tast_estimates
+1784,West Central Africa and St. Helena,Gulf states,199,tast_estimates,slavevoyages_tast_estimates
+1785,Gold Coast,Carolinas / Georgia,2224,tast_estimates,slavevoyages_tast_estimates
+1785,Senegambia and off-shore Atlantic,Carolinas / Georgia,1398,tast_estimates,slavevoyages_tast_estimates
+1785,Sierra Leone,Carolinas / Georgia,573,tast_estimates,slavevoyages_tast_estimates
+1785,West Central Africa and St. Helena,Carolinas / Georgia,217,tast_estimates,slavevoyages_tast_estimates
+1786,Gold Coast,Carolinas / Georgia,665,tast_estimates,slavevoyages_tast_estimates
+1786,Senegambia and off-shore Atlantic,Carolinas / Georgia,49,tast_estimates,slavevoyages_tast_estimates
+1786,Sierra Leone,Carolinas / Georgia,92,tast_estimates,slavevoyages_tast_estimates
+1787,Gold Coast,Carolinas / Georgia,460,tast_estimates,slavevoyages_tast_estimates
+1787,Windward Coast,Carolinas / Georgia,255,tast_estimates,slavevoyages_tast_estimates
+1788,Senegambia and off-shore Atlantic,Carolinas / Georgia,581,tast_estimates,slavevoyages_tast_estimates
+1788,Bight of Benin,Gulf states,228,tast_estimates,slavevoyages_tast_estimates
+1788,Senegambia and off-shore Atlantic,Gulf states,205,tast_estimates,slavevoyages_tast_estimates
+1789,Senegambia and off-shore Atlantic,Carolinas / Georgia,537,tast_estimates,slavevoyages_tast_estimates
+1789,Windward Coast,Carolinas / Georgia,290,tast_estimates,slavevoyages_tast_estimates
+1790,Sierra Leone,Carolinas / Georgia,169,tast_estimates,slavevoyages_tast_estimates
+1790,Bight of Benin,Gulf states,197,tast_estimates,slavevoyages_tast_estimates
+1791,Gold Coast,U.S.A. unspecified,371,tast_estimates,slavevoyages_tast_estimates
+1792,Gold Coast,Carolinas / Georgia,491,tast_estimates,slavevoyages_tast_estimates
+1792,Senegambia and off-shore Atlantic,Carolinas / Georgia,304,tast_estimates,slavevoyages_tast_estimates
+1792,Sierra Leone,Carolinas / Georgia,1416,tast_estimates,slavevoyages_tast_estimates
+1792,West Central Africa and St. Helena,Gulf states,394,tast_estimates,slavevoyages_tast_estimates
+1793,Gold Coast,Carolinas / Georgia,64,tast_estimates,slavevoyages_tast_estimates
+1793,Sierra Leone,Carolinas / Georgia,698,tast_estimates,slavevoyages_tast_estimates
+1793,Sierra Leone,Gulf states,192,tast_estimates,slavevoyages_tast_estimates
+1794,Senegambia and off-shore Atlantic,Carolinas / Georgia,77,tast_estimates,slavevoyages_tast_estimates
+1794,Sierra Leone,Carolinas / Georgia,213,tast_estimates,slavevoyages_tast_estimates
+1795,Senegambia and off-shore Atlantic,Carolinas / Georgia,583,tast_estimates,slavevoyages_tast_estimates
+1795,Sierra Leone,Carolinas / Georgia,1270,tast_estimates,slavevoyages_tast_estimates
+1795,Windward Coast,Carolinas / Georgia,208,tast_estimates,slavevoyages_tast_estimates
+1796,Gold Coast,Carolinas / Georgia,2451,tast_estimates,slavevoyages_tast_estimates
+1796,Senegambia and off-shore Atlantic,Carolinas / Georgia,642,tast_estimates,slavevoyages_tast_estimates
+1796,Sierra Leone,Carolinas / Georgia,1594,tast_estimates,slavevoyages_tast_estimates
+1796,Windward Coast,Carolinas / Georgia,103,tast_estimates,slavevoyages_tast_estimates
+1797,Gold Coast,Carolinas / Georgia,506,tast_estimates,slavevoyages_tast_estimates
+1797,Sierra Leone,Carolinas / Georgia,1487,tast_estimates,slavevoyages_tast_estimates
+1797,Windward Coast,Carolinas / Georgia,222,tast_estimates,slavevoyages_tast_estimates
+1798,Sierra Leone,Carolinas / Georgia,182,tast_estimates,slavevoyages_tast_estimates
+1798,West Central Africa and St. Helena,Carolinas / Georgia,340,tast_estimates,slavevoyages_tast_estimates
+1798,Windward Coast,Carolinas / Georgia,97,tast_estimates,slavevoyages_tast_estimates
+1799,Sierra Leone,Carolinas / Georgia,3,tast_estimates,slavevoyages_tast_estimates
+1800,West Central Africa and St. Helena,Carolinas / Georgia,134,tast_estimates,slavevoyages_tast_estimates
+1800,Sierra Leone,Gulf states,87,tast_estimates,slavevoyages_tast_estimates
+1800,Gold Coast,Northern U.S.,260,tast_estimates,slavevoyages_tast_estimates
+1801,Bight of Biafra,Carolinas / Georgia,171,tast_estimates,slavevoyages_tast_estimates
+1801,West Central Africa and St. Helena,Carolinas / Georgia,150,tast_estimates,slavevoyages_tast_estimates
+1801,Gold Coast,Chesapeake,68,tast_estimates,slavevoyages_tast_estimates
+1801,Gold Coast,Northern U.S.,179,tast_estimates,slavevoyages_tast_estimates
+1802,Bight of Biafra,Carolinas / Georgia,552,tast_estimates,slavevoyages_tast_estimates
+1802,Gold Coast,Gulf states,535,tast_estimates,slavevoyages_tast_estimates
+1802,Sierra Leone,Gulf states,306,tast_estimates,slavevoyages_tast_estimates
+1802,Gold Coast,Northern U.S.,158,tast_estimates,slavevoyages_tast_estimates
+1803,West Central Africa and St. Helena,Carolinas / Georgia,1167,tast_estimates,slavevoyages_tast_estimates
+1803,Windward Coast,Carolinas / Georgia,130,tast_estimates,slavevoyages_tast_estimates
+1803,Senegambia and off-shore Atlantic,Gulf states,783,tast_estimates,slavevoyages_tast_estimates
+1803,West Central Africa and St. Helena,Gulf states,237,tast_estimates,slavevoyages_tast_estimates
+1804,Bight of Benin,Carolinas / Georgia,318,tast_estimates,slavevoyages_tast_estimates
+1804,Bight of Biafra,Carolinas / Georgia,354,tast_estimates,slavevoyages_tast_estimates
+1804,Gold Coast,Carolinas / Georgia,799,tast_estimates,slavevoyages_tast_estimates
+1804,Senegambia and off-shore Atlantic,Carolinas / Georgia,1353,tast_estimates,slavevoyages_tast_estimates
+1804,Sierra Leone,Carolinas / Georgia,351,tast_estimates,slavevoyages_tast_estimates
+1804,South-east Africa and Indian ocean islands,Carolinas / Georgia,451,tast_estimates,slavevoyages_tast_estimates
+1804,West Central Africa and St. Helena,Carolinas / Georgia,4114,tast_estimates,slavevoyages_tast_estimates
+1804,Windward Coast,Carolinas / Georgia,1338,tast_estimates,slavevoyages_tast_estimates
+1804,Senegambia and off-shore Atlantic,Gulf states,187,tast_estimates,slavevoyages_tast_estimates
+1804,West Central Africa and St. Helena,Gulf states,451,tast_estimates,slavevoyages_tast_estimates
+1805,Bight of Benin,Carolinas / Georgia,312,tast_estimates,slavevoyages_tast_estimates
+1805,Bight of Biafra,Carolinas / Georgia,534,tast_estimates,slavevoyages_tast_estimates
+1805,Gold Coast,Carolinas / Georgia,2765,tast_estimates,slavevoyages_tast_estimates
+1805,Senegambia and off-shore Atlantic,Carolinas / Georgia,1694,tast_estimates,slavevoyages_tast_estimates
+1805,Sierra Leone,Carolinas / Georgia,1299,tast_estimates,slavevoyages_tast_estimates
+1805,West Central Africa and St. Helena,Carolinas / Georgia,2789,tast_estimates,slavevoyages_tast_estimates
+1805,Windward Coast,Carolinas / Georgia,1187,tast_estimates,slavevoyages_tast_estimates
+1805,West Central Africa and St. Helena,Gulf states,180,tast_estimates,slavevoyages_tast_estimates
+1805,Senegambia and off-shore Atlantic,U.S.A. unspecified,157,tast_estimates,slavevoyages_tast_estimates
+1806,Bight of Benin,Carolinas / Georgia,181,tast_estimates,slavevoyages_tast_estimates
+1806,Bight of Biafra,Carolinas / Georgia,326,tast_estimates,slavevoyages_tast_estimates
+1806,Gold Coast,Carolinas / Georgia,2154,tast_estimates,slavevoyages_tast_estimates
+1806,Senegambia and off-shore Atlantic,Carolinas / Georgia,1048,tast_estimates,slavevoyages_tast_estimates
+1806,Sierra Leone,Carolinas / Georgia,4555,tast_estimates,slavevoyages_tast_estimates
+1806,South-east Africa and Indian ocean islands,Carolinas / Georgia,719,tast_estimates,slavevoyages_tast_estimates
+1806,West Central Africa and St. Helena,Carolinas / Georgia,6939,tast_estimates,slavevoyages_tast_estimates
+1806,Windward Coast,Carolinas / Georgia,1148,tast_estimates,slavevoyages_tast_estimates
+1806,South-east Africa and Indian ocean islands,Gulf states,29,tast_estimates,slavevoyages_tast_estimates
+1807,Bight of Biafra,Carolinas / Georgia,1773,tast_estimates,slavevoyages_tast_estimates
+1807,Gold Coast,Carolinas / Georgia,3525,tast_estimates,slavevoyages_tast_estimates
+1807,Senegambia and off-shore Atlantic,Carolinas / Georgia,2567,tast_estimates,slavevoyages_tast_estimates
+1807,Sierra Leone,Carolinas / Georgia,7184,tast_estimates,slavevoyages_tast_estimates
+1807,West Central Africa and St. Helena,Carolinas / Georgia,10920,tast_estimates,slavevoyages_tast_estimates
+1807,Windward Coast,Carolinas / Georgia,1163,tast_estimates,slavevoyages_tast_estimates
+1807,Gold Coast,Gulf states,305,tast_estimates,slavevoyages_tast_estimates
+1807,Senegambia and off-shore Atlantic,Gulf states,150,tast_estimates,slavevoyages_tast_estimates
+1807,South-east Africa and Indian ocean islands,Gulf states,684,tast_estimates,slavevoyages_tast_estimates
+1807,West Central Africa and St. Helena,Gulf states,621,tast_estimates,slavevoyages_tast_estimates
+1808,Senegambia and off-shore Atlantic,Carolinas / Georgia,133,tast_estimates,slavevoyages_tast_estimates
+1808,Sierra Leone,Carolinas / Georgia,156,tast_estimates,slavevoyages_tast_estimates
+1808,West Central Africa and St. Helena,Carolinas / Georgia,361,tast_estimates,slavevoyages_tast_estimates
+1808,South-east Africa and Indian ocean islands,Gulf states,281,tast_estimates,slavevoyages_tast_estimates
+1810,Bight of Benin,Gulf states,170,tast_estimates,slavevoyages_tast_estimates
+1810,Sierra Leone,Gulf states,812,tast_estimates,slavevoyages_tast_estimates
+1813,Senegambia and off-shore Atlantic,Gulf states,410,tast_estimates,slavevoyages_tast_estimates
+1814,Sierra Leone,Gulf states,410,tast_estimates,slavevoyages_tast_estimates
+1815,Bight of Biafra,Gulf states,410,tast_estimates,slavevoyages_tast_estimates
+1816,West Central Africa and St. Helena,Gulf states,410,tast_estimates,slavevoyages_tast_estimates
+1817,Senegambia and off-shore Atlantic,Gulf states,400,tast_estimates,slavevoyages_tast_estimates
+1817,Sierra Leone,Gulf states,670,tast_estimates,slavevoyages_tast_estimates
+1817,Bight of Biafra,U.S.A. unspecified,350,tast_estimates,slavevoyages_tast_estimates
+1818,Senegambia and off-shore Atlantic,Carolinas / Georgia,95,tast_estimates,slavevoyages_tast_estimates
+1818,Bight of Biafra,Gulf states,250,tast_estimates,slavevoyages_tast_estimates
+1818,West Central Africa and St. Helena,Gulf states,410,tast_estimates,slavevoyages_tast_estimates
+1819,South-east Africa and Indian ocean islands,Gulf states,410,tast_estimates,slavevoyages_tast_estimates
+1820,West Central Africa and St. Helena,Gulf states,410,tast_estimates,slavevoyages_tast_estimates
+1830,Bight of Biafra,Gulf states,91,tast_estimates,slavevoyages_tast_estimates
+1858,West Central Africa and St. Helena,Carolinas / Georgia,303,tast_estimates,slavevoyages_tast_estimates
+1860,Bight of Benin,Gulf states,110,tast_estimates,slavevoyages_tast_estimates
+1619,Other: Americas,Virginia,29,intra_american,slavevoyages_iastd
+1621,Other: Americas,Virginia,1,intra_american,slavevoyages_iastd
+1622,Other: Americas,Virginia,1,intra_american,slavevoyages_iastd
+1623,Other: Americas,Virginia,1,intra_american,slavevoyages_iastd
+1636,Other: Non-geographical,New York,3,intra_american,slavevoyages_iastd
+1637,Other: Americas,Virginia,1,intra_american,slavevoyages_iastd
+1638,Caribbean: Other Spanish Caribbean,Massachusetts,7,intra_american,slavevoyages_iastd
+1638,Other: Americas,Virginia,12,intra_american,slavevoyages_iastd
+1642,Other: Americas,New York,57,intra_american,slavevoyages_iastd
+1646,Other: Americas,New York,12,intra_american,slavevoyages_iastd
+1649,Caribbean: Barbados,Virginia,4,intra_american,slavevoyages_iastd
+1649,Other: Americas,Virginia,8,intra_american,slavevoyages_iastd
+1650,Brazil: Other Brazil,Virginia,30,intra_american,slavevoyages_iastd
+1652,Caribbean: Jamaica,New York,44,intra_american,slavevoyages_iastd
+1652,Mainland North America: Virginia,Virginia,50,intra_american,slavevoyages_iastd
+1655,Mainland North America: New York,Virginia,39,intra_american,slavevoyages_iastd
+1657,Caribbean: Dutch Caribbean,New York,38,intra_american,slavevoyages_iastd
+1657,Other: Americas,Virginia,6,intra_american,slavevoyages_iastd
+1658,Caribbean: Barbados,Maryland,5,intra_american,slavevoyages_iastd
+1659,Caribbean: Dutch Caribbean,New York,4,intra_american,slavevoyages_iastd
+1660,Caribbean: Dutch Caribbean,New York,10,intra_american,slavevoyages_iastd
+1661,Caribbean: Dutch Caribbean,New York,38,intra_american,slavevoyages_iastd
+1663,Other: Americas,Virginia,20,intra_american,slavevoyages_iastd
+1664,Other: Americas,New York,40,intra_american,slavevoyages_iastd
+1669,Caribbean: Barbados,Maryland,3,intra_american,slavevoyages_iastd
+1671,Caribbean: Barbados,Virginia,4,intra_american,slavevoyages_iastd
+1677,Mainland North America: New York,Maryland,5,intra_american,slavevoyages_iastd
+1678,Caribbean: Barbados,Virginia,1,intra_american,slavevoyages_iastd
+1682,Other: Americas,Virginia,1,intra_american,slavevoyages_iastd
+1683,Caribbean: Barbados,South Carolina,6,intra_american,slavevoyages_iastd
+1684,Caribbean: Other Caribbean,Virginia,34,intra_american,slavevoyages_iastd
+1685,Caribbean: Barbados,Virginia,2,intra_american,slavevoyages_iastd
+1685,Caribbean: Other Caribbean,Virginia,6,intra_american,slavevoyages_iastd
+1686,Caribbean: Nevis,New York,7,intra_american,slavevoyages_iastd
+1686,Caribbean: Barbados,Virginia,4,intra_american,slavevoyages_iastd
+1687,Caribbean: Barbados,Virginia,16,intra_american,slavevoyages_iastd
+1688,Caribbean: Jamaica,New York,100,intra_american,slavevoyages_iastd
+1688,Mainland North America: Massachusetts,Virginia,3,intra_american,slavevoyages_iastd
+1690,Other: Americas,Virginia,11,intra_american,slavevoyages_iastd
+1692,Caribbean: Barbados,Maryland,8,intra_american,slavevoyages_iastd
+1693,Caribbean: Barbados,Maryland,2,intra_american,slavevoyages_iastd
+1695,Mainland North America: Maryland,Maryland,4,intra_american,slavevoyages_iastd
+1695,Other: Americas,Maryland,3,intra_american,slavevoyages_iastd
+1695,Caribbean: Other Caribbean,Virginia,2,intra_american,slavevoyages_iastd
+1696,Caribbean: Barbados,Maryland,3,intra_american,slavevoyages_iastd
+1696,Europe: England and Wales,Maryland,2,intra_american,slavevoyages_iastd
+1696,Mainland North America: New York,Maryland,13,intra_american,slavevoyages_iastd
+1696,Mainland North America: Pennsylvania,Maryland,7,intra_american,slavevoyages_iastd
+1696,Mainland North America: Virginia,Maryland,12,intra_american,slavevoyages_iastd
+1696,Other: Americas,Maryland,4,intra_american,slavevoyages_iastd
+1697,Caribbean: Barbados,Maryland,2,intra_american,slavevoyages_iastd
+1697,Caribbean: Other Caribbean,Maryland,3,intra_american,slavevoyages_iastd
+1697,Mainland North America: New York,Maryland,5,intra_american,slavevoyages_iastd
+1697,Mainland North America: Pennsylvania,Maryland,4,intra_american,slavevoyages_iastd
+1697,Other: Americas,Maryland,37,intra_american,slavevoyages_iastd
+1697,Caribbean: Barbados,South Carolina,15,intra_american,slavevoyages_iastd
+1697,Other: Americas,Virginia,3,intra_american,slavevoyages_iastd
+1698,Caribbean: Barbados,Maryland,17,intra_american,slavevoyages_iastd
+1698,Caribbean: Other Caribbean,Maryland,4,intra_american,slavevoyages_iastd
+1698,Other: Americas,Maryland,25,intra_american,slavevoyages_iastd
+1699,Other: Americas,Maryland,137,intra_american,slavevoyages_iastd
+1699,Caribbean: Barbados,Virginia,8,intra_american,slavevoyages_iastd
+1699,Caribbean: Other Caribbean,Virginia,2,intra_american,slavevoyages_iastd
+1700,Mainland North America: New York,Maryland,7,intra_american,slavevoyages_iastd
+1700,Other: Americas,Maryland,1,intra_american,slavevoyages_iastd
+1700,Caribbean: Barbados,Virginia,28,intra_american,slavevoyages_iastd
+1701,Other: Americas,Maryland,13,intra_american,slavevoyages_iastd
+1701,Caribbean: Barbados,Virginia,36,intra_american,slavevoyages_iastd
+1701,Caribbean: Jamaica,Virginia,18,intra_american,slavevoyages_iastd
+1701,Mainland North America: New York,Virginia,6,intra_american,slavevoyages_iastd
+1702,Mainland North America: Virginia,North Carolina,1,intra_american,slavevoyages_iastd
+1702,Caribbean: Barbados,Virginia,72,intra_american,slavevoyages_iastd
+1702,Caribbean: Jamaica,Virginia,4,intra_american,slavevoyages_iastd
+1702,Caribbean: Nevis,Virginia,6,intra_american,slavevoyages_iastd
+1703,Caribbean: Barbados,Maryland,55,intra_american,slavevoyages_iastd
+1703,Caribbean: Barbados,Virginia,31,intra_american,slavevoyages_iastd
+1703,Mainland North America: Maryland,Virginia,3,intra_american,slavevoyages_iastd
+1703,Mainland North America: Other North America,Virginia,1,intra_american,slavevoyages_iastd
+1704,Mainland North America: Maryland,North Carolina,1,intra_american,slavevoyages_iastd
+1705,Caribbean: Barbados,Maryland,71,intra_american,slavevoyages_iastd
+1706,Caribbean: Jamaica,Massachusetts,7,intra_american,slavevoyages_iastd
+1709,Caribbean: Jamaica,Massachusetts,11,intra_american,slavevoyages_iastd
+1709,Caribbean: Jamaica,Other North America,25,intra_american,slavevoyages_iastd
+1709,Caribbean: Jamaica,Pennsylvania,13,intra_american,slavevoyages_iastd
+1709,Caribbean: Jamaica,South Carolina,35,intra_american,slavevoyages_iastd
+1710,Caribbean: Jamaica,Massachusetts,6,intra_american,slavevoyages_iastd
+1710,Caribbean: Jamaica,New York,17,intra_american,slavevoyages_iastd
+1710,Caribbean: Jamaica,South Carolina,61,intra_american,slavevoyages_iastd
+1710,Mainland North America: New York,Virginia,2,intra_american,slavevoyages_iastd
+1711,Caribbean: Jamaica,Massachusetts,21,intra_american,slavevoyages_iastd
+1711,Caribbean: Jamaica,New York,46,intra_american,slavevoyages_iastd
+1711,Caribbean: Jamaica,Other North America,28,intra_american,slavevoyages_iastd
+1711,Caribbean: Jamaica,South Carolina,81,intra_american,slavevoyages_iastd
+1711,Caribbean: Barbados,Virginia,8,intra_american,slavevoyages_iastd
+1711,Mainland North America: South Carolina,Virginia,39,intra_american,slavevoyages_iastd
+1712,Caribbean: Barbados,Virginia,16,intra_american,slavevoyages_iastd
+1712,Mainland North America: South Carolina,Virginia,12,intra_american,slavevoyages_iastd
+1713,Caribbean: Antigua,Virginia,9,intra_american,slavevoyages_iastd
+1713,Caribbean: Barbados,Virginia,299,intra_american,slavevoyages_iastd
+1713,Europe: England and Wales,Virginia,1,intra_american,slavevoyages_iastd
+1713,Mainland North America: Maryland,Virginia,4,intra_american,slavevoyages_iastd
+1713,Mainland North America: New Jersey,Virginia,1,intra_american,slavevoyages_iastd
+1713,Mainland North America: South Carolina,Virginia,9,intra_american,slavevoyages_iastd
+1714,Caribbean: Jamaica,New York,90,intra_american,slavevoyages_iastd
+1714,Caribbean: Barbados,Virginia,138,intra_american,slavevoyages_iastd
+1714,Caribbean: Jamaica,Virginia,1,intra_american,slavevoyages_iastd
+1714,Mainland North America: North Carolina,Virginia,3,intra_american,slavevoyages_iastd
+1714,Mainland North America: Rhode Island,Virginia,2,intra_american,slavevoyages_iastd
+1715,Caribbean: Barbados,New York,7,intra_american,slavevoyages_iastd
+1715,Caribbean: Jamaica,New York,3,intra_american,slavevoyages_iastd
+1715,Caribbean: Nevis,New York,5,intra_american,slavevoyages_iastd
+1715,Mainland North America: New York,South Carolina,4,intra_american,slavevoyages_iastd
+1715,Caribbean: Barbados,Virginia,112,intra_american,slavevoyages_iastd
+1715,Caribbean: Nevis,Virginia,5,intra_american,slavevoyages_iastd
+1715,Caribbean: Other British Caribbean,Virginia,1,intra_american,slavevoyages_iastd
+1715,Caribbean: St Kitts,Virginia,1,intra_american,slavevoyages_iastd
+1715,Mainland North America: Massachusetts,Virginia,2,intra_american,slavevoyages_iastd
+1715,Mainland North America: New York,Virginia,7,intra_american,slavevoyages_iastd
+1715,Mainland North America: Pennsylvania,Virginia,2,intra_american,slavevoyages_iastd
+1715,Mainland North America: Rhode Island,Virginia,2,intra_american,slavevoyages_iastd
+1715,Mainland North America: South Carolina,Virginia,39,intra_american,slavevoyages_iastd
+1716,Caribbean: Barbados,New York,5,intra_american,slavevoyages_iastd
+1716,Caribbean: Dutch Caribbean,New York,4,intra_american,slavevoyages_iastd
+1716,Caribbean: Jamaica,New York,7,intra_american,slavevoyages_iastd
+1716,Mainland North America: South Carolina,New York,9,intra_american,slavevoyages_iastd
+1716,Spanish Mainland Americas: Spanish Circum-Caribbean,New York,4,intra_american,slavevoyages_iastd
+1716,Caribbean: Jamaica,Pennsylvania,1,intra_american,slavevoyages_iastd
+1716,Caribbean: Barbados,Virginia,132,intra_american,slavevoyages_iastd
+1716,Caribbean: Jamaica,Virginia,1,intra_american,slavevoyages_iastd
+1716,Europe: England and Wales,Virginia,1,intra_american,slavevoyages_iastd
+1716,Europe: Scotland,Virginia,1,intra_american,slavevoyages_iastd
+1716,Mainland North America: Maryland,Virginia,5,intra_american,slavevoyages_iastd
+1716,Mainland North America: Massachusetts,Virginia,4,intra_american,slavevoyages_iastd
+1716,Mainland North America: New York,Virginia,2,intra_american,slavevoyages_iastd
+1716,Mainland North America: South Carolina,Virginia,1,intra_american,slavevoyages_iastd
+1717,Caribbean: Antigua,New York,1,intra_american,slavevoyages_iastd
+1717,Caribbean: Barbados,New York,36,intra_american,slavevoyages_iastd
+1717,Caribbean: Dutch Caribbean,New York,3,intra_american,slavevoyages_iastd
+1717,Caribbean: Guadeloupe,New York,2,intra_american,slavevoyages_iastd
+1717,Caribbean: Jamaica,New York,10,intra_american,slavevoyages_iastd
+1717,Caribbean: Nevis,New York,5,intra_american,slavevoyages_iastd
+1717,Caribbean: Saint-Domingue,New York,1,intra_american,slavevoyages_iastd
+1717,Caribbean: St Kitts,New York,1,intra_american,slavevoyages_iastd
+1717,Caribbean: Barbados,North Carolina,19,intra_american,slavevoyages_iastd
+1717,Caribbean: Barbados,South Carolina,191,intra_american,slavevoyages_iastd
+1717,Caribbean: Jamaica,South Carolina,28,intra_american,slavevoyages_iastd
+1717,Caribbean: St Kitts,South Carolina,4,intra_american,slavevoyages_iastd
+1717,Mainland North America: Massachusetts,South Carolina,9,intra_american,slavevoyages_iastd
+1717,Caribbean: Antigua,Virginia,5,intra_american,slavevoyages_iastd
+1717,Caribbean: Barbados,Virginia,406,intra_american,slavevoyages_iastd
+1717,Caribbean: Jamaica,Virginia,44,intra_american,slavevoyages_iastd
+1717,Caribbean: Nevis,Virginia,9,intra_american,slavevoyages_iastd
+1717,Caribbean: St Kitts,Virginia,1,intra_american,slavevoyages_iastd
+1717,Europe: England and Wales,Virginia,1,intra_american,slavevoyages_iastd
+1717,Europe: Great Britain,Virginia,2,intra_american,slavevoyages_iastd
+1717,Mainland North America: Maryland,Virginia,16,intra_american,slavevoyages_iastd
+1717,Mainland North America: Massachusetts,Virginia,1,intra_american,slavevoyages_iastd
+1717,Mainland North America: New York,Virginia,14,intra_american,slavevoyages_iastd
+1717,Mainland North America: Other North America,Virginia,1,intra_american,slavevoyages_iastd
+1717,Mainland North America: Pennsylvania,Virginia,1,intra_american,slavevoyages_iastd
+1718,Caribbean: Antigua,Massachusetts,10,intra_american,slavevoyages_iastd
+1718,Caribbean: Barbados,Massachusetts,1,intra_american,slavevoyages_iastd
+1718,Caribbean: Antigua,New York,55,intra_american,slavevoyages_iastd
+1718,Caribbean: Bahamas,New York,6,intra_american,slavevoyages_iastd
+1718,Caribbean: Barbados,New York,273,intra_american,slavevoyages_iastd
+1718,Caribbean: Danish West Indies,New York,6,intra_american,slavevoyages_iastd
+1718,Caribbean: Dutch Caribbean,New York,4,intra_american,slavevoyages_iastd
+1718,Caribbean: Jamaica,New York,87,intra_american,slavevoyages_iastd
+1718,Caribbean: Nevis,New York,5,intra_american,slavevoyages_iastd
+1718,Caribbean: Saint-Domingue,New York,2,intra_american,slavevoyages_iastd
+1718,Caribbean: St Kitts,New York,1,intra_american,slavevoyages_iastd
+1718,Mainland North America: Massachusetts,New York,1,intra_american,slavevoyages_iastd
+1718,Caribbean: Jamaica,Rhode Island,29,intra_american,slavevoyages_iastd
+1718,Caribbean: Antigua,South Carolina,94,intra_american,slavevoyages_iastd
+1718,Caribbean: Barbados,South Carolina,76,intra_american,slavevoyages_iastd
+1718,Caribbean: Jamaica,South Carolina,67,intra_american,slavevoyages_iastd
+1718,Caribbean: Antigua,Virginia,96,intra_american,slavevoyages_iastd
+1718,Caribbean: Barbados,Virginia,536,intra_american,slavevoyages_iastd
+1718,Caribbean: Jamaica,Virginia,59,intra_american,slavevoyages_iastd
+1718,Caribbean: Other British Caribbean,Virginia,3,intra_american,slavevoyages_iastd
+1718,Mainland North America: Maryland,Virginia,3,intra_american,slavevoyages_iastd
+1718,Mainland North America: Massachusetts,Virginia,3,intra_american,slavevoyages_iastd
+1718,Mainland North America: New York,Virginia,5,intra_american,slavevoyages_iastd
+1718,Mainland North America: North Carolina,Virginia,1,intra_american,slavevoyages_iastd
+1718,Mainland North America: South Carolina,Virginia,7,intra_american,slavevoyages_iastd
+1719,Caribbean: Antigua,Maine,1,intra_american,slavevoyages_iastd
+1719,Mainland North America: New York,Maryland,2,intra_american,slavevoyages_iastd
+1719,Caribbean: Dutch Caribbean,Massachusetts,4,intra_american,slavevoyages_iastd
+1719,Caribbean: Barbados,New York,12,intra_american,slavevoyages_iastd
+1719,Caribbean: Dutch Caribbean,New York,10,intra_american,slavevoyages_iastd
+1719,Caribbean: Dutch Guianas,New York,6,intra_american,slavevoyages_iastd
+1719,Caribbean: Jamaica,New York,74,intra_american,slavevoyages_iastd
+1719,Caribbean: Nevis,New York,3,intra_american,slavevoyages_iastd
+1719,Caribbean: Other British Caribbean,New York,2,intra_american,slavevoyages_iastd
+1719,Caribbean: Barbados,South Carolina,91,intra_american,slavevoyages_iastd
+1719,Caribbean: Jamaica,South Carolina,98,intra_american,slavevoyages_iastd
+1719,Caribbean: Jamaica,Virginia,33,intra_american,slavevoyages_iastd
+1719,Mainland North America: New York,Virginia,3,intra_american,slavevoyages_iastd
+1720,Mainland North America: New York,Maryland,3,intra_american,slavevoyages_iastd
+1720,Undefined,Massachusetts,3,intra_american,slavevoyages_iastd
+1720,Caribbean: Antigua,New York,4,intra_american,slavevoyages_iastd
+1720,Caribbean: Barbados,New York,18,intra_american,slavevoyages_iastd
+1720,Caribbean: Danish West Indies,New York,3,intra_american,slavevoyages_iastd
+1720,Caribbean: Dutch Guianas,New York,3,intra_american,slavevoyages_iastd
+1720,Caribbean: Jamaica,New York,30,intra_american,slavevoyages_iastd
+1720,Caribbean: Nevis,New York,2,intra_american,slavevoyages_iastd
+1720,Caribbean: St Kitts,New York,6,intra_american,slavevoyages_iastd
+1720,Mainland North America: South Carolina,New York,15,intra_american,slavevoyages_iastd
+1720,Caribbean: Other British Caribbean,North Carolina,2,intra_american,slavevoyages_iastd
+1721,Caribbean: Barbados,New York,68,intra_american,slavevoyages_iastd
+1721,Caribbean: Danish West Indies,New York,4,intra_american,slavevoyages_iastd
+1721,Caribbean: Dutch Caribbean,New York,1,intra_american,slavevoyages_iastd
+1721,Caribbean: Jamaica,New York,4,intra_american,slavevoyages_iastd
+1721,Caribbean: Other British Caribbean,New York,1,intra_american,slavevoyages_iastd
+1721,Caribbean: St Kitts,New York,8,intra_american,slavevoyages_iastd
+1721,Mainland North America: South Carolina,New York,2,intra_american,slavevoyages_iastd
+1722,Caribbean: Barbados,New Jersey,17,intra_american,slavevoyages_iastd
+1722,Caribbean: Antigua,New York,1,intra_american,slavevoyages_iastd
+1722,Caribbean: Barbados,New York,11,intra_american,slavevoyages_iastd
+1722,Caribbean: Danish West Indies,New York,1,intra_american,slavevoyages_iastd
+1722,Caribbean: Dutch Guianas,New York,1,intra_american,slavevoyages_iastd
+1722,Caribbean: Jamaica,New York,41,intra_american,slavevoyages_iastd
+1722,Caribbean: Nevis,New York,5,intra_american,slavevoyages_iastd
+1722,Caribbean: Other Caribbean,New York,34,intra_american,slavevoyages_iastd
+1722,Caribbean: Barbados,South Carolina,36,intra_american,slavevoyages_iastd
+1722,Caribbean: Jamaica,South Carolina,2,intra_american,slavevoyages_iastd
+1723,Caribbean: Antigua,New York,5,intra_american,slavevoyages_iastd
+1723,Caribbean: Bahamas,New York,1,intra_american,slavevoyages_iastd
+1723,Caribbean: Barbados,New York,12,intra_american,slavevoyages_iastd
+1723,Caribbean: Dutch Caribbean,New York,6,intra_american,slavevoyages_iastd
+1723,Caribbean: Jamaica,New York,67,intra_american,slavevoyages_iastd
+1723,Caribbean: Other British Caribbean,New York,4,intra_american,slavevoyages_iastd
+1723,Mainland North America: Massachusetts,New York,1,intra_american,slavevoyages_iastd
+1723,Mainland North America: New York,North Carolina,2,intra_american,slavevoyages_iastd
+1723,Caribbean: Barbados,Pennsylvania,5,intra_american,slavevoyages_iastd
+1723,Mainland North America: South Carolina,Pennsylvania,1,intra_american,slavevoyages_iastd
+1723,Caribbean: Barbados,South Carolina,5,intra_american,slavevoyages_iastd
+1723,Caribbean: Jamaica,South Carolina,8,intra_american,slavevoyages_iastd
+1724,Mainland North America: New York,Maryland,1,intra_american,slavevoyages_iastd
+1724,Caribbean: Antigua,New York,4,intra_american,slavevoyages_iastd
+1724,Caribbean: Barbados,New York,3,intra_american,slavevoyages_iastd
+1724,Caribbean: Danish West Indies,New York,1,intra_american,slavevoyages_iastd
+1724,Caribbean: Dutch Caribbean,New York,5,intra_american,slavevoyages_iastd
+1724,Caribbean: Jamaica,New York,34,intra_american,slavevoyages_iastd
+1724,Caribbean: Nevis,New York,5,intra_american,slavevoyages_iastd
+1724,Caribbean: Other British Caribbean,New York,3,intra_american,slavevoyages_iastd
+1724,Mainland North America: Rhode Island,New York,2,intra_american,slavevoyages_iastd
+1724,Mainland North America: South Carolina,New York,2,intra_american,slavevoyages_iastd
+1724,Mainland North America: South Carolina,North Carolina,5,intra_american,slavevoyages_iastd
+1724,Caribbean: Antigua,South Carolina,16,intra_american,slavevoyages_iastd
+1724,Caribbean: Barbados,South Carolina,13,intra_american,slavevoyages_iastd
+1724,Other: Non-geographical,South Carolina,25,intra_american,slavevoyages_iastd
+1725,Mainland North America: New York,Maryland,1,intra_american,slavevoyages_iastd
+1725,Mainland North America: Virginia,Maryland,20,intra_american,slavevoyages_iastd
+1725,Undefined,Massachusetts,8,intra_american,slavevoyages_iastd
+1725,Caribbean: Barbados,New Jersey,8,intra_american,slavevoyages_iastd
+1725,Caribbean: Antigua,New York,7,intra_american,slavevoyages_iastd
+1725,Caribbean: Barbados,New York,25,intra_american,slavevoyages_iastd
+1725,Caribbean: British Honduras,New York,3,intra_american,slavevoyages_iastd
+1725,Caribbean: Danish West Indies,New York,1,intra_american,slavevoyages_iastd
+1725,Caribbean: Dutch Caribbean,New York,60,intra_american,slavevoyages_iastd
+1725,Caribbean: Jamaica,New York,33,intra_american,slavevoyages_iastd
+1725,Caribbean: Martinique,New York,1,intra_american,slavevoyages_iastd
+1725,Caribbean: Nevis,New York,8,intra_american,slavevoyages_iastd
+1725,Caribbean: Other British Caribbean,New York,3,intra_american,slavevoyages_iastd
+1725,Caribbean: St Kitts,New York,1,intra_american,slavevoyages_iastd
+1725,Mainland North America: Massachusetts,New York,2,intra_american,slavevoyages_iastd
+1725,Mainland North America: Rhode Island,New York,3,intra_american,slavevoyages_iastd
+1725,Mainland North America: South Carolina,New York,1,intra_american,slavevoyages_iastd
+1725,Mainland North America: New York,North Carolina,4,intra_american,slavevoyages_iastd
+1725,Caribbean: Barbados,South Carolina,4,intra_american,slavevoyages_iastd
+1725,Caribbean: Barbados,Virginia,74,intra_american,slavevoyages_iastd
+1725,Caribbean: Jamaica,Virginia,1,intra_american,slavevoyages_iastd
+1726,Mainland North America: New York,Connecticut,5,intra_american,slavevoyages_iastd
+1726,Mainland North America: Virginia,Maryland,53,intra_american,slavevoyages_iastd
+1726,Caribbean: St Kitts,Massachusetts,7,intra_american,slavevoyages_iastd
+1726,Caribbean: Antigua,New Jersey,7,intra_american,slavevoyages_iastd
+1726,Caribbean: Jamaica,New Jersey,8,intra_american,slavevoyages_iastd
+1726,Caribbean: Other French Caribbean,New Jersey,4,intra_american,slavevoyages_iastd
+1726,Caribbean: Antigua,New York,4,intra_american,slavevoyages_iastd
+1726,Caribbean: Barbados,New York,12,intra_american,slavevoyages_iastd
+1726,Caribbean: Danish West Indies,New York,8,intra_american,slavevoyages_iastd
+1726,Caribbean: Jamaica,New York,112,intra_american,slavevoyages_iastd
+1726,Caribbean: Martinique,New York,2,intra_american,slavevoyages_iastd
+1726,Caribbean: Montserrat,New York,2,intra_american,slavevoyages_iastd
+1726,Caribbean: Other British Caribbean,New York,4,intra_american,slavevoyages_iastd
+1726,Mainland North America: South Carolina,New York,33,intra_american,slavevoyages_iastd
+1726,Mainland North America: New York,North Carolina,1,intra_american,slavevoyages_iastd
+1726,Mainland North America: South Carolina,Pennsylvania,6,intra_american,slavevoyages_iastd
+1726,Caribbean: Anguilla,Virginia,8,intra_american,slavevoyages_iastd
+1726,Caribbean: Antigua,Virginia,52,intra_american,slavevoyages_iastd
+1726,Caribbean: Barbados,Virginia,89,intra_american,slavevoyages_iastd
+1726,Caribbean: Jamaica,Virginia,21,intra_american,slavevoyages_iastd
+1727,Mainland North America: Virginia,Maryland,48,intra_american,slavevoyages_iastd
+1727,Caribbean: Antigua,New Hampshire,12,intra_american,slavevoyages_iastd
+1727,Caribbean: Grenada,New Hampshire,11,intra_american,slavevoyages_iastd
+1727,Caribbean: Jamaica,New Jersey,4,intra_american,slavevoyages_iastd
+1727,Caribbean: St Kitts,New Jersey,10,intra_american,slavevoyages_iastd
+1727,Caribbean: Antigua,New York,9,intra_american,slavevoyages_iastd
+1727,Caribbean: Bahamas,New York,1,intra_american,slavevoyages_iastd
+1727,Caribbean: Barbados,New York,16,intra_american,slavevoyages_iastd
+1727,Caribbean: Danish West Indies,New York,20,intra_american,slavevoyages_iastd
+1727,Caribbean: Dutch Caribbean,New York,9,intra_american,slavevoyages_iastd
+1727,Caribbean: Jamaica,New York,157,intra_american,slavevoyages_iastd
+1727,Caribbean: Other British Caribbean,New York,6,intra_american,slavevoyages_iastd
+1727,Mainland North America: Rhode Island,New York,1,intra_american,slavevoyages_iastd
+1727,Other: Americas,New York,7,intra_american,slavevoyages_iastd
+1727,Mainland North America: New York,North Carolina,1,intra_american,slavevoyages_iastd
+1727,Mainland North America: South Carolina,North Carolina,11,intra_american,slavevoyages_iastd
+1727,Mainland North America: Virginia,North Carolina,12,intra_american,slavevoyages_iastd
+1727,Mainland North America: New Jersey,Other North America,1,intra_american,slavevoyages_iastd
+1727,Caribbean: Barbados,Pennsylvania,5,intra_american,slavevoyages_iastd
+1727,Caribbean: Jamaica,Pennsylvania,5,intra_american,slavevoyages_iastd
+1727,Caribbean: Barbados,South Carolina,20,intra_american,slavevoyages_iastd
+1727,Caribbean: Jamaica,South Carolina,28,intra_american,slavevoyages_iastd
+1727,Caribbean: Bahamas,Virginia,1,intra_american,slavevoyages_iastd
+1727,Caribbean: Barbados,Virginia,17,intra_american,slavevoyages_iastd
+1727,Caribbean: Jamaica,Virginia,8,intra_american,slavevoyages_iastd
+1728,Mainland North America: Virginia,Maryland,25,intra_american,slavevoyages_iastd
+1728,Caribbean: Antigua,New York,10,intra_american,slavevoyages_iastd
+1728,Caribbean: Barbados,New York,13,intra_american,slavevoyages_iastd
+1728,Caribbean: Danish West Indies,New York,2,intra_american,slavevoyages_iastd
+1728,Caribbean: Dutch Caribbean,New York,1,intra_american,slavevoyages_iastd
+1728,Caribbean: Jamaica,New York,94,intra_american,slavevoyages_iastd
+1728,Caribbean: Montserrat,New York,2,intra_american,slavevoyages_iastd
+1728,Caribbean: Other British Caribbean,New York,4,intra_american,slavevoyages_iastd
+1728,Mainland North America: Massachusetts,New York,3,intra_american,slavevoyages_iastd
+1728,Mainland North America: South Carolina,New York,1,intra_american,slavevoyages_iastd
+1728,Spanish Mainland Americas: Spanish Circum-Caribbean,New York,1,intra_american,slavevoyages_iastd
+1728,Mainland North America: New York,North Carolina,6,intra_american,slavevoyages_iastd
+1728,Other: Americas,Pennsylvania,8,intra_american,slavevoyages_iastd
+1728,Mainland North America: New York,Virginia,2,intra_american,slavevoyages_iastd
+1729,Caribbean: Barbados,Connecticut,8,intra_american,slavevoyages_iastd
+1729,Caribbean: Barbados,Maryland,2,intra_american,slavevoyages_iastd
+1729,Mainland North America: New York,Maryland,3,intra_american,slavevoyages_iastd
+1729,Caribbean: Antigua,New York,88,intra_american,slavevoyages_iastd
+1729,Caribbean: Barbados,New York,37,intra_american,slavevoyages_iastd
+1729,Caribbean: Danish West Indies,New York,7,intra_american,slavevoyages_iastd
+1729,Caribbean: Dutch Caribbean,New York,8,intra_american,slavevoyages_iastd
+1729,Caribbean: Dutch Guianas,New York,4,intra_american,slavevoyages_iastd
+1729,Caribbean: Jamaica,New York,27,intra_american,slavevoyages_iastd
+1729,Caribbean: Montserrat,New York,10,intra_american,slavevoyages_iastd
+1729,Caribbean: Other British Caribbean,New York,13,intra_american,slavevoyages_iastd
+1729,Mainland North America: Delaware,New York,1,intra_american,slavevoyages_iastd
+1729,Mainland North America: Massachusetts,New York,1,intra_american,slavevoyages_iastd
+1729,Mainland North America: North Carolina,New York,2,intra_american,slavevoyages_iastd
+1729,Mainland North America: Rhode Island,New York,4,intra_american,slavevoyages_iastd
+1729,Mainland North America: South Carolina,New York,3,intra_american,slavevoyages_iastd
+1729,Mainland North America: New York,North Carolina,2,intra_american,slavevoyages_iastd
+1729,Caribbean: Barbados,Pennsylvania,17,intra_american,slavevoyages_iastd
+1729,Caribbean: Other British Caribbean,Pennsylvania,12,intra_american,slavevoyages_iastd
+1729,Caribbean: Barbados,Rhode Island,6,intra_american,slavevoyages_iastd
+1729,Caribbean: Barbados,Virginia,7,intra_american,slavevoyages_iastd
+1729,Mainland North America: Virginia,Virginia,3,intra_american,slavevoyages_iastd
+1730,Caribbean: Barbados,Massachusetts,4,intra_american,slavevoyages_iastd
+1730,Undefined,Massachusetts,3,intra_american,slavevoyages_iastd
+1730,Caribbean: Antigua,New York,44,intra_american,slavevoyages_iastd
+1730,Caribbean: Barbados,New York,21,intra_american,slavevoyages_iastd
+1730,Caribbean: Danish West Indies,New York,8,intra_american,slavevoyages_iastd
+1730,Caribbean: Dutch Caribbean,New York,9,intra_american,slavevoyages_iastd
+1730,Caribbean: Dutch Guianas,New York,2,intra_american,slavevoyages_iastd
+1730,Caribbean: Hispaniola,New York,7,intra_american,slavevoyages_iastd
+1730,Caribbean: Jamaica,New York,34,intra_american,slavevoyages_iastd
+1730,Caribbean: Nevis,New York,1,intra_american,slavevoyages_iastd
+1730,Caribbean: St Kitts,New York,31,intra_american,slavevoyages_iastd
+1730,Mainland North America: Massachusetts,New York,5,intra_american,slavevoyages_iastd
+1730,Mainland North America: New York,New York,1,intra_american,slavevoyages_iastd
+1730,Mainland North America: South Carolina,New York,2,intra_american,slavevoyages_iastd
+1730,Mainland North America: New York,North Carolina,2,intra_american,slavevoyages_iastd
+1730,Caribbean: Antigua,Pennsylvania,1,intra_american,slavevoyages_iastd
+1730,Caribbean: Other British Caribbean,Pennsylvania,5,intra_american,slavevoyages_iastd
+1730,Caribbean: Saint-Domingue,Pennsylvania,2,intra_american,slavevoyages_iastd
+1730,Caribbean: St Kitts,Pennsylvania,10,intra_american,slavevoyages_iastd
+1730,Caribbean: Barbados,Virginia,8,intra_american,slavevoyages_iastd
+1730,Mainland North America: Maryland,Virginia,12,intra_american,slavevoyages_iastd
+1731,Caribbean: Barbados,Maryland,20,intra_american,slavevoyages_iastd
+1731,Caribbean: Antigua,New York,48,intra_american,slavevoyages_iastd
+1731,Caribbean: Bahamas,New York,7,intra_american,slavevoyages_iastd
+1731,Caribbean: Barbados,New York,44,intra_american,slavevoyages_iastd
+1731,Caribbean: Dutch Caribbean,New York,1,intra_american,slavevoyages_iastd
+1731,Caribbean: Dutch Guianas,New York,3,intra_american,slavevoyages_iastd
+1731,Caribbean: Jamaica,New York,40,intra_american,slavevoyages_iastd
+1731,Caribbean: Montserrat,New York,4,intra_american,slavevoyages_iastd
+1731,Caribbean: Nevis,New York,4,intra_american,slavevoyages_iastd
+1731,Caribbean: St Kitts,New York,6,intra_american,slavevoyages_iastd
+1731,Mainland North America: Massachusetts,New York,1,intra_american,slavevoyages_iastd
+1731,Mainland North America: South Carolina,New York,1,intra_american,slavevoyages_iastd
+1731,Caribbean: Barbados,Pennsylvania,17,intra_american,slavevoyages_iastd
+1731,Caribbean: Antigua,South Carolina,12,intra_american,slavevoyages_iastd
+1731,Caribbean: Barbados,South Carolina,78,intra_american,slavevoyages_iastd
+1731,Caribbean: Montserrat,South Carolina,14,intra_american,slavevoyages_iastd
+1731,Caribbean: Other British Caribbean,South Carolina,2,intra_american,slavevoyages_iastd
+1731,Caribbean: St Kitts,South Carolina,26,intra_american,slavevoyages_iastd
+1731,Mainland North America: Massachusetts,South Carolina,8,intra_american,slavevoyages_iastd
+1731,Mainland North America: Rhode Island,South Carolina,1,intra_american,slavevoyages_iastd
+1731,Other: Americas,South Carolina,8,intra_american,slavevoyages_iastd
+1731,Caribbean: Antigua,Virginia,2,intra_american,slavevoyages_iastd
+1731,Caribbean: Barbados,Virginia,41,intra_american,slavevoyages_iastd
+1731,Caribbean: Jamaica,Virginia,12,intra_american,slavevoyages_iastd
+1732,Mainland North America: New York,Maryland,1,intra_american,slavevoyages_iastd
+1732,Caribbean: Antigua,New York,13,intra_american,slavevoyages_iastd
+1732,Caribbean: Barbados,New York,24,intra_american,slavevoyages_iastd
+1732,Caribbean: Danish West Indies,New York,6,intra_american,slavevoyages_iastd
+1732,Caribbean: Dutch Caribbean,New York,10,intra_american,slavevoyages_iastd
+1732,Caribbean: Hispaniola,New York,1,intra_american,slavevoyages_iastd
+1732,Caribbean: Jamaica,New York,82,intra_american,slavevoyages_iastd
+1732,Caribbean: Montserrat,New York,2,intra_american,slavevoyages_iastd
+1732,Caribbean: Other British Caribbean,New York,2,intra_american,slavevoyages_iastd
+1732,Mainland North America: South Carolina,New York,1,intra_american,slavevoyages_iastd
+1732,Mainland North America: New York,North Carolina,2,intra_american,slavevoyages_iastd
+1732,Caribbean: Antigua,Pennsylvania,10,intra_american,slavevoyages_iastd
+1732,Caribbean: Barbados,Pennsylvania,5,intra_american,slavevoyages_iastd
+1732,Caribbean: Other British Caribbean,Pennsylvania,4,intra_american,slavevoyages_iastd
+1732,Caribbean: St Kitts,Pennsylvania,14,intra_american,slavevoyages_iastd
+1732,Caribbean: Antigua,South Carolina,46,intra_american,slavevoyages_iastd
+1732,Caribbean: Barbados,South Carolina,77,intra_american,slavevoyages_iastd
+1732,Caribbean: Jamaica,South Carolina,20,intra_american,slavevoyages_iastd
+1732,Caribbean: Montserrat,South Carolina,5,intra_american,slavevoyages_iastd
+1732,Caribbean: St Kitts,South Carolina,18,intra_american,slavevoyages_iastd
+1732,Mainland North America: New York,South Carolina,5,intra_american,slavevoyages_iastd
+1732,Mainland North America: Virginia,South Carolina,13,intra_american,slavevoyages_iastd
+1732,Caribbean: Barbados,Virginia,44,intra_american,slavevoyages_iastd
+1732,Caribbean: Jamaica,Virginia,8,intra_american,slavevoyages_iastd
+1732,Caribbean: St Kitts,Virginia,12,intra_american,slavevoyages_iastd
+1733,Mainland North America: Virginia,Maryland,20,intra_american,slavevoyages_iastd
+1733,Caribbean: Barbados,Massachusetts,20,intra_american,slavevoyages_iastd
+1733,Caribbean: Antigua,New York,15,intra_american,slavevoyages_iastd
+1733,Caribbean: Barbados,New York,2,intra_american,slavevoyages_iastd
+1733,Caribbean: Danish West Indies,New York,2,intra_american,slavevoyages_iastd
+1733,Caribbean: Dutch Caribbean,New York,2,intra_american,slavevoyages_iastd
+1733,Caribbean: Dutch Guianas,New York,1,intra_american,slavevoyages_iastd
+1733,Caribbean: Jamaica,New York,132,intra_american,slavevoyages_iastd
+1733,Caribbean: Other British Caribbean,New York,3,intra_american,slavevoyages_iastd
+1733,Mainland North America: Delaware,New York,1,intra_american,slavevoyages_iastd
+1733,Mainland North America: New Jersey,North Carolina,6,intra_american,slavevoyages_iastd
+1733,Mainland North America: New York,North Carolina,5,intra_american,slavevoyages_iastd
+1733,Mainland North America: Virginia,North Carolina,2,intra_american,slavevoyages_iastd
+1733,Caribbean: Barbados,South Carolina,109,intra_american,slavevoyages_iastd
+1733,Caribbean: Jamaica,South Carolina,23,intra_american,slavevoyages_iastd
+1733,Caribbean: Barbados,Virginia,29,intra_american,slavevoyages_iastd
+1733,Caribbean: Jamaica,Virginia,170,intra_american,slavevoyages_iastd
+1733,Caribbean: St Kitts,Virginia,37,intra_american,slavevoyages_iastd
+1733,Other: Americas,Virginia,6,intra_american,slavevoyages_iastd
+1734,Caribbean: Barbados,Maryland,2,intra_american,slavevoyages_iastd
+1734,Mainland North America: Pennsylvania,Maryland,50,intra_american,slavevoyages_iastd
+1734,Caribbean: Jamaica,New Jersey,32,intra_american,slavevoyages_iastd
+1734,Caribbean: Antigua,New York,2,intra_american,slavevoyages_iastd
+1734,Caribbean: Barbados,New York,8,intra_american,slavevoyages_iastd
+1734,Caribbean: Danish West Indies,New York,1,intra_american,slavevoyages_iastd
+1734,Caribbean: Dutch Caribbean,New York,5,intra_american,slavevoyages_iastd
+1734,Caribbean: Jamaica,New York,24,intra_american,slavevoyages_iastd
+1734,Caribbean: Nevis,New York,5,intra_american,slavevoyages_iastd
+1734,Caribbean: Other British Caribbean,New York,2,intra_american,slavevoyages_iastd
+1734,Caribbean: St Kitts,New York,1,intra_american,slavevoyages_iastd
+1734,Mainland North America: Rhode Island,New York,1,intra_american,slavevoyages_iastd
+1734,Mainland North America: New York,North Carolina,6,intra_american,slavevoyages_iastd
+1734,Mainland North America: South Carolina,North Carolina,105,intra_american,slavevoyages_iastd
+1734,Caribbean: Barbados,Pennsylvania,2,intra_american,slavevoyages_iastd
+1734,Caribbean: Jamaica,Pennsylvania,10,intra_american,slavevoyages_iastd
+1734,Caribbean: Nevis,Pennsylvania,15,intra_american,slavevoyages_iastd
+1734,Caribbean: Other British Caribbean,Pennsylvania,1,intra_american,slavevoyages_iastd
+1734,Caribbean: St Kitts,Pennsylvania,2,intra_american,slavevoyages_iastd
+1734,Caribbean: Antigua,South Carolina,6,intra_american,slavevoyages_iastd
+1734,Caribbean: Barbados,South Carolina,104,intra_american,slavevoyages_iastd
+1734,Caribbean: Jamaica,South Carolina,72,intra_american,slavevoyages_iastd
+1734,Caribbean: Montserrat,South Carolina,20,intra_american,slavevoyages_iastd
+1734,Caribbean: St Kitts,South Carolina,65,intra_american,slavevoyages_iastd
+1734,Mainland North America: New York,South Carolina,4,intra_american,slavevoyages_iastd
+1734,Mainland North America: Rhode Island,South Carolina,24,intra_american,slavevoyages_iastd
+1734,Caribbean: Antigua,Virginia,11,intra_american,slavevoyages_iastd
+1734,Caribbean: Barbados,Virginia,199,intra_american,slavevoyages_iastd
+1734,Caribbean: Jamaica,Virginia,80,intra_american,slavevoyages_iastd
+1734,Caribbean: St Kitts,Virginia,21,intra_american,slavevoyages_iastd
+1734,Mainland North America: Massachusetts,Virginia,3,intra_american,slavevoyages_iastd
+1734,Mainland North America: New York,Virginia,1,intra_american,slavevoyages_iastd
+1734,Mainland North America: Pennsylvania,Virginia,2,intra_american,slavevoyages_iastd
+1735,Undefined,Massachusetts,6,intra_american,slavevoyages_iastd
+1735,Caribbean: Danish West Indies,New York,3,intra_american,slavevoyages_iastd
+1735,Caribbean: Dutch Caribbean,New York,9,intra_american,slavevoyages_iastd
+1735,Caribbean: Jamaica,New York,99,intra_american,slavevoyages_iastd
+1735,Mainland North America: South Carolina,New York,2,intra_american,slavevoyages_iastd
+1735,Mainland North America: South Carolina,North Carolina,38,intra_american,slavevoyages_iastd
+1735,Mainland North America: South Carolina,Rhode Island,30,intra_american,slavevoyages_iastd
+1735,Caribbean: Antigua,South Carolina,22,intra_american,slavevoyages_iastd
+1735,Caribbean: Barbados,South Carolina,73,intra_american,slavevoyages_iastd
+1735,Caribbean: Cuba,South Carolina,1,intra_american,slavevoyages_iastd
+1735,Caribbean: Jamaica,South Carolina,80,intra_american,slavevoyages_iastd
+1735,Caribbean: St Kitts,South Carolina,12,intra_american,slavevoyages_iastd
+1735,Mainland North America: Massachusetts,South Carolina,1,intra_american,slavevoyages_iastd
+1735,Mainland North America: New York,South Carolina,1,intra_american,slavevoyages_iastd
+1735,Mainland North America: Rhode Island,South Carolina,11,intra_american,slavevoyages_iastd
+1735,Caribbean: Antigua,Virginia,5,intra_american,slavevoyages_iastd
+1735,Caribbean: Barbados,Virginia,19,intra_american,slavevoyages_iastd
+1735,Caribbean: Jamaica,Virginia,28,intra_american,slavevoyages_iastd
+1735,Caribbean: Other British Caribbean,Virginia,45,intra_american,slavevoyages_iastd
+1735,Mainland North America: Massachusetts,Virginia,6,intra_american,slavevoyages_iastd
+1735,Mainland North America: New Hampshire,Virginia,1,intra_american,slavevoyages_iastd
+1736,Mainland North America: South Carolina,Georgia,17,intra_american,slavevoyages_iastd
+1736,Mainland North America: South Carolina,Gulf coast,3,intra_american,slavevoyages_iastd
+1736,Caribbean: British Honduras,New York,1,intra_american,slavevoyages_iastd
+1736,Caribbean: Danish West Indies,New York,1,intra_american,slavevoyages_iastd
+1736,Caribbean: Dutch Caribbean,New York,3,intra_american,slavevoyages_iastd
+1736,Caribbean: Jamaica,New York,9,intra_american,slavevoyages_iastd
+1736,Caribbean: Other British Caribbean,New York,1,intra_american,slavevoyages_iastd
+1736,Mainland North America: South Carolina,New York,3,intra_american,slavevoyages_iastd
+1736,Caribbean: Barbados,Pennsylvania,1,intra_american,slavevoyages_iastd
+1736,Caribbean: Other British Caribbean,Pennsylvania,5,intra_american,slavevoyages_iastd
+1736,Mainland North America: South Carolina,Pennsylvania,28,intra_american,slavevoyages_iastd
+1736,Mainland North America: South Carolina,Rhode Island,5,intra_american,slavevoyages_iastd
+1736,Caribbean: Antigua,South Carolina,13,intra_american,slavevoyages_iastd
+1736,Caribbean: Barbados,South Carolina,36,intra_american,slavevoyages_iastd
+1736,Caribbean: Dutch Caribbean,South Carolina,18,intra_american,slavevoyages_iastd
+1736,Caribbean: Jamaica,South Carolina,15,intra_american,slavevoyages_iastd
+1736,Caribbean: Montserrat,South Carolina,15,intra_american,slavevoyages_iastd
+1736,Caribbean: Other British Caribbean,South Carolina,2,intra_american,slavevoyages_iastd
+1736,Mainland North America: Massachusetts,South Carolina,2,intra_american,slavevoyages_iastd
+1736,Mainland North America: North Carolina,South Carolina,1,intra_american,slavevoyages_iastd
+1736,Caribbean: Antigua,Virginia,4,intra_american,slavevoyages_iastd
+1736,Caribbean: Barbados,Virginia,21,intra_american,slavevoyages_iastd
+1736,Caribbean: Jamaica,Virginia,5,intra_american,slavevoyages_iastd
+1736,Caribbean: Montserrat,Virginia,2,intra_american,slavevoyages_iastd
+1736,Caribbean: Other British Caribbean,Virginia,11,intra_american,slavevoyages_iastd
+1736,Caribbean: St Kitts,Virginia,8,intra_american,slavevoyages_iastd
+1736,Mainland North America: Massachusetts,Virginia,1,intra_american,slavevoyages_iastd
+1737,Mainland North America: South Carolina,Florida,7,intra_american,slavevoyages_iastd
+1737,Mainland North America: South Carolina,Gulf coast,6,intra_american,slavevoyages_iastd
+1737,Caribbean: Antigua,New York,9,intra_american,slavevoyages_iastd
+1737,Caribbean: Bahamas,New York,2,intra_american,slavevoyages_iastd
+1737,Caribbean: Danish West Indies,New York,1,intra_american,slavevoyages_iastd
+1737,Caribbean: Dutch Caribbean,New York,16,intra_american,slavevoyages_iastd
+1737,Caribbean: Jamaica,New York,30,intra_american,slavevoyages_iastd
+1737,Caribbean: Montserrat,New York,3,intra_american,slavevoyages_iastd
+1737,Caribbean: St Kitts,New York,22,intra_american,slavevoyages_iastd
+1737,Mainland North America: Florida,New York,9,intra_american,slavevoyages_iastd
+1737,Mainland North America: South Carolina,New York,5,intra_american,slavevoyages_iastd
+1737,Caribbean: Bahamas,North Carolina,2,intra_american,slavevoyages_iastd
+1737,Mainland North America: South Carolina,North Carolina,2,intra_american,slavevoyages_iastd
+1737,Caribbean: Antigua,Pennsylvania,1,intra_american,slavevoyages_iastd
+1737,Caribbean: Jamaica,Pennsylvania,4,intra_american,slavevoyages_iastd
+1737,Caribbean: Other British Caribbean,Pennsylvania,5,intra_american,slavevoyages_iastd
+1737,Mainland North America: South Carolina,Pennsylvania,44,intra_american,slavevoyages_iastd
+1737,Caribbean: Jamaica,South Carolina,4,intra_american,slavevoyages_iastd
+1737,Caribbean: Montserrat,South Carolina,1,intra_american,slavevoyages_iastd
+1737,Caribbean: Other British Caribbean,South Carolina,10,intra_american,slavevoyages_iastd
+1737,Mainland North America: Gulf coast,South Carolina,4,intra_american,slavevoyages_iastd
+1737,Mainland North America: New York,South Carolina,28,intra_american,slavevoyages_iastd
+1737,Mainland North America: South Carolina,South Carolina,8,intra_american,slavevoyages_iastd
+1737,Caribbean: Anguilla,Virginia,3,intra_american,slavevoyages_iastd
+1737,Caribbean: Antigua,Virginia,27,intra_american,slavevoyages_iastd
+1737,Caribbean: Barbados,Virginia,22,intra_american,slavevoyages_iastd
+1737,Caribbean: Jamaica,Virginia,8,intra_american,slavevoyages_iastd
+1737,Caribbean: Other British Caribbean,Virginia,11,intra_american,slavevoyages_iastd
+1737,Caribbean: St Kitts,Virginia,62,intra_american,slavevoyages_iastd
+1737,Mainland North America: Massachusetts,Virginia,1,intra_american,slavevoyages_iastd
+1737,Mainland North America: Virginia,Virginia,11,intra_american,slavevoyages_iastd
+1738,Caribbean: Antigua,New York,21,intra_american,slavevoyages_iastd
+1738,Caribbean: Barbados,New York,2,intra_american,slavevoyages_iastd
+1738,Caribbean: Danish West Indies,New York,1,intra_american,slavevoyages_iastd
+1738,Caribbean: Jamaica,New York,30,intra_american,slavevoyages_iastd
+1738,Caribbean: Other British Caribbean,New York,1,intra_american,slavevoyages_iastd
+1738,Caribbean: St Kitts,New York,2,intra_american,slavevoyages_iastd
+1738,Mainland North America: Georgia,New York,3,intra_american,slavevoyages_iastd
+1738,Mainland North America: South Carolina,New York,49,intra_american,slavevoyages_iastd
+1738,Mainland North America: South Carolina,North Carolina,52,intra_american,slavevoyages_iastd
+1738,Caribbean: Barbados,Pennsylvania,4,intra_american,slavevoyages_iastd
+1738,Caribbean: Other British Caribbean,Pennsylvania,7,intra_american,slavevoyages_iastd
+1738,Mainland North America: North Carolina,Pennsylvania,8,intra_american,slavevoyages_iastd
+1738,Mainland North America: South Carolina,Pennsylvania,108,intra_american,slavevoyages_iastd
+1738,Caribbean: Antigua,South Carolina,27,intra_american,slavevoyages_iastd
+1738,Caribbean: Barbados,South Carolina,6,intra_american,slavevoyages_iastd
+1738,Caribbean: Jamaica,South Carolina,9,intra_american,slavevoyages_iastd
+1738,Mainland North America: South Carolina,South Carolina,30,intra_american,slavevoyages_iastd
+1738,Caribbean: Antigua,Virginia,9,intra_american,slavevoyages_iastd
+1738,Caribbean: Barbados,Virginia,61,intra_american,slavevoyages_iastd
+1738,Caribbean: Jamaica,Virginia,2,intra_american,slavevoyages_iastd
+1738,Caribbean: Other British Caribbean,Virginia,9,intra_american,slavevoyages_iastd
+1738,Caribbean: St Kitts,Virginia,102,intra_american,slavevoyages_iastd
+1738,Mainland North America: Georgia,Virginia,67,intra_american,slavevoyages_iastd
+1738,Mainland North America: Massachusetts,Virginia,5,intra_american,slavevoyages_iastd
+1738,Mainland North America: Other North America,Virginia,1,intra_american,slavevoyages_iastd
+1738,Mainland North America: Pennsylvania,Virginia,1,intra_american,slavevoyages_iastd
+1738,Mainland North America: South Carolina,Virginia,7,intra_american,slavevoyages_iastd
+1739,Mainland North America: Virginia,Maryland,3,intra_american,slavevoyages_iastd
+1739,Caribbean: Antigua,New York,3,intra_american,slavevoyages_iastd
+1739,Caribbean: Bahamas,New York,1,intra_american,slavevoyages_iastd
+1739,Caribbean: Barbados,New York,1,intra_american,slavevoyages_iastd
+1739,Caribbean: Danish West Indies,New York,15,intra_american,slavevoyages_iastd
+1739,Caribbean: Dutch Caribbean,New York,1,intra_american,slavevoyages_iastd
+1739,Caribbean: Jamaica,New York,37,intra_american,slavevoyages_iastd
+1739,Caribbean: Other British Caribbean,New York,14,intra_american,slavevoyages_iastd
+1739,Mainland North America: Massachusetts,New York,8,intra_american,slavevoyages_iastd
+1739,Mainland North America: South Carolina,New York,2,intra_american,slavevoyages_iastd
+1739,Mainland North America: South Carolina,North Carolina,5,intra_american,slavevoyages_iastd
+1739,Mainland North America: Virginia,North Carolina,2,intra_american,slavevoyages_iastd
+1739,Caribbean: Jamaica,Pennsylvania,2,intra_american,slavevoyages_iastd
+1739,Mainland North America: South Carolina,Pennsylvania,36,intra_american,slavevoyages_iastd
+1739,Caribbean: Antigua,South Carolina,11,intra_american,slavevoyages_iastd
+1739,Caribbean: Barbados,South Carolina,1,intra_american,slavevoyages_iastd
+1739,Caribbean: St Kitts,South Carolina,30,intra_american,slavevoyages_iastd
+1739,Caribbean: Antigua,Virginia,25,intra_american,slavevoyages_iastd
+1739,Caribbean: Barbados,Virginia,23,intra_american,slavevoyages_iastd
+1739,Caribbean: Jamaica,Virginia,19,intra_american,slavevoyages_iastd
+1739,Caribbean: Other British Caribbean,Virginia,15,intra_american,slavevoyages_iastd
+1739,Caribbean: St Kitts,Virginia,1,intra_american,slavevoyages_iastd
+1739,Mainland North America: Maryland,Virginia,1,intra_american,slavevoyages_iastd
+1739,Mainland North America: Rhode Island,Virginia,1,intra_american,slavevoyages_iastd
+1740,Mainland North America: New York,Maryland,5,intra_american,slavevoyages_iastd
+1740,Undefined,Massachusetts,2,intra_american,slavevoyages_iastd
+1740,Caribbean: Antigua,New Jersey,65,intra_american,slavevoyages_iastd
+1740,Caribbean: St Kitts,New Jersey,38,intra_american,slavevoyages_iastd
+1740,Caribbean: Antigua,New York,6,intra_american,slavevoyages_iastd
+1740,Caribbean: Barbados,New York,2,intra_american,slavevoyages_iastd
+1740,Caribbean: Danish West Indies,New York,2,intra_american,slavevoyages_iastd
+1740,Caribbean: Dutch Caribbean,New York,4,intra_american,slavevoyages_iastd
+1740,Caribbean: Jamaica,New York,22,intra_american,slavevoyages_iastd
+1740,Caribbean: Other British Caribbean,New York,3,intra_american,slavevoyages_iastd
+1740,Caribbean: St Kitts,New York,9,intra_american,slavevoyages_iastd
+1740,Other: Spanish Americas,New York,11,intra_american,slavevoyages_iastd
+1740,Caribbean: St Kitts,North Carolina,5,intra_american,slavevoyages_iastd
+1740,Caribbean: Antigua,Pennsylvania,58,intra_american,slavevoyages_iastd
+1740,Caribbean: Barbados,Pennsylvania,19,intra_american,slavevoyages_iastd
+1740,Caribbean: Antigua,South Carolina,13,intra_american,slavevoyages_iastd
+1740,Caribbean: Barbados,South Carolina,22,intra_american,slavevoyages_iastd
+1740,Mainland North America: Rhode Island,South Carolina,5,intra_american,slavevoyages_iastd
+1740,Caribbean: Antigua,Virginia,25,intra_american,slavevoyages_iastd
+1740,Caribbean: Bahamas,Virginia,2,intra_american,slavevoyages_iastd
+1740,Caribbean: Barbados,Virginia,52,intra_american,slavevoyages_iastd
+1740,Caribbean: Jamaica,Virginia,32,intra_american,slavevoyages_iastd
+1740,Caribbean: Other British Caribbean,Virginia,2,intra_american,slavevoyages_iastd
+1740,Caribbean: St Kitts,Virginia,119,intra_american,slavevoyages_iastd
+1740,Mainland North America: Massachusetts,Virginia,1,intra_american,slavevoyages_iastd
+1740,Mainland North America: South Carolina,Virginia,4,intra_american,slavevoyages_iastd
+1741,Mainland North America: Virginia,Maryland,32,intra_american,slavevoyages_iastd
+1741,Mainland North America: Rhode Island,New Jersey,10,intra_american,slavevoyages_iastd
+1741,Caribbean: Antigua,New York,7,intra_american,slavevoyages_iastd
+1741,Caribbean: Danish West Indies,New York,1,intra_american,slavevoyages_iastd
+1741,Caribbean: Dutch Caribbean,New York,3,intra_american,slavevoyages_iastd
+1741,Caribbean: Jamaica,New York,37,intra_american,slavevoyages_iastd
+1741,Caribbean: Other British Caribbean,New York,1,intra_american,slavevoyages_iastd
+1741,Mainland North America: Georgia,New York,1,intra_american,slavevoyages_iastd
+1741,Mainland North America: Massachusetts,New York,1,intra_american,slavevoyages_iastd
+1741,Mainland North America: Rhode Island,New York,4,intra_american,slavevoyages_iastd
+1741,Mainland North America: South Carolina,New York,1,intra_american,slavevoyages_iastd
+1741,Mainland North America: New Jersey,North Carolina,1,intra_american,slavevoyages_iastd
+1741,Mainland North America: Virginia,North Carolina,3,intra_american,slavevoyages_iastd
+1741,Caribbean: Antigua,Pennsylvania,1,intra_american,slavevoyages_iastd
+1741,Caribbean: Barbados,Pennsylvania,40,intra_american,slavevoyages_iastd
+1741,Caribbean: St Kitts,Pennsylvania,1,intra_american,slavevoyages_iastd
+1741,Caribbean: Antigua,Virginia,50,intra_american,slavevoyages_iastd
+1741,Caribbean: Barbados,Virginia,156,intra_american,slavevoyages_iastd
+1741,Caribbean: Nevis,Virginia,2,intra_american,slavevoyages_iastd
+1741,Caribbean: Other British Caribbean,Virginia,23,intra_american,slavevoyages_iastd
+1741,Caribbean: St Kitts,Virginia,33,intra_american,slavevoyages_iastd
+1741,Mainland North America: Connecticut,Virginia,1,intra_american,slavevoyages_iastd
+1741,Mainland North America: Massachusetts,Virginia,2,intra_american,slavevoyages_iastd
+1741,Mainland North America: Pennsylvania,Virginia,2,intra_american,slavevoyages_iastd
+1742,Mainland North America: Massachusetts,New Hampshire,2,intra_american,slavevoyages_iastd
+1742,Caribbean: Antigua,New York,4,intra_american,slavevoyages_iastd
+1742,Caribbean: Danish West Indies,New York,3,intra_american,slavevoyages_iastd
+1742,Caribbean: Jamaica,New York,4,intra_american,slavevoyages_iastd
+1742,Caribbean: Other British Caribbean,New York,1,intra_american,slavevoyages_iastd
+1742,Mainland North America: Massachusetts,New York,2,intra_american,slavevoyages_iastd
+1742,Caribbean: Jamaica,North Carolina,71,intra_american,slavevoyages_iastd
+1742,Caribbean: Barbados,Pennsylvania,1,intra_american,slavevoyages_iastd
+1742,Caribbean: Barbados,South Carolina,1,intra_american,slavevoyages_iastd
+1742,Caribbean: Other British Caribbean,South Carolina,16,intra_american,slavevoyages_iastd
+1742,Caribbean: Antigua,Virginia,7,intra_american,slavevoyages_iastd
+1742,Caribbean: Barbados,Virginia,86,intra_american,slavevoyages_iastd
+1742,Caribbean: Other British Caribbean,Virginia,14,intra_american,slavevoyages_iastd
+1742,Caribbean: St Kitts,Virginia,11,intra_american,slavevoyages_iastd
+1742,Mainland North America: Massachusetts,Virginia,2,intra_american,slavevoyages_iastd
+1742,Mainland North America: Pennsylvania,Virginia,1,intra_american,slavevoyages_iastd
+1742,Mainland North America: Rhode Island,Virginia,1,intra_american,slavevoyages_iastd
+1743,Caribbean: Guadeloupe,New Jersey,10,intra_american,slavevoyages_iastd
+1743,Caribbean: Danish West Indies,New York,4,intra_american,slavevoyages_iastd
+1743,Caribbean: Jamaica,New York,1,intra_american,slavevoyages_iastd
+1743,Caribbean: St Kitts,New York,2,intra_american,slavevoyages_iastd
+1743,Caribbean: Antigua,Pennsylvania,23,intra_american,slavevoyages_iastd
+1743,Caribbean: Barbados,Pennsylvania,5,intra_american,slavevoyages_iastd
+1743,Caribbean: Antigua,Virginia,16,intra_american,slavevoyages_iastd
+1743,Caribbean: Barbados,Virginia,59,intra_american,slavevoyages_iastd
+1743,Caribbean: Jamaica,Virginia,6,intra_american,slavevoyages_iastd
+1743,Caribbean: Other British Caribbean,Virginia,7,intra_american,slavevoyages_iastd
+1743,Caribbean: St Kitts,Virginia,9,intra_american,slavevoyages_iastd
+1743,Mainland North America: Massachusetts,Virginia,1,intra_american,slavevoyages_iastd
+1743,Mainland North America: Pennsylvania,Virginia,5,intra_american,slavevoyages_iastd
+1744,Caribbean: Jamaica,North Carolina,4,intra_american,slavevoyages_iastd
+1744,Mainland North America: South Carolina,Pennsylvania,3,intra_american,slavevoyages_iastd
+1744,Caribbean: Jamaica,Rhode Island,1,intra_american,slavevoyages_iastd
+1744,Caribbean: Barbados,South Carolina,2,intra_american,slavevoyages_iastd
+1744,Mainland North America: Rhode Island,South Carolina,2,intra_american,slavevoyages_iastd
+1744,Caribbean: Antigua,Virginia,16,intra_american,slavevoyages_iastd
+1744,Caribbean: Barbados,Virginia,67,intra_american,slavevoyages_iastd
+1744,Caribbean: Dutch Caribbean,Virginia,1,intra_american,slavevoyages_iastd
+1744,Caribbean: Jamaica,Virginia,16,intra_american,slavevoyages_iastd
+1744,Caribbean: Montserrat,Virginia,1,intra_american,slavevoyages_iastd
+1744,Caribbean: Other British Caribbean,Virginia,5,intra_american,slavevoyages_iastd
+1744,Caribbean: St Kitts,Virginia,75,intra_american,slavevoyages_iastd
+1744,Mainland North America: Pennsylvania,Virginia,2,intra_american,slavevoyages_iastd
+1744,Mainland North America: Rhode Island,Virginia,3,intra_american,slavevoyages_iastd
+1745,Caribbean: Dutch Caribbean,New York,1,intra_american,slavevoyages_iastd
+1745,Mainland North America: South Carolina,Pennsylvania,2,intra_american,slavevoyages_iastd
+1745,Caribbean: Barbados,South Carolina,2,intra_american,slavevoyages_iastd
+1745,Caribbean: Jamaica,South Carolina,7,intra_american,slavevoyages_iastd
+1745,Caribbean: Antigua,Virginia,7,intra_american,slavevoyages_iastd
+1745,Caribbean: Barbados,Virginia,85,intra_american,slavevoyages_iastd
+1745,Caribbean: Other British Caribbean,Virginia,2,intra_american,slavevoyages_iastd
+1745,Caribbean: St Kitts,Virginia,52,intra_american,slavevoyages_iastd
+1746,Mainland North America: Massachusetts,Maryland,2,intra_american,slavevoyages_iastd
+1746,Mainland North America: Virginia,Maryland,99,intra_american,slavevoyages_iastd
+1746,Caribbean: Dutch Caribbean,New York,1,intra_american,slavevoyages_iastd
+1746,Caribbean: Jamaica,North Carolina,24,intra_american,slavevoyages_iastd
+1746,Caribbean: Antigua,South Carolina,2,intra_american,slavevoyages_iastd
+1746,Caribbean: Antigua,Virginia,3,intra_american,slavevoyages_iastd
+1746,Caribbean: Bahamas,Virginia,1,intra_american,slavevoyages_iastd
+1746,Caribbean: Barbados,Virginia,320,intra_american,slavevoyages_iastd
+1746,Caribbean: St Kitts,Virginia,24,intra_american,slavevoyages_iastd
+1747,Mainland North America: Rhode Island,Maryland,1,intra_american,slavevoyages_iastd
+1747,Mainland North America: Rhode Island,New Jersey,10,intra_american,slavevoyages_iastd
+1747,Caribbean: Barbados,Pennsylvania,32,intra_american,slavevoyages_iastd
+1747,Caribbean: Anguilla,Virginia,2,intra_american,slavevoyages_iastd
+1747,Caribbean: Barbados,Virginia,26,intra_american,slavevoyages_iastd
+1747,Mainland North America: New Hampshire,Virginia,1,intra_american,slavevoyages_iastd
+1748,Caribbean: Jamaica,Gulf coast,34,intra_american,slavevoyages_iastd
+1748,Mainland North America: Rhode Island,New Jersey,10,intra_american,slavevoyages_iastd
+1748,Caribbean: Jamaica,New York,9,intra_american,slavevoyages_iastd
+1748,Caribbean: Antigua,South Carolina,3,intra_american,slavevoyages_iastd
+1748,Caribbean: Jamaica,South Carolina,35,intra_american,slavevoyages_iastd
+1748,Caribbean: St Kitts,South Carolina,6,intra_american,slavevoyages_iastd
+1748,Mainland North America: Rhode Island,South Carolina,8,intra_american,slavevoyages_iastd
+1749,Mainland North America: Massachusetts,Maryland,2,intra_american,slavevoyages_iastd
+1749,Mainland North America: Virginia,Maryland,91,intra_american,slavevoyages_iastd
+1749,Caribbean: Barbados,New Hampshire,70,intra_american,slavevoyages_iastd
+1749,Caribbean: Jamaica,New Jersey,24,intra_american,slavevoyages_iastd
+1749,Caribbean: Bahamas,North Carolina,2,intra_american,slavevoyages_iastd
+1749,Caribbean: Antigua,South Carolina,5,intra_american,slavevoyages_iastd
+1749,Caribbean: Jamaica,South Carolina,13,intra_american,slavevoyages_iastd
+1749,Caribbean: Anguilla,Virginia,1,intra_american,slavevoyages_iastd
+1749,Caribbean: Antigua,Virginia,41,intra_american,slavevoyages_iastd
+1749,Caribbean: Barbados,Virginia,233,intra_american,slavevoyages_iastd
+1749,Caribbean: Jamaica,Virginia,6,intra_american,slavevoyages_iastd
+1749,Caribbean: St Kitts,Virginia,1,intra_american,slavevoyages_iastd
+1750,Caribbean: Anguilla,Maryland,4,intra_american,slavevoyages_iastd
+1750,Caribbean: Barbados,Maryland,31,intra_american,slavevoyages_iastd
+1750,Caribbean: Nevis,Maryland,3,intra_american,slavevoyages_iastd
+1750,Mainland North America: Virginia,Maryland,1,intra_american,slavevoyages_iastd
+1750,Caribbean: Barbados,Massachusetts,1,intra_american,slavevoyages_iastd
+1750,Undefined,Massachusetts,1,intra_american,slavevoyages_iastd
+1750,Caribbean: Antigua,New Jersey,50,intra_american,slavevoyages_iastd
+1750,Mainland North America: North Carolina,New Jersey,2,intra_american,slavevoyages_iastd
+1750,Caribbean: Antigua,South Carolina,23,intra_american,slavevoyages_iastd
+1750,Caribbean: Barbados,South Carolina,177,intra_american,slavevoyages_iastd
+1750,Caribbean: Antigua,Virginia,24,intra_american,slavevoyages_iastd
+1750,Caribbean: Barbados,Virginia,143,intra_american,slavevoyages_iastd
+1750,Caribbean: Montserrat,Virginia,1,intra_american,slavevoyages_iastd
+1750,Caribbean: Other Caribbean,Virginia,8,intra_american,slavevoyages_iastd
+1751,Mainland North America: Massachusetts,Maryland,3,intra_american,slavevoyages_iastd
+1751,Caribbean: Barbados,New Jersey,11,intra_american,slavevoyages_iastd
+1751,Caribbean: St Kitts,New Jersey,34,intra_american,slavevoyages_iastd
+1751,Mainland North America: Rhode Island,New Jersey,4,intra_american,slavevoyages_iastd
+1751,Caribbean: Antigua,New York,4,intra_american,slavevoyages_iastd
+1751,Caribbean: Anguilla,Pennsylvania,1,intra_american,slavevoyages_iastd
+1751,Caribbean: Barbados,Pennsylvania,48,intra_american,slavevoyages_iastd
+1751,Caribbean: Jamaica,Pennsylvania,3,intra_american,slavevoyages_iastd
+1751,Caribbean: Antigua,South Carolina,89,intra_american,slavevoyages_iastd
+1751,Caribbean: Bahamas,South Carolina,1,intra_american,slavevoyages_iastd
+1751,Caribbean: Barbados,South Carolina,285,intra_american,slavevoyages_iastd
+1751,Caribbean: Dutch Caribbean,South Carolina,1,intra_american,slavevoyages_iastd
+1751,Caribbean: Montserrat,South Carolina,6,intra_american,slavevoyages_iastd
+1751,Caribbean: St Kitts,South Carolina,19,intra_american,slavevoyages_iastd
+1751,Mainland North America: Massachusetts,South Carolina,6,intra_american,slavevoyages_iastd
+1751,Caribbean: Antigua,Virginia,7,intra_american,slavevoyages_iastd
+1751,Caribbean: Barbados,Virginia,143,intra_american,slavevoyages_iastd
+1751,Caribbean: Montserrat,Virginia,1,intra_american,slavevoyages_iastd
+1751,Caribbean: St Kitts,Virginia,55,intra_american,slavevoyages_iastd
+1752,Caribbean: Jamaica,Georgia,20,intra_american,slavevoyages_iastd
+1752,Caribbean: Anguilla,Maryland,2,intra_american,slavevoyages_iastd
+1752,Caribbean: Antigua,Maryland,43,intra_american,slavevoyages_iastd
+1752,Caribbean: Barbados,Maryland,29,intra_american,slavevoyages_iastd
+1752,Caribbean: Other British Caribbean,Maryland,1,intra_american,slavevoyages_iastd
+1752,Caribbean: St Kitts,Maryland,11,intra_american,slavevoyages_iastd
+1752,Mainland North America: Massachusetts,Maryland,1,intra_american,slavevoyages_iastd
+1752,Mainland North America: Virginia,Maryland,11,intra_american,slavevoyages_iastd
+1752,Caribbean: Barbados,North Carolina,16,intra_american,slavevoyages_iastd
+1752,Caribbean: Barbados,Pennsylvania,139,intra_american,slavevoyages_iastd
+1752,Caribbean: Jamaica,Pennsylvania,6,intra_american,slavevoyages_iastd
+1752,Caribbean: Other British Caribbean,Pennsylvania,3,intra_american,slavevoyages_iastd
+1752,Caribbean: Antigua,South Carolina,8,intra_american,slavevoyages_iastd
+1752,Caribbean: Barbados,South Carolina,320,intra_american,slavevoyages_iastd
+1752,Caribbean: Jamaica,South Carolina,31,intra_american,slavevoyages_iastd
+1752,Caribbean: Montserrat,South Carolina,5,intra_american,slavevoyages_iastd
+1752,Caribbean: St Kitts,South Carolina,51,intra_american,slavevoyages_iastd
+1752,Mainland North America: New York,South Carolina,6,intra_american,slavevoyages_iastd
+1752,Mainland North America: North Carolina,South Carolina,7,intra_american,slavevoyages_iastd
+1752,Caribbean: Antigua,Virginia,7,intra_american,slavevoyages_iastd
+1752,Caribbean: Barbados,Virginia,100,intra_american,slavevoyages_iastd
+1752,Caribbean: Nevis,Virginia,2,intra_american,slavevoyages_iastd
+1752,Caribbean: Other British Caribbean,Virginia,1,intra_american,slavevoyages_iastd
+1752,Caribbean: St Kitts,Virginia,27,intra_american,slavevoyages_iastd
+1752,Mainland North America: New Hampshire,Virginia,1,intra_american,slavevoyages_iastd
+1752,Mainland North America: South Carolina,Virginia,2,intra_american,slavevoyages_iastd
+1753,Caribbean: Jamaica,Connecticut,4,intra_american,slavevoyages_iastd
+1753,Caribbean: Barbados,Maryland,13,intra_american,slavevoyages_iastd
+1753,Europe: England and Wales,Maryland,12,intra_american,slavevoyages_iastd
+1753,Mainland North America: New Hampshire,Maryland,6,intra_american,slavevoyages_iastd
+1753,Mainland North America: Virginia,Maryland,39,intra_american,slavevoyages_iastd
+1753,Caribbean: Barbados,New Jersey,24,intra_american,slavevoyages_iastd
+1753,Caribbean: Barbados,North Carolina,10,intra_american,slavevoyages_iastd
+1753,Mainland North America: Massachusetts,North Carolina,2,intra_american,slavevoyages_iastd
+1753,Caribbean: Antigua,Pennsylvania,2,intra_american,slavevoyages_iastd
+1753,Caribbean: Anguilla,South Carolina,9,intra_american,slavevoyages_iastd
+1753,Caribbean: Antigua,South Carolina,4,intra_american,slavevoyages_iastd
+1753,Caribbean: Barbados,South Carolina,305,intra_american,slavevoyages_iastd
+1753,Caribbean: Jamaica,South Carolina,1,intra_american,slavevoyages_iastd
+1753,Caribbean: St Kitts,South Carolina,2,intra_american,slavevoyages_iastd
+1753,Mainland North America: Rhode Island,South Carolina,6,intra_american,slavevoyages_iastd
+1753,Other: Americas,South Carolina,58,intra_american,slavevoyages_iastd
+1753,Caribbean: Anguilla,Virginia,2,intra_american,slavevoyages_iastd
+1753,Caribbean: Barbados,Virginia,19,intra_american,slavevoyages_iastd
+1754,Caribbean: Barbados,Maryland,53,intra_american,slavevoyages_iastd
+1754,Caribbean: Jamaica,Maryland,30,intra_american,slavevoyages_iastd
+1754,Caribbean: Nevis,Maryland,2,intra_american,slavevoyages_iastd
+1754,Caribbean: Other British Caribbean,Maryland,1,intra_american,slavevoyages_iastd
+1754,Caribbean: St Kitts,Maryland,13,intra_american,slavevoyages_iastd
+1754,Mainland North America: Connecticut,Maryland,4,intra_american,slavevoyages_iastd
+1754,Mainland North America: Massachusetts,Maryland,4,intra_american,slavevoyages_iastd
+1754,Caribbean: Barbados,New Hampshire,14,intra_american,slavevoyages_iastd
+1754,Caribbean: Jamaica,North Carolina,36,intra_american,slavevoyages_iastd
+1754,Caribbean: Barbados,Pennsylvania,24,intra_american,slavevoyages_iastd
+1754,Caribbean: Antigua,South Carolina,13,intra_american,slavevoyages_iastd
+1754,Caribbean: Barbados,South Carolina,522,intra_american,slavevoyages_iastd
+1754,Caribbean: Jamaica,South Carolina,100,intra_american,slavevoyages_iastd
+1754,Mainland North America: New York,South Carolina,26,intra_american,slavevoyages_iastd
+1754,Mainland North America: Pennsylvania,South Carolina,6,intra_american,slavevoyages_iastd
+1754,Mainland North America: Rhode Island,South Carolina,6,intra_american,slavevoyages_iastd
+1754,Caribbean: Antigua,Virginia,53,intra_american,slavevoyages_iastd
+1754,Caribbean: Bahamas,Virginia,2,intra_american,slavevoyages_iastd
+1754,Caribbean: Barbados,Virginia,90,intra_american,slavevoyages_iastd
+1754,Caribbean: Montserrat,Virginia,9,intra_american,slavevoyages_iastd
+1754,Caribbean: Nevis,Virginia,2,intra_american,slavevoyages_iastd
+1754,Caribbean: Other British Caribbean,Virginia,8,intra_american,slavevoyages_iastd
+1754,Mainland North America: Rhode Island,Virginia,3,intra_american,slavevoyages_iastd
+1755,Caribbean: Jamaica,Georgia,8,intra_american,slavevoyages_iastd
+1755,Mainland North America: New York,Georgia,2,intra_american,slavevoyages_iastd
+1755,Mainland North America: Rhode Island,Georgia,18,intra_american,slavevoyages_iastd
+1755,Mainland North America: South Carolina,Georgia,23,intra_american,slavevoyages_iastd
+1755,Caribbean: Barbados,Maryland,1,intra_american,slavevoyages_iastd
+1755,Caribbean: Other British Caribbean,Maryland,2,intra_american,slavevoyages_iastd
+1755,Caribbean: St Kitts,Maryland,8,intra_american,slavevoyages_iastd
+1755,Mainland North America: Massachusetts,Maryland,3,intra_american,slavevoyages_iastd
+1755,Mainland North America: Rhode Island,Maryland,2,intra_american,slavevoyages_iastd
+1755,Caribbean: Dutch Caribbean,New York,2,intra_american,slavevoyages_iastd
+1755,Caribbean: Jamaica,North Carolina,32,intra_american,slavevoyages_iastd
+1755,Mainland North America: New Hampshire,North Carolina,3,intra_american,slavevoyages_iastd
+1755,Caribbean: Jamaica,Pennsylvania,27,intra_american,slavevoyages_iastd
+1755,Caribbean: Antigua,South Carolina,199,intra_american,slavevoyages_iastd
+1755,Caribbean: Barbados,South Carolina,129,intra_american,slavevoyages_iastd
+1755,Caribbean: Dutch Caribbean,South Carolina,32,intra_american,slavevoyages_iastd
+1755,Caribbean: Jamaica,South Carolina,9,intra_american,slavevoyages_iastd
+1755,Caribbean: St Kitts,South Carolina,8,intra_american,slavevoyages_iastd
+1755,Mainland North America: Georgia,South Carolina,6,intra_american,slavevoyages_iastd
+1755,Mainland North America: New York,South Carolina,7,intra_american,slavevoyages_iastd
+1755,Mainland North America: North Carolina,South Carolina,6,intra_american,slavevoyages_iastd
+1755,Mainland North America: Pennsylvania,South Carolina,11,intra_american,slavevoyages_iastd
+1755,Mainland North America: Virginia,South Carolina,7,intra_american,slavevoyages_iastd
+1755,Caribbean: Antigua,Virginia,3,intra_american,slavevoyages_iastd
+1755,Caribbean: Barbados,Virginia,50,intra_american,slavevoyages_iastd
+1755,Caribbean: Jamaica,Virginia,63,intra_american,slavevoyages_iastd
+1755,Caribbean: Other British Caribbean,Virginia,2,intra_american,slavevoyages_iastd
+1756,Caribbean: Jamaica,Georgia,9,intra_american,slavevoyages_iastd
+1756,Caribbean: St Kitts,Georgia,58,intra_american,slavevoyages_iastd
+1756,Caribbean: Barbados,Maryland,7,intra_american,slavevoyages_iastd
+1756,Caribbean: Jamaica,North Carolina,31,intra_american,slavevoyages_iastd
+1756,Caribbean: Barbados,Pennsylvania,31,intra_american,slavevoyages_iastd
+1756,Caribbean: Antigua,South Carolina,58,intra_american,slavevoyages_iastd
+1756,Caribbean: Barbados,South Carolina,166,intra_american,slavevoyages_iastd
+1756,Mainland North America: Rhode Island,South Carolina,6,intra_american,slavevoyages_iastd
+1756,Mainland North America: South Carolina,South Carolina,9,intra_american,slavevoyages_iastd
+1756,Mainland North America: Virginia,South Carolina,6,intra_american,slavevoyages_iastd
+1756,Caribbean: Other British Caribbean,Virginia,2,intra_american,slavevoyages_iastd
+1757,Caribbean: Jamaica,Georgia,17,intra_american,slavevoyages_iastd
+1757,Caribbean: St Kitts,Georgia,8,intra_american,slavevoyages_iastd
+1757,Mainland North America: New Hampshire,North Carolina,2,intra_american,slavevoyages_iastd
+1757,Caribbean: Jamaica,Other North America,5,intra_american,slavevoyages_iastd
+1757,Caribbean: Barbados,Pennsylvania,62,intra_american,slavevoyages_iastd
+1757,Caribbean: Montserrat,Pennsylvania,1,intra_american,slavevoyages_iastd
+1757,Caribbean: Antigua,South Carolina,120,intra_american,slavevoyages_iastd
+1757,Caribbean: Barbados,South Carolina,416,intra_american,slavevoyages_iastd
+1757,Mainland North America: Virginia,South Carolina,6,intra_american,slavevoyages_iastd
+1757,Mainland North America: Other North America,Virginia,4,intra_american,slavevoyages_iastd
+1758,Caribbean: Barbados,Maryland,30,intra_american,slavevoyages_iastd
+1758,Caribbean: Dutch Guianas,Massachusetts,29,intra_american,slavevoyages_iastd
+1758,Mainland North America: Massachusetts,North Carolina,1,intra_american,slavevoyages_iastd
+1758,Mainland North America: New Hampshire,Other North America,2,intra_american,slavevoyages_iastd
+1758,Caribbean: Barbados,Pennsylvania,6,intra_american,slavevoyages_iastd
+1758,Caribbean: Antigua,South Carolina,20,intra_american,slavevoyages_iastd
+1758,Caribbean: Barbados,South Carolina,1,intra_american,slavevoyages_iastd
+1758,Caribbean: Jamaica,South Carolina,30,intra_american,slavevoyages_iastd
+1758,Caribbean: Montserrat,South Carolina,13,intra_american,slavevoyages_iastd
+1758,Caribbean: St Kitts,South Carolina,132,intra_american,slavevoyages_iastd
+1758,Mainland North America: Pennsylvania,South Carolina,1,intra_american,slavevoyages_iastd
+1758,Mainland North America: Rhode Island,South Carolina,1,intra_american,slavevoyages_iastd
+1758,Other: Americas,South Carolina,28,intra_american,slavevoyages_iastd
+1758,Caribbean: Antigua,Virginia,26,intra_american,slavevoyages_iastd
+1758,Caribbean: Barbados,Virginia,9,intra_american,slavevoyages_iastd
+1758,Other: Americas,Virginia,8,intra_american,slavevoyages_iastd
+1759,Caribbean: Antigua,Maryland,2,intra_american,slavevoyages_iastd
+1759,Caribbean: Guadeloupe,Maryland,5,intra_american,slavevoyages_iastd
+1759,Caribbean: St Kitts,Maryland,3,intra_american,slavevoyages_iastd
+1759,Other: Americas,Maryland,3,intra_american,slavevoyages_iastd
+1759,Mainland North America: South Carolina,North Carolina,3,intra_american,slavevoyages_iastd
+1759,Caribbean: Barbados,Pennsylvania,31,intra_american,slavevoyages_iastd
+1759,Caribbean: Antigua,South Carolina,47,intra_american,slavevoyages_iastd
+1759,Caribbean: Barbados,South Carolina,202,intra_american,slavevoyages_iastd
+1759,Caribbean: St Kitts,South Carolina,13,intra_american,slavevoyages_iastd
+1759,Mainland North America: New York,South Carolina,1,intra_american,slavevoyages_iastd
+1759,Mainland North America: Rhode Island,South Carolina,83,intra_american,slavevoyages_iastd
+1759,Caribbean: St Kitts,Virginia,10,intra_american,slavevoyages_iastd
+1760,Caribbean: Danish West Indies,Georgia,15,intra_american,slavevoyages_iastd
+1760,Caribbean: Jamaica,Georgia,46,intra_american,slavevoyages_iastd
+1760,Caribbean: St Kitts,Georgia,6,intra_american,slavevoyages_iastd
+1760,Caribbean: Dutch Caribbean,Maryland,2,intra_american,slavevoyages_iastd
+1760,Europe: England and Wales,Maryland,1,intra_american,slavevoyages_iastd
+1760,Mainland North America: Pennsylvania,Maryland,1,intra_american,slavevoyages_iastd
+1760,Mainland North America: Virginia,Maryland,30,intra_american,slavevoyages_iastd
+1760,Other: Americas,Maryland,14,intra_american,slavevoyages_iastd
+1760,Undefined,Massachusetts,3,intra_american,slavevoyages_iastd
+1760,Caribbean: Danish West Indies,New Hampshire,6,intra_american,slavevoyages_iastd
+1760,Mainland North America: South Carolina,Pennsylvania,2,intra_american,slavevoyages_iastd
+1760,Caribbean: Antigua,South Carolina,10,intra_american,slavevoyages_iastd
+1760,Caribbean: Danish West Indies,South Carolina,5,intra_american,slavevoyages_iastd
+1760,Caribbean: Dutch Caribbean,South Carolina,8,intra_american,slavevoyages_iastd
+1760,Caribbean: Jamaica,South Carolina,9,intra_american,slavevoyages_iastd
+1760,Mainland North America: Rhode Island,South Carolina,4,intra_american,slavevoyages_iastd
+1760,Caribbean: Barbados,Virginia,6,intra_american,slavevoyages_iastd
+1761,Caribbean: Antigua,Georgia,2,intra_american,slavevoyages_iastd
+1761,Other: Non-geographical,Georgia,5,intra_american,slavevoyages_iastd
+1761,Caribbean: Jamaica,Maryland,14,intra_american,slavevoyages_iastd
+1761,Mainland North America: Massachusetts,Maryland,9,intra_american,slavevoyages_iastd
+1761,Caribbean: Dutch Guianas,Massachusetts,7,intra_american,slavevoyages_iastd
+1761,Caribbean: Barbados,New Jersey,3,intra_american,slavevoyages_iastd
+1761,Mainland North America: New Jersey,North Carolina,1,intra_american,slavevoyages_iastd
+1761,Mainland North America: South Carolina,Pennsylvania,28,intra_american,slavevoyages_iastd
+1761,Caribbean: Guadeloupe,South Carolina,8,intra_american,slavevoyages_iastd
+1761,Caribbean: St Kitts,South Carolina,42,intra_american,slavevoyages_iastd
+1761,Mainland North America: Georgia,South Carolina,19,intra_american,slavevoyages_iastd
+1761,Mainland North America: Rhode Island,South Carolina,2,intra_american,slavevoyages_iastd
+1761,Caribbean: Barbados,Virginia,5,intra_american,slavevoyages_iastd
+1762,Caribbean: Dutch Caribbean,Georgia,13,intra_american,slavevoyages_iastd
+1762,Caribbean: St Kitts,Georgia,18,intra_american,slavevoyages_iastd
+1762,Caribbean: Montserrat,Maryland,1,intra_american,slavevoyages_iastd
+1762,Caribbean: Other British Caribbean,Maryland,1,intra_american,slavevoyages_iastd
+1762,Mainland North America: Massachusetts,Maryland,4,intra_american,slavevoyages_iastd
+1762,Mainland North America: Virginia,Maryland,88,intra_american,slavevoyages_iastd
+1762,Other: Americas,Maryland,36,intra_american,slavevoyages_iastd
+1762,Mainland North America: Massachusetts,New York,10,intra_american,slavevoyages_iastd
+1762,Mainland North America: Massachusetts,North Carolina,3,intra_american,slavevoyages_iastd
+1762,Mainland North America: New Jersey,North Carolina,3,intra_american,slavevoyages_iastd
+1762,Mainland North America: South Carolina,North Carolina,14,intra_american,slavevoyages_iastd
+1762,Caribbean: Barbados,Pennsylvania,6,intra_american,slavevoyages_iastd
+1762,Caribbean: Danish West Indies,Pennsylvania,2,intra_american,slavevoyages_iastd
+1762,Caribbean: Cuba,South Carolina,13,intra_american,slavevoyages_iastd
+1762,Caribbean: Dutch Caribbean,South Carolina,2,intra_american,slavevoyages_iastd
+1762,Caribbean: Other British Caribbean,South Carolina,1,intra_american,slavevoyages_iastd
+1762,Caribbean: St Kitts,South Carolina,5,intra_american,slavevoyages_iastd
+1762,Mainland North America: Massachusetts,South Carolina,6,intra_american,slavevoyages_iastd
+1762,Mainland North America: New York,South Carolina,2,intra_american,slavevoyages_iastd
+1762,Mainland North America: North Carolina,South Carolina,6,intra_american,slavevoyages_iastd
+1762,Mainland North America: Pennsylvania,South Carolina,1,intra_american,slavevoyages_iastd
+1762,Mainland North America: Virginia,South Carolina,2,intra_american,slavevoyages_iastd
+1762,Caribbean: Other British Caribbean,Virginia,5,intra_american,slavevoyages_iastd
+1762,Mainland North America: Massachusetts,Virginia,18,intra_american,slavevoyages_iastd
+1762,Mainland North America: New Hampshire,Virginia,7,intra_american,slavevoyages_iastd
+1762,Mainland North America: New Jersey,Virginia,15,intra_american,slavevoyages_iastd
+1762,Mainland North America: Rhode Island,Virginia,5,intra_american,slavevoyages_iastd
+1763,Mainland North America: South Carolina,Florida,46,intra_american,slavevoyages_iastd
+1763,Caribbean: Antigua,Georgia,16,intra_american,slavevoyages_iastd
+1763,Caribbean: Danish West Indies,Georgia,3,intra_american,slavevoyages_iastd
+1763,Caribbean: Dutch Caribbean,Georgia,20,intra_american,slavevoyages_iastd
+1763,Caribbean: Jamaica,Georgia,18,intra_american,slavevoyages_iastd
+1763,Caribbean: Montserrat,Georgia,5,intra_american,slavevoyages_iastd
+1763,Caribbean: St Kitts,Georgia,76,intra_american,slavevoyages_iastd
+1763,Caribbean: Barbados,Maryland,1,intra_american,slavevoyages_iastd
+1763,Mainland North America: Virginia,Maryland,8,intra_american,slavevoyages_iastd
+1763,Other: Americas,Maryland,70,intra_american,slavevoyages_iastd
+1763,Caribbean: Barbados,New York,5,intra_american,slavevoyages_iastd
+1763,Caribbean: Montserrat,New York,4,intra_american,slavevoyages_iastd
+1763,Caribbean: Jamaica,North Carolina,2,intra_american,slavevoyages_iastd
+1763,Mainland North America: Pennsylvania,North Carolina,2,intra_american,slavevoyages_iastd
+1763,Mainland North America: Rhode Island,North Carolina,3,intra_american,slavevoyages_iastd
+1763,Caribbean: Barbados,Pennsylvania,28,intra_american,slavevoyages_iastd
+1763,Caribbean: Jamaica,Pennsylvania,98,intra_american,slavevoyages_iastd
+1763,Caribbean: Antigua,South Carolina,61,intra_american,slavevoyages_iastd
+1763,Caribbean: Barbados,South Carolina,19,intra_american,slavevoyages_iastd
+1763,Caribbean: British Honduras,South Carolina,1,intra_american,slavevoyages_iastd
+1763,Caribbean: Cuba,South Carolina,17,intra_american,slavevoyages_iastd
+1763,Caribbean: Grenada,South Carolina,2,intra_american,slavevoyages_iastd
+1763,Caribbean: Jamaica,South Carolina,2,intra_american,slavevoyages_iastd
+1763,Caribbean: St Kitts,South Carolina,4,intra_american,slavevoyages_iastd
+1763,Mainland North America: Massachusetts,South Carolina,7,intra_american,slavevoyages_iastd
+1763,Mainland North America: North Carolina,South Carolina,1,intra_american,slavevoyages_iastd
+1763,Mainland North America: Pennsylvania,South Carolina,3,intra_american,slavevoyages_iastd
+1763,Caribbean: Antigua,Virginia,22,intra_american,slavevoyages_iastd
+1763,Caribbean: Grenada,Virginia,8,intra_american,slavevoyages_iastd
+1763,Caribbean: St Kitts,Virginia,24,intra_american,slavevoyages_iastd
+1764,Caribbean: Danish West Indies,Georgia,21,intra_american,slavevoyages_iastd
+1764,Caribbean: Dutch Caribbean,Georgia,47,intra_american,slavevoyages_iastd
+1764,Caribbean: Grenada,Georgia,6,intra_american,slavevoyages_iastd
+1764,Caribbean: Jamaica,Georgia,52,intra_american,slavevoyages_iastd
+1764,Caribbean: Montserrat,Georgia,26,intra_american,slavevoyages_iastd
+1764,Caribbean: St Kitts,Georgia,96,intra_american,slavevoyages_iastd
+1764,Caribbean: Tortola,Georgia,28,intra_american,slavevoyages_iastd
+1764,Mainland North America: South Carolina,Georgia,1,intra_american,slavevoyages_iastd
+1764,Caribbean: Antigua,Maryland,27,intra_american,slavevoyages_iastd
+1764,Caribbean: Barbados,Maryland,8,intra_american,slavevoyages_iastd
+1764,Caribbean: Bahamas,Massachusetts,3,intra_american,slavevoyages_iastd
+1764,Caribbean: Barbados,New York,8,intra_american,slavevoyages_iastd
+1764,Caribbean: Barbados,North Carolina,8,intra_american,slavevoyages_iastd
+1764,Caribbean: Grenada,North Carolina,3,intra_american,slavevoyages_iastd
+1764,Caribbean: Jamaica,North Carolina,39,intra_american,slavevoyages_iastd
+1764,Mainland North America: Massachusetts,North Carolina,1,intra_american,slavevoyages_iastd
+1764,Mainland North America: New Jersey,North Carolina,33,intra_american,slavevoyages_iastd
+1764,Caribbean: Barbados,Pennsylvania,54,intra_american,slavevoyages_iastd
+1764,Caribbean: Antigua,South Carolina,279,intra_american,slavevoyages_iastd
+1764,Caribbean: Barbados,South Carolina,243,intra_american,slavevoyages_iastd
+1764,Caribbean: British Honduras,South Carolina,3,intra_american,slavevoyages_iastd
+1764,Caribbean: Cuba,South Carolina,81,intra_american,slavevoyages_iastd
+1764,Caribbean: Jamaica,South Carolina,129,intra_american,slavevoyages_iastd
+1764,Caribbean: St Kitts,South Carolina,342,intra_american,slavevoyages_iastd
+1764,Mainland North America: Massachusetts,South Carolina,1,intra_american,slavevoyages_iastd
+1764,Mainland North America: North Carolina,South Carolina,3,intra_american,slavevoyages_iastd
+1764,Mainland North America: Rhode Island,South Carolina,24,intra_american,slavevoyages_iastd
+1764,Mainland North America: South Carolina,South Carolina,35,intra_american,slavevoyages_iastd
+1764,Mainland North America: Virginia,South Carolina,1,intra_american,slavevoyages_iastd
+1764,Caribbean: Antigua,Virginia,5,intra_american,slavevoyages_iastd
+1764,Caribbean: Barbados,Virginia,34,intra_american,slavevoyages_iastd
+1764,Caribbean: Jamaica,Virginia,6,intra_american,slavevoyages_iastd
+1764,Caribbean: St Kitts,Virginia,7,intra_american,slavevoyages_iastd
+1765,Caribbean: Jamaica,Florida,6,intra_american,slavevoyages_iastd
+1765,Mainland North America: Georgia,Florida,4,intra_american,slavevoyages_iastd
+1765,Mainland North America: South Carolina,Florida,9,intra_american,slavevoyages_iastd
+1765,Caribbean: Danish West Indies,Georgia,12,intra_american,slavevoyages_iastd
+1765,Caribbean: Dutch Caribbean,Georgia,19,intra_american,slavevoyages_iastd
+1765,Caribbean: Grenada,Georgia,5,intra_american,slavevoyages_iastd
+1765,Caribbean: Guadeloupe,Georgia,2,intra_american,slavevoyages_iastd
+1765,Caribbean: Jamaica,Georgia,168,intra_american,slavevoyages_iastd
+1765,Caribbean: St Kitts,Georgia,67,intra_american,slavevoyages_iastd
+1765,Mainland North America: Rhode Island,Georgia,2,intra_american,slavevoyages_iastd
+1765,Mainland North America: South Carolina,Georgia,78,intra_american,slavevoyages_iastd
+1765,Caribbean: Jamaica,Maryland,67,intra_american,slavevoyages_iastd
+1765,Caribbean: Nevis,Maryland,12,intra_american,slavevoyages_iastd
+1765,Caribbean: St Kitts,Maryland,6,intra_american,slavevoyages_iastd
+1765,Mainland North America: Massachusetts,Maryland,4,intra_american,slavevoyages_iastd
+1765,Mainland North America: Pennsylvania,Maryland,5,intra_american,slavevoyages_iastd
+1765,Mainland North America: Rhode Island,Maryland,3,intra_american,slavevoyages_iastd
+1765,Other: Americas,Maryland,1,intra_american,slavevoyages_iastd
+1765,Caribbean: Jamaica,North Carolina,76,intra_american,slavevoyages_iastd
+1765,Mainland North America: Massachusetts,North Carolina,10,intra_american,slavevoyages_iastd
+1765,Mainland North America: New Jersey,North Carolina,9,intra_american,slavevoyages_iastd
+1765,Mainland North America: Pennsylvania,North Carolina,12,intra_american,slavevoyages_iastd
+1765,Mainland North America: South Carolina,North Carolina,27,intra_american,slavevoyages_iastd
+1765,Caribbean: Grenada,Pennsylvania,4,intra_american,slavevoyages_iastd
+1765,Caribbean: Jamaica,Pennsylvania,27,intra_american,slavevoyages_iastd
+1765,Caribbean: Antigua,South Carolina,350,intra_american,slavevoyages_iastd
+1765,Caribbean: Barbados,South Carolina,163,intra_american,slavevoyages_iastd
+1765,Caribbean: Cuba,South Carolina,3,intra_american,slavevoyages_iastd
+1765,Caribbean: Dominica,South Carolina,3,intra_american,slavevoyages_iastd
+1765,Caribbean: Dutch Caribbean,South Carolina,2,intra_american,slavevoyages_iastd
+1765,Caribbean: Grenada,South Carolina,8,intra_american,slavevoyages_iastd
+1765,Caribbean: Jamaica,South Carolina,322,intra_american,slavevoyages_iastd
+1765,Caribbean: Montserrat,South Carolina,108,intra_american,slavevoyages_iastd
+1765,Caribbean: Nevis,South Carolina,57,intra_american,slavevoyages_iastd
+1765,Caribbean: Other British Caribbean,South Carolina,7,intra_american,slavevoyages_iastd
+1765,Caribbean: St Kitts,South Carolina,172,intra_american,slavevoyages_iastd
+1765,Caribbean: Tortola,South Carolina,17,intra_american,slavevoyages_iastd
+1765,Mainland North America: New Hampshire,South Carolina,1,intra_american,slavevoyages_iastd
+1765,Mainland North America: Rhode Island,South Carolina,115,intra_american,slavevoyages_iastd
+1765,Caribbean: Antigua,Virginia,10,intra_american,slavevoyages_iastd
+1765,Caribbean: Barbados,Virginia,80,intra_american,slavevoyages_iastd
+1765,Caribbean: Grenada,Virginia,8,intra_american,slavevoyages_iastd
+1765,Caribbean: Nevis,Virginia,11,intra_american,slavevoyages_iastd
+1766,Caribbean: Jamaica,Florida,36,intra_american,slavevoyages_iastd
+1766,Mainland North America: Georgia,Florida,49,intra_american,slavevoyages_iastd
+1766,Caribbean: Antigua,Georgia,37,intra_american,slavevoyages_iastd
+1766,Caribbean: Barbados,Georgia,20,intra_american,slavevoyages_iastd
+1766,Caribbean: Cuba,Georgia,3,intra_american,slavevoyages_iastd
+1766,Caribbean: Danish West Indies,Georgia,39,intra_american,slavevoyages_iastd
+1766,Caribbean: Grenada,Georgia,33,intra_american,slavevoyages_iastd
+1766,Caribbean: Guadeloupe,Georgia,5,intra_american,slavevoyages_iastd
+1766,Caribbean: Jamaica,Georgia,86,intra_american,slavevoyages_iastd
+1766,Caribbean: Montserrat,Georgia,20,intra_american,slavevoyages_iastd
+1766,Caribbean: St Kitts,Georgia,120,intra_american,slavevoyages_iastd
+1766,Caribbean: Tortola,Georgia,3,intra_american,slavevoyages_iastd
+1766,Mainland North America: South Carolina,Georgia,8,intra_american,slavevoyages_iastd
+1766,Caribbean: Barbados,Maryland,2,intra_american,slavevoyages_iastd
+1766,Caribbean: Grenada,Maryland,1,intra_american,slavevoyages_iastd
+1766,Caribbean: Montserrat,Maryland,4,intra_american,slavevoyages_iastd
+1766,Caribbean: St Kitts,Maryland,6,intra_american,slavevoyages_iastd
+1766,Mainland North America: New Hampshire,Maryland,1,intra_american,slavevoyages_iastd
+1766,Caribbean: Dutch Caribbean,New York,2,intra_american,slavevoyages_iastd
+1766,Caribbean: Grenada,North Carolina,4,intra_american,slavevoyages_iastd
+1766,Caribbean: Jamaica,North Carolina,61,intra_american,slavevoyages_iastd
+1766,Caribbean: Jamaica,Pennsylvania,11,intra_american,slavevoyages_iastd
+1766,Caribbean: Jamaica,South Carolina,9,intra_american,slavevoyages_iastd
+1766,Caribbean: Montserrat,South Carolina,3,intra_american,slavevoyages_iastd
+1766,Caribbean: St Kitts,South Carolina,101,intra_american,slavevoyages_iastd
+1766,Caribbean: Antigua,Virginia,9,intra_american,slavevoyages_iastd
+1766,Caribbean: Barbados,Virginia,6,intra_american,slavevoyages_iastd
+1766,Caribbean: Jamaica,Virginia,2,intra_american,slavevoyages_iastd
+1766,Mainland North America: Pennsylvania,Virginia,1,intra_american,slavevoyages_iastd
+1767,Caribbean: Jamaica,Connecticut,6,intra_american,slavevoyages_iastd
+1767,Caribbean: Jamaica,Florida,114,intra_american,slavevoyages_iastd
+1767,Mainland North America: South Carolina,Florida,51,intra_american,slavevoyages_iastd
+1767,Caribbean: Antigua,Georgia,27,intra_american,slavevoyages_iastd
+1767,Caribbean: Barbados,Georgia,22,intra_american,slavevoyages_iastd
+1767,Caribbean: Danish West Indies,Georgia,9,intra_american,slavevoyages_iastd
+1767,Caribbean: Dutch Caribbean,Georgia,25,intra_american,slavevoyages_iastd
+1767,Caribbean: Grenada,Georgia,117,intra_american,slavevoyages_iastd
+1767,Caribbean: Jamaica,Georgia,39,intra_american,slavevoyages_iastd
+1767,Caribbean: Montserrat,Georgia,11,intra_american,slavevoyages_iastd
+1767,Caribbean: St Kitts,Georgia,73,intra_american,slavevoyages_iastd
+1767,Caribbean: St Vincent,Georgia,15,intra_american,slavevoyages_iastd
+1767,Mainland North America: Georgia,Georgia,14,intra_american,slavevoyages_iastd
+1767,Mainland North America: Rhode Island,Georgia,2,intra_american,slavevoyages_iastd
+1767,Mainland North America: South Carolina,Georgia,60,intra_american,slavevoyages_iastd
+1767,Caribbean: Antigua,Maryland,26,intra_american,slavevoyages_iastd
+1767,Caribbean: Other British Caribbean,Maryland,2,intra_american,slavevoyages_iastd
+1767,Caribbean: St Kitts,Maryland,13,intra_american,slavevoyages_iastd
+1767,Caribbean: Grenada,North Carolina,10,intra_american,slavevoyages_iastd
+1767,Caribbean: Jamaica,North Carolina,108,intra_american,slavevoyages_iastd
+1767,Mainland North America: New Hampshire,North Carolina,4,intra_american,slavevoyages_iastd
+1767,Caribbean: Jamaica,Pennsylvania,86,intra_american,slavevoyages_iastd
+1767,Caribbean: Jamaica,South Carolina,4,intra_american,slavevoyages_iastd
+1767,Caribbean: St Kitts,South Carolina,28,intra_american,slavevoyages_iastd
+1767,Mainland North America: North Carolina,South Carolina,17,intra_american,slavevoyages_iastd
+1767,Caribbean: Antigua,Virginia,45,intra_american,slavevoyages_iastd
+1767,Caribbean: Dominica,Virginia,10,intra_american,slavevoyages_iastd
+1767,Caribbean: Jamaica,Virginia,6,intra_american,slavevoyages_iastd
+1767,Caribbean: St Kitts,Virginia,7,intra_american,slavevoyages_iastd
+1768,Caribbean: Jamaica,Connecticut,7,intra_american,slavevoyages_iastd
+1768,Mainland North America: Georgia,Florida,113,intra_american,slavevoyages_iastd
+1768,Mainland North America: South Carolina,Florida,48,intra_american,slavevoyages_iastd
+1768,Caribbean: Jamaica,Georgia,21,intra_american,slavevoyages_iastd
+1768,Caribbean: Antigua,Maryland,13,intra_american,slavevoyages_iastd
+1768,Caribbean: Barbados,Maryland,2,intra_american,slavevoyages_iastd
+1768,Caribbean: St Kitts,Maryland,8,intra_american,slavevoyages_iastd
+1768,Caribbean: Jamaica,North Carolina,41,intra_american,slavevoyages_iastd
+1768,Mainland North America: New Hampshire,North Carolina,1,intra_american,slavevoyages_iastd
+1768,Caribbean: Jamaica,South Carolina,4,intra_american,slavevoyages_iastd
+1768,Mainland North America: Florida,South Carolina,26,intra_american,slavevoyages_iastd
+1768,Mainland North America: New York,South Carolina,1,intra_american,slavevoyages_iastd
+1768,Caribbean: Antigua,Virginia,19,intra_american,slavevoyages_iastd
+1768,Caribbean: St Kitts,Virginia,4,intra_american,slavevoyages_iastd
+1769,Caribbean: Jamaica,Florida,28,intra_american,slavevoyages_iastd
+1769,Mainland North America: Georgia,Florida,4,intra_american,slavevoyages_iastd
+1769,Mainland North America: South Carolina,Florida,43,intra_american,slavevoyages_iastd
+1769,Caribbean: Jamaica,Georgia,4,intra_american,slavevoyages_iastd
+1769,Caribbean: Antigua,Maryland,2,intra_american,slavevoyages_iastd
+1769,Caribbean: Jamaica,Maryland,19,intra_american,slavevoyages_iastd
+1769,Caribbean: Jamaica,North Carolina,13,intra_american,slavevoyages_iastd
+1769,Caribbean: Anguilla,South Carolina,1,intra_american,slavevoyages_iastd
+1769,Caribbean: Antigua,South Carolina,154,intra_american,slavevoyages_iastd
+1769,Caribbean: Barbados,South Carolina,237,intra_american,slavevoyages_iastd
+1769,Caribbean: Danish West Indies,South Carolina,9,intra_american,slavevoyages_iastd
+1769,Caribbean: Dominica,South Carolina,16,intra_american,slavevoyages_iastd
+1769,Caribbean: Dutch Caribbean,South Carolina,2,intra_american,slavevoyages_iastd
+1769,Caribbean: Grenada,South Carolina,2,intra_american,slavevoyages_iastd
+1769,Caribbean: Jamaica,South Carolina,54,intra_american,slavevoyages_iastd
+1769,Caribbean: Other British Caribbean,South Carolina,28,intra_american,slavevoyages_iastd
+1769,Caribbean: St Kitts,South Carolina,161,intra_american,slavevoyages_iastd
+1769,Mainland North America: Georgia,South Carolina,5,intra_american,slavevoyages_iastd
+1769,Mainland North America: Pennsylvania,South Carolina,1,intra_american,slavevoyages_iastd
+1769,Mainland North America: Rhode Island,South Carolina,3,intra_american,slavevoyages_iastd
+1769,Caribbean: Antigua,Virginia,42,intra_american,slavevoyages_iastd
+1769,Caribbean: Dutch Caribbean,Virginia,25,intra_american,slavevoyages_iastd
+1769,Mainland North America: Massachusetts,Virginia,1,intra_american,slavevoyages_iastd
+1769,Mainland North America: New Hampshire,Virginia,1,intra_american,slavevoyages_iastd
+1769,Mainland North America: Rhode Island,Virginia,1,intra_american,slavevoyages_iastd
+1770,Caribbean: Barbados,Maryland,14,intra_american,slavevoyages_iastd
+1770,Caribbean: Antigua,South Carolina,1,intra_american,slavevoyages_iastd
+1770,Caribbean: Grenada,South Carolina,9,intra_american,slavevoyages_iastd
+1770,Caribbean: Jamaica,South Carolina,67,intra_american,slavevoyages_iastd
+1770,Caribbean: Other British Caribbean,South Carolina,4,intra_american,slavevoyages_iastd
+1770,Mainland North America: Florida,South Carolina,13,intra_american,slavevoyages_iastd
+1770,Mainland North America: Georgia,South Carolina,9,intra_american,slavevoyages_iastd
+1770,Mainland North America: North Carolina,South Carolina,2,intra_american,slavevoyages_iastd
+1770,Caribbean: Barbados,Virginia,49,intra_american,slavevoyages_iastd
+1771,Caribbean: Barbados,Maryland,5,intra_american,slavevoyages_iastd
+1771,Caribbean: St Kitts,Maryland,8,intra_american,slavevoyages_iastd
+1771,Caribbean: Antigua,North Carolina,16,intra_american,slavevoyages_iastd
+1771,Caribbean: Danish West Indies,North Carolina,5,intra_american,slavevoyages_iastd
+1771,Caribbean: Jamaica,North Carolina,3,intra_american,slavevoyages_iastd
+1771,Caribbean: Nevis,North Carolina,64,intra_american,slavevoyages_iastd
+1771,Caribbean: Antigua,South Carolina,186,intra_american,slavevoyages_iastd
+1771,Caribbean: Barbados,South Carolina,363,intra_american,slavevoyages_iastd
+1771,Caribbean: Dominica,South Carolina,52,intra_american,slavevoyages_iastd
+1771,Caribbean: Dutch Caribbean,South Carolina,15,intra_american,slavevoyages_iastd
+1771,Caribbean: Grenada,South Carolina,13,intra_american,slavevoyages_iastd
+1771,Caribbean: Jamaica,South Carolina,143,intra_american,slavevoyages_iastd
+1771,Caribbean: Montserrat,South Carolina,1,intra_american,slavevoyages_iastd
+1771,Caribbean: Other British Caribbean,South Carolina,7,intra_american,slavevoyages_iastd
+1771,Caribbean: St Kitts,South Carolina,187,intra_american,slavevoyages_iastd
+1771,Caribbean: St Vincent,South Carolina,20,intra_american,slavevoyages_iastd
+1771,Mainland North America: Florida,South Carolina,43,intra_american,slavevoyages_iastd
+1771,Mainland North America: Georgia,South Carolina,7,intra_american,slavevoyages_iastd
+1771,Mainland North America: Massachusetts,South Carolina,12,intra_american,slavevoyages_iastd
+1771,Mainland North America: New York,South Carolina,85,intra_american,slavevoyages_iastd
+1771,Mainland North America: Rhode Island,South Carolina,8,intra_american,slavevoyages_iastd
+1771,Caribbean: Antigua,Virginia,174,intra_american,slavevoyages_iastd
+1771,Caribbean: Barbados,Virginia,195,intra_american,slavevoyages_iastd
+1771,Caribbean: Dutch Caribbean,Virginia,4,intra_american,slavevoyages_iastd
+1771,Caribbean: Grenada,Virginia,81,intra_american,slavevoyages_iastd
+1771,Caribbean: Jamaica,Virginia,19,intra_american,slavevoyages_iastd
+1771,Caribbean: Nevis,Virginia,131,intra_american,slavevoyages_iastd
+1771,Caribbean: Other British Caribbean,Virginia,10,intra_american,slavevoyages_iastd
+1771,Caribbean: St Kitts,Virginia,41,intra_american,slavevoyages_iastd
+1771,Caribbean: St Vincent,Virginia,22,intra_american,slavevoyages_iastd
+1771,Caribbean: Tobago,Virginia,8,intra_american,slavevoyages_iastd
+1772,Caribbean: Antigua,Florida,44,intra_american,slavevoyages_iastd
+1772,Caribbean: Antigua,Georgia,7,intra_american,slavevoyages_iastd
+1772,Caribbean: St Kitts,Georgia,25,intra_american,slavevoyages_iastd
+1772,Caribbean: Barbados,Maryland,5,intra_american,slavevoyages_iastd
+1772,Caribbean: St Kitts,Maryland,3,intra_american,slavevoyages_iastd
+1772,Caribbean: St Vincent,Maryland,74,intra_american,slavevoyages_iastd
+1772,Caribbean: Antigua,North Carolina,74,intra_american,slavevoyages_iastd
+1772,Caribbean: Jamaica,North Carolina,28,intra_american,slavevoyages_iastd
+1772,Caribbean: Tobago,North Carolina,10,intra_american,slavevoyages_iastd
+1772,Caribbean: St Kitts,Pennsylvania,2,intra_american,slavevoyages_iastd
+1772,Caribbean: Antigua,South Carolina,109,intra_american,slavevoyages_iastd
+1772,Caribbean: Barbados,South Carolina,949,intra_american,slavevoyages_iastd
+1772,Caribbean: Danish West Indies,South Carolina,56,intra_american,slavevoyages_iastd
+1772,Caribbean: Dutch Caribbean,South Carolina,21,intra_american,slavevoyages_iastd
+1772,Caribbean: Grenada,South Carolina,123,intra_american,slavevoyages_iastd
+1772,Caribbean: Jamaica,South Carolina,39,intra_american,slavevoyages_iastd
+1772,Caribbean: Other British Caribbean,South Carolina,4,intra_american,slavevoyages_iastd
+1772,Caribbean: St Kitts,South Carolina,368,intra_american,slavevoyages_iastd
+1772,Caribbean: St Vincent,South Carolina,28,intra_american,slavevoyages_iastd
+1772,Caribbean: Tobago,South Carolina,1,intra_american,slavevoyages_iastd
+1772,Mainland North America: Florida,South Carolina,7,intra_american,slavevoyages_iastd
+1772,Mainland North America: New Hampshire,South Carolina,1,intra_american,slavevoyages_iastd
+1772,Mainland North America: New York,South Carolina,6,intra_american,slavevoyages_iastd
+1772,Mainland North America: North Carolina,South Carolina,10,intra_american,slavevoyages_iastd
+1772,Mainland North America: Pennsylvania,South Carolina,26,intra_american,slavevoyages_iastd
+1772,Mainland North America: Rhode Island,South Carolina,8,intra_american,slavevoyages_iastd
+1772,Caribbean: Antigua,Virginia,200,intra_american,slavevoyages_iastd
+1772,Caribbean: Barbados,Virginia,47,intra_american,slavevoyages_iastd
+1772,Caribbean: Dominica,Virginia,2,intra_american,slavevoyages_iastd
+1772,Caribbean: Grenada,Virginia,47,intra_american,slavevoyages_iastd
+1772,Caribbean: Other British Caribbean,Virginia,20,intra_american,slavevoyages_iastd
+1772,Caribbean: St Vincent,Virginia,23,intra_american,slavevoyages_iastd
+1772,Caribbean: Tobago,Virginia,8,intra_american,slavevoyages_iastd
+1773,Caribbean: Antigua,Georgia,57,intra_american,slavevoyages_iastd
+1773,Caribbean: Danish West Indies,Georgia,1,intra_american,slavevoyages_iastd
+1773,Caribbean: St Kitts,Georgia,38,intra_american,slavevoyages_iastd
+1773,Caribbean: St Kitts,Gulf coast,53,intra_american,slavevoyages_iastd
+1773,Caribbean: Dutch Caribbean,Maryland,3,intra_american,slavevoyages_iastd
+1773,Caribbean: St Kitts,Maryland,2,intra_american,slavevoyages_iastd
+1773,Caribbean: Antigua,North Carolina,2,intra_american,slavevoyages_iastd
+1773,Caribbean: Danish West Indies,North Carolina,6,intra_american,slavevoyages_iastd
+1773,Caribbean: Grenada,North Carolina,20,intra_american,slavevoyages_iastd
+1773,Caribbean: Jamaica,North Carolina,13,intra_american,slavevoyages_iastd
+1773,Caribbean: Tobago,North Carolina,10,intra_american,slavevoyages_iastd
+1773,Caribbean: Antigua,South Carolina,17,intra_american,slavevoyages_iastd
+1773,Caribbean: Barbados,South Carolina,331,intra_american,slavevoyages_iastd
+1773,Caribbean: Danish West Indies,South Carolina,7,intra_american,slavevoyages_iastd
+1773,Caribbean: Dominica,South Carolina,64,intra_american,slavevoyages_iastd
+1773,Caribbean: Grenada,South Carolina,36,intra_american,slavevoyages_iastd
+1773,Caribbean: Jamaica,South Carolina,19,intra_american,slavevoyages_iastd
+1773,Caribbean: Other British Caribbean,South Carolina,1,intra_american,slavevoyages_iastd
+1773,Caribbean: Saint-Domingue,South Carolina,3,intra_american,slavevoyages_iastd
+1773,Caribbean: St Kitts,South Carolina,29,intra_american,slavevoyages_iastd
+1773,Caribbean: St Vincent,South Carolina,12,intra_american,slavevoyages_iastd
+1773,Mainland North America: Florida,South Carolina,5,intra_american,slavevoyages_iastd
+1773,Mainland North America: Massachusetts,South Carolina,6,intra_american,slavevoyages_iastd
+1773,Mainland North America: New York,South Carolina,19,intra_american,slavevoyages_iastd
+1773,Mainland North America: North Carolina,South Carolina,5,intra_american,slavevoyages_iastd
+1773,Mainland North America: Pennsylvania,South Carolina,15,intra_american,slavevoyages_iastd
+1773,Mainland North America: Rhode Island,South Carolina,24,intra_american,slavevoyages_iastd
+1773,Caribbean: Nevis,Virginia,1,intra_american,slavevoyages_iastd
+1773,Caribbean: Other British Caribbean,Virginia,1,intra_american,slavevoyages_iastd
+1773,Caribbean: Tobago,Virginia,4,intra_american,slavevoyages_iastd
+1774,Caribbean: Antigua,Georgia,48,intra_american,slavevoyages_iastd
+1774,Caribbean: St Kitts,Georgia,62,intra_american,slavevoyages_iastd
+1774,Caribbean: Barbados,Gulf coast,134,intra_american,slavevoyages_iastd
+1774,Caribbean: Barbados,North Carolina,27,intra_american,slavevoyages_iastd
+1774,Caribbean: Danish West Indies,North Carolina,3,intra_american,slavevoyages_iastd
+1774,Caribbean: Dutch Caribbean,North Carolina,11,intra_american,slavevoyages_iastd
+1774,Caribbean: Grenada,North Carolina,67,intra_american,slavevoyages_iastd
+1774,Caribbean: Jamaica,North Carolina,100,intra_american,slavevoyages_iastd
+1774,Caribbean: Tobago,North Carolina,2,intra_american,slavevoyages_iastd
+1774,Mainland North America: South Carolina,North Carolina,30,intra_american,slavevoyages_iastd
+1774,Caribbean: Barbados,South Carolina,2,intra_american,slavevoyages_iastd
+1774,Caribbean: British Honduras,South Carolina,3,intra_american,slavevoyages_iastd
+1774,Caribbean: Dominica,South Carolina,18,intra_american,slavevoyages_iastd
+1774,Caribbean: Grenada,South Carolina,78,intra_american,slavevoyages_iastd
+1774,Caribbean: Jamaica,South Carolina,60,intra_american,slavevoyages_iastd
+1774,Caribbean: Montserrat,South Carolina,16,intra_american,slavevoyages_iastd
+1774,Caribbean: St Kitts,South Carolina,29,intra_american,slavevoyages_iastd
+1774,Caribbean: St Vincent,South Carolina,3,intra_american,slavevoyages_iastd
+1774,Mainland North America: Georgia,South Carolina,109,intra_american,slavevoyages_iastd
+1774,Mainland North America: New York,South Carolina,2,intra_american,slavevoyages_iastd
+1774,Mainland North America: Pennsylvania,South Carolina,4,intra_american,slavevoyages_iastd
+1774,Mainland North America: Rhode Island,South Carolina,7,intra_american,slavevoyages_iastd
+1774,Caribbean: Antigua,Virginia,41,intra_american,slavevoyages_iastd
+1774,Caribbean: Grenada,Virginia,5,intra_american,slavevoyages_iastd
+1774,Caribbean: Tobago,Virginia,4,intra_american,slavevoyages_iastd
+1775,Caribbean: Antigua,Georgia,2,intra_american,slavevoyages_iastd
+1775,Caribbean: Barbados,Georgia,10,intra_american,slavevoyages_iastd
+1775,Caribbean: Danish West Indies,Georgia,2,intra_american,slavevoyages_iastd
+1775,Caribbean: Barbados,Gulf coast,191,intra_american,slavevoyages_iastd
+1775,Caribbean: Dominica,North Carolina,1,intra_american,slavevoyages_iastd
+1775,Caribbean: Hispaniola,North Carolina,2,intra_american,slavevoyages_iastd
+1775,Mainland North America: South Carolina,North Carolina,9,intra_american,slavevoyages_iastd
+1775,Mainland North America: Georgia,South Carolina,3,intra_american,slavevoyages_iastd
+1775,Caribbean: Jamaica,Virginia,13,intra_american,slavevoyages_iastd
+1776,Mainland North America: Virginia,Pennsylvania,6,intra_american,slavevoyages_iastd
+1780,Mainland North America: South Carolina,North Carolina,12,intra_american,slavevoyages_iastd
+1780,Other: Americas,North Carolina,36,intra_american,slavevoyages_iastd
+1782,Caribbean: Jamaica,Florida,2,intra_american,slavevoyages_iastd
+1783,Caribbean: Dominica,Gulf coast,38,intra_american,slavevoyages_iastd
+1783,Caribbean: Jamaica,Gulf coast,56,intra_american,slavevoyages_iastd
+1783,Other: Americas,Gulf coast,86,intra_american,slavevoyages_iastd
+1783,Caribbean: Antigua,South Carolina,90,intra_american,slavevoyages_iastd
+1783,Caribbean: Danish West Indies,South Carolina,180,intra_american,slavevoyages_iastd
+1783,Caribbean: Jamaica,South Carolina,96,intra_american,slavevoyages_iastd
+1783,Caribbean: St Kitts,South Carolina,170,intra_american,slavevoyages_iastd
+1784,Caribbean: Antigua,Georgia,7,intra_american,slavevoyages_iastd
+1784,Caribbean: Dutch Caribbean,Georgia,6,intra_american,slavevoyages_iastd
+1784,Caribbean: Jamaica,Georgia,187,intra_american,slavevoyages_iastd
+1784,Other: Americas,Georgia,14,intra_american,slavevoyages_iastd
+1784,Caribbean: Jamaica,Gulf coast,309,intra_american,slavevoyages_iastd
+1784,Caribbean: Martinique,Gulf coast,25,intra_american,slavevoyages_iastd
+1784,Mainland North America: New York,North Carolina,2,intra_american,slavevoyages_iastd
+1784,Mainland North America: South Carolina,North Carolina,88,intra_american,slavevoyages_iastd
+1784,Caribbean: Antigua,South Carolina,43,intra_american,slavevoyages_iastd
+1784,Caribbean: Barbados,South Carolina,8,intra_american,slavevoyages_iastd
+1784,Caribbean: Danish West Indies,South Carolina,18,intra_american,slavevoyages_iastd
+1784,Caribbean: Dutch Caribbean,South Carolina,2,intra_american,slavevoyages_iastd
+1784,Caribbean: Guadeloupe,South Carolina,1,intra_american,slavevoyages_iastd
+1784,Caribbean: Jamaica,South Carolina,410,intra_american,slavevoyages_iastd
+1784,Caribbean: Other British Caribbean,South Carolina,19,intra_american,slavevoyages_iastd
+1784,Caribbean: St Kitts,South Carolina,50,intra_american,slavevoyages_iastd
+1784,Caribbean: Tortola,South Carolina,20,intra_american,slavevoyages_iastd
+1784,Mainland North America: Florida,South Carolina,3,intra_american,slavevoyages_iastd
+1784,Other: Americas,South Carolina,109,intra_american,slavevoyages_iastd
+1784,Spanish Mainland Americas: Spanish Circum-Caribbean,South Carolina,2,intra_american,slavevoyages_iastd
+1785,Caribbean: Jamaica,Georgia,44,intra_american,slavevoyages_iastd
+1785,Other: Americas,Georgia,30,intra_american,slavevoyages_iastd
+1785,Caribbean: Cuba,Gulf coast,84,intra_american,slavevoyages_iastd
+1785,Caribbean: Dominica,Gulf coast,29,intra_american,slavevoyages_iastd
+1785,Caribbean: Guadeloupe,Gulf coast,40,intra_american,slavevoyages_iastd
+1785,Caribbean: Jamaica,Gulf coast,739,intra_american,slavevoyages_iastd
+1785,Caribbean: Saint-Domingue,Gulf coast,55,intra_american,slavevoyages_iastd
+1785,Other: Americas,Gulf coast,62,intra_american,slavevoyages_iastd
+1785,Caribbean: Antigua,North Carolina,5,intra_american,slavevoyages_iastd
+1785,Caribbean: Bahamas,North Carolina,8,intra_american,slavevoyages_iastd
+1785,Caribbean: Jamaica,North Carolina,3,intra_american,slavevoyages_iastd
+1785,Mainland North America: Georgia,North Carolina,44,intra_american,slavevoyages_iastd
+1785,Mainland North America: Massachusetts,North Carolina,5,intra_american,slavevoyages_iastd
+1785,Mainland North America: New York,North Carolina,3,intra_american,slavevoyages_iastd
+1785,Mainland North America: South Carolina,North Carolina,28,intra_american,slavevoyages_iastd
+1785,Caribbean: Bahamas,South Carolina,4,intra_american,slavevoyages_iastd
+1785,Caribbean: Danish West Indies,South Carolina,19,intra_american,slavevoyages_iastd
+1785,Caribbean: Jamaica,South Carolina,281,intra_american,slavevoyages_iastd
+1785,Caribbean: Other British Caribbean,South Carolina,16,intra_american,slavevoyages_iastd
+1785,Caribbean: St Kitts,South Carolina,67,intra_american,slavevoyages_iastd
+1785,Other: Americas,South Carolina,61,intra_american,slavevoyages_iastd
+1786,Caribbean: Bahamas,Georgia,48,intra_american,slavevoyages_iastd
+1786,Caribbean: Barbados,Georgia,6,intra_american,slavevoyages_iastd
+1786,Caribbean: Jamaica,Georgia,12,intra_american,slavevoyages_iastd
+1786,Other: Americas,Georgia,40,intra_american,slavevoyages_iastd
+1786,Caribbean: Jamaica,Gulf coast,887,intra_american,slavevoyages_iastd
+1786,Caribbean: Saint-Domingue,Gulf coast,104,intra_american,slavevoyages_iastd
+1786,Other: Americas,Gulf coast,170,intra_american,slavevoyages_iastd
+1786,Caribbean: Dutch Caribbean,North Carolina,14,intra_american,slavevoyages_iastd
+1786,Caribbean: Hispaniola,North Carolina,7,intra_american,slavevoyages_iastd
+1786,Caribbean: Jamaica,North Carolina,44,intra_american,slavevoyages_iastd
+1786,Mainland North America: Connecticut,North Carolina,2,intra_american,slavevoyages_iastd
+1786,Mainland North America: Florida,North Carolina,3,intra_american,slavevoyages_iastd
+1786,Mainland North America: New York,North Carolina,4,intra_american,slavevoyages_iastd
+1786,Mainland North America: South Carolina,North Carolina,66,intra_american,slavevoyages_iastd
+1786,Other: Americas,North Carolina,80,intra_american,slavevoyages_iastd
+1786,Caribbean: Antigua,South Carolina,5,intra_american,slavevoyages_iastd
+1786,Caribbean: Barbados,South Carolina,12,intra_american,slavevoyages_iastd
+1786,Caribbean: Jamaica,South Carolina,455,intra_american,slavevoyages_iastd
+1786,Caribbean: Other British Caribbean,South Carolina,5,intra_american,slavevoyages_iastd
+1786,Other: Americas,South Carolina,162,intra_american,slavevoyages_iastd
+1786,Caribbean: Jamaica,Virginia,4,intra_american,slavevoyages_iastd
+1787,Caribbean: Antigua,Georgia,24,intra_american,slavevoyages_iastd
+1787,Caribbean: Jamaica,Georgia,35,intra_american,slavevoyages_iastd
+1787,Other: Americas,Georgia,25,intra_american,slavevoyages_iastd
+1787,Caribbean: Jamaica,Gulf coast,842,intra_american,slavevoyages_iastd
+1787,Caribbean: Martinique,Gulf coast,49,intra_american,slavevoyages_iastd
+1787,Caribbean: Other Caribbean,Gulf coast,200,intra_american,slavevoyages_iastd
+1787,Caribbean: Dutch Caribbean,North Carolina,4,intra_american,slavevoyages_iastd
+1787,Caribbean: Jamaica,North Carolina,66,intra_american,slavevoyages_iastd
+1787,Mainland North America: Canada,North Carolina,1,intra_american,slavevoyages_iastd
+1787,Mainland North America: Maryland,North Carolina,33,intra_american,slavevoyages_iastd
+1787,Other: Americas,North Carolina,70,intra_american,slavevoyages_iastd
+1787,Caribbean: Antigua,South Carolina,16,intra_american,slavevoyages_iastd
+1787,Caribbean: British Honduras,South Carolina,50,intra_american,slavevoyages_iastd
+1787,Caribbean: Dominica,South Carolina,13,intra_american,slavevoyages_iastd
+1787,Caribbean: Dutch Caribbean,South Carolina,3,intra_american,slavevoyages_iastd
+1787,Caribbean: Jamaica,South Carolina,69,intra_american,slavevoyages_iastd
+1787,Caribbean: Other British Caribbean,South Carolina,1,intra_american,slavevoyages_iastd
+1787,Caribbean: St Kitts,South Carolina,29,intra_american,slavevoyages_iastd
+1787,Other: Americas,South Carolina,2,intra_american,slavevoyages_iastd
+1788,Caribbean: Barbados,Georgia,6,intra_american,slavevoyages_iastd
+1788,Caribbean: Jamaica,Georgia,33,intra_american,slavevoyages_iastd
+1788,Other: Americas,Georgia,31,intra_american,slavevoyages_iastd
+1788,Caribbean: Dominica,Gulf coast,606,intra_american,slavevoyages_iastd
+1788,Caribbean: Jamaica,Gulf coast,124,intra_american,slavevoyages_iastd
+1788,Caribbean: Martinique,Gulf coast,186,intra_american,slavevoyages_iastd
+1788,Caribbean: St Barthélemy (Sweden),Gulf coast,228,intra_american,slavevoyages_iastd
+1788,Caribbean: Bahamas,North Carolina,3,intra_american,slavevoyages_iastd
+1788,Caribbean: Jamaica,North Carolina,10,intra_american,slavevoyages_iastd
+1788,Mainland North America: Canada,North Carolina,2,intra_american,slavevoyages_iastd
+1788,Mainland North America: Maryland,North Carolina,6,intra_american,slavevoyages_iastd
+1789,Caribbean: Danish West Indies,Georgia,16,intra_american,slavevoyages_iastd
+1789,Caribbean: Montserrat,Georgia,13,intra_american,slavevoyages_iastd
+1789,Other: Americas,Georgia,9,intra_american,slavevoyages_iastd
+1789,Caribbean: Dominica,Gulf coast,661,intra_american,slavevoyages_iastd
+1789,Caribbean: Jamaica,Gulf coast,231,intra_american,slavevoyages_iastd
+1789,Caribbean: Martinique,Gulf coast,147,intra_american,slavevoyages_iastd
+1789,Caribbean: Bahamas,North Carolina,2,intra_american,slavevoyages_iastd
+1789,Caribbean: Dutch Caribbean,North Carolina,1,intra_american,slavevoyages_iastd
+1789,Caribbean: Jamaica,North Carolina,21,intra_american,slavevoyages_iastd
+1789,Caribbean: Saint-Domingue,North Carolina,14,intra_american,slavevoyages_iastd
+1789,Caribbean: St Lucia,North Carolina,2,intra_american,slavevoyages_iastd
+1789,Mainland North America: Maryland,North Carolina,15,intra_american,slavevoyages_iastd
+1789,Mainland North America: New York,North Carolina,1,intra_american,slavevoyages_iastd
+1789,Mainland North America: South Carolina,North Carolina,3,intra_american,slavevoyages_iastd
+1790,Caribbean: Danish West Indies,Georgia,11,intra_american,slavevoyages_iastd
+1790,Caribbean: Dutch Caribbean,Georgia,5,intra_american,slavevoyages_iastd
+1790,Caribbean: Grenada,Georgia,4,intra_american,slavevoyages_iastd
+1790,Caribbean: Jamaica,Georgia,20,intra_american,slavevoyages_iastd
+1790,Caribbean: Other Caribbean,Georgia,5,intra_american,slavevoyages_iastd
+1790,Other: Americas,Georgia,5,intra_american,slavevoyages_iastd
+1790,Caribbean: Cuba,Gulf coast,7,intra_american,slavevoyages_iastd
+1790,Caribbean: Jamaica,Gulf coast,51,intra_american,slavevoyages_iastd
+1790,Caribbean: Saint-Domingue,Gulf coast,203,intra_american,slavevoyages_iastd
+1790,Caribbean: Trinidad,Gulf coast,50,intra_american,slavevoyages_iastd
+1790,Undefined,Gulf coast,26,intra_american,slavevoyages_iastd
+1790,Caribbean: Jamaica,North Carolina,2,intra_american,slavevoyages_iastd
+1791,Caribbean: Dominica,Gulf coast,78,intra_american,slavevoyages_iastd
+1792,Caribbean: Bahamas,Georgia,1,intra_american,slavevoyages_iastd
+1792,Caribbean: Dutch Caribbean,Georgia,18,intra_american,slavevoyages_iastd
+1792,Caribbean: Grenada,Georgia,4,intra_american,slavevoyages_iastd
+1792,Other: Americas,Georgia,6,intra_american,slavevoyages_iastd
+1792,Caribbean: Cuba,Gulf coast,44,intra_american,slavevoyages_iastd
+1792,Caribbean: Saint-Domingue,Gulf coast,36,intra_american,slavevoyages_iastd
+1792,Other: Americas,Gulf coast,71,intra_american,slavevoyages_iastd
+1793,Caribbean: Grenada,Georgia,27,intra_american,slavevoyages_iastd
+1793,Other: Americas,Georgia,2,intra_american,slavevoyages_iastd
+1793,Other: Americas,Gulf coast,52,intra_american,slavevoyages_iastd
+1794,Caribbean: Jamaica,Gulf coast,8,intra_american,slavevoyages_iastd
+1795,Caribbean: Danish West Indies,Georgia,1,intra_american,slavevoyages_iastd
+1795,Caribbean: Jamaica,Georgia,55,intra_american,slavevoyages_iastd
+1795,Other: Americas,Georgia,206,intra_american,slavevoyages_iastd
+1795,Other: Americas,Gulf coast,36,intra_american,slavevoyages_iastd
+1796,Caribbean: Jamaica,Georgia,60,intra_american,slavevoyages_iastd
+1796,Caribbean: Saint-Domingue,Georgia,7,intra_american,slavevoyages_iastd
+1797,Caribbean: Jamaica,Georgia,123,intra_american,slavevoyages_iastd
+1797,Caribbean: Saint-Domingue,Georgia,7,intra_american,slavevoyages_iastd
+1798,Caribbean: Martinique,Georgia,19,intra_american,slavevoyages_iastd
+1798,Caribbean: Saint-Domingue,Georgia,7,intra_american,slavevoyages_iastd
+1798,Other: Americas,Georgia,143,intra_american,slavevoyages_iastd
+1800,Caribbean: Jamaica,South Carolina,57,intra_american,slavevoyages_iastd
+1802,Other: Americas,Florida,39,intra_american,slavevoyages_iastd
+1803,Caribbean: Jamaica,Florida,143,intra_american,slavevoyages_iastd
+1803,Caribbean: Jamaica,Georgia,36,intra_american,slavevoyages_iastd
+1803,Caribbean: Saint-Domingue,Georgia,7,intra_american,slavevoyages_iastd
+1803,Other: Americas,Georgia,48,intra_american,slavevoyages_iastd
+1803,Caribbean: Cuba,Gulf coast,150,intra_american,slavevoyages_iastd
+1804,Caribbean: Danish West Indies,Florida,35,intra_american,slavevoyages_iastd
+1804,Caribbean: Jamaica,Florida,191,intra_american,slavevoyages_iastd
+1804,Caribbean: Puerto Rico,Florida,7,intra_american,slavevoyages_iastd
+1804,Other: Americas,Georgia,35,intra_american,slavevoyages_iastd
+1804,Caribbean: Cuba,Gulf coast,166,intra_american,slavevoyages_iastd
+1804,Caribbean: Jamaica,Gulf coast,299,intra_american,slavevoyages_iastd
+1804,Caribbean: St Vincent,Gulf coast,5,intra_american,slavevoyages_iastd
+1804,Other: Americas,Gulf coast,169,intra_american,slavevoyages_iastd
+1804,Caribbean: Jamaica,South Carolina,50,intra_american,slavevoyages_iastd
+1804,Other: Americas,South Carolina,401,intra_american,slavevoyages_iastd
+1805,Caribbean: Jamaica,Georgia,24,intra_american,slavevoyages_iastd
+1805,Other: Americas,Gulf coast,50,intra_american,slavevoyages_iastd
+1805,Caribbean: Cuba,South Carolina,183,intra_american,slavevoyages_iastd
+1805,Caribbean: Danish West Indies,South Carolina,100,intra_american,slavevoyages_iastd
+1805,Caribbean: Jamaica,South Carolina,261,intra_american,slavevoyages_iastd
+1805,Caribbean: Tortola,South Carolina,346,intra_american,slavevoyages_iastd
+1805,Other: Americas,South Carolina,130,intra_american,slavevoyages_iastd
+1806,Caribbean: Cuba,Florida,3,intra_american,slavevoyages_iastd
+1806,Caribbean: Jamaica,Gulf coast,11,intra_american,slavevoyages_iastd
+1806,Mainland North America: South Carolina,Gulf coast,120,intra_american,slavevoyages_iastd
+1806,Other: Americas,Gulf coast,83,intra_american,slavevoyages_iastd
+1806,Caribbean: Jamaica,South Carolina,86,intra_american,slavevoyages_iastd
+1806,Other: Americas,South Carolina,167,intra_american,slavevoyages_iastd
+1807,Other: Americas,Georgia,54,intra_american,slavevoyages_iastd
+1807,Caribbean: Cuba,Gulf coast,108,intra_american,slavevoyages_iastd
+1807,Caribbean: Jamaica,Gulf coast,19,intra_american,slavevoyages_iastd
+1807,Caribbean: Other Caribbean,Gulf coast,214,intra_american,slavevoyages_iastd
+1807,Mainland North America: South Carolina,Gulf coast,42,intra_american,slavevoyages_iastd
+1807,Other: Americas,Gulf coast,91,intra_american,slavevoyages_iastd
+1807,Caribbean: Cuba,South Carolina,88,intra_american,slavevoyages_iastd
+1807,Caribbean: Jamaica,South Carolina,155,intra_american,slavevoyages_iastd
+1807,Other: Americas,South Carolina,203,intra_american,slavevoyages_iastd
+1808,Caribbean: Cuba,Gulf coast,45,intra_american,slavevoyages_iastd
+1808,Other: Americas,Gulf coast,96,intra_american,slavevoyages_iastd
+1809,Caribbean: Jamaica,Maryland,7,intra_american,slavevoyages_iastd
+1810,Other: Americas,Florida,328,intra_american,slavevoyages_iastd
+1810,Caribbean: Jamaica,Gulf coast,127,intra_american,slavevoyages_iastd
+1810,Other: Americas,Gulf coast,251,intra_american,slavevoyages_iastd
+1814,Caribbean: Bahamas,Florida,2,intra_american,slavevoyages_iastd
+1818,Mainland North America: Maryland,Gulf coast,34,intra_american,slavevoyages_iastd
+1819,Mainland North America: Georgia,Gulf coast,22,intra_american,slavevoyages_iastd
+1819,Mainland North America: Gulf coast,Gulf coast,22,intra_american,slavevoyages_iastd
+1819,Mainland North America: Maryland,Gulf coast,206,intra_american,slavevoyages_iastd
+1819,Mainland North America: South Carolina,Gulf coast,38,intra_american,slavevoyages_iastd
+1819,Mainland North America: Virginia,Gulf coast,761,intra_american,slavevoyages_iastd
+1820,Mainland North America: Florida,Gulf coast,2,intra_american,slavevoyages_iastd
+1820,Mainland North America: Georgia,Gulf coast,11,intra_american,slavevoyages_iastd
+1820,Mainland North America: Gulf coast,Gulf coast,115,intra_american,slavevoyages_iastd
+1820,Mainland North America: Maryland,Gulf coast,114,intra_american,slavevoyages_iastd
+1820,Mainland North America: South Carolina,Gulf coast,77,intra_american,slavevoyages_iastd
+1820,Mainland North America: Virginia,Gulf coast,165,intra_american,slavevoyages_iastd
+1821,Mainland North America: Gulf coast,Gulf coast,3,intra_american,slavevoyages_iastd
+1821,Mainland North America: Maryland,Gulf coast,175,intra_american,slavevoyages_iastd
+1821,Mainland North America: Virginia,Gulf coast,12,intra_american,slavevoyages_iastd
+1822,Mainland North America: Florida,Gulf coast,83,intra_american,slavevoyages_iastd
+1822,Mainland North America: Georgia,Gulf coast,290,intra_american,slavevoyages_iastd
+1822,Mainland North America: Gulf coast,Gulf coast,69,intra_american,slavevoyages_iastd
+1822,Mainland North America: Maryland,Gulf coast,756,intra_american,slavevoyages_iastd
+1822,Mainland North America: South Carolina,Gulf coast,112,intra_american,slavevoyages_iastd
+1822,Mainland North America: Virginia,Gulf coast,2414,intra_american,slavevoyages_iastd
+1823,Mainland North America: Florida,Gulf coast,42,intra_american,slavevoyages_iastd
+1823,Mainland North America: Georgia,Gulf coast,10,intra_american,slavevoyages_iastd
+1823,Mainland North America: Gulf coast,Gulf coast,60,intra_american,slavevoyages_iastd
+1823,Mainland North America: Maryland,Gulf coast,207,intra_american,slavevoyages_iastd
+1823,Mainland North America: South Carolina,Gulf coast,61,intra_american,slavevoyages_iastd
+1823,Mainland North America: Virginia,Gulf coast,698,intra_american,slavevoyages_iastd
+1824,Mainland North America: Florida,Gulf coast,9,intra_american,slavevoyages_iastd
+1824,Mainland North America: Georgia,Gulf coast,12,intra_american,slavevoyages_iastd
+1824,Mainland North America: Gulf coast,Gulf coast,67,intra_american,slavevoyages_iastd
+1824,Mainland North America: Maryland,Gulf coast,349,intra_american,slavevoyages_iastd
+1824,Mainland North America: South Carolina,Gulf coast,14,intra_american,slavevoyages_iastd
+1824,Mainland North America: Virginia,Gulf coast,247,intra_american,slavevoyages_iastd
+1825,Mainland North America: Florida,Gulf coast,22,intra_american,slavevoyages_iastd
+1825,Mainland North America: Georgia,Gulf coast,100,intra_american,slavevoyages_iastd
+1825,Mainland North America: Gulf coast,Gulf coast,53,intra_american,slavevoyages_iastd
+1825,Mainland North America: Maryland,Gulf coast,300,intra_american,slavevoyages_iastd
+1825,Mainland North America: South Carolina,Gulf coast,12,intra_american,slavevoyages_iastd
+1825,Mainland North America: Virginia,Gulf coast,919,intra_american,slavevoyages_iastd
+1826,Mainland North America: Florida,Gulf coast,23,intra_american,slavevoyages_iastd
+1826,Mainland North America: Georgia,Gulf coast,18,intra_american,slavevoyages_iastd
+1826,Mainland North America: Gulf coast,Gulf coast,59,intra_american,slavevoyages_iastd
+1826,Mainland North America: Maryland,Gulf coast,412,intra_american,slavevoyages_iastd
+1826,Mainland North America: South Carolina,Gulf coast,9,intra_american,slavevoyages_iastd
+1826,Mainland North America: Virginia,Gulf coast,558,intra_american,slavevoyages_iastd
+1827,Mainland North America: Florida,Gulf coast,38,intra_american,slavevoyages_iastd
+1827,Mainland North America: Gulf coast,Gulf coast,131,intra_american,slavevoyages_iastd
+1827,Mainland North America: Maryland,Gulf coast,418,intra_american,slavevoyages_iastd
+1827,Mainland North America: South Carolina,Gulf coast,5,intra_american,slavevoyages_iastd
+1827,Mainland North America: Virginia,Gulf coast,881,intra_american,slavevoyages_iastd
+1827,Mainland North America: Gulf coast,Texas,1,intra_american,slavevoyages_iastd
+1828,Mainland North America: Florida,Gulf coast,224,intra_american,slavevoyages_iastd
+1828,Mainland North America: Georgia,Gulf coast,74,intra_american,slavevoyages_iastd
+1828,Mainland North America: Gulf coast,Gulf coast,1106,intra_american,slavevoyages_iastd
+1828,Mainland North America: Maryland,Gulf coast,539,intra_american,slavevoyages_iastd
+1828,Mainland North America: South Carolina,Gulf coast,195,intra_american,slavevoyages_iastd
+1828,Mainland North America: Virginia,Gulf coast,3139,intra_american,slavevoyages_iastd
+1828,Undefined,Gulf coast,149,intra_american,slavevoyages_iastd
+1829,Mainland North America: Florida,Gulf coast,109,intra_american,slavevoyages_iastd
+1829,Mainland North America: Georgia,Gulf coast,31,intra_american,slavevoyages_iastd
+1829,Mainland North America: Gulf coast,Gulf coast,715,intra_american,slavevoyages_iastd
+1829,Mainland North America: Maryland,Gulf coast,234,intra_american,slavevoyages_iastd
+1829,Mainland North America: South Carolina,Gulf coast,155,intra_american,slavevoyages_iastd
+1829,Mainland North America: Virginia,Gulf coast,1463,intra_american,slavevoyages_iastd
+1830,Mainland North America: Florida,Gulf coast,132,intra_american,slavevoyages_iastd
+1830,Mainland North America: Georgia,Gulf coast,4,intra_american,slavevoyages_iastd
+1830,Mainland North America: Gulf coast,Gulf coast,200,intra_american,slavevoyages_iastd
+1830,Mainland North America: Maryland,Gulf coast,25,intra_american,slavevoyages_iastd
+1830,Mainland North America: South Carolina,Gulf coast,80,intra_american,slavevoyages_iastd
+1830,Mainland North America: Virginia,Gulf coast,1271,intra_american,slavevoyages_iastd
+1830,Mainland North America: Gulf coast,Texas,41,intra_american,slavevoyages_iastd
+1831,Mainland North America: Florida,Gulf coast,176,intra_american,slavevoyages_iastd
+1831,Mainland North America: Georgia,Gulf coast,6,intra_american,slavevoyages_iastd
+1831,Mainland North America: Gulf coast,Gulf coast,469,intra_american,slavevoyages_iastd
+1831,Mainland North America: Kentucky,Gulf coast,92,intra_american,slavevoyages_iastd
+1831,Mainland North America: Maryland,Gulf coast,494,intra_american,slavevoyages_iastd
+1831,Mainland North America: South Carolina,Gulf coast,374,intra_american,slavevoyages_iastd
+1831,Mainland North America: Texas,Gulf coast,11,intra_american,slavevoyages_iastd
+1831,Mainland North America: Virginia,Gulf coast,1295,intra_american,slavevoyages_iastd
+1831,Other: Americas,Gulf coast,462,intra_american,slavevoyages_iastd
+1831,Undefined,Gulf coast,390,intra_american,slavevoyages_iastd
+1831,Mainland North America: Gulf coast,Texas,107,intra_american,slavevoyages_iastd
+1832,Mainland North America: Florida,Gulf coast,55,intra_american,slavevoyages_iastd
+1832,Mainland North America: Gulf coast,Gulf coast,35,intra_american,slavevoyages_iastd
+1832,Mainland North America: Maryland,Gulf coast,75,intra_american,slavevoyages_iastd
+1832,Mainland North America: South Carolina,Gulf coast,154,intra_american,slavevoyages_iastd
+1832,Mainland North America: Virginia,Gulf coast,700,intra_american,slavevoyages_iastd
+1832,Mainland North America: Gulf coast,Texas,89,intra_american,slavevoyages_iastd
+1833,Mainland North America: Gulf coast,Gulf coast,73,intra_american,slavevoyages_iastd
+1833,Mainland North America: Maryland,Gulf coast,190,intra_american,slavevoyages_iastd
+1833,Mainland North America: South Carolina,Gulf coast,142,intra_american,slavevoyages_iastd
+1833,Mainland North America: Virginia,Gulf coast,306,intra_american,slavevoyages_iastd
+1833,Mainland North America: Gulf coast,Texas,3,intra_american,slavevoyages_iastd
+1834,Mainland North America: South Carolina,Georgia,1,intra_american,slavevoyages_iastd
+1834,Mainland North America: Florida,Gulf coast,10,intra_american,slavevoyages_iastd
+1834,Mainland North America: Georgia,Gulf coast,7,intra_american,slavevoyages_iastd
+1834,Mainland North America: Gulf coast,Gulf coast,51,intra_american,slavevoyages_iastd
+1834,Mainland North America: Maryland,Gulf coast,87,intra_american,slavevoyages_iastd
+1834,Mainland North America: South Carolina,Gulf coast,90,intra_american,slavevoyages_iastd
+1834,Mainland North America: Virginia,Gulf coast,620,intra_american,slavevoyages_iastd
+1834,Mainland North America: Gulf coast,Texas,1,intra_american,slavevoyages_iastd
+1835,Mainland North America: South Carolina,Georgia,4,intra_american,slavevoyages_iastd
+1835,Mainland North America: Florida,Gulf coast,207,intra_american,slavevoyages_iastd
+1835,Mainland North America: Georgia,Gulf coast,33,intra_american,slavevoyages_iastd
+1835,Mainland North America: Gulf coast,Gulf coast,24,intra_american,slavevoyages_iastd
+1835,Mainland North America: Maryland,Gulf coast,125,intra_american,slavevoyages_iastd
+1835,Mainland North America: South Carolina,Gulf coast,606,intra_american,slavevoyages_iastd
+1835,Mainland North America: Virginia,Gulf coast,3913,intra_american,slavevoyages_iastd
+1835,Mainland North America: Gulf coast,Texas,22,intra_american,slavevoyages_iastd
+1836,Mainland North America: Florida,Gulf coast,146,intra_american,slavevoyages_iastd
+1836,Mainland North America: Georgia,Gulf coast,61,intra_american,slavevoyages_iastd
+1836,Mainland North America: Gulf coast,Gulf coast,23,intra_american,slavevoyages_iastd
+1836,Mainland North America: Maryland,Gulf coast,297,intra_american,slavevoyages_iastd
+1836,Mainland North America: South Carolina,Gulf coast,464,intra_american,slavevoyages_iastd
+1836,Mainland North America: Virginia,Gulf coast,1752,intra_american,slavevoyages_iastd
+1837,Mainland North America: Florida,Gulf coast,44,intra_american,slavevoyages_iastd
+1837,Mainland North America: Gulf coast,Gulf coast,21,intra_american,slavevoyages_iastd
+1837,Mainland North America: South Carolina,Gulf coast,9,intra_american,slavevoyages_iastd
+1837,Mainland North America: Virginia,Gulf coast,77,intra_american,slavevoyages_iastd
+1837,Mainland North America: Gulf coast,Texas,5,intra_american,slavevoyages_iastd
+1838,Mainland North America: Florida,Gulf coast,201,intra_american,slavevoyages_iastd
+1838,Mainland North America: Gulf coast,Gulf coast,13,intra_american,slavevoyages_iastd
+1838,Mainland North America: Maryland,Gulf coast,335,intra_american,slavevoyages_iastd
+1838,Mainland North America: South Carolina,Gulf coast,103,intra_american,slavevoyages_iastd
+1838,Mainland North America: Virginia,Gulf coast,1018,intra_american,slavevoyages_iastd
+1838,Mainland North America: Gulf coast,Texas,96,intra_american,slavevoyages_iastd
+1839,Caribbean: Cuba,Connecticut,43,intra_american,slavevoyages_iastd
+1839,Mainland North America: Florida,Gulf coast,149,intra_american,slavevoyages_iastd
+1839,Mainland North America: Georgia,Gulf coast,11,intra_american,slavevoyages_iastd
+1839,Mainland North America: Gulf coast,Gulf coast,3,intra_american,slavevoyages_iastd
+1839,Mainland North America: Maryland,Gulf coast,475,intra_american,slavevoyages_iastd
+1839,Mainland North America: South Carolina,Gulf coast,186,intra_american,slavevoyages_iastd
+1839,Mainland North America: Virginia,Gulf coast,391,intra_american,slavevoyages_iastd
+1839,Mainland North America: Gulf coast,Texas,59,intra_american,slavevoyages_iastd
+1840,Mainland North America: Florida,Georgia,8,intra_american,slavevoyages_iastd
+1840,Mainland North America: Georgia,Georgia,18,intra_american,slavevoyages_iastd
+1840,Mainland North America: Gulf coast,Georgia,5,intra_american,slavevoyages_iastd
+1840,Mainland North America: Maryland,Georgia,10,intra_american,slavevoyages_iastd
+1840,Mainland North America: South Carolina,Georgia,122,intra_american,slavevoyages_iastd
+1840,Mainland North America: Florida,Gulf coast,62,intra_american,slavevoyages_iastd
+1840,Mainland North America: Georgia,Gulf coast,11,intra_american,slavevoyages_iastd
+1840,Mainland North America: Gulf coast,Gulf coast,2,intra_american,slavevoyages_iastd
+1840,Mainland North America: Maryland,Gulf coast,150,intra_american,slavevoyages_iastd
+1840,Mainland North America: South Carolina,Gulf coast,169,intra_american,slavevoyages_iastd
+1840,Mainland North America: Virginia,Gulf coast,655,intra_american,slavevoyages_iastd
+1840,Mainland North America: Gulf coast,Texas,137,intra_american,slavevoyages_iastd
+1841,Mainland North America: South Carolina,Georgia,31,intra_american,slavevoyages_iastd
+1841,Mainland North America: Florida,Gulf coast,225,intra_american,slavevoyages_iastd
+1841,Mainland North America: Georgia,Gulf coast,3,intra_american,slavevoyages_iastd
+1841,Mainland North America: Gulf coast,Gulf coast,74,intra_american,slavevoyages_iastd
+1841,Mainland North America: Maryland,Gulf coast,366,intra_american,slavevoyages_iastd
+1841,Mainland North America: South Carolina,Gulf coast,214,intra_american,slavevoyages_iastd
+1841,Mainland North America: Texas,Gulf coast,1,intra_american,slavevoyages_iastd
+1841,Mainland North America: Virginia,Gulf coast,381,intra_american,slavevoyages_iastd
+1841,Mainland North America: Gulf coast,Texas,39,intra_american,slavevoyages_iastd
+1842,Mainland North America: Florida,Gulf coast,444,intra_american,slavevoyages_iastd
+1842,Mainland North America: Georgia,Gulf coast,32,intra_american,slavevoyages_iastd
+1842,Mainland North America: Gulf coast,Gulf coast,29,intra_american,slavevoyages_iastd
+1842,Mainland North America: Maryland,Gulf coast,343,intra_american,slavevoyages_iastd
+1842,Mainland North America: South Carolina,Gulf coast,236,intra_american,slavevoyages_iastd
+1842,Mainland North America: Virginia,Gulf coast,191,intra_american,slavevoyages_iastd
+1842,Mainland North America: Florida,Texas,15,intra_american,slavevoyages_iastd
+1842,Mainland North America: Gulf coast,Texas,396,intra_american,slavevoyages_iastd
+1842,Mainland North America: Texas,Texas,9,intra_american,slavevoyages_iastd
+1843,Mainland North America: Florida,Gulf coast,207,intra_american,slavevoyages_iastd
+1843,Mainland North America: Georgia,Gulf coast,3,intra_american,slavevoyages_iastd
+1843,Mainland North America: Gulf coast,Gulf coast,30,intra_american,slavevoyages_iastd
+1843,Mainland North America: Maryland,Gulf coast,421,intra_american,slavevoyages_iastd
+1843,Mainland North America: South Carolina,Gulf coast,129,intra_american,slavevoyages_iastd
+1843,Mainland North America: Virginia,Gulf coast,1141,intra_american,slavevoyages_iastd
+1843,Mainland North America: Gulf coast,Texas,176,intra_american,slavevoyages_iastd
+1843,Mainland North America: New York,Texas,3,intra_american,slavevoyages_iastd
+1843,Mainland North America: Texas,Texas,3,intra_american,slavevoyages_iastd
+1844,Mainland North America: Florida,Gulf coast,103,intra_american,slavevoyages_iastd
+1844,Mainland North America: Georgia,Gulf coast,1,intra_american,slavevoyages_iastd
+1844,Mainland North America: Gulf coast,Gulf coast,71,intra_american,slavevoyages_iastd
+1844,Mainland North America: Maryland,Gulf coast,482,intra_american,slavevoyages_iastd
+1844,Mainland North America: South Carolina,Gulf coast,131,intra_american,slavevoyages_iastd
+1844,Mainland North America: Virginia,Gulf coast,779,intra_american,slavevoyages_iastd
+1844,Mainland North America: Gulf coast,Texas,56,intra_american,slavevoyages_iastd
+1844,Mainland North America: Texas,Texas,4,intra_american,slavevoyages_iastd
+1845,Mainland North America: Florida,Gulf coast,287,intra_american,slavevoyages_iastd
+1845,Mainland North America: Maryland,Gulf coast,1014,intra_american,slavevoyages_iastd
+1845,Mainland North America: South Carolina,Gulf coast,239,intra_american,slavevoyages_iastd
+1845,Mainland North America: Virginia,Gulf coast,1238,intra_american,slavevoyages_iastd
+1845,Mainland North America: Georgia,Texas,7,intra_american,slavevoyages_iastd
+1845,Mainland North America: Gulf coast,Texas,147,intra_american,slavevoyages_iastd
+1845,Mainland North America: Texas,Texas,30,intra_american,slavevoyages_iastd
+1846,Mainland North America: Florida,Gulf coast,222,intra_american,slavevoyages_iastd
+1846,Mainland North America: Georgia,Gulf coast,7,intra_american,slavevoyages_iastd
+1846,Mainland North America: Gulf coast,Gulf coast,3,intra_american,slavevoyages_iastd
+1846,Mainland North America: Maryland,Gulf coast,753,intra_american,slavevoyages_iastd
+1846,Mainland North America: South Carolina,Gulf coast,267,intra_american,slavevoyages_iastd
+1846,Mainland North America: Texas,Gulf coast,270,intra_american,slavevoyages_iastd
+1846,Mainland North America: Virginia,Gulf coast,1508,intra_american,slavevoyages_iastd
+1846,Mainland North America: Georgia,Texas,2,intra_american,slavevoyages_iastd
+1846,Mainland North America: Gulf coast,Texas,1076,intra_american,slavevoyages_iastd
+1847,Mainland North America: Florida,Gulf coast,240,intra_american,slavevoyages_iastd
+1847,Mainland North America: Georgia,Gulf coast,11,intra_american,slavevoyages_iastd
+1847,Mainland North America: Gulf coast,Gulf coast,3,intra_american,slavevoyages_iastd
+1847,Mainland North America: Maryland,Gulf coast,993,intra_american,slavevoyages_iastd
+1847,Mainland North America: South Carolina,Gulf coast,223,intra_american,slavevoyages_iastd
+1847,Mainland North America: Texas,Gulf coast,340,intra_american,slavevoyages_iastd
+1847,Mainland North America: Virginia,Gulf coast,870,intra_american,slavevoyages_iastd
+1847,Mainland North America: Gulf coast,Texas,802,intra_american,slavevoyages_iastd
+1848,Mainland North America: Florida,Gulf coast,175,intra_american,slavevoyages_iastd
+1848,Mainland North America: Georgia,Gulf coast,6,intra_american,slavevoyages_iastd
+1848,Mainland North America: Maryland,Gulf coast,423,intra_american,slavevoyages_iastd
+1848,Mainland North America: South Carolina,Gulf coast,100,intra_american,slavevoyages_iastd
+1848,Mainland North America: Texas,Gulf coast,96,intra_american,slavevoyages_iastd
+1848,Mainland North America: Virginia,Gulf coast,503,intra_american,slavevoyages_iastd
+1848,Mainland North America: Gulf coast,Texas,226,intra_american,slavevoyages_iastd
+1849,Mainland North America: Florida,Gulf coast,250,intra_american,slavevoyages_iastd
+1849,Mainland North America: Georgia,Gulf coast,4,intra_american,slavevoyages_iastd
+1849,Mainland North America: Gulf coast,Gulf coast,47,intra_american,slavevoyages_iastd
+1849,Mainland North America: Maryland,Gulf coast,314,intra_american,slavevoyages_iastd
+1849,Mainland North America: South Carolina,Gulf coast,195,intra_american,slavevoyages_iastd
+1849,Mainland North America: Texas,Gulf coast,163,intra_american,slavevoyages_iastd
+1849,Mainland North America: Virginia,Gulf coast,648,intra_american,slavevoyages_iastd
+1849,Mainland North America: Gulf coast,Texas,73,intra_american,slavevoyages_iastd
+1850,Mainland North America: Florida,Gulf coast,264,intra_american,slavevoyages_iastd
+1850,Mainland North America: Georgia,Gulf coast,5,intra_american,slavevoyages_iastd
+1850,Mainland North America: Gulf coast,Gulf coast,191,intra_american,slavevoyages_iastd
+1850,Mainland North America: Maryland,Gulf coast,369,intra_american,slavevoyages_iastd
+1850,Mainland North America: South Carolina,Gulf coast,88,intra_american,slavevoyages_iastd
+1850,Mainland North America: Texas,Gulf coast,160,intra_american,slavevoyages_iastd
+1850,Mainland North America: Virginia,Gulf coast,623,intra_american,slavevoyages_iastd
+1850,Mainland North America: Gulf coast,Texas,1868,intra_american,slavevoyages_iastd
+1851,Mainland North America: Florida,Gulf coast,161,intra_american,slavevoyages_iastd
+1851,Mainland North America: Georgia,Gulf coast,11,intra_american,slavevoyages_iastd
+1851,Mainland North America: Maryland,Gulf coast,294,intra_american,slavevoyages_iastd
+1851,Mainland North America: South Carolina,Gulf coast,106,intra_american,slavevoyages_iastd
+1851,Mainland North America: Texas,Gulf coast,290,intra_american,slavevoyages_iastd
+1851,Mainland North America: Virginia,Gulf coast,639,intra_american,slavevoyages_iastd
+1851,Mainland North America: Gulf coast,Texas,767,intra_american,slavevoyages_iastd
+1852,Mainland North America: Florida,Gulf coast,180,intra_american,slavevoyages_iastd
+1852,Mainland North America: Georgia,Gulf coast,12,intra_american,slavevoyages_iastd
+1852,Mainland North America: Gulf coast,Gulf coast,1,intra_american,slavevoyages_iastd
+1852,Mainland North America: Maryland,Gulf coast,312,intra_american,slavevoyages_iastd
+1852,Mainland North America: South Carolina,Gulf coast,161,intra_american,slavevoyages_iastd
+1852,Mainland North America: Texas,Gulf coast,416,intra_american,slavevoyages_iastd
+1852,Mainland North America: Virginia,Gulf coast,487,intra_american,slavevoyages_iastd
+1852,Mainland North America: Gulf coast,Texas,94,intra_american,slavevoyages_iastd
+1853,Mainland North America: Florida,Gulf coast,340,intra_american,slavevoyages_iastd
+1853,Mainland North America: Maryland,Gulf coast,20,intra_american,slavevoyages_iastd
+1853,Mainland North America: South Carolina,Gulf coast,116,intra_american,slavevoyages_iastd
+1853,Mainland North America: Texas,Gulf coast,398,intra_american,slavevoyages_iastd
+1853,Mainland North America: Gulf coast,Texas,2007,intra_american,slavevoyages_iastd
+1854,Mainland North America: Georgia,Florida,3,intra_american,slavevoyages_iastd
+1854,Mainland North America: Florida,Georgia,1021,intra_american,slavevoyages_iastd
+1854,Mainland North America: South Carolina,Georgia,59,intra_american,slavevoyages_iastd
+1854,Mainland North America: Florida,Gulf coast,112,intra_american,slavevoyages_iastd
+1854,Mainland North America: South Carolina,Gulf coast,6,intra_american,slavevoyages_iastd
+1854,Mainland North America: Texas,Gulf coast,81,intra_american,slavevoyages_iastd
+1854,Mainland North America: Virginia,Gulf coast,2,intra_american,slavevoyages_iastd
+1854,Mainland North America: Georgia,South Carolina,3,intra_american,slavevoyages_iastd
+1854,Mainland North America: Gulf coast,Texas,1893,intra_american,slavevoyages_iastd
+1855,Mainland North America: Florida,Georgia,4,intra_american,slavevoyages_iastd
+1855,Mainland North America: South Carolina,Georgia,1059,intra_american,slavevoyages_iastd
+1855,Mainland North America: Florida,Gulf coast,293,intra_american,slavevoyages_iastd
+1855,Mainland North America: Maryland,Gulf coast,7,intra_american,slavevoyages_iastd
+1855,Mainland North America: South Carolina,Gulf coast,10,intra_american,slavevoyages_iastd
+1855,Mainland North America: Texas,Gulf coast,219,intra_american,slavevoyages_iastd
+1855,Mainland North America: Gulf coast,Texas,1015,intra_american,slavevoyages_iastd
+1856,Mainland North America: Florida,Gulf coast,108,intra_american,slavevoyages_iastd
+1856,Mainland North America: Maryland,Gulf coast,10,intra_american,slavevoyages_iastd
+1856,Mainland North America: South Carolina,Gulf coast,17,intra_american,slavevoyages_iastd
+1856,Mainland North America: Texas,Gulf coast,279,intra_american,slavevoyages_iastd
+1856,Mainland North America: Gulf coast,Texas,1155,intra_american,slavevoyages_iastd
+1857,Mainland North America: Florida,Gulf coast,156,intra_american,slavevoyages_iastd
+1857,Mainland North America: South Carolina,Gulf coast,22,intra_american,slavevoyages_iastd
+1857,Mainland North America: Texas,Gulf coast,267,intra_american,slavevoyages_iastd
+1857,Mainland North America: Gulf coast,Texas,1387,intra_american,slavevoyages_iastd
+1858,Mainland North America: Gulf coast,Texas,1342,intra_american,slavevoyages_iastd
+1859,Mainland North America: Georgia,Georgia,32,intra_american,slavevoyages_iastd
+1859,Mainland North America: Florida,Gulf coast,2,intra_american,slavevoyages_iastd
+1859,Mainland North America: Gulf coast,Texas,49,intra_american,slavevoyages_iastd
+1860,Mainland North America: Florida,Gulf coast,192,intra_american,slavevoyages_iastd
+1860,Mainland North America: Gulf coast,Gulf coast,4,intra_american,slavevoyages_iastd
+1860,Mainland North America: South Carolina,Gulf coast,4,intra_american,slavevoyages_iastd
+1860,Mainland North America: Texas,Gulf coast,207,intra_american,slavevoyages_iastd
+1860,Mainland North America: Gulf coast,Texas,178,intra_american,slavevoyages_iastd
+1860,Mainland North America: Texas,Texas,6,intra_american,slavevoyages_iastd
