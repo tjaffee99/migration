@@ -1,6 +1,6 @@
 <title>Atlas of Arrivals</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<meta name="description" content="Who came to what is now the United States, and from where, every year from 1607 to 2024.">
+<meta name="description" content="Who came to what is now the United States, and from where, every year from 1607 to 2026.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600&display=swap">
@@ -8,35 +8,49 @@
 <main class="wrap">
   <header class="head">
     <h1>Atlas of Arrivals</h1>
-    <p class="sub">Who came to what is now the United States, and from where, <span id="y-start">1607</span>–<span id="y-end">2024</span></p>
+    <p class="sub">Who came to what is now the United States, and from where, <span id="y-start">1607</span>–<span id="y-end">2026</span></p>
   </header>
 
-  <section class="hero" aria-live="polite">
-    <div class="year" id="year">1910</div>
+  <section class="hero">
+    <div class="year" id="year" aria-live="polite">1910</div>
     <div class="lede-box">
       <p class="lede" id="lede">Loading…</p>
       <p class="meta"><span class="basis" id="basis"></span><span class="ctx" id="context"></span></p>
     </div>
   </section>
 
+  <nav class="scrub" aria-label="Year">
+    <button class="play" id="play" type="button" aria-pressed="false" aria-label="Play">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path id="play-icon" d="M4.5 2.5v11l9-5.5z"/></svg>
+    </button>
+    <span class="scrub-year" id="scrub-year">1910</span>
+    <div class="scrub-track">
+      <label class="sr-only" for="slider">Year</label>
+      <input id="slider" type="range" min="1607" max="2026" step="1" value="1910">
+      <div class="scrub-ticks" id="ticks" aria-hidden="true"></div>
+    </div>
+  </nav>
+
   <figure class="map">
-    <div class="map-box" id="map" role="img" aria-label="World map with arrows from each origin to the United States, scaled by the number of arrivals"></div>
+    <div class="map-box" id="map" role="img" aria-label="World map: arrows from each origin merge by region and flow into a circle for the United States, sized by population and split into native-born and immigrant residents by birthplace"></div>
     <figcaption class="map-key" id="map-key"></figcaption>
   </figure>
 
-  <section class="timeline" aria-label="Timeline">
-    <div class="tl-head">
-      <button class="play" id="play" type="button" aria-pressed="false" aria-label="Play">
-        <svg viewBox="0 0 16 16" aria-hidden="true"><path id="play-icon" d="M4.5 2.5v11l9-5.5z"/></svg>
-      </button>
-      <div class="seg" role="group" aria-label="Timeline shows" id="series">
-        <button type="button" data-series="flow" aria-pressed="true">Arrivals each year</button>
-        <button type="button" data-series="stock" aria-pressed="false">Immigrants living in the US</button>
+  <section class="chart" aria-labelledby="chart-title">
+    <div class="chart-head">
+      <h2 id="chart-title">Arrivals by region of origin</h2>
+      <div class="toggles">
+        <div class="seg" role="group" aria-label="Chart shows" id="series">
+          <button type="button" data-series="flow" aria-pressed="true">Arrivals each year</button>
+          <button type="button" data-series="stock" aria-pressed="false">Immigrants living in the US</button>
+        </div>
+        <div class="seg" role="group" aria-label="Scale" id="scale">
+          <button type="button" data-scale="count" aria-pressed="true">Number</button>
+          <button type="button" data-scale="share" aria-pressed="false">Share</button>
+        </div>
       </div>
-      <label class="sr-only" for="slider">Year</label>
-      <input class="sr-only" id="slider" type="range" min="1607" max="2024" step="1" value="1910">
     </div>
-    <div class="strip" id="strip"></div>
+    <div class="chart-box" id="chart"></div>
     <div class="legend" id="legend"></div>
   </section>
 
@@ -59,7 +73,7 @@
   </details>
 
   <footer class="foot">
-    <span>Built from census, immigration and slave-trade records.</span>
+    <span>Built from census, immigration and slave-trade records and published estimates.</span>
     <a href="https://github.com/tjaffee99/migration" target="_blank" rel="noopener">Code and data on GitHub</a>
   </footer>
 </main>

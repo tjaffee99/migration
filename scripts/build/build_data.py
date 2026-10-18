@@ -35,7 +35,7 @@ from origins import GROUPS, Registry  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 P = ROOT / "data" / "processed"
-Y0, Y1 = 1607, 2024
+Y0, Y1 = 1607, 2026
 NY = Y1 - Y0 + 1
 R = Registry()
 checks = []
@@ -470,6 +470,75 @@ for y in SY:
     p = sum(v[y][0] for v in st_tot.values() if y in v and v[y][0])
     nat_pop.append(p or None)
 
+# ---------------------------------------------------------------- population and the foreign-born before 1850
+# Total population: colonial estimates (HSUS series Z 1-19, decadal 1610-1780), censuses 1790-1840,
+# then the census/ACS state sums; geometric interpolation between benchmark years.
+bench = defaultdict(float)
+for r in rows("population_1610_1840.csv"):
+    bench[int(r["year"])] += num(r["total"]) or 0
+for y, v in zip(SY, nat_pop):
+    if v:
+        bench[y] = v
+bys = sorted(bench)
+pop = [None] * NY
+for y in range(Y0, Y1 + 1):
+    if y < bys[0] or y > bys[-1]:
+        continue
+    k = max(i for i, b in enumerate(bys) if b <= y)
+    a, va = bys[k], bench[bys[k]]
+    if a == y:
+        pop[y - Y0] = va
+        continue
+    b, vb = bys[k + 1], bench[bys[k + 1]]
+    pop[y - Y0] = va * (vb / va) ** ((y - a) / (b - a))
+
+# The census first asked birthplace in 1850. Before that, model each origin's foreign-born residents as
+# last year's survivors plus this year's arrivals, with one yearly loss rate (deaths and departures)
+# chosen so the modelled total for 1850 matches the 1850 census count of the foreign-born, capped at
+# 90% of the estimated population.
+FB1850 = nat_total[SY.index(1850)]
+FIRST_CENSUS = 1850
+
+
+def model_fb(m):
+    stock = defaultdict(float)
+    series = defaultdict(lambda: [0.0] * NY)
+    for y in range(Y0, FIRST_CENSUS + 1):
+        i = y - Y0
+        for uid in list(stock):
+            stock[uid] *= (1 - m)
+        for uid, arr in flow.items():
+            if arr[i]:
+                stock[uid] += arr[i]
+        # early Chesapeake mortality ran far above any average rate: never let the modelled
+        # immigrants exceed 90% of the estimated population
+        tot = sum(stock.values())
+        if pop[i] and tot > 0.9 * pop[i]:
+            f = 0.9 * pop[i] / tot
+            for uid in stock:
+                stock[uid] *= f
+        if y < FIRST_CENSUS:
+            for uid, v in stock.items():
+                series[uid][i] = v
+    return sum(stock.values()), series
+
+
+lo_m, hi_m = 0.0, 0.2
+for _ in range(60):
+    mid = (lo_m + hi_m) / 2
+    tot, _s = model_fb(mid)
+    lo_m, hi_m = (mid, hi_m) if tot > FB1850 else (lo_m, mid)
+fb_rate = (lo_m + hi_m) / 2
+fb_total_1850, fb_model = model_fb(fb_rate)
+check("modelled 1850 foreign-born matches census", abs(fb_total_1850 - FB1850) < 1000, f"{fb_total_1850:,.0f} vs {FB1850:,.0f}, loss rate {fb_rate:.4f}/yr")
+# before the first colonial estimate (1610) the population was the arrivals themselves
+for y in range(Y0, bys[0]):
+    pop[y - Y0] = sum(arr[y - Y0] for arr in fb_model.values())
+for y in range(Y0, FIRST_CENSUS):
+    i = y - Y0
+    tot = sum(arr[i] for arr in fb_model.values())
+    check(f"{y} modelled foreign-born not above population", pop[i] is None or tot <= pop[i] * 1.0001, f"{tot:,.0f} vs {pop[i]}")
+
 # ---------------------------------------------------------------- package
 def sparse(arr, digits=0):
     nz = [i for i, v in enumerate(arr) if v > 0.5]
@@ -608,6 +677,9 @@ data = {
         "nat": {"total": nat_total, "pop": nat_pop, "g": nat_g, "o": {k: v for k, v in nat_o.items()}},
     },
     "forced": {"pairs": forced_out, "landings": landings},
+    "pop": [round(v) if v else None for v in pop],
+    "fbModel": {"rate": round(fb_rate, 5), "until": FIRST_CENSUS - 1,
+                "o": {k: sp for k, sp in ((k, sparse(v)) for k, v in fb_model.items()) if sp}},
     "events": events,
     "sources": sources,
     "about": ABOUT,

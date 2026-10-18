@@ -57,7 +57,15 @@ def geo_bundle():
     index = {g["properties"]["id"]: i for i, g in enumerate(geoms)}
     us_years = {y: [index[i] for i in ids if i in index] for y, ids in years.items()}
     world["objects"].pop("land", None)  # the page draws countries only
-    return {"us": us, "usYears": us_years, "world": world}
+    bundle = {"us": us, "usYears": us_years, "world": world}
+    # historical world borders (scripts/geo_hist/), used when present
+    if (GEO / "world_hist.topo.json").exists():
+        hist = load(GEO / "world_hist.topo.json")
+        hidx = {g["properties"]["id"]: i for i, g in enumerate(hist["objects"]["polities"]["geometries"])}
+        hyears = load(GEO / "world_hist_years.json")["years"]
+        bundle["hist"] = hist
+        bundle["histYears"] = {y: [hidx[i] for i in ids if i in hidx] for y, ids in hyears.items()}
+    return bundle
 
 
 def compact_json(obj):

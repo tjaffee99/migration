@@ -1,0 +1,16 @@
+{
+  "name": "migration-geo-hist-tools",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Builds web/geo/world_hist.topo.json (historical world borders 1607-2026) from historical-basemaps + CShapes",
+  "type": "module",
+  "scripts": {
+    "build": "bash build_all.sh"
+  },
+  "dependencies": {
+    "d3-geo": "3.1.1",
+    "mapshaper": "0.7.89",
+    "playwright-core": "1.64.1",
+    "topojson-client": "3.1.0"
+  }
+}
