@@ -109,6 +109,14 @@
     stockGroups.push(row);
   }
 
+  function illegalPopAt(y) {
+    const P = D.illegalPop;
+    if (!P || !P.years.length || y < P.years[0] || y > P.years[P.years.length - 1]) return null;
+    const i = d3.bisectRight(P.years, y) - 1;
+    if (P.years[i] === y) return P.v[i];
+    const t = (y - P.years[i]) / (P.years[i + 1] - P.years[i]);
+    return P.v[i] + (P.v[i + 1] - P.v[i]) * t;
+  }
   function flowsAt(y) {
     const i = y - Y0;
     const list = [];
@@ -683,9 +691,11 @@
       const approx = St.kind !== "census" && St.kind !== "acs";
       tipRow(t, seg.c, "Residents in " + S.year, fmtCount(seg.v, approx));
       t.append(el("div", "note", pct(seg.v / St.pop) + " of the population" + (seg.id === "_native" ? "" : `, ${pct(seg.v / St.total)} of immigrants`)));
+      const ip = illegalPopAt(S.year);
+      if (seg.id !== "_native" && ip) t.append(el("div", "note", `Immigrants include about ${compact(ip)} people living in the US illegally (Pew Research Center and earlier estimates).`));
       if (St.kind === "model") t.append(el("div", "note", `Modelled: birthplace was first recorded in the ${STOCK_FIRST} census. Excludes most Native Americans.`));
       else if (St.kind === "interp") t.append(el("div", "note", `Interpolated between the ${St.a} and ${St.b} counts.`));
-      else if (St.kind === "cps") t.append(el("div", "note", "Monthly survey estimate (CPS), preliminary."));
+      else if (St.kind === "cps") t.append(el("div", "note", "Current Population Survey yearly average, scaled to the 2024 ACS; preliminary (±0.8M)."));
     });
   }
 
@@ -928,14 +938,16 @@
       const forced = F.list.filter((d) => originById[d.id].forced).reduce((s, d) => s + d.v, 0);
       if (forced > 0) txt(`About ${fmtInt(roundEst(forced))} were enslaved Africans brought by force. `);
     } else {
-      txt(`Arrivals for ${y} haven't been published yet. `);
+      txt(`Arrival counts for ${y} haven't been published yet. `);
+      if (D.netNotes && D.netNotes[y]) txt(D.netNotes[y] + " ");
     }
     const St = stockAt(y);
     if (St && St.pop) { txt(St.kind === "census" || St.kind === "acs" ? "" : "About "); strong(pct(Math.min(St.total, St.pop) / St.pop)); txt(" of residents were born abroad."); }
     const b = $("basis");
     b.className = "basis " + bi.cls;
-    b.replaceChildren(el("i"), document.createTextNode(bi.label + (F.un > 0 ? " · illegal immigration estimated" : "")));
-    b.title = bi.long || "";
+    const ub = F.un > 0 && D.uBasisInfo ? D.uBasisInfo[D.flow.uBasis[y - Y0]] : null;
+    b.replaceChildren(el("i"), document.createTextNode(bi.label + (ub ? " · illegal: " + ub.label : "")));
+    b.title = (bi.long || "") + (ub ? " Illegal immigration: " + ub.long : "");
     const ev = currentEvent(y, 12);
     const ctx = $("context");
     ctx.replaceChildren();

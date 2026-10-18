@@ -1,0 +1,443 @@
+period_start,period_end,origin_label,level,parent_label,count,low,high,basis,source_id,note
+2025,2025,All countries,total,,,22000,39000,gross_inflow,brookings2026_edelberg_veuger_watson,component=entries_without_inspection; ILLEGAL entries not encountered by any official; range only
+2025,2025,All countries,total,,,67000,70000,gross_inflow,brookings2026_edelberg_veuger_watson,component=parole_and_NTA_releases; temporary permission (not illegal entry); range only
+2025,2025,All countries,total,,,-295000,-10000,other,brookings2026_edelberg_veuger_watson,component=net_migration_ALL_statuses; calendar 2025; range only; NOT illegal-specific
+2025,2025,All countries,total,,,310000,315000,other,brookings2026_edelberg_veuger_watson,"component=removals (ICE border + interior removals, all statuses); range only"
+2026,2026,All countries,total,,,-925000,185000,other,brookings2026_edelberg_veuger_watson,component=net_migration_ALL_statuses; PROJECTION 2026; range only
+2021,2021,All countries,total,,600000,,,net_change,cbo2024_demographic_outlook,earlier vintage (Jan 2024); calendar year; CBO 'other foreign nationals' = people who entered illegally + visa overstayers + people paroled in or released and awaiting immigration court (the last group has temporary legal permission); illegal-only part not published
+2022,2022,All countries,total,,1900000,,,net_change,cbo2024_demographic_outlook,earlier vintage (Jan 2024); calendar year; CBO 'other foreign nationals' = people who entered illegally + visa overstayers + people paroled in or released and awaiting immigration court (the last group has temporary legal permission); illegal-only part not published
+2023,2023,All countries,total,,3300000,,,gross_inflow,cbo2024_demographic_outlook,component=joined_total; FISCAL year 2023 (Oct 2022-Sep 2023); includes people released/paroled with temporary permission
+2023,2023,All countries,total,,1100000,,,gross_inflow,cbo2024_demographic_outlook,component=released_between_ports_USBP; FISCAL year 2023 (Oct 2022-Sep 2023); includes people released/paroled with temporary permission
+2023,2023,All countries,total,,900000,,,gross_inflow,cbo2024_demographic_outlook,component=released_at_ports_OFO; FISCAL year 2023 (Oct 2022-Sep 2023); includes people released/paroled with temporary permission
+2023,2023,All countries,total,,860000,,,gross_inflow,cbo2024_demographic_outlook,"component=entered_without_encountering_CBP; FISCAL year 2023 (Oct 2022-Sep 2023); ILLEGAL entry or overstay; 750,000 observed got-aways + 15% for undetected"
+2023,2023,All countries,total,,430000,,,gross_inflow,cbo2024_demographic_outlook,component=visa_overstays; FISCAL year 2023 (Oct 2022-Sep 2023); ILLEGAL entry or overstay
+2023,2023,All countries,total,,1290000,,,gross_inflow,cbo2024_demographic_outlook,"component=illegal_only_sum_EWI_not_encountered_plus_overstays; FISCAL year 2023 (Oct 2022-Sep 2023); ILLEGAL entry or overstay; derived sum 860,000 + 430,000"
+2023,2023,All countries,total,,2400000,2200000,2500000,net_change,cbo2024_demographic_outlook,"earlier vintage (Jan 2024); calendar year; DHS-data method 2.5 million, Census-data method 2.2 million; CBO 'other foreign nationals' = people who entered illegally + visa overstayers + people paroled in or released and awaiting immigration court (the last group has temporary legal permission); illegal-only part not published"
+2023,2023,All countries,total,,2600000,,,net_change,cbo2024_demographic_outlook,"FISCAL year 2023, DHS-data method; CBO 'other foreign nationals' = people who entered illegally + visa overstayers + people paroled in or released and awaiting immigration court (the last group has temporary legal permission); illegal-only part not published"
+2023,2023,All countries,total,,660000,,,other,cbo2024_demographic_outlook,component=left_total (emigrated or obtained legal status); FISCAL year 2023
+2024,2024,All countries,total,,2400000,,,net_change,cbo2024_demographic_outlook,PROJECTION (Jan 2024); CBO 'other foreign nationals' = people who entered illegally + visa overstayers + people paroled in or released and awaiting immigration court (the last group has temporary legal permission); illegal-only part not published
+2025,2025,All countries,total,,1100000,,,net_change,cbo2025_jan_demographic_outlook,"PROJECTION made Jan 2025 (value quoted in CBO Jan 2026, App. B); CBO 'other foreign nationals' = people who entered illegally + visa overstayers + people paroled in or released and awaiting immigration court (the last group has temporary legal permission); illegal-only part not published"
+2025,2025,All countries,total,,-290000,,,net_change,cbo2025_sep_demographic_update,"PROJECTION made Sep 2025 (value quoted in CBO Jan 2026, App. B); CBO 'other foreign nationals' = people who entered illegally + visa overstayers + people paroled in or released and awaiting immigration court (the last group has temporary legal permission); illegal-only part not published"
+2010,2019,All countries,total,,-130000,,,net_change,cbo2026_demographic_outlook,unit=annual_average; calendar years; CBO 'other foreign nationals' = people who entered illegally + visa overstayers + people paroled in or released and awaiting immigration court (the last group has temporary legal permission); illegal-only part not published
+2021,2021,All countries,total,,830000,,,net_change,cbo2026_demographic_outlook,estimate; calendar year; CBO 'other foreign nationals' = people who entered illegally + visa overstayers + people paroled in or released and awaiting immigration court (the last group has temporary legal permission); illegal-only part not published
+2022,2022,All countries,total,,2000000,,,net_change,cbo2026_demographic_outlook,estimate; calendar year; CBO 'other foreign nationals' = people who entered illegally + visa overstayers + people paroled in or released and awaiting immigration court (the last group has temporary legal permission); illegal-only part not published
+2023,2023,All countries,total,,800000,,,gross_inflow,cbo2026_demographic_outlook,"component=entered_without_encountering_CBP; calendar year; 'roughly 800,000'; ILLEGAL entry"
+2023,2023,All countries,total,,2400000,,,net_change,cbo2026_demographic_outlook,estimate; calendar year; CBO 'other foreign nationals' = people who entered illegally + visa overstayers + people paroled in or released and awaiting immigration court (the last group has temporary legal permission); illegal-only part not published
+2024,2024,All countries,total,,540000,,,gross_inflow,cbo2026_demographic_outlook,component=released_between_ports_USBP; calendar year; people joining the OFN category; temporary permission
+2024,2024,All countries,total,,960000,,,gross_inflow,cbo2026_demographic_outlook,component=released_at_ports_OFO; calendar year; people joining the OFN category; temporary permission
+2024,2024,All countries,total,,300000,,,gross_inflow,cbo2026_demographic_outlook,"component=entered_without_encountering_CBP; calendar year; people joining the OFN category; ILLEGAL entry or overstay; 'roughly' (FY2024: 270,000)"
+2024,2024,All countries,total,,260000,,,gross_inflow,cbo2026_demographic_outlook,component=visa_overstays; calendar year; people joining the OFN category; ILLEGAL entry or overstay; overstayers present in 2024
+2024,2024,All countries,total,,1300000,,,net_change,cbo2026_demographic_outlook,estimate; calendar year; CBO 'other foreign nationals' = people who entered illegally + visa overstayers + people paroled in or released and awaiting immigration court (the last group has temporary legal permission); illegal-only part not published
+2025,2025,All countries,total,,380000,,,gross_inflow,cbo2026_demographic_outlook,component=joined_total; calendar year; people joining the OFN category; includes people released/paroled with temporary permission
+2025,2025,All countries,total,,20000,,,gross_inflow,cbo2026_demographic_outlook,component=released_between_ports_USBP; calendar year; people joining the OFN category; includes people released/paroled with temporary permission
+2025,2025,All countries,total,,60000,,,gross_inflow,cbo2026_demographic_outlook,component=released_at_ports_OFO; calendar year; people joining the OFN category; includes people released/paroled with temporary permission
+2025,2025,All countries,total,,50000,,,gross_inflow,cbo2026_demographic_outlook,component=entered_without_encountering_CBP; calendar year; people joining the OFN category; ILLEGAL entry or overstay
+2025,2025,All countries,total,,260000,,,gross_inflow,cbo2026_demographic_outlook,component=visa_overstays; calendar year; people joining the OFN category; ILLEGAL entry or overstay
+2025,2025,All countries,total,,310000,,,gross_inflow,cbo2026_demographic_outlook,"component=illegal_only_sum_EWI_not_encountered_plus_overstays; calendar year; people joining the OFN category; ILLEGAL entry or overstay; derived sum 50,000 + 260,000"
+2025,2025,All countries,total,,-360000,,,net_change,cbo2026_demographic_outlook,estimate; calendar year; CBO 'other foreign nationals' = people who entered illegally + visa overstayers + people paroled in or released and awaiting immigration court (the last group has temporary legal permission); illegal-only part not published
+2025,2025,All countries,total,,750000,,,other,cbo2026_demographic_outlook,component=left_total (outflow from OFN category); calendar year 2025; 'about'
+2025,2025,All countries,total,,400000,,,other,cbo2026_demographic_outlook,component=emigrated_voluntarily (outflow from OFN category); calendar year 2025; 'about'
+2025,2025,All countries,total,,120000,,,other,cbo2026_demographic_outlook,component=removed_from_interior (outflow from OFN category); calendar year 2025; 'about'
+2025,2025,All countries,total,,225000,,,other,cbo2026_demographic_outlook,component=obtained_permanent_legal_status (outflow from OFN category); calendar year 2025; 'about'
+2026,2026,All countries,total,,-330000,,,net_change,cbo2026_demographic_outlook,PROJECTION; calendar year; CBO 'other foreign nationals' = people who entered illegally + visa overstayers + people paroled in or released and awaiting immigration court (the last group has temporary legal permission); illegal-only part not published
+2027,2027,All countries,total,,-330000,,,net_change,cbo2026_demographic_outlook,PROJECTION; calendar year; CBO 'other foreign nationals' = people who entered illegally + visa overstayers + people paroled in or released and awaiting immigration court (the last group has temporary legal permission); illegal-only part not published
+2030,2030,All countries,total,,-130000,,,net_change,cbo2026_demographic_outlook,PROJECTION; calendar year; CBO 'other foreign nationals' = people who entered illegally + visa overstayers + people paroled in or released and awaiting immigration court (the last group has temporary legal permission); illegal-only part not published
+2036,2036,All countries,total,,140000,,,net_change,cbo2026_demographic_outlook,PROJECTION; calendar year; CBO 'other foreign nationals' = people who entered illegally + visa overstayers + people paroled in or released and awaiting immigration court (the last group has temporary legal permission); illegal-only part not published
+1970,1979,All countries,total,,1517000,,,entered_period,census_passel1986_mlr,unit=period_total; undocumented aliens counted in the 1980 census who entered in the 1970s; stock_year=1980
+1975,1980,All countries,total,,946000,,,entered_period,census_passel1986_mlr,unit=period_total; entered in the 5 years before the 1980 census; stock_year=1980
+1980,1983,All countries,total,,,100000,300000,net_change,census_passel1986_mlr,unit=annual_average; April 1980 census vs April 1983 CPS; range only
+1980,1985,All countries,total,,200000,,,net_change,census_passel1986_mlr,"unit=annual_average; ASSUMPTION adopted in Census Bureau postcensal estimates from Jan 1986 ('net annual undocumented immigration of 200,000 for every year since 1980')"
+2020,2021,All countries,total,,376004,,,other,census_v2024_popest,component=net_international_migration_ALL_statuses; Jul 1 2020-Jun 30 2021; NOT an illegal-immigration estimate (legal status not estimated)
+2021,2022,All countries,total,,1693535,,,other,census_v2024_popest,component=net_international_migration_ALL_statuses; Jul 1 2021-Jun 30 2022; NOT an illegal-immigration estimate (legal status not estimated)
+2022,2023,All countries,total,,2294299,,,other,census_v2024_popest,component=net_international_migration_ALL_statuses; Jul 1 2022-Jun 30 2023; NOT an illegal-immigration estimate (legal status not estimated)
+2023,2024,All countries,total,,2786119,,,other,census_v2024_popest,component=net_international_migration_ALL_statuses; Jul 1 2023-Jun 30 2024; NOT an illegal-immigration estimate (legal status not estimated)
+2020,2021,All countries,total,,376026,,,other,census_v2025_popest,component=net_international_migration_ALL_statuses; Jul 1 2020-Jun 30 2021; NOT an illegal-immigration estimate (legal status not estimated)
+2021,2022,All countries,total,,1672112,,,other,census_v2025_popest,component=net_international_migration_ALL_statuses; Jul 1 2021-Jun 30 2022; NOT an illegal-immigration estimate (legal status not estimated)
+2022,2023,All countries,total,,2264137,,,other,census_v2025_popest,component=net_international_migration_ALL_statuses; Jul 1 2022-Jun 30 2023; NOT an illegal-immigration estimate (legal status not estimated)
+2023,2024,All countries,total,,2734468,,,other,census_v2025_popest,component=net_international_migration_ALL_statuses; Jul 1 2023-Jun 30 2024; NOT an illegal-immigration estimate (legal status not estimated)
+2024,2025,All countries,total,,1262202,,,other,census_v2025_popest,component=net_international_migration_ALL_statuses; Jul 1 2024-Jun 30 2025; NOT an illegal-immigration estimate (legal status not estimated)
+2025,2026,All countries,total,,321000,,,other,census_v2025_popest,component=net_international_migration_ALL_statuses; PROJECTION for Jul 2025-Jun 2026 (Vintage 2025 press release); NOT illegal-specific
+2016,2016,All countries,total,,515000,,,gross_inflow,cms2019_warren,component=all_arrivals; people who joined the illegal-immigrant population in 2016 (CMS year-of-entry estimates); hand transcription of image Table 3 (thousands)
+2016,2016,Mexico,country,All countries,145000,,,gross_inflow,cms2019_warren,component=all_arrivals; people who joined the illegal-immigrant population in 2016 (CMS year-of-entry estimates); hand transcription of image Table 3 (thousands)
+2016,2016,El Salvador,country,All countries,35000,,,gross_inflow,cms2019_warren,component=all_arrivals; people who joined the illegal-immigrant population in 2016 (CMS year-of-entry estimates); hand transcription of image Table 3 (thousands)
+2016,2016,Guatemala,country,All countries,30000,,,gross_inflow,cms2019_warren,component=all_arrivals; people who joined the illegal-immigrant population in 2016 (CMS year-of-entry estimates); hand transcription of image Table 3 (thousands)
+2016,2016,Honduras,country,All countries,30000,,,gross_inflow,cms2019_warren,component=all_arrivals; people who joined the illegal-immigrant population in 2016 (CMS year-of-entry estimates); hand transcription of image Table 3 (thousands)
+2016,2016,India,country,All countries,25000,,,gross_inflow,cms2019_warren,component=all_arrivals; people who joined the illegal-immigrant population in 2016 (CMS year-of-entry estimates); hand transcription of image Table 3 (thousands)
+2016,2016,All other countries,residual,All countries,245000,,,gross_inflow,cms2019_warren,component=all_arrivals; people who joined the illegal-immigrant population in 2016 (CMS year-of-entry estimates); hand transcription of image Table 3 (thousands)
+2016,2016,All countries,total,,320000,,,gross_inflow,cms2019_warren,component=visa_overstays; people who joined the illegal-immigrant population in 2016 (CMS year-of-entry estimates); hand transcription of image Table 3 (thousands)
+2016,2016,Mexico,country,All countries,50000,,,gross_inflow,cms2019_warren,component=visa_overstays; people who joined the illegal-immigrant population in 2016 (CMS year-of-entry estimates); hand transcription of image Table 3 (thousands)
+2016,2016,India,country,All countries,25000,,,gross_inflow,cms2019_warren,component=visa_overstays; people who joined the illegal-immigrant population in 2016 (CMS year-of-entry estimates); hand transcription of image Table 3 (thousands)
+2016,2016,China,country,All countries,25000,,,gross_inflow,cms2019_warren,component=visa_overstays; people who joined the illegal-immigrant population in 2016 (CMS year-of-entry estimates); hand transcription of image Table 3 (thousands)
+2016,2016,Venezuela,country,All countries,20000,,,gross_inflow,cms2019_warren,component=visa_overstays; people who joined the illegal-immigrant population in 2016 (CMS year-of-entry estimates); hand transcription of image Table 3 (thousands)
+2016,2016,Philippines,country,All countries,15000,,,gross_inflow,cms2019_warren,component=visa_overstays; people who joined the illegal-immigrant population in 2016 (CMS year-of-entry estimates); hand transcription of image Table 3 (thousands)
+2016,2016,All other countries,residual,All countries,185000,,,gross_inflow,cms2019_warren,component=visa_overstays; people who joined the illegal-immigrant population in 2016 (CMS year-of-entry estimates); hand transcription of image Table 3 (thousands)
+2016,2016,All countries,total,,190000,,,gross_inflow,cms2019_warren,component=entries_without_inspection; people who joined the illegal-immigrant population in 2016 (CMS year-of-entry estimates); hand transcription of image Table 3 (thousands)
+2016,2016,Mexico,country,All countries,95000,,,gross_inflow,cms2019_warren,component=entries_without_inspection; people who joined the illegal-immigrant population in 2016 (CMS year-of-entry estimates); hand transcription of image Table 3 (thousands)
+2016,2016,El Salvador,country,All countries,35000,,,gross_inflow,cms2019_warren,component=entries_without_inspection; people who joined the illegal-immigrant population in 2016 (CMS year-of-entry estimates); hand transcription of image Table 3 (thousands)
+2016,2016,Honduras,country,All countries,25000,,,gross_inflow,cms2019_warren,component=entries_without_inspection; people who joined the illegal-immigrant population in 2016 (CMS year-of-entry estimates); hand transcription of image Table 3 (thousands)
+2016,2016,Guatemala,country,All countries,20000,,,gross_inflow,cms2019_warren,component=entries_without_inspection; people who joined the illegal-immigrant population in 2016 (CMS year-of-entry estimates); hand transcription of image Table 3 (thousands)
+2016,2016,Dominican Republic,country,All countries,10000,,,gross_inflow,cms2019_warren,component=entries_without_inspection; people who joined the illegal-immigrant population in 2016 (CMS year-of-entry estimates); hand transcription of image Table 3 (thousands)
+2016,2016,All other countries,residual,All countries,5000,,,gross_inflow,cms2019_warren,component=entries_without_inspection; people who joined the illegal-immigrant population in 2016 (CMS year-of-entry estimates); hand transcription of image Table 3 (thousands)
+2000,2000,All countries,total,,1800000,,,gross_inflow,dhs2017_border_security,"component=successful_illegal_entries_SW_border_between_ports; fiscal year; IDA model for DHS; entries (events), ILLEGAL entry only; excludes overstays and ports of entry"
+2016,2016,All countries,total,,170000,,,gross_inflow,dhs2017_border_security,"component=successful_illegal_entries_SW_border_between_ports; fiscal year; IDA model for DHS; entries (events), ILLEGAL entry only; excludes overstays and ports of entry"
+2025,2025,All countries,total,,2500000,,,other,dhs2025_press_statement_via_tnnd,"component=claimed_departures_total ('more than 2.5 million'); Jan 20-Dec 10, 2025; DHS press statement (Assistant Secretary McLaughlin) quoted by The National News Desk, 2025-12-11; self-deportation figure is an undocumented DHS estimate (Brookings: likely CPS-based and covering legal immigrants too)"
+2025,2025,All countries,total,,605000,,,other,dhs2025_press_statement_via_tnnd,"component=claimed_removals ('more than 605,000'); Jan 20-Dec 10, 2025; DHS press statement (Assistant Secretary McLaughlin) quoted by The National News Desk, 2025-12-11; self-deportation figure is an undocumented DHS estimate (Brookings: likely CPS-based and covering legal immigrants too)"
+2025,2025,All countries,total,,1900000,,,other,dhs2025_press_statement_via_tnnd,"component=claimed_self_deportations (estimate); Jan 20-Dec 10, 2025; DHS press statement (Assistant Secretary McLaughlin) quoted by The National News Desk, 2025-12-11; self-deportation figure is an undocumented DHS estimate (Brookings: likely CPS-based and covering legal immigrants too)"
+1981,1981,All countries,total,,,250000,500000,net_change,ins1981_meissner_testimony,"unit=annual_average; 'continuing to grow from one-quarter to one-half million each year' (INS testimony, Oct 1981); range only"
+1990,1990,All countries,total,,749000,,,gross_inflow,ins2003_warren,component=entered; people who moved to the US in the year and still lived here illegally at year end; excludes parolees/asylees with work authorization
+1990,1990,Mexico,country,All countries,454000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1990,1990,Central America,region,All countries,35000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1990,1990,Central America (no country detail in source),residual,Central America,35000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1990,1990,All other countries,residual,All countries,260000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1990,1990,All countries,total,,525000,,,net_change,ins2003_warren,component=net_change (Jan 1 to Jan 1)
+1990,1990,All countries,total,,224000,,,other,ins2003_warren,component=left_total (outflow from the illegal-immigrant population)
+1990,1990,All countries,total,,111000,,,other,ins2003_warren,component=emigrated (outflow from the illegal-immigrant population)
+1990,1990,All countries,total,,15000,,,other,ins2003_warren,component=died (outflow from the illegal-immigrant population)
+1990,1990,All countries,total,,26000,,,other,ins2003_warren,component=removed_by_INS (outflow from the illegal-immigrant population)
+1990,1990,All countries,total,,36000,,,other,ins2003_warren,component=adjusted_to_legal_status_in_US (outflow from the illegal-immigrant population)
+1990,1990,All countries,total,,36000,,,other,ins2003_warren,component=left_briefly_returned_as_LPR (outflow from the illegal-immigrant population)
+1991,1991,All countries,total,,617000,,,gross_inflow,ins2003_warren,component=entered; people who moved to the US in the year and still lived here illegally at year end; excludes parolees/asylees with work authorization
+1991,1991,Mexico,country,All countries,390000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1991,1991,Central America,region,All countries,32000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1991,1991,Central America (no country detail in source),residual,Central America,32000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1991,1991,All other countries,residual,All countries,195000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1991,1991,All countries,total,,180000,,,net_change,ins2003_warren,component=net_change (Jan 1 to Jan 1)
+1991,1991,All countries,total,,438000,,,other,ins2003_warren,component=left_total (outflow from the illegal-immigrant population)
+1991,1991,All countries,total,,123000,,,other,ins2003_warren,component=emigrated (outflow from the illegal-immigrant population)
+1991,1991,All countries,total,,17000,,,other,ins2003_warren,component=died (outflow from the illegal-immigrant population)
+1991,1991,All countries,total,,28000,,,other,ins2003_warren,component=removed_by_INS (outflow from the illegal-immigrant population)
+1991,1991,All countries,total,,229000,,,other,ins2003_warren,component=adjusted_to_legal_status_in_US (outflow from the illegal-immigrant population)
+1991,1991,All countries,total,,41000,,,other,ins2003_warren,component=left_briefly_returned_as_LPR (outflow from the illegal-immigrant population)
+1992,1992,All countries,total,,556000,,,gross_inflow,ins2003_warren,component=entered; people who moved to the US in the year and still lived here illegally at year end; excludes parolees/asylees with work authorization
+1992,1992,Mexico,country,All countries,380000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1992,1992,Central America,region,All countries,28000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1992,1992,Central America (no country detail in source),residual,Central America,28000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1992,1992,All other countries,residual,All countries,149000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1992,1992,All countries,total,,288000,,,net_change,ins2003_warren,component=net_change (Jan 1 to Jan 1)
+1992,1992,All countries,total,,269000,,,other,ins2003_warren,component=left_total (outflow from the illegal-immigrant population)
+1992,1992,All countries,total,,125000,,,other,ins2003_warren,component=emigrated (outflow from the illegal-immigrant population)
+1992,1992,All countries,total,,17000,,,other,ins2003_warren,component=died (outflow from the illegal-immigrant population)
+1992,1992,All countries,total,,33000,,,other,ins2003_warren,component=removed_by_INS (outflow from the illegal-immigrant population)
+1992,1992,All countries,total,,37000,,,other,ins2003_warren,component=adjusted_to_legal_status_in_US (outflow from the illegal-immigrant population)
+1992,1992,All countries,total,,57000,,,other,ins2003_warren,component=left_briefly_returned_as_LPR (outflow from the illegal-immigrant population)
+1993,1993,All countries,total,,564000,,,gross_inflow,ins2003_warren,component=entered; people who moved to the US in the year and still lived here illegally at year end; excludes parolees/asylees with work authorization
+1993,1993,Mexico,country,All countries,403000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1993,1993,Central America,region,All countries,32000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1993,1993,Central America (no country detail in source),residual,Central America,32000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1993,1993,All other countries,residual,All countries,129000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1993,1993,All countries,total,,258000,,,net_change,ins2003_warren,component=net_change (Jan 1 to Jan 1)
+1993,1993,All countries,total,,306000,,,other,ins2003_warren,component=left_total (outflow from the illegal-immigrant population)
+1993,1993,All countries,total,,131000,,,other,ins2003_warren,component=emigrated (outflow from the illegal-immigrant population)
+1993,1993,All countries,total,,18000,,,other,ins2003_warren,component=died (outflow from the illegal-immigrant population)
+1993,1993,All countries,total,,32000,,,other,ins2003_warren,component=removed_by_INS (outflow from the illegal-immigrant population)
+1993,1993,All countries,total,,62000,,,other,ins2003_warren,component=adjusted_to_legal_status_in_US (outflow from the illegal-immigrant population)
+1993,1993,All countries,total,,62000,,,other,ins2003_warren,component=left_briefly_returned_as_LPR (outflow from the illegal-immigrant population)
+1994,1994,All countries,total,,686000,,,gross_inflow,ins2003_warren,component=entered; people who moved to the US in the year and still lived here illegally at year end; excludes parolees/asylees with work authorization
+1994,1994,Mexico,country,All countries,473000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1994,1994,Central America,region,All countries,48000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1994,1994,Central America (no country detail in source),residual,Central America,48000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1994,1994,All other countries,residual,All countries,165000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1994,1994,All countries,total,,396000,,,net_change,ins2003_warren,component=net_change (Jan 1 to Jan 1)
+1994,1994,All countries,total,,290000,,,other,ins2003_warren,component=left_total (outflow from the illegal-immigrant population)
+1994,1994,All countries,total,,139000,,,other,ins2003_warren,component=emigrated (outflow from the illegal-immigrant population)
+1994,1994,All countries,total,,20000,,,other,ins2003_warren,component=died (outflow from the illegal-immigrant population)
+1994,1994,All countries,total,,34000,,,other,ins2003_warren,component=removed_by_INS (outflow from the illegal-immigrant population)
+1994,1994,All countries,total,,41000,,,other,ins2003_warren,component=adjusted_to_legal_status_in_US (outflow from the illegal-immigrant population)
+1994,1994,All countries,total,,57000,,,other,ins2003_warren,component=left_briefly_returned_as_LPR (outflow from the illegal-immigrant population)
+1995,1995,All countries,total,,772000,,,gross_inflow,ins2003_warren,component=entered; people who moved to the US in the year and still lived here illegally at year end; excludes parolees/asylees with work authorization
+1995,1995,Mexico,country,All countries,513000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1995,1995,Central America,region,All countries,59000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1995,1995,Central America (no country detail in source),residual,Central America,59000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1995,1995,All other countries,residual,All countries,200000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1995,1995,All countries,total,,435000,,,net_change,ins2003_warren,component=net_change (Jan 1 to Jan 1)
+1995,1995,All countries,total,,338000,,,other,ins2003_warren,component=left_total (outflow from the illegal-immigrant population)
+1995,1995,All countries,total,,150000,,,other,ins2003_warren,component=emigrated (outflow from the illegal-immigrant population)
+1995,1995,All countries,total,,21000,,,other,ins2003_warren,component=died (outflow from the illegal-immigrant population)
+1995,1995,All countries,total,,35000,,,other,ins2003_warren,component=removed_by_INS (outflow from the illegal-immigrant population)
+1995,1995,All countries,total,,107000,,,other,ins2003_warren,component=adjusted_to_legal_status_in_US (outflow from the illegal-immigrant population)
+1995,1995,All countries,total,,25000,,,other,ins2003_warren,component=left_briefly_returned_as_LPR (outflow from the illegal-immigrant population)
+1996,1996,All countries,total,,677000,,,gross_inflow,ins2003_warren,component=entered; people who moved to the US in the year and still lived here illegally at year end; excludes parolees/asylees with work authorization
+1996,1996,Mexico,country,All countries,450000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1996,1996,Central America,region,All countries,55000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1996,1996,Central America (no country detail in source),residual,Central America,55000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1996,1996,All other countries,residual,All countries,172000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1996,1996,All countries,total,,281000,,,net_change,ins2003_warren,component=net_change (Jan 1 to Jan 1)
+1996,1996,All countries,total,,396000,,,other,ins2003_warren,component=left_total (outflow from the illegal-immigrant population)
+1996,1996,All countries,total,,159000,,,other,ins2003_warren,component=emigrated (outflow from the illegal-immigrant population)
+1996,1996,All countries,total,,23000,,,other,ins2003_warren,component=died (outflow from the illegal-immigrant population)
+1996,1996,All countries,total,,41000,,,other,ins2003_warren,component=removed_by_INS (outflow from the illegal-immigrant population)
+1996,1996,All countries,total,,163000,,,other,ins2003_warren,component=adjusted_to_legal_status_in_US (outflow from the illegal-immigrant population)
+1996,1996,All countries,total,,11000,,,other,ins2003_warren,component=left_briefly_returned_as_LPR (outflow from the illegal-immigrant population)
+1997,1997,All countries,total,,654000,,,gross_inflow,ins2003_warren,component=entered; people who moved to the US in the year and still lived here illegally at year end; excludes parolees/asylees with work authorization
+1997,1997,Mexico,country,All countries,437000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1997,1997,Central America,region,All countries,57000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1997,1997,Central America (no country detail in source),residual,Central America,57000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1997,1997,All other countries,residual,All countries,160000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1997,1997,All countries,total,,236000,,,net_change,ins2003_warren,component=net_change (Jan 1 to Jan 1)
+1997,1997,All countries,total,,417000,,,other,ins2003_warren,component=left_total (outflow from the illegal-immigrant population)
+1997,1997,All countries,total,,164000,,,other,ins2003_warren,component=emigrated (outflow from the illegal-immigrant population)
+1997,1997,All countries,total,,24000,,,other,ins2003_warren,component=died (outflow from the illegal-immigrant population)
+1997,1997,All countries,total,,57000,,,other,ins2003_warren,component=removed_by_INS (outflow from the illegal-immigrant population)
+1997,1997,All countries,total,,161000,,,other,ins2003_warren,component=adjusted_to_legal_status_in_US (outflow from the illegal-immigrant population)
+1997,1997,All countries,total,,11000,,,other,ins2003_warren,component=left_briefly_returned_as_LPR (outflow from the illegal-immigrant population)
+1998,1998,All countries,total,,817000,,,gross_inflow,ins2003_warren,component=entered; people who moved to the US in the year and still lived here illegally at year end; excludes parolees/asylees with work authorization
+1998,1998,Mexico,country,All countries,537000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1998,1998,Central America,region,All countries,73000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1998,1998,Central America (no country detail in source),residual,Central America,73000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1998,1998,All other countries,residual,All countries,208000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1998,1998,All countries,total,,391000,,,net_change,ins2003_warren,component=net_change (Jan 1 to Jan 1)
+1998,1998,All countries,total,,426000,,,other,ins2003_warren,component=left_total (outflow from the illegal-immigrant population)
+1998,1998,All countries,total,,171000,,,other,ins2003_warren,component=emigrated (outflow from the illegal-immigrant population)
+1998,1998,All countries,total,,25000,,,other,ins2003_warren,component=died (outflow from the illegal-immigrant population)
+1998,1998,All countries,total,,63000,,,other,ins2003_warren,component=removed_by_INS (outflow from the illegal-immigrant population)
+1998,1998,All countries,total,,152000,,,other,ins2003_warren,component=adjusted_to_legal_status_in_US (outflow from the illegal-immigrant population)
+1998,1998,All countries,total,,16000,,,other,ins2003_warren,component=left_briefly_returned_as_LPR (outflow from the illegal-immigrant population)
+1999,1999,All countries,total,,968000,,,gross_inflow,ins2003_warren,component=entered; people who moved to the US in the year and still lived here illegally at year end; excludes parolees/asylees with work authorization
+1999,1999,Mexico,country,All countries,629000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1999,1999,Central America,region,All countries,82000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1999,1999,Central America (no country detail in source),residual,Central America,82000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1999,1999,All other countries,residual,All countries,257000,,,gross_inflow,ins2003_warren,"component=entered; data labels of Chart 3 (log-scale chart), consistent with Table C totals within rounding"
+1999,1999,All countries,total,,512000,,,net_change,ins2003_warren,component=net_change (Jan 1 to Jan 1)
+1999,1999,All countries,total,,456000,,,other,ins2003_warren,component=left_total (outflow from the illegal-immigrant population)
+1999,1999,All countries,total,,183000,,,other,ins2003_warren,component=emigrated (outflow from the illegal-immigrant population)
+1999,1999,All countries,total,,27000,,,other,ins2003_warren,component=died (outflow from the illegal-immigrant population)
+1999,1999,All countries,total,,63000,,,other,ins2003_warren,component=removed_by_INS (outflow from the illegal-immigrant population)
+1999,1999,All countries,total,,152000,,,other,ins2003_warren,component=adjusted_to_legal_status_in_US (outflow from the illegal-immigrant population)
+1999,1999,All countries,total,,31000,,,other,ins2003_warren,component=left_briefly_returned_as_LPR (outflow from the illegal-immigrant population)
+1988,1992,All countries,total,,300000,,,net_change,ins_yb1994_text,unit=annual_average; original 1994 estimate (2.2 million in 1988 to 3.4 million Oct 1992)
+1988,1992,All countries,total,,281000,,,net_change,ins_yb1996_text,unit=annual_average; Oct 1988-Oct 1992 (revised INS estimates)
+1988,1996,Mexico,country,All countries,150000,,,net_change,ins_yb1996_text,"unit=annual_average; 'just over 150,000' per year, Mexico only"
+1990,1996,Mexico,country,All countries,230000,,,entered_period,ins_yb1996_text,"unit=annual_average; 'approximately 230,000 undocumented Mexican immigrants established residence annually between 1990 and 1996' (net addition of arrivals of the period, before later departures)"
+1992,1996,All countries,total,,275000,,,net_change,ins_yb1996_text,unit=annual_average; Oct 1992-Oct 1996
+,2003,All countries,total,,6182100,6113410,6250790,entered_period,mpi2025_factsheet,"unit=period_total; stock_year=2023 (mid-year); derived = 45% (20+ years of US residence) x 13,738,000; range = +/-0.5 pp; approximate entry years; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+2004,2008,All countries,total,,1923320,1854630,1992010,entered_period,mpi2025_factsheet,"unit=period_total; stock_year=2023 (mid-year); derived = 14% (15-19 years of US residence) x 13,738,000; range = +/-0.5 pp; approximate entry years; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+2009,2018,All countries,total,,2884980,2816290,2953670,entered_period,mpi2025_factsheet,"unit=period_total; stock_year=2023 (mid-year); derived = 21% (5-14 years of US residence) x 13,738,000; range = +/-0.5 pp; approximate entry years; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+2019,2023,All countries,total,,2747600,2678910,2816290,entered_period,mpi2025_factsheet,"unit=period_total; stock_year=2023 (mid-year); derived = 20% (<5 years of US residence) x 13,738,000; range = +/-0.5 pp; approximate entry years; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+,1999,All countries,total,,2433000,,,entered_period,mpi_profile2019,"unit=period_total; stock_year=2019; years-of-residence bins (<5, 5-9, 10-14, 15-19, 20+) converted to approximate entry years; data pooled 2015-19; '20 or more' years (no start year); includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+2000,2004,All countries,total,,2368000,,,entered_period,mpi_profile2019,"unit=period_total; stock_year=2019; years-of-residence bins (<5, 5-9, 10-14, 15-19, 20+) converted to approximate entry years; data pooled 2015-19; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+2005,2009,All countries,total,,2132000,,,entered_period,mpi_profile2019,"unit=period_total; stock_year=2019; years-of-residence bins (<5, 5-9, 10-14, 15-19, 20+) converted to approximate entry years; data pooled 2015-19; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+2010,2014,All countries,total,,1744000,,,entered_period,mpi_profile2019,"unit=period_total; stock_year=2019; years-of-residence bins (<5, 5-9, 10-14, 15-19, 20+) converted to approximate entry years; data pooled 2015-19; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+2015,2019,All countries,total,,2370000,,,entered_period,mpi_profile2019,"unit=period_total; stock_year=2019; years-of-residence bins (<5, 5-9, 10-14, 15-19, 20+) converted to approximate entry years; data pooled 2015-19; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+1980,1989,All countries,total,,1560000,,,entered_period,ohss2024_baker_warren,"unit=period_total; stock_year=2018 (Jan 1); table label '1980–1990' (figure: 1980-1989); 2018 = revised; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+1980,1989,All countries,total,,1520000,,,entered_period,ohss2024_baker_warren,"unit=period_total; stock_year=2019 (Jan 1); table label '1980–1990' (figure: 1980-1989); 2018 = revised; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+1980,1989,All countries,total,,1480000,,,entered_period,ohss2024_baker_warren,"unit=period_total; stock_year=2020 (Jan 1); table label '1980–1990' (figure: 1980-1989); 2018 = revised; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+1980,1989,All countries,total,,1460000,,,entered_period,ohss2024_baker_warren,"unit=period_total; stock_year=2022 (Jan 1); table label '1980–1990' (figure: 1980-1989); 2018 = revised; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+1990,1999,All countries,total,,3820000,,,entered_period,ohss2024_baker_warren,"unit=period_total; stock_year=2018 (Jan 1); table label '1990–1999' (figure: 1980-1989); 2018 = revised; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+1990,1999,All countries,total,,3540000,,,entered_period,ohss2024_baker_warren,"unit=period_total; stock_year=2019 (Jan 1); table label '1990–1999' (figure: 1980-1989); 2018 = revised; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+1990,1999,All countries,total,,3420000,,,entered_period,ohss2024_baker_warren,"unit=period_total; stock_year=2020 (Jan 1); table label '1990–1999' (figure: 1980-1989); 2018 = revised; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+1990,1999,All countries,total,,3360000,,,entered_period,ohss2024_baker_warren,"unit=period_total; stock_year=2022 (Jan 1); table label '1990–1999' (figure: 1980-1989); 2018 = revised; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+2000,2009,All countries,total,,4230000,,,entered_period,ohss2024_baker_warren,"unit=period_total; stock_year=2018 (Jan 1); table label '2000–2009' (figure: 1980-1989); 2018 = revised; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+2000,2009,All countries,total,,4180000,,,entered_period,ohss2024_baker_warren,"unit=period_total; stock_year=2019 (Jan 1); table label '2000–2009' (figure: 1980-1989); 2018 = revised; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+2000,2009,All countries,total,,3930000,,,entered_period,ohss2024_baker_warren,"unit=period_total; stock_year=2020 (Jan 1); table label '2000–2009' (figure: 1980-1989); 2018 = revised; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+2000,2009,All countries,total,,3860000,,,entered_period,ohss2024_baker_warren,"unit=period_total; stock_year=2022 (Jan 1); table label '2000–2009' (figure: 1980-1989); 2018 = revised; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+2010,2021,All countries,total,,1960000,,,entered_period,ohss2024_baker_warren,"unit=period_total; stock_year=2018 (Jan 1); table label '2010 or later' (figure: 1980-1989); 2018 = revised; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+2010,2021,All countries,total,,1870000,,,entered_period,ohss2024_baker_warren,"unit=period_total; stock_year=2019 (Jan 1); table label '2010 or later' (figure: 1980-1989); 2018 = revised; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+2010,2021,All countries,total,,1680000,,,entered_period,ohss2024_baker_warren,"unit=period_total; stock_year=2020 (Jan 1); table label '2010 or later' (figure: 1980-1989); 2018 = revised; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+2010,2021,All countries,total,,2310000,,,entered_period,ohss2024_baker_warren,"unit=period_total; stock_year=2022 (Jan 1); table label '2010 or later' (figure: 1980-1989); 2018 = revised; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+1980,1984,All countries,total,,850000,,,entered_period,ois2012_hoefer_rytina_baker,"unit=period_total; stock_year=2011 (Jan 1); people in that stock who entered in the period (survivors); includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+1985,1989,All countries,total,,1070000,,,entered_period,ois2012_hoefer_rytina_baker,"unit=period_total; stock_year=2011 (Jan 1); people in that stock who entered in the period (survivors); includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+1990,1994,All countries,total,,1650000,,,entered_period,ois2012_hoefer_rytina_baker,"unit=period_total; stock_year=2011 (Jan 1); people in that stock who entered in the period (survivors); includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+1995,1999,All countries,total,,3030000,,,entered_period,ois2012_hoefer_rytina_baker,"unit=period_total; stock_year=2011 (Jan 1); people in that stock who entered in the period (survivors); includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+2000,2004,All countries,total,,3330000,,,entered_period,ois2012_hoefer_rytina_baker,"unit=period_total; stock_year=2011 (Jan 1); people in that stock who entered in the period (survivors); includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+2005,2010,All countries,total,,1580000,,,entered_period,ois2012_hoefer_rytina_baker,"unit=period_total; stock_year=2011 (Jan 1); people in that stock who entered in the period (survivors); includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+1980,1984,All countries,total,,890000,,,entered_period,ois2013_baker_rytina,"unit=period_total; stock_year=2012 (Jan 1); people in that stock who entered in the period (survivors); includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+1985,1989,All countries,total,,1110000,,,entered_period,ois2013_baker_rytina,"unit=period_total; stock_year=2012 (Jan 1); people in that stock who entered in the period (survivors); includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+1990,1994,All countries,total,,1720000,,,entered_period,ois2013_baker_rytina,"unit=period_total; stock_year=2012 (Jan 1); people in that stock who entered in the period (survivors); includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+1995,1999,All countries,total,,2920000,,,entered_period,ois2013_baker_rytina,"unit=period_total; stock_year=2012 (Jan 1); people in that stock who entered in the period (survivors); includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+2000,2004,All countries,total,,3250000,,,entered_period,ois2013_baker_rytina,"unit=period_total; stock_year=2012 (Jan 1); people in that stock who entered in the period (survivors); includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+2005,2011,All countries,total,,1540000,,,entered_period,ois2013_baker_rytina,"unit=period_total; stock_year=2012 (Jan 1); people in that stock who entered in the period (survivors); includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+1980,1986,All countries,total,,1300000,,,entered_period,ois2017_baker,"unit=period_total; stock_year=2007 (Jan 1); people in that stock who entered in the period (survivors); years-in-US bins converted to entry years; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+1980,1993,All countries,total,,3360000,,,entered_period,ois2017_baker,"unit=period_total; stock_year=2014 (Jan 1); people in that stock who entered in the period (survivors); years-in-US bins converted to entry years; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+1987,1996,All countries,total,,3950000,,,entered_period,ois2017_baker,"unit=period_total; stock_year=2007 (Jan 1); people in that stock who entered in the period (survivors); years-in-US bins converted to entry years; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+1994,2003,All countries,total,,6090000,,,entered_period,ois2017_baker,"unit=period_total; stock_year=2014 (Jan 1); people in that stock who entered in the period (survivors); years-in-US bins converted to entry years; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+1997,2001,All countries,total,,4070000,,,entered_period,ois2017_baker,"unit=period_total; stock_year=2007 (Jan 1); people in that stock who entered in the period (survivors); years-in-US bins converted to entry years; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+2002,2006,All countries,total,,2460000,,,entered_period,ois2017_baker,"unit=period_total; stock_year=2007 (Jan 1); people in that stock who entered in the period (survivors); years-in-US bins converted to entry years; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+2004,2008,All countries,total,,2040000,,,entered_period,ois2017_baker,"unit=period_total; stock_year=2014 (Jan 1); people in that stock who entered in the period (survivors); years-in-US bins converted to entry years; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+2009,2013,All countries,total,,630000,,,entered_period,ois2017_baker,"unit=period_total; stock_year=2014 (Jan 1); people in that stock who entered in the period (survivors); years-in-US bins converted to entry years; includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+,1969,All countries,total,,540000,,,entered_period,passel_woodrow1984_via_chiswick1988,unit=period_total; counted in the 1980 census; stock_year=1980; 'before 1970' (no start year)
+1970,1974,All countries,total,,576000,,,entered_period,passel_woodrow1984_via_chiswick1988,unit=period_total; counted in the 1980 census; stock_year=1980
+1975,1980,All countries,total,,941000,,,entered_period,passel_woodrow1984_via_chiswick1988,unit=period_total; counted in the 1980 census; stock_year=1980
+1980,1989,All countries,total,,1300000,,,entered_period,pew2005_passel,unit=period_total; people in the March 2004 illegal-immigrant population who arrived in the period (survivors only); stock_year=2004
+1990,1994,All countries,total,,2200000,,,entered_period,pew2005_passel,unit=period_total; people in the March 2004 illegal-immigrant population who arrived in the period (survivors only); stock_year=2004
+1995,1999,All countries,total,,3600000,,,entered_period,pew2005_passel,unit=period_total; people in the March 2004 illegal-immigrant population who arrived in the period (survivors only); stock_year=2004
+2000,2004,All countries,total,,3100000,,,entered_period,pew2005_passel,unit=period_total; people in the March 2004 illegal-immigrant population who arrived in the period (survivors only); stock_year=2004
+1980,1989,All countries,total,,1800000,,,entered_period,pew2006_passel,unit=period_total; people in the March 2005 illegal-immigrant population who arrived in the period (survivors only); stock_year=2005
+1990,1994,All countries,total,,2000000,,,entered_period,pew2006_passel,unit=period_total; people in the March 2005 illegal-immigrant population who arrived in the period (survivors only); stock_year=2005
+1995,1999,All countries,total,,2900000,,,entered_period,pew2006_passel,unit=period_total; people in the March 2005 illegal-immigrant population who arrived in the period (survivors only); stock_year=2005
+2000,2005,All countries,total,,4400000,,,entered_period,pew2006_passel,unit=period_total; people in the March 2005 illegal-immigrant population who arrived in the period (survivors only); stock_year=2005
+1980,1989,All countries,total,,1600000,,,entered_period,pew2008_passel_cohn,unit=period_total; people in the March 2008 illegal-immigrant population who arrived in the period (survivors only); stock_year=2008
+1990,1999,All countries,total,,5100000,,,entered_period,pew2008_passel_cohn,unit=period_total; people in the March 2008 illegal-immigrant population who arrived in the period (survivors only); stock_year=2008
+1995,1999,All countries,total,,3100000,,,entered_period,pew2008_passel_cohn,unit=period_total; people in the March 2008 illegal-immigrant population who arrived in the period (survivors only); stock_year=2008
+2000,2004,All countries,total,,3700000,,,entered_period,pew2008_passel_cohn,unit=period_total; people in the March 2008 illegal-immigrant population who arrived in the period (survivors only); stock_year=2008
+2000,2004,All countries,total,,800000,,,gross_inflow,pew2008_passel_cohn,unit=annual_average; new undocumented entrants per year (border crossers and visa violators)
+2000,2005,All countries,total,,525000,,,net_change,pew2008_passel_cohn,unit=annual_average; 8.4 million (2000) to 11.1 million (early 2005)
+2005,2008,All countries,total,,1600000,,,entered_period,pew2008_passel_cohn,unit=period_total; people in the March 2008 illegal-immigrant population who arrived in the period (survivors only); stock_year=2008
+2005,2008,All countries,total,,500000,,,gross_inflow,pew2008_passel_cohn,unit=annual_average; about 1.6 million in total 2005-2008; 'substantially smaller number arriving since 2007'
+2005,2008,All countries,total,,275000,,,net_change,pew2008_passel_cohn,unit=annual_average; 11.1 million (2005) to 11.9 million (March 2008)
+1980,1989,All countries,total,,1400000,,,entered_period,pew2010_passel_cohn,unit=period_total; people in the March 2009 illegal-immigrant population who arrived in the period (survivors only); stock_year=2009
+1990,1999,All countries,total,,4500000,,,entered_period,pew2010_passel_cohn,unit=period_total; people in the March 2009 illegal-immigrant population who arrived in the period (survivors only); stock_year=2009
+2000,2004,All countries,total,,3500000,,,entered_period,pew2010_passel_cohn,unit=period_total; people in the March 2009 illegal-immigrant population who arrived in the period (survivors only); stock_year=2009
+2000,2005,All countries,total,,850000,,,gross_inflow,pew2010_passel_cohn,unit=annual_average; periods run March to March; gross arrivals (border crossers and visa violators) before departures
+2000,2005,Mexico,country,All countries,500000,,,gross_inflow,pew2010_passel_cohn,unit=annual_average; periods run March to March; gross arrivals (border crossers and visa violators) before departures; Mexico only ('first half of the decade')
+2005,2007,All countries,total,,550000,,,gross_inflow,pew2010_passel_cohn,unit=annual_average; periods run March to March; gross arrivals (border crossers and visa violators) before departures
+2005,2009,All countries,total,,1700000,,,entered_period,pew2010_passel_cohn,unit=period_total; people in the March 2009 illegal-immigrant population who arrived in the period (survivors only); stock_year=2009
+2007,2009,All countries,total,,300000,,,gross_inflow,pew2010_passel_cohn,unit=annual_average; periods run March to March; gross arrivals (border crossers and visa violators) before departures
+2007,2009,Mexico,country,All countries,150000,,,gross_inflow,pew2010_passel_cohn,unit=annual_average; periods run March to March; gross arrivals (border crossers and visa violators) before departures; Mexico only
+2017,2021,All countries,total,,1800000,,,entered_period,pew2025_passel_krogstad,"unit=period_total; ADULTS only, in the US less than five years in 2021; stock_year=2021"
+2019,2023,All countries,total,,4200000,,,entered_period,pew2025_passel_krogstad,"unit=period_total; ADULTS only: 'more than 4.2 million' adults (Pew 'unauthorized' definition) in the US less than five years in 2023; stock_year=2023 (Jul 1); includes people with temporary protection from deportation (parolees, pending asylum applicants, TPS, DACA, people released at the border with a notice to appear)"
+2023,2024,All countries,total,,2525000,,,gross_inflow,pew2025_passel_krogstad,"component=releases_and_paroles_total; months=Jul 2023-Dec 2024; people released or paroled at entry (temporary legal permission, counted in Pew's 'unauthorized' total); NOT illegal entries; from OHSS monthly tables via Pew; rounded to nearest 5,000"
+2023,2024,All countries,total,,1225000,,,gross_inflow,pew2025_passel_krogstad,"component=USBP_releases_SW_border; months=Jul 2023-Dec 2024; people released or paroled at entry (temporary legal permission, counted in Pew's 'unauthorized' total); NOT illegal entries; from OHSS monthly tables via Pew; rounded to nearest 5,000"
+2023,2024,All countries,total,,820000,,,gross_inflow,pew2025_passel_krogstad,"component=OFO_paroles_SW_border; months=Jul 2023-Dec 2024; people released or paroled at entry (temporary legal permission, counted in Pew's 'unauthorized' total); NOT illegal entries; from OHSS monthly tables via Pew; rounded to nearest 5,000"
+2023,2024,All countries,total,,370000,,,gross_inflow,pew2025_passel_krogstad,"component=CHNV_paroles; months=Jul 2023-Dec 2024; people released or paroled at entry (temporary legal permission, counted in Pew's 'unauthorized' total); NOT illegal entries; from OHSS monthly tables via Pew; rounded to nearest 5,000"
+2023,2024,All countries,total,,110000,,,gross_inflow,pew2025_passel_krogstad,"component=U4U_paroles_Pew_estimate; months=Jul 2023-Dec 2024; people released or paroled at entry (temporary legal permission, counted in Pew's 'unauthorized' total); NOT illegal entries; from OHSS monthly tables via Pew; rounded to nearest 5,000"
+2023,2024,All countries,total,,2125000,,,gross_inflow,pew2025_passel_krogstad,"component=releases_and_paroles_total; months=Jul 2023-Jun 2024; people released or paroled at entry (temporary legal permission, counted in Pew's 'unauthorized' total); NOT illegal entries; from OHSS monthly tables via Pew; rounded to nearest 5,000"
+2023,2024,All countries,total,,1150000,,,gross_inflow,pew2025_passel_krogstad,"component=USBP_releases_SW_border; months=Jul 2023-Jun 2024; people released or paroled at entry (temporary legal permission, counted in Pew's 'unauthorized' total); NOT illegal entries; from OHSS monthly tables via Pew; rounded to nearest 5,000"
+2023,2024,All countries,total,,555000,,,gross_inflow,pew2025_passel_krogstad,"component=OFO_paroles_SW_border; months=Jul 2023-Jun 2024; people released or paroled at entry (temporary legal permission, counted in Pew's 'unauthorized' total); NOT illegal entries; from OHSS monthly tables via Pew; rounded to nearest 5,000"
+2023,2024,All countries,total,,335000,,,gross_inflow,pew2025_passel_krogstad,"component=CHNV_paroles; months=Jul 2023-Jun 2024; people released or paroled at entry (temporary legal permission, counted in Pew's 'unauthorized' total); NOT illegal entries; from OHSS monthly tables via Pew; rounded to nearest 5,000"
+2023,2024,All countries,total,,75000,,,gross_inflow,pew2025_passel_krogstad,"component=U4U_paroles_Pew_estimate; months=Jul 2023-Jun 2024; people released or paroled at entry (temporary legal permission, counted in Pew's 'unauthorized' total); NOT illegal entries; from OHSS monthly tables via Pew; rounded to nearest 5,000"
+2024,2024,All countries,total,,390000,,,gross_inflow,pew2025_passel_krogstad,"component=releases_and_paroles_total; months=Jul-Dec 2024; people released or paroled at entry (temporary legal permission, counted in Pew's 'unauthorized' total); NOT illegal entries; from OHSS monthly tables via Pew; rounded to nearest 5,000"
+2024,2024,All countries,total,,60000,,,gross_inflow,pew2025_passel_krogstad,"component=USBP_releases_SW_border; months=Jul-Dec 2024; people released or paroled at entry (temporary legal permission, counted in Pew's 'unauthorized' total); NOT illegal entries; from OHSS monthly tables via Pew; rounded to nearest 5,000"
+2024,2024,All countries,total,,265000,,,gross_inflow,pew2025_passel_krogstad,"component=OFO_paroles_SW_border; months=Jul-Dec 2024; people released or paroled at entry (temporary legal permission, counted in Pew's 'unauthorized' total); NOT illegal entries; from OHSS monthly tables via Pew; rounded to nearest 5,000"
+2024,2024,All countries,total,,35000,,,gross_inflow,pew2025_passel_krogstad,"component=CHNV_paroles; months=Jul-Dec 2024; people released or paroled at entry (temporary legal permission, counted in Pew's 'unauthorized' total); NOT illegal entries; from OHSS monthly tables via Pew; rounded to nearest 5,000"
+2024,2024,All countries,total,,30000,,,gross_inflow,pew2025_passel_krogstad,"component=U4U_paroles_Pew_estimate; months=Jul-Dec 2024; people released or paroled at entry (temporary legal permission, counted in Pew's 'unauthorized' total); NOT illegal entries; from OHSS monthly tables via Pew; rounded to nearest 5,000"
+2025,2025,All countries,total,,,-1000000,0,net_change,pew2025_passel_krogstad,"months=Jan-Jun 2025; 'the unauthorized immigrant population likely declined, possibly by as much as 1 million' (preliminary, CPS-based)"
+1990,1990,All countries,total,,816000,,,gross_inflow,warren_warren2013_imr,component=entered; new arrivals in the year who joined the illegal-immigrant population (estimated from year-of-entry cohorts surviving to 2000/2010 plus departures)
+1990,1990,All countries,total,,635000,,,net_change,warren_warren2013_imr,component=net_change
+1990,1990,All countries,total,,181000,,,other,warren_warren2013_imr,component=left_total (outflow)
+1990,1990,All countries,total,,103000,,,other,warren_warren2013_imr,component=emigrated (outflow)
+1990,1990,All countries,total,,38000,,,other,warren_warren2013_imr,component=adjusted_to_legal_status (outflow)
+1990,1990,All countries,total,,25000,,,other,warren_warren2013_imr,component=removed_by_DHS (outflow)
+1990,1990,All countries,total,,15000,,,other,warren_warren2013_imr,component=died (outflow)
+1991,1991,All countries,total,,649000,,,gross_inflow,warren_warren2013_imr,component=entered; new arrivals in the year who joined the illegal-immigrant population (estimated from year-of-entry cohorts surviving to 2000/2010 plus departures)
+1991,1991,All countries,total,,452000,,,net_change,warren_warren2013_imr,component=net_change
+1991,1991,All countries,total,,197000,,,other,warren_warren2013_imr,component=left_total (outflow)
+1991,1991,All countries,total,,116000,,,other,warren_warren2013_imr,component=emigrated (outflow)
+1991,1991,All countries,total,,35000,,,other,warren_warren2013_imr,component=adjusted_to_legal_status (outflow)
+1991,1991,All countries,total,,29000,,,other,warren_warren2013_imr,component=removed_by_DHS (outflow)
+1991,1991,All countries,total,,17000,,,other,warren_warren2013_imr,component=died (outflow)
+1992,1992,All countries,total,,559000,,,gross_inflow,warren_warren2013_imr,component=entered; new arrivals in the year who joined the illegal-immigrant population (estimated from year-of-entry cohorts surviving to 2000/2010 plus departures)
+1992,1992,All countries,total,,339000,,,net_change,warren_warren2013_imr,component=net_change
+1992,1992,All countries,total,,220000,,,other,warren_warren2013_imr,component=left_total (outflow)
+1992,1992,All countries,total,,124000,,,other,warren_warren2013_imr,component=emigrated (outflow)
+1992,1992,All countries,total,,43000,,,other,warren_warren2013_imr,component=adjusted_to_legal_status (outflow)
+1992,1992,All countries,total,,34000,,,other,warren_warren2013_imr,component=removed_by_DHS (outflow)
+1992,1992,All countries,total,,19000,,,other,warren_warren2013_imr,component=died (outflow)
+1993,1993,All countries,total,,557000,,,gross_inflow,warren_warren2013_imr,component=entered; new arrivals in the year who joined the illegal-immigrant population (estimated from year-of-entry cohorts surviving to 2000/2010 plus departures)
+1993,1993,All countries,total,,327000,,,net_change,warren_warren2013_imr,component=net_change
+1993,1993,All countries,total,,229000,,,other,warren_warren2013_imr,component=left_total (outflow)
+1993,1993,All countries,total,,130000,,,other,warren_warren2013_imr,component=emigrated (outflow)
+1993,1993,All countries,total,,45000,,,other,warren_warren2013_imr,component=adjusted_to_legal_status (outflow)
+1993,1993,All countries,total,,34000,,,other,warren_warren2013_imr,component=removed_by_DHS (outflow)
+1993,1993,All countries,total,,20000,,,other,warren_warren2013_imr,component=died (outflow)
+1994,1994,All countries,total,,700000,,,gross_inflow,warren_warren2013_imr,component=entered; new arrivals in the year who joined the illegal-immigrant population (estimated from year-of-entry cohorts surviving to 2000/2010 plus departures)
+1994,1994,All countries,total,,467000,,,net_change,warren_warren2013_imr,component=net_change
+1994,1994,All countries,total,,233000,,,other,warren_warren2013_imr,component=left_total (outflow)
+1994,1994,All countries,total,,138000,,,other,warren_warren2013_imr,component=emigrated (outflow)
+1994,1994,All countries,total,,38000,,,other,warren_warren2013_imr,component=adjusted_to_legal_status (outflow)
+1994,1994,All countries,total,,35000,,,other,warren_warren2013_imr,component=removed_by_DHS (outflow)
+1994,1994,All countries,total,,22000,,,other,warren_warren2013_imr,component=died (outflow)
+1995,1995,All countries,total,,822000,,,gross_inflow,warren_warren2013_imr,component=entered; new arrivals in the year who joined the illegal-immigrant population (estimated from year-of-entry cohorts surviving to 2000/2010 plus departures)
+1995,1995,All countries,total,,571000,,,net_change,warren_warren2013_imr,component=net_change
+1995,1995,All countries,total,,251000,,,other,warren_warren2013_imr,component=left_total (outflow)
+1995,1995,All countries,total,,150000,,,other,warren_warren2013_imr,component=emigrated (outflow)
+1995,1995,All countries,total,,42000,,,other,warren_warren2013_imr,component=adjusted_to_legal_status (outflow)
+1995,1995,All countries,total,,36000,,,other,warren_warren2013_imr,component=removed_by_DHS (outflow)
+1995,1995,All countries,total,,24000,,,other,warren_warren2013_imr,component=died (outflow)
+1996,1996,All countries,total,,756000,,,gross_inflow,warren_warren2013_imr,component=entered; new arrivals in the year who joined the illegal-immigrant population (estimated from year-of-entry cohorts surviving to 2000/2010 plus departures)
+1996,1996,All countries,total,,472000,,,net_change,warren_warren2013_imr,component=net_change
+1996,1996,All countries,total,,284000,,,other,warren_warren2013_imr,component=left_total (outflow)
+1996,1996,All countries,total,,161000,,,other,warren_warren2013_imr,component=emigrated (outflow)
+1996,1996,All countries,total,,55000,,,other,warren_warren2013_imr,component=adjusted_to_legal_status (outflow)
+1996,1996,All countries,total,,41000,,,other,warren_warren2013_imr,component=removed_by_DHS (outflow)
+1996,1996,All countries,total,,26000,,,other,warren_warren2013_imr,component=died (outflow)
+1997,1997,All countries,total,,759000,,,gross_inflow,warren_warren2013_imr,component=entered; new arrivals in the year who joined the illegal-immigrant population (estimated from year-of-entry cohorts surviving to 2000/2010 plus departures)
+1997,1997,All countries,total,,448000,,,net_change,warren_warren2013_imr,component=net_change
+1997,1997,All countries,total,,311000,,,other,warren_warren2013_imr,component=left_total (outflow)
+1997,1997,All countries,total,,170000,,,other,warren_warren2013_imr,component=emigrated (outflow)
+1997,1997,All countries,total,,54000,,,other,warren_warren2013_imr,component=adjusted_to_legal_status (outflow)
+1997,1997,All countries,total,,59000,,,other,warren_warren2013_imr,component=removed_by_DHS (outflow)
+1997,1997,All countries,total,,28000,,,other,warren_warren2013_imr,component=died (outflow)
+1998,1998,All countries,total,,954000,,,gross_inflow,warren_warren2013_imr,component=entered; new arrivals in the year who joined the illegal-immigrant population (estimated from year-of-entry cohorts surviving to 2000/2010 plus departures)
+1998,1998,All countries,total,,616000,,,net_change,warren_warren2013_imr,component=net_change
+1998,1998,All countries,total,,338000,,,other,warren_warren2013_imr,component=left_total (outflow)
+1998,1998,All countries,total,,182000,,,other,warren_warren2013_imr,component=emigrated (outflow)
+1998,1998,All countries,total,,61000,,,other,warren_warren2013_imr,component=adjusted_to_legal_status (outflow)
+1998,1998,All countries,total,,65000,,,other,warren_warren2013_imr,component=removed_by_DHS (outflow)
+1998,1998,All countries,total,,30000,,,other,warren_warren2013_imr,component=died (outflow)
+1999,1999,All countries,total,,1132000,,,gross_inflow,warren_warren2013_imr,component=entered; new arrivals in the year who joined the illegal-immigrant population (estimated from year-of-entry cohorts surviving to 2000/2010 plus departures)
+1999,1999,All countries,total,,773000,,,net_change,warren_warren2013_imr,component=net_change
+1999,1999,All countries,total,,358000,,,other,warren_warren2013_imr,component=left_total (outflow)
+1999,1999,All countries,total,,198000,,,other,warren_warren2013_imr,component=emigrated (outflow)
+1999,1999,All countries,total,,60000,,,other,warren_warren2013_imr,component=adjusted_to_legal_status (outflow)
+1999,1999,All countries,total,,65000,,,other,warren_warren2013_imr,component=removed_by_DHS (outflow)
+1999,1999,All countries,total,,35000,,,other,warren_warren2013_imr,component=died (outflow)
+2000,2000,All countries,total,,1389000,,,gross_inflow,warren_warren2013_imr,component=entered; new arrivals in the year who joined the illegal-immigrant population (estimated from year-of-entry cohorts surviving to 2000/2010 plus departures)
+2000,2000,All countries,total,,1020000,,,net_change,warren_warren2013_imr,component=net_change
+2000,2000,All countries,total,,369000,,,other,warren_warren2013_imr,component=left_total (outflow)
+2000,2000,All countries,total,,198000,,,other,warren_warren2013_imr,component=emigrated (outflow)
+2000,2000,All countries,total,,73000,,,other,warren_warren2013_imr,component=adjusted_to_legal_status (outflow)
+2000,2000,All countries,total,,65000,,,other,warren_warren2013_imr,component=removed_by_DHS (outflow)
+2000,2000,All countries,total,,33000,,,other,warren_warren2013_imr,component=died (outflow)
+2001,2001,All countries,total,,1146000,,,gross_inflow,warren_warren2013_imr,component=entered; new arrivals in the year who joined the illegal-immigrant population (estimated from year-of-entry cohorts surviving to 2000/2010 plus departures)
+2001,2001,All countries,total,,638000,,,net_change,warren_warren2013_imr,component=net_change
+2001,2001,All countries,total,,508000,,,other,warren_warren2013_imr,component=left_total (outflow)
+2001,2001,All countries,total,,223000,,,other,warren_warren2013_imr,component=emigrated (outflow)
+2001,2001,All countries,total,,176000,,,other,warren_warren2013_imr,component=adjusted_to_legal_status (outflow)
+2001,2001,All countries,total,,71000,,,other,warren_warren2013_imr,component=removed_by_DHS (outflow)
+2001,2001,All countries,total,,37000,,,other,warren_warren2013_imr,component=died (outflow)
+2002,2002,All countries,total,,906000,,,gross_inflow,warren_warren2013_imr,component=entered; new arrivals in the year who joined the illegal-immigrant population (estimated from year-of-entry cohorts surviving to 2000/2010 plus departures)
+2002,2002,All countries,total,,434000,,,net_change,warren_warren2013_imr,component=net_change
+2002,2002,All countries,total,,473000,,,other,warren_warren2013_imr,component=left_total (outflow)
+2002,2002,All countries,total,,237000,,,other,warren_warren2013_imr,component=emigrated (outflow)
+2002,2002,All countries,total,,115000,,,other,warren_warren2013_imr,component=adjusted_to_legal_status (outflow)
+2002,2002,All countries,total,,81000,,,other,warren_warren2013_imr,component=removed_by_DHS (outflow)
+2002,2002,All countries,total,,40000,,,other,warren_warren2013_imr,component=died (outflow)
+2003,2003,All countries,total,,779000,,,gross_inflow,warren_warren2013_imr,component=entered; new arrivals in the year who joined the illegal-immigrant population (estimated from year-of-entry cohorts surviving to 2000/2010 plus departures)
+2003,2003,All countries,total,,286000,,,net_change,warren_warren2013_imr,component=net_change
+2003,2003,All countries,total,,493000,,,other,warren_warren2013_imr,component=left_total (outflow)
+2003,2003,All countries,total,,244000,,,other,warren_warren2013_imr,component=emigrated (outflow)
+2003,2003,All countries,total,,120000,,,other,warren_warren2013_imr,component=adjusted_to_legal_status (outflow)
+2003,2003,All countries,total,,88000,,,other,warren_warren2013_imr,component=removed_by_DHS (outflow)
+2003,2003,All countries,total,,41000,,,other,warren_warren2013_imr,component=died (outflow)
+2004,2004,All countries,total,,813000,,,gross_inflow,warren_warren2013_imr,component=entered; new arrivals in the year who joined the illegal-immigrant population (estimated from year-of-entry cohorts surviving to 2000/2010 plus departures)
+2004,2004,All countries,total,,339000,,,net_change,warren_warren2013_imr,component=net_change
+2004,2004,All countries,total,,474000,,,other,warren_warren2013_imr,component=left_total (outflow)
+2004,2004,All countries,total,,247000,,,other,warren_warren2013_imr,component=emigrated (outflow)
+2004,2004,All countries,total,,84000,,,other,warren_warren2013_imr,component=adjusted_to_legal_status (outflow)
+2004,2004,All countries,total,,100000,,,other,warren_warren2013_imr,component=removed_by_DHS (outflow)
+2004,2004,All countries,total,,42000,,,other,warren_warren2013_imr,component=died (outflow)
+2005,2005,All countries,total,,873000,,,gross_inflow,warren_warren2013_imr,component=entered; new arrivals in the year who joined the illegal-immigrant population (estimated from year-of-entry cohorts surviving to 2000/2010 plus departures)
+2005,2005,All countries,total,,397000,,,net_change,warren_warren2013_imr,component=net_change
+2005,2005,All countries,total,,476000,,,other,warren_warren2013_imr,component=left_total (outflow)
+2005,2005,All countries,total,,250000,,,other,warren_warren2013_imr,component=emigrated (outflow)
+2005,2005,All countries,total,,79000,,,other,warren_warren2013_imr,component=adjusted_to_legal_status (outflow)
+2005,2005,All countries,total,,103000,,,other,warren_warren2013_imr,component=removed_by_DHS (outflow)
+2005,2005,All countries,total,,44000,,,other,warren_warren2013_imr,component=died (outflow)
+2006,2006,All countries,total,,749000,,,gross_inflow,warren_warren2013_imr,component=entered; new arrivals in the year who joined the illegal-immigrant population (estimated from year-of-entry cohorts surviving to 2000/2010 plus departures)
+2006,2006,All countries,total,,267000,,,net_change,warren_warren2013_imr,component=net_change
+2006,2006,All countries,total,,482000,,,other,warren_warren2013_imr,component=left_total (outflow)
+2006,2006,All countries,total,,256000,,,other,warren_warren2013_imr,component=emigrated (outflow)
+2006,2006,All countries,total,,64000,,,other,warren_warren2013_imr,component=adjusted_to_legal_status (outflow)
+2006,2006,All countries,total,,117000,,,other,warren_warren2013_imr,component=removed_by_DHS (outflow)
+2006,2006,All countries,total,,45000,,,other,warren_warren2013_imr,component=died (outflow)
+2007,2007,All countries,total,,558000,,,gross_inflow,warren_warren2013_imr,component=entered; new arrivals in the year who joined the illegal-immigrant population (estimated from year-of-entry cohorts surviving to 2000/2010 plus departures)
+2007,2007,All countries,total,,27000,,,net_change,warren_warren2013_imr,component=net_change
+2007,2007,All countries,total,,531000,,,other,warren_warren2013_imr,component=left_total (outflow)
+2007,2007,All countries,total,,258000,,,other,warren_warren2013_imr,component=emigrated (outflow)
+2007,2007,All countries,total,,94000,,,other,warren_warren2013_imr,component=adjusted_to_legal_status (outflow)
+2007,2007,All countries,total,,133000,,,other,warren_warren2013_imr,component=removed_by_DHS (outflow)
+2007,2007,All countries,total,,46000,,,other,warren_warren2013_imr,component=died (outflow)
+2008,2008,All countries,total,,439000,,,gross_inflow,warren_warren2013_imr,component=entered; new arrivals in the year who joined the illegal-immigrant population (estimated from year-of-entry cohorts surviving to 2000/2010 plus departures)
+2008,2008,All countries,total,,-110000,,,net_change,warren_warren2013_imr,component=net_change
+2008,2008,All countries,total,,549000,,,other,warren_warren2013_imr,component=left_total (outflow)
+2008,2008,All countries,total,,252000,,,other,warren_warren2013_imr,component=emigrated (outflow)
+2008,2008,All countries,total,,100000,,,other,warren_warren2013_imr,component=adjusted_to_legal_status (outflow)
+2008,2008,All countries,total,,150000,,,other,warren_warren2013_imr,component=removed_by_DHS (outflow)
+2008,2008,All countries,total,,46000,,,other,warren_warren2013_imr,component=died (outflow)
+2009,2009,All countries,total,,384000,,,gross_inflow,warren_warren2013_imr,component=entered; new arrivals in the year who joined the illegal-immigrant population (estimated from year-of-entry cohorts surviving to 2000/2010 plus departures)
+2009,2009,All countries,total,,-174000,,,net_change,warren_warren2013_imr,component=net_change
+2009,2009,All countries,total,,558000,,,other,warren_warren2013_imr,component=left_total (outflow)
+2009,2009,All countries,total,,243000,,,other,warren_warren2013_imr,component=emigrated (outflow)
+2009,2009,All countries,total,,104000,,,other,warren_warren2013_imr,component=adjusted_to_legal_status (outflow)
+2009,2009,All countries,total,,165000,,,other,warren_warren2013_imr,component=removed_by_DHS (outflow)
+2009,2009,All countries,total,,46000,,,other,warren_warren2013_imr,component=died (outflow)

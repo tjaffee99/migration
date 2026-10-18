@@ -10,7 +10,9 @@ Record layout (variable positions, implied decimals) is parsed from that year's
 The microdata (~9-10 MB compressed, ~120 MB uncompressed per month) are downloaded to a temporary
 directory, aggregated, and deleted. Only these files are written (git-ignored raw folder):
   data/raw/census_cps_basic/aggregates/<yyyy>_<mm>_by_penatvty.csv
-      year,month,penatvty,prcitshp_group,n_records,w_pwsswgt,n_civ16,w_pwsswgt_civ16,w_pwcmpwgt
+      year,month,penatvty,prcitshp_group,hrmis,n_records,w_pwsswgt,n_civ16,w_pwsswgt_civ16,w_pwcmpwgt
+      (hrmis = month-in-sample 1-8, kept so that rotation groups can serve as random groups for
+       approximate standard errors)
       (prcitshp_group: native_us (1), native_island (2), native_abroad (3), fb_naturalized (4),
        fb_noncitizen (5))
   data/raw/census_cps_basic/aggregates/<yyyy>_<mm>_fb_by_entry.csv
@@ -31,7 +33,7 @@ AGG = os.path.join(RAW, 'aggregates')
 LAY = os.path.join(RAW, 'layouts')
 BASE = 'https://www2.census.gov/programs-surveys/cps/datasets/{y}/basic/'
 MON = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec']
-VARS = ['HRMONTH', 'HRYEAR4', 'PRTAGE', 'PRPERTYP', 'PENATVTY', 'PRCITSHP', 'PRINUYER',
+VARS = ['HRMONTH', 'HRYEAR4', 'HRMIS', 'PRTAGE', 'PRPERTYP', 'PENATVTY', 'PRCITSHP', 'PRINUYER',
         'PWSSWGT', 'PWCMPWGT']
 CIT = {1: 'native_us', 2: 'native_island', 3: 'native_abroad', 4: 'fb_naturalized',
        5: 'fb_noncitizen'}
@@ -127,7 +129,7 @@ def aggregate(year, month, pos, tmpdir, manifest):
             cit = int(g(line, 'PRCITSHP'))
             age = int(g(line, 'PRTAGE'))
             wc = int(g(line, 'PWCMPWGT')) / 10000.0
-            k = (nat, CIT.get(cit, f'code_{cit}'))
+            k = (nat, CIT.get(cit, f'code_{cit}'), int(g(line, 'HRMIS')))
             r = by[k]
             r[0] += 1
             r[1] += w
@@ -144,11 +146,11 @@ def aggregate(year, month, pos, tmpdir, manifest):
         raise SystemExit(f'{name}: {bad_month} records with HRMONTH/HRYEAR4 != {month}/{year}')
     with open(out1, 'w', newline='') as f:
         wr = csv.writer(f)
-        wr.writerow(['year', 'month', 'penatvty', 'prcitshp_group', 'n_records', 'w_pwsswgt',
-                     'n_civ16', 'w_pwsswgt_civ16', 'w_pwcmpwgt'])
-        for (nat, cg), r in sorted(by.items()):
-            wr.writerow([year, month, f'{nat:03d}', cg, r[0], f'{r[1]:.4f}', r[2], f'{r[3]:.4f}',
-                         f'{r[4]:.4f}'])
+        wr.writerow(['year', 'month', 'penatvty', 'prcitshp_group', 'hrmis', 'n_records',
+                     'w_pwsswgt', 'n_civ16', 'w_pwsswgt_civ16', 'w_pwcmpwgt'])
+        for (nat, cg, mis), r in sorted(by.items()):
+            wr.writerow([year, month, f'{nat:03d}', cg, mis, r[0], f'{r[1]:.4f}', r[2],
+                         f'{r[3]:.4f}', f'{r[4]:.4f}'])
     with open(out2, 'w', newline='') as f:
         wr = csv.writer(f)
         wr.writerow(['year', 'month', 'prinuyer', 'w_pwsswgt', 'n_records'])

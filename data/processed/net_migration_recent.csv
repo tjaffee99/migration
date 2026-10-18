@@ -1,0 +1,17 @@
+period,series,value,low,high,source_id,note
+2020-04-01/2020-06-30,census_v2024_nim,19885,,,census_popest_v2024,"April 1 - June 30, 2020 only (estimates base to first July 1); natural change 42,099; total change 61,984"
+2020-07-01/2021-06-30,census_v2024_nim,376004,,,census_popest_v2024,"estimate year July 1 - June 30; natural change 146,036; total change 522,040"
+2021-07-01/2022-06-30,census_v2024_nim,1693535,,,census_popest_v2024,"estimate year July 1 - June 30; natural change 224,026; total change 1,917,561"
+2022-07-01/2023-06-30,census_v2024_nim,2294299,,,census_popest_v2024,"estimate year July 1 - June 30; natural change 494,611; total change 2,788,910"
+2023-07-01/2024-06-30,census_v2024_nim,2786119,,,census_popest_v2024,"estimate year July 1 - June 30; natural change 518,638; total change 3,304,757"
+2020-04-01/2020-06-30,census_v2025_nim,19892,,,census_popest_v2025,"April 1 - June 30, 2020 only (estimates base to first July 1); natural change 42,099; total change 61,991"
+2020-07-01/2021-06-30,census_v2025_nim,376026,,,census_popest_v2025,"estimate year July 1 - June 30; natural change 146,036; total change 522,062"
+2021-07-01/2022-06-30,census_v2025_nim,1672112,,,census_popest_v2025,"estimate year July 1 - June 30; natural change 224,026; total change 1,896,138"
+2022-07-01/2023-06-30,census_v2025_nim,2264137,,,census_popest_v2025,"estimate year July 1 - June 30; natural change 494,611; total change 2,758,748"
+2023-07-01/2024-06-30,census_v2025_nim,2734468,,,census_popest_v2025,"estimate year July 1 - June 30; natural change 514,277; total change 3,248,745"
+2024-07-01/2025-06-30,census_v2025_nim,1262202,,,census_popest_v2025,"estimate year July 1 - June 30; natural change 518,858; total change 1,781,060"
+2025-07-01/2026-06-30,census_v2025_nim_projection,321000,,,census_v2025_press_release,"short-term projection ""if current trends continue"" (July 1, 2025 - June 30, 2026); emigration assumed to double from 2025; feeds the CPS 2026 population controls"
+2025-01-01/2025-12-31,cbo_jan2026_net_immigration,410000,,,cbo_demographic_outlook_2026,"calendar year; Social Security area population concept (includes U.S. citizens abroad); 2025 is a CBO estimate, 2026 a projection"
+2026-01-01/2026-12-31,cbo_jan2026_net_immigration,570000,,,cbo_demographic_outlook_2026,"calendar year; Social Security area population concept (includes U.S. citizens abroad); 2025 is a CBO estimate, 2026 a projection"
+2025-01-01/2025-12-31,brookings_aei_jan2026_net_migration,,-295000,-10000,brookings_aei_2026,calendar year; likely range (estimate); low- and high-immigration scenarios; no central value published
+2026-01-01/2026-12-31,brookings_aei_jan2026_net_migration,,-925000,185000,brookings_aei_2026,calendar year; likely range (projection); low- and high-immigration scenarios; no central value published

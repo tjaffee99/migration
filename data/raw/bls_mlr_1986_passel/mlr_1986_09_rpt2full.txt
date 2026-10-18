@@ -1,0 +1,60 @@
+Estimating the number                                                        the undocumented alien population since the 1980 census ."
+                                                                             An estimate of the foreign-bom population residing legally
+of undocumented aliens                                                       in the country in 1983 was first developed by carrying for-
+                                                                             ward the estimate for 1980 by adding legal immigration and
+JEFFREY S. PASSEL                                                            by subtracting mortality and emigration during the interven-
+                                                                             ing period . The difference between the estimated legally
+ Prior to January 1986, the Census Bureau's postcensal pop-                  resident foreign-bom population and the total foreign-born
+ ulation estimates included no allowance for undocumented                    population in the April 1983 cps gives the number of undoc-
+ immigration. I Even though there was widespread recogni-                    umented aliens in 1983 . Because the cps sample is smaller
+ tion of the phenomenon, the only estimates of the magnitude                 than the census and because of other inherent limitations,
+ of undocumented immigration, particularly of the annual                     the 1983 estimate of undocumented aliens is less precise
+ flow, were based on little more than speculation . Research                 than the estimate for 1980 . In spite of such limitations, the
+ conducted at the Census Bureau over the last several years2                 research shows that the undocumented alien population
+ has shown that undocumented aliens appearing in censuses                    grew by between 100,000 and 300,000 per year between
+ and surveys can provide a basis for measuring at least a                    1980 and 1983 .
+ portion of undocumented migration to the United States .                       On the basis of these studies, the Census Bureau's post-
+    Estimates of the number of undocumented aliens included                  censal estimates have been revised to allow for net annual
+ in the 1980 census were derived by comparing two different                  undocumented immigration of 200,000 for every year since
+ sets of estimates : 3 (1) estimates of the total number of aliens           1980 . Approximately 70 percent of the undocumented im-
+ included in the 1980 census : and (2) estimates of the number               migrants are Hispanic . The items needed to develop further
+ of aliens residing legally in the United States at the census               estimates of undocumented aliens were included in a supple-
+ date, derived primarily from the Immigration and Natural-                   ment to the June 1986 CPS. On the basis of these data, the
+ ization Service (nvs) data . The difference between the two                 Census Bureau plans to update the estimates of growth in the
+ estimates is assumed to be the result of undocumented aliens                undocumented alien population and, if necessary, revise the
+ being included in the 1980 census .                                         estimates of net annual undocumented immigration . Until
+    Both sets of data used to derive the estimates-1980                      the research based on the June 1986 cps supplement is
+ census data on the foreign-bom population and 1980 alien                    completed, the figure of 200,000 will continue to be used
+ registration data from iNs-required a number of corrections                 for net annual undocumented immigration.                   Q
+ and modifications to account for known deficiencies . The
+ census data were corrected for nonreporting of country of
+                                                                                                     -.FOOTNOTES
+birth, misreporting of citizenship status, and misreporting of
+nativity . The INS data were corrected for underregistration                    r Various terms have been used to refer to this group of noncitizens
+and nonreporting of country of birth.                                        present in the United States who entered illegally or who violated their
+                                                                             conditions of entry. In addition to undocumented immigrants, some exam-
+    A comparison of the independently derived estimates of                   ples include illegal aliens, undocumented workers, nonlegal residents, and
+the legally resident population on April 1, 1980, with the                   illegal entrants .
+ 1980 census count of aliens shows that 2,057,000 undocu-                       2 Robert Warren and Jeffrey S. Passel, "A Count of the Uncountable
+                                                                                                                                                   :
+mented aliens were included in the 1980 census . Of these,                   Estimates of Undocumented Aliens Counted in the 1980 United States
+                                                                             Census, forthcoming in Demography"; Jeffrey S. Passel and Karen A.
+ 1,131,000, or 55 percent, were born in Mexico . No single                   Woodrow, "Geographic Distribution of Undocumented Immigrants : Esti-
+country other than Mexico accounts for as much as 5 percent                  mates of Undocumented Aliens Counted in the 1980 Census by State,"
+of the total. An estimated 1,517,000, or 75 percent, of the                  International Migration Review 18, Fall 1984, pp. 642-71 ; Passel and
+                                                                             Woodrow, "Growth of the Undocumented Alien Population in the United
+undocumented immigrants counted in the census entered the                    States, 1979-1983, as Measured by the Current Population Survey and the
+United States during the 1970's, with 946,000 (or 46 per-                    Decennial Census," paper presented at the 1985 annual meeting of the
+cent) entering during the 5 years prior to the 1980 census .                 Population Association of America, Boston, mA, March 1985 .
+
+    A supplement to the April 1983 Current Population Sur-                      3 Details of the estimation procedure can be found in "A Count of the
+                                                                             Uncountable." It must be stressed that the research regarding undocu-
+vey (cps) provided data on country of birth, year of immi-
+                                                                             mented aliens included in the 1980 census did not compromise the confi-
+gration, and citizenship that were used to estimate growth of                dentiality of U .S . census data that is required by law . No attempt was made
+                                                                             to determine the legal status of individual aliens . The estimates were
+Jeffrey S. Passel is chief of the Population Analysis Staff, Population      developed by comparing statistical aggregates, not by determining the legal
+Division, Bureau of the Census . This report is drawn from "Changes in the   status of individuals .
+Estimation Procedure in the Current Population Survey Beginning January        "The estimation procedures and underlying assumptions are described in
+1986," Employment and Earnings, February 1986 .                              "Growth of the Undocumented Alien Population ."
+

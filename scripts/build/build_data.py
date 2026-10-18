@@ -32,6 +32,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from origins import GROUPS, Registry  # noqa: E402
+import illegal  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 P = ROOT / "data" / "processed"
@@ -210,6 +211,17 @@ for r in rows("flows_by_birth_1989_present.csv"):
 for y, t in btables.items():
     annual_tables[y] = t
     birth_years.add(y)
+# FY2024 and FY2025: OHSS quarterly reports, by nationality and preliminary. FY2025 has only its
+# first quarter (Oct-Dec 2024) published, so the year is projected as four times that quarter.
+RECENT = {}
+rt = defaultdict(list)
+for r in rows("flows_recent_by_birth.csv"):
+    rt[int(r["period_start"])].append(r)
+for y, t in rt.items():
+    if y in annual_tables:
+        continue
+    annual_tables[y] = t
+    RECENT[y] = 4.0 if "partial_q1" in t[0]["basis"] else 1.0
 decade_tables = {k[0]: (k, v) for k, v in tables.items() if k[1] - k[0] == 9}
 
 annual_known = {}
@@ -223,6 +235,9 @@ for y, t in sorted(annual_tables.items()):
         f = totals[y] / s
         check(f"{y} by-origin table within 1% of Table 1 total", abs(f - 1) < 0.01, f"ratio {f:.4f}")
         vec = {k: v * f for k, v in vec.items()}
+    if y in RECENT:
+        vec = {k: v * RECENT[y] for k, v in vec.items()}
+        totals[y] = (tt or s) * RECENT[y]
     annual_known[y] = vec
 
 decade_vecs = {}
@@ -413,7 +428,7 @@ for y, vec in annual_known.items():
     if Y0 <= y <= Y1:
         for o, v in vec.items():
             flow[o][y - Y0] += v
-        basis[y - Y0] = "B" if y in birth_years else "A"
+        basis[y - Y0] = ("P" if RECENT[y] != 1 else "R") if y in RECENT else "B" if y in birth_years else "A"
 
 for y in range(Y0, Y1 + 1):
     i = y - Y0
@@ -433,7 +448,7 @@ for y in range(Y0, Y1 + 1):
     i = y - Y0
     s = sum(v[i] for v in flow.values())
     total.append(round(s) if s > 0 or basis[i] != "N" else None)
-    if y in totals and basis[i] in ("A", "B", "D", "H"):
+    if y in totals and basis[i] in ("A", "B", "D", "H", "R", "P"):
         forced = sum(flow[k][i] for k in flow if R.units[k].get("forced"))
         check(f"{y} total = official + enslaved", abs(s - forced - totals[y]) < max(20, 0.001 * totals[y]),
               f"{s - forced:,.0f} vs {totals[y]:,.0f}")
@@ -442,6 +457,17 @@ for y in range(Y0, Y1 + 1):
 nat = defaultdict(list)
 for r in rows("stock_national_by_country.csv"):
     nat[int(r["year"])].append(r)
+# 2025 and 2026: Current Population Survey yearly averages (2026 = January-September). CPS counts run
+# about 2% above the ACS (2024: 51.2M vs 50.2M), so they are scaled by the 2024 ratio to join the ACS.
+cps = defaultdict(list)
+for r in rows("stock_recent_by_country.csv"):
+    if r["source_id"] == "cps_basic_annual_avg":
+        cps[int(r["year"])].append(r)
+cps_ratio = table_total(nat[2024]) / table_total(cps[2024])
+check("CPS 2024 vs ACS 2024 within 3%", abs(cps_ratio - 1) < 0.03, f"ACS/CPS = {cps_ratio:.4f}")
+for y in (2025, 2026):
+    if y in cps and y not in nat:
+        nat[y] = [dict(r, count=str((num(r["count"]) or 0) * cps_ratio)) if r["count"] else r for r in cps[y]]
 SY = sorted(nat)
 stock_nat = {}
 nat_total = []
@@ -465,9 +491,10 @@ for r in rows("stock_state_totals.csv"):
         else:
             continue
     st_tot[key][y] = (num(r["total_pop"]), num(r["foreign_born"]))
+usp = {int(r["year"]): num(r["population"]) for r in rows("us_population_annual.csv")}
 nat_pop = []
 for y in SY:
-    p = sum(v[y][0] for v in st_tot.values() if y in v and v[y][0])
+    p = usp.get(y) or sum(v[y][0] for v in st_tot.values() if y in v and v[y][0])
     nat_pop.append(p or None)
 
 # ---------------------------------------------------------------- population and the foreign-born before 1850
@@ -478,6 +505,10 @@ for r in rows("population_1610_1840.csv"):
     bench[int(r["year"])] += num(r["total"]) or 0
 for y, v in zip(SY, nat_pop):
     if v:
+        bench[y] = v
+# Census Bureau counts and July 1 estimates (1790-2025) and its 2026 projection
+for y, v in usp.items():
+    if v and y >= 1790:
         bench[y] = v
 bys = sorted(bench)
 pop = [None] * NY
@@ -561,7 +592,35 @@ for k, y in enumerate(SY):
     for uid, v in stock_nat[y].items():
         nat_o[uid][k] = round(v)
         nat_g[R.units[uid]["group"]][k] += round(v)
-used = set(flow_o) | set(nat_o)
+# ---------------------------------------------------------------- net migration, for years without arrival counts
+nm = {r["series"] + "|" + r["period"][:4]: r for r in rows("net_migration_recent.csv")}
+
+
+def _nm(key):
+    r = nm.get(key)
+    return num(r["value"]) if r else None
+
+
+def _signed(v):
+    return ("+" if v > 0 else "−" if v < 0 else "") + f"{abs(v):,.0f}"
+
+
+NET_NOTES = {}
+if _nm("census_v2025_nim_projection|2025") is not None:
+    lo, hi = num(nm["brookings_aei_jan2026_net_migration|2026"]["low"]), num(nm["brookings_aei_jan2026_net_migration|2026"]["high"])
+    NET_NOTES[2026] = (f"Net migration in 2026 is projected at {_signed(_nm('census_v2025_nim_projection|2025'))} (Census Bureau, July 2025–June 2026), "
+                       f"{_signed(_nm('cbo_jan2026_net_immigration|2026'))} (CBO) and {_signed(lo)} to {_signed(hi)} (Brookings/AEI).")
+
+# ---------------------------------------------------------------- illegal immigration
+un_flow, un_basis, un_info, un_pop, un_checks = illegal.build(R, Y0, Y1)
+check("illegal arrivals 1990-2009 match Warren & Warren", 15e6 < un_checks["total 1990-2009 (W&W)"] < 18e6, f"{un_checks['total 1990-2009 (W&W)']:,.0f}")
+flow_u = {}
+for uid, arr in un_flow.items():
+    sp = sparse(arr)
+    if sp:
+        flow_u[uid] = sp
+
+used = set(flow_o) | set(nat_o) | set(flow_u)
 origins = []
 for uid in sorted(used, key=lambda u: R.units[u]["name"]):
     u = dict(R.units[uid])
@@ -582,7 +641,7 @@ events = json.load(open(ROOT / "data" / "curated" / "events.json", encoding="utf
 
 sources = []
 seen = set()
-for name in ("sources_colonial.csv", "sources_flows.csv", "sources_stock.csv"):
+for name in ("sources_colonial.csv", "sources_flows.csv", "sources_stock.csv", "sources_unauthorized.csv", "sources_recent.csv"):
     path = P / name
     if not path.exists():
         continue
@@ -596,7 +655,8 @@ sources.append({"id": "ahcb", "cite": "Newberry Library, Atlas of Historical Cou
 sources.append({"id": "natural_earth", "cite": "Natural Earth country boundaries via world-atlas and us-atlas (public domain / ISC).",
                 "url": "https://www.naturalearthdata.com/"})
 
-stock_kind = ["census" if y <= 2000 else "acs" for y in SY]
+stock_kind = ["census" if y <= 2000 else "cps" if y in (2025, 2026) else "acs" for y in SY]
+
 
 ABOUT = {
     "intro": [
@@ -619,6 +679,20 @@ ABOUT = {
         "decade's country totals are spread across its years using yearly counts for broad country groups "
         "(through 1957) or in proportion to the yearly totals (1958–1987). Per-country values in those years are "
         "shown with a ≈ sign.",
+        "Illegal immigration is shown hatched, from published estimates only: 1980 census survivors for "
+        "1970–1980 (a lower bound), a model between published figures for 1981–1989 and 2010–2020, Warren & "
+        "Warren (2013) for 1990–2009, the Center for Migration Studies for 2016, and CBO for 2021–2025. It counts "
+        "people who crossed the border illegally (including those caught and released into immigration court) and "
+        "visa overstays; lawful paroles at ports of entry are left out, and the 2021–2022 CBO figures are net "
+        "increases that include some parolees. Origins are split using estimates of the illegal immigrant "
+        "population by country (Passel & Woodrow, INS, Pew Research Center, CMS). No credible estimate exists "
+        "before 1970. People who later became permanent residents (for example the 2.7 million legalized under "
+        "the 1986 amnesty, counted in 1989–1991) appear twice: once arriving illegally and once as legal "
+        "residents.",
+        "2024 legal arrivals are preliminary counts by nationality; 2025 is projected from its first quarter; no "
+        "2026 arrival counts exist yet. Immigrants living in the US in 2025 and 2026 come from the Census Bureau's "
+        "monthly Current Population Survey (2026 = January–September), scaled to the 2024 American Community "
+        "Survey; the survey's margin of error is about ±0.8 million.",
         "Official arrivals record country of last residence through 1988 and country of birth from 1989; the "
         "two can differ. From 1892 they count immigrants admitted; since the 1980s they count people granted "
         "permanent residence that year, including people already living in the US. The 1989–1991 spike is the "
@@ -645,15 +719,22 @@ ERAS = [
      "stock": "Not recorded."},
     {"years": "1820–1987", "flow": "Official yearly totals; origins from official decade totals (DHS Yearbook Tables 1 and 2), timed within each decade by yearly counts for 22 country groups through 1957 (Historical Statistics of the US, 1960).",
      "stock": "Census birthplace counts every ten years from 1850 (Census Working Papers 29 and 81)."},
+    {"years": "1970–2023", "flow": "Illegal immigration added from published estimates (Passel & Woodrow; Warren & Warren; CMS; CBO), split by origin with illegal-population estimates (INS, Pew Research Center).",
+     "stock": "Includes illegal immigrants, whom censuses and surveys count among the foreign-born."},
     {"years": "1988–2023", "flow": "Official yearly counts: by country of last residence in 1988, by country of birth from 1989 (INS and DHS yearbooks).",
      "stock": "Census 1990 and 2000; American Community Survey each year from 2005."},
+    {"years": "2024–2026", "flow": "Preliminary 2024 counts by nationality and 2025 projected from its first quarter (OHSS quarterly reports); illegal immigration from CBO; no 2026 counts yet.",
+     "stock": "Current Population Survey yearly averages for 2025 and 2026 (scaled to the 2024 ACS); Census Bureau population estimates and its 2026 projection."},
 ]
 
 data = {
     "start": Y0, "end": Y1, "defaultYear": 1910,
     "groups": GROUPS,
     "origins": origins,
-    "flow": {"total": total, "basis": "".join(basis), "o": flow_o},
+    "flow": {"total": total, "basis": "".join(basis), "o": flow_o, "u": flow_u, "uBasis": un_basis},
+    "uBasisInfo": un_info,
+    "netNotes": NET_NOTES,
+    "illegalPop": {"years": list(un_pop), "v": list(un_pop.values())},
     "basisInfo": {
         "C": {"label": "Historians' estimate", "cls": "estimate", "band": "Historians' estimates",
               "long": "Period totals from historians (Menard, Tomlins, Fogleman), spread evenly across the years of each period. Enslaved Africans: SlaveVoyages estimates."},
@@ -669,6 +750,10 @@ data = {
               "long": "Persons obtaining lawful permanent resident status, by country of last residence (INS Statistical Yearbook)."},
         "B": {"label": "Official count by birthplace", "cls": "official", "band": "Official yearly counts by country of birth",
               "long": "Persons obtaining lawful permanent resident status, by country of birth (INS and DHS yearbooks)."},
+        "R": {"label": "Preliminary official count", "cls": "official", "band": "Preliminary",
+              "long": "Fiscal 2024 permanent residents by country of nationality, from the OHSS quarterly report (preliminary)."},
+        "P": {"label": "Projected from first quarter", "cls": "estimate", "band": "Projected",
+              "long": "Only October-December 2024 (the first quarter of fiscal 2025) has been published; the year is shown as four times that quarter."},
         "N": {"label": "Not yet published", "cls": "estimate", "band": "",
               "long": "The arrivals count for this year has not been published yet."},
     },

@@ -1,0 +1,363 @@
+period_start,period_end,origin_label,level,parent_label,count,basis,source_id
+2024,2024,Total,total,,1356760,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Africa,region,Total,117480,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Asia,region,Total,431480,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Europe,region,Total,77360,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,North America,region,Total,584230,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Oceania,region,Total,5900,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,South America,region,Total,116020,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Unknown,region,Total,24290,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Afghanistan,country,Asia,50460,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Albania,country,Europe,4900,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Algeria,country,Africa,3800,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Angola,country,Africa,450,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Antigua and Barbuda,country,North America,340,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Argentina,country,South America,5430,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Armenia,country,Asia,4580,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Australia,country,Oceania,3400,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Austria,country,Europe,400,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Azerbaijan,country,Asia,1120,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Bahamas,country,North America,870,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Bahrain,country,Asia,60,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Bangladesh,country,Asia,15860,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Barbados,country,North America,300,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Belarus,country,Europe,2390,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Belgium,country,Europe,570,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Belize,country,North America,900,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Benin,country,Africa,930,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Bhutan,country,Asia,200,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Bolivia,country,South America,1990,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Bosnia and Herzegovina,country,Europe,380,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Botswana,country,Africa,60,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Brazil,country,South America,27570,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Bulgaria,country,Europe,930,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Burkina Faso,country,Africa,770,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Burma,country,Asia,3680,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Burundi,country,Africa,700,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Cabo Verde,country,Africa,2200,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Cambodia,country,Asia,2670,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Cameroon,country,Africa,5820,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Canada,country,North America,19650,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Central African Republic,country,Africa,150,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Chad,country,Africa,220,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Chile,country,South America,2530,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,"China, People's Republic",country,Asia,70090,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Colombia,country,South America,29340,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,"Congo, Democratic Republic",country,Africa,7210,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,"Congo, Republic",country,Africa,640,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Costa Rica,country,North America,2730,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Cote d'Ivoire,country,Africa,1140,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Croatia,country,Europe,240,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Cuba,country,North America,178130,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Cyprus,country,Asia,80,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Czechia,country,Europe,490,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Denmark,country,Europe,310,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Djibouti,country,Africa,160,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Dominica,country,North America,390,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Dominican Republic,country,North America,67460,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Ecuador,country,South America,13140,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Egypt,country,Africa,9100,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,El Salvador,country,North America,30590,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Equatorial Guinea,country,Africa,50,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Eritrea,country,Africa,1740,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Estonia,country,Europe,120,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Eswatini,country,Africa,30,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Ethiopia,country,Africa,9560,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Fiji,country,Oceania,1040,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Finland,country,Europe,390,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,France,country,Europe,4060,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Gabon,country,Africa,140,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Gambia,country,Africa,1250,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Georgia,country,Asia,2280,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Germany,country,Europe,4260,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Ghana,country,Africa,10590,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Greece,country,Europe,1070,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Grenada,country,North America,430,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Guatemala,country,North America,16970,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Guinea,country,Africa,1320,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Guinea-Bissau,country,Africa,40,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Guyana,country,South America,4390,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Haiti,country,North America,10530,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Honduras,country,North America,16880,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Hungary,country,Europe,830,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Iceland,country,Europe,70,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,India,country,Asia,64660,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Indonesia,country,Asia,1850,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Iran,country,Asia,8990,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Iraq,country,Asia,3720,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Ireland,country,Europe,1360,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Israel,country,Asia,3970,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Italy,country,Europe,3830,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Jamaica,country,North America,28160,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Japan,country,Asia,3570,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Jordan,country,Asia,6400,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Kazakhstan,country,Asia,2250,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Kenya,country,Africa,8330,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Kiribati,country,Oceania,20,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,"Korea, North",country,Asia,10,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,"Korea, South",country,Asia,14850,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Kosovo,country,Europe,480,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Kuwait,country,Asia,90,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Kyrgyzstan,country,Asia,2440,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Laos,country,Asia,930,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Latvia,country,Europe,200,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Lebanon,country,Asia,4260,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Liberia,country,Africa,3120,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Libya,country,Africa,420,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Lithuania,country,Europe,560,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Luxembourg,country,Europe,20,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Madagascar,country,Africa,70,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Malawi,country,Africa,210,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Malaysia,country,Asia,1140,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Mali,country,Africa,520,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Malta,country,Europe,40,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Marshall Islands,country,Oceania,20,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Mauritania,country,Africa,250,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Mauritius,country,Africa,70,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Mexico,country,North America,200720,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,"Micronesia, Federated States",country,Oceania,10,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Moldova,country,Europe,1090,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Mongolia,country,Asia,1000,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Montenegro,country,Europe,370,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Morocco,country,Africa,5360,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Mozambique,country,Africa,50,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Namibia,country,Africa,70,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Nepal,country,Asia,12530,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Netherlands,country,Europe,1400,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,New Zealand,country,Oceania,880,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Nicaragua,country,North America,4090,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Niger,country,Africa,240,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Nigeria,country,Africa,19160,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,North Macedonia,country,Europe,850,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Norway,country,Europe,410,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Oman,country,Asia,30,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Pakistan,country,Asia,22200,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Panama,country,North America,1090,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Papua New Guinea,country,Oceania,30,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Paraguay,country,South America,610,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Peru,country,South America,12510,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Philippines,country,Asia,47620,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Poland,country,Europe,3470,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Portugal,country,Europe,1100,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Romania,country,Europe,1700,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Russia,country,Europe,11740,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Rwanda,country,Africa,1040,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Saint Kitts and Nevis,country,North America,210,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Saint Lucia,country,North America,600,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Saint Vincent and the Grenadines,country,North America,230,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Samoa,country,Oceania,220,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Saudi Arabia,country,Asia,460,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Senegal,country,Africa,1640,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Serbia,country,Europe,860,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Sierra Leone,country,Africa,1620,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Singapore,country,Asia,770,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Slovakia,country,Europe,350,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Slovenia,country,Europe,80,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Somalia,country,Africa,2000,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,South Africa,country,Africa,3320,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,South Sudan,country,Africa,270,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Spain,country,Europe,5310,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Sri Lanka,country,Asia,2130,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Sudan,country,Africa,4300,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Suriname,country,South America,140,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Sweden,country,Europe,1010,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Switzerland,country,Europe,450,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Syria,country,Asia,5770,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Taiwan,country,Asia,4990,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Tajikistan,country,Asia,2040,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Tanzania,country,Africa,680,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Thailand,country,Asia,4900,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Togo,country,Africa,2280,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Tonga,country,Oceania,280,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Trinidad and Tobago,country,North America,2720,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Tunisia,country,Africa,660,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Turkey,country,Asia,7870,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Turkmenistan,country,Asia,630,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Uganda,country,Africa,1600,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Ukraine,country,Europe,9000,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,United Arab Emirates,country,Asia,50,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,United Kingdom,country,Europe,10300,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,United States,country,North America,270,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Uruguay,country,South America,1020,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Uzbekistan,country,Asia,4780,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Venezuela,country,South America,17350,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Vietnam,country,Asia,37290,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Yemen,country,Asia,6220,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Zambia,country,Africa,370,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Zimbabwe,country,Africa,1740,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,All other countries,residual,Total,90,preliminary_annual_nationality,ohss_lias_fy2024q4
+2024,2024,Unknown,residual,Unknown,24290,preliminary_annual_nationality,ohss_lias_fy2024q4
+2025,2025,Total,total,,350120,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Africa,region,Total,38680,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Asia,region,Total,123670,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Europe,region,Total,20010,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,North America,region,Total,127440,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Oceania,region,Total,1320,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,South America,region,Total,30400,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Unknown,region,Total,8600,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Afghanistan,country,Asia,18330,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Albania,country,Europe,1390,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Algeria,country,Africa,930,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Angola,country,Africa,180,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Antigua and Barbuda,country,North America,110,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Argentina,country,South America,1370,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Armenia,country,Asia,1190,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Australia,country,Oceania,740,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Austria,country,Europe,110,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Azerbaijan,country,Asia,390,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Bahamas,country,North America,230,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Bahrain,country,Asia,20,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Bangladesh,country,Asia,5940,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Barbados,country,North America,100,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Belarus,country,Europe,610,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Belgium,country,Europe,110,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Belize,country,North America,190,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Benin,country,Africa,310,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Bhutan,country,Asia,90,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Bolivia,country,South America,480,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Bosnia and Herzegovina,country,Europe,90,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Brazil,country,South America,5940,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Bulgaria,country,Europe,160,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Burkina Faso,country,Africa,300,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Burma,country,Asia,2580,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Burundi,country,Africa,440,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Cabo Verde,country,Africa,630,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Cambodia,country,Asia,930,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Cameroon,country,Africa,1860,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Canada,country,North America,5150,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Central African Republic,country,Africa,140,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Chad,country,Africa,120,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Chile,country,South America,610,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,"China, People's Republic",country,Asia,17150,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Colombia,country,South America,7950,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,"Congo, Democratic Republic",country,Africa,4720,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,"Congo, Republic",country,Africa,400,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Costa Rica,country,North America,800,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Cote d'Ivoire,country,Africa,300,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Croatia,country,Europe,60,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Cuba,country,North America,30050,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Czechia,country,Europe,140,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Denmark,country,Europe,70,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Djibouti,country,Africa,80,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Dominica,country,North America,120,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Dominican Republic,country,North America,14500,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Ecuador,country,South America,3970,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Egypt,country,Africa,2900,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,El Salvador,country,North America,10050,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Equatorial Guinea,country,Africa,20,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Eritrea,country,Africa,900,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Estonia,country,Europe,30,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Ethiopia,country,Africa,3650,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Fiji,country,Oceania,310,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Finland,country,Europe,80,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,France,country,Europe,910,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Gabon,country,Africa,50,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Gambia,country,Africa,370,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Georgia,country,Asia,860,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Germany,country,Europe,1060,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Ghana,country,Africa,2220,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Greece,country,Europe,240,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Grenada,country,North America,100,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Guatemala,country,North America,7380,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Guinea,country,Africa,600,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Guyana,country,South America,1250,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Haiti,country,North America,2440,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Honduras,country,North America,5580,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Hungary,country,Europe,160,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Iceland,country,Europe,20,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,India,country,Asia,15460,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Indonesia,country,Asia,510,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Iran,country,Asia,3270,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Iraq,country,Asia,1530,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Ireland,country,Europe,330,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Israel,country,Asia,1150,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Italy,country,Europe,980,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Jamaica,country,North America,7250,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Japan,country,Asia,810,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Jordan,country,Asia,1640,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Kazakhstan,country,Asia,650,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Kenya,country,Africa,2090,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,"Korea, South",country,Asia,2890,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Kosovo,country,Europe,180,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Kuwait,country,Asia,20,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Kyrgyzstan,country,Asia,940,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Laos,country,Asia,200,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Latvia,country,Europe,70,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Lebanon,country,Asia,1500,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Liberia,country,Africa,1160,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Libya,country,Africa,120,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Lithuania,country,Europe,140,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Madagascar,country,Africa,30,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Malawi,country,Africa,60,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Malaysia,country,Asia,310,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Mali,country,Africa,180,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Malta,country,Europe,10,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Mauritania,country,Africa,110,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Mexico,country,North America,40790,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Moldova,country,Europe,430,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Mongolia,country,Asia,250,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Montenegro,country,Europe,90,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Morocco,country,Africa,1290,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Mozambique,country,Africa,20,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Nepal,country,Asia,3170,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Netherlands,country,Europe,310,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,New Zealand,country,Oceania,160,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Nicaragua,country,North America,1290,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Niger,country,Africa,60,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Nigeria,country,Africa,5320,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,North Macedonia,country,Europe,220,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Norway,country,Europe,100,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Pakistan,country,Asia,8160,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Panama,country,North America,310,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Paraguay,country,South America,130,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Peru,country,South America,2890,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Philippines,country,Asia,10250,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Poland,country,Europe,690,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Portugal,country,Europe,260,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Romania,country,Europe,380,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Russia,country,Europe,3580,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Rwanda,country,Africa,360,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Saint Kitts and Nevis,country,North America,50,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Saint Lucia,country,North America,180,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Saint Vincent and the Grenadines,country,North America,80,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Samoa,country,Oceania,40,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Saudi Arabia,country,Asia,90,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Senegal,country,Africa,450,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Serbia,country,Europe,170,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Sierra Leone,country,Africa,310,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Singapore,country,Asia,150,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Slovakia,country,Europe,80,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Slovenia,country,Europe,20,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Somalia,country,Africa,1240,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,South Africa,country,Africa,840,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,South Sudan,country,Africa,190,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Spain,country,Europe,1260,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Sri Lanka,country,Asia,460,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Sudan,country,Africa,1620,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Suriname,country,South America,40,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Sweden,country,Europe,260,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Switzerland,country,Europe,130,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Syria,country,Asia,3530,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Taiwan,country,Asia,1260,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Tajikistan,country,Asia,520,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Tanzania,country,Africa,190,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Thailand,country,Asia,1170,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Togo,country,Africa,590,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Tonga,country,Oceania,60,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Trinidad and Tobago,country,North America,660,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Tunisia,country,Africa,180,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Turkey,country,Asia,2200,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Turkmenistan,country,Asia,310,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Uganda,country,Africa,620,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Ukraine,country,Europe,2640,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,United Kingdom,country,Europe,2460,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,United States,country,North America,60,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Uruguay,country,South America,260,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Uzbekistan,country,Asia,1450,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Venezuela,country,South America,5510,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Vietnam,country,Asia,9170,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Yemen,country,Asia,3140,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Zambia,country,Africa,120,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Zimbabwe,country,Africa,390,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,All other countries,residual,Total,120,preliminary_partial_q1_nationality,ohss_lias_fy2025q1
+2025,2025,Unknown,residual,Unknown,8600,preliminary_partial_q1_nationality,ohss_lias_fy2025q1

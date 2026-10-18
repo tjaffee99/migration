@@ -1,0 +1,23 @@
+rank,country_of_origin,population,note
+,All countries,5000000,"INS 1996 Statistical Yearbook (publ. 1997), p. 198, Table P 'Estimated Illegal Immigrant Population for Top Twenty Countries of Origin and Top Twenty States of Residence: October 1996'; transcribed by eye from archive.org page image doj-reports_j-212-10996 page/n198; rows sum exactly to 5,000,000; text gives range 4.6-5.4 million"
+1,Mexico,2700000,
+2,El Salvador,335000,
+3,Guatemala,165000,
+4,Canada,120000,
+5,Haiti,105000,
+6,Philippines,95000,
+7,Honduras,90000,
+8,Dominican Republic,75000,"footnote 1: revised from 50,000 (1995 Yearbook) to 75,000"
+9,Nicaragua,70000,
+10,Poland,70000,
+11,"Bahamas, The",70000,
+12,Colombia,65000,
+13,Ecuador,55000,
+14,Trinidad & Tobago,50000,
+15,Jamaica,50000,
+16,Pakistan,41000,
+17,India,33000,
+18,Ireland,30000,
+19,Korea,30000,
+20,Peru,30000,
+,Other,721000,

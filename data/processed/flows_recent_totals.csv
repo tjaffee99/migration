@@ -1,0 +1,12 @@
+fiscal_year,quarters,lpr_total,adjustments_of_status,new_arrivals,basis,source_id
+2023,Q1,261410,117890,143510,preliminary_nationality_rounded10,ohss_lias_fy2023q4
+2023,Q2,286550,161900,124660,preliminary_nationality_rounded10,ohss_lias_fy2023q4
+2023,Q3,317820,168840,148980,preliminary_nationality_rounded10,ohss_lias_fy2023q4
+2023,Q4,307860,166500,141360,preliminary_nationality_rounded10,ohss_lias_fy2023q4
+2023,Q1-Q4,1173640,615130,558510,preliminary_nationality_rounded10,ohss_lias_fy2023q4
+2024,Q1,281810,151230,130580,preliminary_nationality_rounded10,ohss_lias_fy2024q4
+2024,Q2,329740,201840,127910,preliminary_nationality_rounded10,ohss_lias_fy2024q4
+2024,Q3,369480,216190,153290,preliminary_nationality_rounded10,ohss_lias_fy2024q4
+2024,Q4,375730,213520,162210,preliminary_nationality_rounded10,ohss_lias_fy2024q4
+2024,Q1-Q4,1356760,782770,573990,preliminary_nationality_rounded10,ohss_lias_fy2024q4
+2025,Q1,350120,190350,159770,preliminary_nationality_rounded10,ohss_lias_fy2025q1

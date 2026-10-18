@@ -1,0 +1,706 @@
+                                                                                                                  FACT SHEET
+Changing Origins, Rising Numbers
+Unauthorized Immigrants in the United States
+OCTOBER 2025
+
+BY JULIA GELATT, ARIEL G. RUIZ SOTO, AND JAMES D. BACHMEIER
+
+
+Executive Summary                                         BOX 1
+                                                          Explore U.S., State, and County Data
+
+The unauthorized immigrant population in the Unit-        For detailed sociodemographic profiles of unau-
+ed States has grown sharply in recent years, with the     thorized immigrants in the United States, 43 states
+                                                          and the District of Colombia, and the 135 counties
+Migration Policy Institute (MPI) estimating it reached
+                                                          with the largest unauthorized populations, explore
+13.7 million as of mid-2023, following more than a        bit.ly/unauthdata.
+decade of stagnation. Still, nearly half of this popu-
+lation—45 percent—had lived in the country for 20         This fact sheet offers a profile of the unauthorized
+years or more, with 80 percent having at least five       immigrant population, using a unique methodology
+years of residence.                                       developed by MPI researchers in partnership with
+                                                          demographers at The Pennsylvania State University
+Amid this growth in the unauthorized immigrant            and Temple University to assign legal status in U.S.
+population, which is up 3 million since 2019, has         Census Bureau data. It is accompanied by detailed
+come diversification, with rising numbers from            MPI sociodemographic profiles of the unauthorized
+South America and the Caribbean in particular.            population nationally and for 43 states, the District
+                                                          of Columbia, and 135 counties, which derive from
+The unauthorized immigrant population is varied in
+                                                          MPI’s analysis of American Community Survey (ACS)
+its socioeconomic and labor market characteristics,
+                                                          data.
+family composition, and places of settlement. It also
+is increasingly diverse in status, with a growing share   Among the key findings, in mid-2023:
+having some form of liminal (or “twilight”) status
+conferring protection from deportation and work              ► Nearly 4.2 million unauthorized immigrants
+authorization. Earlier this year, MPI estimated that as        were married to a U.S. citizen or lawful
+of mid-2023, as many as 4 million people—29 per-               permanent resident (LPR, also known
+cent of the unauthorized population—were holders               as a green-card holder). While marriage
+of Temporary Protected Status (TPS) or Deferred                typically conveys the right to apply for legal
+Action for Childhood Arrivals (DACA), had a pending            permanent residence, most spouses who are
+asylum application, or had an active grant of human-           unauthorized immigrants are unable to apply
+itarian parole.                                                due to a 1996 immigration law.
+                                      CHANGING ORIGINS, RISING NUMBERS
+
+
+
+    ► 6.3 million children under age 18, all but 1         in Cuba, Nicaragua, and Venezuela. And early Biden
+      million of them U.S. citizens, lived with at least   administration border and humanitarian parole pol-
+      one unauthorized immigrant parent. Such              icies, combined with false promises from smugglers,
+      children are often strongly affected by their        enticed some to venture a trip across the Western
+      parents’ limited employment opportunities            Hemisphere to seek opportunity in the United
+      and restrictions on eligibility for public           States.
+      assistance, as well as the threat of separation
+      due to immigration enforcement.                      This fact sheet and accompanying data profiles at
+                                                           U.S., state, and top county levels sketch a portrait of
+    ► 14.0 million U.S. citizens, green card holders,
+      and temporary visa holders lived in a                the 13.7 million unauthorized immigrants that the
+      household with at least one unauthorized             Migration Policy Institute (MPI) estimates were living
+      immigrant.                                           in the United States as of mid-2023. Included are top
+                                                           countries and regions of origin and places of settle-
+    ► Unauthorized immigrants represented                  ment, how unauthorized immigrants fit within the
+      26 percent of the total U.S. foreign-born            broader U.S. foreign-born population, how many are
+      population.
+                                                           part of mixed-status families, and key socioeconom-
+    ► More than one-fifth of all unauthorized              ic characteristics such as education, English profi-
+      immigrants lived in California; collectively,        ciency, family income levels, and homeownership.
+      half lived in California, Texas, Florida, or
+      New York. At the local level, the largest            These indicators are designed to address policy
+      concentrations were in Los Angeles,                  questions such as:
+      California; Houston, Texas (Harris County), the
+      five counties making up New York City; and               ► How many unauthorized immigrants are well
+      Chicago, Illinois (Cook County).                           educated and how many are proficient in
+                                                                 English?
+    ► Mexicans accounted for 40 percent of
+      all unauthorized immigrants—down                         ► How many are in the workforce, and what are
+      significantly from their 62 percent share in               their top industries of employment?
+      2010.
+                                                               ► How many are recent arrivals, and how many
+
+1       Introduction                                             have deep roots in the country?
+
+                                                               ► How many live in mixed-status households,
+The recent growth in the unauthorized population                 and what is the composition of those
+can be attributed to several factors. U.S. job op-               households?
+portunities expanded rapidly as the U.S. economy
+recovered more quickly and fully from the COVID-19         As the accompanying sociodemographic profiles
+pandemic-induced downturn than those of many               show, the characteristics and experiences of un-
+countries in the Western Hemisphere. New waves of          authorized immigrants vary across U.S. states and
+displacement were fueled by economic and political         localities.1 Understanding their workforce, economic,
+instability in Central America and South America;          and sociodemographic characteristics is important
+eruptions of gang violence in Haiti, Ecuador, and          for policymakers, service providers, and the public in
+parts of Mexico; and continued political repression        an era of rapidly changing policy.
+
+
+                                        MIGRATION POLICY INSTITUTE | 2
+                                                                                        CHANGING ORIGINS, RISING NUMBERS
+
+
+
+
+2                                                   Recent Growth of                                        BOX 2
+                                                                                                            Developing Estimates of the Unauthorized Immigrant
+                                                    the Unauthorized                                        Population
+
+                                                    Population                                              Given the fact U.S. census surveys do not ask respondents if
+                                                                                                            they are in the country without authorization, the Migration
+                                                                                                            Policy Institute (MPI) developed a unique methodology,
+MPI estimates that between 2019 and 2023,                                                                   working in partnership with demographers at The Pennsyl-
+the unauthorized population grew by 3 mil-                                                                  vania State University and Temple University, to generate the
+lion (see Figure 1). The United States has not                                                              most accurate estimates possible of the unauthorized immi-
+experienced a pace of change this rapid in the                                                              grant population at national, state, and local levels.
+size of the unauthorized population since the                                                               This methodology, which assigns legal status to noncitizens
+early 2000s. This increase represents a sharp                                                               in the U.S. Census Bureau’s annual American Community Sur-
+departure from the stagnation observed in the                                                               vey (ACS) using data from the Survey of Income and Program
+size of the population over the prior decade,                                                               Participation (SIPP) permits estimating the number of unau-
+during which the numbers had remained fairly                                                                thorized immigrants and ascertaining their characteristics.
+steady at around 11 million.                                                                                MPI’s method, which combines detailed data from several
+                                                                                                            authoritative data sources, including the Census Bureau
+A combination of irregular arrivals at the                                                                  and the U.S. Department of Homeland Security (DHS), is de-
+U.S.-Mexico border and migrants entering                                                                    scribed in more detail in MPI, “MPI Methodology for Assign-
+lawfully through temporary parole programs2                                                                 ing Legal Status to Noncitizen Respondents in U.S. Census
+                                                                                                            Bureau Survey Data.”
+(many now rescinded by the Trump admin-
+FIGURE 1
+Estimates of the Size of the U.S. Unauthorized Immigrant Population by Leading Institutions, 2010–23
+                                               16
+Unauthorized immigrant population (millions)
+
+
+
+
+                                               14                                                                                                      Center for Migration
+                                                                                                                                                       Studies
+                                               12
+                                                                                                                                                       Department of
+                                               10                                                                                                      Homeland Security
+                                                8                                                                                                      Migration Policy
+                                                                                                                                                       Institute
+                                                6
+                                                                                                                                                       Pew Research Center
+                                                4
+
+                                                2
+
+                                                -
+                                                    2010
+
+                                                           2011
+
+                                                                  2012
+
+                                                                         2013
+
+                                                                                2014
+
+                                                                                       2015
+
+                                                                                              2016
+
+                                                                                                     2017
+
+                                                                                                             2018
+
+                                                                                                                    2019
+
+                                                                                                                           2020
+
+                                                                                                                                  2021
+
+                                                                                                                                         2022
+
+                                                                                                                                                2023
+
+
+
+
+Sources: Analysis of U.S. Department of Homeland Security (DHS) administrative records and data from the U.S. Census Bureau (the
+2000 decennial census and the American Community Survey [ACS] for various years) by Migration Policy Institute (MPI) researchers
+and Jennifer Van Hook at The Pennsylvania State University, Population Research Center. Estimates from other organizations are from
+Bryan Baker and Robert Warren, “Estimates of the Unauthorized Immigrant Population Residing in the United States: January 2018–
+January 2022,” (Washington, DC: DHS Office of Homeland Security Statistics, 2024); Jeffrey S. Passel and Jens Manuel Krogstad, U.S.
+Unauthorized Immigrant Population Reached a Record 14 Million in 2023, Pew Research Center, August 21, 2025; Robert Warren, The
+Undocumented Population in the United States Increased to 12.2 Million in 2023, Center for Migration Studies, May 7, 2025; and Robert
+Warren, “In 2019, the US Undocumented Population Continued a Decade-Long Decline and the Foreign-Born Population Neared Zero
+Growth,” Journal on Migration and Human Security 9, no. 1 (2021): 31-43.
+
+                                                                                          MIGRATION POLICY INSTITUTE | 3
+                                       CHANGING ORIGINS, RISING NUMBERS
+
+
+
+istration) were the primary factors leading to the         were married to another unauthorized immigrant or
+recent growth in the unauthorized immigrant pop-           to a temporary visa holder (see Figure 2).
+ulation. These include migrants coming from Co-
+lombia, Cuba, Ecuador, Venezuela, and other origins        While marriage to a U.S. citizen or LPR can typically
+beyond the traditional sending countries of Mexico,        open a pathway to applying for a green card, many
+El Salvador, Guatemala, and Honduras. However, the         unauthorized immigrants are blocked from this path
+recent growth also stems from a sizeable number of         because they must leave the United States to apply
+immigrants, primarily from Europe, who overstayed          and, under terms of a 1996 law, would face a ten-
+their temporary visas.                                     year bar on re-entry if they had spent at least a year
+                                                           in the country without legal status.3
+As shown in Figure 1, MPI’s estimates are roughly in
+                                                           FIGURE 2
+line with estimates produced by other organizations
+                                                           Marital Status of Unauthorized Immigrant Adults
+using their own methodologies, though these es-
+                                                           (ages 15 and older) and Spousal Immigration
+timates diverge in the exact timing and size of the
+                                                           Status, 2023
+recent increase.
+
+
+3       Time in the United                                                      Divorced,
+                                                                                separated,
+        States                                                                   widowed
+                                                                                   16%
+
+Still, despite the increase in recent arrivals, the vast                                              Never married
+                                                              Married to a lawful
+majority of unauthorized immigrants have signif-                                                          36%
+                                                           permanent resident (LPR)
+icant years of residence in the United States. Fully                 11%
+four-fifths of the unauthorized population had more
+                                                                       Married to
+than five years of U.S. residence as of mid-2023.
+                                                                     non-U.S. citizen /
+                                                                        non-LPR
+The largest share—45 percent—had lived in the                             15%                Married to a
+United States for 20 years or more, with another 14                                          U.S. citizen
+                                                                                                21%
+percent having 15 to 19 years of residence, and 21
+percent at least five years of residence. Just 20 per-
+cent had lived in the country for less than five years.
+                                                           Note: Numbers do not add to 100 percent due to rounding.
+                                                           Source: These 2023 data result from MPI analysis of data from the
+
+4       Family Composition                                 2019–23 ACS, pooled, and the 2008, 2022, and 2023 Survey of Income
+                                                           and Program Participation (SIPP), weighted to 2023 unauthorized
+                                                           immigrant population estimates provided by Van Hook.
+
+Millions of unauthorized immigrants lived in house-        About one-third (32 percent) of unauthorized immi-
+holds with spouses and children who had U.S. citi-         grants had one or more U.S.-citizen children under
+zenship or legal permanent residence.                      age 18 living with them, while 10 percent lived with
+                                                           noncitizen children, and 58 percent did not live with
+As of mid-2023, just under half (6.2 million) of all       any minor children of their own.
+unauthorized immigrants ages 15 and older were
+married. About one-third (4.2 million) were married        Because unauthorized immigrants may have more
+to a U.S. citizen or LPR, and 15 percent (2.0 million)     than one child, the number of children with an
+
+
+                                        MIGRATION POLICY INSTITUTE | 4
+                                           CHANGING ORIGINS, RISING NUMBERS
+
+
+
+unauthorized immigrant parent was higher. At the                degree but lacked a four-year degree; another 1.8
+national level, 6.3 million children under age 18 lived         million had a bachelor’s degree or higher. The re-
+with at least one unauthorized immigrant parent.                maining 8.0 million (about 70 percent) had obtained
+Of these children, the great majority—5.3 million—              a high school diploma equivalent or less.
+were U.S. citizens. Fully one-fifth of all children with
+an unauthorized immigrant parent lived in California            Unauthorized immigrants in Michigan were more
+(see Table 1), while 16 percent resided in Texas and 6          likely to have some college education or a higher
+percent in Florida.                                             education degree (41 percent) compared to the na-
+                                                                tional average (30 percent). Similarly, more than 37
+TABLE 1
+                                                                percent of unauthorized immigrants living in coun-
+Top Ten States of Residence of Children with At
+                                                                ties that make up California’s Silicon Valley (Santa
+Least One Unauthorized Immigrant Parent, 2023
+                                                                Clara and San Mateo) had some college education or
+         State           Estimate          Share of Total
+                                                                a higher education degree.
+ Total                      6,303,000                 100%
+ California                  1,286,000                  20%     Two-thirds of unauthorized immigrants ages 5 or
+ Texas                         997,000                  16%     older were limited English proficient (LEP), meaning
+ Florida                       391,000                   6%     they reported speaking English less than “very well.”
+ New York                      370,000                   6%     In Texas, the share that reported speaking English
+ Illinois                      269,000                   4%     less than very well was 71 percent, which was the
+ North Carolina                247,000                   4%     highest among Southwestern states. Even within
+ Georgia                       240,000                   4%     Texas, however, English proficiency varied: About 66
+ New Jersey                    199,000                   3%     percent of unauthorized immigrants in Tarrant Coun-
+                                                                ty (Fort Worth) reported being LEP, compared to 75
+ Washington                    192,000                   3%
+                                                                percent of their peers in neighboring Dallas County
+ Arizona                       158,000                   3%
+                                                                (Dallas).
+ All Other States            1,954,000                  31%
+Source: These 2023 data result from MPI analysis of data from
+the 2019–23 ACS, pooled, and the 2008, 2022, and 2023 SIPP,
+                                                                Forty-seven percent of the unauthorized popula-
+weighted to 2023 unauthorized immigrant population estimates    tion nationwide, approximately 6.5 million people,
+provided by Van Hook.                                           reported family income of less than 200 percent of
+Overall, MPI estimates that 14.0 million U.S. citizens,         the federal poverty level, a common definition of
+green card holders, and temporary visa holders lived            “low income.” About 2.7 million of the low income
+in a household with at least one unauthorized immi-             reported income below 100 percent of the poverty
+grant in 2023.                                                  level. Still, more than half of the total unauthorized
+                                                                immigrant population reported income at or above
+                                                                200 percent of the poverty level.
+5           Educational Attainment
+            and Socioeconomic                                   Unauthorized immigrants’ poverty rates varied
+                                                                by state. For example, poverty rates were lower in
+            Status                                              Washington State (15 percent) but higher in South
+                                                                Carolina (24 percent). And in some small counties
+Of the 11.4 million unauthorized immigrants who                 such as Providence County, Rhode Island, the pov-
+were ages 25 and older in mid-2023, 1.7 million had             erty rate (15 percent) was lower than the national
+completed some college or received an associate’s               average for unauthorized immigrants: 19 percent.
+
+                                            MIGRATION POLICY INSTITUTE | 5
+                                            CHANGING ORIGINS, RISING NUMBERS
+
+
+
+Approximately 4.3 million unauthorized immigrants                   and another 955,000 worked in food services and
+(31 percent) reported owning a home. Their home                     213,000 in crop production.
+ownership rate was higher in Oklahoma (46 percent)
+but lower in New York (20 percent) as in other states
+with high housing costs. Immigrants’ homeowner-
+                                                                    7        Legal Composition of
+ship rate was closer to the national average in subur-                       the Overall Immigrant
+ban counties such as Fairfax, Virginia (27 percent).
+                                                                             Population
+6        Employment and                                             Of all foreign-born individuals in the United States
+         Industries                                                 as of mid-2023, MPI estimates that 26 percent were
+                                                                    present in the country without authorization, the
+Of the 13 million unauthorized immigrants who                       result of either having entered the country without
+were ages 16 and older in 2023, about 9.6 million                   permission, overstayed a visa, or entered on tempo-
+were in the labor force, meaning they were em-                      rary humanitarian parole. Of these, MPI estimates
+ployed or seeking employment. Ninety-four percent                   that perhaps as many as 4 million people—29 per-
+were employed.                                                      cent of the unauthorized population—held a liminal
+                                                                    status, such as Temporary Protected Status (TPS), a
+Unauthorized immigrant workers were employed                        pending asylum application, or humanitarian pa-
+across a diverse set of industries, ranging from con-               role.4 Many of those who had some form of tempo-
+struction to automotive repair and maintenance (see                 rary protection in 2023 no longer do, given Trump
+Table 2). Nationally, nearly 2 million unauthorized                 administration actions to terminate TPS programs,
+immigrants worked in construction, for example,                     rescind parole status, and deny asylum applications.
+TABLE 2
+Top Ten Industries of Employment for Unauthorized Immigrant Workers, 2023
+                                                                 Estimated Number of
+                                                                                                   Share of All Unauthorized
+                         Industry                              Unauthorized Immigrants
+                                                                                                    Immigrant Workers (%)
+                                                                 in Civilian Workforce
+ Civilian employed population ages 16 and older                                     9,107,000                                100%
+ Construction                                                                        1,990,000                                 22%
+ Food Services                                                                         955,000                                 10%
+ Services to Buildings (cleaning, landscaping,
+                                                                                       411,000                                  5%
+ maintenance)
+ Landscaping Services                                                                  378,000                                  4%
+ Crop Production                                                                       213,000                                  2%
+ Elementary and Secondary Schools                                                      204,000                                  2%
+ Private Households                                                                    170,000                                  2%
+ Supermarkets and Other Grocery                                                        147,000                                  2%
+ Traveler Accommodation (hotels, motels, etc.)                                         138,000                                  2%
+ Automotive Repair and Maintenance                                                     137,000                                  2%
+ All Other Industries                                                                4,362,000                                 48%
+Source: These 2023 data result from MPI analysis of data from the 2019–23 ACS, pooled, and the 2008, 2022, and 2023 SIPP, weighted to
+2023 unauthorized immigrant population estimates provided by Van Hook.
+
+                                              MIGRATION POLICY INSTITUTE | 6
+                                           CHANGING ORIGINS, RISING NUMBERS
+
+
+
+The largest share of the overall immigrant popula-                in the United States as of mid-2023, half lived in Cal-
+tion—45 percent—was comprised of naturalized                      ifornia, Texas, Florida, or New York (see Table 3). Size-
+U.S. citizens, while 24 percent were green-card hold-             able populations also lived in relatively newer desti-
+ers, and 5 percent either had a temporary visa for                nation states such as Georgia and North Carolina.
+study, work, or other temporary stay, or were refu-
+gees or asylees who had not yet obtained LPR status               TABLE 3
+(see Figure 3).                                                   Top Ten States of Residence of the Unauthorized
+                                                                  Immigrant Population, 2023
+                                                                                           Estimated         Share of Total
+FIGURE 3                                                                                   Number of        Unauthorized
+                                                                              State
+Legal Status of the Overall U.S. Foreign-Born                                            Unauthorized         Immigrant
+Population, 2023                                                                          Immigrants        Population (%)
+                                                                   Total                    13,738,000                  100%
+                                                                   California                  2,910,000                  21%
+                                                                   Texas                       1,966,000                  14%
+                      Unauthorized                                 Florida                     1,223,000                   9%
+                       immigrants
+Naturalized                                                        New York                      836,000                   6%
+                         26%
+ citizens                                                          Illinois                      588,000                   4%
+   45%                                                             Georgia                       479,000                   3%
+                                            Nonimmigrants          New Jersey                    476,000                   3%
+                     Lawful                      5%                North Carolina                450,000                   3%
+                   permanent
+                                                                   Massachusetts                 388,000                   3%
+                    residents
+                      24%                                          Maryland                      373,000                   3%
+                                                                   All Other States            4,050,000                  29%
+                                                                  Source: These 2023 data result from MPI analysis of data from
+Note: The “nonimmigrant” category includes refugees and asylees   the 2019–23 ACS, pooled, and the 2008, 2022, and 2023 SIPP,
+who had not yet obtained lawful permanent residence (LPR          weighted to 2023 unauthorized immigrant population estimates
+status, also known as getting a green card).                      provided by Van Hook.
+Source: These 2023 data result from MPI analysis of data from
+the 2019–23 ACS, pooled, and the 2008, 2022, and 2023 SIPP,
+weighted to 2023 unauthorized immigrant population estimates
+                                                                  At the local level, the largest population concentra-
+provided by Van Hook.
+                                                                  tions for unauthorized immigrants were in four of
+                                                                  the largest U.S. metro areas: Los Angeles (Los Ange-
+                                                                  les County), Houston (Harris County), New York City
+8        Traditional Destinations                                 (five counties making up the city: Bronx, Kings, New
+
+         Despite Growing                                          York, Queens, and Richmond), and Chicago (Cook
+                                                                  County).
+         Dispersal
+                                                                  But other localities with sizeable unauthorized
+As in prior years, the unauthorized immigrant popu-               populations could be found beyond the traditional
+lation remained concentrated in a handful of states               immigrant-destination areas, including the Bos-
+that have been traditional migration gateways to the              ton-Cambridge-Newton area, as well as Phoenix
+United States. Of the 13.7 million immigrants living              (Maricopa County).
+
+
+                                             MIGRATION POLICY INSTITUTE | 7
+                                            CHANGING ORIGINS, RISING NUMBERS
+
+
+
+TABLE 4
+Top Ten Counties of Residence of the Unauthorized Immigrant Population, 2023
+                                                           Estimated Number of                  Share of Total Unauthorized
+                      County
+                                                         Unauthorized Immigrants                 Immigrant Population (%)
+ Total                                                                        13,738,000                                     100%
+ Los Angeles County, California                                                 1,101,000                                       8%
+ Harris County, Texas                                                             610,000                                       4%
+ Cook County, Illinois                                                            369,000                                       3%
+ Miami-Dade County, Florida*                                                      356,000                                       3%
+ Dallas County, Texas                                                             319,000                                       2%
+ Boston-Cambridge-Newton, MA**                                                    301,000                                       2%
+ Orange County, California                                                        229,000                                       2%
+ Maricopa County, Arizona                                                         227,000                                       2%
+ Queens County, New York                                                          222,000                                       2%
+ Broward County, Florida                                                          180,000                                       1%
+ All Other Counties                                                             9,824,000                                      72%
+* Miami-Dade County data also include unauthorized immigrants in Monroe County, Florida, due to the process MPI used to construct
+county-level data out of the public use microdata area identifiers available in the ACS individual-level data.
+**Refers to the Boston-Cambridge-Newton Metropolitan Statistical Area (MSA) in Massachusetts based on the 2013 definitions from
+the U.S. Office of Management and Budget. While this MSA generally crosses into New Hampshire, this analysis includes only the
+portion of the MSA in Massachusetts.
+Source: These 2023 data result from MPI analysis of data from the 2019–23 ACS, pooled, and the 2008, 2022, and 2023 SIPP, weighted to
+2023 unauthorized immigrant population estimates provided by Van Hook.
+
+
+
+9        Regions and                                                the earlier period of decline, and stood at 5.5 million
+                                                                    as of mid-2023 (see Table 5). This increase seems to
+         Countries of Origin                                        have been driven by a combination of local concen-
+         of Unauthorized                                            trations of violence and economic instability in Mex-
+                                                                    ico combined with strong U.S. job growth after the
+         Immigrant Population                                       COVID-19 pandemic.
+
+Mexicans have long formed the largest group of                      Most of the recent growth in the overall unautho-
+unauthorized immigrants in the United States, ac-                   rized immigrant population came from countries be-
+counting for 40 percent of the overall unauthorized                 yond Mexico, however. Between 2019 and 2023, the
+immigrant population—down significantly from
+                                                                    unauthorized immigrant population from Central
+their 62 percent share in 2010.5
+                                                                    America increased by 1.7 million, driven primarily by
+
+The Mexican unauthorized immigrant population                       migrants from Honduras and Guatemala. And the
+had been falling ever since the onset of the Great                  South American unauthorized immigrant population
+Recession of 2008-09, hitting a low of 5.3 million in               increased by 729,000, primarily due to large-scale
+2021. Yet, the number of unauthorized Mexican im-                   migration from Venezuela, Colombia, Ecuador, and
+migrants increased in both 2022 and 2023, reversing                 Brazil.
+
+
+
+                                              MIGRATION POLICY INSTITUTE | 8
+                                            CHANGING ORIGINS, RISING NUMBERS
+
+
+
+By region, immigrants from Mexico                  TABLE 5
+and Central America accounted for                  Top Ten Countries of Origin of the Unauthorized Immigrant
+more than two thirds of the total                  Population, 2023
+unauthorized immigrant population                                            Estimated Number      Share of Total
+(see Figure 4). South America was the                 Country of Birth        of Unauthorized Unauthorized Immigrant
+                                                                                 Immigrants       Population (%)
+second largest region of origin, repre-
+senting 12 percent, and Venezuela and               Total                             13,738,000                             100%
+Colombia were the top origin coun-                  Mexico                               5,530,000                             40%
+tries within that region.                           Guatemala                            1,402,000                             10%
+                                                    Honduras                             1,098,000                              8%
+The rest of the world accounted for                 El Salvador                          1,078,000                              8%
+a combined 20 percent of the total                  Venezuela                              486,000                              4%
+unauthorized population. Notably, the
+                                                    Colombia                               351,000                              3%
+Dominican Republic, Canada, the Phil-
+                                                    Philippines                            294,000                              2%
+ippines, and Nigeria were immigrants’
+                                                    Brazil                                 286,000                              2%
+top countries of birth for countries
+                                                    Ecuador                                225,000                              2%
+from regions beyond Mexico/Central
+America and South America.                          Dominican Republic                     212,000                              2%
+                                                    All Other Countries                  2,777,000                             20%
+                                                   Source: These 2023 data result from MPI analysis of data from the 2019–23 ACS,
+                                                   pooled, and the 2008, 2022, and 2023 SIPP, weighted to 2023 unauthorized
+                                                   immigrant population estimates provided by Van Hook.
+FIGURE 4
+Regions of Origin and Top Countries for Unauthorized Immigrants in the United States, 2023
+                                                                      Caribbean, 4%
+                                                                       Dominican Republic, 37%
+                                                                       Haiti, 31%
+                                                                       Cuba, 15%
+                                                                       Jamaica, 10%
+
+                                                                                 South America, 12%
+                                                                                 Venezuela, 29%
+                                                                                 Colombia, 21%
+               Mexico and Central                                                Brazil, 17%
+                 America, 68%                                                    Ecuador, 13%
+                   Mexico, 59%                                                                    Europe, Canada, Oceania, 7%
+                   Guatemala, 15%                                                                 Canada, 17%
+                   Honduras, 12%                                                                  United Kingdom, 15%
+                   El Salvador, 12%                                                               Germany, 11%
+                                                                                                  Poland, 6%
+                                                                                      Asia, 6%
+                                                                                       The Philippines, 34%
+                                                                                       India, 23%
+                                                                  Africa, 3%           China/Hong Kong, 20%
+                                                                  Nigeria, 20%         Korea, 13%
+                                                                  Ghana, 8%
+                                                                  Ethiopia, 8%
+                                                                  Kenya, 7%
+
+Source: These 2023 data result from MPI analysis of data from the 2019–23 ACS, pooled, and the 2008, 2022, and 2023 SIPP, weighted to
+2023 unauthorized immigrant population estimates provided by Van Hook.
+
+                                              MIGRATION POLICY INSTITUTE | 9
+                                            CHANGING ORIGINS, RISING NUMBERS
+
+
+
+
+10 Conclusion                                                       The unauthorized immigrant population likely con-
+                                                                    tinued to grow strongly through mid-2024, based
+                                                                    on high border encounters and continued inflows
+Strong growth in the unauthorized immigrant                         of migrants permitted entry pending a future U.S.
+population in 2022 and 2023, amid record levels of                  immigration court date or granted humanitarian
+encounters at the U.S.-Mexico border, ended a de-                   parole. Beyond mid-2024, that growth likely stalled,
+cade-long period of stasis. Against this backdrop,                  and in 2025, may have even reversed based on the
+                                                                    very low numbers of U.S.-Mexico border encounters,
+the unauthorized immigrant population at the mid-
+                                                                    heavy immigration enforcement inside the country,
+2023 mark was more diverse than ever before. More                   and an overall atmosphere intended to convince
+unauthorized immigrants held some form of tempo-                    would-be migrants not to come and current unau-
+rary protection such as TPS, humanitarian parole, or                thorized immigrants to leave.
+a pending asylum application than in prior periods.
+                                                                    Future data will show how these new dynamics,
+The national origins of the population continued to
+                                                                    alongside a sea change in migration policies across
+diversify. And while many unauthorized immigrants                   the Western Hemisphere, may be affecting the char-
+were recent entrants, far more were long-term resi-                 acteristics of unauthorized immigrants and their dis-
+dents with deep roots in the country.                               tribution across the United States.
+
+
+
+
+    Strong growth in the unauthorized immigrant population in 2022 and 2023,
+    amid record levels of encounters at the U.S.-Mexico border, ended a decade-
+                               long period of stasis.
+
+
+
+
+Endnotes
+1    Migration Policy Institute (MPI) Migration Data Hub, Unauthorized Immigrant Population Profiles, accessed October 5, 2025.
+2    Muzaffar Chishti, Kathleen Bush-Joseph, Colleen Putzel-Kavanaugh, and Madeleine Greene, Biden’s Mixed Immigration Legacy:
+     Border Challenges Overshadowed Modernization Advances, Migration Information Source, December 10, 2024.
+3    For more on ten-year bars, and other bars to marriage-based green cards, see FWD.us, “Three- and Ten-Year Bars: Policy Brief,”
+     March 20, 2025.
+4    Jennifer Van Hook, Ariel G. Ruiz Soto, and Julia Gelatt, The Unauthorized Immigrant Population Expands amid Record U.S.-Mexico
+     Border Arrivals, Migration Policy Institute, February 2025.
+5    Van Hook, Ruiz Soto, and Gelatt, The Unauthorized Immigrant Population Expands amid Record U.S.-Mexico Border Arrivals.
+
+
+
+
+                                              MIGRATION POLICY INSTITUTE | 10
+                         CHANGING ORIGINS, RISING NUMBERS
+
+
+
+
+About the Authors
+           JULIA GELATT
+
+           Julia Gelatt is Associate Director of the U.S. Immigration Policy Program at the Mi-
+           gration Policy Institute (MPI). Her work focuses on the legal immigration system, de-
+           mographic trends, and the implications of local, state, and federal U.S. immigration
+           policy.
+
+           Dr. Gelatt previously worked as a Research Associate at the Urban Institute, where her
+           mixed-methods research focused on state policies toward immigrants; barriers to and
+           facilitators of immigrant families’ access to public benefits and public prekindergarten
+           programs; and identifying youth victims of human trafficking. She was a Research As-
+           sistant at MPI before graduate school.
+
+           Dr. Gelatt earned her PhD in sociology, with a specialization in demography, from
+           Princeton University. She earned a bachelor of the arts in sociology/anthropology
+           from Carleton College.
+
+
+
+           ARIEL G. RUIZ SOTO
+
+           Ariel G. Ruiz Soto is a Senior Policy Analyst at MPI, where he works with the U.S. Immi-
+           gration Policy Program and the Latin America and Caribbean Initiative.
+
+           His research examines the interaction of migration policies in the region that stretch-
+           es from Panama to Canada, as well as their intended and unintended consequences
+           for foreign- and native-born populations. He also analyzes demographic trends across
+           the region and methodological approaches to estimate the unauthorized immigrant
+           population in the United States.
+
+           Mr. Ruiz Soto holds a master’s degree from the University of Chicago’s School of Social
+           Service Administration with an emphasis on immigration policy and service provision,
+           and a bachelor’s degree in sociology from Whitman College.
+
+
+
+           JAMES D. BACHMEIER
+
+           James D. Bachmeier is an Associate Professor in the Department of Sociology at Tem-
+           ple University. His research is focused on patterns of immigrant incorporation in the
+           United States, illegal migration, and the measurement of immigrant legal status. He is
+           an MPI Nonresident Fellow.
+
+           Dr. Bachmeier’s research has been published in leading social science journals, includ-
+           ing Social Forces, Demography, International Migration Review, and Social Science Re-
+
+
+
+                          MIGRATION POLICY INSTITUTE | 11
+                                             CHANGING ORIGINS, RISING NUMBERS
+
+
+
+                           search. He is a member of the American Sociological Association and the Population
+                           Association of America.
+
+                           Prior to joining Temple in 2013, Dr. Bachmeier was a postdoctoral researcher in the
+                           Population Research Institute at The Pennsylvania State University. He received his
+                           Ph.D. in sociology in 2010 from the University of California, Irvine.
+
+
+
+
+Acknowledgments
+The authors are grateful to the Ford Foundation, Unbound Philanthropy, Arnold Ventures, and the Silicon
+Valley Community Foundation for their support for this research and the associated data tool.
+
+They thank Michelle Mittelstadt and her team for expert editing, design, and dissemination of the fact sheet
+and related data profiles. They also thank Jennifer Van Hook for her assistance generating the topline overall,
+region, and country unauthorized immigrant estimates. They thank colleagues Valerie Lacarte and Jeanne
+Batalova for assistance and advice on the broader project.
+
+The Migration Policy Institute is an independent, nonpartisan policy research organization that adheres to
+the highest standard of rigor and integrity in its work. All analysis, recommendations, and policy ideas ad-
+vanced by MPI are solely determined by its researchers.
+
+
+
+
+© 2025 Migration Policy Institute.
+All Rights Reserved.
+
+Design: Sara Staedicke, MPI
+Layout: Katie O’Hara
+
+No part of this publication may be reproduced or transmitted in any form by any means, electronic or mechanical, or included in any
+information storage and retrieval system without permission from the Migration Policy Institute. A full-text PDF of this document is
+available for free download from www.migrationpolicy.org.
+
+Information on reproducing excerpts from this publication can be found at www.migrationpolicy.org/about/copyright-policy. Inqui-
+ries can also be directed to communications@migrationpolicy.org.
+
+Suggested citation: Gelatt, Julia, Ariel G. Ruiz Soto, and James D. Bachmeier. 2025. Changing Origins, Rising Numbers: Unauthorized
+Immigrants in the United States. Washington, DC: Migration Policy Institute.
+
+
+
+                                              MIGRATION POLICY INSTITUTE | 12
+                           www.migrationpolicy.org
+
+
+
+
+            The Migration Policy Institute is an independent,
+nonpartisan think tank that seeks to improve immigration and integration
+ policies through authoritative research and analysis, opportunities for
+             learning and dialogue, and the development of
+            new ideas to address complex policy questions.
+
+
+
+
+                     1275 K St NW, Suite 800, Washington, DC 20005
+                                     202-266-1940
+

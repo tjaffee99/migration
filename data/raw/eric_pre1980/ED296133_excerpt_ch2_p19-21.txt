@@ -1,0 +1,173 @@
+EXCERPT (lines 1-12, 383-396 and 1030-1172 of pdftotext -layout output) of ERIC ED296133: Barry R. Chiswick, Illegal Aliens: Their Employment and Employers (W.E. Upjohn Institute, 1988). Source PDF: https://files.eric.ed.gov/fulltext/ED296133.pdf (fetched 2026-10-18).
+
+                           DOCUMENT RESUME
+
+ED 296 133                                           CE 050 417
+
+AUTHOR           Chiswick, Barry R.
+TITLE            Illegal Aliens: Their Employment and Employers.
+INSTITUTION      Upjohn (W.E.) Inst. for Employment Research,
+                 Kalamazoo, Mich.
+REPORT NO        ISBN-0-88099-058-9
+PUB DATE         88
+NOTE             166p.
+AVAILABLE FROM   W. E. Upjohn Institute for Employment Research, 300
+[...]
+may be outright counterfeit visas or doctored documents. And there
+are those seamen, tourists and airline personnel who literally "jump
+ship" to enter the United States.
+   For obvious reasons the exact number of illegal aliens cannot be
+estimated witn precision. This is a populaCon which seeks to hide its
+identity and to avoid contact with governmental authorities. A
+recent review of various studies that have E ttempted to use indirect
+techniques to estimate the size of the resident illega' alien popula-
+tion suggests that in 1980 there were between 3.5 and 6.0 million,
+about half of whom were Mexican nationals (Siegel, Passel and
+Robinson, 1981). The large illegal alien flows across the border
+since then, deteriorating economic conditions in Mexico, prospects
+for amnesty, and other factors suggest that the number has grown
+since 1980. Since most newly arrived illegal aliens are young adults
+[...]
+I. Who Are the Illegal Aliens?                                                   19
+
+
+
+
+in time. The third step is to take the difference between the "aged"
+population and the estimated total population in the later time
+period. The difference is the estimated number of illegal aliens. A
+major limitation of this methodology is that each statistic, the
+estimated legal population and the estimated total population, is
+measured with error. The difference between two large numbers,
+each of which is estimated with independent random error, is a
+number with substantial measurement error.3
+  Nonetheless, the studies that have attempted to measure the stock
+of the illegal alien population are instructive. After reviewing the
+methodology in several studies, three Census Bureau statisticiars
+(Siegel, Passel and Robinson, 1981) concluded:
+      The total number of illegal residents in the United States in some
+      recent year, say 1978, is almost certainly below 6.0 million, and may
+      be substantially less, possibly only 3.5 to 5.0 million.. .. The Mexican
+      component of the illegally resident population is almost certainly less
+      than 3.0 million and may be substantially less, possibly only 1.5 to 2.5
+      million. The gross movement into the United States of Mexican
+      illegals is considerable, as is reflected in the large numbers of
+      apprehensions made by INS, but this "immigration" is largely offset
+      by a considerable movement in the opposite direction.
+   In a more recent study, Passel and Woodrow (1984) estimated the
+number and characteristics of illegal aliens enumerated in the 1980
+Census of Population. They estimated a total of 2.1 million illegal
+aliens, of whom about 55 percent are Mexican nationals. While the
+Passel and Woodrow estimates are lower than those reported by
+Siegel, Passel, and Robinson, a substantial underenumeration of
+illegal aliens in the census is to be expected. If one-third or one-half
+of the actual number of resident illegal aliens avoided enumeration,
+the Passel and Woodrow estimates would imply 3.1 to 4.2 million
+illegal aliens. Passel and Woodrow also estimated the number of
+illegal aliens by state and within states by certain demographic
+characteristics. Th precision of these estimates necessarily dimin-
+ishes with a smaller degree of aggregation.
+  Since the survey and data analysis in the following chapters refer
+to the Chicago SMSA and since most illegal aliens who reside in
+
+
+                                                            3J
+20                                                          CHAPTER 2
+
+
+Illinois are believed to live in the Chicago SMSA, the Passel ind
+Woodrow estimates for Illinois are particularly relevant. Table 2-3
+compares the data on Illinois with the U.S. as a whole. The
+estimated 135,000 illegal aliens in Illinois is 6.6 percent of the
+estimated total resident illegal alien population. The distribution by
+period of entry and age are very similar in Illinois and for the
+country as a whole. About 45 percent of the illegal aliens arrived
+during 1975-80, 30 percent during 1970-74, and 25 percent before
+ 1970.4 By age, almost two-thirds were 15 to 34 years old in 1980,
+with just under 20 percent less than age 15 and another 20 percent
+age 35 or older. There are somewhat greater differences by country
+of origin. It is estimated that 75 percent of the Illinois illegal aliens
+are from Mexico, compared with 55 percent nationwide. On the
+other hand, Illinois has relatively fewer illegal aliens from other
+Western Hemispheric countries. The proportions of Eastern Hemi-
+sphere illegal aliens are, 16.1 percent for Illinois and 21.9 percent
+nationwide. Thus, the Passel and Woodrow estimates suggest that
+illegal aliens in Illinois have demographic characteristics very
+similar to those of illegal aliens nationwide. The primary difference,
+if any, is a greater proportion of Mexican nationals and a lesser
+proportion of other Western Hemispheric illegal aliens in Illinois.
+
+
+II. Current Immigration Law
+
+     An appreciation of the issues involved in illegal immigration can
+be obtained only within the context of the legal avenues for
+immigration. Illegal immigration, whether permanent or tempo-
+rary, may, but need not, arise when opportunities for legal immi-
+gration are closed.
+     Current immigration law has its basis in the 1965 Amendments to
+the 1952 Immigration and Nationality Act. The 1952 Act was
+largely a recodification of existing law. The 1965 Amendments
+liberalized immigration restrictions facing eastern and southern
+Europe and Asia, but was restrictive with regards to northwestern
+Europe and the Western Hemisphere. The 1965 Amendments
+
+
+
+                              31
+II. Current Immigration Law                                                                 21
+
+
+
+                              Table 2-3
+         Estimated Number and Characteristics of Illegal Aliens
+         Enumerated in the 1980 Census for the U.S. and Illinois
+                                  (Numbers In thousands)
+
+                                                      Illinois                 U.S.
+ Item                                          Number Percent' Number Percent'
+ All illegal aliens
+ Number                                               135        100.0     2,057       100.0
+ Period of entry: 1975-80                              61        45.2        941        45.7
+                         1970-74                       43        31.9        576        28.0
+                         Before 1970                   32        23.7        540        26.3
+ Country of              Mexico                       101        74.8      1,131        55.0
+ origin:                 Other W. Hem.                 12         8.9        477        23.2
+                         Europe                         9         6.7        150         7.3
+                         Asia                          10         7.4        213        10.4
+                         Other                           3        2.0         86         4.2
+ Age:                    Under 15
+                         15-34 years
+                                                                 16.0
+                                                                 64.7
+                                                                               -         18.1
+                                                                                        62.2
+                         35 years & older                        19.3                   17.8
+Sex ratio                Under 15                                50.7
+(percent male)           15-34 years                             58.8                   51.7
+by age:
+
+Mexican illegal aliens
+                         35 years & older
+                         All ages
+                                                                 56.7
+                                                                 57.3         -         55.4
+                                                                                        53.3
+
+
+Age:                     Under 15                                17.8                   21.3
+                         15-34 years                             64.2                   63.0
+                         35 years & older                        18.0                   15.7
+Sex ratio                Under 15                                50.5                   50.5
+(percent male)           15-34 years                             60.8                   57.4
+by age:                 35 years & older                         57.8         ---       50.2
+                        All ages                                 58.3                   55.0
+
+SOURCE: Jeffrey S. Passel and Karen A. Woodrow "Geographic Distribution of Undocu-
+mented Immigrants: Estimates of Undocumented Aliens Counted in the 1980 Census by
+State," International Migration Review. Vol 18 (3), Fall 1984, pp. 642-671.
+
+NOTE: - designates the data not reported in the source.
+a. With the exception of the sex ratio, for each category the sum of the entries totals to 100
+   percent, except tor rounding.
+

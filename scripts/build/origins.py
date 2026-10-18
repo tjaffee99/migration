@@ -165,6 +165,9 @@ ALIASES = {
     "saint kitts-nevis": "KNA", "serbia and montenegro": "SCG", "eswatini (formerly swaziland)": "SWZ",
     "north macedonia (formerly macedonia)": "MKD",
     "russia and lithuania": "SUN", "jugo-slavia": "YUG",
+    "portugal excluding azores": "PRT", "myanmar (burma)": "MMR", "zaire": "COD", "st kitts--nevis": "KNA",
+    "fmr czechoslovakia": "CSK", "fmr ussr": "SUN", "fmr yugoslavia": "YUG", "uk": "GBR",
+    "micronesia (federated states)": "FSM",
     "west indies": "XCB", "atlantic islands": "XAF", "born at sea": "XNS",
     "foreign born races other than white (country of birth not tabulated)": "XNT",
 }
