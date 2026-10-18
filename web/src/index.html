@@ -1,0 +1,117 @@
+<title>Atlas of Arrivals</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Interactive map of migration to what is now the United States, every year from 1607 to 2024, by country of origin.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Big+Shoulders:wght@600;700;800&family=Big+Shoulders+Stencil:wght@800&family=Public+Sans:wght@400;500;600;700&display=swap">
+<!--CSS-->
+<div class="wrap">
+  <header class="masthead">
+    <div class="brand">
+      <h1>Atlas of Arrivals</h1>
+      <span class="sub">Migration to what is now the United States, every year from <span id="y-start">1607</span> to <span id="y-end">2024</span></span>
+    </div>
+    <div class="year num" id="year" aria-live="polite">1607</div>
+    <div class="headline">
+      <p class="lede" id="lede">Loading…</p>
+      <p class="context" id="context"></p>
+    </div>
+  </header>
+
+  <nav class="controls" aria-label="Timeline">
+    <button class="btn" id="play" aria-pressed="false" type="button">
+      <svg viewBox="0 0 16 16" aria-hidden="true"><path id="play-icon" d="M4 2.5v11l9-5.5z"/></svg>
+      <span id="play-label">Play</span>
+    </button>
+    <span class="stepper">
+      <button class="btn" id="back" type="button" aria-label="Previous year">&#8722;1</button>
+      <button class="btn" id="fwd" type="button" aria-label="Next year">+1</button>
+    </span>
+    <div class="slider-box">
+      <label class="sr-only" for="slider">Year</label>
+      <input class="slider" id="slider" type="range" min="1607" max="2024" step="1" value="1607">
+      <div class="ticks" id="ticks" aria-hidden="true"></div>
+    </div>
+    <label class="speed" for="speed">Speed
+      <select id="speed">
+        <option value="400">Slow</option>
+        <option value="160" selected>Normal</option>
+        <option value="60">Fast</option>
+      </select>
+    </label>
+  </nav>
+
+  <section class="main">
+    <article class="card" id="map-card">
+      <div class="card-head">
+        <h2 id="map-title">Where immigrants lived</h2>
+        <div class="seg" role="group" aria-label="Map shows" id="map-mode">
+          <button type="button" data-mode="share" aria-pressed="true">Share born abroad</button>
+          <button type="button" data-mode="origin" aria-pressed="false" id="mode-origin">Born in…</button>
+          <button type="button" data-mode="pop" aria-pressed="false">Population</button>
+        </div>
+      </div>
+      <div class="map-box" id="usmap"></div>
+      <div class="legend" id="us-legend"></div>
+      <p class="map-note" id="map-note"></p>
+    </article>
+
+    <aside class="card ledger" id="ledger" aria-labelledby="ledger-title">
+      <div class="card-head">
+        <h2 id="ledger-title">Arrivals in <span id="ledger-year">1607</span></h2>
+        <span class="pill" id="flow-basis"><i></i><span>—</span></span>
+      </div>
+      <div class="total"><span class="big num" id="flow-total">—</span><span class="unit" id="flow-unit">people arrived</span></div>
+      <div class="compbar" id="compbar" aria-hidden="true"></div>
+      <div class="groups" id="groups"></div>
+      <div class="search">
+        <label class="sr-only" for="q">Find an origin</label>
+        <input id="q" type="search" placeholder="Find a country or region" autocomplete="off">
+      </div>
+      <div class="olist" id="olist" role="list"></div>
+      <button class="btn more" id="more" type="button">Show all origins</button>
+      <div class="detail" id="detail" hidden></div>
+    </aside>
+  </section>
+
+  <section class="card comp" id="comp-card">
+    <div class="card-head">
+      <h2 id="comp-title">Where arrivals came from, 1607–2024</h2>
+      <div style="display:flex; gap:8px; flex-wrap:wrap">
+        <div class="seg" role="group" aria-label="Series" id="comp-series">
+          <button type="button" data-series="flow" aria-pressed="true">Arrivals each year</button>
+          <button type="button" data-series="stock" aria-pressed="false">Immigrants living in the US</button>
+        </div>
+        <div class="seg" role="group" aria-label="Scale" id="comp-scale">
+          <button type="button" data-scale="share" aria-pressed="true">Share</button>
+          <button type="button" data-scale="count" aria-pressed="false">Number</button>
+        </div>
+      </div>
+    </div>
+    <div id="comp"></div>
+    <div class="legend" id="comp-legend"></div>
+  </section>
+
+  <section class="world-row">
+    <article class="card" id="world-card">
+      <div class="card-head">
+        <h2>Origins of <span id="world-year">1607</span> arrivals</h2>
+        <span class="pill" id="world-basis"><i></i><span>—</span></span>
+      </div>
+      <div class="map-box" id="world"></div>
+      <div class="legend" id="world-legend"></div>
+      <p class="map-note" id="world-note"></p>
+    </article>
+    <article class="card" id="events-card">
+      <div class="card-head"><h2>Turning points</h2></div>
+      <div class="events" id="events"></div>
+    </article>
+  </section>
+
+  <section class="card about" id="about"></section>
+</div>
+<div class="tip" id="tip" hidden></div>
+<!--DATA-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/topojson/3.0.2/topojson.min.js"></script>
+<!--JS-->

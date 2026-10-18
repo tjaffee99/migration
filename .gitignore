@@ -1,0 +1,6 @@
+# Raw downloads are large and regenerable with the fetch scripts in scripts/*/ (URLs in data/processed/sources_*.csv)
+data/raw/
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
