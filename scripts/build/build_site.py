@@ -34,7 +34,8 @@ KEY_OVERRIDES = {
 def geo_bundle():
     us = load(GEO / "us_historical.topo.json")
     years = load(GEO / "us_historical_years.json")["years"]
-    world = load(GEO / "world.topo.json")
+    # 1:50m countries: the base land layer and the fallback borders, detailed enough to zoom into
+    world = load(GEO / "world_50m.topo.json")
     geoms = us["objects"]["jurisdictions"]["geometries"]
     for g in geoms:
         p = g["properties"]

@@ -50,7 +50,7 @@
   const unAt = (id, i) => (unBy[id] ? unBy[id][i] : 0);
   const HAS_UN = Object.keys(unBy).length > 0;
 
-  const flowGroups = []; // per year: {year, g: legal, "g~u": unauthorized}
+  const flowGroups = []; // per year: {year, g: legal, "g~u": illegal (estimated)}
   for (let i = 0; i < NY; i++) {
     const row = { year: Y0 + i };
     for (const g of groups) { row[g.id] = 0; row[g.id + "~u"] = 0; }
@@ -211,15 +211,50 @@
 
   const mapBox = $("map");
   const svg = d3.select(mapBox).append("svg");
-  const gLand = svg.append("g");
-  const gPol = svg.append("g");
-  const gUS = svg.append("g");
-  const gArrows = svg.append("g");
-  const gFlow = svg.append("g");
-  const gDonut = svg.append("g").attr("class", "donut");
-  const gLabels = svg.append("g");
-  const gHit = svg.append("g");
+  const gZoom = svg.append("g");
+  const gLand = gZoom.append("g");
+  const gPol = gZoom.append("g");
+  const gUS = gZoom.append("g");
+  const gArrows = gZoom.append("g");
+  const gFlow = gZoom.append("g");
+  const gDonut = gZoom.append("g").attr("class", "donut");
+  const gLabels = gZoom.append("g");
+  const gHit = gZoom.append("g");
   let proj, path, W = 1200, H = 600, wMax = 40, rMax = 50, treeCen = {};
+  // zoom: drag to pan; pinch, Ctrl/⌘+scroll, double-click or the buttons to zoom
+  let zt = d3.zoomIdentity;
+  let last = null; // the latest drawn year's map state, for redrawing labels while zooming
+  let zRaf = 0;
+  const zoom = d3.zoom().scaleExtent([1, 10]).clickDistance(4)
+    // on touch screens one finger scrolls the page until the map is zoomed in; two fingers zoom
+    .filter((e) => (e.type === "wheel" ? e.ctrlKey || e.metaKey : e.type === "touchstart" ? e.touches.length > 1 || zt.k > 1 : !e.button))
+    .on("zoom", (e) => {
+      zt = e.transform;
+      gZoom.attr("transform", zt);
+      svg.style("touch-action", zt.k > 1 ? "none" : "pan-y");
+      if (!zRaf) zRaf = requestAnimationFrame(() => { zRaf = 0; if (last) { drawDonutLabels(); drawLabels(); } });
+    });
+  svg.call(zoom);
+  const zoomBy = (f) => svg.transition().duration(250).call(zoom.scaleBy, f);
+  const zoomReset = () => svg.transition().duration(300).call(zoom.transform, d3.zoomIdentity);
+  function zoomToUS() {
+    if (!last) return;
+    const k = clamp((Math.min(W, H) * 0.32) / (last.r || 20), 2, 10);
+    const [cx, cy] = last.C;
+    svg.transition().duration(450).call(zoom.transform, d3.zoomIdentity.translate(W / 2 - cx * k, H / 2 - cy * k).scale(k));
+  }
+  {
+    const ctl = el("div", "zoom-ctl");
+    for (const [label, aria, fn] of [["+", "Zoom in", () => zoomBy(1.6)], ["−", "Zoom out", () => zoomBy(1 / 1.6)], ["US", "Zoom to the United States and its population circle", zoomToUS], ["⟲", "Reset zoom", zoomReset]]) {
+      const b = el("button", null, label);
+      b.type = "button";
+      b.setAttribute("aria-label", aria);
+      b.title = aria;
+      b.addEventListener("click", fn);
+      ctl.append(b);
+    }
+    mapBox.append(ctl);
+  }
   const motion = !matchMedia("(prefers-reduced-motion: reduce)").matches;
   const polPath = new Map(), usPath = new Map(), usCen = new Map();
 
@@ -232,6 +267,9 @@
     proj.translate([proj.translate()[0], proj.translate()[1] - b[0][1] + pad]);
     H = Math.ceil(b[1][1] - b[0][1] + pad * 2);
     svg.attr("viewBox", `0 0 ${W} ${H}`);
+    zoom.extent([[0, 0], [W, H]]).translateExtent([[0, 0], [W, H]]);
+    zt = d3.zoomIdentity;
+    svg.call(zoom.transform, zt);
     wMax = clamp(W / 28, 12, 44);
     rMax = clamp(W / 22, 14, 58);
     polPath.clear(); usPath.clear(); usCen.clear();
@@ -410,6 +448,7 @@
     const C = usCentre(y);
     const r = St && St.pop ? clamp(rMax * Math.sqrt(St.pop / POP_MAX), 9, rMax) : 9;
     drawDonut(y, St, C, r);
+    drawDonutLabels();
 
     const trees = buildTrees(y, C, r);
     const dimB = (id) => (S.origin && id !== S.origin ? 0.12 : null);
@@ -441,7 +480,8 @@
       .on("pointerenter", (evt, b) => showOriginTip(evt, b.id, byId, approx))
       .on("pointermove", moveTip).on("pointerleave", hideTip)
       .on("click", (evt, b) => selectOrigin(S.origin === b.id ? null : b.id));
-    drawLabels(F, approx, C, r);
+    last = { F, approx, C, r, St, y };
+    drawLabels();
     drawKey(y, trees, F);
   }
 
@@ -467,9 +507,20 @@
       .attr("fill-opacity", (a) => (S.origin && a.data.id !== S.origin && a.data.id !== "_native" ? 0.35 : 1))
       .on("pointerenter", (evt, a) => showDonutTip(evt, a.data, St))
       .on("pointermove", moveTip).on("pointerleave", hideTip)
-      .on("click", (evt, a) => { if (originById[a.data.id]) selectOrigin(S.origin === a.data.id ? null : a.data.id); });
+      .on("click", (evt, a) => {
+        if (originById[a.data.id]) selectOrigin(S.origin === a.data.id ? null : a.data.id);
+        else if (zt.k < 2) zoomToUS();
+      });
     gDonut.selectAll("circle.ring").data(segs.length ? [] : [0]).join("circle").attr("class", "ring").attr("r", r);
-    // caption above the circle
+    donutArcs = { arcs, r, St, y };
+  }
+  let donutArcs = null;
+  // caption above the circle, and slice labels once the circle is large on screen; sizes are
+  // divided by the zoom so text stays the same size while the circle grows
+  function drawDonutLabels() {
+    if (!donutArcs) return;
+    const { arcs, r, St, y } = donutArcs;
+    const k = zt.k;
     const name = y < 1776 ? "Colonies" : "United States";
     const cap = St && St.pop ? [`${name} · ${compact(St.pop)}`, `${pct(Math.min(St.total, St.pop) / St.pop)} born abroad${St.kind === "model" ? " (modelled)" : ""}`] : [name, ""];
     const t = gDonut.selectAll("text.donut-label").data([0]).join((enter) => {
@@ -478,28 +529,52 @@
       tx.append("tspan").attr("class", "v");
       return tx;
     });
-    t.attr("y", -r - 20);
+    t.attr("y", -r - 20 / k).style("font-size", 11.5 / k + "px").style("stroke-width", 3 / k + "px");
     t.select("tspan.n").attr("x", 0).text(cap[0]);
     t.select("tspan.v").attr("x", 0).attr("dy", "1.15em").text(cap[1]);
+    const onScreen = r * k;
+    const total = St && St.pop ? St.pop : 1;
+    const want = onScreen < 70 ? [] : arcs.filter((a) => a.endAngle - a.startAngle > (onScreen > 160 ? 0.05 : 0.12));
+    // outside labels, kept apart vertically on each side
+    const placed = { l: [], r: [] };
+    const fs = 10.5 / k, gap = 12.5 / k;
+    const out = [];
+    for (const a of want.sort((p, q) => (q.endAngle - q.startAngle) - (p.endAngle - p.startAngle))) {
+      const mid = (a.startAngle + a.endAngle) / 2;
+      const x = Math.sin(mid) * (r + 6 / k), yy = -Math.cos(mid) * (r + 6 / k);
+      const side = x >= 0 ? "r" : "l";
+      if (placed[side].some((py) => Math.abs(py - yy) < gap)) continue;
+      placed[side].push(yy);
+      const nm = a.data.id === "_native" ? "Born in the US" : a.data.id === "_rest" ? "Other, not broken down" : originById[a.data.id].short || originById[a.data.id].name;
+      out.push({ id: a.data.id, x, y: yy, side, text: `${nm} ${pct(a.data.v / total)}` });
+    }
+    gDonut.selectAll("text.slice").data(out, (d) => d.id).join("text").attr("class", "slice")
+      .attr("x", (d) => d.x).attr("y", (d) => d.y).attr("dy", "0.35em")
+      .attr("text-anchor", (d) => (d.side === "r" ? "start" : "end"))
+      .style("font-size", fs + "px").style("stroke-width", 3 / k + "px").text((d) => d.text);
   }
 
-  function drawLabels(F, approx, C, r) {
-    const cands = F.list.filter((d, k) => originById[d.id].at && !originById[d.id].residual && (k < 3 || d.v >= 0.015 * (F.total || 0)));
+  function drawLabels() {
+    const { F, approx, C, r } = last;
+    const k = zt.k;
+    const cands = F.list.filter((d, j) => originById[d.id].at && !originById[d.id].residual && (j < 3 || d.v >= (k > 2 ? 0.002 : 0.015) * (F.total || 0)));
     const order = S.origin ? cands.filter((c) => c.id === S.origin).concat(cands.filter((c) => c.id !== S.origin)) : cands;
-    const max = W < 640 ? 3 : 8;
-    const placed = [[C[0] - 70, C[1] - r - 34, C[0] + 70, C[1] + r]]; // keep clear of the US circle and its caption
+    const max = Math.round((W < 640 ? 3 : 8) * Math.min(5, k));
+    const sc = zt.apply(C);
+    const placed = [[sc[0] - 70, sc[1] - r * k - 34, sc[0] + 70, sc[1] + r * k]]; // keep clear of the US circle and its caption
     const out = [];
     for (const c of order) {
       if (out.length >= max) break;
       const o = originById[c.id];
       const p = proj(o.at);
       if (!p) continue;
+      const q = zt.apply(p);
       const name = o.short || o.name;
       const val = fmtCount(c.v, approx || c.un > 0);
       const wpx = Math.max(name.length * 6.6, val.length * 6) + 6;
-      const box = [p[0] - wpx / 2, p[1] - 30, p[0] + wpx / 2, p[1] - 4];
-      if (box[0] < 0 || box[2] > W || box[1] < 0) continue;
-      if (placed.some((q) => !(box[2] < q[0] || box[0] > q[2] || box[3] < q[1] || box[1] > q[3]))) continue;
+      const box = [q[0] - wpx / 2, q[1] - 30, q[0] + wpx / 2, q[1] - 4];
+      if (box[0] < 0 || box[2] > W || box[1] < 0 || box[3] > H) continue;
+      if (placed.some((z) => !(box[2] < z[0] || box[0] > z[2] || box[3] < z[1] || box[1] > z[3]))) continue;
       placed.push(box);
       out.push({ id: c.id, x: p[0], y: p[1], name, val });
     }
@@ -509,7 +584,7 @@
       tx.append("tspan").attr("class", "v");
       return tx;
     });
-    t.attr("x", (d) => d.x).attr("y", (d) => d.y - 18);
+    t.attr("x", (d) => d.x).attr("y", (d) => d.y - 18 / k).style("font-size", 11.5 / k + "px").style("stroke-width", 3 / k + "px");
     t.select("tspan.n").attr("x", (d) => d.x).text((d) => d.name);
     t.select("tspan.v").attr("x", (d) => d.x).attr("dy", "1.15em").text((d) => d.val);
   }
@@ -556,8 +631,9 @@
     key.append(seg);
     const notes = [];
     if (trees.some((t) => t.forced > 0)) notes.push("Arrows from Africa carry enslaved people brought by force.");
-    if (F.un > 0) notes.push("Widths include estimated unauthorized arrivals.");
+    if (F.un > 0) notes.push("Widths include estimated illegal immigration.");
     notes.push("The circle is the US population: grey born in the US, colors born abroad by birthplace.");
+    notes.push("Drag to pan; pinch, Ctrl/⌘ + scroll or double-click to zoom.");
     key.append(el("span", "note", notes.join(" ")));
   }
 
@@ -571,7 +647,7 @@
       if (o.forced) tipRow(t, color[o.group], "Enslaved people landed", fmtCount(d.v, true));
       else {
         tipRow(t, color[o.group], d.un ? "Arrived legally" : "Arrived in " + S.year, fmtCount(d.legal, approx));
-        if (d.un) tipRow(t, null, "Unauthorized (estimate)", fmtCount(d.un, true));
+        if (d.un) tipRow(t, null, "Illegal (estimate)", fmtCount(d.un, true));
       }
       if (F.total) t.append(el("div", "note", pct(d.v / F.total) + " of all arrivals in " + S.year));
       if (o.note) t.append(el("div", "note", o.note));
@@ -582,7 +658,7 @@
       t.append(el("h4", null, treeName(tr.key)));
       tipRow(t, null, "Arrivals in " + S.year, fmtCount(tr.total, approx || tr.un > 0));
       if (tr.forced) t.append(el("div", "note", `Including ${fmtInt(roundEst(tr.forced))} enslaved people brought by force.`));
-      if (tr.un) t.append(el("div", "note", `Including an estimated ${fmtInt(roundEst(tr.un))} unauthorized arrivals.`));
+      if (tr.un) t.append(el("div", "note", `Including an estimated ${fmtInt(roundEst(tr.un))} illegal immigrants.`));
       for (const b of tr.branches.slice().sort((a, b2) => b2.v - a.v).slice(0, 6)) tipRow(t, color[originById[b.id].group], originById[b.id].name, fmtCount(b.v, approx || b.un > 0));
     });
   }
@@ -698,7 +774,7 @@
       rc.setAttribute("width", 10); rc.setAttribute("height", 10); rc.setAttribute("rx", 2);
       rc.setAttribute("fill", "url(#hatch-see)");
       sv.append(rc);
-      sp.append(sv, document.createTextNode("Hatched: unauthorized (estimated)"));
+      sp.append(sv, document.createTextNode("Hatched: illegal immigration (estimated)"));
       leg.append(sp);
     }
     moveCursor();
@@ -719,7 +795,7 @@
         if (v > 0) tipRow(t, color[g.id], g.name, (S.chartScale === "share" ? pct(v / tot) + " · " : "") + compact(v));
       }
       const un = S.series === "flow" ? d3.sum(groups, (g) => row[g.id + "~u"] || 0) : 0;
-      t.append(el("div", "note", (S.series === "flow" ? "Arrivals: " : "Born abroad: ") + fmtInt(Math.round(tot)) + (un ? ` (≈${fmtInt(roundEst(un))} unauthorized)` : "") + ". Click to go to " + yy + "."));
+      t.append(el("div", "note", (S.series === "flow" ? "Arrivals: " : "Born abroad: ") + fmtInt(Math.round(tot)) + (un ? ` (≈${fmtInt(roundEst(un))} illegal)` : "") + ". Click to go to " + yy + "."));
     });
   }
 
@@ -746,7 +822,7 @@
       const b = el("button", "orow");
       b.type = "button";
       b.setAttribute("aria-pressed", String(S.origin === d.id));
-      if (d.un) b.title = `${fmtCount(d.legal, approx)} legal, ≈${fmtInt(roundEst(d.un))} unauthorized (estimate)`;
+      if (d.un) b.title = `${fmtCount(d.legal, approx)} legal, ≈${fmtInt(roundEst(d.un))} illegal (estimate)`;
       const vl = el("span", "vl", d.v ? fmtCount(d.v, approx || d.un > 0) : "–");
       if (d.v && F.total) vl.append(el("small", null, pct(d.v / F.total)));
       const bar = el("span", "bar");
@@ -834,7 +910,7 @@
         txt("About ");
         strong(fmtInt(roundEst(F.total)));
         txt(` people arrived in ${y}: `);
-        txt(F.legal ? `${fmtInt(est ? roundEst(F.legal) : F.legal)} legally and an estimated ${fmtInt(roundEst(F.un))} without authorization. ` : `an estimated ${fmtInt(roundEst(F.un))} without authorization (legal arrivals not yet published). `);
+        txt(F.legal ? `${fmtInt(est ? roundEst(F.legal) : F.legal)} legally and an estimated ${fmtInt(roundEst(F.un))} illegally. ` : `an estimated ${fmtInt(roundEst(F.un))} illegally (legal arrivals not yet published). `);
       } else {
         const n = est ? roundEst(F.total) : F.total;
         txt(est ? "About " : "");
@@ -858,7 +934,7 @@
     if (St && St.pop) { txt(St.kind === "census" || St.kind === "acs" ? "" : "About "); strong(pct(Math.min(St.total, St.pop) / St.pop)); txt(" of residents were born abroad."); }
     const b = $("basis");
     b.className = "basis " + bi.cls;
-    b.replaceChildren(el("i"), document.createTextNode(bi.label + (F.un > 0 ? " · unauthorized estimated" : "")));
+    b.replaceChildren(el("i"), document.createTextNode(bi.label + (F.un > 0 ? " · illegal immigration estimated" : "")));
     b.title = bi.long || "";
     const ev = currentEvent(y, 12);
     const ctx = $("context");

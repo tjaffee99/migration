@@ -127,8 +127,8 @@ button, input { font: inherit; color: inherit; }
 
 /* ---------- map ---------- */
 .map { margin: 0; display: grid; gap: 8px; }
-.map-box { position: relative; width: 100%; }
-.map-box svg { display: block; width: 100%; height: auto; overflow: visible; }
+.map-box { position: relative; width: 100%; overflow: hidden; border-radius: 6px; }
+.map-box svg { display: block; width: 100%; height: auto; overflow: hidden; }
 .land-base { fill: var(--land); }
 .polity { stroke: var(--border); stroke-width: 0.6; stroke-linejoin: round; }
 .us-jur { fill: var(--us); stroke: var(--border); stroke-width: 0.35; pointer-events: none; }
@@ -250,3 +250,15 @@ button, input { font: inherit; color: inherit; }
   .flow { animation: none; display: none; }
   .branch, .trunk, .head-tri { transition: none; }
 }
+
+/* ---------- zoom ---------- */
+.map-box svg { cursor: grab; touch-action: pan-y; }
+.map-box svg:active { cursor: grabbing; }
+.polity, .us-jur, .donut path, .land-base { vector-effect: non-scaling-stroke; }
+.donut .slice { fill: var(--ink); pointer-events: none; paint-order: stroke; stroke: var(--bg); stroke-linejoin: round; }
+.zoom-ctl { position: absolute; left: 8px; top: 8px; display: grid; gap: 4px; }
+.zoom-ctl button {
+  width: 30px; height: 30px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg);
+  color: var(--ink); cursor: pointer; font-size: 14px; line-height: 1; padding: 0; opacity: 0.92;
+}
+.zoom-ctl button:hover { border-color: var(--ink-2); opacity: 1; }
