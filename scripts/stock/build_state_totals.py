@@ -110,12 +110,20 @@ def wp29_t13_check(rows81):
                     r81 = alt[0]
                 else:
                     r81 = idx[key]
+                if fb is None:
+                    continue   # footnote cell (area shown with another state)
                 if fb == r81['foreign_born']:
                     eq += 1
                 else:
                     diff += 1
                     msgs.append('WP29 T13 vs WP81 T14 %s %s FB: %s vs %s' % (nm, y, fb, r81['foreign_born']))
     return ['WP29 T13 vs WP81 T14 foreign-born: %d equal, %d differ' % (eq, diff)] + msgs
+
+
+def find_fb(labels):
+    hits = [n for n, p in labels.items() if len(p) == 1 and p[0] in ('Foreign born', 'Foreign-born')]
+    assert len(hits) == 1, hits
+    return hits[0]
 
 
 def find_var(labels, want):
@@ -132,7 +140,7 @@ def acs_totals():
         if year <= 2009:
             labels = acs_read.load_groups(os.path.join(RAW, 'acs_sf_2005_2009',
                                                        'groups_acs1_%d_B05002.json' % year), 'B05002')
-            vt, vf = find_var(labels, ()), find_var(labels, ('Foreign born',))
+            vt, vf = find_var(labels, ()), find_fb(labels)
             recs = acs_read.load_sf_table(year, 'B05002')
             for d, rec in recs.items():
                 st = rec['stusab']
@@ -150,7 +158,7 @@ def acs_totals():
         else:
             labels = acs_read.load_groups(os.path.join(RAW, 'acs1_api', 'groups_acs1_%d_B05002.json' % year),
                                           'B05002')
-            vt, vf = find_var(labels, ()), find_var(labels, ('Foreign born',))
+            vt, vf = find_var(labels, ()), find_fb(labels)
             d = acs_read.load_api_table(os.path.join(RAW, 'acs1_api', 'ACSDT1Y%d_B05002_states.json' % year),
                                         'B05002')
             n = acs_read.load_api_table(os.path.join(RAW, 'acs1_api', 'ACSDT1Y%d_B05002_us.json' % year),

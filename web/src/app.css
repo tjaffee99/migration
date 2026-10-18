@@ -9,8 +9,8 @@
   --line: #d9e0e7;
   --line-strong: #b8c2cc;
   --land: #e3e8ec;
-  --land-out: #d5dce2;
-  --nodata: #c9d1d8;
+  --land-out: #e7ebef;
+  --nodata: #c3ccd5;
   --water: #eef2f5;
   --focus: #1c5cab;
   --chip: #e4e9ee;
@@ -35,7 +35,7 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #0c1116; --panel: #131a21; --ink: #edf1f4; --ink-2: #b8c2cc; --muted: #84909c;
-    --line: #232d37; --line-strong: #364350; --land: #1d252d; --land-out: #171e25; --nodata: #2a333c;
+    --line: #232d37; --line-strong: #364350; --land: #1d252d; --land-out: #141a20; --nodata: #2c3640;
     --water: #0c1116; --focus: #6da7ec; --chip: #1d252d;
     --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500;
     --s5: #d55181; --s6: #008300; --s7: #9085e9; --s8: #e66767; --s9: #6b6c67;
@@ -46,7 +46,7 @@
 }
 :root[data-theme="dark"] {
   --bg: #0c1116; --panel: #131a21; --ink: #edf1f4; --ink-2: #b8c2cc; --muted: #84909c;
-  --line: #232d37; --line-strong: #364350; --land: #1d252d; --land-out: #171e25; --nodata: #2a333c;
+  --line: #232d37; --line-strong: #364350; --land: #1d252d; --land-out: #141a20; --nodata: #2c3640;
   --water: #0c1116; --focus: #6da7ec; --chip: #1d252d;
   --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500;
   --s5: #d55181; --s6: #008300; --s7: #9085e9; --s8: #e66767; --s9: #6b6c67;
@@ -189,7 +189,7 @@ button, input, select { font: inherit; color: inherit; }
 .jur:hover, .jur.hl { stroke: var(--ink); stroke-width: 1.4; }
 .nation-out { fill: var(--land-out); stroke: var(--line-strong); stroke-width: 0.6; }
 .maplabel { font-size: 10.5px; font-weight: 600; pointer-events: none; paint-order: stroke; stroke-width: 3px; stroke-linejoin: round; }
-.landing { fill: var(--s4); fill-opacity: 0.85; stroke: var(--panel); stroke-width: 2; }
+.landing { fill: var(--s4); fill-opacity: 0.72; stroke: var(--panel); stroke-width: 2; }
 .landing-label { font-size: 10.5px; fill: var(--ink); font-weight: 600; paint-order: stroke; stroke: var(--panel); stroke-width: 3px; pointer-events: none; }
 
 /* ---------- Ledger (arrivals this year) ---------- */
@@ -267,6 +267,10 @@ button, input, select { font: inherit; color: inherit; }
 .about p, .about li { max-width: 78ch; color: var(--ink-2); }
 .about ul { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; }
 .table-scroll { overflow-x: auto; }
+.about details { display: grid; gap: 10px; }
+.about summary { cursor: pointer; list-style-position: outside; }
+.about summary h2 { display: inline; }
+.about details[open] summary { margin-bottom: 10px; }
 .about table { border-collapse: collapse; font-size: 13px; min-width: 640px; }
 .about th, .about td { text-align: left; padding: 6px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
 .about th { color: var(--muted); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; }

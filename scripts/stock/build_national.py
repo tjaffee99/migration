@@ -11,10 +11,10 @@ Cross-checks against WP29 tables 3/4 are printed (census_wp29/table03.xlsx, tabl
 
 Usage: python3 -I scripts/stock/build_national.py
 """
-import csv, os, sys
+import csv, os, re, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import xlrd, openpyxl  # noqa: E402
-from stocklib import (Node, reparent, build_tree_from_depths, build_tree_from_paths, finalize_tree,  # noqa
+from stocklib import (Node, reparent, tree_rows, build_tree_from_depths, build_tree_from_paths, finalize_tree,  # noqa
                       check_partition, parse_num, clean_label, indent_depth)
 import acs_read  # noqa: E402
 
@@ -165,21 +165,8 @@ def acs_tree_from_labels(labels, est, moe):
 
 
 def acs_rows(labels, est, moe, source_id, year):
-    root, index, _ = acs_tree_from_labels(labels, est, moe)
-    # moe by node
-    moe_by_node = {}
-    for n, path in labels.items():
-        node = root if not path else index[tuple(path)]
-        moe_by_node[id(node)] = moe.get(n)
-    rr = finalize_tree(root, 'v', source_id, warn=WARN)
-    # attach moe by matching label + parent (labels unique within the ACS tree)
-    lab2moe = {}
-    for node in root.walk():
-        lab2moe[node.label] = moe_by_node.get(id(node))
+    rr = tree_rows(labels, est, moe, source_id, warn=WARN)
     for r in rr:
-        r['moe'] = '' if r['source_id'].endswith('_derived') else lab2moe.get(r['origin_label'], '')
-        if r['moe'] is None:
-            r['moe'] = ''
         r['year'] = year
     unique_labels_check(rr, year)
     return rr
@@ -205,6 +192,77 @@ def check_sf_labels(year, labels):
             if bad < 5:
                 WARN.append('SF %d line %d title %r vs API label %r' % (year, ln, t, last))
     return bad
+
+
+EUROPE_1950 = ['England and Wales', 'Scotland', 'Northern Ireland', 'Ireland (Eire)', 'Norway', 'Sweden',
+               'Denmark', 'Netherlands', 'Belgium', 'Switzerland', 'France', 'Germany', 'Poland',
+               'Czechoslovakia', 'Austria', 'Hungary', 'Yugoslavia', 'U.S.S.R.', 'Lithuania', 'Finland',
+               'Rumania', 'Greece', 'Italy', 'Spain', 'Portugal', 'Other Europe']
+
+
+def national_1940_1950():
+    """1940 and 1950 country of birth -- tabulated for the foreign-born WHITE population only.
+    Values: manual transcription of 1950 Census Vol. II Part 1 Table 49 (see the csv header).
+    Total foreign born from WP81 Table 1; the non-white remainder is WP81 Table 9 (1940) or
+    total minus white (1950, derived).  UK / Canada / Europe / Americas rows are sums of the
+    transcribed parts (source_id ..._derived)."""
+    fn = os.path.join(RAW, 'census1950_v2p1', 'table49_transcribed_fbwhite_1950_1940.csv')
+    rows = [r for r in csv.reader(open(fn)) if r and not r[0].startswith('#')]
+    hdr, rows = rows[0], rows[1:]
+    sh1 = xlrd.open_workbook(os.path.join(RAW, 'census_wp81', 'tab01.xls')).sheet_by_index(0)
+    tot_fb = {}
+    for r in range(sh1.nrows):
+        lab = str(sh1.cell_value(r, 0))
+        m = re.match(r'^(19[45]0)', lab)
+        if m and int(m.group(1)) not in tot_fb:
+            tot_fb[int(m.group(1))] = parse_num(sh1.cell_value(r, 7))
+    sh9 = xlrd.open_workbook(os.path.join(RAW, 'census_wp81', 'tab09.xls')).sheet_by_index(0)
+    nonwhite_1940 = None
+    for r in range(sh9.nrows):
+        if str(sh9.cell_value(r, 0)).startswith('1940'):
+            nonwhite_1940 = parse_num(sh9.cell_value(r, 3))
+            white_1940_t9 = parse_num(sh9.cell_value(r, 2))
+            break
+    S, D = 'census1950_v2p1_t49', 'census1950_v2p1_t49_derived'
+    out = []
+    for year, col in ((1950, 1), (1940, 2)):
+        v = {r[0]: int(r[col]) for r in rows if r[col].strip()}
+        white = v['All countries']
+        if year == 1940:
+            assert white == white_1940_t9, (white, white_1940_t9)
+        total = tot_fb[year]
+        def add(label, level, parent, count, sid):
+            out.append(dict(year=year, origin_label=label, level=level, parent_label=parent,
+                            count=count, source_id=sid))
+        add('Total', 'total', '', total, 'census_wp81_t1')
+        eu = sum(v[k] for k in EUROPE_1950)
+        add('Europe', 'region', 'Total', eu, D)
+        uk = v['England and Wales'] + v['Scotland'] + v['Northern Ireland']
+        add('United Kingdom', 'country', 'Europe', uk, D)
+        for k in ('England and Wales', 'Scotland', 'Northern Ireland'):
+            add(k, 'subcountry', 'United Kingdom', v[k], S)
+        for k in EUROPE_1950[3:]:
+            add(k, 'residual' if k == 'Other Europe' else 'country', 'Europe', v[k], S)
+        add('Asia', 'region', 'Total', v['Asia'], S)
+        add('Asia, country not specified (derived; incl. Turkey in Europe)', 'residual', 'Asia', v['Asia'], D)
+        am = v['Canada-French'] + v['Canada-Other'] + v['Mexico'] + v['Other America']
+        add('Americas', 'region', 'Total', am, D)
+        add('Canada', 'country', 'Americas', v['Canada-French'] + v['Canada-Other'], D)
+        add('Canada-French', 'subcountry', 'Canada', v['Canada-French'], S)
+        add('Canada-Other', 'subcountry', 'Canada', v['Canada-Other'], S)   # incl. Newfoundland
+        add('Mexico', 'country', 'Americas', v['Mexico'], S)
+        add('Other America', 'residual', 'Americas', v['Other America'], S)
+        if year == 1950:
+            add('All other', 'residual', 'Total', v['All other'], S)
+            add('Not reported', 'residual', 'Total', v['Not reported'], S)
+            add('Foreign born, races other than white (country of birth not tabulated) (derived)',
+                'residual', 'Total', total - white, D)
+        else:
+            add('All other and not reported', 'residual', 'Total', v['All other and not reported'], S)
+            add('Foreign born, races other than white (country of birth not tabulated)',
+                'residual', 'Total', nonwhite_1940, 'census_wp81_t9')
+            assert total - white == nonwhite_1940
+    return out
 
 
 def national_acs():
@@ -298,17 +356,18 @@ def crosscheck_wp29(root3, root4):
 def main():
     wp, root3, root4 = national_wp()
     acs = national_acs()
-    rows = wp + acs
+    rows = wp + national_1940_1950() + acs
     for r in rows:
         r.setdefault('moe', '')
     # partition check
-    keys = sorted(set((r['year'], r['source_id'].replace('_derived', '')) for r in rows))
-    print('year source total country+residual')
-    for y, s in keys:
-        sub = [r for r in rows if r['year'] == y and r['source_id'].replace('_derived', '') == s]
+    # one series per year: check the country+residual partition per year
+    print('year sources total country+residual')
+    for y in sorted(set(r['year'] for r in rows)):
+        sub = [r for r in rows if r['year'] == y]
         t, p = check_partition(sub)
         flag = '' if t == p else '  <-- MISMATCH'
-        print(y, s, t, p, flag)
+        srcs = ','.join(sorted(set(r['source_id'] for r in sub)))
+        print(y, srcs, t, p, flag)
     os.makedirs(PROC, exist_ok=True)
     fn = os.path.join(PROC, 'stock_national_by_country.csv')
     with open(fn, 'w', newline='') as f:

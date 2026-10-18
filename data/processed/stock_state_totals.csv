@@ -1,0 +1,1805 @@
+year,state,state_fips,total_pop,foreign_born,source_id
+1850,Alabama,01,771623,7509,census_wp81_t14
+1850,Arkansas,05,209897,1471,census_wp81_t14
+1850,California,06,92597,21802,census_wp81_t14
+1850,Connecticut,09,370792,38518,census_wp81_t14
+1850,Delaware,10,91532,5253,census_wp81_t14
+1850,District of Columbia,11,51687,4918,census_wp81_t14
+1850,Florida,12,87445,2769,census_wp81_t14
+1850,Georgia,13,906185,6488,census_wp81_t14
+1850,Illinois,17,851470,111892,census_wp81_t14
+1850,Indiana,18,988416,55572,census_wp81_t14
+1850,Iowa,19,192214,20969,census_wp81_t14
+1850,Kentucky,21,982405,31420,census_wp81_t14
+1850,Louisiana,22,517762,68233,census_wp81_t14
+1850,Maine,23,583169,31825,census_wp81_t14
+1850,Maryland,24,583034,51209,census_wp81_t14
+1850,Massachusetts,25,994514,164024,census_wp81_t14
+1850,Michigan,26,397654,54703,census_wp81_t14
+1850,Minnesota,27,6077,1977,census_wp81_t14
+1850,Mississippi,28,606526,4788,census_wp81_t14
+1850,Missouri,29,682044,76592,census_wp81_t14
+1850,New Hampshire,33,317976,14265,census_wp81_t14
+1850,New Jersey,34,489555,59948,census_wp81_t14
+1850,New Mexico,35,61547,2151,census_wp81_t14
+1850,New York,36,3097394,655929,census_wp81_t14
+1850,North Carolina,37,869039,2581,census_wp81_t14
+1850,Ohio,39,1980329,218193,census_wp81_t14
+1850,Oregon,41,13294,1022,census_wp81_t14
+1850,Pennsylvania,42,2311786,303417,census_wp81_t14
+1850,Rhode Island,44,147545,23902,census_wp81_t14
+1850,South Carolina,45,668507,8707,census_wp81_t14
+1850,Tennessee,47,1002717,5653,census_wp81_t14
+1850,Texas,48,212592,17681,census_wp81_t14
+1850,Utah,49,11380,2044,census_wp81_t14
+1850,Vermont,50,314120,33715,census_wp81_t14
+1850,Wisconsin,55,305391,110477,census_wp81_t14
+1850,Virginia (incl. present West Virginia),,1421661,22985,census_wp81_t14
+1860,Alabama,01,964201,12352,census_wp81_t14
+1860,Arkansas,05,435450,3600,census_wp81_t14
+1860,California,06,379994,146528,census_wp81_t14
+1860,Colorado,08,34277,2666,census_wp81_t14
+1860,Connecticut,09,460147,80696,census_wp81_t14
+1860,Delaware,10,112216,9165,census_wp81_t14
+1860,District of Columbia,11,75080,12484,census_wp81_t14
+1860,Florida,12,140424,3309,census_wp81_t14
+1860,Georgia,13,1057286,11671,census_wp81_t14
+1860,Illinois,17,1711951,324643,census_wp81_t14
+1860,Indiana,18,1350428,118284,census_wp81_t14
+1860,Iowa,19,674913,106077,census_wp81_t14
+1860,Kansas,20,107206,12691,census_wp81_t14
+1860,Kentucky,21,1155684,59799,census_wp81_t14
+1860,Louisiana,22,708002,80975,census_wp81_t14
+1860,Maine,23,628279,37453,census_wp81_t14
+1860,Maryland,24,687049,77529,census_wp81_t14
+1860,Massachusetts,25,1231066,260106,census_wp81_t14
+1860,Michigan,26,749113,149093,census_wp81_t14
+1860,Minnesota,27,172023,58728,census_wp81_t14
+1860,Mississippi,28,791305,8558,census_wp81_t14
+1860,Missouri,29,1182012,160541,census_wp81_t14
+1860,Nebraska,31,28841,6351,census_wp81_t14
+1860,Nevada,32,6857,2064,census_wp81_t14
+1860,New Hampshire,33,326073,20938,census_wp81_t14
+1860,New Jersey,34,672035,122790,census_wp81_t14
+1860,New Mexico,35,93516,6723,census_wp81_t14
+1860,New York,36,3880735,1001280,census_wp81_t14
+1860,North Carolina,37,992622,3298,census_wp81_t14
+1860,Ohio,39,2339511,328249,census_wp81_t14
+1860,Oregon,41,52465,5123,census_wp81_t14
+1860,Pennsylvania,42,2906215,430505,census_wp81_t14
+1860,Rhode Island,44,174620,37394,census_wp81_t14
+1860,South Carolina,45,703708,9986,census_wp81_t14
+1860,Tennessee,47,1109801,21226,census_wp81_t14
+1860,Texas,48,604215,43422,census_wp81_t14
+1860,Utah,49,40273,12754,census_wp81_t14
+1860,Vermont,50,315098,32743,census_wp81_t14
+1860,Washington,53,11594,3144,census_wp81_t14
+1860,Wisconsin,55,775881,276927,census_wp81_t14
+1860,Dakota Territory (shown as South Dakota in source; incl. present North Dakota),,4837,1774,census_wp81_t14
+1860,Virginia (incl. present West Virginia),,1596318,35058,census_wp81_t14
+1870,Alabama,01,996992,9962,census_wp81_t14
+1870,Arizona,04,9658,5809,census_wp81_t14
+1870,Arkansas,05,484471,5026,census_wp81_t14
+1870,California,06,560247,209831,census_wp81_t14
+1870,Colorado,08,39864,6599,census_wp81_t14
+1870,Connecticut,09,537454,113639,census_wp81_t14
+1870,Delaware,10,125015,9136,census_wp81_t14
+1870,District of Columbia,11,131700,16254,census_wp81_t14
+1870,Florida,12,187748,4967,census_wp81_t14
+1870,Georgia,13,1184109,11127,census_wp81_t14
+1870,Idaho,16,14999,7885,census_wp81_t14
+1870,Illinois,17,2539891,515198,census_wp81_t14
+1870,Indiana,18,1680637,141474,census_wp81_t14
+1870,Iowa,19,1194020,204692,census_wp81_t14
+1870,Kansas,20,364399,48392,census_wp81_t14
+1870,Kentucky,21,1321011,63398,census_wp81_t14
+1870,Louisiana,22,726915,61827,census_wp81_t14
+1870,Maine,23,626915,48881,census_wp81_t14
+1870,Maryland,24,780894,83412,census_wp81_t14
+1870,Massachusetts,25,1457351,353319,census_wp81_t14
+1870,Michigan,26,1184059,268010,census_wp81_t14
+1870,Minnesota,27,439706,160697,census_wp81_t14
+1870,Mississippi,28,827922,11191,census_wp81_t14
+1870,Missouri,29,1721295,222267,census_wp81_t14
+1870,Montana,30,20595,7979,census_wp81_t14
+1870,Nebraska,31,122993,30748,census_wp81_t14
+1870,Nevada,32,42491,18801,census_wp81_t14
+1870,New Hampshire,33,318300,29611,census_wp81_t14
+1870,New Jersey,34,906096,188943,census_wp81_t14
+1870,New Mexico,35,91874,5620,census_wp81_t14
+1870,New York,36,4382759,1138353,census_wp81_t14
+1870,North Carolina,37,1071361,3029,census_wp81_t14
+1870,Ohio,39,2665260,372493,census_wp81_t14
+1870,Oregon,41,90923,11600,census_wp81_t14
+1870,Pennsylvania,42,3521951,545309,census_wp81_t14
+1870,Rhode Island,44,217353,55396,census_wp81_t14
+1870,South Carolina,45,705606,8074,census_wp81_t14
+1870,Tennessee,47,1258520,19316,census_wp81_t14
+1870,Texas,48,818579,62411,census_wp81_t14
+1870,Utah,49,86786,30702,census_wp81_t14
+1870,Vermont,50,330551,47155,census_wp81_t14
+1870,Virginia,51,1225163,13754,census_wp81_t14
+1870,Washington,53,23955,5024,census_wp81_t14
+1870,West Virginia,54,442014,17091,census_wp81_t14
+1870,Wisconsin,55,1054670,364499,census_wp81_t14
+1870,Wyoming,56,9118,3513,census_wp81_t14
+1870,Dakota Territory (shown as South Dakota in source; incl. present North Dakota),,14181,4815,census_wp81_t14
+1880,Alabama,01,1262505,9734,census_wp81_t14
+1880,Arizona,04,40440,16049,census_wp81_t14
+1880,Arkansas,05,802525,10350,census_wp81_t14
+1880,California,06,864694,292874,census_wp81_t14
+1880,Colorado,08,194327,39790,census_wp81_t14
+1880,Connecticut,09,622700,129992,census_wp81_t14
+1880,Delaware,10,146608,9468,census_wp81_t14
+1880,District of Columbia,11,177624,17122,census_wp81_t14
+1880,Florida,12,269493,9909,census_wp81_t14
+1880,Georgia,13,1542180,10564,census_wp81_t14
+1880,Idaho,16,32610,9974,census_wp81_t14
+1880,Illinois,17,3077871,583576,census_wp81_t14
+1880,Indiana,18,1978301,144178,census_wp81_t14
+1880,Iowa,19,1624615,261650,census_wp81_t14
+1880,Kansas,20,996096,110086,census_wp81_t14
+1880,Kentucky,21,1648690,59517,census_wp81_t14
+1880,Louisiana,22,939946,54146,census_wp81_t14
+1880,Maine,23,648936,58883,census_wp81_t14
+1880,Maryland,24,934943,82806,census_wp81_t14
+1880,Massachusetts,25,1783085,443491,census_wp81_t14
+1880,Michigan,26,1636937,388508,census_wp81_t14
+1880,Minnesota,27,780773,267676,census_wp81_t14
+1880,Mississippi,28,1131597,9209,census_wp81_t14
+1880,Missouri,29,2168380,211578,census_wp81_t14
+1880,Montana,30,39159,11521,census_wp81_t14
+1880,Nebraska,31,452402,97414,census_wp81_t14
+1880,Nevada,32,62266,25653,census_wp81_t14
+1880,New Hampshire,33,346991,46294,census_wp81_t14
+1880,New Jersey,34,1131116,221700,census_wp81_t14
+1880,New Mexico,35,119565,8051,census_wp81_t14
+1880,New York,36,5082871,1211379,census_wp81_t14
+1880,North Carolina,37,1399750,3742,census_wp81_t14
+1880,Ohio,39,3198062,394943,census_wp81_t14
+1880,Oregon,41,174768,30503,census_wp81_t14
+1880,Pennsylvania,42,4282891,587829,census_wp81_t14
+1880,Rhode Island,44,276531,73993,census_wp81_t14
+1880,South Carolina,45,995577,7686,census_wp81_t14
+1880,Tennessee,47,1542359,16702,census_wp81_t14
+1880,Texas,48,1591749,114616,census_wp81_t14
+1880,Utah,49,143963,43994,census_wp81_t14
+1880,Vermont,50,332286,40959,census_wp81_t14
+1880,Virginia,51,1512565,14696,census_wp81_t14
+1880,Washington,53,75116,15803,census_wp81_t14
+1880,West Virginia,54,618457,18265,census_wp81_t14
+1880,Wisconsin,55,1315497,405425,census_wp81_t14
+1880,Wyoming,56,20789,5850,census_wp81_t14
+1880,Dakota Territory (shown as South Dakota in source; incl. present North Dakota),,135177,51795,census_wp81_t14
+1890,Alabama,01,1513017,14777,census_wp81_t14
+1890,Arizona,04,59620,18795,census_wp81_t14
+1890,Arkansas,05,1128179,14264,census_wp81_t14
+1890,California,06,1208130,366309,census_wp81_t14
+1890,Colorado,08,412198,83990,census_wp81_t14
+1890,Connecticut,09,746258,183601,census_wp81_t14
+1890,Delaware,10,168493,13161,census_wp81_t14
+1890,District of Columbia,11,230392,18770,census_wp81_t14
+1890,Florida,12,391422,22932,census_wp81_t14
+1890,Georgia,13,1837353,12137,census_wp81_t14
+1890,Idaho,16,84385,17456,census_wp81_t14
+1890,Illinois,17,3826351,842347,census_wp81_t14
+1890,Indiana,18,2192404,146205,census_wp81_t14
+1890,Iowa,19,1911896,324069,census_wp81_t14
+1890,Kansas,20,1427096,147838,census_wp81_t14
+1890,Kentucky,21,1858635,59356,census_wp81_t14
+1890,Louisiana,22,1118587,49747,census_wp81_t14
+1890,Maine,23,661086,78961,census_wp81_t14
+1890,Maryland,24,1042390,94296,census_wp81_t14
+1890,Massachusetts,25,2238943,657137,census_wp81_t14
+1890,Michigan,26,2093889,543880,census_wp81_t14
+1890,Minnesota,27,1301826,467356,census_wp81_t14
+1890,Mississippi,28,1289600,7952,census_wp81_t14
+1890,Missouri,29,2679184,234869,census_wp81_t14
+1890,Montana,30,132159,43096,census_wp81_t14
+1890,Nebraska,31,1058910,202542,census_wp81_t14
+1890,Nevada,32,45761,14706,census_wp81_t14
+1890,New Hampshire,33,376530,72340,census_wp81_t14
+1890,New Jersey,34,1444933,328975,census_wp81_t14
+1890,New Mexico,35,153593,11259,census_wp81_t14
+1890,New York,36,5997853,1571050,census_wp81_t14
+1890,North Carolina,37,1617947,3702,census_wp81_t14
+1890,North Dakota,38,182719,81461,census_wp81_t14
+1890,Ohio,39,3672316,459293,census_wp81_t14
+1890,Oklahoma,40,61834,2740,census_wp81_t14
+1890,Oregon,41,313767,57317,census_wp81_t14
+1890,Pennsylvania,42,5258014,845720,census_wp81_t14
+1890,Rhode Island,44,345506,106305,census_wp81_t14
+1890,South Carolina,45,1151149,6270,census_wp81_t14
+1890,South Dakota,46,328808,91055,census_wp81_t14
+1890,Tennessee,47,1767518,20029,census_wp81_t14
+1890,Texas,48,2235523,152956,census_wp81_t14
+1890,Utah,49,207905,53064,census_wp81_t14
+1890,Vermont,50,332422,44088,census_wp81_t14
+1890,Virginia,51,1655980,18374,census_wp81_t14
+1890,Washington,53,349390,90005,census_wp81_t14
+1890,West Virginia,54,762794,18883,census_wp81_t14
+1890,Wisconsin,55,1686880,519199,census_wp81_t14
+1890,Wyoming,56,60705,14913,census_wp81_t14
+1900,Alabama,01,1828697,14592,census_wp81_t14
+1900,Arizona,04,122931,24233,census_wp81_t14
+1900,Arkansas,05,1311564,14289,census_wp81_t14
+1900,California,06,1485053,367240,census_wp81_t14
+1900,Colorado,08,539700,91155,census_wp81_t14
+1900,Connecticut,09,908420,238210,census_wp81_t14
+1900,Delaware,10,184735,13810,census_wp81_t14
+1900,District of Columbia,11,278718,20119,census_wp81_t14
+1900,Florida,12,528542,23832,census_wp81_t14
+1900,Georgia,13,2216331,12403,census_wp81_t14
+1900,Idaho,16,161772,24604,census_wp81_t14
+1900,Illinois,17,4821550,966747,census_wp81_t14
+1900,Indiana,18,2516462,142121,census_wp81_t14
+1900,Iowa,19,2231853,305920,census_wp81_t14
+1900,Kansas,20,1470495,126685,census_wp81_t14
+1900,Kentucky,21,2147174,50249,census_wp81_t14
+1900,Louisiana,22,1381625,52903,census_wp81_t14
+1900,Maine,23,694466,93330,census_wp81_t14
+1900,Maryland,24,1188044,93934,census_wp81_t14
+1900,Massachusetts,25,2805346,846324,census_wp81_t14
+1900,Michigan,26,2420982,541653,census_wp81_t14
+1900,Minnesota,27,1751394,505318,census_wp81_t14
+1900,Mississippi,28,1551270,7981,census_wp81_t14
+1900,Missouri,29,3106665,216379,census_wp81_t14
+1900,Montana,30,243329,67067,census_wp81_t14
+1900,Nebraska,31,1066300,177347,census_wp81_t14
+1900,Nevada,32,42335,10093,census_wp81_t14
+1900,New Hampshire,33,411588,88107,census_wp81_t14
+1900,New Jersey,34,1883669,431884,census_wp81_t14
+1900,New Mexico,35,195310,13625,census_wp81_t14
+1900,New York,36,7268894,1900425,census_wp81_t14
+1900,North Carolina,37,1893810,4492,census_wp81_t14
+1900,North Dakota,38,319146,113091,census_wp81_t14
+1900,Ohio,39,4157545,458734,census_wp81_t14
+1900,Oklahoma (Oklahoma Territory and Indian Territory combined),40,790391,20538,census_wp81_t14
+1900,Oregon,41,413536,65748,census_wp81_t14
+1900,Pennsylvania,42,6302115,985250,census_wp81_t14
+1900,Rhode Island,44,428556,134519,census_wp81_t14
+1900,South Carolina,45,1340316,5528,census_wp81_t14
+1900,South Dakota,46,401570,88508,census_wp81_t14
+1900,Tennessee,47,2020616,17746,census_wp81_t14
+1900,Texas,48,3048710,179357,census_wp81_t14
+1900,Utah,49,276749,53777,census_wp81_t14
+1900,Vermont,50,343641,44747,census_wp81_t14
+1900,Virginia,51,1854184,19461,census_wp81_t14
+1900,Washington,53,518103,111364,census_wp81_t14
+1900,West Virginia,54,958800,22451,census_wp81_t14
+1900,Wisconsin,55,2069042,515971,census_wp81_t14
+1900,Wyoming,56,92531,17415,census_wp81_t14
+1910,Alabama,01,2138093,19286,census_wp81_t14
+1910,Arizona,04,204354,48765,census_wp81_t14
+1910,Arkansas,05,1574449,17046,census_wp81_t14
+1910,California,06,2377549,586432,census_wp81_t14
+1910,Colorado,08,799024,129587,census_wp81_t14
+1910,Connecticut,09,1114756,329574,census_wp81_t14
+1910,Delaware,10,202322,17492,census_wp81_t14
+1910,District of Columbia,11,331069,24902,census_wp81_t14
+1910,Florida,12,752619,40633,census_wp81_t14
+1910,Georgia,13,2609121,15477,census_wp81_t14
+1910,Idaho,16,325594,42578,census_wp81_t14
+1910,Illinois,17,5638591,1205314,census_wp81_t14
+1910,Indiana,18,2700876,159663,census_wp81_t14
+1910,Iowa,19,2224771,273765,census_wp81_t14
+1910,Kansas,20,1690949,135450,census_wp81_t14
+1910,Kentucky,21,2289905,40162,census_wp81_t14
+1910,Louisiana,22,1656388,52766,census_wp81_t14
+1910,Maine,23,742371,110562,census_wp81_t14
+1910,Maryland,24,1295346,104944,census_wp81_t14
+1910,Massachusetts,25,3366416,1059245,census_wp81_t14
+1910,Michigan,26,2810173,597550,census_wp81_t14
+1910,Minnesota,27,2075708,543595,census_wp81_t14
+1910,Mississippi,28,1797114,9770,census_wp81_t14
+1910,Missouri,29,3293335,229779,census_wp81_t14
+1910,Montana,30,376053,94713,census_wp81_t14
+1910,Nebraska,31,1192214,176662,census_wp81_t14
+1910,Nevada,32,81875,19691,census_wp81_t14
+1910,New Hampshire,33,430572,96667,census_wp81_t14
+1910,New Jersey,34,2537167,660788,census_wp81_t14
+1910,New Mexico,35,327301,23146,census_wp81_t14
+1910,New York,36,9113614,2748011,census_wp81_t14
+1910,North Carolina,37,2206287,6092,census_wp81_t14
+1910,North Dakota,38,577056,156654,census_wp81_t14
+1910,Ohio,39,4767121,598374,census_wp81_t14
+1910,Oklahoma,40,1657155,40442,census_wp81_t14
+1910,Oregon,41,672765,113136,census_wp81_t14
+1910,Pennsylvania,42,7665111,1442374,census_wp81_t14
+1910,Rhode Island,44,542610,179141,census_wp81_t14
+1910,South Carolina,45,1515400,6179,census_wp81_t14
+1910,South Dakota,46,583888,100790,census_wp81_t14
+1910,Tennessee,47,2184789,18607,census_wp81_t14
+1910,Texas,48,3896542,241938,census_wp81_t14
+1910,Utah,49,373351,65822,census_wp81_t14
+1910,Vermont,50,355956,49921,census_wp81_t14
+1910,Virginia,51,2061612,27057,census_wp81_t14
+1910,Washington,53,1141990,256241,census_wp81_t14
+1910,West Virginia,54,1221119,57218,census_wp81_t14
+1910,Wisconsin,55,2333860,512865,census_wp81_t14
+1910,Wyoming,56,145965,29020,census_wp81_t14
+1920,Alabama,01,2348174,18027,census_wp81_t14
+1920,Arizona,04,334162,80566,census_wp81_t14
+1920,Arkansas,05,1752204,14137,census_wp81_t14
+1920,California,06,3426861,757625,census_wp81_t14
+1920,Colorado,08,939629,119138,census_wp81_t14
+1920,Connecticut,09,1380631,378439,census_wp81_t14
+1920,Delaware,10,223003,19901,census_wp81_t14
+1920,District of Columbia,11,437571,29365,census_wp81_t14
+1920,Florida,12,968470,53864,census_wp81_t14
+1920,Georgia,13,2895832,16564,census_wp81_t14
+1920,Idaho,16,431866,40747,census_wp81_t14
+1920,Illinois,17,6485280,1210584,census_wp81_t14
+1920,Indiana,18,2930390,151328,census_wp81_t14
+1920,Iowa,19,2404021,225994,census_wp81_t14
+1920,Kansas,20,1769257,110967,census_wp81_t14
+1920,Kentucky,21,2416630,30906,census_wp81_t14
+1920,Louisiana,22,1798509,46427,census_wp81_t14
+1920,Maine,23,768014,107814,census_wp81_t14
+1920,Maryland,24,1449661,103179,census_wp81_t14
+1920,Massachusetts,25,3852356,1088548,census_wp81_t14
+1920,Michigan,26,3668412,729292,census_wp81_t14
+1920,Minnesota,27,2387125,486795,census_wp81_t14
+1920,Mississippi,28,1790618,8408,census_wp81_t14
+1920,Missouri,29,3404055,186835,census_wp81_t14
+1920,Montana,30,548889,95591,census_wp81_t14
+1920,Nebraska,31,1296372,150665,census_wp81_t14
+1920,Nevada,32,77407,16003,census_wp81_t14
+1920,New Hampshire,33,443083,91397,census_wp81_t14
+1920,New Jersey,34,3155900,742486,census_wp81_t14
+1920,New Mexico,35,360350,29808,census_wp81_t14
+1920,New York,36,10385227,2825375,census_wp81_t14
+1920,North Carolina,37,2559123,7272,census_wp81_t14
+1920,North Dakota,38,646872,131863,census_wp81_t14
+1920,Ohio,39,5759394,680452,census_wp81_t14
+1920,Oklahoma,40,2028283,40432,census_wp81_t14
+1920,Oregon,41,783389,107644,census_wp81_t14
+1920,Pennsylvania,42,8720017,1392557,census_wp81_t14
+1920,Rhode Island,44,604397,175189,census_wp81_t14
+1920,South Carolina,45,1683724,6582,census_wp81_t14
+1920,South Dakota,46,636547,82534,census_wp81_t14
+1920,Tennessee,47,2337885,15648,census_wp81_t14
+1920,Texas,48,4663228,363832,census_wp81_t14
+1920,Utah,49,449396,59200,census_wp81_t14
+1920,Vermont,50,352428,44558,census_wp81_t14
+1920,Virginia,51,2309187,31705,census_wp81_t14
+1920,Washington,53,1356621,265292,census_wp81_t14
+1920,West Virginia,54,1463701,62105,census_wp81_t14
+1920,Wisconsin,55,2632067,460485,census_wp81_t14
+1920,Wyoming,56,194402,26567,census_wp81_t14
+1930,Alabama,01,2646248,16061,census_wp81_t14
+1930,Arizona,04,435573,65756,census_wp81_t14
+1930,Arkansas,05,1854482,10632,census_wp81_t14
+1930,California,06,5677251,1073964,census_wp81_t14
+1930,Colorado,08,1035791,99875,census_wp81_t14
+1930,Connecticut,09,1606903,384636,census_wp81_t14
+1930,Delaware,10,238380,17025,census_wp81_t14
+1930,District of Columbia,11,486869,30733,census_wp81_t14
+1930,Florida,12,1468211,69747,census_wp81_t14
+1930,Georgia,13,2908506,14303,census_wp81_t14
+1930,Idaho,16,445032,32284,census_wp81_t14
+1930,Illinois,17,7630654,1242447,census_wp81_t14
+1930,Indiana,18,3238503,142999,census_wp81_t14
+1930,Iowa,19,2470939,168250,census_wp81_t14
+1930,Kansas,20,1880999,80897,census_wp81_t14
+1930,Kentucky,21,2614589,22007,census_wp81_t14
+1930,Louisiana,22,2101593,37076,census_wp81_t14
+1930,Maine,23,797423,100728,census_wp81_t14
+1930,Maryland,24,1631526,96330,census_wp81_t14
+1930,Massachusetts,25,4249614,1065620,census_wp81_t14
+1930,Michigan,26,4842325,852758,census_wp81_t14
+1930,Minnesota,27,2563953,390790,census_wp81_t14
+1930,Mississippi,28,2009821,8045,census_wp81_t14
+1930,Missouri,29,3629367,153085,census_wp81_t14
+1930,Montana,30,537606,75903,census_wp81_t14
+1930,Nebraska,31,1377963,119199,census_wp81_t14
+1930,Nevada,32,91058,15095,census_wp81_t14
+1930,New Hampshire,33,465293,82929,census_wp81_t14
+1930,New Jersey,34,4041334,850038,census_wp81_t14
+1930,New Mexico,35,423317,24052,census_wp81_t14
+1930,New York,36,12588066,3262278,census_wp81_t14
+1930,North Carolina,37,3170276,8969,census_wp81_t14
+1930,North Dakota,38,680845,105871,census_wp81_t14
+1930,Ohio,39,6646697,649220,census_wp81_t14
+1930,Oklahoma,40,2396040,30558,census_wp81_t14
+1930,Oregon,41,953786,110440,census_wp81_t14
+1930,Pennsylvania,42,9631350,1240415,census_wp81_t14
+1930,Rhode Island,44,687497,171929,census_wp81_t14
+1930,South Carolina,45,1738765,5358,census_wp81_t14
+1930,South Dakota,46,692849,66061,census_wp81_t14
+1930,Tennessee,47,2616556,13251,census_wp81_t14
+1930,Texas,48,5824715,362287,census_wp81_t14
+1930,Utah,49,507847,48015,census_wp81_t14
+1930,Vermont,50,359611,43101,census_wp81_t14
+1930,Virginia,51,2421851,24367,census_wp81_t14
+1930,Washington,53,1563396,255258,census_wp81_t14
+1930,West Virginia,54,1729205,51865,census_wp81_t14
+1930,Wisconsin,55,2939006,388299,census_wp81_t14
+1930,Wyoming,56,225565,23343,census_wp81_t14
+1940,Alabama,01,2832961,12164,census_wp81_t14
+1940,Arizona,04,499261,38693,census_wp81_t14
+1940,Arkansas,05,1949387,7926,census_wp81_t14
+1940,California,06,6907387,924865,census_wp81_t14
+1940,Colorado,08,1123296,71564,census_wp81_t14
+1940,Connecticut,09,1709242,329297,census_wp81_t14
+1940,Delaware,10,266505,14913,census_wp81_t14
+1940,District of Columbia,11,663091,34916,census_wp81_t14
+1940,Florida,12,1897414,77839,census_wp81_t14
+1940,Georgia,13,3123723,12181,census_wp81_t14
+1940,Idaho,16,524873,24712,census_wp81_t14
+1940,Illinois,17,7897241,972395,census_wp81_t14
+1940,Indiana,18,3427796,110992,census_wp81_t14
+1940,Iowa,19,2538268,117365,census_wp81_t14
+1940,Kansas,20,1801028,51630,census_wp81_t14
+1940,Kentucky,21,2845627,15744,census_wp81_t14
+1940,Louisiana,22,2363880,27973,census_wp81_t14
+1940,Maine,23,847226,83993,census_wp81_t14
+1940,Maryland,24,1821244,82591,census_wp81_t14
+1940,Massachusetts,25,4316721,857658,census_wp81_t14
+1940,Michigan,26,5256106,686185,census_wp81_t14
+1940,Minnesota,27,2792300,295373,census_wp81_t14
+1940,Mississippi,28,2183796,6472,census_wp81_t14
+1940,Missouri,29,3784664,114533,census_wp81_t14
+1940,Montana,30,559456,56364,census_wp81_t14
+1940,Nebraska,31,1315834,82101,census_wp81_t14
+1940,Nevada,32,110247,11041,census_wp81_t14
+1940,New Hampshire,33,491524,68393,census_wp81_t14
+1940,New Jersey,34,4160165,699356,census_wp81_t14
+1940,New Mexico,35,531818,15402,census_wp81_t14
+1940,New York,36,13479142,2916645,census_wp81_t14
+1940,North Carolina,37,3571623,9212,census_wp81_t14
+1940,North Dakota,38,641935,74477,census_wp81_t14
+1940,Ohio,39,6907612,520773,census_wp81_t14
+1940,Oklahoma,40,2336434,20545,census_wp81_t14
+1940,Oregon,41,1089684,90193,census_wp81_t14
+1940,Pennsylvania,42,9900180,976573,census_wp81_t14
+1940,Rhode Island,44,713346,138878,census_wp81_t14
+1940,South Carolina,45,1899804,4979,census_wp81_t14
+1940,South Dakota,46,642961,44124,census_wp81_t14
+1940,Tennessee,47,2915841,11468,census_wp81_t14
+1940,Texas,48,6414824,235528,census_wp81_t14
+1940,Utah,49,550310,33276,census_wp81_t14
+1940,Vermont,50,359231,31753,census_wp81_t14
+1940,Virginia,51,2677773,23438,census_wp81_t14
+1940,Washington,53,1736191,210379,census_wp81_t14
+1940,West Virginia,54,1901974,41899,census_wp81_t14
+1940,Wisconsin,55,3137587,289018,census_wp81_t14
+1940,Wyoming,56,250742,17107,census_wp81_t14
+1950,Alabama,01,3056210,13405,census_wp81_t14
+1950,Arizona,04,746655,47375,census_wp81_t14
+1950,Arkansas,05,1905705,9495,census_wp81_t14
+1950,California,06,10558925,1060375,census_wp81_t14
+1950,Colorado,08,1320905,60565,census_wp81_t14
+1950,Connecticut,09,1996050,296040,census_wp81_t14
+1950,Delaware,10,315735,13055,census_wp81_t14
+1950,District of Columbia,11,800830,42740,census_wp81_t14
+1950,Florida,12,2762865,131065,census_wp81_t14
+1950,Georgia,13,3438680,16400,census_wp81_t14
+1950,Idaho,16,587440,19845,census_wp81_t14
+1950,Illinois,17,8680600,786290,census_wp81_t14
+1950,Indiana,18,3917640,99275,census_wp81_t14
+1950,Iowa,19,2611540,83970,census_wp81_t14
+1950,Kansas,20,1898230,38085,census_wp81_t14
+1950,Kentucky,21,2936630,15525,census_wp81_t14
+1950,Louisiana,22,2677370,29675,census_wp81_t14
+1950,Maine,23,908850,74475,census_wp81_t14
+1950,Maryland,24,2333245,85165,census_wp81_t14
+1950,Massachusetts,25,4672020,721230,census_wp81_t14
+1950,Michigan,26,6342590,603825,census_wp81_t14
+1950,Minnesota,27,2972150,210570,census_wp81_t14
+1950,Mississippi,28,2177445,8735,census_wp81_t14
+1950,Missouri,29,3943310,91420,census_wp81_t14
+1950,Montana,30,587940,43385,census_wp81_t14
+1950,Nebraska,31,1319015,57600,census_wp81_t14
+1950,Nevada,32,159390,10720,census_wp81_t14
+1950,New Hampshire,33,529330,57475,census_wp81_t14
+1950,New Jersey,34,4816435,635080,census_wp81_t14
+1950,New Mexico,35,679425,17435,census_wp81_t14
+1950,New York,36,14788960,2577105,census_wp81_t14
+1950,North Carolina,37,4052795,15250,census_wp81_t14
+1950,North Dakota,38,617705,48205,census_wp81_t14
+1950,Ohio,39,7908250,440475,census_wp81_t14
+1950,Oklahoma,40,2229665,18270,census_wp81_t14
+1950,Oregon,41,1516180,84875,census_wp81_t14
+1950,Pennsylvania,42,10466460,783965,census_wp81_t14
+1950,Rhode Island,44,788170,113395,census_wp81_t14
+1950,South Carolina,45,2114355,7120,census_wp81_t14
+1950,South Dakota,46,649710,30710,census_wp81_t14
+1950,Tennessee,47,3286285,14305,census_wp81_t14
+1950,Texas,48,7685665,277515,census_wp81_t14
+1950,Utah,49,687400,31025,census_wp81_t14
+1950,Vermont,50,375335,28400,census_wp81_t14
+1950,Virginia,51,3312565,35690,census_wp81_t14
+1950,Washington,53,2373870,196530,census_wp81_t14
+1950,West Virginia,54,1999835,33910,census_wp81_t14
+1950,Wisconsin,55,3420435,216965,census_wp81_t14
+1950,Wyoming,56,289315,13390,census_wp81_t14
+1960,Alabama,01,3266740,14955,census_wp81_t14
+1960,Alaska,02,226167,8227,census_wp81_t14
+1960,Arizona,04,1302161,70318,census_wp81_t14
+1960,Arkansas,05,1786272,7457,census_wp81_t14
+1960,California,06,15720860,1343698,census_wp81_t14
+1960,Colorado,08,1753925,59881,census_wp81_t14
+1960,Connecticut,09,2535234,275523,census_wp81_t14
+1960,Delaware,10,446292,14650,census_wp81_t14
+1960,District of Columbia,11,763956,38971,census_wp81_t14
+1960,Florida,12,4952788,272161,census_wp81_t14
+1960,Georgia,13,3942936,25300,census_wp81_t14
+1960,Hawaii,15,632772,68900,census_wp81_t14
+1960,Idaho,16,667191,15542,census_wp81_t14
+1960,Illinois,17,10081653,686098,census_wp81_t14
+1960,Indiana,18,4662451,93202,census_wp81_t14
+1960,Iowa,19,2757537,56278,census_wp81_t14
+1960,Kansas,20,2178618,33268,census_wp81_t14
+1960,Kentucky,21,3038156,16830,census_wp81_t14
+1960,Louisiana,22,3257022,30557,census_wp81_t14
+1960,Maine,23,969265,60403,census_wp81_t14
+1960,Maryland,24,3100687,94178,census_wp81_t14
+1960,Massachusetts,25,5149317,576452,census_wp81_t14
+1960,Michigan,26,7824965,529624,census_wp81_t14
+1960,Minnesota,27,3413864,143878,census_wp81_t14
+1960,Mississippi,28,2178141,8058,census_wp81_t14
+1960,Missouri,29,4320774,77756,census_wp81_t14
+1960,Montana,30,674767,30646,census_wp81_t14
+1960,Nebraska,31,1411330,40238,census_wp81_t14
+1960,Nevada,32,285278,13133,census_wp81_t14
+1960,New Hampshire,33,606921,44772,census_wp81_t14
+1960,New Jersey,34,6067412,615479,census_wp81_t14
+1960,New Mexico,35,951023,21408,census_wp81_t14
+1960,New York,36,16783604,2289314,census_wp81_t14
+1960,North Carolina,37,4556155,21978,census_wp81_t14
+1960,North Dakota,38,632446,29907,census_wp81_t14
+1960,Ohio,39,9707136,396614,census_wp81_t14
+1960,Oklahoma,40,2328284,20003,census_wp81_t14
+1960,Oregon,41,1768675,71314,census_wp81_t14
+1960,Pennsylvania,42,11320580,603490,census_wp81_t14
+1960,Rhode Island,44,859488,85974,census_wp81_t14
+1960,South Carolina,45,2382594,11140,census_wp81_t14
+1960,South Dakota,46,680514,18577,census_wp81_t14
+1960,Tennessee,47,3567089,15843,census_wp81_t14
+1960,Texas,48,9581508,298791,census_wp81_t14
+1960,Utah,49,890627,32133,census_wp81_t14
+1960,Vermont,50,389881,23336,census_wp81_t14
+1960,Virginia,51,3954429,48185,census_wp81_t14
+1960,Washington,53,2853214,178658,census_wp81_t14
+1960,West Virginia,54,1860421,23863,census_wp81_t14
+1960,Wisconsin,55,3952485,171519,census_wp81_t14
+1960,Wyoming,56,330066,9663,census_wp81_t14
+1970,Alabama,01,3444148,15988,census_wp81_t14
+1970,Alaska,02,300382,7763,census_wp81_t14
+1970,Arizona,04,1770893,76570,census_wp81_t14
+1970,Arkansas,05,1923240,8287,census_wp81_t14
+1970,California,06,19957304,1757990,census_wp81_t14
+1970,Colorado,08,2207259,60311,census_wp81_t14
+1970,Connecticut,09,3031705,261614,census_wp81_t14
+1970,Delaware,10,548093,15648,census_wp81_t14
+1970,District of Columbia,11,756492,33562,census_wp81_t14
+1970,Florida,12,6789383,540284,census_wp81_t14
+1970,Georgia,13,4589569,32988,census_wp81_t14
+1970,Hawaii,15,768559,75595,census_wp81_t14
+1970,Idaho,16,712567,12572,census_wp81_t14
+1970,Illinois,17,11109450,628898,census_wp81_t14
+1970,Indiana,18,5193665,83198,census_wp81_t14
+1970,Iowa,19,2824376,40217,census_wp81_t14
+1970,Kansas,20,2246578,27842,census_wp81_t14
+1970,Kentucky,21,3218697,16553,census_wp81_t14
+1970,Louisiana,22,3640442,39542,census_wp81_t14
+1970,Maine,23,993663,43014,census_wp81_t14
+1970,Maryland,24,3922391,124345,census_wp81_t14
+1970,Massachusetts,25,5688903,494660,census_wp81_t14
+1970,Michigan,26,8875068,424309,census_wp81_t14
+1970,Minnesota,27,3804971,98056,census_wp81_t14
+1970,Mississippi,28,2216850,8125,census_wp81_t14
+1970,Missouri,29,4676495,65744,census_wp81_t14
+1970,Montana,30,694409,19634,census_wp81_t14
+1970,Nebraska,31,1482412,28796,census_wp81_t14
+1970,Nevada,32,488738,18179,census_wp81_t14
+1970,New Hampshire,33,737681,37048,census_wp81_t14
+1970,New Jersey,34,7168143,634818,census_wp81_t14
+1970,New Mexico,35,1015998,22510,census_wp81_t14
+1970,New York,36,18236882,2109776,census_wp81_t14
+1970,North Carolina,37,5082036,28620,census_wp81_t14
+1970,North Dakota,38,617761,18437,census_wp81_t14
+1970,Ohio,39,10650903,316496,census_wp81_t14
+1970,Oklahoma,40,2559175,20160,census_wp81_t14
+1970,Oregon,41,2091385,66149,census_wp81_t14
+1970,Pennsylvania,42,11793864,445895,census_wp81_t14
+1970,Rhode Island,44,948844,74374,census_wp81_t14
+1970,South Carolina,45,2590509,14364,census_wp81_t14
+1970,South Dakota,46,665507,10899,census_wp81_t14
+1970,Tennessee,47,3923726,19024,census_wp81_t14
+1970,Texas,48,11195416,309772,census_wp81_t14
+1970,Utah,49,1059273,29573,census_wp81_t14
+1970,Vermont,50,444330,18482,census_wp81_t14
+1970,Virginia,51,4648479,72281,census_wp81_t14
+1970,Washington,53,3409161,156020,census_wp81_t14
+1970,West Virginia,54,1744236,16662,census_wp81_t14
+1970,Wisconsin,55,4417731,130669,census_wp81_t14
+1970,Wyoming,56,332416,6989,census_wp81_t14
+1980,Alabama,01,3893888,39002,census_wp81_t14
+1980,Alaska,02,401851,16216,census_wp81_t14
+1980,Arizona,04,2718215,162806,census_wp81_t14
+1980,Arkansas,05,2286435,22371,census_wp81_t14
+1980,California,06,23667902,3580033,census_wp81_t14
+1980,Colorado,08,2889964,114130,census_wp81_t14
+1980,Connecticut,09,3107576,267806,census_wp81_t14
+1980,Delaware,10,594338,18829,census_wp81_t14
+1980,District of Columbia,11,638333,40559,census_wp81_t14
+1980,Florida,12,9746324,1058732,census_wp81_t14
+1980,Georgia,13,5463105,91480,census_wp81_t14
+1980,Hawaii,15,964691,137016,census_wp81_t14
+1980,Idaho,16,943935,23404,census_wp81_t14
+1980,Illinois,17,11426518,823696,census_wp81_t14
+1980,Indiana,18,5490224,101802,census_wp81_t14
+1980,Iowa,19,2913808,47659,census_wp81_t14
+1980,Kansas,20,2363679,47891,census_wp81_t14
+1980,Kentucky,21,3660777,34562,census_wp81_t14
+1980,Louisiana,22,4205900,85502,census_wp81_t14
+1980,Maine,23,1124660,43402,census_wp81_t14
+1980,Maryland,24,4216975,195581,census_wp81_t14
+1980,Massachusetts,25,5737037,500982,census_wp81_t14
+1980,Michigan,26,9262078,417152,census_wp81_t14
+1980,Minnesota,27,4075970,107474,census_wp81_t14
+1980,Mississippi,28,2520638,23527,census_wp81_t14
+1980,Missouri,29,4916686,85616,census_wp81_t14
+1980,Montana,30,786690,18319,census_wp81_t14
+1980,Nebraska,31,1569825,31001,census_wp81_t14
+1980,Nevada,32,800493,53784,census_wp81_t14
+1980,New Hampshire,33,920610,40961,census_wp81_t14
+1980,New Jersey,34,7364823,757822,census_wp81_t14
+1980,New Mexico,35,1302894,52405,census_wp81_t14
+1980,New York,36,17558072,2388938,census_wp81_t14
+1980,North Carolina,37,5881766,78358,census_wp81_t14
+1980,North Dakota,38,652717,14818,census_wp81_t14
+1980,Ohio,39,10797630,302185,census_wp81_t14
+1980,Oklahoma,40,3025290,56294,census_wp81_t14
+1980,Oregon,41,2633105,107805,census_wp81_t14
+1980,Pennsylvania,42,11863895,401016,census_wp81_t14
+1980,Rhode Island,44,947154,84001,census_wp81_t14
+1980,South Carolina,45,3121820,46080,census_wp81_t14
+1980,South Dakota,46,690768,9599,census_wp81_t14
+1980,Tennessee,47,4591120,48369,census_wp81_t14
+1980,Texas,48,14229191,856213,census_wp81_t14
+1980,Utah,49,1461037,50451,census_wp81_t14
+1980,Vermont,50,511456,20995,census_wp81_t14
+1980,Virginia,51,5346818,177318,census_wp81_t14
+1980,Washington,53,4132156,239060,census_wp81_t14
+1980,West Virginia,54,1949644,21980,census_wp81_t14
+1980,Wisconsin,55,4705767,125297,census_wp81_t14
+1980,Wyoming,56,469557,9607,census_wp81_t14
+1990,Alabama,01,4040587,43533,census_wp81_t14
+1990,Alaska,02,550043,24814,census_wp81_t14
+1990,Arizona,04,3665228,278205,census_wp81_t14
+1990,Arkansas,05,2350725,24867,census_wp81_t14
+1990,California,06,29760021,6458825,census_wp81_t14
+1990,Colorado,08,3294394,142434,census_wp81_t14
+1990,Connecticut,09,3287116,279383,census_wp81_t14
+1990,Delaware,10,666168,22275,census_wp81_t14
+1990,District of Columbia,11,606900,58887,census_wp81_t14
+1990,Florida,12,12937926,1662601,census_wp81_t14
+1990,Georgia,13,6478216,173126,census_wp81_t14
+1990,Hawaii,15,1108229,162704,census_wp81_t14
+1990,Idaho,16,1006749,28905,census_wp81_t14
+1990,Illinois,17,11430602,952272,census_wp81_t14
+1990,Indiana,18,5544159,94263,census_wp81_t14
+1990,Iowa,19,2776755,43316,census_wp81_t14
+1990,Kansas,20,2477574,62840,census_wp81_t14
+1990,Kentucky,21,3685296,34119,census_wp81_t14
+1990,Louisiana,22,4219973,87407,census_wp81_t14
+1990,Maine,23,1227928,36296,census_wp81_t14
+1990,Maryland,24,4781468,313494,census_wp81_t14
+1990,Massachusetts,25,6016425,573733,census_wp81_t14
+1990,Michigan,26,9295297,355393,census_wp81_t14
+1990,Minnesota,27,4375099,113039,census_wp81_t14
+1990,Mississippi,28,2573216,20383,census_wp81_t14
+1990,Missouri,29,5117073,83633,census_wp81_t14
+1990,Montana,30,799065,13779,census_wp81_t14
+1990,Nebraska,31,1578385,28198,census_wp81_t14
+1990,Nevada,32,1201833,104828,census_wp81_t14
+1990,New Hampshire,33,1109252,41193,census_wp81_t14
+1990,New Jersey,34,7730188,966610,census_wp81_t14
+1990,New Mexico,35,1515069,80514,census_wp81_t14
+1990,New York,36,17990455,2851861,census_wp81_t14
+1990,North Carolina,37,6628637,115077,census_wp81_t14
+1990,North Dakota,38,638800,9388,census_wp81_t14
+1990,Ohio,39,10847115,259673,census_wp81_t14
+1990,Oklahoma,40,3145585,65489,census_wp81_t14
+1990,Oregon,41,2842321,139307,census_wp81_t14
+1990,Pennsylvania,42,11881643,369316,census_wp81_t14
+1990,Rhode Island,44,1003464,95088,census_wp81_t14
+1990,South Carolina,45,3486703,49964,census_wp81_t14
+1990,South Dakota,46,696004,7731,census_wp81_t14
+1990,Tennessee,47,4877185,59114,census_wp81_t14
+1990,Texas,48,16986510,1524436,census_wp81_t14
+1990,Utah,49,1722850,58600,census_wp81_t14
+1990,Vermont,50,562758,17544,census_wp81_t14
+1990,Virginia,51,6187358,311809,census_wp81_t14
+1990,Washington,53,4866692,322144,census_wp81_t14
+1990,West Virginia,54,1793477,15712,census_wp81_t14
+1990,Wisconsin,55,4891769,121547,census_wp81_t14
+1990,Wyoming,56,453588,7647,census_wp81_t14
+2000,Alabama,01,4447100,87772,census_wp81_t14
+2000,Alaska,02,626932,37170,census_wp81_t14
+2000,Arizona,04,5130632,656183,census_wp81_t14
+2000,Arkansas,05,2673400,73690,census_wp81_t14
+2000,California,06,33871648,8864255,census_wp81_t14
+2000,Colorado,08,4301261,369903,census_wp81_t14
+2000,Connecticut,09,3405565,369967,census_wp81_t14
+2000,Delaware,10,783600,44898,census_wp81_t14
+2000,District of Columbia,11,572059,73561,census_wp81_t14
+2000,Florida,12,15982378,2670828,census_wp81_t14
+2000,Georgia,13,8186453,577273,census_wp81_t14
+2000,Hawaii,15,1211537,212229,census_wp81_t14
+2000,Idaho,16,1293953,64080,census_wp81_t14
+2000,Illinois,17,12419293,1529058,census_wp81_t14
+2000,Indiana,18,6080485,186534,census_wp81_t14
+2000,Iowa,19,2926324,91085,census_wp81_t14
+2000,Kansas,20,2688418,134735,census_wp81_t14
+2000,Kentucky,21,4041769,80271,census_wp81_t14
+2000,Louisiana,22,4468976,115885,census_wp81_t14
+2000,Maine,23,1274923,36691,census_wp81_t14
+2000,Maryland,24,5296486,518315,census_wp81_t14
+2000,Massachusetts,25,6349097,772983,census_wp81_t14
+2000,Michigan,26,9938444,523589,census_wp81_t14
+2000,Minnesota,27,4919479,260463,census_wp81_t14
+2000,Mississippi,28,2844658,39908,census_wp81_t14
+2000,Missouri,29,5595211,151196,census_wp81_t14
+2000,Montana,30,902195,16396,census_wp81_t14
+2000,Nebraska,31,1711263,74638,census_wp81_t14
+2000,Nevada,32,1998257,316593,census_wp81_t14
+2000,New Hampshire,33,1235786,54154,census_wp81_t14
+2000,New Jersey,34,8414350,1476327,census_wp81_t14
+2000,New Mexico,35,1819046,149606,census_wp81_t14
+2000,New York,36,18976457,3868133,census_wp81_t14
+2000,North Carolina,37,8049313,430000,census_wp81_t14
+2000,North Dakota,38,642200,12114,census_wp81_t14
+2000,Ohio,39,11353140,339279,census_wp81_t14
+2000,Oklahoma,40,3450654,131747,census_wp81_t14
+2000,Oregon,41,3421399,289702,census_wp81_t14
+2000,Pennsylvania,42,12281054,508291,census_wp81_t14
+2000,Rhode Island,44,1048319,119277,census_wp81_t14
+2000,South Carolina,45,4012012,115978,census_wp81_t14
+2000,South Dakota,46,754844,13495,census_wp81_t14
+2000,Tennessee,47,5689283,159004,census_wp81_t14
+2000,Texas,48,20851820,2899642,census_wp81_t14
+2000,Utah,49,2233169,158664,census_wp81_t14
+2000,Vermont,50,608827,23245,census_wp81_t14
+2000,Virginia,51,7078515,570279,census_wp81_t14
+2000,Washington,53,5894121,614457,census_wp81_t14
+2000,West Virginia,54,1808344,19390,census_wp81_t14
+2000,Wisconsin,55,5363675,193751,census_wp81_t14
+2000,Wyoming,56,493782,11205,census_wp81_t14
+2005,Alabama,01,4442558,120773,acs1_sf_b05002
+2005,Alaska,02,641724,34368,acs1_sf_b05002
+2005,Arizona,04,5829839,843296,acs1_sf_b05002
+2005,Arkansas,05,2701431,101169,acs1_sf_b05002
+2005,California,06,35278768,9611356,acs1_sf_b05002
+2005,Colorado,08,4562244,460294,acs1_sf_b05002
+2005,Connecticut,09,3394751,423254,acs1_sf_b05002
+2005,Delaware,10,818587,62867,acs1_sf_b05002
+2005,District of Columbia,11,515118,67717,acs1_sf_b05002
+2005,Florida,12,17382511,3212955,acs1_sf_b05002
+2005,Georgia,13,8821142,795419,acs1_sf_b05002
+2005,Hawaii,15,1238158,212404,acs1_sf_b05002
+2005,Idaho,16,1395634,76377,acs1_sf_b05002
+2005,Illinois,17,12440351,1695289,acs1_sf_b05002
+2005,Indiana,18,6093372,242281,acs1_sf_b05002
+2005,Iowa,19,2862541,103143,acs1_sf_b05002
+2005,Kansas,20,2662616,153535,acs1_sf_b05002
+2005,Kentucky,21,4058633,98798,acs1_sf_b05002
+2005,Louisiana,22,4389747,121590,acs1_sf_b05002
+2005,Maine,23,1283673,38727,acs1_sf_b05002
+2005,Maryland,24,5461318,641373,acs1_sf_b05002
+2005,Massachusetts,25,6182860,891184,acs1_sf_b05002
+2005,Michigan,26,9865583,605656,acs1_sf_b05002
+2005,Minnesota,27,4989848,316716,acs1_sf_b05002
+2005,Mississippi,28,2824156,43336,acs1_sf_b05002
+2005,Missouri,29,5631910,193735,acs1_sf_b05002
+2005,Montana,30,910651,16734,acs1_sf_b05002
+2005,Nebraska,31,1706976,96127,acs1_sf_b05002
+2005,Nevada,32,2381281,413298,acs1_sf_b05002
+2005,New Hampshire,33,1272486,72480,acs1_sf_b05002
+2005,New Jersey,34,8521427,1662857,acs1_sf_b05002
+2005,New Mexico,35,1887200,168640,acs1_sf_b05002
+2005,New York,36,18655275,3997268,acs1_sf_b05002
+2005,North Carolina,37,8411041,560753,acs1_sf_b05002
+2005,North Dakota,38,609645,11968,acs1_sf_b05002
+2005,Ohio,39,11155606,387216,acs1_sf_b05002
+2005,Oklahoma,40,3433496,155880,acs1_sf_b05002
+2005,Oregon,41,3560109,344575,acs1_sf_b05002
+2005,Pennsylvania,42,11979147,603674,acs1_sf_b05002
+2005,Rhode Island,44,1032662,130517,acs1_sf_b05002
+2005,South Carolina,45,4113961,170750,acs1_sf_b05002
+2005,South Dakota,46,746033,17269,acs1_sf_b05002
+2005,Tennessee,47,5810590,223118,acs1_sf_b05002
+2005,Texas,48,22270165,3542513,acs1_sf_b05002
+2005,Utah,49,2427350,192916,acs1_sf_b05002
+2005,Vermont,50,602290,21843,acs1_sf_b05002
+2005,Virginia,51,7332608,723667,acs1_sf_b05002
+2005,Washington,53,6146338,750258,acs1_sf_b05002
+2005,West Virginia,54,1771750,19302,acs1_sf_b05002
+2005,Wisconsin,55,5375751,227372,acs1_sf_b05002
+2005,Wyoming,56,495226,11235,acs1_sf_b05002
+2006,Alabama,01,4599030,130049,acs1_sf_b05002
+2006,Alaska,02,670053,47066,acs1_sf_b05002
+2006,Arizona,04,6166318,929083,acs1_sf_b05002
+2006,Arkansas,05,2810872,107346,acs1_sf_b05002
+2006,California,06,36457549,9902067,acs1_sf_b05002
+2006,Colorado,08,4753377,489496,acs1_sf_b05002
+2006,Connecticut,09,3504809,452358,acs1_sf_b05002
+2006,Delaware,10,853476,68722,acs1_sf_b05002
+2006,District of Columbia,11,581530,73820,acs1_sf_b05002
+2006,Florida,12,18089889,3425634,acs1_sf_b05002
+2006,Georgia,13,9363941,859590,acs1_sf_b05002
+2006,Hawaii,15,1285498,210162,acs1_sf_b05002
+2006,Idaho,16,1466465,82040,acs1_sf_b05002
+2006,Illinois,17,12831970,1773600,acs1_sf_b05002
+2006,Indiana,18,6313520,263607,acs1_sf_b05002
+2006,Iowa,19,2982085,112299,acs1_sf_b05002
+2006,Kansas,20,2764075,173394,acs1_sf_b05002
+2006,Kentucky,21,4206074,111724,acs1_sf_b05002
+2006,Louisiana,22,4287768,125204,acs1_sf_b05002
+2006,Maine,23,1321574,41956,acs1_sf_b05002
+2006,Maryland,24,5615727,683157,acs1_sf_b05002
+2006,Massachusetts,25,6437193,908271,acs1_sf_b05002
+2006,Michigan,26,10095643,598651,acs1_sf_b05002
+2006,Minnesota,27,5167101,339236,acs1_sf_b05002
+2006,Mississippi,28,2910540,51044,acs1_sf_b05002
+2006,Missouri,29,5842713,193690,acs1_sf_b05002
+2006,Montana,30,944632,17512,acs1_sf_b05002
+2006,Nebraska,31,1768331,99500,acs1_sf_b05002
+2006,Nevada,32,2495529,475914,acs1_sf_b05002
+2006,New Hampshire,33,1314895,71200,acs1_sf_b05002
+2006,New Jersey,34,8724560,1754253,acs1_sf_b05002
+2006,New Mexico,35,1954599,197251,acs1_sf_b05002
+2006,New York,36,19306183,4178962,acs1_sf_b05002
+2006,North Carolina,37,8856505,614198,acs1_sf_b05002
+2006,North Dakota,38,635867,13378,acs1_sf_b05002
+2006,Ohio,39,11478006,412352,acs1_sf_b05002
+2006,Oklahoma,40,3579212,175987,acs1_sf_b05002
+2006,Oregon,41,3700758,359867,acs1_sf_b05002
+2006,Pennsylvania,42,12440621,636567,acs1_sf_b05002
+2006,Rhode Island,44,1067610,134390,acs1_sf_b05002
+2006,South Carolina,45,4321249,176018,acs1_sf_b05002
+2006,South Dakota,46,781919,16852,acs1_sf_b05002
+2006,Tennessee,47,6038803,236516,acs1_sf_b05002
+2006,Texas,48,23507783,3740667,acs1_sf_b05002
+2006,Utah,49,2550063,210500,acs1_sf_b05002
+2006,Vermont,50,623908,24182,acs1_sf_b05002
+2006,Virginia,51,7642884,773785,acs1_sf_b05002
+2006,Washington,53,6395798,793789,acs1_sf_b05002
+2006,West Virginia,54,1818470,21948,acs1_sf_b05002
+2006,Wisconsin,55,5556506,245006,acs1_sf_b05002
+2006,Wyoming,56,515004,13929,acs1_sf_b05002
+2007,Alabama,01,4627851,137275,acs1_sf_b05002
+2007,Alaska,02,683478,48928,acs1_sf_b05002
+2007,Arizona,04,6338755,991584,acs1_sf_b05002
+2007,Arkansas,05,2834797,118405,acs1_sf_b05002
+2007,California,06,36553215,10024352,acs1_sf_b05002
+2007,Colorado,08,4861515,485170,acs1_sf_b05002
+2007,Connecticut,09,3502309,449661,acs1_sf_b05002
+2007,Delaware,10,864764,65821,acs1_sf_b05002
+2007,District of Columbia,11,588292,74409,acs1_sf_b05002
+2007,Florida,12,18251243,3440918,acs1_sf_b05002
+2007,Georgia,13,9544750,868413,acs1_sf_b05002
+2007,Hawaii,15,1283388,221448,acs1_sf_b05002
+2007,Idaho,16,1499402,83904,acs1_sf_b05002
+2007,Illinois,17,12852548,1768518,acs1_sf_b05002
+2007,Indiana,18,6345289,263848,acs1_sf_b05002
+2007,Iowa,19,2988047,117437,acs1_sf_b05002
+2007,Kansas,20,2775997,167085,acs1_sf_b05002
+2007,Kentucky,21,4241474,107833,acs1_sf_b05002
+2007,Louisiana,22,4293204,143267,acs1_sf_b05002
+2007,Maine,23,1317207,44464,acs1_sf_b05002
+2007,Maryland,24,5618344,694590,acs1_sf_b05002
+2007,Massachusetts,25,6449755,913957,acs1_sf_b05002
+2007,Michigan,26,10071822,609457,acs1_sf_b05002
+2007,Minnesota,27,5197621,345001,acs1_sf_b05002
+2007,Mississippi,28,2918785,49483,acs1_sf_b05002
+2007,Missouri,29,5878415,208121,acs1_sf_b05002
+2007,Montana,30,957861,16057,acs1_sf_b05002
+2007,Nebraska,31,1774571,98512,acs1_sf_b05002
+2007,Nevada,32,2565382,497821,acs1_sf_b05002
+2007,New Hampshire,33,1315828,67735,acs1_sf_b05002
+2007,New Jersey,34,8685920,1731202,acs1_sf_b05002
+2007,New Mexico,35,1969915,182936,acs1_sf_b05002
+2007,New York,36,19297729,4205813,acs1_sf_b05002
+2007,North Carolina,37,9061032,629947,acs1_sf_b05002
+2007,North Dakota,38,639715,15586,acs1_sf_b05002
+2007,Ohio,39,11466917,419443,acs1_sf_b05002
+2007,Oklahoma,40,3617316,182186,acs1_sf_b05002
+2007,Oregon,41,3747455,367551,acs1_sf_b05002
+2007,Pennsylvania,42,12432792,665176,acs1_sf_b05002
+2007,Rhode Island,44,1057832,134823,acs1_sf_b05002
+2007,South Carolina,45,4407709,190014,acs1_sf_b05002
+2007,South Dakota,46,796215,14530,acs1_sf_b05002
+2007,Tennessee,47,6156719,249552,acs1_sf_b05002
+2007,Texas,48,23904380,3828904,acs1_sf_b05002
+2007,Utah,49,2645330,215757,acs1_sf_b05002
+2007,Vermont,50,621254,21410,acs1_sf_b05002
+2007,Virginia,51,7712091,794246,acs1_sf_b05002
+2007,Washington,53,6468424,795179,acs1_sf_b05002
+2007,West Virginia,54,1812035,23455,acs1_sf_b05002
+2007,Wisconsin,55,5601640,252150,acs1_sf_b05002
+2007,Wyoming,56,522830,16360,acs1_sf_b05002
+2008,Alabama,01,4661900,131695,acs1_sf_b05002
+2008,Alaska,02,686293,44296,acs1_sf_b05002
+2008,Arizona,04,6500180,932518,acs1_sf_b05002
+2008,Arkansas,05,2855390,109257,acs1_sf_b05002
+2008,California,06,36756666,9859027,acs1_sf_b05002
+2008,Colorado,08,4939456,499179,acs1_sf_b05002
+2008,Connecticut,09,3501252,454002,acs1_sf_b05002
+2008,Delaware,10,873092,66793,acs1_sf_b05002
+2008,District of Columbia,11,591833,77884,acs1_sf_b05002
+2008,Florida,12,18328340,3391511,acs1_sf_b05002
+2008,Georgia,13,9685744,910473,acs1_sf_b05002
+2008,Hawaii,15,1288198,229348,acs1_sf_b05002
+2008,Idaho,16,1523816,89489,acs1_sf_b05002
+2008,Illinois,17,12901564,1782423,acs1_sf_b05002
+2008,Indiana,18,6376792,256125,acs1_sf_b05002
+2008,Iowa,19,3002557,112289,acs1_sf_b05002
+2008,Kansas,20,2802134,164118,acs1_sf_b05002
+2008,Kentucky,21,4269245,119503,acs1_sf_b05002
+2008,Louisiana,22,4410796,134704,acs1_sf_b05002
+2008,Maine,23,1316456,39378,acs1_sf_b05002
+2008,Maryland,24,5633597,697609,acs1_sf_b05002
+2008,Massachusetts,25,6497967,937200,acs1_sf_b05002
+2008,Michigan,26,10003422,582742,acs1_sf_b05002
+2008,Minnesota,27,5220393,340657,acs1_sf_b05002
+2008,Mississippi,28,2938618,60555,acs1_sf_b05002
+2008,Missouri,29,5911605,215214,acs1_sf_b05002
+2008,Montana,30,967440,21285,acs1_sf_b05002
+2008,Nebraska,31,1783432,97815,acs1_sf_b05002
+2008,Nevada,32,2600167,490717,acs1_sf_b05002
+2008,New Hampshire,33,1315809,65581,acs1_sf_b05002
+2008,New Jersey,34,8682661,1718034,acs1_sf_b05002
+2008,New Mexico,35,1984356,191025,acs1_sf_b05002
+2008,New York,36,19490297,4236768,acs1_sf_b05002
+2008,North Carolina,37,9222414,641130,acs1_sf_b05002
+2008,North Dakota,38,641481,15013,acs1_sf_b05002
+2008,Ohio,39,11485910,427040,acs1_sf_b05002
+2008,Oklahoma,40,3642361,183249,acs1_sf_b05002
+2008,Oregon,41,3790060,366405,acs1_sf_b05002
+2008,Pennsylvania,42,12448279,660426,acs1_sf_b05002
+2008,Rhode Island,44,1050788,128453,acs1_sf_b05002
+2008,South Carolina,45,4479800,195069,acs1_sf_b05002
+2008,South Dakota,46,804194,14894,acs1_sf_b05002
+2008,Tennessee,47,6214888,248483,acs1_sf_b05002
+2008,Texas,48,24326974,3887224,acs1_sf_b05002
+2008,Utah,49,2736424,226440,acs1_sf_b05002
+2008,Vermont,50,621270,24525,acs1_sf_b05002
+2008,Virginia,51,7769089,795712,acs1_sf_b05002
+2008,Washington,53,6549224,804364,acs1_sf_b05002
+2008,West Virginia,54,1814468,23273,acs1_sf_b05002
+2008,Wisconsin,55,5627968,247649,acs1_sf_b05002
+2008,Wyoming,56,532668,12372,acs1_sf_b05002
+2009,Alabama,01,4708708,146999,acs1_sf_b05002
+2009,Alaska,02,698473,48849,acs1_sf_b05002
+2009,Arizona,04,6595778,925376,acs1_sf_b05002
+2009,Arkansas,05,2889450,120231,acs1_sf_b05002
+2009,California,06,36961664,9946758,acs1_sf_b05002
+2009,Colorado,08,5024748,486615,acs1_sf_b05002
+2009,Connecticut,09,3518288,459515,acs1_sf_b05002
+2009,Delaware,10,885122,74033,acs1_sf_b05002
+2009,District of Columbia,11,599657,72110,acs1_sf_b05002
+2009,Florida,12,18537969,3484141,acs1_sf_b05002
+2009,Georgia,13,9829211,920381,acs1_sf_b05002
+2009,Hawaii,15,1295178,224227,acs1_sf_b05002
+2009,Idaho,16,1545801,97642,acs1_sf_b05002
+2009,Illinois,17,12910409,1740763,acs1_sf_b05002
+2009,Indiana,18,6423113,281327,acs1_sf_b05002
+2009,Iowa,19,3007857,116161,acs1_sf_b05002
+2009,Kansas,20,2818747,171252,acs1_sf_b05002
+2009,Kentucky,21,4314113,127973,acs1_sf_b05002
+2009,Louisiana,22,4492076,152002,acs1_sf_b05002
+2009,Maine,23,1318301,43958,acs1_sf_b05002
+2009,Maryland,24,5699478,730400,acs1_sf_b05002
+2009,Massachusetts,25,6593587,943335,acs1_sf_b05002
+2009,Michigan,26,9969727,614111,acs1_sf_b05002
+2009,Minnesota,27,5266215,357561,acs1_sf_b05002
+2009,Mississippi,28,2951996,59538,acs1_sf_b05002
+2009,Missouri,29,5987580,212900,acs1_sf_b05002
+2009,Montana,30,974989,19309,acs1_sf_b05002
+2009,Nebraska,31,1796622,106186,acs1_sf_b05002
+2009,Nevada,32,2643085,506505,acs1_sf_b05002
+2009,New Hampshire,33,1324575,68462,acs1_sf_b05002
+2009,New Jersey,34,8707740,1759467,acs1_sf_b05002
+2009,New Mexico,35,2009671,196006,acs1_sf_b05002
+2009,New York,36,19541453,4178170,acs1_sf_b05002
+2009,North Carolina,37,9380884,665270,acs1_sf_b05002
+2009,North Dakota,38,646844,15453,acs1_sf_b05002
+2009,Ohio,39,11542645,433330,acs1_sf_b05002
+2009,Oklahoma,40,3687050,189841,acs1_sf_b05002
+2009,Oregon,41,3825657,367202,acs1_sf_b05002
+2009,Pennsylvania,42,12604767,691242,acs1_sf_b05002
+2009,Rhode Island,44,1053209,133458,acs1_sf_b05002
+2009,South Carolina,45,4561242,205133,acs1_sf_b05002
+2009,South Dakota,46,812383,21765,acs1_sf_b05002
+2009,Tennessee,47,6296254,265658,acs1_sf_b05002
+2009,Texas,48,24782302,3985239,acs1_sf_b05002
+2009,Utah,49,2784572,218142,acs1_sf_b05002
+2009,Vermont,50,621760,20537,acs1_sf_b05002
+2009,Virginia,51,7882590,805742,acs1_sf_b05002
+2009,Washington,53,6664195,810637,acs1_sf_b05002
+2009,West Virginia,54,1819777,23129,acs1_sf_b05002
+2009,Wisconsin,55,5654774,256085,acs1_sf_b05002
+2009,Wyoming,56,544270,17108,acs1_sf_b05002
+2010,Alabama,01,4785298,168596,acs1_api_b05002
+2010,Alaska,02,713985,49319,acs1_api_b05002
+2010,Arizona,04,6413737,856663,acs1_api_b05002
+2010,Arkansas,05,2921606,131667,acs1_api_b05002
+2010,California,06,37349363,10150429,acs1_api_b05002
+2010,Colorado,08,5049071,497105,acs1_api_b05002
+2010,Connecticut,09,3577073,487120,acs1_api_b05002
+2010,Delaware,10,899769,71868,acs1_api_b05002
+2010,District of Columbia,11,604453,81734,acs1_api_b05002
+2010,Florida,12,18843326,3658043,acs1_api_b05002
+2010,Georgia,13,9712587,942959,acs1_api_b05002
+2010,Hawaii,15,1363621,248213,acs1_api_b05002
+2010,Idaho,16,1571450,87098,acs1_api_b05002
+2010,Illinois,17,12843166,1759859,acs1_api_b05002
+2010,Indiana,18,6490621,300789,acs1_api_b05002
+2010,Iowa,19,3049883,139477,acs1_api_b05002
+2010,Kansas,20,2859169,186942,acs1_api_b05002
+2010,Kentucky,21,4346266,140583,acs1_api_b05002
+2010,Louisiana,22,4544228,172866,acs1_api_b05002
+2010,Maine,23,1327567,45666,acs1_api_b05002
+2010,Maryland,24,5785982,803695,acs1_api_b05002
+2010,Massachusetts,25,6557254,983564,acs1_api_b05002
+2010,Michigan,26,9877574,587747,acs1_api_b05002
+2010,Minnesota,27,5310584,378483,acs1_api_b05002
+2010,Mississippi,28,2970036,61428,acs1_api_b05002
+2010,Missouri,29,5996231,232537,acs1_api_b05002
+2010,Montana,30,990898,20031,acs1_api_b05002
+2010,Nebraska,31,1830429,112178,acs1_api_b05002
+2010,Nevada,32,2704642,508458,acs1_api_b05002
+2010,New Hampshire,33,1316759,69742,acs1_api_b05002
+2010,New Jersey,34,8801624,1844581,acs1_api_b05002
+2010,New Mexico,35,2065932,205141,acs1_api_b05002
+2010,New York,36,19392283,4297612,acs1_api_b05002
+2010,North Carolina,37,9561558,719137,acs1_api_b05002
+2010,North Dakota,38,674499,16639,acs1_api_b05002
+2010,Ohio,39,11536182,469748,acs1_api_b05002
+2010,Oklahoma,40,3761702,206382,acs1_api_b05002
+2010,Oregon,41,3838957,375743,acs1_api_b05002
+2010,Pennsylvania,42,12709630,739068,acs1_api_b05002
+2010,Rhode Island,44,1052886,134335,acs1_api_b05002
+2010,South Carolina,45,4636312,218494,acs1_api_b05002
+2010,South Dakota,46,816463,22238,acs1_api_b05002
+2010,Tennessee,47,6356897,288993,acs1_api_b05002
+2010,Texas,48,25257114,4142031,acs1_api_b05002
+2010,Utah,49,2776469,222638,acs1_api_b05002
+2010,Vermont,50,625960,27560,acs1_api_b05002
+2010,Virginia,51,8024617,911119,acs1_api_b05002
+2010,Washington,53,6744496,886262,acs1_api_b05002
+2010,West Virginia,54,1853973,22511,acs1_api_b05002
+2010,Wisconsin,55,5691047,254920,acs1_api_b05002
+2010,Wyoming,56,564460,15843,acs1_api_b05002
+2010,Puerto Rico,72,3722133,105528,acs1_api_b05002
+2011,Alabama,01,4802740,162673,acs1_api_b05002
+2011,Alaska,02,722718,51603,acs1_api_b05002
+2011,Arizona,04,6482505,871667,acs1_api_b05002
+2011,Arkansas,05,2937979,128809,acs1_api_b05002
+2011,California,06,37691912,10195057,acs1_api_b05002
+2011,Colorado,08,5116796,494760,acs1_api_b05002
+2011,Connecticut,09,3580709,478323,acs1_api_b05002
+2011,Delaware,10,907135,76362,acs1_api_b05002
+2011,District of Columbia,11,617996,83599,acs1_api_b05002
+2011,Florida,12,19057542,3702627,acs1_api_b05002
+2011,Georgia,13,9815210,942921,acs1_api_b05002
+2011,Hawaii,15,1374810,246091,acs1_api_b05002
+2011,Idaho,16,1584985,95386,acs1_api_b05002
+2011,Illinois,17,12869259,1798815,acs1_api_b05002
+2011,Indiana,18,6516922,307194,acs1_api_b05002
+2011,Iowa,19,3062309,133547,acs1_api_b05002
+2011,Kansas,20,2871238,198767,acs1_api_b05002
+2011,Kentucky,21,4369356,140433,acs1_api_b05002
+2011,Louisiana,22,4574836,173778,acs1_api_b05002
+2011,Maine,23,1328188,42747,acs1_api_b05002
+2011,Maryland,24,5828289,811701,acs1_api_b05002
+2011,Massachusetts,25,6587536,983389,acs1_api_b05002
+2011,Michigan,26,9876187,604014,acs1_api_b05002
+2011,Minnesota,27,5344861,388839,acs1_api_b05002
+2011,Mississippi,28,2978512,65056,acs1_api_b05002
+2011,Missouri,29,6010688,243263,acs1_api_b05002
+2011,Montana,30,998199,20060,acs1_api_b05002
+2011,Nebraska,31,1842641,116124,acs1_api_b05002
+2011,Nevada,32,2723322,522463,acs1_api_b05002
+2011,New Hampshire,33,1318194,73843,acs1_api_b05002
+2011,New Jersey,34,8821155,1893186,acs1_api_b05002
+2011,New Mexico,35,2082224,211107,acs1_api_b05002
+2011,New York,36,19465197,4317715,acs1_api_b05002
+2011,North Carolina,37,9656401,708350,acs1_api_b05002
+2011,North Dakota,38,683932,16626,acs1_api_b05002
+2011,Ohio,39,11544951,456422,acs1_api_b05002
+2011,Oklahoma,40,3791508,208857,acs1_api_b05002
+2011,Oregon,41,3871859,377613,acs1_api_b05002
+2011,Pennsylvania,42,12742886,756410,acs1_api_b05002
+2011,Rhode Island,44,1051302,141570,acs1_api_b05002
+2011,South Carolina,45,4679230,221933,acs1_api_b05002
+2011,South Dakota,46,824082,22015,acs1_api_b05002
+2011,Tennessee,47,6403353,306676,acs1_api_b05002
+2011,Texas,48,25674681,4201675,acs1_api_b05002
+2011,Utah,49,2817222,238043,acs1_api_b05002
+2011,Vermont,50,626431,24243,acs1_api_b05002
+2011,Virginia,51,8096604,900243,acs1_api_b05002
+2011,Washington,53,6830038,909312,acs1_api_b05002
+2011,West Virginia,54,1855364,23829,acs1_api_b05002
+2011,Wisconsin,55,5711767,269734,acs1_api_b05002
+2011,Wyoming,56,568158,18390,acs1_api_b05002
+2011,Puerto Rico,72,3706690,112536,acs1_api_b05002
+2012,Alabama,01,4822023,163679,acs1_api_b05002
+2012,Alaska,02,731449,52313,acs1_api_b05002
+2012,Arizona,04,6553255,875927,acs1_api_b05002
+2012,Arkansas,05,2949131,129165,acs1_api_b05002
+2012,California,06,38041430,10300832,acs1_api_b05002
+2012,Colorado,08,5187582,506358,acs1_api_b05002
+2012,Connecticut,09,3590347,495421,acs1_api_b05002
+2012,Delaware,10,917092,77497,acs1_api_b05002
+2012,District of Columbia,11,632323,90323,acs1_api_b05002
+2012,Florida,12,19317568,3747136,acs1_api_b05002
+2012,Georgia,13,9919945,940138,acs1_api_b05002
+2012,Hawaii,15,1392313,251866,acs1_api_b05002
+2012,Idaho,16,1595728,96568,acs1_api_b05002
+2012,Illinois,17,12875255,1791330,acs1_api_b05002
+2012,Indiana,18,6537334,303145,acs1_api_b05002
+2012,Iowa,19,3074186,137858,acs1_api_b05002
+2012,Kansas,20,2885905,186816,acs1_api_b05002
+2012,Kentucky,21,4380415,137411,acs1_api_b05002
+2012,Louisiana,22,4601893,168152,acs1_api_b05002
+2012,Maine,23,1329192,47095,acs1_api_b05002
+2012,Maryland,24,5884563,839336,acs1_api_b05002
+2012,Massachusetts,25,6646144,995692,acs1_api_b05002
+2012,Michigan,26,9883360,607319,acs1_api_b05002
+2012,Minnesota,27,5379139,389324,acs1_api_b05002
+2012,Mississippi,28,2984926,59303,acs1_api_b05002
+2012,Missouri,29,6021988,228076,acs1_api_b05002
+2012,Montana,30,1005141,18344,acs1_api_b05002
+2012,Nebraska,31,1855525,118522,acs1_api_b05002
+2012,Nevada,32,2758931,530590,acs1_api_b05002
+2012,New Hampshire,33,1320718,71369,acs1_api_b05002
+2012,New Jersey,34,8864590,1883299,acs1_api_b05002
+2012,New Mexico,35,2085538,192188,acs1_api_b05002
+2012,New York,36,19570261,4424370,acs1_api_b05002
+2012,North Carolina,37,9752073,748072,acs1_api_b05002
+2012,North Dakota,38,699628,19380,acs1_api_b05002
+2012,Ohio,39,11544225,451330,acs1_api_b05002
+2012,Oklahoma,40,3814820,213284,acs1_api_b05002
+2012,Oregon,41,3899353,372767,acs1_api_b05002
+2012,Pennsylvania,42,12763536,769264,acs1_api_b05002
+2012,Rhode Island,44,1050292,140125,acs1_api_b05002
+2012,South Carolina,45,4723723,221976,acs1_api_b05002
+2012,South Dakota,46,833354,22857,acs1_api_b05002
+2012,Tennessee,47,6456243,291641,acs1_api_b05002
+2012,Texas,48,26059203,4269693,acs1_api_b05002
+2012,Utah,49,2855287,240872,acs1_api_b05002
+2012,Vermont,50,626011,25541,acs1_api_b05002
+2012,Virginia,51,8185867,947320,acs1_api_b05002
+2012,Washington,53,6897012,916399,acs1_api_b05002
+2012,West Virginia,54,1855413,25846,acs1_api_b05002
+2012,Wisconsin,55,5726398,272009,acs1_api_b05002
+2012,Wyoming,56,576412,19520,acs1_api_b05002
+2012,Puerto Rico,72,3667084,98829,acs1_api_b05002
+2013,Alabama,01,4833722,162226,acs1_api_b05002
+2013,Alaska,02,735132,50760,acs1_api_b05002
+2013,Arizona,04,6626624,896310,acs1_api_b05002
+2013,Arkansas,05,2959373,133888,acs1_api_b05002
+2013,California,06,38332521,10311200,acs1_api_b05002
+2013,Colorado,08,5268367,500634,acs1_api_b05002
+2013,Connecticut,09,3596080,499643,acs1_api_b05002
+2013,Delaware,10,925749,76768,acs1_api_b05002
+2013,District of Columbia,11,646449,92819,acs1_api_b05002
+2013,Florida,12,19552860,3798062,acs1_api_b05002
+2013,Georgia,13,9992167,970979,acs1_api_b05002
+2013,Hawaii,15,1404054,246464,acs1_api_b05002
+2013,Idaho,16,1612136,95525,acs1_api_b05002
+2013,Illinois,17,12882135,1807468,acs1_api_b05002
+2013,Indiana,18,6570902,314501,acs1_api_b05002
+2013,Iowa,19,3090416,149122,acs1_api_b05002
+2013,Kansas,20,2893957,198173,acs1_api_b05002
+2013,Kentucky,21,4395295,149016,acs1_api_b05002
+2013,Louisiana,22,4625470,182559,acs1_api_b05002
+2013,Maine,23,1328302,44687,acs1_api_b05002
+2013,Maryland,24,5928814,842250,acs1_api_b05002
+2013,Massachusetts,25,6692824,1046155,acs1_api_b05002
+2013,Michigan,26,9895622,616786,acs1_api_b05002
+2013,Minnesota,27,5420380,403514,acs1_api_b05002
+2013,Mississippi,28,2991207,62899,acs1_api_b05002
+2013,Missouri,29,6044171,233261,acs1_api_b05002
+2013,Montana,30,1015165,19465,acs1_api_b05002
+2013,Nebraska,31,1868516,123182,acs1_api_b05002
+2013,Nevada,32,2790136,529164,acs1_api_b05002
+2013,New Hampshire,33,1323459,75175,acs1_api_b05002
+2013,New Jersey,34,8899339,1925773,acs1_api_b05002
+2013,New Mexico,35,2085287,211249,acs1_api_b05002
+2013,New York,36,19651127,4383311,acs1_api_b05002
+2013,North Carolina,37,9848060,749426,acs1_api_b05002
+2013,North Dakota,38,723393,21107,acs1_api_b05002
+2013,Ohio,39,11570808,477337,acs1_api_b05002
+2013,Oklahoma,40,3850568,218432,acs1_api_b05002
+2013,Oregon,41,3930065,391206,acs1_api_b05002
+2013,Pennsylvania,42,12773801,796159,acs1_api_b05002
+2013,Rhode Island,44,1051511,135972,acs1_api_b05002
+2013,South Carolina,45,4774839,231278,acs1_api_b05002
+2013,South Dakota,46,844877,24459,acs1_api_b05002
+2013,Tennessee,47,6495978,304801,acs1_api_b05002
+2013,Texas,48,26448193,4369271,acs1_api_b05002
+2013,Utah,49,2900872,236954,acs1_api_b05002
+2013,Vermont,50,626630,27012,acs1_api_b05002
+2013,Virginia,51,8260405,948963,acs1_api_b05002
+2013,Washington,53,6971406,943664,acs1_api_b05002
+2013,West Virginia,54,1854304,26321,acs1_api_b05002
+2013,Wisconsin,55,5742713,274687,acs1_api_b05002
+2013,Wyoming,56,582658,18029,acs1_api_b05002
+2013,Puerto Rico,72,3615086,94028,acs1_api_b05002
+2014,Alabama,01,4849377,157356,acs1_api_b05002
+2014,Alaska,02,736732,54672,acs1_api_b05002
+2014,Arizona,04,6731484,919559,acs1_api_b05002
+2014,Arkansas,05,2966369,139997,acs1_api_b05002
+2014,California,06,38802500,10512399,acs1_api_b05002
+2014,Colorado,08,5355866,538244,acs1_api_b05002
+2014,Connecticut,09,3596677,491919,acs1_api_b05002
+2014,Delaware,10,935614,80300,acs1_api_b05002
+2014,District of Columbia,11,658893,91949,acs1_api_b05002
+2014,Florida,12,19893297,3973515,acs1_api_b05002
+2014,Georgia,13,10097343,994651,acs1_api_b05002
+2014,Hawaii,15,1419561,250272,acs1_api_b05002
+2014,Idaho,16,1634464,97353,acs1_api_b05002
+2014,Illinois,17,12880580,1784403,acs1_api_b05002
+2014,Indiana,18,6596855,319580,acs1_api_b05002
+2014,Iowa,19,3107126,153321,acs1_api_b05002
+2014,Kansas,20,2904021,204420,acs1_api_b05002
+2014,Kentucky,21,4413457,162040,acs1_api_b05002
+2014,Louisiana,22,4649676,194277,acs1_api_b05002
+2014,Maine,23,1330089,49686,acs1_api_b05002
+2014,Maryland,24,5976407,890439,acs1_api_b05002
+2014,Massachusetts,25,6745408,1060281,acs1_api_b05002
+2014,Michigan,26,9909877,636569,acs1_api_b05002
+2014,Minnesota,27,5457173,428057,acs1_api_b05002
+2014,Mississippi,28,2994079,65150,acs1_api_b05002
+2014,Missouri,29,6063589,225122,acs1_api_b05002
+2014,Montana,30,1023579,23882,acs1_api_b05002
+2014,Nebraska,31,1881503,125400,acs1_api_b05002
+2014,Nevada,32,2839099,551722,acs1_api_b05002
+2014,New Hampshire,33,1326813,79532,acs1_api_b05002
+2014,New Jersey,34,8938175,1960734,acs1_api_b05002
+2014,New Mexico,35,2085572,205653,acs1_api_b05002
+2014,New York,36,19746227,4465469,acs1_api_b05002
+2014,North Carolina,37,9943964,763584,acs1_api_b05002
+2014,North Dakota,38,739482,24154,acs1_api_b05002
+2014,Ohio,39,11594163,482114,acs1_api_b05002
+2014,Oklahoma,40,3878051,226665,acs1_api_b05002
+2014,Oregon,41,3970239,393652,acs1_api_b05002
+2014,Pennsylvania,42,12787209,821700,acs1_api_b05002
+2014,Rhode Island,44,1055173,141233,acs1_api_b05002
+2014,South Carolina,45,4832482,228553,acs1_api_b05002
+2014,South Dakota,46,853175,24627,acs1_api_b05002
+2014,Tennessee,47,6549352,321258,acs1_api_b05002
+2014,Texas,48,26956958,4522428,acs1_api_b05002
+2014,Utah,49,2942902,249917,acs1_api_b05002
+2014,Vermont,50,626562,25578,acs1_api_b05002
+2014,Virginia,51,8326289,1005620,acs1_api_b05002
+2014,Washington,53,7061530,944746,acs1_api_b05002
+2014,West Virginia,54,1850326,25407,acs1_api_b05002
+2014,Wisconsin,55,5757564,280157,acs1_api_b05002
+2014,Wyoming,56,584153,22478,acs1_api_b05002
+2014,Puerto Rico,72,3548397,93155,acs1_api_b05002
+2015,Alabama,01,4858979,169972,acs1_api_b05002
+2015,Alaska,02,738432,58544,acs1_api_b05002
+2015,Arizona,04,6828065,914400,acs1_api_b05002
+2015,Arkansas,05,2978204,142841,acs1_api_b05002
+2015,California,06,39144818,10688336,acs1_api_b05002
+2015,Colorado,08,5456574,537066,acs1_api_b05002
+2015,Connecticut,09,3590886,519648,acs1_api_b05002
+2015,Delaware,10,945934,87509,acs1_api_b05002
+2015,District of Columbia,11,672228,95117,acs1_api_b05002
+2015,Florida,12,20271272,4086240,acs1_api_b05002
+2015,Georgia,13,10214860,1023717,acs1_api_b05002
+2015,Hawaii,15,1431603,253414,acs1_api_b05002
+2015,Idaho,16,1654930,94364,acs1_api_b05002
+2015,Illinois,17,12859995,1826156,acs1_api_b05002
+2015,Indiana,18,6619680,321308,acs1_api_b05002
+2015,Iowa,19,3123899,148721,acs1_api_b05002
+2015,Kansas,20,2911641,205720,acs1_api_b05002
+2015,Kentucky,21,4425092,157336,acs1_api_b05002
+2015,Louisiana,22,4670724,186369,acs1_api_b05002
+2015,Maine,23,1329328,44694,acs1_api_b05002
+2015,Maryland,24,6006401,911582,acs1_api_b05002
+2015,Massachusetts,25,6794422,1095953,acs1_api_b05002
+2015,Michigan,26,9922576,652090,acs1_api_b05002
+2015,Minnesota,27,5489594,457185,acs1_api_b05002
+2015,Mississippi,28,2992333,72258,acs1_api_b05002
+2015,Missouri,29,6083672,242761,acs1_api_b05002
+2015,Montana,30,1032949,21356,acs1_api_b05002
+2015,Nebraska,31,1896190,128390,acs1_api_b05002
+2015,Nevada,32,2890845,558170,acs1_api_b05002
+2015,New Hampshire,33,1330608,79959,acs1_api_b05002
+2015,New Jersey,34,8958013,1977325,acs1_api_b05002
+2015,New Mexico,35,2085109,196955,acs1_api_b05002
+2015,New York,36,19795791,4530087,acs1_api_b05002
+2015,North Carolina,37,10042802,794684,acs1_api_b05002
+2015,North Dakota,38,756928,28649,acs1_api_b05002
+2015,Ohio,39,11613423,503911,acs1_api_b05002
+2015,Oklahoma,40,3911338,235350,acs1_api_b05002
+2015,Oregon,41,4028977,397293,acs1_api_b05002
+2015,Pennsylvania,42,12802503,837159,acs1_api_b05002
+2015,Rhode Island,44,1056298,142324,acs1_api_b05002
+2015,South Carolina,45,4896146,232749,acs1_api_b05002
+2015,South Dakota,46,858469,27845,acs1_api_b05002
+2015,Tennessee,47,6600299,331570,acs1_api_b05002
+2015,Texas,48,27469114,4671295,acs1_api_b05002
+2015,Utah,49,2995919,244467,acs1_api_b05002
+2015,Vermont,50,626042,28247,acs1_api_b05002
+2015,Virginia,51,8382993,1018626,acs1_api_b05002
+2015,Washington,53,7170351,980158,acs1_api_b05002
+2015,West Virginia,54,1844128,29522,acs1_api_b05002
+2015,Wisconsin,55,5771337,278981,acs1_api_b05002
+2015,Wyoming,56,586107,21999,acs1_api_b05002
+2015,Puerto Rico,72,3474182,97343,acs1_api_b05002
+2016,Alabama,01,4863300,163629,acs1_api_b05002
+2016,Alaska,02,741894,57364,acs1_api_b05002
+2016,Arizona,04,6931071,934883,acs1_api_b05002
+2016,Arkansas,05,2988248,138592,acs1_api_b05002
+2016,California,06,39250017,10677663,acs1_api_b05002
+2016,Colorado,08,5540545,544733,acs1_api_b05002
+2016,Connecticut,09,3576452,514050,acs1_api_b05002
+2016,Delaware,10,952065,89391,acs1_api_b05002
+2016,District of Columbia,11,681170,90631,acs1_api_b05002
+2016,Florida,12,20612439,4236511,acs1_api_b05002
+2016,Georgia,13,10310371,1038312,acs1_api_b05002
+2016,Hawaii,15,1428557,262485,acs1_api_b05002
+2016,Idaho,16,1683140,97953,acs1_api_b05002
+2016,Illinois,17,12801539,1783474,acs1_api_b05002
+2016,Indiana,18,6633053,349169,acs1_api_b05002
+2016,Iowa,19,3134693,160189,acs1_api_b05002
+2016,Kansas,20,2907289,205522,acs1_api_b05002
+2016,Kentucky,21,4436974,155964,acs1_api_b05002
+2016,Louisiana,22,4681666,189921,acs1_api_b05002
+2016,Maine,23,1331479,50768,acs1_api_b05002
+2016,Maryland,24,6016447,921870,acs1_api_b05002
+2016,Massachusetts,25,6811779,1123882,acs1_api_b05002
+2016,Michigan,26,9928300,662279,acs1_api_b05002
+2016,Minnesota,27,5519952,452436,acs1_api_b05002
+2016,Mississippi,28,2988726,58766,acs1_api_b05002
+2016,Missouri,29,6093000,249202,acs1_api_b05002
+2016,Montana,30,1042520,21893,acs1_api_b05002
+2016,Nebraska,31,1907116,134137,acs1_api_b05002
+2016,Nevada,32,2940058,586799,acs1_api_b05002
+2016,New Hampshire,33,1334795,76309,acs1_api_b05002
+2016,New Jersey,34,8944469,2016085,acs1_api_b05002
+2016,New Mexico,35,2081015,198406,acs1_api_b05002
+2016,New York,36,19745289,4536115,acs1_api_b05002
+2016,North Carolina,37,10146788,789638,acs1_api_b05002
+2016,North Dakota,38,757953,24588,acs1_api_b05002
+2016,Ohio,39,11614373,513592,acs1_api_b05002
+2016,Oklahoma,40,3923561,228414,acs1_api_b05002
+2016,Oregon,41,4093465,394217,acs1_api_b05002
+2016,Pennsylvania,42,12784227,870913,acs1_api_b05002
+2016,Rhode Island,44,1056426,148480,acs1_api_b05002
+2016,South Carolina,45,4961119,237964,acs1_api_b05002
+2016,South Dakota,46,865454,30926,acs1_api_b05002
+2016,Tennessee,47,6651194,320021,acs1_api_b05002
+2016,Texas,48,27862596,4729920,acs1_api_b05002
+2016,Utah,49,3051217,252333,acs1_api_b05002
+2016,Vermont,50,624594,28223,acs1_api_b05002
+2016,Virginia,51,8411808,1031169,acs1_api_b05002
+2016,Washington,53,7288000,1020394,acs1_api_b05002
+2016,West Virginia,54,1831102,31770,acs1_api_b05002
+2016,Wisconsin,55,5778709,288544,acs1_api_b05002
+2016,Wyoming,56,585501,18856,acs1_api_b05002
+2016,Puerto Rico,72,3411307,91393,acs1_api_b05002
+2017,Alabama,01,4874747,169066,acs1_api_b05002
+2017,Alaska,02,739795,58187,acs1_api_b05002
+2017,Arizona,04,7016270,924900,acs1_api_b05002
+2017,Arkansas,05,3004279,140078,acs1_api_b05002
+2017,California,06,39536653,10653414,acs1_api_b05002
+2017,Colorado,08,5607154,550768,acs1_api_b05002
+2017,Connecticut,09,3588184,530245,acs1_api_b05002
+2017,Delaware,10,961939,98493,acs1_api_b05002
+2017,District of Columbia,11,693972,101860,acs1_api_b05002
+2017,Florida,12,20984400,4379341,acs1_api_b05002
+2017,Georgia,13,10429379,1065968,acs1_api_b05002
+2017,Hawaii,15,1427538,265565,acs1_api_b05002
+2017,Idaho,16,1716943,101140,acs1_api_b05002
+2017,Illinois,17,12802023,1832421,acs1_api_b05002
+2017,Indiana,18,6666818,351233,acs1_api_b05002
+2017,Iowa,19,3145711,166728,acs1_api_b05002
+2017,Kansas,20,2913123,200557,acs1_api_b05002
+2017,Kentucky,21,4454189,169085,acs1_api_b05002
+2017,Louisiana,22,4684333,191403,acs1_api_b05002
+2017,Maine,23,1335907,45433,acs1_api_b05002
+2017,Maryland,24,6052177,927936,acs1_api_b05002
+2017,Massachusetts,25,6859819,1156472,acs1_api_b05002
+2017,Michigan,26,9962311,703806,acs1_api_b05002
+2017,Minnesota,27,5576606,486243,acs1_api_b05002
+2017,Mississippi,28,2984100,65718,acs1_api_b05002
+2017,Missouri,29,6113532,257102,acs1_api_b05002
+2017,Montana,30,1050493,23109,acs1_api_b05002
+2017,Nebraska,31,1920076,143331,acs1_api_b05002
+2017,Nevada,32,2998039,596019,acs1_api_b05002
+2017,New Hampshire,33,1342795,83167,acs1_api_b05002
+2017,New Jersey,34,9005644,2055062,acs1_api_b05002
+2017,New Mexico,35,2088070,195508,acs1_api_b05002
+2017,New York,36,19849399,4540381,acs1_api_b05002
+2017,North Carolina,37,10273419,829416,acs1_api_b05002
+2017,North Dakota,38,755393,31062,acs1_api_b05002
+2017,Ohio,39,11658609,528291,acs1_api_b05002
+2017,Oklahoma,40,3930864,223883,acs1_api_b05002
+2017,Oregon,41,4142776,408718,acs1_api_b05002
+2017,Pennsylvania,42,12805537,893769,acs1_api_b05002
+2017,Rhode Island,44,1059639,147017,acs1_api_b05002
+2017,South Carolina,45,5024369,244294,acs1_api_b05002
+2017,South Dakota,46,869666,29401,acs1_api_b05002
+2017,Tennessee,47,6715984,347754,acs1_api_b05002
+2017,Texas,48,28304596,4854140,acs1_api_b05002
+2017,Utah,49,3101833,269239,acs1_api_b05002
+2017,Vermont,50,623657,28083,acs1_api_b05002
+2017,Virginia,51,8470020,1062370,acs1_api_b05002
+2017,Washington,53,7405743,1060153,acs1_api_b05002
+2017,West Virginia,54,1815857,29954,acs1_api_b05002
+2017,Wisconsin,55,5795483,288052,acs1_api_b05002
+2017,Wyoming,56,579315,20520,acs1_api_b05002
+2017,Puerto Rico,72,3337177,91402,acs1_api_b05002
+2018,Alabama,01,4887871,162567,acs1_api_b05002
+2018,Alaska,02,737438,60784,acs1_api_b05002
+2018,Arizona,04,7171646,960275,acs1_api_b05002
+2018,Arkansas,05,3013825,143709,acs1_api_b05002
+2018,California,06,39557045,10625980,acs1_api_b05002
+2018,Colorado,08,5695564,549181,acs1_api_b05002
+2018,Connecticut,09,3572665,520262,acs1_api_b05002
+2018,Delaware,10,967171,91230,acs1_api_b05002
+2018,District of Columbia,11,702455,97846,acs1_api_b05002
+2018,Florida,12,21299325,4475431,acs1_api_b05002
+2018,Georgia,13,10519475,1064073,acs1_api_b05002
+2018,Hawaii,15,1420491,266147,acs1_api_b05002
+2018,Idaho,16,1754208,105228,acs1_api_b05002
+2018,Illinois,17,12741080,1791313,acs1_api_b05002
+2018,Indiana,18,6691878,354348,acs1_api_b05002
+2018,Iowa,19,3156145,175137,acs1_api_b05002
+2018,Kansas,20,2911510,209362,acs1_api_b05002
+2018,Kentucky,21,4468402,169346,acs1_api_b05002
+2018,Louisiana,22,4659978,195027,acs1_api_b05002
+2018,Maine,23,1338404,47418,acs1_api_b05002
+2018,Maryland,24,6042718,915191,acs1_api_b05002
+2018,Massachusetts,25,6902149,1198148,acs1_api_b05002
+2018,Michigan,26,9995915,695217,acs1_api_b05002
+2018,Minnesota,27,5611179,484192,acs1_api_b05002
+2018,Mississippi,28,2986530,70860,acs1_api_b05002
+2018,Missouri,29,6126452,258390,acs1_api_b05002
+2018,Montana,30,1062305,23366,acs1_api_b05002
+2018,Nebraska,31,1929268,138953,acs1_api_b05002
+2018,Nevada,32,3034392,587686,acs1_api_b05002
+2018,New Hampshire,33,1356458,83002,acs1_api_b05002
+2018,New Jersey,34,8908520,2033292,acs1_api_b05002
+2018,New Mexico,35,2095428,198522,acs1_api_b05002
+2018,New York,36,19542209,4447165,acs1_api_b05002
+2018,North Carolina,37,10383620,824177,acs1_api_b05002
+2018,North Dakota,38,760077,35824,acs1_api_b05002
+2018,Ohio,39,11689442,555583,acs1_api_b05002
+2018,Oklahoma,40,3943079,236882,acs1_api_b05002
+2018,Oregon,41,4190713,432410,acs1_api_b05002
+2018,Pennsylvania,42,12807060,922585,acs1_api_b05002
+2018,Rhode Island,44,1057315,139063,acs1_api_b05002
+2018,South Carolina,45,5084127,256765,acs1_api_b05002
+2018,South Dakota,46,882235,35175,acs1_api_b05002
+2018,Tennessee,47,6770010,348562,acs1_api_b05002
+2018,Texas,48,28701845,4928025,acs1_api_b05002
+2018,Utah,49,3161105,271222,acs1_api_b05002
+2018,Vermont,50,626299,30813,acs1_api_b05002
+2018,Virginia,51,8517685,1065076,acs1_api_b05002
+2018,Washington,53,7535591,1104850,acs1_api_b05002
+2018,West Virginia,54,1805832,27605,acs1_api_b05002
+2018,Wisconsin,55,5813568,297928,acs1_api_b05002
+2018,Wyoming,56,577737,17528,acs1_api_b05002
+2018,Puerto Rico,72,3195153,85348,acs1_api_b05002
+2019,Alabama,01,4903185,174952,acs1_api_b05002
+2019,Alaska,02,731545,58378,acs1_api_b05002
+2019,Arizona,04,7278717,976301,acs1_api_b05002
+2019,Arkansas,05,3017804,154286,acs1_api_b05002
+2019,California,06,39512223,10564220,acs1_api_b05002
+2019,Colorado,08,5758736,546889,acs1_api_b05002
+2019,Connecticut,09,3565287,528365,acs1_api_b05002
+2019,Delaware,10,973764,97270,acs1_api_b05002
+2019,District of Columbia,11,705749,85333,acs1_api_b05002
+2019,Florida,12,21477737,4526428,acs1_api_b05002
+2019,Georgia,13,10617423,1091880,acs1_api_b05002
+2019,Hawaii,15,1415872,273012,acs1_api_b05002
+2019,Idaho,16,1787065,103112,acs1_api_b05002
+2019,Illinois,17,12671821,1766492,acs1_api_b05002
+2019,Indiana,18,6732219,358598,acs1_api_b05002
+2019,Iowa,19,3155070,177769,acs1_api_b05002
+2019,Kansas,20,2913314,208900,acs1_api_b05002
+2019,Kentucky,21,4467673,196618,acs1_api_b05002
+2019,Louisiana,22,4648794,196575,acs1_api_b05002
+2019,Maine,23,1344212,52412,acs1_api_b05002
+2019,Maryland,24,6045680,929431,acs1_api_b05002
+2019,Massachusetts,25,6892503,1190192,acs1_api_b05002
+2019,Michigan,26,9986857,700925,acs1_api_b05002
+2019,Minnesota,27,5639632,472231,acs1_api_b05002
+2019,Mississippi,28,2976149,63917,acs1_api_b05002
+2019,Missouri,29,6137428,262047,acs1_api_b05002
+2019,Montana,30,1068778,25068,acs1_api_b05002
+2019,Nebraska,31,1934408,142468,acs1_api_b05002
+2019,Nevada,32,3080156,610652,acs1_api_b05002
+2019,New Hampshire,33,1359711,86906,acs1_api_b05002
+2019,New Jersey,34,8882190,2074686,acs1_api_b05002
+2019,New Mexico,35,2096829,201842,acs1_api_b05002
+2019,New York,36,19453561,4360291,acs1_api_b05002
+2019,North Carolina,37,10488084,884631,acs1_api_b05002
+2019,North Dakota,38,762062,31138,acs1_api_b05002
+2019,Ohio,39,11689100,558952,acs1_api_b05002
+2019,Oklahoma,40,3956971,240209,acs1_api_b05002
+2019,Oregon,41,4217737,410552,acs1_api_b05002
+2019,Pennsylvania,42,12801989,893167,acs1_api_b05002
+2019,Rhode Island,44,1059361,145074,acs1_api_b05002
+2019,South Carolina,45,5148714,288410,acs1_api_b05002
+2019,South Dakota,46,884659,36332,acs1_api_b05002
+2019,Tennessee,47,6829174,373472,acs1_api_b05002
+2019,Texas,48,28995881,4951156,acs1_api_b05002
+2019,Utah,49,3205958,274575,acs1_api_b05002
+2019,Vermont,50,623989,29374,acs1_api_b05002
+2019,Virginia,51,8535519,1083823,acs1_api_b05002
+2019,Washington,53,7614893,1132834,acs1_api_b05002
+2019,West Virginia,54,1792147,28748,acs1_api_b05002
+2019,Wisconsin,55,5822434,294239,acs1_api_b05002
+2019,Wyoming,56,578759,17769,acs1_api_b05002
+2019,Puerto Rico,72,3193694,87133,acs1_api_b05002
+2020,Alabama,01,4921532,173279,acs1_2020_experimental_xk200503
+2020,Alaska,02,731158,56965,acs1_2020_experimental_xk200503
+2020,Arizona,04,7421401,926231,acs1_2020_experimental_xk200503
+2020,Arkansas,05,3030522,145421,acs1_2020_experimental_xk200503
+2020,California,06,39368078,10314766,acs1_2020_experimental_xk200503
+2020,Colorado,08,5807719,518462,acs1_2020_experimental_xk200503
+2020,Connecticut,09,3557006,513767,acs1_2020_experimental_xk200503
+2020,Delaware,10,986809,83234,acs1_2020_experimental_xk200503
+2020,District of Columbia,11,712816,91316,acs1_2020_experimental_xk200503
+2020,Florida,12,21733312,4467957,acs1_2020_experimental_xk200503
+2020,Georgia,13,10710017,1085552,acs1_2020_experimental_xk200503
+2020,Hawaii,15,1407006,239186,acs1_2020_experimental_xk200503
+2020,Idaho,16,1826913,100945,acs1_2020_experimental_xk200503
+2020,Illinois,17,12587530,1720944,acs1_2020_experimental_xk200503
+2020,Indiana,18,6754953,359566,acs1_2020_experimental_xk200503
+2020,Iowa,19,3163561,164475,acs1_2020_experimental_xk200503
+2020,Kansas,20,2913804,189185,acs1_2020_experimental_xk200503
+2020,Kentucky,21,4477253,169367,acs1_2020_experimental_xk200503
+2020,Louisiana,22,4645319,175386,acs1_2020_experimental_xk200503
+2020,Maine,23,1350141,50713,acs1_2020_experimental_xk200503
+2020,Maryland,24,6055802,924847,acs1_2020_experimental_xk200503
+2020,Massachusetts,25,6893574,1168820,acs1_2020_experimental_xk200503
+2020,Michigan,26,9966559,661230,acs1_2020_experimental_xk200503
+2020,Minnesota,27,5657342,435116,acs1_2020_experimental_xk200503
+2020,Mississippi,28,2966785,61804,acs1_2020_experimental_xk200503
+2020,Missouri,29,6151548,238070,acs1_2020_experimental_xk200503
+2020,Montana,30,1080577,20411,acs1_2020_experimental_xk200503
+2020,Nebraska,31,1937551,146269,acs1_2020_experimental_xk200503
+2020,Nevada,32,3138259,592971,acs1_2020_experimental_xk200503
+2020,New Hampshire,33,1366275,80863,acs1_2020_experimental_xk200503
+2020,New Jersey,34,8882371,2025721,acs1_2020_experimental_xk200503
+2020,New Mexico,35,2106318,179246,acs1_2020_experimental_xk200503
+2020,New York,36,19336776,4258571,acs1_2020_experimental_xk200503
+2020,North Carolina,37,10600824,818964,acs1_2020_experimental_xk200503
+2020,North Dakota,38,765309,35043,acs1_2020_experimental_xk200503
+2020,Ohio,39,11693217,538063,acs1_2020_experimental_xk200503
+2020,Oklahoma,40,3980783,233425,acs1_2020_experimental_xk200503
+2020,Oregon,41,4241507,394155,acs1_2020_experimental_xk200503
+2020,Pennsylvania,42,12783253,881525,acs1_2020_experimental_xk200503
+2020,Rhode Island,44,1057125,153484,acs1_2020_experimental_xk200503
+2020,South Carolina,45,5218040,262017,acs1_2020_experimental_xk200503
+2020,South Dakota,46,892716,32869,acs1_2020_experimental_xk200503
+2020,Tennessee,47,6886833,329297,acs1_2020_experimental_xk200503
+2020,Texas,48,29360756,4727990,acs1_2020_experimental_xk200503
+2020,Utah,49,3249880,251536,acs1_2020_experimental_xk200503
+2020,Vermont,50,623347,26999,acs1_2020_experimental_xk200503
+2020,Virginia,51,8590562,1044862,acs1_2020_experimental_xk200503
+2020,Washington,53,7693612,1118072,acs1_2020_experimental_xk200503
+2020,West Virginia,54,1784786,28368,acs1_2020_experimental_xk200503
+2020,Wisconsin,55,5832655,276908,acs1_2020_experimental_xk200503
+2020,Wyoming,56,582327,22342,acs1_2020_experimental_xk200503
+2021,Alabama,01,5039877,176514,acs1_api_b05002
+2021,Alaska,02,732673,59061,acs1_api_b05002
+2021,Arizona,04,7276316,915934,acs1_api_b05002
+2021,Arkansas,05,3025891,142988,acs1_api_b05002
+2021,California,06,39237836,10451810,acs1_api_b05002
+2021,Colorado,08,5812069,570273,acs1_api_b05002
+2021,Connecticut,09,3605597,549441,acs1_api_b05002
+2021,Delaware,10,1003384,101260,acs1_api_b05002
+2021,District of Columbia,11,670050,89226,acs1_api_b05002
+2021,Florida,12,21781128,4608653,acs1_api_b05002
+2021,Georgia,13,10799566,1082965,acs1_api_b05002
+2021,Hawaii,15,1441553,270345,acs1_api_b05002
+2021,Idaho,16,1900923,115392,acs1_api_b05002
+2021,Illinois,17,12671469,1804562,acs1_api_b05002
+2021,Indiana,18,6805985,379407,acs1_api_b05002
+2021,Iowa,19,3193079,173021,acs1_api_b05002
+2021,Kansas,20,2934582,201911,acs1_api_b05002
+2021,Kentucky,21,4509394,182011,acs1_api_b05002
+2021,Louisiana,22,4624047,199915,acs1_api_b05002
+2021,Maine,23,1372247,56068,acs1_api_b05002
+2021,Maryland,24,6165129,979051,acs1_api_b05002
+2021,Massachusetts,25,6984723,1227488,acs1_api_b05002
+2021,Michigan,26,10050811,683293,acs1_api_b05002
+2021,Minnesota,27,5707390,487445,acs1_api_b05002
+2021,Mississippi,28,2949965,62859,acs1_api_b05002
+2021,Missouri,29,6168187,251238,acs1_api_b05002
+2021,Montana,30,1104271,24457,acs1_api_b05002
+2021,Nebraska,31,1963692,144444,acs1_api_b05002
+2021,Nevada,32,3143991,579692,acs1_api_b05002
+2021,New Hampshire,33,1388992,82127,acs1_api_b05002
+2021,New Jersey,34,9267130,2134981,acs1_api_b05002
+2021,New Mexico,35,2115877,192634,acs1_api_b05002
+2021,New York,36,19835913,4427356,acs1_api_b05002
+2021,North Carolina,37,10551162,869786,acs1_api_b05002
+2021,North Dakota,38,774948,33824,acs1_api_b05002
+2021,Ohio,39,11780017,584839,acs1_api_b05002
+2021,Oklahoma,40,3986639,230620,acs1_api_b05002
+2021,Oregon,41,4246155,412396,acs1_api_b05002
+2021,Pennsylvania,42,12964056,938636,acs1_api_b05002
+2021,Rhode Island,44,1095610,159304,acs1_api_b05002
+2021,South Carolina,45,5190705,271280,acs1_api_b05002
+2021,South Dakota,46,895376,30983,acs1_api_b05002
+2021,Tennessee,47,6975218,370765,acs1_api_b05002
+2021,Texas,48,29527941,5092132,acs1_api_b05002
+2021,Utah,49,3337975,278336,acs1_api_b05002
+2021,Vermont,50,645570,27203,acs1_api_b05002
+2021,Virginia,51,8642274,1070347,acs1_api_b05002
+2021,Washington,53,7738692,1143311,acs1_api_b05002
+2021,West Virginia,54,1782959,27861,acs1_api_b05002
+2021,Wisconsin,55,5895908,300760,acs1_api_b05002
+2021,Wyoming,56,578803,19898,acs1_api_b05002
+2021,Puerto Rico,72,3263584,87638,acs1_api_b05002
+2022,Alabama,01,5074296,191234,acs1_api_b05002
+2022,Alaska,02,733583,55072,acs1_api_b05002
+2022,Arizona,04,7359197,962688,acs1_api_b05002
+2022,Arkansas,05,3045637,156073,acs1_api_b05002
+2022,California,06,39029342,10428025,acs1_api_b05002
+2022,Colorado,08,5839926,557528,acs1_api_b05002
+2022,Connecticut,09,3626205,568311,acs1_api_b05002
+2022,Delaware,10,1018396,101110,acs1_api_b05002
+2022,District of Columbia,11,671803,99898,acs1_api_b05002
+2022,Florida,12,22244823,4817273,acs1_api_b05002
+2022,Georgia,13,10912876,1168022,acs1_api_b05002
+2022,Hawaii,15,1440196,246683,acs1_api_b05002
+2022,Idaho,16,1939033,115978,acs1_api_b05002
+2022,Illinois,17,12582032,1810100,acs1_api_b05002
+2022,Indiana,18,6833037,414526,acs1_api_b05002
+2022,Iowa,19,3200517,190727,acs1_api_b05002
+2022,Kansas,20,2937150,207583,acs1_api_b05002
+2022,Kentucky,21,4512310,180899,acs1_api_b05002
+2022,Louisiana,22,4590241,192895,acs1_api_b05002
+2022,Maine,23,1385340,56419,acs1_api_b05002
+2022,Maryland,24,6164660,1029710,acs1_api_b05002
+2022,Massachusetts,25,6981974,1259871,acs1_api_b05002
+2022,Michigan,26,10034118,695203,acs1_api_b05002
+2022,Minnesota,27,5717184,498826,acs1_api_b05002
+2022,Mississippi,28,2940057,65448,acs1_api_b05002
+2022,Missouri,29,6177957,252575,acs1_api_b05002
+2022,Montana,30,1122867,26276,acs1_api_b05002
+2022,Nebraska,31,1967923,142569,acs1_api_b05002
+2022,Nevada,32,3177772,600957,acs1_api_b05002
+2022,New Hampshire,33,1395231,86751,acs1_api_b05002
+2022,New Jersey,34,9261699,2181082,acs1_api_b05002
+2022,New Mexico,35,2113344,196873,acs1_api_b05002
+2022,New York,36,19677151,4459752,acs1_api_b05002
+2022,North Carolina,37,10698973,916787,acs1_api_b05002
+2022,North Dakota,38,779261,38355,acs1_api_b05002
+2022,Ohio,39,11756058,585938,acs1_api_b05002
+2022,Oklahoma,40,4019800,242754,acs1_api_b05002
+2022,Oregon,41,4240137,420943,acs1_api_b05002
+2022,Pennsylvania,42,12972008,978173,acs1_api_b05002
+2022,Rhode Island,44,1093734,157594,acs1_api_b05002
+2022,South Carolina,45,5282634,273375,acs1_api_b05002
+2022,South Dakota,46,909824,31657,acs1_api_b05002
+2022,Tennessee,47,7051339,392453,acs1_api_b05002
+2022,Texas,48,30029572,5169126,acs1_api_b05002
+2022,Utah,49,3380800,292299,acs1_api_b05002
+2022,Vermont,50,647064,27454,acs1_api_b05002
+2022,Virginia,51,8683619,1105028,acs1_api_b05002
+2022,Washington,53,7785786,1188392,acs1_api_b05002
+2022,West Virginia,54,1775156,32309,acs1_api_b05002
+2022,Wisconsin,55,5892539,294741,acs1_api_b05002
+2022,Wyoming,56,581381,17862,acs1_api_b05002
+2022,Puerto Rico,72,3221789,84177,acs1_api_b05002
+2023,Alabama,01,5108468,203143,acs1_api_b05002
+2023,Alaska,02,733406,54571,acs1_api_b05002
+2023,Arizona,04,7431344,980927,acs1_api_b05002
+2023,Arkansas,05,3067732,162340,acs1_api_b05002
+2023,California,06,38965193,10640017,acs1_api_b05002
+2023,Colorado,08,5877610,563101,acs1_api_b05002
+2023,Connecticut,09,3617176,590608,acs1_api_b05002
+2023,Delaware,10,1031890,115129,acs1_api_b05002
+2023,District of Columbia,11,678972,95435,acs1_api_b05002
+2023,Florida,12,22610726,4996874,acs1_api_b05002
+2023,Georgia,13,11029227,1274462,acs1_api_b05002
+2023,Hawaii,15,1435138,255755,acs1_api_b05002
+2023,Idaho,16,1964726,112009,acs1_api_b05002
+2023,Illinois,17,12549689,1878890,acs1_api_b05002
+2023,Indiana,18,6862199,432652,acs1_api_b05002
+2023,Iowa,19,3207004,188605,acs1_api_b05002
+2023,Kansas,20,2940547,207421,acs1_api_b05002
+2023,Kentucky,21,4526154,201672,acs1_api_b05002
+2023,Louisiana,22,4573749,222672,acs1_api_b05002
+2023,Maine,23,1395722,53448,acs1_api_b05002
+2023,Maryland,24,6180253,1051891,acs1_api_b05002
+2023,Massachusetts,25,7001399,1263580,acs1_api_b05002
+2023,Michigan,26,10037261,737552,acs1_api_b05002
+2023,Minnesota,27,5737915,495352,acs1_api_b05002
+2023,Mississippi,28,2939690,75165,acs1_api_b05002
+2023,Missouri,29,6196156,296832,acs1_api_b05002
+2023,Montana,30,1132812,24623,acs1_api_b05002
+2023,Nebraska,31,1978379,152341,acs1_api_b05002
+2023,Nevada,32,3194176,614779,acs1_api_b05002
+2023,New Hampshire,33,1402054,94873,acs1_api_b05002
+2023,New Jersey,34,9290841,2250431,acs1_api_b05002
+2023,New Mexico,35,2114371,215697,acs1_api_b05002
+2023,New York,36,19571216,4517996,acs1_api_b05002
+2023,North Carolina,37,10835491,995127,acs1_api_b05002
+2023,North Dakota,38,783926,31096,acs1_api_b05002
+2023,Ohio,39,11785935,621863,acs1_api_b05002
+2023,Oklahoma,40,4053824,247828,acs1_api_b05002
+2023,Oregon,41,4233358,406692,acs1_api_b05002
+2023,Pennsylvania,42,12961683,1031320,acs1_api_b05002
+2023,Rhode Island,44,1095962,161196,acs1_api_b05002
+2023,South Carolina,45,5373555,316438,acs1_api_b05002
+2023,South Dakota,46,919318,39943,acs1_api_b05002
+2023,Tennessee,47,7126489,432020,acs1_api_b05002
+2023,Texas,48,30503301,5455292,acs1_api_b05002
+2023,Utah,49,3417734,303784,acs1_api_b05002
+2023,Vermont,50,647464,29047,acs1_api_b05002
+2023,Virginia,51,8715698,1163486,acs1_api_b05002
+2023,Washington,53,7812880,1213933,acs1_api_b05002
+2023,West Virginia,54,1770071,32326,acs1_api_b05002
+2023,Wisconsin,55,5910955,307899,acs1_api_b05002
+2023,Wyoming,56,584057,21278,acs1_api_b05002
+2023,Puerto Rico,72,3205691,84172,acs1_api_b05002
+2024,Alabama,01,5157699,230850,acs1_api_b05002
+2024,Alaska,02,740133,56836,acs1_api_b05002
+2024,Arizona,04,7582384,1017951,acs1_api_b05002
+2024,Arkansas,05,3088354,180109,acs1_api_b05002
+2024,California,06,39431263,10902022,acs1_api_b05002
+2024,Colorado,08,5957494,628683,acs1_api_b05002
+2024,Connecticut,09,3675069,584170,acs1_api_b05002
+2024,Delaware,10,1051917,121583,acs1_api_b05002
+2024,District of Columbia,11,702250,108542,acs1_api_b05002
+2024,Florida,12,23372215,5392412,acs1_api_b05002
+2024,Georgia,13,11180878,1333177,acs1_api_b05002
+2024,Hawaii,15,1446146,268845,acs1_api_b05002
+2024,Idaho,16,2001619,126009,acs1_api_b05002
+2024,Illinois,17,12710158,1957482,acs1_api_b05002
+2024,Indiana,18,6924275,487371,acs1_api_b05002
+2024,Iowa,19,3241488,203549,acs1_api_b05002
+2024,Kansas,20,2970606,232485,acs1_api_b05002
+2024,Kentucky,21,4588372,238231,acs1_api_b05002
+2024,Louisiana,22,4597740,239225,acs1_api_b05002
+2024,Maine,23,1405012,65815,acs1_api_b05002
+2024,Maryland,24,6263220,1070852,acs1_api_b05002
+2024,Massachusetts,25,7136171,1337811,acs1_api_b05002
+2024,Michigan,26,10140459,778787,acs1_api_b05002
+2024,Minnesota,27,5793151,523549,acs1_api_b05002
+2024,Mississippi,28,2943045,79645,acs1_api_b05002
+2024,Missouri,29,6245466,308514,acs1_api_b05002
+2024,Montana,30,1137233,24386,acs1_api_b05002
+2024,Nebraska,31,2005466,180857,acs1_api_b05002
+2024,Nevada,32,3267467,649711,acs1_api_b05002
+2024,New Hampshire,33,1409032,83815,acs1_api_b05002
+2024,New Jersey,34,9500851,2376424,acs1_api_b05002
+2024,New Mexico,35,2130256,212830,acs1_api_b05002
+2024,New York,36,19867248,4621382,acs1_api_b05002
+2024,North Carolina,37,11046024,1093166,acs1_api_b05002
+2024,North Dakota,38,796568,41910,acs1_api_b05002
+2024,Ohio,39,11883304,654793,acs1_api_b05002
+2024,Oklahoma,40,4095393,271938,acs1_api_b05002
+2024,Oregon,41,4272371,429125,acs1_api_b05002
+2024,Pennsylvania,42,13078751,1090675,acs1_api_b05002
+2024,Rhode Island,44,1112308,174869,acs1_api_b05002
+2024,South Carolina,45,5478831,351009,acs1_api_b05002
+2024,South Dakota,46,924669,38359,acs1_api_b05002
+2024,Tennessee,47,7227750,472751,acs1_api_b05002
+2024,Texas,48,31290831,5762477,acs1_api_b05002
+2024,Utah,49,3503613,341716,acs1_api_b05002
+2024,Vermont,50,648493,29028,acs1_api_b05002
+2024,Virginia,51,8811195,1193581,acs1_api_b05002
+2024,Washington,53,7958180,1280809,acs1_api_b05002
+2024,West Virginia,54,1769979,37253,acs1_api_b05002
+2024,Wisconsin,55,5960975,327033,acs1_api_b05002
+2024,Wyoming,56,587618,20456,acs1_api_b05002
+2024,Puerto Rico,72,3203295,86836,acs1_api_b05002

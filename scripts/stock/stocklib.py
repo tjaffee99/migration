@@ -42,7 +42,7 @@ RESIDUAL_RE = re.compile(
     r'(n\.e\.c\.|n\.e\.c$|\bnec\b|^Other\b|^Other$|not reported|not specified|Not reported|'
     r'Born at sea|excl\. Atlantic Islands|^Atlantic Islands|West Indies n\.e\.c|'
     r'^Region or country not reported|\(derived\)|Country not specified|Europe, n\.e\.c|'
-    r'Asia,n\.e\.c|^Middle East n\.e\.c|not tabulated)', re.I)
+    r'Asia,n\.e\.c|^Middle East n\.e\.c|not tabulated|^West Indies$)', re.I)
 
 
 def is_residual_label(label):
@@ -209,6 +209,39 @@ def finalize_tree(root, key, source_id, derived_source_id=None, warn=None,
         out.append(dict(origin_label='Total, origin not specified (derived)', level='residual',
                         parent_label=root.label, count=gap, source_id=derived_source_id))
     return out
+
+
+def tree_rows(labels, est, moe, source_id, rename=None, warn=None):
+    """labels: {n: path}; est/moe: {n: value}.  Returns finalized rows with moe."""
+    items = []
+    for n, path in sorted(labels.items()):
+        if n == 1:
+            continue
+        items.append((path, 'v', est.get(n)))
+    root, index = build_tree_from_paths(items)
+    root.values['v'] = est.get(1)
+    node_moe = {id(root): moe.get(1) if moe else None}
+    for n, path in labels.items():
+        if path:
+            node_moe[id(index[tuple(path)])] = moe.get(n) if moe else None
+    # disambiguate labels equal to their parent's, and region-vs-country 'Micronesia'
+    for node in list(root.walk()):
+        if node.parent is not None and node.label == node.parent.label:
+            node.label = node.label + ', n.e.c.'
+        if node.label == 'Micronesia' and node.parent is not None and \
+                any(s.label == 'Melanesia' for s in node.parent.children):
+            node.label = 'Micronesia (region)'
+        if rename and node.label in rename:
+            node.label = rename[node.label]
+    lab_moe = {}
+    for node in root.walk():
+        lab_moe.setdefault(node.label, node_moe.get(id(node)))
+    rr = finalize_tree(root, 'v', source_id, warn=warn)
+    for r in rr:
+        m = None if r['source_id'].endswith('_derived') else lab_moe.get(r['origin_label'])
+        r['moe'] = '' if m is None else m
+    return rr
+
 
 
 def check_partition(rows):

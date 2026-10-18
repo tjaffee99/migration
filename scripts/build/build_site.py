@@ -27,6 +27,7 @@ def load(p):
 KEY_OVERRIDES = {
     "Plymouth": "plymouth",
     "New Haven": None,  # counted with Connecticut in HSUS
+    "Dakota Territory": "dakota",  # censuses 1860-1880 report the territory as one unit
 }
 
 

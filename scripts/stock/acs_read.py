@@ -108,6 +108,8 @@ def load_sf_table(year, table):
                     for i in range(n):
                         rec[kind][i + 1] = to_int(cells[off - 1 + i])
                     break
+        if 'stusab' not in rec:
+            continue   # empty file (e.g. Puerto Rico, which uses the B05002PR/B05006PR tables)
         geo = glob.glob(os.path.join(dd, '*.head'))
         rec['geo'] = _geo_first_record(geo[0], year) if geo else None
         out[d] = rec
@@ -147,3 +149,41 @@ def load_sf_lookup_titles(year, table):
             if ln > 0 and 'CELL' not in str(row[5]).upper():
                 titles[ln] = str(row[7]).strip().rstrip(':').strip()
     return titles
+
+
+SF_MULTI = {  # job: (sequence, offset among data cells (1-based), n cells, groups json, period label)
+    '2007_3yr': (25, 1, 123, 'groups_acs3_2007_B05006.json', 'acs3_2005_2007_sf_b05006'),
+    '2008_3yr': (25, 1, 123, 'groups_acs3_2008_B05006.json', 'acs3_2006_2008_sf_b05006'),
+    '2009_5yr': (18, 66 - 6, 161, 'groups_acs5_2009_B05006.json', 'acs5_2005_2009_sf_b05006'),
+}
+
+
+def load_sf_multi(job):
+    """B05006 from the multi-year summary files fetched by fetch_acs_sf_multiyear.py.
+    Returns ({stusab: {'E','M','geo'}}, labels, source_id)."""
+    seq, off, n, gj, sid = SF_MULTI[job]
+    base = os.path.join(RAW, 'acs_sf_2005_2009', job)
+    out = {}
+    for d in sorted(os.listdir(base)):
+        dd = os.path.join(base, d)
+        zips = [z for z in os.listdir(dd) if z.endswith('%04d000.zip' % seq)]
+        if not zips:
+            continue
+        z = zipfile.ZipFile(os.path.join(dd, zips[0]))
+        rec = {'E': {}, 'M': {}}
+        for kind in ('E', 'M'):
+            fn = [x for x in z.namelist() if os.path.basename(x).startswith(kind.lower())][0]
+            for row in csv.reader(io.StringIO(z.read(fn).decode('latin-1'))):
+                if row[5] == '0000001':
+                    rec['stusab'] = row[2].upper()
+                    cells = row[6:]
+                    for i in range(n):
+                        rec[kind][i + 1] = to_int(cells[off - 1 + i])
+                    break
+        if 'stusab' not in rec:
+            continue
+        geo = glob.glob(os.path.join(dd, '*.head'))
+        rec['geo'] = _geo_first_record(geo[0], 0) if geo else None
+        out[rec['stusab']] = rec
+    labels = load_groups(os.path.join(RAW, 'acs_sf_2005_2009', gj), 'B05006')
+    return out, labels, sid

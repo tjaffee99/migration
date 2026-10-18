@@ -57,3 +57,11 @@ for y in 2005 2006 2007 2008 2009; do for t in B05006 B05002; do
   meta "https://api.census.gov/data/$y/acs/acs1/groups/$t.json" "$D/groups_acs1_${y}_${t}.json"
 done; done
 echo done
+# ACS 5-year B05006 for states: used only for state-years whose 1-year B05006 is filtered
+# (suppressed) for reliability -- ~20-25 smaller states every year.
+D="$ROOT/data/raw/acs5_api"; mkdir -p "$D"
+for y in 2009 2010 2011 2012 2013 2014 2015 2016 2017 2018 2019 2020 2021 2022 2023 2024; do
+  get "ACSDT5Y$y.B05006" '010XX00US$0400000' "$D/ACSDT5Y${y}_B05006_states.json"
+  meta "https://api.census.gov/data/$y/acs/acs5/groups/B05006.json" "$D/groups_acs5_${y}_B05006.json"
+done
+echo done5

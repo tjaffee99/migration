@@ -283,7 +283,7 @@
         if (jd.fb != null && jd.pop) {
           fill = shareC(jd.fb / jd.pop);
           const top = topOrigins(jd.st, y, 1);
-          label = top ? originById[top[0].id].short || originById[top[0].id].name : pct(jd.fb / jd.pop, 0);
+          label = top ? originById[top[0].id].short || originById[top[0].id].name : jd.fb / jd.pop < 0.005 ? "<1%" : pct(jd.fb / jd.pop, 0);
         }
       } else if (mode === "pop") {
         if (jd.pop != null) { fill = popC(jd.pop); label = compact(jd.pop); }
@@ -443,7 +443,7 @@
     const p = r.f.properties;
     showTip(evt, (t) => {
       t.append(el("h4", null, p.name));
-      const typeLabel = { colony: "Colony", state: "State", territory: "Territory", district: "District", unorganized: "Unorganized territory", other: "Not under US or British colonial jurisdiction", foreign: "Not yet part of the US" }[p.type] || p.type;
+      const typeLabel = { colony: "Colony", state: "State", territory: "Territory", district: "District", unorganized: "Unorganized territory", other: "Not part of the US or its colonies at this date", foreign: "Not yet part of the US" }[p.type] || p.type;
       t.append(el("div", "note", typeLabel + (p.owner ? " · " + p.owner : "")));
       const jd = r.jd;
       if (jd.pop != null) tipRow(t, null, jd.popEst ? "Population (interpolated)" : "Population", (jd.popEst || (y >= STOCK_FIRST && !jd.fbExact) ? "≈" : "") + fmtInt(Math.round(jd.pop)));
@@ -479,7 +479,8 @@
     pill.className = "pill " + bi.cls;
     pill.lastChild.textContent = bi.label;
     pill.title = bi.long || "";
-    const est = bi.cls !== "official";
+    const est = bi.cls === "estimate"; // the total itself is an estimate
+    const split = bi.cls !== "official"; // per-origin values are estimated splits
     $("flow-total").textContent = F.total == null ? "—" : (est ? "≈" : "") + fmtInt(est ? roundEst(F.total) : F.total);
     $("flow-unit").textContent = F.total === 1 ? "person arrived" : "people arrived";
 
@@ -501,7 +502,8 @@
       const row = el("div");
       const b = el("b");
       b.style.background = groupColor[g.id];
-      row.append(b, el("span", "gname", g.name), el("span", "gval", v > 0 ? pct(v / tot, 0) : "–"));
+      row.append(b, el("span", "gname", g.short || g.name), el("span", "gval", v > 0 ? (v / tot < 0.005 ? "<1%" : pct(v / tot, 0)) : "–"));
+      row.title = g.name;
       row.style.opacity = v > 0 ? 1 : 0.45;
       gl.append(row);
     }
@@ -532,7 +534,7 @@
       const key = el("span", "key");
       key.style.background = groupColor[o.group];
       const vl = el("span", "vl");
-      vl.append(document.createTextNode(d.v ? (est ? "≈" : "") + fmtInt(est ? roundEst(d.v) : Math.round(d.v)) : "–"));
+      vl.append(document.createTextNode(d.v ? (split ? "≈" : "") + fmtInt(split ? roundEst(d.v) : Math.round(d.v)) : "–"));
       if (d.v && F.total) vl.append(el("small", null, pct(d.v / F.total, d.v / F.total < 0.01 ? 1 : 0)));
       const barEl = el("span", "bar");
       const bi2 = el("i");
@@ -674,7 +676,7 @@
       gEra.append("rect").attr("x", x0).attr("y", 4).attr("width", Math.max(0, x1 - x0 - 2)).attr("height", 4).attr("rx", 2)
         .attr("fill", r.cls === "official" ? css("--ink-2") : "none").attr("stroke", css("--ink-2")).attr("stroke-width", r.cls === "official" ? 0 : 1)
         .attr("stroke-dasharray", null);
-      if (x1 - x0 > 90) gEra.append("text").attr("x", x0).attr("y", 20).text(r.label);
+      if (r.label && r.label.length * 6.2 < x1 - x0 - 4) gEra.append("text").attr("x", x0).attr("y", 20).text(r.label);
     }
     // events
     gEv.selectAll("*").remove();
@@ -874,7 +876,7 @@
     $("year").textContent = y;
     const F = flowsAt(y);
     const bi = basisInfo(F.basis);
-    const est = bi.cls !== "official";
+    const est = bi.cls === "estimate";
     const lede = $("lede");
     lede.replaceChildren();
     if (F.total) {
@@ -938,7 +940,11 @@
     const ul = el("ul");
     for (const c of D.about.caveats) ul.append(el("li", null, c));
     box.append(ul);
-    box.append(el("h2", null, "Sources"));
+    const det = el("details");
+    const sum = el("summary");
+    sum.append(el("h2", null, `Sources (${D.sources.length})`));
+    det.append(sum);
+    box.append(det);
     const ul2 = el("ul");
     for (const s of D.sources) {
       const li = el("li");
@@ -952,7 +958,7 @@
       }
       ul2.append(li);
     }
-    box.append(ul2);
+    det.append(ul2);
   }
 
   // ---------- controls ----------
